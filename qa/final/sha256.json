@@ -1,0 +1,15 @@
+{
+  "src/scene.js": "6e5c5d48c362b61f4203937d3e195913aa6ddd760661e25c4b240bb948d4518f",
+  "src/main.js": "a03b03b037970cdf5bb15a649f0c9665a544f3185187092cb7d81267e7caf6a7",
+  "index.html": "42fd6bcbd5988d128f08dd618d0b972b2784f329edec4170c1a5b4dc2b8ac251",
+  "scripts/browser-qa.mjs": "f1314f752939cb7499bb9fa8e6e9fd216474b63ad0ec7f0012a221001a7b020f",
+  "public/still-320.webp": "f4f6a03f362f19b413478d4585c586e77787387206059d4e5f811cca13c1aa5f",
+  "public/still-desktop.webp": "5c6a9b8d662df8f23974965eae7d5b15b017e82c256307bfd9ff9a646dceb8f5",
+  "public/still-landscape.webp": "78c9fd283fd4ebbbbdaf867c071271e4d50af703c56c31fea1a4acda54a876e2",
+  "public/still-mobile.webp": "5d7c48d52095a9ae0e2ef5c73b08980b8641550fe12731fe32668cd88928b295",
+  "qa/final/context-lost.png": "6f2d1f5cd8fe2045e02b4629857e3ca4bcf0bbe1853d4225cf6c2cbf577c4427",
+  "qa/final/desktop.png": "a4f77ea1a9048e5b5dab5e97bfb64c8b9813185d313dd6c6d93bea4fa4d7b22c",
+  "qa/final/landscape.png": "222e5c109250f9e7e0ba7131125b71493a80176de06e2f9dd5b6b6a00d931c9e",
+  "qa/final/mobile-320.png": "8073ef0d11b251789a95fe37d0e32d1380740571accc912ec19635611c708114",
+  "qa/final/mobile-390.png": "47357dafbb4e1d87613ab89f2c311b63ca08f74b08e6888e34efcf34a1a924cd"
+}
