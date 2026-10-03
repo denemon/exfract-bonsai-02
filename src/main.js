@@ -48,7 +48,7 @@ try{
  renderer.info.autoReset=false;renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.shadowMap.autoUpdate=false;
  garden=createGarden();camera=new THREE.PerspectiveCamera(42,1,.1,50);
  composer=new EffectComposer(renderer);composer.addPass(new RenderPass(garden.scene,camera));
- const ao=new GTAOPass(garden.scene,camera,innerWidth,innerHeight);ao.blendIntensity=.62;ao.updateGtaoMaterial({radius:.23,distanceExponent:1.8,thickness:.6});composer.addPass(ao);composer.addPass(new OutputPass());composer.addPass(new SMAAPass());
+ const ao=new GTAOPass(garden.scene,camera,innerWidth,innerHeight);ao.blendIntensity=.55;ao.updateGtaoMaterial({radius:.15,distanceExponent:1.8,thickness:.4});composer.addPass(ao);composer.addPass(new OutputPass());composer.addPass(new SMAAPass());
  window.__garden={stats,scene:garden.scene,camera,renderer,composer,bounds:garden.bounds,render:()=>render(performance.now(),true)};
  canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();lost=true;if(frame)cancelAnimationFrame(frame);frame=0;fallback();});
  canvas.addEventListener('webglcontextrestored',()=>{lost=false;renderer.shadowMap.needsUpdate=true;resume();});
