@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { mergeGeometries, mergeVertices } from 'three/addons/utils/BufferGeometryUtils.js';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 
 // All scene dimensions are metres. A seeded composition makes live and still views identical.
 export function createGarden(){
@@ -34,12 +35,14 @@ export function createGarden(){
  const mat=(color,roughness=1,extra={})=>new THREE.MeshStandardMaterial({color,roughness,metalness:0,...extra});
  function textured(color,kind,repeat,bump){const t=texture(kind).clone();t.needsUpdate=true;t.repeat.set(...repeat);return mat(color,1,{map:t,bumpMap:t,bumpScale:bump});}
  const m={dead:textured('#86725d','dead',[1,2],.008),bark:textured('#714b36','wood',[1,2],.008),
-  stone:textured('#8b8b7b','stone',[2,2],.006),gravel:textured('#b5b0a0','gravel',[24,24],.008),
+  stone:textured('#8b8b7b','stone',[2,2],.006),gravel:textured('#a3a092','gravel',[24,24],.006),
   moss:textured('#4c6036','moss',[4,4],.005),timber:textured('#655848','wood',[3,1],.003),
   cedar:textured('#665542','wood',[2,1],.007),plaster:textured('#d2c7ac','plaster',[4,4],.012),
   ceramic:textured('#897366','stone',[3,2],.002),soil:textured('#514533','soil',[4,4],.005),
   dark:mat('#292d24'),paper:textured('#ccbb94','plaster',[4,4],.003)};
- const subject=new THREE.Group();subject.name='bonsai';scene.add(subject);
+ const subject=new THREE.Group();subject.name='bonsai';subject.scale.setScalar(.62);scene.add(subject);
+ // One physical scale: the complete specimen is 1.78m high; the pot is 1.15m wide.
+ // Architecture remains life size and sits beyond the garden, rather than sharing its scale.
  const foliageGroups=[];
  function mesh(geometry,material,parent=scene){const o=new THREE.Mesh(geometry,material);o.castShadow=o.receiveShadow=true;parent.add(o);return o;}
  function box(pos,scale,material,parent=scene){const o=mesh(new THREE.BoxGeometry(...scale),material,parent);o.position.set(...pos);return o;}
@@ -62,7 +65,7 @@ export function createGarden(){
  }
  // The base is deliberately low, with its lower course embedded in gravel.
  box([0,.075,0],[2.03,.17,1.23],m.stone,subject);
- const slab=box([0,.195,0],[2.28,.16,1.43],m.stone,subject);slab.rotation.y=.04;
+ const slab=mesh(new RoundedBoxGeometry(2.28,.16,1.43,3,.035),m.stone,subject);slab.position.set(0,.195,0);slab.rotation.y=.04;
  // Shallow rectangular unglazed ceramic, with gently softened corners and a rolled lip.
  function ovalRing(y,rx,rz,radius,material){const g=new THREE.TorusGeometry(1,radius,8,100);g.rotateX(Math.PI/2);g.scale(rx,1,rz);const o=mesh(g,material,subject);o.position.y=y;return o;}
  function roundedRectRing(rx,rz,y){const out=[];for(let i=0;i<96;i++){const a=i/96*Math.PI*2,co=Math.cos(a),si=Math.sin(a);out.push(new THREE.Vector3(rx*Math.sign(co)*Math.pow(Math.abs(co),.21),y,rz*Math.sign(si)*Math.pow(Math.abs(si),.21)))}return out;}
@@ -137,7 +140,7 @@ export function createGarden(){
  const foliage=mesh(shoots,shootMaterial,subject);foliage.name='fine-foliage';foliageGroups.push(foliage);
  // Irregular soil-to-moss islands, including a thin sparse transition into gravel.
  const ground=mesh(new THREE.PlaneGeometry(26,26),m.gravel);ground.rotation.x=-Math.PI/2;ground.position.y=-.025;
- const islands=[[-3.0,-.9,2.45,1.7],[-2.7,-3.1,3.5,1.6],[3.05,1.85,1.5,.83],[4.7,-.6,1.4,1.8]];
+ const islands=[[-1.9,-.85,1.38,1.0],[-1.1,-3.3,3.9,1.55],[1.8,1.80,1.05,.78],[3.9,-1.0,1.9,2.0]];
  function mossHeight(x,z){let h=-.05;for(const [cx,cz,rx,rz]of islands){const d=Math.hypot((x-cx)/rx,(z-cz)/rz);const a=Math.atan2(z-cz,x-cx);const edge=1+.09*Math.sin(a*5+cx)+.065*Math.sin(a*9);if(d<edge)h=Math.max(h,.022+.12*Math.pow(1-d/edge,1.5));}return h;}
  for(const [cx,cz,rx,rz]of islands){
   const p=[],uv=[],idx=[],colors=[],rings=22,sides=120;
@@ -150,12 +153,13 @@ export function createGarden(){
  }
  const dummy=new THREE.Object3D();
  // A restrained three-stone grouping, embedded rather than perched on the ground.
- stone([-2.0,.29,-.45],[.64,.45,.50],.4);stone([-2.62,.16,.00],[.38,.28,.41],-1.2);stone([-1.94,.12,.32],[.31,.22,.24],1.2);
- stone([3.1,.28,1.89],[.74,.40,.53],.7);stone([3.58,.08,1.46],[.29,.16,.30],-.5);
+ stone([-1.42,.20,-.72],[.46,.34,.39],.4);stone([-1.92,.08,-.39],[.28,.20,.32],-1.2);stone([-1.35,.075,-.17],[.22,.16,.20],1.2);
+ stone([1.7,.12,1.80],[.44,.25,.35],.7);stone([2.20,.035,1.65],[.19,.11,.16],-.5);
  // Sparse living moss tufts break the boundary without a manufactured lawn edge.
  const tufts=new THREE.InstancedMesh(new THREE.ConeGeometry(.006,.014,4),mat('#52653a'),4200);
  for(let i=0;i<4200;i++){const isl=islands[i%islands.length],a=rr(0,Math.PI*2),r=Math.sqrt(rand())*.96,x=isl[0]+Math.cos(a)*isl[2]*r,z=isl[1]+Math.sin(a)*isl[3]*r;dummy.position.set(x,Math.max(.024,mossHeight(x,z))+.01,z);dummy.scale.setScalar(rr(.4,1.2));dummy.rotation.set(rr(-.3,.3),rr(0,6),rr(-.3,.3));dummy.updateMatrix();tufts.setMatrixAt(i,dummy.matrix)}tufts.receiveShadow=true;scene.add(tufts);
  // Engawa: deck boards, foundation, deep openings, posts, double beams and layered eaves.
+ const archStart=scene.children.length;
  box([1.55,.19,-4.48],[10.0,.38,2.15],m.stone);
  for(let i=0;i<48;i++)box([-3.35+i*.208,.425,-4.45],[.199,.065,2.2],i%5===0?m.cedar:m.timber);
  box([1.55,.33,-3.33],[10.1,.27,.12],m.timber);
@@ -187,6 +191,32 @@ export function createGarden(){
  box([1.48,3.33,-4.40],[11.4,.17,3.25],m.timber);box([1.48,3.47,-4.42],[11.6,.12,3.43],mat('#555750'));
  for(let i=0;i<30;i++)box([-4.0+i*.38,3.25,-4.18],[.054,.14,2.8],m.cedar);
  box([6.7,1.75,-4.4],[.30,3.15,2.0],m.plaster);
+ const architecture=new THREE.Group();architecture.name='ryokan';
+ for(const piece of [...scene.children].slice(archStart))architecture.add(piece);
+ architecture.position.set(1.8,0,-1.4);architecture.rotation.y=-.07;scene.add(architecture);
+ // A lower return wing gives the portrait view the same architectural depth as the wide view.
+ const wingStart=scene.children.length;
+ box([-4.72,.15,-1.15],[1.55,.30,6.55],m.stone);
+ for(let i=0;i<35;i++)box([-4.62,.345,-4.30+i*.184],[1.74,.06,.176],i%6===0?m.cedar:m.timber);
+ box([-3.75,.275,-1.15],[.10,.20,6.63],m.timber);
+ box([-5.27,1.49,-1.15],[.18,2.31,6.6],m.plaster);
+ for(const z of [-3.25,-1.05,1.15]){
+  box([-5.12,1.40,z],[.035,1.85,1.97],m.paper);
+  for(const y of [.50,.80,1.12,1.44,1.76,2.07,2.32])box([-5.085,y,z],[.04,.021,2.03],m.timber);
+  for(let k=0;k<7;k++)box([-5.07,1.41,z-.91+k*.303],[.04,1.88,.014],m.timber);
+ }
+ for(const z of [-4.35,-2.15,.05,2.05]){
+  box([-3.92,1.51,z],[.12,2.35,.12],m.cedar);box([-3.92,.40,z],[.22,.12,.22],m.stone);
+ }
+ box([-3.92,2.72,-1.13],[.16,.19,6.70],m.timber);
+ box([-4.60,2.84,-1.13],[2.45,.13,7.10],m.cedar);
+ box([-4.60,2.94,-1.13],[2.55,.075,7.18],mat('#41453f'));
+ for(let i=0;i<25;i++)box([-4.48,2.78,-4.52+i*.285],[2.30,.10,.045],m.cedar);
+ const returnWing=new THREE.Group();returnWing.name='return-engawa';
+ for(const piece of [...scene.children].slice(wingStart))returnWing.add(piece);scene.add(returnWing);
+ // The far wall closes the courtyard behind the specimen without flattening the open room.
+ box([-3.15,.81,-8.0],[8.3,1.65,.26],m.plaster);
+ box([-3.15,1.67,-8.0],[8.4,.09,.42],m.stone);
  // Left boundary recedes with irregular stones, plaster coping and a timber wicket.
  box([-5.4,.90,-.4],[.30,1.8,10],m.plaster);box([-5.4,1.83,-.4],[.49,.10,10.2],m.stone);
  for(let i=0;i<30;i++)stone([-5.2,.14,-5.1+i*.34],[.22,.25,.18],rand()*6);
@@ -207,7 +237,7 @@ export function createGarden(){
    for(let j=0;j<240;j++){const t=rand()*Math.PI*2,r=Math.sqrt(rand()),p=new THREE.Vector3(cx+Math.cos(t)*r*.65,cy+rr(-.30,.31),cz+Math.sin(t)*r*.55);leaf(p,new THREE.Vector3(rr(-1,1),rr(.0,.35),rr(-1,1)).normalize(),rr(.08,.19),new THREE.Color().setHSL(rr(.20,.29),rr(.22,.42),rr(.09,.20)));}
   }
  }
- for(const [x,z,h]of [[-4.2,-3.7,3.65],[-3.55,-5.7,4.45],[-6.15,-4.0,4.8],[-6.8,-7,5.5],[7.2,-6,4.8],[7.9,-3.2,3.7]])backgroundTree(x,z,h);
+ for(const [x,z,h]of [[-3.6,-5.7,3.6],[-4.2,-8.0,4.4],[-6.2,-6.0,4.8],[-6.8,-9.2,5.5],[8.2,-7.4,4.8],[7.3,-4.6,3.7]])backgroundTree(x,z,h);
  const bgG=new THREE.BufferGeometry();bgG.setAttribute('position',new THREE.Float32BufferAttribute(bgLeaves,3));bgG.setAttribute('color',new THREE.Float32BufferAttribute(bgColors,3));bgG.computeVertexNormals();mesh(bgG,mat('#ffffff',.92,{vertexColors:true,side:THREE.DoubleSide}));
  // A quiet, fixed star field. The horizon has airglow; stars never blink or move.
  const skyCanvas=document.createElement('canvas');skyCanvas.width=4096;skyCanvas.height=2048;
@@ -215,19 +245,20 @@ export function createGarden(){
  skyGradient.addColorStop(0,'#070d1e');skyGradient.addColorStop(.35,'#101e36');skyGradient.addColorStop(.50,'#253044');skyGradient.addColorStop(.64,'#101b2c');skyGradient.addColorStop(1,'#080d17');
  skyContext.fillStyle=skyGradient;skyContext.fillRect(0,0,4096,2048);
  for(let i=0;i<1400;i++){
-  const x=rr(0,4096),y=rr(12,982),radius=rr(.7,1.7),opacity=rr(.45,.95)*(1-THREE.MathUtils.smoothstep(y,820,990));
+  const x=rr(0,4096),y=rr(12,982),radius=rr(.35,1.15),opacity=rr(.30,.78)*(1-THREE.MathUtils.smoothstep(y,820,990));
   skyContext.fillStyle=`rgba(208,219,239,${opacity})`;skyContext.beginPath();skyContext.arc(x,y,radius,0,Math.PI*2);skyContext.fill();
  }
  const skyTexture=new THREE.CanvasTexture(skyCanvas);skyTexture.mapping=THREE.EquirectangularReflectionMapping;skyTexture.colorSpace=THREE.SRGBColorSpace;scene.background=skyTexture;
  // Cool moonlight, warm concealed garden light and paper screens share one night exposure.
- scene.add(new THREE.HemisphereLight('#849bc4','#353a3c',.90));
- const key=new THREE.DirectionalLight('#bdcce7',1.55);key.position.set(-3.5,7,5);key.target.position.set(0,0,-1);
+ scene.add(new THREE.HemisphereLight('#a0afbc','#44453c',.95));
+ const key=new THREE.DirectionalLight('#c0ccdd',.78);key.position.set(-3.5,7,5);key.target.position.set(0,0,-1);
  key.castShadow=true;key.shadow.mapSize.set(2048,2048);key.shadow.camera.left=-8;key.shadow.camera.right=8;key.shadow.camera.top=8;key.shadow.camera.bottom=-8;key.shadow.camera.near=.1;key.shadow.camera.far=22;key.shadow.bias=-.00025;key.shadow.normalBias=.02;key.shadow.radius=4;scene.add(key,key.target);
- const fill=new THREE.DirectionalLight('#8199bc',.32);fill.position.set(4,4,-1);scene.add(fill);
- const gardenLight=new THREE.SpotLight('#f1e1c6',55,12,.80,1,2);gardenLight.position.set(-3.2,4.2,3.1);gardenLight.target.position.set(0,1.30,0);gardenLight.castShadow=true;gardenLight.shadow.mapSize.set(1024,1024);gardenLight.shadow.bias=-.0002;gardenLight.shadow.normalBias=.018;gardenLight.shadow.radius=4;scene.add(gardenLight,gardenLight.target);
- m.paper.emissive.set('#c2945d');m.paper.emissiveIntensity=.065;
- const roomLight=new THREE.PointLight('#ffcc91',7,6,2);roomLight.position.set(.25,2.5,-6.7);scene.add(roomLight);
- const verandaLight=new THREE.PointLight('#edc39a',2.5,5,2);verandaLight.position.set(2.5,2.75,-4.3);scene.add(verandaLight);
+ const fill=new THREE.DirectionalLight('#9eafbd',.40);fill.position.set(4,4,-1);scene.add(fill);
+ const gardenLight=new THREE.SpotLight('#f3e3c9',34,11,.58,.92,2);gardenLight.position.set(-2.2,3.0,2.0);gardenLight.target.position.set(0,.96,0);gardenLight.castShadow=true;gardenLight.shadow.mapSize.set(1024,1024);gardenLight.shadow.bias=-.0002;gardenLight.shadow.normalBias=.018;gardenLight.shadow.radius=4;scene.add(gardenLight,gardenLight.target);
+ m.paper.emissive.set('#c2945d');m.paper.emissiveIntensity=.028;
+ const roomLight=new THREE.PointLight('#f4d3a5',2.6,5,2);roomLight.position.set(2.52,2.3,-8.05);scene.add(roomLight);
+ const verandaLight=new THREE.PointLight('#edcda5',1.7,4.2,2);verandaLight.position.set(4.6,2.75,-5.5);scene.add(verandaLight);
+ const wingLight=new THREE.PointLight('#edcfaa',1.3,3.8,2);wingLight.position.set(-4.7,2.05,-.65);scene.add(wingLight);
  scene.updateMatrixWorld(true);
  // Batch static masonry and joinery by material; preserve the single moving shoot mesh.
  function batch(parent){
@@ -240,7 +271,7 @@ export function createGarden(){
    const combined=mergeGeometries(geoms);if(combined){for(const o of objects)parent.remove(o);mesh(combined,objects[0].material,parent);}geoms.forEach(g=>g.dispose());
   }
  }
- batch(scene);batch(subject);scene.updateMatrixWorld(true);
+ batch(scene);batch(subject);batch(architecture);batch(returnWing);scene.updateMatrixWorld(true);
  const bounds=new THREE.Box3().setFromObject(subject);
  return {scene,subject,bounds,foliageGroups,key,textures};
 }
