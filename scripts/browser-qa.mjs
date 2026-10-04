@@ -27,7 +27,12 @@ try{
  for(const [name,w,h]of cases){
   await send('Emulation.setDeviceMetricsOverride',{width:w,height:h,deviceScaleFactor:Number(process.env.QA_DPR||1),mobile:false},s);await send('Page.navigate',{url:process.env.QA_URL||'http://127.0.0.1:5182/'},s);
   let r;for(let n=0;n<120;n++){try{r=await ev(s,probe);if((stillOnly?r.still.width>0:r.ready)&&r.viewport[0]===w)break}catch{}await pause(150)}
-  await pause(350);r=await ev(s,probe);await shot(s,prefix+name,w,h);assert.equal(r.text,'');assert.deepEqual(r.viewport,[w,h]);
+  await pause(350);r=await ev(s,probe);
+  if(!stillOnly&&process.env.QA_HEAP==='1'){
+   const before=r.jsHeapBytes;await send('HeapProfiler.collectGarbage',{},s);
+   r.heap={beforeGC:before,afterGC:(await ev(s,probe)).jsHeapBytes,...(await ev(s,`(()=>{const buffers=new Set(),g=window.__garden;let bytes=0;g.scene.traverse(o=>{if(!o.geometry)return;for(const a of [...Object.values(o.geometry.attributes),o.geometry.index].filter(Boolean)){if(!buffers.has(a.array.buffer)){buffers.add(a.array.buffer);bytes+=a.array.buffer.byteLength}}});return {geometryArrayBytes:bytes,rendererGeometryCount:g.renderer.info.memory.geometries}})()`))};
+  }
+  await shot(s,prefix+name,w,h);assert.equal(r.text,'');assert.deepEqual(r.viewport,[w,h]);
   if(!stillOnly){assert.equal(r.ready,true);const b=r.stats.framing;assert.ok(b.left>.02&&b.right<.98&&b.top>.02&&b.bottom<.98,'subject fits with margin '+JSON.stringify(b));}
   else{assert.equal(r.ready,false);assert.equal(r.canvasVisible,false);assert.ok(r.still.width>0);}
   results.push({name,...r});console.log(JSON.stringify({name,ready:r.ready,stats:r.stats}));
