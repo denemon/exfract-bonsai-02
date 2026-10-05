@@ -1,0 +1,62 @@
+[
+  {
+    "file": "candidate/public/stills/pc.webp",
+    "source": "qa/final-scene/pc.jpg",
+    "source_sha256": "eccd3eb7ec0679a21f7bc3f01142489ab075938084778692604f0159221533a6",
+    "sha256": "3f5b8a185f9d50ff93439dc0d05e2633df275a1d64e5948b03c05b79ed4eb5b4",
+    "pixel_dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 262296,
+    "operation": "Format conversion of full actual final 3D render; no cropping,photographic background or beautification"
+  },
+  {
+    "file": "candidate/public/stills/wide.webp",
+    "source": "qa/final-diagnostics/wide.jpg",
+    "source_sha256": "e1e23804a17b712ebfc1ddfafd7d020b09a79d945989aec0805bd5e9522fdb7d",
+    "sha256": "15482f59fb7d89174e0f10c0275de1dae43f6c4c976606ef60d9126748d1673b",
+    "pixel_dimensions": [
+      1920,
+      800
+    ],
+    "bytes": 290536,
+    "operation": "Format conversion of full actual final 3D render; no cropping,photographic background or beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-390.webp",
+    "source": "qa/final-scene/mobile-390.jpg",
+    "source_sha256": "2a9d8517a3ca6489813f5691ed1e609ccf01dfa9f6febde5f6eb98adc1798cf6",
+    "sha256": "448231b43fc17da0521f28992445f1aac3a943880649471436956ab6ceab66f9",
+    "pixel_dimensions": [
+      390,
+      844
+    ],
+    "bytes": 61882,
+    "operation": "Format conversion of full actual final 3D render; no cropping,photographic background or beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-320.webp",
+    "source": "qa/final-scene/mobile-320.jpg",
+    "source_sha256": "1c9904bf9b849766836204401a238fb104d56e0f2770b17771d5b2bb6f243734",
+    "sha256": "ba19c84a755b10bf527c64bd835ef8ac30f49ccd3ab32f607724a952beb3d53c",
+    "pixel_dimensions": [
+      320,
+      568
+    ],
+    "bytes": 38374,
+    "operation": "Format conversion of full actual final 3D render; no cropping,photographic background or beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-tall.webp",
+    "source": "qa/final-diagnostics/mobile-tall.jpg",
+    "source_sha256": "1191e73097245c1fee84e66c0a50eaefc71924428bcc86bee6e784b77a37fb6a",
+    "sha256": "124591f3e8f237f27489fd9ead02e153ab6a8e428b6e4a4e042edb558fe51668",
+    "pixel_dimensions": [
+      320,
+      844
+    ],
+    "bytes": 44644,
+    "operation": "Format conversion of full actual final 3D render; no cropping,photographic background or beautification"
+  }
+]

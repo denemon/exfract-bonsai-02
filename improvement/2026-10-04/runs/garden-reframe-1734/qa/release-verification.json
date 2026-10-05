@@ -1,0 +1,156 @@
+{
+  "release_build_verified": true,
+  "decoded_http_matches": [
+    {
+      "path": "/",
+      "status": 200,
+      "encoding": "gzip",
+      "transfer_bytes": 13348,
+      "decoded_bytes": 18254,
+      "source_sha256": "e2e63b56a4cf60dbf6b077bf316d0071f150a6af7deaf3e321b5e0ffc69254f2",
+      "decoded_matches_local_source": true
+    },
+    {
+      "path": "/assets/index-CIaxEMmo.js",
+      "status": 200,
+      "encoding": "gzip",
+      "transfer_bytes": 181979,
+      "decoded_bytes": 686738,
+      "source_sha256": "8a1d2f22bf6ecefdc70bd47a70a225c1b335f0290ef6acc7841a5ddde64585a7",
+      "decoded_matches_local_source": true
+    },
+    {
+      "path": "/assets/index-DVKFpQ5r.css",
+      "status": 200,
+      "encoding": "gzip",
+      "transfer_bytes": 261,
+      "decoded_bytes": 439,
+      "source_sha256": "1572eccaa2dde1e3a7cdf3b9ed4b600daabcc0fd7dae096901376f72aaf8957c",
+      "decoded_matches_local_source": true
+    },
+    {
+      "path": "/draco/draco_decoder.wasm",
+      "status": 200,
+      "encoding": "gzip",
+      "transfer_bytes": 63458,
+      "decoded_bytes": 192420,
+      "source_sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+      "decoded_matches_local_source": true
+    },
+    {
+      "path": "/materials/moss-photogrammetry.webp",
+      "status": 200,
+      "encoding": null,
+      "transfer_bytes": 648116,
+      "decoded_bytes": 648116,
+      "source_sha256": "8520b80423ad5a1f09cc38f078ec7988b481e680a59a9d4708fd7243dac16574",
+      "decoded_matches_local_source": true
+    }
+  ],
+  "same_scene_dev_to_final_release": [
+    {
+      "name": "pc",
+      "actualcamera_projection_geometry_match_source": true,
+      "gpu_valid": true,
+      "purpose": "normal automaticLOD"
+    },
+    {
+      "name": "after-garden",
+      "actualcamera_projection_geometry_match_source": true,
+      "gpu_valid": true,
+      "purpose": "normal automaticLOD"
+    },
+    {
+      "name": "after-bonsai",
+      "actualcamera_projection_geometry_match_source": true,
+      "gpu_valid": true,
+      "purpose": "normal automaticLOD"
+    },
+    {
+      "name": "after-wood",
+      "actualcamera_projection_geometry_match_source": true,
+      "gpu_valid": null,
+      "purpose": "forced-high diagnostic only, no GPU sample"
+    },
+    {
+      "name": "mobile-390",
+      "actualcamera_projection_geometry_match_source": true,
+      "gpu_valid": true,
+      "purpose": "normal automaticLOD"
+    },
+    {
+      "name": "mobile-320",
+      "actualcamera_projection_geometry_match_source": true,
+      "gpu_valid": true,
+      "purpose": "normal automaticLOD"
+    }
+  ],
+  "same_camera_before_after_pairs": [
+    {
+      "view": "after-garden",
+      "sameactual_camera_fov_exposure_projection": true,
+      "same_visiblehero_geometry_sha256": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d",
+      "hero_material_key": "bark-connected-cedar-v2",
+      "declared_changed": "backgroundgeometry/materials/worldfinite garden and room sourcepositions; hero key/exposure/material held",
+      "LOD": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": false,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 868000,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "view": "after-bonsai",
+      "sameactual_camera_fov_exposure_projection": true,
+      "same_visiblehero_geometry_sha256": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d",
+      "hero_material_key": "bark-connected-cedar-v2",
+      "declared_changed": "backgroundgeometry/materials/worldfinite garden and room sourcepositions; hero key/exposure/material held",
+      "LOD": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": false,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 868000,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "view": "after-wood",
+      "sameactual_camera_fov_exposure_projection": true,
+      "same_visiblehero_geometry_sha256": "ff3a5a3c674708473a334f7e8cd8f5a719d4a17fe4e90ec243333529d8bf3ed1",
+      "hero_material_key": "bark-connected-cedar-v2",
+      "declared_changed": "backgroundgeometry/materials/worldfinite garden and room sourcepositions; hero key/exposure/material held",
+      "LOD": {
+        "level": "high",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 72,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 4670400,
+        "allocatedLeafTriangles": 4670400,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    }
+  ],
+  "geometry_sha256": "3f53d7ad1647b7c6256d4e01a78c7c1e5506d5a4ccc38b1e912ac1e961b3e9c9",
+  "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+  "claim_limit": "Raw source actual JPEGs retained/refd; final build actualcamera,geometry,projection verified without duplicate JPEGs. Not a pixelidentity or beauty claim."
+}
