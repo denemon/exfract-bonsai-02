@@ -1,0 +1,23 @@
+{
+  "5208": {
+    "pid": 4492,
+    "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ensemble-0915/site",
+    "running": true
+  },
+  "5210": {
+    "pid": 81352,
+    "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/carved-mass-1340/candidate",
+    "running": true
+  },
+  "5211": {
+    "pid": 8535,
+    "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/candidate",
+    "running": false,
+    "stopped_only_verified_own_cwd": true
+  },
+  "5212": {
+    "pid": 37874,
+    "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/candidate",
+    "running": true
+  }
+}

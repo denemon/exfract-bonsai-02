@@ -1,0 +1,53 @@
+{
+  "before_actual_shape_build": true,
+  "architecture": {
+    "origin": [
+      2.37,
+      0,
+      -2.86
+    ],
+    "yaw_rad": -0.14,
+    "opening_retained": "Same existing full room/alcove geometry; opening/post projection measured at initial actual viewports",
+    "projection_status": "Pending, not inferred from coordinates"
+  },
+  "camera": {
+    "proposed_mobile_yaws": [
+      -12,
+      -16
+    ],
+    "condition": "Actual all-vertex bounds and mobile occupancy versus old images; angle is not itself success"
+  },
+  "far_crowns": {
+    "near_height_m": 2.98,
+    "far_height_m": 3.46,
+    "origins": [
+      [
+        -3.42,
+        -8.3
+      ],
+      [
+        -0.15,
+        -11.15
+      ]
+    ],
+    "volumes": "Three unequal compound regions per tree use multiple overlapping supporting axes, differing front/back depth and secondary branch elevation; five independent pads is not acceptance",
+    "exposure_above_boundary_m": [
+      1.17,
+      1.65
+    ]
+  },
+  "moss": {
+    "hummock_full_width_m": [
+      0.26,
+      0.48
+    ],
+    "rise_m": [
+      0.026,
+      0.042
+    ],
+    "actual_left_grid_spacing_m": 0.035,
+    "height_quantization_m": 0.001176470588235294,
+    "micro_detail": "Normal held until geometry comparison; no extra AO or gloss"
+  },
+  "design_review": "qa/design-review.md"
+}

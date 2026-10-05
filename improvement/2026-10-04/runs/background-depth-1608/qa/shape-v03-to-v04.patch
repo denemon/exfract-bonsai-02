@@ -1,0 +1,126 @@
+--- background/distant-crowns.js@v03
++++ background/distant-crowns.js@v04
+@@ -14,37 +14,56 @@
+   {t:.87,spine:[[-.06,3.02,.06],[-.10,3.30,.24],[-.02,3.40,.17]],reach:[.44,.37,.42],sides:11,lean:.22}]}
+ ];
+ export function distantCrowns(groundHeight){
+- const rng=random(773911),wood=[],shoots=[],roots=[],rows=[],up=new THREE.Vector3(0,1,0);
+- const add=(ps,r0,r1,steps=6,radial=5)=>{const b=branch(ps.map(p=>p.toArray()),r0,r1,steps,radial);wood.push(b.g);return b;};
++ const rng=random(881327),wood=[],shoots=[],roots=[],rows=[],up=new THREE.Vector3(0,1,0);
++ const add=(ps,r0,r1,steps=5,radial=5)=>{const b=branch(ps.map(p=>p.toArray()),r0,r1,steps,radial);wood.push(b.g);return b;};
+  for(const [si,s]of specimens.entries()){
+   const [x,z]=s.origin,base=new THREE.Vector3(x,groundHeight(x,z)-.005,z),at=p=>new THREE.Vector3(...p).add(base),begin=shoots.length;
+   const trunk=add(s.spine.map(at),.045,.0035,20,7);roots.push({name:s.name,position:base.toArray()});const regions=[];
+   s.regions.forEach((r,k)=>{
+-   const support=add([trunk.path.getPoint(r.t),...r.spine.map(at)],.016-k*.002,.0021,10,6),end=support.path.getPoint(1),beginRegion=shoots.length;
+-   for(let j=0;j<r.sides;j++){
+-    // Unequal flanks and vertical extent make branching lobes, not five shelves.
+-    const u=.19+(j+.28)/(r.sides+1)*.78,a=support.path.getPoint(u),azimuth=j*2.399963+si*.79+k*.52,hand=j%2?-1:1;
+-    const rx=r.reach[0]*(.58+.44*rng()),rz=r.reach[2]*(.60+.43*rng()),rise=r.reach[1]*(.14+.65*rng())*(j%4===0?-.49:1);
+-    const tip=end.clone().add(new THREE.Vector3(Math.cos(azimuth)*rx,rise,Math.sin(azimuth)*rz));tip.x+=r.lean*(tip.y-end.y);
+-    const second=add([a,a.clone().lerp(tip,.47).addScaledVector(up,-.025),tip],.0037,.00065,6,4);
+-    for(let n=0;n<9;n++){
+-     if(n===1&&(j+k)%4===0)continue;
+-     const v=.11+(n+.16)/9.7*.87,p=second.path.getPoint(v),axis=second.path.getTangent(v),side=new THREE.Vector3().crossVectors(axis,up).normalize();
+-     const twigEnd=p.clone().addScaledVector(axis,.086+.065*rng()).addScaledVector(side,(n%2?-1:1)*(.074+.058*rng())).addScaledVector(up,.024+.063*rng());
+-     const twig=add([p,p.clone().lerp(twigEnd,.51).addScaledVector(up,.011),twigEnd],.0012,.00027,3,3);
+-     const length=.074+.021*rng();
+-     for(let bud=0;bud<5;bud++){
+-      const origin=twig.path.getPoint(.13+bud*.19),along=twig.path.getTangent(.13+bud*.19),across=new THREE.Vector3().crossVectors(along,up).normalize();
+-      const hand=bud%2?-1:1,dir=along.clone().multiplyScalar(.32).addScaledVector(across,hand*.81).addScaledVector(up,.12+.20*rng()).normalize();
+-      shoots.push({p:origin,direction:dir,length:length*(.81+.25*rng()),width:.83+.25*rng(),roll:(rng()-.5)*1.28,shade:.84+.20*rng()});
+-      if(bud===1||bud===3){const dir2=along.clone().multiplyScalar(.45).addScaledVector(across,-hand*.69).addScaledVector(up,.20).normalize();shoots.push({p:origin.clone().addScaledVector(along,.004),direction:dir2,length:length*.85,width:.93,roll:(rng()-.5)*1.10,shade:.85+.17*rng()});}
+-     }
+-
++   const support=add([trunk.path.getPoint(r.t),...r.spine.map(at)],.016-k*.002,.0021,10,6),centre=support.path.getPoint(1),beginRegion=shoots.length;
++   const radius=new THREE.Vector3(r.reach[0]*1.18,r.reach[1]*1.33,r.reach[2]*1.25),targets=[];
++   for(let q=0;q<118+(k%2)*24;q++){
++    const theta=rng()*Math.PI*2,zeta=rng()*2-1,flat=Math.sqrt(1-zeta*zeta),radial=Math.pow(rng(),.39),lobe=1+.11*Math.sin(theta*3+si*.9)+.09*Math.cos(theta*5+zeta*3+k);
++    const v=new THREE.Vector3(Math.cos(theta)*flat, zeta,Math.sin(theta)*flat).multiply(radius).multiplyScalar(radial*lobe);
++    v.x+=v.y*r.lean;v.z+=.055*Math.sin(v.y*9+theta);targets.push(centre.clone().add(v));
++   }
++   const seed=centre.clone().add(new THREE.Vector3(-r.lean*.13,-.13,.018)),root=add([support.path.getPoint(.73),support.path.getPoint(.90),seed],.0026,.0016,4,4);
++   const nodes=[{p:seed,parent:-1,children:0}],remaining=targets.slice();
++   // Each endpoint guides the nearest existing twig. Growth divides naturally
++   // toward different endpoints instead of repeating a mirrored fan or shelf.
++   for(let pass=0;pass<76&&remaining.length;pass++){
++    const directions=new Map();
++    for(let t=remaining.length-1;t>=0;t--){
++     const target=remaining[t];let nearest=-1,best=.53*.53;
++     for(let n=0;n<nodes.length;n++){const d=nodes[n].p.distanceToSquared(target);if(d<best){best=d;nearest=n;}}
++     if(nearest<0)continue;
++     if(best<.044*.044){remaining.splice(t,1);continue;}
++     const row=directions.get(nearest)||{sum:new THREE.Vector3(),count:0};row.sum.add(target.clone().sub(nodes[nearest].p).normalize());row.count++;directions.set(nearest,row);
++    }
++    if(!directions.size)break;
++    let added=0;
++    for(const [parent,{sum}]of directions){
++     const dir=sum.normalize(),length=.050+.015*rng(),pos=nodes[parent].p.clone().addScaledVector(dir,length);
++     if(nodes.some(n=>n.p.distanceToSquared(pos)<.017*.017))continue;
++     nodes[parent].children++;nodes.push({p:pos,parent,children:0});added++;
++    }
++    if(!added)break;
++   }
++   for(let n=1;n<nodes.length;n++){
++    const node=nodes[n],a=nodes[node.parent].p,b=node.p,axis=b.clone().sub(a).normalize(),side=new THREE.Vector3().crossVectors(axis,up);if(side.lengthSq()<.02)side.set(1,0,0);side.normalize();
++    const twig=add([a,a.clone().lerp(b,.50).addScaledVector(up,.003),b],node.children?.0012:.00075,.00030,2,3);
++    // Leaves occupy the growing interior as well as the outer tips. Leaf bases
++    // are exact points on this twig; no detached floating leaf cloud.
++    const count=node.children?3:5;
++    for(let bud=0;bud<count;bud++){
++     const t=.14+(bud+.1)/(count+.2)*.80,origin=twig.path.getPoint(t),hand=(n+bud+k)%2?-1:1;
++     const dir=axis.clone().multiplyScalar(.29+.20*rng()).addScaledVector(side,hand*(.54+.29*rng())).addScaledVector(up,.12+.35*rng()).normalize(),size=(node.children?.073:.087)*(.84+.29*rng());
++     shoots.push({p:origin,direction:dir,length:size,width:.82+.30*rng(),roll:(rng()-.5)*1.44,shade:.85+.19*rng()});
+     }
+    }
+-   regions.push({centre:end.toArray(),halfExtents:r.reach,supportingAxis: r.spine,secondaryAxes:r.sides,closedLeaves:shoots.length-beginRegion});
++   regions.push({centre:centre.toArray(),halfExtents:radius.toArray(),supportingAxis:r.spine,attractionEndpoints:targets.length,unreachedEndpoints:remaining.length,growingNodes:nodes.length,closedLeaves:shoots.length-beginRegion});
+   });
+   rows.push({name:s.name,origin:s.origin,primaryAxes:s.regions.length,regions,closedLeaves:shoots.length-begin});
+  }
+- return {wood,shoots,roots,metadata:{version:'depth-v03',strategy:'Three/four unequal overlapping supported botanical volumes, each a branching fan with front/back thickness; no shelves, spheres or cards',specimens:rows,instances:shoots.length}};
++ return {wood,shoots,roots,metadata:{version:'depth-v04',strategy:'Unequal overlapping crown regions contain physical endpoint-guided branching and attached closed leaves throughout their depth; no mirrored fans, spheres or cards',specimens:rows,instances:shoots.length}};
+ }
+--- background/moss-sprigs.js@v03
++++ background/moss-sprigs.js@v04
+@@ -11,15 +11,17 @@
+  }
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(ps,3));g.setIndex(ix);g.computeVertexNormals();return g;
+ }
+-export function mossSprigs(scene,field){
++export function mossSprigs(scene,field,mossTexture){
+  const {data,width,height}=field.image,rng=random(41019),rows=[];
++ const canvas=document.createElement('canvas');canvas.width=mossTexture.image.width;canvas.height=mossTexture.image.height;const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(mossTexture.image,0,0);const pixels=ctx.getImageData(0,0,canvas.width,canvas.height).data,tw=canvas.width,th=canvas.height;
++ const colourAt=(x,z)=>{const u=((x/.42)%1+1)%1,v=1-((z/.42)%1+1)%1,i=Math.min(tw-1,Math.floor(u*tw)),j=Math.min(th-1,Math.floor(v*th)),q=(j*tw+i)*4;return new THREE.Color().setRGB(pixels[q]/255,pixels[q+1]/255,pixels[q+2]/255,THREE.SRGBColorSpace).multiplyScalar(.91);};
+  for(let z=-.38;z<2.38;z+=.035)for(let x=-3.64;x<-.81;x+=.035){
+   const px=x+(rng()-.5)*.032,pz=z+(rng()-.5)*.032,i=Math.min(width-1,Math.max(0,Math.floor((px+6)/12*width))),j=Math.min(height-1,Math.max(0,Math.floor((pz+7)/14*height))),m=data[(j*width+i)*4]/255;
+   if(m<.50||rng()>m*.82)continue;
+   rows.push({x:px,z:pz,y:groundHeight(px,pz)-.001,height:.009+.008*rng(),turn:rng()*Math.PI*2,color:.83+.25*rng()});
+  }
+- const g=geometry(),material=new THREE.MeshStandardMaterial({color:'#4a5b31',roughness:1,metalness:0}),mesh=new THREE.InstancedMesh(g,material,rows.length),obj=new THREE.Object3D();mesh.name='Field grounded uneven short moss fronds';
+- rows.forEach((r,n)=>{obj.position.set(r.x,r.y,r.z);obj.rotation.set((rng()-.5)*.24,r.turn,(rng()-.5)*.29);obj.scale.set(r.height,r.height,r.height);obj.updateMatrix();mesh.setMatrixAt(n,obj.matrix);mesh.setColorAt(n,new THREE.Color().setRGB(r.color*.90,r.color,r.color*.84));});
+- mesh.castShadow=mesh.receiveShadow=true;mesh.instanceMatrix.needsUpdate=true;mesh.computeBoundingSphere();scene.add(mesh);
+- return {instances:rows.length,triangles:g.index.count/3*rows.length,heightM:[.009,.017],grounding:'Every root on the same triangle-interpolated terrain,1mm burial; density follows moss field, soil/gravel stay clear',shading:'Matte roughness1, no emission, no added AO or gloss'};
++ const g=geometry(),material=new THREE.MeshStandardMaterial({color:'#ffffff',roughness:1,metalness:0}),mesh=new THREE.InstancedMesh(g,material,rows.length),obj=new THREE.Object3D();mesh.name='Field grounded uneven short moss fronds';
++ rows.forEach((r,n)=>{obj.position.set(r.x,r.y,r.z);obj.rotation.set((rng()-.5)*.24,r.turn,(rng()-.5)*.29);obj.scale.set(r.height*2.35,r.height*.72,r.height*2.35);obj.updateMatrix();mesh.setMatrixAt(n,obj.matrix);mesh.setColorAt(n,colourAt(r.x,r.z).multiplyScalar(.94+r.color*.06));});
++ mesh.castShadow=false;mesh.receiveShadow=true;mesh.instanceMatrix.needsUpdate=true;mesh.computeBoundingSphere();scene.add(mesh);
++ return {instances:rows.length,triangles:g.index.count/3*rows.length,heightM:[.00648,.01224],widthM:[.025,.037],albedoCalibration:'Same existing ground mossMap sampled at world root UV, correct sRGB-to-linear conversion; not a new decorative colour',grounding:'Every root on the same triangle-interpolated terrain,1mm burial; density follows moss field, soil/gravel stay clear',shading:'Matte roughness1, no emission, no added AO or gloss; no unresolved millimetre cast-shadow dots, full scene shadows received'};
+ }
+--- background/scene.js@v03
++++ background/scene.js@v04
+@@ -33,7 +33,7 @@
+  const farGeometry=new THREE.PlaneGeometry(100,100);farGeometry.rotateX(-Math.PI/2);farGeometry.translate(0,-.029,0);const distantGround=new THREE.Mesh(farGeometry,m.ground);distantGround.name='Continuous distant mineral ground';distantGround.receiveShadow=true;scene.add(distantGround);
+  const built=architecture(scene,m,layout);
+  const rocks=placeGardenRocks(scene,rockAssets,m);
+- const plants=planting(scene,m,hero);const moss=mossSprigs(scene,m.terrain);
++ const plants=planting(scene,m,hero);const moss=mossSprigs(scene,m.terrain,m.ground.userData.mossTexture);
+  scene.updateMatrixWorld(true);const rootRay=new THREE.Raycaster();
+  const foundation=scene.getObjectByName('Garden architecture foundation');
+  for(const row of built.verandaSupportContacts){
+@@ -61,5 +61,5 @@
+  if(proposedRoom){const lamp=new THREE.PointLight('#ffd4a0',1.1,3.1,2);lamp.position.copy(roomPoint([3.83,.844,-2.62]));lamp.name='Small room console lantern source';scene.add(lamp);}
+  const rearGlow=new THREE.SpotLight('#ddc5a0',8.4,5.5,.67,1,2);rearGlow.position.set(-3.70,.20,-3.1);rearGlow.target.position.set(-2.80,1.50,-3.7);scene.add(rearGlow,rearGlow.target);
+  const geometrySignature=await backgroundGeometrySignature(scene,subject,m.terrain);
+- return {scene,subject,key,ground,layout:'night-'+layout,metadata:{geometrySignature,backgroundFinish:new URLSearchParams(location.search).get('finish')||'baseline',canopyMass:new URLSearchParams(location.search).get('canopy')||'baseline',terrain:{version:'depth-v03',rootContacts,heightSource:'One authored512px linear data field used by both geometry and material, generated in memory',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Depth-v01 integrated right-rear room, short branch crown masses, low continuous terrain; hero unchanged',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:1024,porchFillPosition:roomBounce.position.toArray(),porchFill:'Weak room bounce approximation within the deep room; proposed mode includes a weakly emissive paper lamp shade (.12), plus its finite point source'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightComparison:proposedRoom?'Room sources follow new architecture; hero key/exposure fixed':'All original world light positions and powers fixed for structure comparison',lightDesign:'Same cool sky/moon and hero key; moon occluded by real architecture, warm room lighting; small dry paper lamp shade has weak emission in proposed mode, not a luminous wall'}};
++ return {scene,subject,key,ground,layout:'night-'+layout,metadata:{geometrySignature,backgroundFinish:new URLSearchParams(location.search).get('finish')||'baseline',canopyMass:new URLSearchParams(location.search).get('canopy')||'baseline',terrain:{version:'depth-v04',rootContacts,heightSource:'One authored512px linear data field used by both geometry and material, generated in memory',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Depth-v01 integrated right-rear room, short branch crown masses, low continuous terrain; hero unchanged',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:1024,porchFillPosition:roomBounce.position.toArray(),porchFill:'Weak room bounce approximation within the deep room; proposed mode includes a weakly emissive paper lamp shade (.12), plus its finite point source'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightComparison:proposedRoom?'Room sources follow new architecture; hero key/exposure fixed':'All original world light positions and powers fixed for structure comparison',lightDesign:'Same cool sky/moon and hero key; moon occluded by real architecture, warm room lighting; small dry paper lamp shade has weak emission in proposed mode, not a luminous wall'}};
+ }

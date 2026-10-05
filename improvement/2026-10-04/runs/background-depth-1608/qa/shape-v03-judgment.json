@@ -1,0 +1,10 @@
+{
+  "actual_images_seen": [
+    "qa/shape-v03/after-garden.jpg",
+    "qa/shape-v03/mobile-390.jpg",
+    "qa/shape-v03/mobile-320.jpg"
+  ],
+  "decision": "Not selected: closed broadleaves still follow a fern-like fan skeleton; new moss sprigs become sparse black dots",
+  "geometry_sha256": "01b7496c79f482703792b3f5a9ca01871730e0ba3e57c93ef8f5355d7fdbe79b",
+  "next": "Grow physical secondary branches toward irregularly distributed endpoints inside unequal overlapping crown regions; attached small leaves fill the inside and depth. Calibrate new moss geometry to the existing ground moss image instead of unrelated flat green, and avoid unresolved tiny cast-shadow artifacts. Shape gate remains unpassed, finish has not started."
+}
