@@ -1,0 +1,159 @@
+{
+  "purpose": "Same selected real-WebGL scene for loading and unavailable WebGL. Selected night garden layout with unchanged hero; major aged form and premium material finish remain unfinished.",
+  "model": "site/public/models/hero.glb",
+  "model_sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+  "version": "edge-v02",
+  "material_file_sha256": "860457362496c68eebe1a107769796becc9c67ea9e93e9dcd25f7edb62737fcb",
+  "scene_source_sha256": {
+    "materials.js": "860457362496c68eebe1a107769796becc9c67ea9e93e9dcd25f7edb62737fcb",
+    "garden-geometry.js": "6238c91319decd0822294c8e78246a18c7be80db558166fd12b207c05d699cfc",
+    "scene.js": "fcf9e5c78df3450ae8bea8d03e7ef00738a2ab279e0f3f5c9e4710a598cebe32",
+    "shadow-filter.js": "909f2ed4586f40f126c4d42ed62306b547c23f9e5f0c4453845efae70cfe723e",
+    "main.js": "76ca0a3c6a668953fb8a1cc3e95d999546dc2d676ce78bb73b3e06a9fa387d00",
+    "foliage-lod.js": "0576521feca39601a0823d03ccfc86b77876273648cdc070d5d8d497c6989bf7",
+    "garden-materials.js": "9bca3368fc0700549ba95b94987b264b5a0950d64ca44fd2569c4e8c23e0b1a5"
+  },
+  "layout": "night-b",
+  "images": [
+    {
+      "name": "pc",
+      "source": "qa/selected-stills/pc.png",
+      "source_sha256": "cf664166ef7b5d228771746b6e09b6a9467fca0b72be3403a61a4109b2db0a05",
+      "source_url": "http://127.0.0.1:5197/?qa=pc",
+      "viewport": [
+        1440,
+        900
+      ],
+      "camera": {
+        "yaw": 0,
+        "pitch": 10,
+        "distance": 3.1155957641752177,
+        "zoom": 1,
+        "position": [
+          0.055556653840810793,
+          1.2215507457191122,
+          3.0791909558671455
+        ],
+        "target": [
+          0.055556653840810793,
+          0.6805332189232783,
+          0.010928092055396528
+        ]
+      },
+      "full_webp": "stills/pc.webp",
+      "webp_sha256": "baa2fc870ceacfdb15cc09c502096ea93a7772a65028edb14ab450beb35e5a69",
+      "webp_bytes": 192052,
+      "inline_dimensions": [
+        384,
+        240
+      ],
+      "inline_bytes": 3774,
+      "conversion": "PNG decode, WebP quality88 and small thumbnail quality44; no compositing or screenshot retouching"
+    },
+    {
+      "name": "mobile-390",
+      "source": "qa/selected-stills/mobile-390.png",
+      "source_sha256": "d229df3e06c3713491e01d457d602d6a5cf1bacc9bb12d5227a33f2abd2cb754",
+      "source_url": "http://127.0.0.1:5197/?qa=mobile-390",
+      "viewport": [
+        390,
+        844
+      ],
+      "camera": {
+        "yaw": -27,
+        "pitch": 9,
+        "distance": 5.8039889836772804,
+        "zoom": 1,
+        "position": [
+          -2.6632328971515777,
+          1.4838296994183882,
+          5.131972210861256
+        ],
+        "target": [
+          -0.06071771705420628,
+          0.5758857876574395,
+          0.024248577665524292
+        ]
+      },
+      "full_webp": "stills/mobile-390.webp",
+      "webp_sha256": "cd060997481f47df34d79eeed3cba435b7f5d7ec793045e93e20615553974cab",
+      "webp_bytes": 50876,
+      "inline_dimensions": [
+        177,
+        384
+      ],
+      "inline_bytes": 2426,
+      "conversion": "PNG decode, WebP quality88 and small thumbnail quality44; no compositing or screenshot retouching"
+    },
+    {
+      "name": "mobile-320",
+      "source": "qa/selected-stills/mobile-320.png",
+      "source_sha256": "03803158517baeaea987ddc490b3323ad64edca6ff0acb635b3c4f44eabbfc68",
+      "source_url": "http://127.0.0.1:5197/?qa=mobile-320",
+      "viewport": [
+        320,
+        568
+      ],
+      "camera": {
+        "yaw": -23,
+        "pitch": 9,
+        "distance": 4.93614098289181,
+        "zoom": 1,
+        "position": [
+          -1.9730501620094099,
+          1.3628772475944557,
+          4.5065928146566145
+        ],
+        "target": [
+          -0.06809177134251451,
+          0.590694673572616,
+          0.018792083208200208
+        ]
+      },
+      "full_webp": "stills/mobile-320.webp",
+      "webp_sha256": "7bf460d063a4db99fb910a71451376680cf8bcbda206b7c9d0110e141029f03a",
+      "webp_bytes": 32168,
+      "inline_dimensions": [
+        216,
+        384
+      ],
+      "inline_bytes": 3034,
+      "conversion": "PNG decode, WebP quality88 and small thumbnail quality44; no compositing or screenshot retouching"
+    },
+    {
+      "name": "mobile-tall",
+      "source": "qa/selected-stills/mobile-tall.png",
+      "source_sha256": "b56679eaee63688ee9c1ef5c6803c884767bf16bad05df07ea6ec89865125414",
+      "source_url": "http://127.0.0.1:5197/?qa=mobile-tall",
+      "viewport": [
+        320,
+        932
+      ],
+      "camera": {
+        "yaw": -42,
+        "pitch": 9,
+        "distance": 6.6046744388903,
+        "zoom": 1,
+        "position": [
+          -4.422088190669064,
+          1.5827076652032162,
+          4.8817148307069775
+        ],
+        "target": [
+          -0.05710840071540832,
+          0.549508952590525,
+          0.033913649007946384
+        ]
+      },
+      "full_webp": "stills/mobile-tall.webp",
+      "webp_sha256": "acf9ef57b955691babe0f59adf989d769493e6f98218c89627f2d284ffa44440",
+      "webp_bytes": 39792,
+      "inline_dimensions": [
+        132,
+        384
+      ],
+      "inline_bytes": 2270,
+      "conversion": "PNG decode, WebP quality88 and small thumbnail quality44; no compositing or screenshot retouching"
+    }
+  ]
+}

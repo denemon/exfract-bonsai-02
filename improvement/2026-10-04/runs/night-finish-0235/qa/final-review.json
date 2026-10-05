@@ -1,0 +1,31 @@
+{
+  "reviewer": "/root/anatomy_review",
+  "scope": "Pixel comparison of prior night-B, material-v1, material-v2 and final6 ordinary views; no claim of physical-device evaluation",
+  "final_images": [
+    "qa/selected-stills/pc.png",
+    "qa/selected-stills/mobile-390.png",
+    "qa/selected-stills/mobile-320.png",
+    "qa/selected-stills/wide.png",
+    "qa/selected-stills/mobile-tall.png",
+    "qa/selected-stills/mobile-landscape.png"
+  ],
+  "decision": "Final material-v2 limited adoption and freeze, proceed to build and performance verification; premium overall quality remains unfinished",
+  "observed_improvements": [
+    "Member-local grain follows rotated architectural members.",
+    "Warm rear room wall restores depth; diagnosis targeted the actual visible rear plane.",
+    "Wide left ground and boundary remain continuous.",
+    "Removing tetrahedral moss specks made the floor calmer.",
+    "Full canopy, pot and low stone remain inside all6 ordinary views without a newly obvious float/gap or blank background."
+  ],
+  "remaining": [
+    "主幹の大きなS字面が滑らかな彫刻状で、名品の古木に必要な侵食・捻れ・生きた流れの説得力は未達。今回の固定対象。",
+    "背景樹木の主軸を個体別にしたが、小枝の羽根状の繰り返し、裸の腕、低木の扇状の規則性が残る。",
+    "苔は黒い点状の粒を除いて静かになったが、敷物状の面と砂利の一様さが残る。",
+    "木目方向と開口の光は改善したが、建築の単純な面・影、縦長構図の矩形の暗部は残る。",
+    "スマホで樹冠〜鉢〜台は収まるが、390と縦長は上下余白が大きい。"
+  ],
+  "initial_A_verdict": "Hold: material direction and gravel improved, but planting sparseness, moss carpet and dark room remained.",
+  "second_B_verdict": "Limited adoption after removal of black moss specks and correction of actual rear-wall lighting.",
+  "premium_aesthetic_gate": "not passed",
+  "functional_tests_are_not_visual_quality": true
+}

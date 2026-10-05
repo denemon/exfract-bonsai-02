@@ -1,0 +1,20 @@
+{
+  "selected": "growth-v2",
+  "layout": "night-b",
+  "hero": "edge-v02",
+  "major_candidates": 2,
+  "final_local_correction": "Lower/narrow the tall foreground moss shoulder and place each authored shrub root on its exact ground triangle",
+  "unchanged": [
+    "hero native/GLB/material",
+    "main.js/cameras/controls",
+    "architecture/sky/night lights",
+    "foliage LOD/shadow filtering"
+  ],
+  "premium_aesthetic_gate": "not passed",
+  "whole_scene_structural_improvement": "limited adoption",
+  "major_aged_form_gate": "not passed",
+  "root_best_promoted": false,
+  "prior_candidate_states_unchanged": true,
+  "scattered_small_stone_objects": 0,
+  "next": "Preserve night-b/growth-v2 and the frozen hero/cameras as comparison evidence. Before another change, compare normal PC390320 with the chosen night reference and identify the largest remaining whole-scene silhouette/mass problem. Decide one structural scope: background planting mass and architectural enclosure/contact currently remain more consequential than extra noise. Do not equate this stage with premium completion or return automatically to local trunk sculpt/noise/intensity loops. The hero ancient-form gate remains separately unfinished and needs an explicit structural scope decision by the parent. Keep dark night, brown wood, no visible text and no scattered small stones."
+}

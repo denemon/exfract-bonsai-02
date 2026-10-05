@@ -1,0 +1,15 @@
+{
+  "candidate": "growth-v1",
+  "files": {
+    "garden-geometry.js": "da34df29673d5d522b5dfc8070cfa3fcf0ff72031b471a1614c79815d1e9c640",
+    "garden-materials.js": "540ccc28a4dd9363f41426727ddbf5c3cfbff93ea5c91e52667e1b04e8f368b7",
+    "scene.js": "de3b4bf4d767eee38eff266d232464ff770ce17f8d4b9988acc3ac43f378cb88",
+    "terrain-design.json": "ef5c2ffca95ad5e6622c5a73b4864f7bd1de782db378e5d7a2d28afe60e05e89",
+    "terrain-field.png": "53ec727cf42986c9cbf1487a385a35173313a29d979a8a77c8cae1f0dba2b482",
+    "terrain-field.webp": "55e764af343a371f79de6bc29230983ba3ef95da32c2f5291d46b8904a27151d",
+    "terrain-manifest.json": "946102d870a7338f681a32fd2ef7d89d99cb4a0bf7a34b74a5708c6bb64a56b0"
+  },
+  "decision": "Hold; bare branches and empty mobile gravel remain; not selected",
+  "hero": "edge-v02",
+  "lights": "unchanged night-b"
+}

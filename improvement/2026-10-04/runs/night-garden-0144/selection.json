@@ -1,0 +1,19 @@
+{
+  "selected": "night-b",
+  "basis": "frozen edge-v02",
+  "major_layout_candidates": 2,
+  "scene_sources": "site/src",
+  "source_snapshots": [
+    "scene-variants/layout-a",
+    "scene-variants/layout-b"
+  ],
+  "same_hero_geometry": true,
+  "night_requirement": "preserved",
+  "scattered_small_stones": 0,
+  "whole_scene_basis": "improved and selected",
+  "premium_aesthetic_gate": "not passed",
+  "major_aged_form_gate": "not passed",
+  "root_best_promoted": false,
+  "existing_candidate_state_unchanged": true,
+  "next": "Retain night-b and frozen edge-v02. Finish the full-scene materials and light: break the ladder-like background branches, make wood grain follow each architectural member, refine moss/gravel relief and edge transitions, shade the room opening and roof underside with restrained warm light, and preserve subject silhouette separation. Compare PC390320 before adding detail. Do not return to trunk-only loops; keep the major aged-form limitation explicit. No daylight conversion."
+}

@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "file": "terrain-field.png",
+      "sha256": "75e34aaa43d0f05303888abf73acd3619bb7eb5df1d3edd55f9894ed810407c1",
+      "byte_identical": true
+    },
+    {
+      "file": "terrain-field.webp",
+      "sha256": "911b7ba36628557251ea4eef519c3e18d27b63b59c8ff3248e6468cb2dcf5ace",
+      "byte_identical": true
+    },
+    {
+      "file": "terrain-manifest.json",
+      "sha256": "c687f55fc064877004d20cc199347986a855fb360a7cc04630ce01e968560ace",
+      "byte_identical": true
+    }
+  ],
+  "design_sha256": "fd5c57ce503cd6bd7df9769d5d958fe8221ed29ebe583bfa229c9fd080f24bac",
+  "empty_output_directory_required": true
+}

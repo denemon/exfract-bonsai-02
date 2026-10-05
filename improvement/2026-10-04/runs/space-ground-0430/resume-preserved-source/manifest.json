@@ -1,0 +1,42 @@
+{
+  "materials.js": {
+    "sha256": "860457362496c68eebe1a107769796becc9c67ea9e93e9dcd25f7edb62737fcb",
+    "bytes": 7213
+  },
+  "garden-geometry.js": {
+    "sha256": "be1caf51ae41b5b055a2683cf6e655f28eb1f35bf08df48737439eded3294119",
+    "bytes": 17488
+  },
+  "scene.js": {
+    "sha256": "5865027c3e9e3389ed3b93019b1afb95cc42c03e71a12c94b3098e6a28542acb",
+    "bytes": 13650
+  },
+  "terrain-design.json": {
+    "sha256": "fd5c57ce503cd6bd7df9769d5d958fe8221ed29ebe583bfa229c9fd080f24bac",
+    "bytes": 5553
+  },
+  "shadow-filter.js": {
+    "sha256": "909f2ed4586f40f126c4d42ed62306b547c23f9e5f0c4453845efae70cfe723e",
+    "bytes": 880
+  },
+  "main.js": {
+    "sha256": "5822541c81a5fd10e2db2b02f97aca1fb86b3f0669a4641b7b63e70c8f56ccea",
+    "bytes": 9997
+  },
+  "style.css": {
+    "sha256": "532f95b7d86a5ca4221989666e91288ffb10882e3d265bf33fff6da0bf5958b8",
+    "bytes": 440
+  },
+  "foliage-lod.js": {
+    "sha256": "0576521feca39601a0823d03ccfc86b77876273648cdc070d5d8d497c6989bf7",
+    "bytes": 4199
+  },
+  "garden-materials.js": {
+    "sha256": "e06530c20ce824ff2279eccd6fe6d80da0c92cce8827576841893410d3802b99",
+    "bytes": 7700
+  },
+  "garden-rocks.js": {
+    "sha256": "b1f72de7e6b1c15598c112db03b5d47082c17caad0de2541e50d8b7854946a81",
+    "bytes": 3616
+  }
+}

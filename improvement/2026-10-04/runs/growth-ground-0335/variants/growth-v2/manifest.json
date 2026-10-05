@@ -1,0 +1,17 @@
+{
+  "candidate": "growth-v2",
+  "files": {
+    "garden-geometry.js": "be1caf51ae41b5b055a2683cf6e655f28eb1f35bf08df48737439eded3294119",
+    "garden-materials.js": "540ccc28a4dd9363f41426727ddbf5c3cfbff93ea5c91e52667e1b04e8f368b7",
+    "scene.js": "21ce8442750a74a6c46204d4b54f2fcfd4ab400ee0ed13241a0f81b32b60d142",
+    "terrain-design.json": "a4c1b23e009305eb756e252dc7863c3804f3e3fbd25cca11dcaa42de1fcfb012",
+    "terrain-field.png": "73e28181c371632ff014f279a5f180ce3378102417fb9f8f67a259f051ba27f3",
+    "terrain-field.webp": "f52d304e77d4f888ba060dcd01100fdc8214745d90d5a6dbaa1751db3250eb9d",
+    "terrain-manifest.json": "25dc3612463e4c6e9ef0214c04ccfcb88c8745515152d2517359f3491017e99d"
+  },
+  "hero": "edge-v02",
+  "cameras": "unchanged",
+  "night_lights": "unchanged",
+  "correction": "One local tall-foreground shoulder correction and exact individual shrub root contact",
+  "decision": "Limited structural improvement; premium garden quality unfinished"
+}

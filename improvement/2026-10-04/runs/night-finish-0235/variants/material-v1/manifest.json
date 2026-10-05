@@ -1,0 +1,12 @@
+{
+  "candidate": "material-v1",
+  "files": {
+    "scene.js": "1ca90e402332e313053d3c471d239b163131128d413ef86e152c6d50d521a62e",
+    "garden-geometry.js": "de15a136b268ff81530150cb5b99c045b006c5cc4f292b3268cf7eea1e418166",
+    "garden-materials.js": "4143445aaa6a3672d167568c9da8fcb7ca1402716e5b16653e0cb0cc9000d01e",
+    "main.js": "5822541c81a5fd10e2db2b02f97aca1fb86b3f0669a4641b7b63e70c8f56ccea"
+  },
+  "layout": "night-b",
+  "hero": "edge-v02",
+  "material_map_bytes": 807392
+}

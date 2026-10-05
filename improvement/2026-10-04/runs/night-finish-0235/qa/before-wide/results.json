@@ -1,0 +1,233 @@
+{
+  "results": [
+    {
+      "name": "wide",
+      "url": "http://127.0.0.1:5198/?qa=wide",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 431.2999999523163,
+        "framesMs": [
+          209.10000002384186
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "phase": "Night layout study; hero geometry unchanged",
+          "contacts": [
+            {
+              "foot": "Low_ceramic_foot",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10097949145919802,
+              "gapMetres": 5.078818726411694e-7
+            },
+            {
+              "foot": "Low_ceramic_foot001",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10137052685022355,
+              "gapMetres": -0.00039052750915288814
+            },
+            {
+              "foot": "Low_ceramic_foot002",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10155501782000514,
+              "gapMetres": -0.0005750184789344859
+            },
+            {
+              "foot": "Low_ceramic_foot003",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10125908552944689,
+              "gapMetres": -0.0002790861883762291
+            }
+          ],
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 8,
+            "triangles": 22272,
+            "houseYaw": -0.21,
+            "frontEdge": [
+              1.385598050545855,
+              0.3,
+              0.0019934711092693125
+            ],
+            "deckTop": 0.3,
+            "roomOpening": {
+              "front": [
+                2.2884598998460994,
+                1.5,
+                -0.8280309147241482
+              ],
+              "rear": [
+                2.7887636594767384,
+                1.5,
+                -3.175305110062104
+              ],
+              "yMin": 0.47,
+              "yMax": 2.53
+            },
+            "rearBoundaryZ": -5.15
+          },
+          "planting": {
+            "branchTriangles": 37512,
+            "leafInstances": 5868,
+            "leafTriangles": 70416,
+            "mossTufts": 2000,
+            "mossTuftTriangles": 8000
+          },
+          "largeGardenStones": [
+            {
+              "center": [
+                -1.87,
+                0.065,
+                -1.54
+              ],
+              "scale": [
+                0.57,
+                0.5,
+                0.42
+              ],
+              "seed": 3
+            },
+            {
+              "center": [
+                -2.8,
+                0.055,
+                -2.7
+              ],
+              "scale": [
+                0.42,
+                0.4,
+                0.37
+              ],
+              "seed": 14
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow"
+        },
+        "layout": "night-b",
+        "framing": {
+          "left": 0.2764142473348089,
+          "right": 0.6828060327922774,
+          "top": 0.09999999999999981,
+          "bottom": 0.9
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 3.1155957641752177,
+          "zoom": 1,
+          "position": [
+            0.0562764624322343,
+            1.2215507457191122,
+            3.0791909558671455
+          ],
+          "target": [
+            0.0562764624322343,
+            0.6805332189232783,
+            0.010928092055396528
+          ]
+        },
+        "viewport": [
+          1920,
+          810
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 215,
+        "triangles": 2342274,
+        "navigationToFirstFrameMs": 463.2000000476837
+      },
+      "text": "",
+      "viewport": [
+        1920,
+        810
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "exactProjection": {
+        "bounds": {
+          "left": 0.28107151430474786,
+          "right": 0.6792937199784105,
+          "top": 0.1075012784522621,
+          "bottom": 0.9024389341149488
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 810,
+          "top": 0,
+          "right": 1920,
+          "bottom": 810,
+          "left": 0
+        },
+        "cameraAspect": 2.3703703703703702
+      }
+    }
+  ],
+  "logs": []
+}
