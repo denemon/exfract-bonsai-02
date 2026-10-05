@@ -1,0 +1,13 @@
+{
+  "updated_at_jst": "2026-10-04T07:30:56+09:00",
+  "best_version": "initial",
+  "adopted_run": null,
+  "archive": "baseline-initial/site-and-evidence.tar.gz",
+  "manifest": "baseline-initial/manifest.json",
+  "images": [
+    "baseline-initial/desktop.png",
+    "baseline-initial/mobile-390.png",
+    "baseline-initial/mobile-320.png"
+  ],
+  "reason": "Initial protected comparison baseline; no improvements have been implemented or accepted in the planning turn."
+}
