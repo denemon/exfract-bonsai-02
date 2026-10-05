@@ -1,0 +1,27 @@
+--- baseline/garden-rocks.js
++++ material-v01/garden-rocks.js
+@@ -14,6 +14,7 @@
+ }
+ 
+ export function placeGardenRocks(scene,assets,gardenMaterials){
++ const finish=new URLSearchParams(location.search).get("finish")==="material-v01";
+  const placements=[{id:'boulder_01',center:[-1.78,-.65],horizontalExtent:1.27,yaw:1.20,burial:.19},{id:'rock_09',center:[-2.67,-1.78],horizontalExtent:1.06,yaw:.85,burial:.06}],rows=[];
+  for(const [i,asset]of assets.entries()){
+   const p=placements[i],g=asset.geometry;g.rotateY(p.yaw);g.computeBoundingBox();let b=g.boundingBox,size=b.getSize(new THREE.Vector3()),centre=b.getCenter(new THREE.Vector3());
+@@ -24,6 +25,7 @@
+    s.vertexShader='varying vec3 vRockWorld;\n'+s.vertexShader;s.vertexShader=s.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nvRockWorld=(modelMatrix*vec4(transformed,1.)).xyz;');
+    s.fragmentShader='varying vec3 vRockWorld;uniform sampler2D rockTerrain;uniform sampler2D rockMoss;\n'+s.fragmentShader;
+    s.fragmentShader=s.fragmentShader.replace('#include <color_fragment>',`#include <color_fragment>
++    ${finish?'float mineralLuma=dot(diffuseColor.rgb,vec3(.2126,.7152,.0722));diffuseColor.rgb=mix(diffuseColor.rgb,vec3(mineralLuma)*vec3(.97,1.01,1.035),.78);':''}
+     vec3 field=texture2D(rockTerrain,(vRockWorld.xz-vec2(-6.,-7.))/vec2(12.,14.)).rgb;
+     float ground=-.022+field.b*.30;
+     float rooted=1.-smoothstep(.009,.073,vRockWorld.y-ground);
+@@ -32,7 +34,7 @@
+    `);
+    s.fragmentShader=s.fragmentShader.replace('#include <roughnessmap_fragment>','#include <roughnessmap_fragment>\nroughnessFactor=max(roughnessFactor,.90);');
+   };
+-  m.customProgramCacheKey=()=>asset.id+'-grounded-scan-v1';
++  m.customProgramCacheKey=()=>asset.id+'-grounded-scan-v1-'+finish;
+   const rock=new THREE.Mesh(g,m);rock.name='Partly buried scanned garden stone '+asset.id;rock.castShadow=rock.receiveShadow=true;scene.add(rock);
+   const triangles=g.index?g.index.count/3:g.attributes.position.count/3;
+   rows.push({...p,triangles,bounds:{min:g.boundingBox.min.toArray(),max:g.boundingBox.max.toArray()},material:'Local CC0 PBR, matte roughness lower bound .90, ground-field root transition',source:'https://polyhaven.com/a/'+asset.id,textures:asset.maps.map(t=>({url:t.image.src,width:t.image.width,height:t.image.height}))});

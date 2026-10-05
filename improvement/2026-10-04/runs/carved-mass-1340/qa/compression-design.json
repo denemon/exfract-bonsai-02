@@ -1,0 +1,9 @@
+{
+  "server": "Candidate5210 only",
+  "reason": "Cold250KiB/s loading14.13s; built JS and decoder were transferred without gzip",
+  "files": "JS/CSS/HTML/WASM gzip stream based on Accept-Encoding; no generated cache or disk copies",
+  "already_compressed": "GLB.gz is served raw for existing DecompressionStream decoder; WebP unchanged",
+  "geometry_and_site_js_changed": false,
+  "stopped_own_preview_pid": 72846,
+  "prohibited_external_actions": 0
+}

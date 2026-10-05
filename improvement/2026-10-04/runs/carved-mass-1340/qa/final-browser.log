@@ -1,0 +1,4 @@
+AssertionError: {"url":"http://127.0.0.1:5210/?qa=pc&room-light=proposed&canopy=mass-v04&finish=material-v01&composition=designed","ready":false,"text":"","viewport":[1440,900],"scroll":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"}
+
+false !== true
+

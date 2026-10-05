@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/assets/index-CHXkLb7J.js",
+    "encoding": "gzip",
+    "compressed_bytes": 179389,
+    "original_bytes": 680130,
+    "actual_decoded_sha256": "1a0007438cc1a2ca2e010282eb3c73bda67bd3edcbb3a0a8ad4fd6770c176635"
+  },
+  {
+    "path": "/",
+    "encoding": "gzip",
+    "compressed_bytes": 12510,
+    "original_bytes": 17109,
+    "actual_decoded_sha256": "a22b592fddae013b9529b83e0aa684c573808dd29c459e209de801ffbce4df62"
+  },
+  {
+    "path": "/assets/index-DVKFpQ5r.css",
+    "encoding": "gzip",
+    "compressed_bytes": 261,
+    "original_bytes": 439,
+    "actual_decoded_sha256": "1572eccaa2dde1e3a7cdf3b9ed4b600daabcc0fd7dae096901376f72aaf8957c"
+  },
+  {
+    "path": "/draco/draco_decoder.wasm",
+    "encoding": "gzip",
+    "compressed_bytes": 63458,
+    "original_bytes": 192420,
+    "source_read_only_unchanged": true
+  }
+]

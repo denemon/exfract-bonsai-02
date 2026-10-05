@@ -1,0 +1,11 @@
+{
+  "flag": "--disable-gpu-shader-disk-cache",
+  "purpose": "Limit new shader disk-cache writes; no manual cleanup/deletion, retain shared profile",
+  "official_source": "https://chromium.googlesource.com/chromium/src/+/refs/heads/main/gpu/config/gpu_switches.cc",
+  "affects_gpu_rendering": false,
+  "verification": "Official source disables shader on-disk cache; actual GPU to be checked in benchmark",
+  "failed_v03_attempts": [
+    "Dispatcher SyntaxError fixed",
+    "Chrome Runtime.enable timed out before page load; no screenshot"
+  ]
+}

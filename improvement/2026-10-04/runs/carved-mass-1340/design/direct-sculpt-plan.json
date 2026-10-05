@@ -1,0 +1,192 @@
+{
+  "method": "Direct edit of the baked v01 sculpt surface, same topology; source ellipsoid coordinates/voxel/decimation untouched. Remove blocking rims with finite oblique plane shaves, then actual finite chisel-stroke displacement. No material/normal change.",
+  "reason": "Gray v01 reads like rounded lips/eyes on a knobbly torso and smooth arms. Blocking/real wedge cutting was not the completed surface sculpt.",
+  "plane_shaves": [
+    {
+      "id": "lower rounded front rim",
+      "xz_center": [
+        0.005,
+        0.655
+      ],
+      "xz_radius": [
+        0.205,
+        0.2
+      ],
+      "plane_origin_y": -0.128,
+      "slope_x": 0.2,
+      "slope_z": -0.08,
+      "maximum_inward_y": 0.07,
+      "front_only": true
+    },
+    {
+      "id": "upper eye rim",
+      "xz_center": [
+        -0.215,
+        1.04
+      ],
+      "xz_radius": [
+        0.145,
+        0.105
+      ],
+      "plane_origin_y": -0.09,
+      "slope_x": 0.32,
+      "slope_z": 0.14,
+      "maximum_inward_y": 0.08,
+      "front_only": true
+    }
+  ],
+  "real_geometry_strokes": [
+    {
+      "id": "finite lower wood return",
+      "xz_points": [
+        [
+          0.16,
+          0.49
+        ],
+        [
+          0.04,
+          0.6
+        ],
+        [
+          -0.12,
+          0.735
+        ]
+      ],
+      "widths": [
+        0.035,
+        0.03,
+        0.022
+      ],
+      "depths": [
+        0.023,
+        0.043,
+        0.012
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "end_policy": "Tapered uneven ends; lower cleft returns into side, not oval aperture"
+    },
+    {
+      "id": "short left-side fold",
+      "xz_points": [
+        [
+          -0.24,
+          0.78
+        ],
+        [
+          -0.24,
+          0.91
+        ]
+      ],
+      "widths": [
+        0.019,
+        0.026
+      ],
+      "depths": [
+        0.016,
+        0.023
+      ],
+      "direction": [
+        0.25,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "upper short oblique facet",
+      "xz_points": [
+        [
+          -0.165,
+          1.02
+        ],
+        [
+          -0.05,
+          1.14
+        ]
+      ],
+      "widths": [
+        0.035,
+        0.015
+      ],
+      "depths": [
+        0.022,
+        0.01
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "upper primary finite longitudinal face",
+      "xz_points": [
+        [
+          -0.045,
+          1.265
+        ],
+        [
+          0.13,
+          1.39
+        ],
+        [
+          0.2,
+          1.5
+        ]
+      ],
+      "widths": [
+        0.025,
+        0.019,
+        0.018
+      ],
+      "depths": [
+        0.012,
+        0.018,
+        0.011
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "left primary finite face",
+      "xz_points": [
+        [
+          -0.37,
+          1.18
+        ],
+        [
+          -0.53,
+          1.265
+        ],
+        [
+          -0.67,
+          1.36
+        ]
+      ],
+      "widths": [
+        0.027,
+        0.023,
+        0.017
+      ],
+      "depths": [
+        0.014,
+        0.019,
+        0.01
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "geometry_gate": "Native readable/directly sculptable; inspect real contours, volume/connectivity/face crossings. No global smoothing after shaves so the planar return survives.",
+  "scope": "One direct sculpt pass after blocking, not another source-cell/loft coefficient iteration; independent visible check before material finish",
+  "shape_selection_not_yet_passed": true
+}

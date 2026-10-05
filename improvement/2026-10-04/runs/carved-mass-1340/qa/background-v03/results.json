@@ -1,0 +1,46 @@
+{
+  "results": [],
+  "logs": [
+    {
+      "method": "Runtime.exceptionThrown",
+      "params": {
+        "timestamp": 1791178708640.493,
+        "exceptionDetails": {
+          "exceptionId": 1,
+          "text": "Uncaught",
+          "lineNumber": 2,
+          "columnNumber": 52,
+          "scriptId": "14",
+          "url": "http://127.0.0.1:5209/background-scene.js",
+          "exception": {
+            "type": "object",
+            "subtype": "error",
+            "className": "SyntaxError",
+            "description": "SyntaxError: Unexpected token '['",
+            "objectId": "-1084750182515140711.2.1",
+            "preview": {
+              "type": "object",
+              "subtype": "error",
+              "description": "SyntaxError: Unexpected token '['",
+              "overflow": false,
+              "properties": [
+                {
+                  "name": "stack",
+                  "type": "string",
+                  "value": "SyntaxError: Unexpected token '['"
+                },
+                {
+                  "name": "message",
+                  "type": "string",
+                  "value": "Unexpected token '['"
+                }
+              ]
+            }
+          },
+          "executionContextId": 2
+        }
+      },
+      "sessionId": "E46B251FC56B1FAED6A4A468934DCC48"
+    }
+  ]
+}

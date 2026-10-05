@@ -1,0 +1,7 @@
+{
+  "status": "failed-before-upload",
+  "attempts": 1,
+  "retries": 0,
+  "ids": [],
+  "reason": "hosted apps tools/list request failed: TLS"
+}

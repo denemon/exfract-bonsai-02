@@ -1,0 +1,11 @@
+--- v03/garden-geometry.js
++++ v04/garden-geometry.js
+@@ -89,7 +89,7 @@
+   const middle=a.clone().lerp(b,.55).addScaledVector(UP,.016),twig=addBranch([a,middle,b],kind==='shrub'?.0015:.0017,.00045,3,3);
+   const axis=b.clone().sub(a).normalize(),across=new THREE.Vector3().crossVectors(axis,UP);if(across.lengthSq()<.01)across.set(1,0,0);across.normalize();
+   if(kind==='distant'){
+-   for(let j=0;j<(exposure<.65?1:2);j++){const p=twig.path.getPoint(j?.64:.14),dir=axis.clone().addScaledVector(across,j?.34:-.24).addScaledVector(UP,.30+(j%2)*.12).normalize();evergreenShoots.push({p,direction:dir,length:(leafSize/.09)*(.20+.055*rng())*(exposure<.65?.72:1.08),roll:rng()*Math.PI*2,shade:.85+.14*rng()});}
++   for(let j=0;j<(exposure<.65?1:2);j++){const p=twig.path.getPoint(j?.64:.14),dir=axis.clone().addScaledVector(across,j?.34:-.24).addScaledVector(UP,.30+(j%2)*.12).normalize();evergreenShoots.push({p,direction:dir,length:(leafSize/.09)*(thickerCanopy?.38+.095*rng():.20+.055*rng())*(exposure<.65?.72:1.08),roll:rng()*Math.PI*2,shade:.85+.14*rng()});}
+    return;
+   }
+   // Bud clusters are deliberately short and unequal. Some inner nodes stay bare,

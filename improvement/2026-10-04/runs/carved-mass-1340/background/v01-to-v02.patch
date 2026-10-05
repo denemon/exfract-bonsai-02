@@ -1,0 +1,87 @@
+--- v01/garden-geometry.js
++++ v02/garden-geometry.js
+@@ -1,3 +1,4 @@
++import {evergreenTemplates,installEvergreenShoots} from './evergreen-support.js';
+ import * as THREE from 'three';
+ import terrainDesign from './terrain-design.json';
+ import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
+@@ -79,13 +80,18 @@
+  for(let j=0;j<steps;j++)for(let i=0;i<radial;i++){const a=j*radial+i,b=j*radial+(i+1)%radial,c=a+radial,d=b+radial;indices.push(a,b,c,b,d,c);}
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(ps,3));g.setIndex(indices);g.computeVertexNormals();g.setAttribute('uv',new THREE.Float32BufferAttribute(new Float32Array(ps.length/3*2),2));return {g,path};
+ }
+-export function planting(scene,materials){
++export function planting(scene,materials,hero){
++ const evergreens=evergreenTemplates(hero),evergreenShoots=[];
+  const rng=random(90812),wood=[],rootCenters=[],leafGroups={maple:[],distant:[],shrub:[]},UP=new THREE.Vector3(0,1,0);
+  const addBranch=(points,r0,r1,steps=7,radial=5)=>{const b=branch(points.map(p=>p.toArray()),r0,r1,steps,radial);wood.push(b.g);return b;};
+  const leaf=(p,direction,length,kind,roll,shade)=>leafGroups[kind].push({p,direction,roll,length,color:new THREE.Color().setRGB(.75*shade,.84*shade,.64*shade)});
+  function shortShoot(a,b,kind,exposure=1,leafSize=.052){
+   const middle=a.clone().lerp(b,.55).addScaledVector(UP,.016),twig=addBranch([a,middle,b],kind==='shrub'?.0015:.0017,.00045,3,3);
+   const axis=b.clone().sub(a).normalize(),across=new THREE.Vector3().crossVectors(axis,UP);if(across.lengthSq()<.01)across.set(1,0,0);across.normalize();
++  if(kind==='distant'){
++   for(let j=0;j<2;j++){const p=twig.path.getPoint(j?.64:.14),dir=axis.clone().addScaledVector(across,j?.34:-.24).addScaledVector(UP,.30+(j%2)*.12).normalize();evergreenShoots.push({p,direction:dir,length:.21+(.05*rng()),roll:rng()*Math.PI*2,shade:.85+.14*rng()});}
++   return;
++  }
+   // Bud clusters are deliberately short and unequal. Some inner nodes stay bare,
+   // while outward terminal buds carry a little more leaf area toward open sky.
+   const nodes=exposure<.65?[.38,.74,.91]:[.15,.32,.48,.62,.75,.88,.98];
+@@ -206,8 +212,10 @@
+  }
+  const groupStats=[];const transform=new THREE.Object3D(),forward=new THREE.Vector3(0,0,1);
+  for(const [kind,leaves]of Object.entries(leafGroups)){
++  if(!leaves.length)continue;
+   const geo=leafGeometry(kind),mesh=new THREE.InstancedMesh(geo,materials.leaves,leaves.length);mesh.name=kind==='maple'?'Branch attached garden leaves':'Branch attached '+kind+' garden leaves';
+   leaves.forEach((l,i)=>{transform.position.copy(l.p);transform.quaternion.setFromUnitVectors(forward,l.direction);transform.rotateZ(l.roll);transform.scale.set(l.length*(kind==='shrub'?1.24:1),l.length,l.length);transform.updateMatrix();mesh.setMatrixAt(i,transform.matrix);mesh.setColorAt(i,l.color);});mesh.castShadow=mesh.receiveShadow=true;mesh.instanceMatrix.needsUpdate=true;mesh.computeBoundingSphere();scene.add(mesh);groupStats.push({kind,instances:leaves.length,trianglesPerLeaf:geo.index.count/3,triangles:geo.index.count/3*leaves.length});
+  }
+- return {rootCenters,design:'Three authored axes with concentrated inner short branches concealing selected arms; compact multi-axial shrubs return toward the stones; closed distant leaves retain a lower triangle count',specimens:specimens.map(({name,origin,kind,arms})=>({name,origin,kind,primaryArms:arms.length})),shrubOrigins:shrubs.map(s=>s.origin),branchTriangles:woodMesh.geometry.attributes.position.count/3,leafInstances:groupStats.reduce((s,g)=>s+g.instances,0),leafTriangles:groupStats.reduce((s,g)=>s+g.triangles,0),leafGroups:groupStats,rootGroundHeightSamples:[...specimens.map(s=>[s.origin[0],s.origin[2]]),...shrubs.map(s=>s.origin)].map(([x,z])=>({x,z,groundY:groundHeight(x,z)}))};
+-}
++ const evergreenStats=installEvergreenShoots(scene,evergreens,evergreenShoots);
++ return {evergreenStats,rootCenters,design:'Three authored axes with concentrated inner short branches concealing selected arms; compact multi-axial shrubs return toward the stones; closed distant leaves retain a lower triangle count',specimens:specimens.map(({name,origin,kind,arms})=>({name,origin,kind,primaryArms:arms.length})),shrubOrigins:shrubs.map(s=>s.origin),branchTriangles:woodMesh.geometry.attributes.position.count/3,leafInstances:groupStats.reduce((s,g)=>s+g.instances,0),leafTriangles:groupStats.reduce((s,g)=>s+g.triangles,0),leafGroups:groupStats,rootGroundHeightSamples:[...specimens.map(s=>[s.origin[0],s.origin[2]]),...shrubs.map(s=>s.origin)].map(([x,z])=>({x,z,groundY:groundHeight(x,z)}))};
++}
+--- v01/scene.js
++++ v02/scene.js
+@@ -93,6 +93,10 @@
+  for(const x of [3.36,4.30])for(const z of [-2.82,-2.42])B([x,.484,z],[.056,.225,.056],'vertical');
+  B([3.54,.475,-1.85],[.42,.044,.39],'horizontal');
+  B([3.55,.424,-1.85],[.37,.053,.34],'tatami');
++ B([3.83,.696,-2.62],[.125,.06,.125],'vertical');
++ B([3.83,.844,-2.62],[.177,.238,.177],'lampShade');
++ for(const x of [3.736,3.924])B([x,.844,-2.62],[.014,.252,.197],'vertical');
++ B([3.83,.971,-2.62],[.196,.016,.197],'horizontal');
+  const rearZ=-6.20;
+  box([-2.20,.10,rearZ],[11.72,.22,.25],'foundation');
+  box([-2.20,.81,rearZ-.07],[11.72,1.37,.078],'rearWood');
+@@ -110,7 +114,7 @@
+  const ridge=new THREE.CylinderGeometry(.066,.066,11.94,10);ridge.rotateZ(Math.PI/2);ridge.translate(-2.20,1.81,rearZ);batch.add(ridge,'roof');
+  box([-2.20,1.59,rearZ+.467],[11.93,.11,.065],'lengthwise');
+  box([-2.20,1.54,rearZ+.01],[11.72,.09,.095],'lengthwise');
+- return {...batch.done(),version:'spatial-v01',houseYaw:yaw,frontEdge:housePoint([1.75,.3,.6]).toArray(),deckTop:.31,interiorFloorTop:.376,verandaSupportContacts:supportContacts,roomOpening:{front:housePoint([2.46,1.5,-.4]).toArray(),rear:housePoint([2.46,1.5,-2.8]).toArray(),yMin:.402,yMax:2.448},layers:['floorboards 44mm','support beams125mm','short posts200mm','buried foundation feet','grooved66mm threshold','158mm-deep posts','recessed room and alcove','separate joists/rafters/roof'],rearBoundaryZ:rearZ};
++ return {...batch.done(),version:'spatial-v02',houseYaw:yaw,frontEdge:housePoint([1.75,.3,.6]).toArray(),deckTop:.31,interiorFloorTop:.376,verandaSupportContacts:supportContacts,roomOpening:{front:housePoint([2.46,1.5,-.4]).toArray(),rear:housePoint([2.46,1.5,-2.8]).toArray(),yMin:.402,yMax:2.448},layers:['floorboards 44mm','support beams125mm','short posts200mm','buried foundation feet','grooved66mm threshold','158mm-deep posts','recessed room and alcove','separate joists/rafters/roof'],rearBoundaryZ:rearZ};
+ }
+ 
+ export async function loadGardenAssets(loader,study){if(['clay','material','normals'].includes(study))return null;return Promise.all([gardenMaterials(),loadGardenRocks(loader)]);}
+@@ -124,11 +128,11 @@
+   scene.add(new THREE.HemisphereLight('#ffffff','#9a9387',1.1));const key=new THREE.DirectionalLight('#fffaf0',3.4);key.position.set(-3.8,4.5,2.8);key.target.position.set(0,.9,0);key.castShadow=true;key.shadow.mapSize.set(2048,2048);Object.assign(key.shadow.camera,{left:-3,right:3,top:3,bottom:-3,near:.1,far:12});key.shadow.bias=-.0001;key.shadow.normalBias=.003;key.shadow.radius=5;scene.add(key,key.target);const fill=new THREE.DirectionalLight('#edf0f4',.55);fill.position.set(3,3,-2);scene.add(fill);return {scene,subject,key,ground,layout:'diagnostic'};
+  }
+  scene.background=new THREE.Color('#101e32');sky(scene);scene.fog=new THREE.FogExp2('#142337',.020);
+- const [m,rockAssets]=loadedAssets||await Promise.all([gardenMaterials(),loadGardenRocks()]);setGroundField(m.terrain.image);const ground=new THREE.Mesh(groundGeometry(),m.ground);ground.name='Continuous mineral gravel and growing moss';ground.receiveShadow=true;scene.add(ground);
++ const [m,rockAssets]=loadedAssets||await Promise.all([gardenMaterials(),loadGardenRocks()]);m.lampShade=new THREE.MeshStandardMaterial({color:'#d0c3a4',roughness:.96,metalness:0,emissive:'#d9a665',emissiveIntensity:new URLSearchParams(location.search).get('room-light')==='proposed'?.12:0});setGroundField(m.terrain.image);const ground=new THREE.Mesh(groundGeometry(),m.ground);ground.name='Continuous mineral gravel and growing moss';ground.receiveShadow=true;scene.add(ground);
+  const farGeometry=new THREE.PlaneGeometry(100,100);farGeometry.rotateX(-Math.PI/2);farGeometry.translate(0,-.029,0);const distantGround=new THREE.Mesh(farGeometry,m.ground);distantGround.name='Continuous distant mineral ground';distantGround.receiveShadow=true;scene.add(distantGround);
+  const built=architecture(scene,m,layout);
+  const rocks=placeGardenRocks(scene,rockAssets,m);
+- const plants=planting(scene,m,layout);
++ const plants=planting(scene,m,hero);
+  scene.updateMatrixWorld(true);const rootRay=new THREE.Raycaster();
+  const foundation=scene.getObjectByName('Garden architecture foundation');
+  for(const row of built.verandaSupportContacts){
+@@ -152,7 +156,8 @@
+  const proposedRoom=new URLSearchParams(location.search).get('room-light')==='proposed';
+  const roomPoint=p=>new THREE.Vector3(p[0]-2.46,p[1],p[2]-.60).applyAxisAngle(new THREE.Vector3(0,1,0),-.21).add(proposedRoom?new THREE.Vector3(1.72,0,-1.35):new THREE.Vector3(2.08,0,.15));
+  const room=new THREE.SpotLight('#ffd4a0',18,7,.82,1,2);room.position.copy(roomPoint([3.96,2.49,-.88]));room.target.position.copy(roomPoint([3.84,1.05,-4.38]));room.castShadow=true;room.shadow.mapSize.set(1024,1024);room.shadow.camera.near=.12;room.shadow.camera.far=7;room.shadow.bias=-.00015;room.shadow.normalBias=.003;room.shadow.radius=4;scene.add(room,room.target);
+- const roomBounce=new THREE.PointLight('#ecd0a4',2.5,3.6,2);roomBounce.position.copy(roomPoint([2.88,1.74,-1.72]));scene.add(roomBounce);
++ const roomBounce=new THREE.PointLight('#ecd0a4',proposedRoom?3.5:2.5,3.6,2);roomBounce.position.copy(roomPoint([2.88,1.74,-1.72]));scene.add(roomBounce);
++ if(proposedRoom){const lamp=new THREE.PointLight('#ffd4a0',1.1,3.1,2);lamp.position.copy(roomPoint([3.83,.844,-2.62]));lamp.name='Small room console lantern source';scene.add(lamp);}
+  const rearGlow=new THREE.SpotLight('#ddc5a0',8.4,5.5,.67,1,2);rearGlow.position.set(-3.70,.20,-3.1);rearGlow.target.position.set(-2.80,1.50,-3.7);scene.add(rearGlow,rearGlow.target);
+- return {scene,subject,key,ground,layout:'night-'+layout,metadata:{terrain:{version:'spatial-v01',rootContacts,heightSource:'One authored512px linear data field used by both geometry and material, generated in memory',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Spatial v01: rear room/eaves, real tiled boundary, receding canopies, massed moss/embedded stones; fixed hero and controlled light comparison',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:1024,porchFillPosition:roomBounce.position.toArray(),porchFill:'Weak room bounce approximation within the deep room; no emissive visible object'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightComparison:proposedRoom?'Room sources follow new architecture; hero key/exposure fixed':'All original world light positions and powers fixed for structure comparison',lightDesign:'Same cool sky/moon and hero key; moon now occluded by real architecture, warm concealed room lighting, no visible glow surface'}};
++ return {scene,subject,key,ground,layout:'night-'+layout,metadata:{terrain:{version:'spatial-v02',rootContacts,heightSource:'One authored512px linear data field used by both geometry and material, generated in memory',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Spatial v02: rear room/eaves, real tiled boundary, receding canopies, massed moss/embedded stones; fixed hero and controlled light comparison',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:1024,porchFillPosition:roomBounce.position.toArray(),porchFill:'Weak room bounce approximation within the deep room; no emissive visible object'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightComparison:proposedRoom?'Room sources follow new architecture; hero key/exposure fixed':'All original world light positions and powers fixed for structure comparison',lightDesign:'Same cool sky/moon and hero key; moon now occluded by real architecture, warm concealed room lighting, no visible glow surface'}};
+ }
