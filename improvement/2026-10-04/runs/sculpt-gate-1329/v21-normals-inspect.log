@@ -1,0 +1,6 @@
+00:00.109  translation      | WARNING Falling back to standard locale ("C")
+00:00.454  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/models/hero-v21.blend"
+{'has_custom_normals': False, 'attributes': ['Wood flow', '.select_vert', '.select_edge', '.select_poly', 'sharp_face', '.uv_select_vert', '.uv_select_edge', '.uv_select_face', 'position', '.edge_verts', '.corner_vert', '.corner_edge', 'Wood masks'], 'normal_apis': ['corner_normals', 'flip_normals', 'has_custom_normals', 'normals_domain', 'normals_split_custom_set', 'normals_split_custom_set_from_vertices', 'polygon_normals', 'vertex_normals']}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit
