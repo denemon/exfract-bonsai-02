@@ -1,0 +1,202 @@
+{
+  "pairs": [
+    {
+      "view": "garden",
+      "actual_camera": {
+        "position": [
+          0,
+          1.4138158484842958,
+          3.5945482984945594
+        ],
+        "target": [
+          0,
+          1.2401676708173655,
+          2.6097405454823512
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "hero_sha256": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d",
+      "visible_meshes": 93,
+      "foliage": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": false,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 868000,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      },
+      "exact_projection": {
+        "bounds": {
+          "left": 0.24078363627870186,
+          "right": 0.7385863442739385,
+          "top": 0.20864171121694242,
+          "bottom": 0.8808164324949355
+        },
+        "verticesProjected": 2567263
+      },
+      "hero_key": {
+        "name": "",
+        "type": "SpotLight",
+        "intensity": 70,
+        "color": "ffe0b5",
+        "position": [
+          -2.2,
+          3.4,
+          3.2
+        ],
+        "target": [
+          0,
+          0.72,
+          -0.4
+        ],
+        "castShadow": true,
+        "mapSize": [
+          2048,
+          2048
+        ]
+      },
+      "same_camera_fov_exposure_hero_attributes_matrices_lod_projection_key": true,
+      "changed_background_and_filter_declared": true
+    },
+    {
+      "view": "bonsai",
+      "actual_camera": {
+        "position": [
+          0,
+          1.283579715234098,
+          2.855942483735403
+        ],
+        "target": [
+          0,
+          1.1099315375671677,
+          1.871134730723195
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "hero_sha256": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d",
+      "visible_meshes": 93,
+      "foliage": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": false,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 868000,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      },
+      "exact_projection": {
+        "bounds": {
+          "left": 0.1695258329713365,
+          "right": 0.8054687321927343,
+          "top": 0.13011605512963642,
+          "bottom": 0.990176903108565
+        },
+        "verticesProjected": 2567263
+      },
+      "hero_key": {
+        "name": "",
+        "type": "SpotLight",
+        "intensity": 70,
+        "color": "ffe0b5",
+        "position": [
+          -2.2,
+          3.4,
+          3.2
+        ],
+        "target": [
+          0,
+          0.72,
+          -0.4
+        ],
+        "castShadow": true,
+        "mapSize": [
+          2048,
+          2048
+        ]
+      },
+      "same_camera_fov_exposure_hero_attributes_matrices_lod_projection_key": true,
+      "changed_background_and_filter_declared": true
+    },
+    {
+      "view": "wood",
+      "actual_camera": {
+        "position": [
+          -0.0198,
+          0.9147459843833567,
+          1.3456448898255176
+        ],
+        "target": [
+          -0.0198,
+          0.7410978067164263,
+          0.3608371368133093
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "hero_sha256": "ff3a5a3c674708473a334f7e8cd8f5a719d4a17fe4e90ec243333529d8bf3ed1",
+      "visible_meshes": 93,
+      "foliage": {
+        "level": "high",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 72,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 4670400,
+        "allocatedLeafTriangles": 4670400,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      },
+      "exact_projection": {
+        "bounds": {
+          "left": -0.2560494285087984,
+          "right": 1.2425146990266103,
+          "top": -0.4786951808054566,
+          "bottom": 1.570083052155361
+        },
+        "verticesProjected": 12022863
+      },
+      "hero_key": {
+        "name": "",
+        "type": "SpotLight",
+        "intensity": 70,
+        "color": "ffe0b5",
+        "position": [
+          -2.2,
+          3.4,
+          3.2
+        ],
+        "target": [
+          0,
+          0.72,
+          -0.4
+        ],
+        "castShadow": true,
+        "mapSize": [
+          2048,
+          2048
+        ]
+      },
+      "same_camera_fov_exposure_hero_attributes_matrices_lod_projection_key": true,
+      "changed_background_and_filter_declared": true
+    }
+  ],
+  "background": "R19 immutable old build and R20 physical geometry/material/room/tree light placement differ; hero material/geometry/key70/exposure1 fixed, hero PCF16\u21928 is declared micro shadow filtering change",
+  "wood": "Forced-high4.67M leaf allocation,93 visible model meshes including detailed leaves; diagnostic crop excluded from normal-performance claims",
+  "bare_diagnostic": "Separate strict-diagnostics/wood pair has8 visible native wood/fixtures and0 visible leaf groups; preserved as isolated-wood evidence, not used to claim detailed leaf comparison"
+}

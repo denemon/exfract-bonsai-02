@@ -1,0 +1,1 @@
+工程20の作業基準と暫定全景bestは工程19。既存5208/工程17/18/19を同pose/FOV/露出/hero key/hero SHA/lowLODで比較した。工程19の苔/石/植栽の連続性とスマホ柱競合の改善を重く見る。PC開口奥は18が優り、19のGPU退行は20で直す。完成品質合格ではなく改善版の選定。元root best archive/stateは凍結して保持する。独立レビューも選定支持。証跡qa/working-selection.jsonとselection-review.md。新しい高い塀/前障子/夜空は工程20で実表示採否を判断する。

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "candidate/public/stills/pc.webp",
+    "source": "qa/final-source/pc.jpg",
+    "source_sha256": "aab81d537771c9272a38b7c173e1c954179f7905795312d42627fbcffe648597",
+    "sha256": "3162cbabc53f011782e2598d01ff42881c467d6cb920c92699007315116fd4ed",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 167168,
+    "operation": "Full actual final Mac3D render format conversion, no crop/scene edits/beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-390.webp",
+    "source": "qa/final-source/mobile-390.jpg",
+    "source_sha256": "3357a72759bf31d580a3d6c1dbfa5ea44738cb243dd4526cc4cdac7764815699",
+    "sha256": "ad3d046cfc06ee65a691d48c170f43a3450528cde6642dcd37c76894cc1224f8",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 50916,
+    "operation": "Full actual final Mac3D render format conversion, no crop/scene edits/beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-320.webp",
+    "source": "qa/final-source/mobile-320.jpg",
+    "source_sha256": "514e6f6aae8822e821743917bedc93098a4843487999782fbb6105962093e059",
+    "sha256": "7213f247d3b8f23c3ef5fe7f357c882dcc71dfb5f3c172b6505a1345ae43d0b6",
+    "dimensions": [
+      320,
+      568
+    ],
+    "bytes": 27100,
+    "operation": "Full actual final Mac3D render format conversion, no crop/scene edits/beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-tall.webp",
+    "source": "qa/final-source/mobile-tall.jpg",
+    "source_sha256": "8f2f37b54f40387968e60ad97f366d622bf4eed9409f26fdafccd0025c1dd228",
+    "sha256": "5a9c7b7ef3cac0f99e1a156a75c0a841f2fdbc3e3b7a36a79b27c49ca8a64b7c",
+    "dimensions": [
+      320,
+      844
+    ],
+    "bytes": 41844,
+    "operation": "Full actual final Mac3D render format conversion, no crop/scene edits/beautification"
+  },
+  {
+    "file": "candidate/public/stills/wide.webp",
+    "source": "qa/final-source/wide.jpg",
+    "source_sha256": "d15fdbef131a1e3aefa678d982c0aa8d030d404445d13d3263e9d5b7a76e649e",
+    "sha256": "38790557691ae9cde2c22e7fe664829c1a022b8efba04da1696f62cdba26131c",
+    "dimensions": [
+      1920,
+      800
+    ],
+    "bytes": 178168,
+    "operation": "Full actual final Mac3D render format conversion, no crop/scene edits/beautification"
+  }
+]
