@@ -1,0 +1,18 @@
+{
+  "updated_at_jst": "2026-10-04T19:48:41.781894+09:00",
+  "phase": "Stage saved, verified and handed off",
+  "coarse_base": "models/hero-v20.blend",
+  "latest_model": "models/hero-v23-editable.blend",
+  "review": "REPORT.md",
+  "best_promoted": false,
+  "foliage_added": true,
+  "background_refined": false,
+  "midpoint_due_jst": "2026-10-04T19:58:24.273976+09:00",
+  "final_deadline_jst": "2026-10-10T23:00:00+09:00",
+  "functional_checks": 44,
+  "production_preview": "http://127.0.0.1:5190/",
+  "aesthetic_gate": "not passed",
+  "current_trial": null,
+  "production_model": "v23",
+  "complete": true
+}
