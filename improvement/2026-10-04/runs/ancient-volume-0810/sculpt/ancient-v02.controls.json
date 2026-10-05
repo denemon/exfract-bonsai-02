@@ -1,0 +1,164 @@
+{
+  "design": "Second and final structural candidate: broad front erosion returning into thick offset rear core, long structural face borders, short localized branch shoulders and unequal rooted support",
+  "trunk_sections": [
+    [
+      -0.09,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0.022,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0.13,
+      -0.022,
+      -0.015,
+      1.04,
+      1.04,
+      -0.22
+    ],
+    [
+      0.29,
+      -0.06,
+      -0.05,
+      1.0,
+      1.2,
+      -0.12
+    ],
+    [
+      0.44,
+      -0.085,
+      0.03,
+      0.87,
+      1.12,
+      0.43
+    ],
+    [
+      0.6,
+      0.025,
+      0.12,
+      0.86,
+      1.08,
+      0.6
+    ],
+    [
+      0.77,
+      0.05,
+      0.07,
+      0.87,
+      1.18,
+      0.22
+    ],
+    [
+      0.96,
+      -0.055,
+      -0.075,
+      0.84,
+      1.21,
+      -0.48
+    ],
+    [
+      1.12,
+      -0.09,
+      -0.11,
+      0.88,
+      1.16,
+      -0.35
+    ],
+    [
+      1.29,
+      -0.05,
+      0.055,
+      0.9,
+      1.13,
+      0.21
+    ],
+    [
+      1.45,
+      -0.015,
+      0.02,
+      0.98,
+      1.04,
+      0.25
+    ],
+    [
+      1.5572,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  ],
+  "wide_plane_depth": 0.55,
+  "outer_core_weight": 0.19,
+  "rear_core_weight": 0.13,
+  "branches": {
+    "First left living branch": {
+      "middle_calibre": 0.8,
+      "bend": [
+        0.0,
+        0.06,
+        -0.028499999999999998
+      ],
+      "upper_shoulder": 0.18,
+      "underside_cut": 0.28
+    },
+    "Rear ascending primary": {
+      "middle_calibre": 0.8,
+      "bend": [
+        0.021,
+        0.025500000000000002,
+        -0.015
+      ],
+      "upper_shoulder": 0.18,
+      "underside_cut": 0.28
+    },
+    "Right crown primary": {
+      "middle_calibre": 0.74,
+      "bend": [
+        0.0,
+        -0.039,
+        -0.033
+      ],
+      "upper_shoulder": 0.18,
+      "underside_cut": 0.28
+    },
+    "Upper left primary": {
+      "middle_calibre": 0.8,
+      "bend": [
+        -0.009000000000000001,
+        0.0315,
+        0.024
+      ],
+      "upper_shoulder": 0.18,
+      "underside_cut": 0.28
+    },
+    "Subordinate low right": {
+      "middle_calibre": 0.8,
+      "bend": [
+        0.0,
+        0.028499999999999998,
+        -0.012
+      ],
+      "upper_shoulder": 0.18,
+      "underside_cut": 0.28
+    }
+  },
+  "plane_width": 0.46,
+  "rim_weight": 0.14,
+  "root_left": 0.26,
+  "root_rear": 0.06,
+  "root_valley": 0.32,
+  "root_raise": 0.032,
+  "root_drop": 0.045,
+  "structural_crease": 0.44
+}

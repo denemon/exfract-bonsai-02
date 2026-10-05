@@ -1,0 +1,27 @@
+{
+  "source": "site/public/models/hero.glb",
+  "source_sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+  "source_bytes": 1453760,
+  "quality": "Original Draco geometry bytes, exact instance transforms and materials;12 high leaf prototypes fetched only on inspection. Authored high geometry envelopes preserved from actual decoded browser geometry.",
+  "files": {
+    "foliage-high.glb.gz": {
+      "bytes": 491629,
+      "sha256": "d8fe595dfa60595bad9796688476f3ff8d8429c109fa1b1f205a58cc456b2b10"
+    },
+    "foliage-high.glb": {
+      "bytes": 541416,
+      "sha256": "ec91e54f6eacc746b03452073d5dff57555fa96416d8c906f2afcfa7dca8dce7"
+    },
+    "hero-low.glb.gz": {
+      "bytes": 781479,
+      "sha256": "d7edb168b6fd94a2ffdefb702819670bc548c44e10ee4716ca576a1c5bbd34a4"
+    },
+    "hero-low.glb": {
+      "bytes": 926880,
+      "sha256": "b40ca7a13b9d5950c185b3769f70083aec69343a540e6de28db0c288c22e7a0f"
+    }
+  },
+  "initial_model_saving_bytes": 672281,
+  "detailed_template_count": 12,
+  "source_geometry_buffers_byte_identical": true
+}

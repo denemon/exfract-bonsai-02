@@ -1,0 +1,197 @@
+{
+  "method": "Same Mac M1 Pro, actual Chrome GPU EXT_disjoint_timer_query_webgl2;62 frames,first2 excluded,60 steady samples. PC1440x900/DPR1,390x844/DPR3 capped1.6. Baseline stage11 and final stage12 measured in same session.",
+  "rows": [
+    {
+      "name": "pc",
+      "baseline_median_ms": 11.121749,
+      "baseline_p95_ms": 16.244083,
+      "production_median_ms": 10.084874,
+      "production_p95_ms": 14.54875,
+      "p95_delta_ms": -1.6953329999999998,
+      "steady_triangles": 1204122,
+      "steady_draw_calls": 114,
+      "initial_inclusive_measured_max_ms": 23.312625,
+      "pixel_ratio": 1,
+      "target_15ms_met": true
+    },
+    {
+      "name": "mobile-390",
+      "baseline_median_ms": 10.497374,
+      "baseline_p95_ms": 14.835,
+      "production_median_ms": 9.66425,
+      "production_p95_ms": 12.802541,
+      "p95_delta_ms": -2.032459000000001,
+      "steady_triangles": 1109030,
+      "steady_draw_calls": 109,
+      "initial_inclusive_measured_max_ms": 22.093374,
+      "pixel_ratio": 1.6,
+      "target_15ms_met": true
+    }
+  ],
+  "development_first_pass": {
+    "pc": {
+      "medianMs": 8.89425,
+      "p95Ms": 12.249874,
+      "steadyTriangles": 1204122,
+      "sampleCount": 60
+    },
+    "mobile-390": {
+      "medianMs": 10.033125,
+      "p95Ms": 14.620749,
+      "steadyTriangles": 1109030,
+      "sampleCount": 60
+    },
+    "mobile-320": {
+      "medianMs": 9.205499,
+      "p95Ms": 12.305125,
+      "steadyTriangles": 1120730,
+      "sampleCount": 60
+    },
+    "wood-detail": {
+      "medianMs": 11.3085,
+      "p95Ms": 14.101541,
+      "steadyTriangles": 2860506,
+      "sampleCount": 60
+    },
+    "leaf-detail": {
+      "medianMs": 11.46625,
+      "p95Ms": 13.006833,
+      "steadyTriangles": 2349902,
+      "sampleCount": 60
+    }
+  },
+  "interpretation": "Final production p95 PC14.54875ms and39012.802541ms. Earlier development PC12.249874ms and39014.620749ms also retained; sampling variation prevents universal60fps or physical-phone claims. Initial-inclusive max23.312625/22.093374ms are measured camera renders, not the full first-load frame GPU duration.",
+  "low_network": {
+    "method": "Same actual Mac Chrome, profile, latency150ms,download200000B/s,cache disabled; per viewport one run. Paint opportunity is decode plus two RAFs, separate from actual first-paint/FCP.",
+    "rows": [
+      {
+        "name": "pc",
+        "baseline": {
+          "inline_paint_opportunity_ms": 402,
+          "paints": [
+            {
+              "name": "first-paint",
+              "startTime": 408
+            },
+            {
+              "name": "first-contentful-paint",
+              "startTime": 408
+            }
+          ],
+          "sharp_external_still_paint_opportunity_ms": 2085.5,
+          "threeD_ready_ms": 25384.799999952316,
+          "external_encoded_bytes": 4704745,
+          "detailed_geometry_requested": false
+        },
+        "final": {
+          "inline_paint_opportunity_ms": 395.5,
+          "paints": [
+            {
+              "name": "first-paint",
+              "startTime": 404
+            },
+            {
+              "name": "first-contentful-paint",
+              "startTime": 404
+            }
+          ],
+          "sharp_external_still_paint_opportunity_ms": 2076.7999999523163,
+          "threeD_ready_ms": 19941,
+          "external_encoded_bytes": 3730784,
+          "detailed_geometry_requested": false
+        }
+      },
+      {
+        "name": "mobile-390",
+        "baseline": {
+          "inline_paint_opportunity_ms": 474.10000002384186,
+          "paints": [
+            {
+              "name": "first-paint",
+              "startTime": 472
+            },
+            {
+              "name": "first-contentful-paint",
+              "startTime": 472
+            }
+          ],
+          "sharp_external_still_paint_opportunity_ms": 857.5,
+          "threeD_ready_ms": 24607.899999976158,
+          "external_encoded_bytes": 4575727,
+          "detailed_geometry_requested": false
+        },
+        "final": {
+          "inline_paint_opportunity_ms": 459,
+          "paints": [
+            {
+              "name": "first-paint",
+              "startTime": 464
+            },
+            {
+              "name": "first-contentful-paint",
+              "startTime": 464
+            }
+          ],
+          "sharp_external_still_paint_opportunity_ms": 859.2999999523163,
+          "threeD_ready_ms": 19208,
+          "external_encoded_bytes": 3603276,
+          "detailed_geometry_requested": false
+        }
+      },
+      {
+        "name": "mobile-320",
+        "baseline": {
+          "inline_paint_opportunity_ms": 451.5,
+          "paints": [
+            {
+              "name": "first-paint",
+              "startTime": 440
+            },
+            {
+              "name": "first-contentful-paint",
+              "startTime": 440
+            }
+          ],
+          "sharp_external_still_paint_opportunity_ms": 686.2999999523163,
+          "threeD_ready_ms": 24511.399999976158,
+          "external_encoded_bytes": 4562019,
+          "detailed_geometry_requested": false
+        },
+        "final": {
+          "inline_paint_opportunity_ms": 442.8000000715256,
+          "paints": [
+            {
+              "name": "first-paint",
+              "startTime": 432
+            },
+            {
+              "name": "first-contentful-paint",
+              "startTime": 432
+            }
+          ],
+          "sharp_external_still_paint_opportunity_ms": 676.8000000715256,
+          "threeD_ready_ms": 19094.800000071526,
+          "external_encoded_bytes": 3587450,
+          "detailed_geometry_requested": false
+        }
+      }
+    ]
+  },
+  "inspection_transfer": {
+    "case": "slow-inspection",
+    "ready": true,
+    "elapsed": 2679.399999976158,
+    "detailReady": true,
+    "highGroups": 36,
+    "canvas": "visible",
+    "requests": [
+      {
+        "name": "http://127.0.0.1:5206/models/foliage-high.glb.gz",
+        "encoded": 491629,
+        "duration": 2627.100000023842
+      }
+    ],
+    "text": ""
+  },
+  "temporal_visual_quality": "No continuous idle rendering; actual operation/LOD/failure tests passed. Flicker and aesthetic LOD transition are not judged by static screenshots."
+}
