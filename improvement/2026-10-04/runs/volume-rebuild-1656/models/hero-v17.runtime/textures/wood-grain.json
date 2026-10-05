@@ -1,0 +1,16 @@
+{
+  "kind": "authored material data; no lighting",
+  "size": [
+    1024,
+    2048
+  ],
+  "channels": [
+    "fibre colour",
+    "surface height",
+    "broken checks",
+    "mottling"
+  ],
+  "seed": 51004,
+  "sha256": "9535f567163a9e682cd1ea8537ed3fcd1f902fbd0be2a7a51d94510dd5692ce4",
+  "bytes": 2048644
+}

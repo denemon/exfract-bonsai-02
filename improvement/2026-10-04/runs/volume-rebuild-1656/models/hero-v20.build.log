@@ -1,0 +1,84 @@
+4.09s rear structural mass
+5.89s front weathered mass
+6.23s integrated right growth mass
+7.04s dominant left root flare
+7.34s front descending buttress
+7.92s right anchoring root
+8.51s rear root ridge
+9.39s left lower primary
+9.93s old torn branch shoulder
+10.47s root split shoulder
+11.20s left rear primary
+11.83s upper left primary
+12.45s crown right primary
+12.74s apex
+13.03s subordinate low right
+13.31s rear crown
+13.60s left lower front fork
+13.87s left lower rear fork
+14.16s left middle front fork
+14.43s upper left rear fork
+14.72s crown forward fork
+15.00s crown rear fork
+15.27s apex front fork
+15.55s apex left fork
+15.81s low right forward fork
+16.30s front right surface root
+16.80s front left surface root
+17.33s rear left surface root
+{"field": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v20.field.f32", "seconds": 18.65951425000094, "bytes": 226492416}
+{"implementation":"Installed Three.js 0.185.1 MarchingCubes","triangles":592260,"bytes":21321360}
+00:00.108  translation      | WARNING Falling back to standard locale ("C")
+/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/volume-rebuild-1656/sculpt/assemble.py:13: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  wood=bpy.data.materials.new('Sculpted wood shader');wood.diffuse_color=(.30,.28,.24,1);wood.use_nodes=True
+Info: Saved as "hero-v20.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+19:01:29 | INFO: Starting glTF 2.0 export
+19:01:31 | INFO: Extracting primitive: Implicit solid surface
+19:01:31 | INFO: Primitives created: 1
+19:01:31 | INFO: Extracting primitive: Continuous planted soil
+19:01:31 | INFO: Primitives created: 1
+19:01:31 | INFO: Extracting primitive: Cube.001
+19:01:31 | INFO: Primitives created: 1
+19:01:31 | INFO: Extracting primitive: Cube.002
+19:01:31 | INFO: Primitives created: 1
+19:01:31 | INFO: Extracting primitive: Cube.003
+19:01:31 | INFO: Primitives created: 1
+19:01:31 | INFO: Extracting primitive: Cube.004
+19:01:31 | INFO: Primitives created: 1
+19:01:31 | INFO: Extracting primitive: Low split natural bedding stone
+19:01:31 | INFO: Primitives created: 1
+19:01:31 | INFO: Extracting primitive: Shallow unglazed pot
+19:01:31 | INFO: Primitives created: 1
+19:01:31 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+19:01:31 | INFO: Draco encoder: Encoding mesh Continuous planted soil.
+19:01:31 | INFO: Draco encoder: Encoding mesh Low ceramic foot.
+19:01:31 | INFO: Draco encoder: Encoding mesh Low ceramic foot.001.
+19:01:31 | INFO: Draco encoder: Encoding mesh Low ceramic foot.002.
+19:01:31 | INFO: Draco encoder: Encoding mesh Low ceramic foot.003.
+19:01:31 | INFO: Draco encoder: Encoding mesh Low split natural bedding stone.
+19:01:31 | INFO: Draco encoder: Encoding mesh Shallow unglazed pot.
+19:01:31 | INFO: Finished glTF 2.0 export in 1.9662938117980957 s
+
+{"inspection": {"vertices": 295248, "faces": 590496, "components": [295248], "boundary_edges": 0, "nonmanifold_edges": 0, "signed_volume": 0.3007751884280203, "boundary_z_range": null}, "glb_bytes": 548148, "seconds": 11.474759250006173}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 70000 vertices, 420000 indices, raw size: 4480000, encoded size: 459355, compression ratio: 9.75
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 3936 vertices, 23040 indices, raw size: 203520, encoded size: 25414, compression ratio: 8.01
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5397 vertices, 12102 indices, raw size: 196908, encoded size: 42111, compression ratio: 4.68
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1440 vertices, 8628 indices, raw size: 63336, encoded size: 9336, compression ratio: 6.78
+
+Blender quit
+{"installed": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v20.glb", "archives": [{"file": "hero-v20.field.f32", "archive": "hero-v20.field.f32.gz", "bytes": 226492416, "archive_bytes": 22497381, "sha256": "f88cc1e4dc270149186e02dfc6b84ecf3d7001610ff9484fa7587e90b26e66ce"}, {"file": "hero-v20.triangles.f32", "archive": "hero-v20.triangles.f32.gz", "bytes": 21321360, "archive_bytes": 4904110, "sha256": "753a96b9578145cc2e81834abf32fccdb5dbac2d781a5d843a8ae745ff9e844d"}]}
