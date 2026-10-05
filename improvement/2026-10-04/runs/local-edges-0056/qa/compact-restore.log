@@ -1,0 +1,10 @@
+00:00.113  translation      | WARNING Falling back to standard locale ("C")
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+[{"record": "models/edge-v01.json", "record_sha256": "5ffe96333ec9a848b81901440289b7062ad0ee6c37c0004dde6d14c7b76cbbd7", "restored": true, "control_vertices": 2319, "control_faces": 2318, "uv_layers": {"flow_uv": 9270, "branch_uv": 9270, "metric_uv": 9270}, "subdivision": 1, "evaluated_vertices": 9272, "evaluated_triangles": 18540, "volume": 0.21754641746576978, "volume_error": 0.0, "components": [9272], "boundary_edges": 0, "nonmanifold_edges": 0, "nonadjacent_intersections": 0}, {"record": "models/edge-v02.json", "record_sha256": "0c5d7a63d6830df9fc65a158f36a6f4a1c4de2f006712e2ea2130721199b5b91", "restored": true, "control_vertices": 2319, "control_faces": 2318, "uv_layers": {"flow_uv": 9270, "branch_uv": 9270, "metric_uv": 9270}, "subdivision": 1, "evaluated_vertices": 9272, "evaluated_triangles": 18540, "volume": 0.21755099178402756, "volume_error": 0.0, "components": [9272], "boundary_edges": 0, "nonmanifold_edges": 0, "nonadjacent_intersections": 0}]
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

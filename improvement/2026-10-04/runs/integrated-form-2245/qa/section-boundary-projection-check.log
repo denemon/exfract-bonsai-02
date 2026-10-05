@@ -1,0 +1,14 @@
+00:00.117  translation      | WARNING Falling back to standard locale ("C")
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/sculpt/form.py", line 71, in <module>
+    assert source['name']==edit['name'];branches.append(fill_branch(source,edit['sections'],source['new_rings']))
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/sculpt/form.py", line 52, in fill_branch
+    assert angles[-1]-angles[0]<math.tau,(record['name'],angles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('First left living branch', [0.6005095198157168, 1.2851738406517057, 2.2959241218662014, 8.510538127933918, 10.289446187191828, 16.530424597145302, 22.782808889381815, 23.107262364890865, 24.17168144388801, 25.256897312088256])
+
+Error: script failed, file: 'sculpt/form.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit
