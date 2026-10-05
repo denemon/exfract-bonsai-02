@@ -1,0 +1,69 @@
+{
+  "renderer": "Blender5.2.1 Cycles,32 samples, denoised, Standard/exposure0/gamma1",
+  "core_native_loaded_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/carved-mass-1340/models/carved-v01-editable.blend",
+  "preview": "Sculpted root/body and primary/secondary branches, no leaves; neutral dry clay",
+  "proxy_pot_width": 1.6,
+  "soil_z": 0.36,
+  "proxy_not_production_scene": true,
+  "fixed_light_position": [
+    -2.2,
+    -3.5,
+    4.5
+  ],
+  "light_size": 4,
+  "light_energy": 450,
+  "views": [
+    {
+      "name": "neutral-main-front",
+      "yaw": 0,
+      "camera": [
+        0.0,
+        -4.099999904632568,
+        1.6649999618530273
+      ],
+      "target": [
+        0.0,
+        0.0,
+        1.0149999856948853
+      ],
+      "lens": 52,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "name": "neutral-main-left12",
+      "yaw": -12,
+      "camera": [
+        -0.8524379134178162,
+        -4.01040506362915,
+        1.6649999618530273
+      ],
+      "target": [
+        0.0,
+        0.0,
+        1.0149999856948853
+      ],
+      "lens": 52,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "name": "neutral-main-right12",
+      "yaw": 12,
+      "camera": [
+        0.8524379134178162,
+        -4.01040506362915,
+        1.6649999618530273
+      ],
+      "target": [
+        0.0,
+        0.0,
+        1.0149999856948853
+      ],
+      "lens": 52,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "native_resaved": false
+}

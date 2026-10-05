@@ -1,0 +1,23 @@
+{
+  "run": "carved-mass-1340",
+  "recorded_jst": "2026-10-05T15:50:57.178151+09:00",
+  "decision": "Relative background improvement saved, not production adoption; overall premium quality incomplete",
+  "priority": "Background first",
+  "candidate": "runs/carved-mass-1340/candidate",
+  "preview": "http://127.0.0.1:5210/",
+  "geometry_version": "spatial-v04",
+  "geometry_sha256": "89a0df0c3188adde1ce5088e16b5cf19193e30a439a1f95c581c7bb7aedd7822",
+  "field_sha256": "d693f80323ce6e7ce693dcb6098a0c29619a70f5c1085e94d577d325e4614e40",
+  "finish": "material-v01",
+  "room_light": "proposed",
+  "wood": "edge-v02/bark-connected-cedar-v2 unchanged, carved-v02 paused/unselected",
+  "production_adopted": false,
+  "overall_goal_complete": false,
+  "best_state_changed": false,
+  "evidence": "runs/carved-mass-1340/qa/final-summary.json",
+  "report": "runs/carved-mass-1340/RESULT.md",
+  "comparison": "runs/carved-mass-1340/comparison-final.html",
+  "historical_missing_external_files": 26,
+  "library_ids": [],
+  "runtime_model_metadata_verified": false
+}

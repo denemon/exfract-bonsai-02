@@ -1,0 +1,28 @@
+{
+  "vertices": 13002,
+  "faces": 26000,
+  "triangles": 26000,
+  "volume": 0.17697271306399107,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "nonadjacent_intersections": 0,
+  "components": [
+    13002
+  ],
+  "minimum_area": 1.930888629431138e-06,
+  "euler": 2,
+  "pre_carve_triangles": 76624,
+  "bounds": {
+    "min": [
+      -0.8613476753234863,
+      -0.20443224906921387,
+      0.23997020721435547
+    ],
+    "max": [
+      0.9646890163421631,
+      0.45576146245002747,
+      1.9616024494171143
+    ]
+  },
+  "aesthetic_pass": false
+}

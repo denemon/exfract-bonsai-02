@@ -1,0 +1,11 @@
+--- v03/vite.config.mjs
++++ v04/vite.config.mjs
+@@ -4,7 +4,7 @@
+ import {resolve} from 'node:path';
+ const here=fileURLToPath(new URL('.',import.meta.url)),run=resolve(here,'..'),formal='/Users/kazuki.tanaka/dev0/exfract-bonsai-02',base=resolve(run,'../ancient-volume-0810/site'),entry=resolve(base,'src/main.js');
+ const edits=[
+- ["yaw=baseYaw;pitch=Number(query.get('pitch')??(portrait?9:10));","if(query.get('composition')==='designed'&&portrait)baseYaw=ratio<.52?-42:-33;yaw=baseYaw;pitch=Number(query.get('pitch')??(portrait?(query.get('composition')==='designed'?8:9):10));"],
++ ["yaw=baseYaw;pitch=Number(query.get('pitch')??(portrait?9:10));","if(query.get('composition')==='designed'&&portrait)baseYaw=ratio<.52?-30:-33;yaw=baseYaw;pitch=Number(query.get('pitch')??(portrait?(query.get('composition')==='designed'?8:9):10));"],
+  ["import {createScene,loadGardenAssets} from './scene.js';","import {createScene,loadGardenAssets} from '/background-scene.js';"],
+  ["if(query.get('frame')==='shared'){for(const x of [-1.55,1.30])for(const y of [-.08,2.28])for(const z of [-.72,.68])","if(query.get('frame')==='shared'){for(const x of [-1.48,1.42])for(const y of [-.08,2.50])for(const z of [-.72,.68])"],
+  ["import './style.css';","import './style.css';\nimport {applyStructure,structuralMaterial} from '/carved-preview.js';"],

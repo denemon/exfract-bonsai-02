@@ -1,0 +1,14 @@
+{
+  "HANDOFF.md": {
+    "sha256": "5eaf5dcf4c315cea8efba00148256b3201522eaabeb31c01c29a3c17111814c7",
+    "bytes": 38873
+  },
+  "IMPROVEMENT_PLAN.md": {
+    "sha256": "9eef597f708fd066029e9d5fbbe68d280c267f90effad41ff0299600a962028b",
+    "bytes": 35608
+  },
+  "run-state.json": {
+    "sha256": "1ff8ec62df557ded2fbcf16e6f566c1cfbaa5c56e70522856b0359518c81ffdb",
+    "bytes": 9274
+  }
+}

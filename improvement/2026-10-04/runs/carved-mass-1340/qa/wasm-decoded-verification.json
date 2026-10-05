@@ -1,0 +1,11 @@
+{
+  "path": "/draco/draco_decoder.wasm",
+  "content_encoding": "gzip",
+  "compressed_bytes": 63458,
+  "decoded_bytes": 192420,
+  "actual_decoded_sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+  "read_only_source": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ancient-volume-0810/site/public/draco/draco_decoder.wasm",
+  "source_sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+  "decoded_matches_source": true,
+  "source_written": false
+}
