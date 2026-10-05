@@ -1,0 +1,11 @@
+00:00.177  translation      | WARNING Falling back to standard locale ("C")
+00:00.786  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/compact-mass-1106/models/compact-v01-editable.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+{"read_only_native": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/compact-mass-1106/models/compact-v01-editable.blend", "native_meshes": 1, "editable_control_vertices": 352, "editable_control_faces": 338, "position_error": 0.0, "faces_exact": true, "subdivision_level": 2, "vertex_groups": ["Broad forward deadwood planes", "Limited front-open valley", "Narrow live side behind deadwood", "Retained posterior structural core", "Uneven buried root supports", "Short low left shoulder", "Left rear shoulder support", "Rear upper primary", "Right upper support", "Rear descending subordinate"], "shared_collar_ids_exact": true, "evaluated_triangles": 11008, "volume": 0.21717711496367126, "boundary_edges": 0, "nonmanifold_edges": 0, "source_rewritten": false}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

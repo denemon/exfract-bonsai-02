@@ -1,0 +1,111 @@
+{
+  "records_saved": true,
+  "adopted_geometry": false,
+  "normal_pixel_invariance": 6,
+  "gpu": [
+    {
+      "name": "pc",
+      "stage12_p95_ms": 14.54875,
+      "stage13_p95_ms": 12.107125,
+      "stage13_median_ms": 10.155083,
+      "steady_triangles": 1204122,
+      "draw_calls": 114,
+      "renderer_dpr": 1,
+      "initial_inclusive_max_ms": 15.603458
+    },
+    {
+      "name": "mobile-390",
+      "stage12_p95_ms": 12.802541,
+      "stage13_p95_ms": 13.301249,
+      "stage13_median_ms": 10.041874,
+      "steady_triangles": 1109030,
+      "draw_calls": 109,
+      "renderer_dpr": 1.6,
+      "initial_inclusive_max_ms": 16.395125
+    },
+    {
+      "name": "mobile-320",
+      "stage12_p95_ms": null,
+      "stage13_p95_ms": 12.495166,
+      "stage13_median_ms": 9.407083,
+      "steady_triangles": 1120730,
+      "draw_calls": 110,
+      "renderer_dpr": 1.6,
+      "initial_inclusive_max_ms": 17.334708
+    }
+  ],
+  "loading": [
+    {
+      "name": "pc",
+      "stage12": {
+        "inline_paint_opportunity_ms": 395.5,
+        "fcp_ms": 404,
+        "external_still_paint_opportunity_ms": 2076.7999999523163,
+        "three_d_complete_ms": 19941,
+        "external_encoded_bytes": 3730784
+      },
+      "stage13": {
+        "inline_paint_opportunity_ms": 404.7999999523163,
+        "fcp_ms": 408,
+        "external_still_paint_opportunity_ms": 2337.5,
+        "three_d_complete_ms": 19765.899999976158,
+        "external_encoded_bytes": 3733189
+      },
+      "delta": {
+        "inline_paint_opportunity_ms": 9.299999952316284,
+        "fcp_ms": 4,
+        "external_still_paint_opportunity_ms": 260.7000000476837,
+        "three_d_complete_ms": -175.10000002384186,
+        "external_encoded_bytes": 2405
+      }
+    },
+    {
+      "name": "mobile-390",
+      "stage12": {
+        "inline_paint_opportunity_ms": 459,
+        "fcp_ms": 464,
+        "external_still_paint_opportunity_ms": 859.2999999523163,
+        "three_d_complete_ms": 19208,
+        "external_encoded_bytes": 3603276
+      },
+      "stage13": {
+        "inline_paint_opportunity_ms": 503.5,
+        "fcp_ms": 504,
+        "external_still_paint_opportunity_ms": 1068.5999999046326,
+        "three_d_complete_ms": 19262.199999928474,
+        "external_encoded_bytes": 3605681
+      },
+      "delta": {
+        "inline_paint_opportunity_ms": 44.5,
+        "fcp_ms": 40,
+        "external_still_paint_opportunity_ms": 209.29999995231628,
+        "three_d_complete_ms": 54.199999928474426,
+        "external_encoded_bytes": 2405
+      }
+    },
+    {
+      "name": "mobile-320",
+      "stage12": {
+        "inline_paint_opportunity_ms": 442.8000000715256,
+        "fcp_ms": 432,
+        "external_still_paint_opportunity_ms": 676.8000000715256,
+        "three_d_complete_ms": 19094.800000071526,
+        "external_encoded_bytes": 3587450
+      },
+      "stage13": {
+        "inline_paint_opportunity_ms": 465.60000002384186,
+        "fcp_ms": 460,
+        "external_still_paint_opportunity_ms": 798.6000000238419,
+        "three_d_complete_ms": 19136.399999976158,
+        "external_encoded_bytes": 3589855
+      },
+      "delta": {
+        "inline_paint_opportunity_ms": 22.799999952316284,
+        "fcp_ms": 28,
+        "external_still_paint_opportunity_ms": 121.79999995231628,
+        "three_d_complete_ms": 41.59999990463257,
+        "external_encoded_bytes": 2405
+      }
+    }
+  ]
+}

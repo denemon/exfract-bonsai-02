@@ -1,0 +1,10 @@
+00:00.108  translation      | WARNING Falling back to standard locale ("C")
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+{"version": "graph-v02", "positions_faces_exact": true, "vertices": 8754, "faces": 17500, "triangles": 17500, "volume": 0.12089786104494493, "expected_volume": 0.12089786104494493, "volume_absolute_error": 0.0, "boundary_edges": 0, "nonmanifold_edges": 0, "record_sha256": "3802bae4afe3b682ba2281c23afd11fa3662a7cce381aa0a1b5a4513105a995e", "native_saved": false, "candidate_adopted": false}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

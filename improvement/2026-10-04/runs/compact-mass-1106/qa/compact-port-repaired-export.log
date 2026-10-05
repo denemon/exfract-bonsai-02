@@ -1,0 +1,17 @@
+00:00.111  translation      | WARNING Falling back to standard locale ("C")
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+{"control_vertices": 348, "control_faces": 334, "evaluated_triangles": 10880, "volume": 0.21187841087720535, "boundary_edges": 0, "nonmanifold_edges": 0, "nonadjacent_intersections": 39, "connected_component_vertices": [5442], "minimum_face_area": 8.274252650153358e-06, "genus_expected": 0, "euler_characteristic": 2, "bounds": {"min": [-0.47924700379371643, -0.24025367200374603, 0.2874656617641449], "max": [1.3375415802001953, 0.35728058218955994, 2.187224864959717]}}
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/compact-mass-1106/sculpt/build_compact.py", line 100, in <module>
+    assert boundary==nonmanifold==len(pairs)==0 and len(components)==1 and min(areas)>1e-12 and volume>0 and len(tri)<=18540,inspection
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'control_vertices': 348, 'control_faces': 334, 'evaluated_triangles': 10880, 'volume': 0.21187841087720535, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'nonadjacent_intersections': 39, 'connected_component_vertices': [5442], 'minimum_face_area': 8.274252650153358e-06, 'genus_expected': 0, 'euler_characteristic': 2, 'bounds': {'min': [-0.47924700379371643, -0.24025367200374603, 0.2874656617641449], 'max': [1.3375415802001953, 0.35728058218955994, 2.187224864959717]}}
+
+Error: script failed, file: 'sculpt/build_compact.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit
