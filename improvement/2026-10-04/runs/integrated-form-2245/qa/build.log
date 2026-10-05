@@ -1,0 +1,24 @@
+
+> bonsai-integrated-major-form-study@1.0.0 build
+> node scripts/build.mjs
+
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 17 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                              17.08 kB │ gzip:  12.61 kB
+dist/assets/draco_wasm_wrapper-fZCQGLGb.js   58.45 kB
+dist/assets/draco_wasm_wrapper-DxJM36Ib.js   58.76 kB
+dist/assets/draco_decoder-Z1_iN-Ht.wasm     192.42 kB │ gzip:  64.11 kB
+dist/assets/draco_decoder-C32yEggz.wasm     285.74 kB │ gzip:  89.66 kB
+dist/assets/draco_decoder-fzg4nYZr.js       719.41 kB
+dist/assets/index-DVKFpQ5r.css                0.43 kB │ gzip:   0.26 kB
+dist/assets/index-Dw76r4Ay.js               624.35 kB │ gzip: 160.74 kB
+
+✓ built in 142ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

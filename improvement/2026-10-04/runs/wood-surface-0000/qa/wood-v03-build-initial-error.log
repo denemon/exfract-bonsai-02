@@ -1,0 +1,15 @@
+00:00.113  translation      | WARNING Falling back to standard locale ("C")
+00:00.466  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/models/integrated-v03.blend"
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/wood-surface-0000/sculpt/surface.py", line 96, in <module>
+    p0,p1=[mesh.vertices[i].co for i in e.vertices];mid=(p0+p1)*.5;z=mid.z-soil;c,rx,ry=guide(z);s=(mid.x-c.x)/rx;left,_,_=face_section(z)
+                                                                                                                           ~~~~~~~~~~~~^^^
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/wood-surface-0000/sculpt/surface.py", line 30, in face_section
+    rows=design['face'];k=next((i for i in range(len(rows)-1) if rows[i+1][0]>=z),len(rows)-2)
+         ~~~~~~^^^^^^^^
+KeyError: 'face'
+
+Error: script failed, file: 'sculpt/surface.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

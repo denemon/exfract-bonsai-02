@@ -1,0 +1,54 @@
+00:00.174  translation      | WARNING Falling back to standard locale ("C")
+00:00.766  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v20.blend"
+Irregular lower deadwood hollow 292029
+Open broken shoulder edge 290746
+Unequal upper split 289507
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+21:29:20 | INFO: Starting glTF 2.0 export
+21:29:21 | INFO: Extracting primitive: Implicit solid surface
+21:29:21 | INFO: Primitives created: 1
+21:29:21 | INFO: Extracting primitive: Continuous planted soil
+21:29:21 | INFO: Primitives created: 1
+21:29:21 | INFO: Extracting primitive: Cube.001
+21:29:21 | INFO: Primitives created: 1
+21:29:21 | INFO: Extracting primitive: Cube.002
+21:29:21 | INFO: Primitives created: 1
+21:29:21 | INFO: Extracting primitive: Cube.003
+21:29:21 | INFO: Primitives created: 1
+21:29:21 | INFO: Extracting primitive: Cube.004
+21:29:21 | INFO: Primitives created: 1
+21:29:21 | INFO: Extracting primitive: Low split natural bedding stone
+21:29:21 | INFO: Primitives created: 1
+21:29:21 | INFO: Extracting primitive: Shallow unglazed pot
+21:29:21 | INFO: Primitives created: 1
+21:29:21 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+21:29:21 | INFO: Draco encoder: Encoding mesh Continuous planted soil.
+21:29:21 | INFO: Draco encoder: Encoding mesh Low ceramic foot.
+21:29:21 | INFO: Draco encoder: Encoding mesh Low ceramic foot.001.
+21:29:21 | INFO: Draco encoder: Encoding mesh Low ceramic foot.002.
+21:29:21 | INFO: Draco encoder: Encoding mesh Low ceramic foot.003.
+21:29:21 | INFO: Draco encoder: Encoding mesh Low split natural bedding stone.
+21:29:21 | INFO: Draco encoder: Encoding mesh Shallow unglazed pot.
+21:29:21 | INFO: Finished glTF 2.0 export in 1.793609857559204 s
+
+{"inspection": {"vertices": 289507, "faces": 579018, "boundary_edges": 0, "nonmanifold_edges": 0, "signed_volume": 0.28593028668082227, "components": [289507], "root_vertices_changed": 62526}, "seconds": 14.996665499988012, "mesh_npz_bytes": 5304917, "glb_bytes": 651536}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 85480 vertices, 510000 indices, raw size: 5459200, encoded size: 562663, compression ratio: 9.70
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 3936 vertices, 23040 indices, raw size: 203520, encoded size: 25414, compression ratio: 8.01
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5397 vertices, 12102 indices, raw size: 196908, encoded size: 42111, compression ratio: 4.68
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1440 vertices, 8628 indices, raw size: 63336, encoded size: 9336, compression ratio: 6.78
+
+Blender quit
