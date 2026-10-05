@@ -1,0 +1,35 @@
+{
+  "ordinary_checks": 72,
+  "additional_checks": 7,
+  "normal_views_same_selected_production": 6,
+  "raw_paths": 42,
+  "unique_files": 31,
+  "gpu": [
+    {
+      "name": "pc",
+      "baseline_median_ms": 11.121749,
+      "baseline_p95_ms": 16.244083,
+      "production_median_ms": 10.084874,
+      "production_p95_ms": 14.54875,
+      "p95_delta_ms": -1.6953329999999998,
+      "steady_triangles": 1204122,
+      "steady_draw_calls": 114,
+      "initial_inclusive_measured_max_ms": 23.312625,
+      "pixel_ratio": 1,
+      "target_15ms_met": true
+    },
+    {
+      "name": "mobile-390",
+      "baseline_median_ms": 10.497374,
+      "baseline_p95_ms": 14.835,
+      "production_median_ms": 9.66425,
+      "production_p95_ms": 12.802541,
+      "p95_delta_ms": -2.032459000000001,
+      "steady_triangles": 1109030,
+      "steady_draw_calls": 109,
+      "initial_inclusive_measured_max_ms": 22.093374,
+      "pixel_ratio": 1.6,
+      "target_15ms_met": true
+    }
+  ]
+}

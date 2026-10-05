@@ -1,0 +1,3 @@
+{"name":"pc","inlineMs":402,"paints":[{"name":"first-paint","startTime":408},{"name":"first-contentful-paint","startTime":408}],"externalStillMs":2085.5,"threeDCompleteMs":25384.799999952316,"externalEncodedBytes":4704745}
+{"name":"mobile-390","inlineMs":474.10000002384186,"paints":[{"name":"first-paint","startTime":472},{"name":"first-contentful-paint","startTime":472}],"externalStillMs":857.5,"threeDCompleteMs":24607.899999976158,"externalEncodedBytes":4575727}
+{"name":"mobile-320","inlineMs":451.5,"paints":[{"name":"first-paint","startTime":440},{"name":"first-contentful-paint","startTime":440}],"externalStillMs":686.2999999523163,"threeDCompleteMs":24511.399999976158,"externalEncodedBytes":4562019}
