@@ -1,0 +1,200 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "devicePixelRatio": 1,
+      "gpu": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "vendor": "Google Inc. (Apple)"
+      },
+      "jsHeapBytes": 97464503,
+      "ready": true,
+      "canvasVisible": true,
+      "stats": {
+        "frames": 2,
+        "ready": true,
+        "reduced": true,
+        "firstFrameMs": 812.5,
+        "frameMs": [
+          155.5999999642372,
+          1.100000023841858
+        ],
+        "drawCalls": 66,
+        "triangles": 2572064,
+        "framing": {
+          "left": 0.25887688448352497,
+          "right": 0.6639621639404137,
+          "top": 0.1413013343278765,
+          "bottom": 0.8522604082313174
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "buffer": [
+          1440,
+          900
+        ],
+        "camera": {
+          "position": [
+            1.85,
+            1.5,
+            3.85
+          ],
+          "target": [
+            0.18,
+            0.83,
+            -0.12
+          ],
+          "fov": 38.5,
+          "portrait": false
+        },
+        "intervals": [
+          155.80000001192093
+        ]
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "still": {
+        "complete": true,
+        "width": 1920,
+        "src": "http://127.0.0.1:5184/still-desktop.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-390",
+      "devicePixelRatio": 1,
+      "gpu": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "vendor": "Google Inc. (Apple)"
+      },
+      "jsHeapBytes": 159716682,
+      "ready": true,
+      "canvasVisible": true,
+      "stats": {
+        "frames": 2,
+        "ready": true,
+        "reduced": true,
+        "firstFrameMs": 760.5999999642372,
+        "frameMs": [
+          128.69999998807907,
+          0.9000000357627869
+        ],
+        "drawCalls": 52,
+        "triangles": 2567552,
+        "framing": {
+          "left": 0.08425710126402935,
+          "right": 0.8765141490858497,
+          "top": 0.21326194882825722,
+          "bottom": 0.7748721323770352
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "buffer": [
+          390,
+          844
+        ],
+        "camera": {
+          "position": [
+            4.403583741131195,
+            1.45,
+            2.147771297028458
+          ],
+          "target": [
+            0.075,
+            0.82,
+            -0.065
+          ],
+          "fov": 43,
+          "portrait": true
+        },
+        "intervals": [
+          128.69999998807907
+        ]
+      },
+      "viewport": [
+        390,
+        844
+      ],
+      "still": {
+        "complete": true,
+        "width": 585,
+        "src": "http://127.0.0.1:5184/still-mobile.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-320",
+      "devicePixelRatio": 1,
+      "gpu": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "vendor": "Google Inc. (Apple)"
+      },
+      "jsHeapBytes": 215175223,
+      "ready": true,
+      "canvasVisible": true,
+      "stats": {
+        "frames": 2,
+        "ready": true,
+        "reduced": true,
+        "firstFrameMs": 720.3000000119209,
+        "frameMs": [
+          123.80000001192093,
+          0.800000011920929
+        ],
+        "drawCalls": 50,
+        "triangles": 2567528,
+        "framing": {
+          "left": 0.047446236555931054,
+          "right": 0.9199941397127465,
+          "top": 0.23749812697340383,
+          "bottom": 0.7459920663390148
+        },
+        "viewport": [
+          320,
+          932
+        ],
+        "buffer": [
+          320,
+          932
+        ],
+        "camera": {
+          "position": [
+            5.140734027249486,
+            1.45,
+            1.4769187980894167
+          ],
+          "target": [
+            0.075,
+            0.82,
+            -0.065
+          ],
+          "fov": 43,
+          "portrait": true
+        },
+        "intervals": [
+          123.80000001192093
+        ]
+      },
+      "viewport": [
+        320,
+        932
+      ],
+      "still": {
+        "complete": true,
+        "width": 480,
+        "src": "http://127.0.0.1:5184/still-320.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": []
+}

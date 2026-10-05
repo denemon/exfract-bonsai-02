@@ -1,0 +1,138 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "devicePixelRatio": 1,
+      "gpu": null,
+      "jsHeapBytes": 806997,
+      "ready": false,
+      "canvasVisible": false,
+      "viewport": [
+        1440,
+        900
+      ],
+      "still": {
+        "complete": true,
+        "width": 2880,
+        "src": "http://127.0.0.1:5185/still-desktop.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-390",
+      "devicePixelRatio": 1,
+      "gpu": null,
+      "jsHeapBytes": 1056392,
+      "ready": false,
+      "canvasVisible": false,
+      "viewport": [
+        390,
+        844
+      ],
+      "still": {
+        "complete": true,
+        "width": 780,
+        "src": "http://127.0.0.1:5185/still-mobile.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-320",
+      "devicePixelRatio": 1,
+      "gpu": null,
+      "jsHeapBytes": 1305933,
+      "ready": false,
+      "canvasVisible": false,
+      "viewport": [
+        320,
+        932
+      ],
+      "still": {
+        "complete": true,
+        "width": 640,
+        "src": "http://127.0.0.1:5185/still-320.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "landscape",
+      "devicePixelRatio": 1,
+      "gpu": null,
+      "jsHeapBytes": 1555411,
+      "ready": false,
+      "canvasVisible": false,
+      "viewport": [
+        844,
+        390
+      ],
+      "still": {
+        "complete": true,
+        "width": 1688,
+        "src": "http://127.0.0.1:5185/still-landscape.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-390-short",
+      "devicePixelRatio": 1,
+      "gpu": null,
+      "jsHeapBytes": 1805063,
+      "ready": false,
+      "canvasVisible": false,
+      "viewport": [
+        390,
+        740
+      ],
+      "still": {
+        "complete": true,
+        "width": 780,
+        "src": "http://127.0.0.1:5185/still-portrait-medium.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-320-short",
+      "devicePixelRatio": 1,
+      "gpu": null,
+      "jsHeapBytes": 2054482,
+      "ready": false,
+      "canvasVisible": false,
+      "viewport": [
+        320,
+        568
+      ],
+      "still": {
+        "complete": true,
+        "width": 640,
+        "src": "http://127.0.0.1:5185/still-portrait-short.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "portrait-wide",
+      "devicePixelRatio": 1,
+      "gpu": null,
+      "jsHeapBytes": 2306032,
+      "ready": false,
+      "canvasVisible": false,
+      "viewport": [
+        768,
+        1024
+      ],
+      "still": {
+        "complete": true,
+        "width": 1536,
+        "src": "http://127.0.0.1:5185/still-portrait-wide.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": []
+}

@@ -1,0 +1,28 @@
+{
+  "created_at_jst": "2026-10-04T11:19:26+09:00",
+  "archive": "editable-sculpt.tar.gz",
+  "archive_sha256": "2c320b41062b94d8f6f0446b01f78393b9c6e67f4523b7ebe6a822e9fe00f613",
+  "files": {
+    "generate.py": {
+      "bytes": 12172,
+      "sha256": "bd7815994221e57d6b09043867df36f2da7446696321680b0206b8a0d44c1965"
+    },
+    "surface.py": {
+      "bytes": 5593,
+      "sha256": "fe4af6741720bb1c29d8d3327ebf65bf6d318cf1235d2a691fb2da0e78f08063"
+    },
+    "asset-metadata.json": {
+      "bytes": 250,
+      "sha256": "a3429c45a8ee7a89dc60c095ccda62c88737db60cf696a6bfa33344ad31e0663"
+    },
+    "bonsai-structural-study.blend": {
+      "bytes": 24378723,
+      "sha256": "2efd45f7e396f4d5b03e60831c27e1ed8df73aec526280ea173670a319819e2f"
+    },
+    "bonsai-structural-study-textured.blend": {
+      "bytes": 30267955,
+      "sha256": "e25b1865316a41e6ac8b78abf1a80c8605e3a73f7d67ed7026971704f3c66f22"
+    }
+  },
+  "status": "unadopted structural prototype"
+}

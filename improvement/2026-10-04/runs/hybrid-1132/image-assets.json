@@ -1,0 +1,29 @@
+[
+  {
+    "source": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/images/desktop-candidate01.png",
+    "served": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/image-preview/public/desktop.webp",
+    "pixels": [
+      1586,
+      992
+    ],
+    "bytes": 658072
+  },
+  {
+    "source": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/images/portrait-candidate03.png",
+    "served": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/image-preview/public/portrait.webp",
+    "pixels": [
+      852,
+      1846
+    ],
+    "bytes": 650760
+  },
+  {
+    "source": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/images/portrait-tall-candidate01.png",
+    "served": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/image-preview/public/tall.webp",
+    "pixels": [
+      734,
+      2141
+    ],
+    "bytes": 635768
+  }
+]

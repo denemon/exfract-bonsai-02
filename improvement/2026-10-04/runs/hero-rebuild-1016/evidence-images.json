@@ -1,0 +1,131 @@
+{
+  "library_upload": "not performed; latest instruction prohibits external image uploads",
+  "images": [
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final/desktop.png",
+      "bytes": 1363577,
+      "sha256": "a8d0a2201a0b02d2e77b9843f588f82fe272b62aff0d81e05a786809cc1c25b3",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final/mobile-390.png",
+      "bytes": 348590,
+      "sha256": "eb0a20ecb11e4a031365773392f9eaa259161ad28302fdb3b159fd70e0ec09ce",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final/mobile-320.png",
+      "bytes": 309434,
+      "sha256": "20c5daaf1333d11c61fcba0eb46bb391a2f21c3a40fb3161393556ac0c391dfa",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final-retina/desktop.png",
+      "bytes": 4608195,
+      "sha256": "c60c0f5b13b061559ad295486329adaaa6626200107fbb34570f1760e1dcaefa",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final-retina/mobile-390.png",
+      "bytes": 1161590,
+      "sha256": "22ef108dbd8a5f6803061d49a6d1792f8437a77c26b16a2d51b0ee16ba45a59c",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final-retina/mobile-320.png",
+      "bytes": 1024685,
+      "sha256": "66364450fa22c746677363b09339cedffecf64d59ddbd0d6276515964cc6da91",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/fallback/fallback-desktop.png",
+      "bytes": 1293650,
+      "sha256": "39b509c3a75ef0eb9ea685aa7bb0f17bcee15d044978ff4ee9e6629459a16cfd",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/fallback/fallback-mobile-390.png",
+      "bytes": 324742,
+      "sha256": "67c8011edac3257bd6036948281b79eac01dafa2a91bd3c525adc2e13c9b903d",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/fallback/fallback-mobile-320.png",
+      "bytes": 285748,
+      "sha256": "d8722b4daee2b14cbdefe85f2513fc4cb945fea4b49546358e97b915f0905bf4",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/loading/loading-desktop.png",
+      "bytes": 1293650,
+      "sha256": "39b509c3a75ef0eb9ea685aa7bb0f17bcee15d044978ff4ee9e6629459a16cfd",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/loading/loading-mobile-390.png",
+      "bytes": 324742,
+      "sha256": "67c8011edac3257bd6036948281b79eac01dafa2a91bd3c525adc2e13c9b903d",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/loading/loading-mobile-320.png",
+      "bytes": 285748,
+      "sha256": "d8722b4daee2b14cbdefe85f2513fc4cb945fea4b49546358e97b915f0905bf4",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/same-camera/desktop.png",
+      "bytes": 1407528,
+      "sha256": "d580a05a57dd7d8a41f78b95871b39ea1e421ec938a75de569bf8a028469ac52",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/same-camera/mobile-390.png",
+      "bytes": 347887,
+      "sha256": "bea3fdf2a9766318d227ec4cd5ca5bb7e7bf51007ec0f398de5acb8d4929d0dd",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/same-camera/mobile-320.png",
+      "bytes": 300790,
+      "sha256": "1350ef0f19b9b44fee692d45b752a70ba3d6439c5b78225a4f6db9aad0d9ee9e",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/control-clay-neutral/desktop.png",
+      "bytes": 336141,
+      "sha256": "35c3e9f3f8e343432844761930bc9b2c75c6aa61067f514513cc44b6917a0dc7",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/control-clay-neutral/mobile-390.png",
+      "bytes": 122189,
+      "sha256": "73ac3a97433b5dbcf150800405b04e107243e6652f33fbde4288e52ad071ca96",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/control-clay-neutral/mobile-320.png",
+      "bytes": 101438,
+      "sha256": "4d911cb9ccf9f03a411bae63dc1e0b3ec0558010b91a567bb4289c6517024893",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/candidate-clay-neutral/desktop.png",
+      "bytes": 324329,
+      "sha256": "1faa9402b610cef58a401068ef18c5688ef991dcc74d9ad7314f2a090e190230",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/candidate-clay-neutral/mobile-390.png",
+      "bytes": 122196,
+      "sha256": "b5b2eeda3348dd6d25a47370661f7832a5a63bc7448e6f25a0476b56fd69d1d0",
+      "library_file_id": null
+    },
+    {
+      "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/candidate-clay-neutral/mobile-320.png",
+      "bytes": 102541,
+      "sha256": "7d1979f408cce7ab19890360bfb2ad5c324219ea85a59a3e944b298ff903783f",
+      "library_file_id": null
+    }
+  ]
+}

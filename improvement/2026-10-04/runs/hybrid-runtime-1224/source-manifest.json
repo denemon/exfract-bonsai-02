@@ -1,0 +1,61 @@
+{
+  "root": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-runtime-1224/site",
+  "files": {
+    ".gitignore": {
+      "bytes": 24,
+      "sha256": "55287f2a22ec8bb2ce9ad7f479c2d1efede7ea24ced32910e7f6c0519acecc15"
+    },
+    "README.md": {
+      "bytes": 3305,
+      "sha256": "5fdeb372323bd7d923fe170abc89fe4af19d5dfe8b6add09d724bf687fb466ef"
+    },
+    "index.html": {
+      "bytes": 1172,
+      "sha256": "9b82a782fa6c5213d5ba247eb5d0d3a75ccc0a3da0530a617b3b59984a8c17b0"
+    },
+    "package-lock.json": {
+      "bytes": 7719,
+      "sha256": "74aefa5c65931e8ec1a885bd3979aa8709f13f39b9ce6aa7afde4b7b0688d73e"
+    },
+    "package.json": {
+      "bytes": 422,
+      "sha256": "dcdb33fbd6a6af4256d4291618d6b6b97879f1706926c0463340d0749fdfa15f"
+    },
+    "public/desktop.webp": {
+      "bytes": 658072,
+      "sha256": "0d116e61f8d32c5d5c2a5f50b41ea07f48420fb04530174bc95cb0c902c2fcfe"
+    },
+    "public/portrait.webp": {
+      "bytes": 650760,
+      "sha256": "0ccfce8fe42647099aa8fb0bf8724a847f63ff077001d52b7d650e34d55682db"
+    },
+    "public/square.webp": {
+      "bytes": 693626,
+      "sha256": "0db1d59d919dd5299ab09034825f8439c7fc73c789e9810d6bb9a189b2ba11ab"
+    },
+    "public/tall.webp": {
+      "bytes": 635768,
+      "sha256": "41ce3e1cdf8785e552e487a50632f90f0d6b14fe16cfaf01ca98d053902a5dc8"
+    },
+    "public/wide.webp": {
+      "bytes": 676418,
+      "sha256": "fd68f6a722593c6ca9f792e88f27e44463d582af79573764aef7520e110437bd"
+    },
+    "scripts/browser-qa.mjs": {
+      "bytes": 10294,
+      "sha256": "9be421583d2094e038868203093b45a0ca8a758e2d8c92470270dc1dfcb0e341"
+    },
+    "src/main.js": {
+      "bytes": 5163,
+      "sha256": "3ebec9fe0921fe41baffcfa28fd3b0b83a51ddfa6645195c31963469003eaf38"
+    },
+    "src/relief.js": {
+      "bytes": 4063,
+      "sha256": "bb41a4a3df256aebcf81e6f9d40d67f31164653865e3b797aa6be9b5d59c42cd"
+    },
+    "src/style.css": {
+      "bytes": 482,
+      "sha256": "138dac777e8885f162553579d3c97a643a2af0bb3aae5abc3a95015c327af16d"
+    }
+  }
+}

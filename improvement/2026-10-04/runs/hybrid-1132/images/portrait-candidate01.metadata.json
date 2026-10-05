@@ -1,0 +1,12 @@
+{
+  "path": "/Users/kazuki.tanaka/Documents/Codex/2026-10-04/task-2/hybrid-1132-images/portrait-candidate01.png",
+  "bytes": 2768881,
+  "pixels": [
+    852,
+    1847
+  ],
+  "sha256": "528485035c2a9f676a7cb5f99c57443608059e4c1e98a576728e17fa751edf22",
+  "source": "image_gen PNG bytes, unchanged",
+  "reference_input": "verified local desktop-candidate01.png passed to imagegen",
+  "review": "Same tree/garden identity is strong. Too much sky and foreground; left foliage touches image edge. Not the final mobile composition."
+}
