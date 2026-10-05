@@ -1,0 +1,27 @@
+{
+  "run": "irregular-volume-1200",
+  "adopted": false,
+  "overall_goal_complete": false,
+  "selected": "protected edge-v02 / space-v2 / night-b / load-pcf8-v1",
+  "core_gray_candidates": [
+    "patch-v01",
+    "patch-v02"
+  ],
+  "full_structure_diagnostic": "primary-structure-v01",
+  "body_cell_third_revision": false,
+  "primary_trial_body_inputs_same_as_v02": true,
+  "geometry_gate_attempts": 3,
+  "failed_mesh_geometry_gates": 0,
+  "initial_gray_qa_helper_repaired": true,
+  "neutral_macro_gate": "failed: smooth fin, arms and rounded root seat",
+  "night_scene_gate": "failed: exposed fin, distant separate crown arms and support-like twigs",
+  "surface_finishing_passes": 0,
+  "production_visual_changes": 0,
+  "new_build": false,
+  "candidate_specific_fallback_created": false,
+  "steady_candidate_performance_verified": false,
+  "review": "qa/primary-structure-review.md",
+  "representative_browser_images": 10,
+  "library_ids": [],
+  "library_retries": 0
+}

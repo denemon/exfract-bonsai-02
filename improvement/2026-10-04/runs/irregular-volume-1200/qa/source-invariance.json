@@ -1,0 +1,16 @@
+{
+  "unchanged_shared_source": {
+    "index.html": "d8b71de18399092f5add807412ddc4176542d1e1dcea5c61f18441646b75e5b2",
+    "src/main.js": "30c3141eff81514255447caca801c42cd8ea2b65e3e6028fc8af4361872044f7",
+    "src/materials.js": "83df60dcac9879a4e35ed60a450acbea3f4e8cbfd55a34decaa5777b5ee0daca",
+    "src/scene.js": "87a3b53e7937be589723f6ac2ab2882f35fbfd496bf49df4265ea55cf0ec03cb",
+    "src/foliage-lod.js": "b88ca2c80911a504ca00fe70ff3a6d9729fdfc90e711ac178878bdfab1a926f3"
+  },
+  "site_copies": 0,
+  "public_asset_copies": 0,
+  "production_source_changes": 0,
+  "harness_source_anchors": 7,
+  "shared_mutable_cache": "../hand-junction-1029/qa/vite-cache",
+  "new_production_build": false,
+  "new_renderer_or_material_finishing": false
+}

@@ -1,0 +1,150 @@
+{
+  "version": "primary-structure-v01",
+  "method": "Frozen v02 body, distinct left/upper/right primary mouths; whole structure diagnosis, unfinished bark",
+  "crowns": [
+    {
+      "id": 0,
+      "old": [
+        -0.93882731873481,
+        1.304323486617354,
+        0.06406711428139938
+      ],
+      "center": [
+        -1.01,
+        1.63,
+        0.03
+      ],
+      "scale": [
+        0.8,
+        0.95,
+        1
+      ],
+      "tip": [
+        -1.1,
+        1.58,
+        -0.005
+      ],
+      "support": "Manual context support; hidden secondary twigs inferred"
+    },
+    {
+      "id": 1,
+      "old": [
+        -0.6561848580052978,
+        1.6840443466839037,
+        -0.28390305685369593
+      ],
+      "center": [
+        -0.63,
+        1.84,
+        -0.25
+      ],
+      "scale": [
+        0.8,
+        0.9,
+        0.9
+      ],
+      "tip": [
+        -0.75,
+        1.52,
+        0.02
+      ],
+      "support": "Manual context support; hidden secondary twigs inferred"
+    },
+    {
+      "id": 2,
+      "old": [
+        -0.1519872690155171,
+        1.8432931756973268,
+        -0.15941630552256747
+      ],
+      "center": [
+        0.04,
+        2.1,
+        -0.18
+      ],
+      "scale": [
+        0.85,
+        0.9,
+        1
+      ],
+      "tip": [
+        0.12,
+        1.66,
+        -0.09
+      ],
+      "support": "Manual context support; hidden secondary twigs inferred"
+    },
+    {
+      "id": 3,
+      "old": [
+        0.40698952849459236,
+        1.9786915225318715,
+        -0.1672220496045237
+      ],
+      "center": [
+        0.48,
+        2.16,
+        -0.16
+      ],
+      "scale": [
+        0.9,
+        0.95,
+        1
+      ],
+      "tip": [
+        0.48,
+        1.95,
+        -0.04
+      ],
+      "support": "Manual context support; hidden secondary twigs inferred"
+    },
+    {
+      "id": 4,
+      "old": [
+        0.8391851922327822,
+        1.7044157380407507,
+        0.0597140775846459
+      ],
+      "center": [
+        0.78,
+        1.94,
+        0.06
+      ],
+      "scale": [
+        0.7,
+        0.85,
+        1
+      ],
+      "tip": [
+        0.48,
+        1.95,
+        -0.04
+      ],
+      "support": "Manual context support; hidden secondary twigs inferred"
+    },
+    {
+      "id": 5,
+      "old": [
+        0.8451316944930864,
+        0.951799919553425,
+        0.08954829798717781
+      ],
+      "center": [
+        1.05,
+        1.09,
+        0.025
+      ],
+      "scale": [
+        0.8,
+        0.85,
+        1
+      ],
+      "tip": [
+        1.07,
+        1.07,
+        0.025
+      ],
+      "support": "Manual context support; hidden secondary twigs inferred"
+    }
+  ]
+}
