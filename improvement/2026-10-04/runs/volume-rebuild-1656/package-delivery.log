@@ -1,0 +1,4 @@
+{"file": "stage-two-source.zip", "bytes": 93895125, "sha256": "1e8897f3d4cc6713cc044ed562233fd7056033fc72057113322144a50ebf5f27", "files_verified": 82}
+{"file": "production-build.zip", "bytes": 11402671, "sha256": "f14ce214d49fab2e4ec3b26e6b8686e8205884d5d3457c9057c5ddafeb31ed6b", "files_verified": 29}
+{"file": "evidence.zip", "bytes": 33253944, "sha256": "e0d5b32c4801db0b0bbc09d38e3a079c7a3b8e1c5a98268160a3ad727a4caedc", "files_verified": 58}
+Delivery files and all archive entry hashes verified
