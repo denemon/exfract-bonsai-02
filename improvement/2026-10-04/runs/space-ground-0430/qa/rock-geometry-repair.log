@@ -1,0 +1,31 @@
+00:00.105  translation      | WARNING Falling back to standard locale ("C")
+04:54:00 | INFO: Data are loaded, start creating Blender stuff
+04:54:00 | INFO: Blender create Mesh node rock_PROXY_5m.002
+04:54:00 | INFO: glTF import finished in 0.16s
+Info: Saved as "boulder_01.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+04:54:00 | INFO: Starting glTF 2.0 export
+04:54:00 | INFO: Extracting primitive: rock_PROXY_5m.002
+04:54:00 | INFO: Primitives created: 1
+04:54:00 | INFO: Draco encoder: Encoding mesh boulder_01_coherent_weathered_volume.
+04:54:00 | INFO: Finished glTF 2.0 export in 0.040068864822387695 s
+
+04:54:00 | INFO: Data are loaded, start creating Blender stuff
+04:54:00 | INFO: Blender create Mesh node realCap_Model_1
+04:54:00 | INFO: glTF import finished in 0.03s
+Info: Saved as "rock_09.blend"
+04:54:01 | INFO: Starting glTF 2.0 export
+04:54:01 | INFO: Extracting primitive: realCap_Model_1
+04:54:01 | INFO: Primitives created: 1
+04:54:01 | INFO: Draco encoder: Encoding mesh rock_09_coherent_weathered_volume.
+04:54:01 | INFO: Finished glTF 2.0 export in 0.02320694923400879 s
+
+ROCK_REPAIR [{"id": "boulder_01", "topology_imported": {"vertices": 61991, "edges": 154916, "faces": 66122, "boundary_edges": 111466, "wire_edges": 0}, "topology_welded": {"vertices": 33063, "edges": 99183, "faces": 66122, "boundary_edges": 0, "wire_edges": 0}, "topology_final": {"vertices": 11502, "edges": 34500, "faces": 23000, "boundary_edges": 0, "wire_edges": 0}, "runtime_triangles": 23000, "native": "assets/editable/boulder_01.blend", "native_bytes": 1081224, "native_sha256": "8495f66c59110b321a4e61d36735c6555204ef231144b230bf7a95546d533382", "glb": "site/public/rocks/boulder_01.glb", "glb_bytes": 139324, "glb_sha256": "152900074271b81042c260bfd6518d77b4ad5eec3777b76c652a59c91052f02c", "normalization": "Bottom z=0, centered XY, longest horizontal extent=1; glTF Y-up export", "geometry_only": true}, {"id": "rock_09", "topology_imported": {"vertices": 6210, "edges": 18624, "faces": 12416, "boundary_edges": 0, "wire_edges": 0}, "topology_welded": {"vertices": 6210, "edges": 18624, "faces": 12416, "boundary_edges": 0, "wire_edges": 0}, "topology_final": {"vertices": 6210, "edges": 18624, "faces": 12416, "boundary_edges": 0, "wire_edges": 0}, "runtime_triangles": 12416, "native": "assets/editable/rock_09.blend", "native_bytes": 479771, "native_sha256": "724b09b38727ae65e11cf6c6f54cc6d883eb32d1a24e26939bc3282902a1d106", "glb": "site/public/rocks/rock_09.glb", "glb_bytes": 65580, "glb_sha256": "c177081f5f6b8c317be25e2ae692753036fb347596c2d37cd943dbb307c9b7b6", "normalization": "Bottom z=0, centered XY, longest horizontal extent=1; glTF Y-up export", "geometry_only": true}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 14260 vertices, 69000 indices, raw size: 594192, encoded size: 138350, compression ratio: 4.29
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6628 vertices, 37248 indices, raw size: 286592, encoded size: 64619, compression ratio: 4.44
+
+Blender quit

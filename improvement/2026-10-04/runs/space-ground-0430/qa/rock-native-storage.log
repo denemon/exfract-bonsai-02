@@ -1,0 +1,10 @@
+00:00.107  translation      | WARNING Falling back to standard locale ("C")
+00:00.416  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/space-ground-0430/assets/editable/boulder_01.blend"
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/Documents/Codex/2026-10-04/task-2/space-ground-0430/externalize_native.py", line 8, in <module>
+    suffix=next((s for s in ['diff','nor_gl','arm'] if s in image.name),None);assert suffix,(image.name,image.filepath)
+                                                                                     ^^^^^^
+AssertionError: ('boulder_01_rough', '//../source/boulder_01/textures/boulder_01_arm_1k.jpg')
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit
