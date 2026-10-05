@@ -1,0 +1,20 @@
+{
+  "profile": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "reused": true,
+  "new_profiles": 0,
+  "allocated_bytes_start": 276295680,
+  "allocated_bytes_finish": 294576128,
+  "growth_bytes": 18280448,
+  "new_optimization_model_files": [],
+  "profile_directory_deletions": 0,
+  "manual_cache_pruning": false,
+  "old_profile_count": 55,
+  "old_profiles_deleted": 0,
+  "run_allocated_bytes_before_final_records": 11325440,
+  "combined_new_data_before_final_records": 29605888,
+  "preferred20MiB_met_before_records": false,
+  "hard100MiB_met": true,
+  "free_disk_bytes_before_final_records": 6885429248,
+  "generated_transient_vite_cache_bytes": 5378048,
+  "vite_cache": "Retained on disk; excluded from immutable deliverable manifest because a future diagnostic restart regenerates it."
+}

@@ -1,0 +1,16 @@
+{
+  "base": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ancient-volume-0810/site",
+  "index_sha256": "d8b71de18399092f5add807412ddc4176542d1e1dcea5c61f18441646b75e5b2",
+  "main_js_sha256": "30c3141eff81514255447caca801c42cd8ea2b65e3e6028fc8af4361872044f7",
+  "index_unchanged": true,
+  "entry_unchanged": true,
+  "six_in_memory_anchors": true,
+  "reference_links": {
+    "harness/index.html": "../../ancient-volume-0810/site/index.html",
+    "harness/src": "../../ancient-volume-0810/site/src"
+  },
+  "website_copies": 0,
+  "public_asset_copies": 0,
+  "production_source_changes": 0,
+  "production_adoption": false
+}

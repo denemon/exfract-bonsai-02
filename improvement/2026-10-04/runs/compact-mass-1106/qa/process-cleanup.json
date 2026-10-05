@@ -1,0 +1,14 @@
+{
+  "stopped_owned_server": {
+    "pid": 38398,
+    "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite --config vite.config.mjs --configLoader native --host 127.0.0.1 --port 5209 --strictPort",
+    "cwd": "p38398\nfcwd\nn/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/compact-mass-1106/harness\n"
+  },
+  "owned_port5209_listening_after": false,
+  "preserved_port5208_pid": 66758,
+  "preserved_server_untouched": true,
+  "dedicated_qa_chrome_processes_after": [],
+  "qa_profile_guard_exists_after": false,
+  "other_processes_stopped": 0,
+  "deliverable_deletions": 0
+}

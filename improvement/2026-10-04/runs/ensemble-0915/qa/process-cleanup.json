@@ -1,0 +1,34 @@
+{
+  "stopped_own_servers": [
+    {
+      "port": 5206,
+      "pid": 35290,
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5206 --strictPort",
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ancient-volume-0810/site",
+      "stopped": true,
+      "files_preserved": true
+    },
+    {
+      "port": 5207,
+      "pid": 59068,
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite --host 127.0.0.1 --port 5207 --strictPort --host 127.0.0.1 --port 5207",
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ensemble-0915/site",
+      "stopped": true,
+      "files_preserved": true
+    }
+  ],
+  "retained_final_server": {
+    "port": 5208,
+    "pid": 66758,
+    "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5208 --strictPort",
+    "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ensemble-0915/site"
+  },
+  "other_user_processes_stopped": 0,
+  "early_misplaced_preview": {
+    "pid": 57847,
+    "port": 5182,
+    "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02",
+    "stopped_only_after_verifying_own_command_and_cwd": true,
+    "tracked_source_change": false
+  }
+}

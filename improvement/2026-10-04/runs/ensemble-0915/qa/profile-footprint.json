@@ -1,0 +1,13 @@
+{
+  "profile": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "reused": true,
+  "new_profiles": 0,
+  "allocated_bytes_start": 245719040,
+  "allocated_bytes_finish": 276295680,
+  "growth_bytes": 30576640,
+  "new_optimization_model_files": [],
+  "profile_directory_deletions": 0,
+  "manual_cache_pruning": false,
+  "old_profile_count": 55,
+  "old_profiles_deleted": 0
+}
