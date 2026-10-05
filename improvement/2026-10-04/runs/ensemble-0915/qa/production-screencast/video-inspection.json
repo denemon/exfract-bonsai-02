@@ -1,0 +1,44 @@
+{
+  "movies": [
+    {
+      "mode": "pc",
+      "raw_frames": 22,
+      "recorded_duration_s": 2.200289011001587,
+      "median_capture_gap_s": 0.09999299049377441,
+      "rendered_frames": 133,
+      "raf_p95_ms": 16.700000000000273,
+      "raf_max_ms": 16.800000000000182,
+      "movie": "pc.mp4",
+      "movie_bytes": 734420,
+      "conversion": "Unmodified Chrome JPEG frames at original timestamp durations, H264 crf20; no compositing",
+      "lod_switches": 0
+    },
+    {
+      "mode": "mobile-390",
+      "raw_frames": 22,
+      "recorded_duration_s": 2.20066499710083,
+      "median_capture_gap_s": 0.10006499290466309,
+      "rendered_frames": 134,
+      "raf_p95_ms": 16.700000000000273,
+      "raf_max_ms": 16.800000000000182,
+      "movie": "mobile-390.mp4",
+      "movie_bytes": 435350,
+      "conversion": "Unmodified Chrome JPEG frames at original timestamp durations, H264 crf20; no compositing",
+      "lod_switches": 0
+    },
+    {
+      "mode": "leaf-detail",
+      "raw_frames": 22,
+      "recorded_duration_s": 2.1988422870635986,
+      "median_capture_gap_s": 0.0999901294708252,
+      "rendered_frames": 134,
+      "raf_p95_ms": 16.700000000000273,
+      "raf_max_ms": 16.800000000000182,
+      "movie": "leaf-detail.mp4",
+      "movie_bytes": 1395392,
+      "conversion": "Unmodified Chrome JPEG frames at original timestamp durations, H264 crf20; no compositing",
+      "lod_switches": 0
+    }
+  ],
+  "scope": "Short actual Mac Chrome recording, about10fps captured while actualRAF about60Hz. Fine full-rate temporal aliasing, physical phones and long sessions remain unverified."
+}

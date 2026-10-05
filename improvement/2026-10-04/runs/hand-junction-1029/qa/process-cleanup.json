@@ -1,0 +1,18 @@
+{
+  "stopped_only_owned_harness": {
+    "pid": 8025,
+    "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite --config vite.config.mjs --configLoader native --host 127.0.0.1 --port 5209 --strictPort",
+    "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hand-junction-1029/harness",
+    "port": 5209
+  },
+  "retained_production": {
+    "pid": 66758,
+    "url": "http://127.0.0.1:5208/",
+    "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5208 --strictPort",
+    "listening": true
+  },
+  "dedicated_qa_chrome_running": [],
+  "qa_profile_guard_present": false,
+  "other_processes_stopped": 0,
+  "deliverable_deletions": 0
+}

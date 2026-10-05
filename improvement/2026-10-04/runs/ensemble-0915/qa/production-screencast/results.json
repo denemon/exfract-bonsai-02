@@ -1,0 +1,3715 @@
+{
+  "results": [
+    {
+      "name": "pc",
+      "viewport": [
+        1440,
+        900
+      ],
+      "frames": [
+        {
+          "filename": "pc-000.jpg",
+          "timestamp": 1791161257.627987,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161257.627987
+          }
+        },
+        {
+          "filename": "pc-001.jpg",
+          "timestamp": 1791161257.730692,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161257.730692
+          }
+        },
+        {
+          "filename": "pc-002.jpg",
+          "timestamp": 1791161257.829459,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161257.829459
+          }
+        },
+        {
+          "filename": "pc-003.jpg",
+          "timestamp": 1791161257.928179,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161257.928179
+          }
+        },
+        {
+          "filename": "pc-004.jpg",
+          "timestamp": 1791161258.030374,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.030374
+          }
+        },
+        {
+          "filename": "pc-005.jpg",
+          "timestamp": 1791161258.127631,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.127631
+          }
+        },
+        {
+          "filename": "pc-006.jpg",
+          "timestamp": 1791161258.227631,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.227631
+          }
+        },
+        {
+          "filename": "pc-007.jpg",
+          "timestamp": 1791161258.327481,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.327481
+          }
+        },
+        {
+          "filename": "pc-008.jpg",
+          "timestamp": 1791161258.427368,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.427368
+          }
+        },
+        {
+          "filename": "pc-009.jpg",
+          "timestamp": 1791161258.527361,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.527361
+          }
+        },
+        {
+          "filename": "pc-010.jpg",
+          "timestamp": 1791161258.626762,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.626762
+          }
+        },
+        {
+          "filename": "pc-011.jpg",
+          "timestamp": 1791161258.72666,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.72666
+          }
+        },
+        {
+          "filename": "pc-012.jpg",
+          "timestamp": 1791161258.826146,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.826146
+          }
+        },
+        {
+          "filename": "pc-013.jpg",
+          "timestamp": 1791161258.927012,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161258.927012
+          }
+        },
+        {
+          "filename": "pc-014.jpg",
+          "timestamp": 1791161259.027142,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161259.027142
+          }
+        },
+        {
+          "filename": "pc-015.jpg",
+          "timestamp": 1791161259.126145,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161259.126145
+          }
+        },
+        {
+          "filename": "pc-016.jpg",
+          "timestamp": 1791161259.227085,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161259.227085
+          }
+        },
+        {
+          "filename": "pc-017.jpg",
+          "timestamp": 1791161259.325939,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161259.325939
+          }
+        },
+        {
+          "filename": "pc-018.jpg",
+          "timestamp": 1791161259.426717,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161259.426717
+          }
+        },
+        {
+          "filename": "pc-019.jpg",
+          "timestamp": 1791161259.526826,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161259.526826
+          }
+        },
+        {
+          "filename": "pc-020.jpg",
+          "timestamp": 1791161259.627952,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161259.627952
+          }
+        },
+        {
+          "filename": "pc-021.jpg",
+          "timestamp": 1791161259.728283,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161259.728283
+          }
+        }
+      ],
+      "method": "Actual Mac Chrome Page screencast, JPEG quality78 every sixth rendered frame, no frame compositing; continuous RAF 3.2 degree camera sinusoid for 2.2 seconds. This is a limited short capture, not a physical-phone or long-duration test.",
+      "motion": {
+        "durationMs": 2201.100000023842,
+        "frames": [
+          {
+            "timeMs": 0.30000007152557373,
+            "rafGapMs": null,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 18.100000023841858,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 34.60000002384186,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 51.300000071525574,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 68,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 84.60000002384186,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 101.30000007152557,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 118,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 134.60000002384186,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 151.20000004768372,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 167.20000004768372,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 184.60000002384186,
+            "rafGapMs": 16.800000000000068,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 201.30000007152557,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 217.39999997615814,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 233.60000002384186,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 251.30000007152557,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 267.89999997615814,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 284.60000002384186,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 301.3000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 317.89999997615814,
+            "rafGapMs": 16.799999999999955,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 334.60000002384186,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 351.10000002384186,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 368,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 384.60000002384186,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 401.3000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 417.89999997615814,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 434.60000002384186,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 451.10000002384186,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 467.2000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 484.60000002384186,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 500.60000002384186,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 517.8000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 533.8000000715256,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 551.3000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 567.8999999761581,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 584.7000000476837,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 601.2000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 617.8999999761581,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 634.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 651.2000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 667.8999999761581,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 684.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 701.3000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 718,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 734.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 751.2000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 767.1000000238419,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 784.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 801.3000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 817.8000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 834.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 851.3000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 867.7000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 884.6000000238419,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 901.2000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 917.8999999761581,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 934.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 950.8999999761581,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 967.5,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 984.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1001.1000000238419,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1017.8999999761581,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1034.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1050.3000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1067.8000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1084.1000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1101.2000000476837,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1117.8000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1134.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1150.7000000476837,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1168.1000000238419,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1184.1000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1200.6000000238419,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1216.8999999761581,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1234.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1251.2000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1267.8000000715256,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1284.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1300.2000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1317.3999999761581,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1334.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1351.2000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1367.8999999761581,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1384.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1401.2000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1417,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1434.3999999761581,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1451.2000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1467.8999999761581,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1484.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1501.3000000715256,
+            "rafGapMs": 16.800000000000182,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1517.8000000715256,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1534.1000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1551.2000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1568,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1583.7000000476837,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1601.2000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1617.8999999761581,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1634.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1650.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1667.5,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1684.6000000238419,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1700.3999999761581,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1717.8999999761581,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1734.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1751.2000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1767.8999999761581,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1783.6000000238419,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1801.2000000476837,
+            "rafGapMs": 16.800000000000182,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1817.3999999761581,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1834.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1850.7000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1867.8000000715256,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1884.3999999761581,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1901.2000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1917.8999999761581,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1934.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1951.2000000476837,
+            "rafGapMs": 16.800000000000182,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1967.3999999761581,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 1984.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2001.3000000715256,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2017.8000000715256,
+            "rafGapMs": 16.5,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2034.6000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2051.2000000476837,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2067.899999976158,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2085.2000000476837,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2101.100000023842,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2117.399999976158,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2134.8000000715256,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2151.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2168.100000023842,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2184.7000000476837,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          },
+          {
+            "timeMs": 2201.100000023842,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1204122
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile-390",
+      "viewport": [
+        390,
+        844
+      ],
+      "frames": [
+        {
+          "filename": "mobile-390-000.jpg",
+          "timestamp": 1791161260.509691,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161260.509691
+          }
+        },
+        {
+          "filename": "mobile-390-001.jpg",
+          "timestamp": 1791161260.6096,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161260.6096
+          }
+        },
+        {
+          "filename": "mobile-390-002.jpg",
+          "timestamp": 1791161260.70982,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161260.70982
+          }
+        },
+        {
+          "filename": "mobile-390-003.jpg",
+          "timestamp": 1791161260.810111,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161260.810111
+          }
+        },
+        {
+          "filename": "mobile-390-004.jpg",
+          "timestamp": 1791161260.910063,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161260.910063
+          }
+        },
+        {
+          "filename": "mobile-390-005.jpg",
+          "timestamp": 1791161261.009877,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.009877
+          }
+        },
+        {
+          "filename": "mobile-390-006.jpg",
+          "timestamp": 1791161261.109942,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.109942
+          }
+        },
+        {
+          "filename": "mobile-390-007.jpg",
+          "timestamp": 1791161261.211274,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.211274
+          }
+        },
+        {
+          "filename": "mobile-390-008.jpg",
+          "timestamp": 1791161261.313654,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.313654
+          }
+        },
+        {
+          "filename": "mobile-390-009.jpg",
+          "timestamp": 1791161261.412786,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.412786
+          }
+        },
+        {
+          "filename": "mobile-390-010.jpg",
+          "timestamp": 1791161261.509927,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.509927
+          }
+        },
+        {
+          "filename": "mobile-390-011.jpg",
+          "timestamp": 1791161261.608897,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.608897
+          }
+        },
+        {
+          "filename": "mobile-390-012.jpg",
+          "timestamp": 1791161261.709331,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.709331
+          }
+        },
+        {
+          "filename": "mobile-390-013.jpg",
+          "timestamp": 1791161261.80962,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.80962
+          }
+        },
+        {
+          "filename": "mobile-390-014.jpg",
+          "timestamp": 1791161261.910205,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161261.910205
+          }
+        },
+        {
+          "filename": "mobile-390-015.jpg",
+          "timestamp": 1791161262.011609,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161262.011609
+          }
+        },
+        {
+          "filename": "mobile-390-016.jpg",
+          "timestamp": 1791161262.109715,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161262.109715
+          }
+        },
+        {
+          "filename": "mobile-390-017.jpg",
+          "timestamp": 1791161262.2097,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161262.2097
+          }
+        },
+        {
+          "filename": "mobile-390-018.jpg",
+          "timestamp": 1791161262.310828,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161262.310828
+          }
+        },
+        {
+          "filename": "mobile-390-019.jpg",
+          "timestamp": 1791161262.409468,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161262.409468
+          }
+        },
+        {
+          "filename": "mobile-390-020.jpg",
+          "timestamp": 1791161262.512,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161262.512
+          }
+        },
+        {
+          "filename": "mobile-390-021.jpg",
+          "timestamp": 1791161262.610291,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 390,
+            "deviceHeight": 844,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161262.610291
+          }
+        }
+      ],
+      "method": "Actual Mac Chrome Page screencast, JPEG quality78 every sixth rendered frame, no frame compositing; continuous RAF 3.2 degree camera sinusoid for 2.2 seconds. This is a limited short capture, not a physical-phone or long-duration test.",
+      "motion": {
+        "durationMs": 2203.6999999284744,
+        "frames": [
+          {
+            "timeMs": 0.09999990463256836,
+            "rafGapMs": null,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 5.299999952316284,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 20.5,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 37.09999990463257,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 53.89999997615814,
+            "rafGapMs": 16.799999999999955,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 70.19999992847443,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 86.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 103.09999990463257,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 120.39999997615814,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 137.09999990463257,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 153.79999995231628,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 170.09999990463257,
+            "rafGapMs": 16.799999999999955,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 187.09999990463257,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 203.79999995231628,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 220.29999995231628,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 236.69999992847443,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 253.79999995231628,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 270.2999999523163,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 287.09999990463257,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 303.7999999523163,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 320.5,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 337.09999990463257,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 353.7999999523163,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 370.5,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 387.09999990463257,
+            "rafGapMs": 16.600000000000023,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 403.7999999523163,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 420.5,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 437.09999990463257,
+            "rafGapMs": 16.699999999999932,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 453.7999999523163,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 470.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 487.1999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 503.7999999523163,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 520.0999999046326,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 537.0999999046326,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 553.3999999761581,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 570.3999999761581,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 587.0999999046326,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 603.7999999523163,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 620.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 637.1999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 656.7999999523163,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 670.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 686.6999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 703.7999999523163,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 720.8999999761581,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 737.0999999046326,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 753.1999999284744,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 770.7999999523163,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 786.2999999523163,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 803.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 820.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 837.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 854.5999999046326,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 870.5999999046326,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 887.0999999046326,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 903.7999999523163,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 920.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 936.7999999523163,
+            "rafGapMs": 16.799999999999955,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 953.7999999523163,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 970.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 987.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1002.8999999761581,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1020.6999999284744,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1036.7999999523163,
+            "rafGapMs": 16.799999999999955,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1054.5,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1070.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1087.2999999523163,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1103.5999999046326,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1120.0999999046326,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1137.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1157.2999999523163,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1169.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1186.7999999523163,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1203,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1220.5999999046326,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1237.3999999761581,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1252.7999999523163,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1270.0999999046326,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1287.1999999284744,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1304.0999999046326,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1325.2999999523163,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1336.8999999761581,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1352.8999999761581,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1370.3999999761581,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1387.2999999523163,
+            "rafGapMs": 16.799999999999955,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1403,
+            "rafGapMs": 16.600000000000136,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1420.3999999761581,
+            "rafGapMs": 16.700000000000045,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1436.5999999046326,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1453.6999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1470.6999999284744,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1487.0999999046326,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1503.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1520.1999999284744,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1537.3999999761581,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1553.7999999523163,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1570.5999999046326,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1587,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1603.7999999523163,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1620.3999999761581,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1637.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1653.6999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1670.3999999761581,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1687.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1703.5999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1721.2999999523163,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1737.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1753.1999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1770.5,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1787.1999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1802.8999999761581,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1820,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1836.8999999761581,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1854.6999999284744,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1870.7999999523163,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1887,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1903.5999999046326,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1920.5,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1937.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1953.6999999284744,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1970.3999999761581,
+            "rafGapMs": 16.800000000000182,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 1987.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2003.1999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2020.3999999761581,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2037.1999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2053.1999999284744,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2070.5,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2087.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2103,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2120.399999976158,
+            "rafGapMs": 16.700000000000273,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2137.2999999523163,
+            "rafGapMs": 16.5,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2154.2999999523163,
+            "rafGapMs": 16.799999999999727,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2170.7999999523163,
+            "rafGapMs": 16.600000000000364,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2187.0999999046326,
+            "rafGapMs": 16.699999999999818,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          },
+          {
+            "timeMs": 2203.6999999284744,
+            "rafGapMs": 16.59999999999991,
+            "level": "low",
+            "highGroups": 0,
+            "triangles": 1109030
+          }
+        ]
+      }
+    },
+    {
+      "name": "leaf-detail",
+      "viewport": [
+        1440,
+        900
+      ],
+      "frames": [
+        {
+          "filename": "leaf-detail-000.jpg",
+          "timestamp": 1791161263.675638,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161263.675638
+          }
+        },
+        {
+          "filename": "leaf-detail-001.jpg",
+          "timestamp": 1791161263.775478,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161263.775478
+          }
+        },
+        {
+          "filename": "leaf-detail-002.jpg",
+          "timestamp": 1791161263.875468,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161263.875468
+          }
+        },
+        {
+          "filename": "leaf-detail-003.jpg",
+          "timestamp": 1791161263.975535,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161263.975535
+          }
+        },
+        {
+          "filename": "leaf-detail-004.jpg",
+          "timestamp": 1791161264.075548,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.075548
+          }
+        },
+        {
+          "filename": "leaf-detail-005.jpg",
+          "timestamp": 1791161264.175348,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.175348
+          }
+        },
+        {
+          "filename": "leaf-detail-006.jpg",
+          "timestamp": 1791161264.27542,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.27542
+          }
+        },
+        {
+          "filename": "leaf-detail-007.jpg",
+          "timestamp": 1791161264.374668,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.374668
+          }
+        },
+        {
+          "filename": "leaf-detail-008.jpg",
+          "timestamp": 1791161264.474945,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.474945
+          }
+        },
+        {
+          "filename": "leaf-detail-009.jpg",
+          "timestamp": 1791161264.575322,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.575322
+          }
+        },
+        {
+          "filename": "leaf-detail-010.jpg",
+          "timestamp": 1791161264.675427,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.675427
+          }
+        },
+        {
+          "filename": "leaf-detail-011.jpg",
+          "timestamp": 1791161264.774915,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.774915
+          }
+        },
+        {
+          "filename": "leaf-detail-012.jpg",
+          "timestamp": 1791161264.875232,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.875232
+          }
+        },
+        {
+          "filename": "leaf-detail-013.jpg",
+          "timestamp": 1791161264.975162,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161264.975162
+          }
+        },
+        {
+          "filename": "leaf-detail-014.jpg",
+          "timestamp": 1791161265.075127,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161265.075127
+          }
+        },
+        {
+          "filename": "leaf-detail-015.jpg",
+          "timestamp": 1791161265.175294,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161265.175294
+          }
+        },
+        {
+          "filename": "leaf-detail-016.jpg",
+          "timestamp": 1791161265.275262,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161265.275262
+          }
+        },
+        {
+          "filename": "leaf-detail-017.jpg",
+          "timestamp": 1791161265.37492,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161265.37492
+          }
+        },
+        {
+          "filename": "leaf-detail-018.jpg",
+          "timestamp": 1791161265.47505,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161265.47505
+          }
+        },
+        {
+          "filename": "leaf-detail-019.jpg",
+          "timestamp": 1791161265.575056,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161265.575056
+          }
+        },
+        {
+          "filename": "leaf-detail-020.jpg",
+          "timestamp": 1791161265.674797,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161265.674797
+          }
+        },
+        {
+          "filename": "leaf-detail-021.jpg",
+          "timestamp": 1791161265.77449,
+          "metadata": {
+            "offsetTop": 0,
+            "pageScaleFactor": 1,
+            "deviceWidth": 1440,
+            "deviceHeight": 900,
+            "scrollOffsetX": 0,
+            "scrollOffsetY": 0,
+            "timestamp": 1791161265.77449
+          }
+        }
+      ],
+      "method": "Actual Mac Chrome Page screencast, JPEG quality78 every sixth rendered frame, no frame compositing; continuous RAF 3.2 degree camera sinusoid for 2.2 seconds. This is a limited short capture, not a physical-phone or long-duration test.",
+      "motion": {
+        "durationMs": 2216.7000000476837,
+        "frames": [
+          {
+            "timeMs": 0.10000002384185791,
+            "rafGapMs": null,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 16.90000009536743,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 32.90000009536743,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 49.90000009536743,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 66.20000004768372,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 83.5,
+            "rafGapMs": 16.600000000000023,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 100.30000007152557,
+            "rafGapMs": 16.699999999999932,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 116.80000007152557,
+            "rafGapMs": 16.600000000000023,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 133.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 150.10000002384186,
+            "rafGapMs": 16.699999999999932,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 166.70000004768372,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 183.40000009536743,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 200.10000002384186,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 216.80000007152557,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 233.40000009536743,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 250,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 266.8000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 283.3000000715256,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 300.10000002384186,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 316.8000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 333.40000009536743,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 350.10000002384186,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 366.40000009536743,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 383.40000009536743,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 400.10000002384186,
+            "rafGapMs": 16.5,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 416.8000000715256,
+            "rafGapMs": 16.799999999999955,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 433.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 450.2000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 466.8000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 483.40000009536743,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 499.40000009536743,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 516.7000000476837,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 533.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 550.1000000238419,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 566.8000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 583.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 600.1000000238419,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 616.8000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 633.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 650.1000000238419,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 666.7000000476837,
+            "rafGapMs": 16.799999999999955,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 683.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 699.4000000953674,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 716.8000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 733.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 749.7000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 766.2000000476837,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 782.6000000238419,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 800.1000000238419,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 815.9000000953674,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2339982
+          },
+          {
+            "timeMs": 833.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 849.6000000238419,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 866.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 883.1000000238419,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 900.1000000238419,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 916.7000000476837,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 933.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 950,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 966.2000000476837,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 983.4000000953674,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1000.1000000238419,
+            "rafGapMs": 16.799999999999955,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1016.5,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1033,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1050.1000000238419,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1066.6000000238419,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1083.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1100,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1116.5,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1133.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1149.3000000715256,
+            "rafGapMs": 16.700000000000045,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1166.8000000715256,
+            "rafGapMs": 16.600000000000136,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1183,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1199.3000000715256,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1216.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1233.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1250.1000000238419,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1266.7000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1283.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1300.1000000238419,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1315.8000000715256,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1332.7000000476837,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1349.8000000715256,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1366.5,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1383.4000000953674,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1400.1000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1415.9000000953674,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1433.5,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1449.6000000238419,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1466.7000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1483.4000000953674,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1500.1000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2359512
+          },
+          {
+            "timeMs": 1516.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2359512
+          },
+          {
+            "timeMs": 1533.3000000715256,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1550.1000000238419,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1566.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1583.4000000953674,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1600,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1616.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1632.7000000476837,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1649.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1666.8000000715256,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1683.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1700,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1716,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1733.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1750.1000000238419,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1766.7000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2369122
+          },
+          {
+            "timeMs": 1783.1000000238419,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2359512
+          },
+          {
+            "timeMs": 1799.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2359512
+          },
+          {
+            "timeMs": 1816.5,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1833.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1849.3000000715256,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1866.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1883.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1899.6000000238419,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1916.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1933.3000000715256,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1950,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1966.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1983.5,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 1999.4000000953674,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2016.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2033.3000000715256,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2050.100000023842,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2066.100000023842,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2083,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2100.2000000476837,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2116.7000000476837,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2133.4000000953674,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2150,
+            "rafGapMs": 16.699999999999818,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2166.600000023842,
+            "rafGapMs": 16.700000000000273,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2182.9000000953674,
+            "rafGapMs": 16.59999999999991,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2199.3000000715256,
+            "rafGapMs": 16.800000000000182,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          },
+          {
+            "timeMs": 2216.7000000476837,
+            "rafGapMs": 16.5,
+            "level": "mixed",
+            "highGroups": 24,
+            "triangles": 2349902
+          }
+        ]
+      }
+    }
+  ],
+  "logs": []
+}

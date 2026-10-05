@@ -1,0 +1,254 @@
+{
+  "run": "hand-junction-1029",
+  "candidate": "junction-v01",
+  "adopted": false,
+  "files": {
+    "DESIGN.md": {
+      "bytes": 2369,
+      "sha256": "4474f5860dac6a614e8777967fdc365be1e8ba71d94a4b32917af89082b3e53e"
+    },
+    "NEXT-STAGE.md": {
+      "bytes": 2398,
+      "sha256": "bb6b91cda0b21738ac204d65d142ab3162875bedd766d5d08ac6edd709b49e0d"
+    },
+    "README.md": {
+      "bytes": 2177,
+      "sha256": "8c0891f1f7e4db8a92c4c8a23cf7c199d0d59856a3625d4a15528f4c59c90670"
+    },
+    "REPORT.md": {
+      "bytes": 6256,
+      "sha256": "ba983f5ee731fa835bf6dec79bd6b270275f9f59c807bbb55b346725751b3d87"
+    },
+    "comparison.html": {
+      "bytes": 2977,
+      "sha256": "91abd9f020c480b7c20d53d078dd0a3a32db078ac23df375977df703fc29d882"
+    },
+    "coordination-before-finish.json": {
+      "bytes": 65229,
+      "sha256": "e06e9b7794f30f91734ef0c6baf1292f613e353f2a6a6c4d4f43eabc50ec2b3e"
+    },
+    "coordination-before.json": {
+      "bytes": 64877,
+      "sha256": "8d9f717d9880a3d3a333c77f5f136d5cec22c555818fd18c247893b5b69b5f90"
+    },
+    "finish.json": {
+      "bytes": 2945,
+      "sha256": "d44816210c2b84a2462d305068800b5250156d7ff13118757247d461efb4f763"
+    },
+    "harness/manual-preview.js": {
+      "bytes": 3623,
+      "sha256": "52ed04be19c255240edd889f8aa334f716d7438f84863278e6630bff007c240b"
+    },
+    "harness/manual.controls.json": {
+      "bytes": 2436,
+      "sha256": "805f3981e05cb231cf7f02577e867fd3a19646aea347213f325a72120111fbaf"
+    },
+    "harness/vite.config.mjs": {
+      "bytes": 2472,
+      "sha256": "0723693da133e1e294c55367765b5b50584dcde0a780dda13c0aa65fb19d407d"
+    },
+    "integrity-verification-after-records.json": {
+      "bytes": 3932,
+      "sha256": "ba68b6379a57c78bb2c3dc1ba82f526535b7cb7feb4fc541419dc43b44143af1"
+    },
+    "integrity-verification-final.json": {
+      "bytes": 3932,
+      "sha256": "ba68b6379a57c78bb2c3dc1ba82f526535b7cb7feb4fc541419dc43b44143af1"
+    },
+    "models/junction-v01-editable.blend": {
+      "bytes": 98265,
+      "sha256": "0f899088dabe72cef99ec9aeb61ca9f7e677ab0555a6f3da1a83aaff810702d0"
+    },
+    "models/junction-v01.glb": {
+      "bytes": 35224,
+      "sha256": "fd11b7ab8f79ae255cbecce7d1a449b36ee76ff8cda800ddad78372ae399e472"
+    },
+    "qa/audit_protection.py": {
+      "bytes": 3721,
+      "sha256": "9a8bda56c2eca25c74c22c6d6d77b73b6c78c709aed078fd323536664460fba5"
+    },
+    "qa/cage-capture.log": {
+      "bytes": 3836,
+      "sha256": "eb7058e14208074ed64ef836e7134206a4986847879cd1e31c00dea24181cebe"
+    },
+    "qa/cage-export.log": {
+      "bytes": 1886,
+      "sha256": "0425c630aa0451af949bdc920362737234c090d8bda8d52daf10ab1aeedb1c8b"
+    },
+    "qa/cage-frame-repaired-export-final.log": {
+      "bytes": 1781,
+      "sha256": "f02d1c3b5db20a3d9b00bccdaf0a76773d6e59628015aaa219767c4137118479"
+    },
+    "qa/cage-frame-repaired-export.log": {
+      "bytes": 1886,
+      "sha256": "9d5944e45b6520caaefad4542c9585ff80ccb7694d7ed67a7e723517826456a5"
+    },
+    "qa/cage-intersection-debug.log": {
+      "bytes": 1886,
+      "sha256": "ee7082404f16b4ff6f2f38134fc5c3f745e4f7dc31a491f787eb111639db34a2"
+    },
+    "qa/cage-launch-failure/chrome.log": {
+      "bytes": 1717,
+      "sha256": "a980c14b4a67b5595ff47b87792ee03e5a406c0ce9c3a01644cdb94b91bb33a8"
+    },
+    "qa/cage-launch-failure/results.json": {
+      "bytes": 33,
+      "sha256": "d833a9f650b5919e4fd83bd744d6a184e2e0478a73b30b9c24336217fe62ace4"
+    },
+    "qa/cage-launch-failure.log": {
+      "bytes": 901,
+      "sha256": "177f5705f75e648f8de23d35f21069be299fd4de290db6d520a9ea98513ba6b9"
+    },
+    "qa/cage-v01/chrome.log": {
+      "bytes": 1717,
+      "sha256": "89b98756bfb9a54db158cc69d2f673b67c5e29ee63afc7a0a19cd888924d78db"
+    },
+    "qa/cage-v01/mobile-320.png": {
+      "bytes": 1214080,
+      "sha256": "d76ff96730801c5c49ac6755fdcd0e96c8228e747572a2f6d21cb9eb1f5c5388"
+    },
+    "qa/cage-v01/mobile-390.png": {
+      "bytes": 2054096,
+      "sha256": "27de85ce5028e761714ec01a8dbad03f7e1390b3ad9d9d9ad80fe410a28cf4d7"
+    },
+    "qa/cage-v01/neutral-core-front.png": {
+      "bytes": 112830,
+      "sha256": "e67757a7c25236a4de272fa81d3cf9d8a1f22d384708c96e515b9602de797a36"
+    },
+    "qa/cage-v01/neutral-core-left12.png": {
+      "bytes": 109240,
+      "sha256": "eb69f64d0eb78e6cbf5a63d31e37333f40fc5a778944a1a36875cd47b28be6e0"
+    },
+    "qa/cage-v01/neutral-core-right12.png": {
+      "bytes": 115583,
+      "sha256": "40b36cfa63f1216bc7aa3adf14c131fd1931c433c5631a239b6476e4a228ba3f"
+    },
+    "qa/cage-v01/neutral-whole-front.png": {
+      "bytes": 427504,
+      "sha256": "4e939ed48b716eb63c415c3b6e93554a5dd0efdf6559bd71dbfc2a9400f4f9fe"
+    },
+    "qa/cage-v01/pc.png": {
+      "bytes": 1337286,
+      "sha256": "18f75c62345d776abb4b98841efd66be59f6257283126592a46f8177980bdb91"
+    },
+    "qa/cage-v01/results.json": {
+      "bytes": 99276,
+      "sha256": "a9f199346daf39233dc2fe207e07146d3eb4565dc4a2d7c9dd855d18d86a0bca"
+    },
+    "qa/frame-repair.json": {
+      "bytes": 1709,
+      "sha256": "3cf6b2e300070f43f785d74e2a35bf176bb2de177865955f74cd86a65e92a9c5"
+    },
+    "qa/geometry-before-frame-repair.json": {
+      "bytes": 565,
+      "sha256": "61142d25497c771585610bcd86bed4d618b990bd20678fa94d393917ac3f6a0b"
+    },
+    "qa/geometry-inspection.json": {
+      "bytes": 566,
+      "sha256": "6e833ff968181be1c1e8b96f7e1ac07a2adcd3f67f06a7431417a993710a2619"
+    },
+    "qa/harness-reference.json": {
+      "bytes": 554,
+      "sha256": "1bb0d60e829c4552842080169c0eca39f3eabb4135d43859a99932245ff12bf9"
+    },
+    "qa/harness-server-foreground.log": {
+      "bytes": 71,
+      "sha256": "40e09b7a2f7bda37d966978020786a92bfad20da3ee940394820ea3f95acc85b"
+    },
+    "qa/harness-server.log": {
+      "bytes": 2724,
+      "sha256": "733d894026fe46d855914e8a1f4ff3eea031e1c3c753f71f27d7c9948fb82c9c"
+    },
+    "qa/independent-review.md": {
+      "bytes": 4279,
+      "sha256": "7fadda387f096c362bde4cb4da3779a4504bd60dff14ffa82181515cb49bce49"
+    },
+    "qa/intersection-locations.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "qa/intersections-before-frame-repair.json": {
+      "bytes": 17191,
+      "sha256": "fd324a8bd1822d69ef15e8e2027909260f530ded95672f3776a8405fc5583814"
+    },
+    "qa/native-readback.json": {
+      "bytes": 718,
+      "sha256": "8aca5466ecef11ff362cc0dd40ebccc2bf724474cddc4d13c02c34c108ca29ce"
+    },
+    "qa/native-readback.log": {
+      "bytes": 1241,
+      "sha256": "ceda5e2bbdf53aef79fb4e2ea0c69a7a02e055f2e068157a3dbc95176116f36a"
+    },
+    "qa/native_readback.py": {
+      "bytes": 2007,
+      "sha256": "e53781474848ce21437fbe4a8fd98c3946ce63cf61c25dc28eb4504aaf14161b"
+    },
+    "qa/process-cleanup.json": {
+      "bytes": 753,
+      "sha256": "e94b532aa9d07019714ab22d19d19e8d8344c8dd785747da61f8d623d263c372"
+    },
+    "qa/profile-footprint.json": {
+      "bytes": 859,
+      "sha256": "6f93f6d7921407a820ae8ae42c9f1c377af92cc0ccd5f2ba9b52d21e2447d79f"
+    },
+    "qa/protection-after-records.log": {
+      "bytes": 3932,
+      "sha256": "ba68b6379a57c78bb2c3dc1ba82f526535b7cb7feb4fc541419dc43b44143af1"
+    },
+    "qa/protection-final.log": {
+      "bytes": 3932,
+      "sha256": "ba68b6379a57c78bb2c3dc1ba82f526535b7cb7feb4fc541419dc43b44143af1"
+    },
+    "qa/source-invariance.json": {
+      "bytes": 646,
+      "sha256": "ca233d81642c15f912cb01df04f87f9113c6cbb7389567369ab9ff2e6288f138"
+    },
+    "qa/visual-gate.json": {
+      "bytes": 9985,
+      "sha256": "dccd2d3f9151143445414c33443c0c690ef84d02d0ce5773a4e0eea48eab60dd"
+    },
+    "reference-reading.md": {
+      "bytes": 1834,
+      "sha256": "0d39427b151435aabfa43510727340829b4f71e136794cab0df6c9eb111b5b35"
+    },
+    "released-owner.json": {
+      "bytes": 142,
+      "sha256": "c60ffb937a568552f76cfe383feed97ea7b6135cec5b1c25e238dd87567ef611"
+    },
+    "sculpt/authored-cage.json": {
+      "bytes": 35000,
+      "sha256": "df515d59a8dfcb527aeb1ddc77e542845e747364eaee6144f22b5c9387e70b6a"
+    },
+    "sculpt/authored_cage.py": {
+      "bytes": 11025,
+      "sha256": "a66bfa5df21ba2ee8fc83c029cb289e4f3341d8566589095d7347d5c415cd40b"
+    },
+    "selection.json": {
+      "bytes": 1569,
+      "sha256": "8a7c8da196740efb380e1c5e80f4106b1839cccd84adce759788368548eb2fb3"
+    },
+    "source-changes.patch": {
+      "bytes": 20065,
+      "sha256": "258cc4da4efc2433967b811e8ff4970e9a8d54c9b4b8868e2673b991662da879"
+    },
+    "start.json": {
+      "bytes": 2793,
+      "sha256": "4b73aeb93babe2a6680c3555e98c7a0d8730215328842a22108f2382564baf78"
+    }
+  },
+  "read_only_references": {
+    "harness/index.html": "../../ancient-volume-0810/site/index.html",
+    "harness/src": "../../ancient-volume-0810/site/src"
+  },
+  "mutable_transient_exclusions": [
+    "qa/vite-cache/**"
+  ],
+  "transient_retention": "No deletion; Vite cache is retained but can regenerate on a diagnostic restart.",
+  "external_new_state": {
+    "path": "../../hand-junction-study-state.json",
+    "sha256": "57e62d4fdbee9d9abb2d208d759257ef8af53eb658564dc92f5cb805d90e137c"
+  },
+  "raw_png_count": 7,
+  "site_asset_copies": 0,
+  "frozen_after_verification": true
+}

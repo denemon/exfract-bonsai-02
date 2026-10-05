@@ -1,0 +1,121 @@
+{
+  "raw_paths": 21,
+  "unique_raw_images": 12,
+  "saved_identical_bytes": 16123086,
+  "rows": [
+    {
+      "path": "qa/motion-baseline/leaf-detail-frame-0.png",
+      "sha256": "2e423346cbbd55a4180a384a5bdad56a5b1ef435691d97397c39f5f46ae30970",
+      "bytes": 1956029
+    },
+    {
+      "path": "qa/motion-baseline/leaf-detail-frame-1.png",
+      "sha256": "9ac1718abc0325127afa307b557a4b97059ad232f807321a782149a8421799b7",
+      "bytes": 1951289
+    },
+    {
+      "path": "qa/motion-baseline/leaf-detail-frame-2.png",
+      "sha256": "978583c24c70e14510f8339914fd9f42440db4be3fdacc688001454d9fb36bb2",
+      "bytes": 1943625
+    },
+    {
+      "path": "qa/motion-baseline/leaf-detail-frame-3.png",
+      "sha256": "c5877dc3c4d353b14c80fde1aaa3f000be24452923a582936b9075fe856fdf98",
+      "bytes": 1937297
+    },
+    {
+      "path": "qa/motion-baseline/leaf-detail-frame-4.png",
+      "sha256": "978583c24c70e14510f8339914fd9f42440db4be3fdacc688001454d9fb36bb2",
+      "bytes": 1943625,
+      "identical_to": "qa/motion-baseline/leaf-detail-frame-2.png"
+    },
+    {
+      "path": "qa/motion-baseline/leaf-detail-frame-5.png",
+      "sha256": "9ac1718abc0325127afa307b557a4b97059ad232f807321a782149a8421799b7",
+      "bytes": 1951289,
+      "identical_to": "qa/motion-baseline/leaf-detail-frame-1.png"
+    },
+    {
+      "path": "qa/motion-baseline/leaf-detail-frame-6.png",
+      "sha256": "2e423346cbbd55a4180a384a5bdad56a5b1ef435691d97397c39f5f46ae30970",
+      "bytes": 1956029,
+      "identical_to": "qa/motion-baseline/leaf-detail-frame-0.png"
+    },
+    {
+      "path": "qa/motion-baseline/mobile-390-frame-0.png",
+      "sha256": "770cacb04d4b3c3b28945a65e59fc37847b4de5f0b2b4f05cdc66accd1436f11",
+      "bytes": 2064601
+    },
+    {
+      "path": "qa/motion-baseline/mobile-390-frame-1.png",
+      "sha256": "06b856fd33fb6ff7415230b0ac18a4d2af40e9ca9e8d772bb37d92425799cca5",
+      "bytes": 2040041
+    },
+    {
+      "path": "qa/motion-baseline/mobile-390-frame-2.png",
+      "sha256": "f6a90707917cb49d5bb86589a1b5b2d976b7214f54f168923f7e6a4421bb41fb",
+      "bytes": 2011990
+    },
+    {
+      "path": "qa/motion-baseline/mobile-390-frame-3.png",
+      "sha256": "b325104ce2ea89206a95f0521b574c25bda54ab19b96888a9862d0deae7c8314",
+      "bytes": 1984724
+    },
+    {
+      "path": "qa/motion-baseline/mobile-390-frame-4.png",
+      "sha256": "f6a90707917cb49d5bb86589a1b5b2d976b7214f54f168923f7e6a4421bb41fb",
+      "bytes": 2011990,
+      "identical_to": "qa/motion-baseline/mobile-390-frame-2.png"
+    },
+    {
+      "path": "qa/motion-baseline/mobile-390-frame-5.png",
+      "sha256": "06b856fd33fb6ff7415230b0ac18a4d2af40e9ca9e8d772bb37d92425799cca5",
+      "bytes": 2040041,
+      "identical_to": "qa/motion-baseline/mobile-390-frame-1.png"
+    },
+    {
+      "path": "qa/motion-baseline/mobile-390-frame-6.png",
+      "sha256": "770cacb04d4b3c3b28945a65e59fc37847b4de5f0b2b4f05cdc66accd1436f11",
+      "bytes": 2064601,
+      "identical_to": "qa/motion-baseline/mobile-390-frame-0.png"
+    },
+    {
+      "path": "qa/motion-baseline/pc-frame-0.png",
+      "sha256": "8bb4497bdb7fdb67eff089f0bb7900cbc4a65d745d07c306f342b689f18056cf",
+      "bytes": 1384379
+    },
+    {
+      "path": "qa/motion-baseline/pc-frame-1.png",
+      "sha256": "a495dcf105ff895057331b1bc0d5de06cc9e351a6a78143997b40166354a8069",
+      "bytes": 1385592
+    },
+    {
+      "path": "qa/motion-baseline/pc-frame-2.png",
+      "sha256": "384da4a0dcf2ecc8a9ffdcb22cf13bf7fde2a07340b6d86ce57a94e037d4434e",
+      "bytes": 1385540
+    },
+    {
+      "path": "qa/motion-baseline/pc-frame-3.png",
+      "sha256": "201f81b9027f2dadfe93ee03abc0ee519318a226144b5351683b3fd7f2ee01c4",
+      "bytes": 1384003
+    },
+    {
+      "path": "qa/motion-baseline/pc-frame-4.png",
+      "sha256": "384da4a0dcf2ecc8a9ffdcb22cf13bf7fde2a07340b6d86ce57a94e037d4434e",
+      "bytes": 1385540,
+      "identical_to": "qa/motion-baseline/pc-frame-2.png"
+    },
+    {
+      "path": "qa/motion-baseline/pc-frame-5.png",
+      "sha256": "a495dcf105ff895057331b1bc0d5de06cc9e351a6a78143997b40166354a8069",
+      "bytes": 1385592,
+      "identical_to": "qa/motion-baseline/pc-frame-1.png"
+    },
+    {
+      "path": "qa/motion-baseline/pc-frame-6.png",
+      "sha256": "8bb4497bdb7fdb67eff089f0bb7900cbc4a65d745d07c306f342b689f18056cf",
+      "bytes": 1384379,
+      "identical_to": "qa/motion-baseline/pc-frame-0.png"
+    }
+  ]
+}
