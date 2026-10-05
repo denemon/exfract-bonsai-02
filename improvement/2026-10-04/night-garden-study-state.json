@@ -1,0 +1,13 @@
+{
+  "updated_at_jst": "2026-10-05T02:32:11.532583+09:00",
+  "run": "night-garden-0144",
+  "layout": "night-b",
+  "model": "edge-v02",
+  "source": "runs/night-garden-0144/site/src",
+  "report": "runs/night-garden-0144/REPORT.md",
+  "preview": "http://127.0.0.1:5198/",
+  "whole_scene_basis": "improved and selected",
+  "major_form_gate": "not passed",
+  "premium_garden_gate": "not passed",
+  "next": "Retain night-b and frozen edge-v02. Finish the full-scene materials and light: break the ladder-like background branches, make wood grain follow each architectural member, refine moss/gravel relief and edge transitions, shade the room opening and roof underside with restrained warm light, and preserve subject silhouette separation. Compare PC390320 before adding detail. Do not return to trunk-only loops; keep the major aged-form limitation explicit. No daylight conversion."
+}

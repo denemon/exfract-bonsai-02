@@ -1,0 +1,65 @@
+[
+  {
+    "path": "public/still-desktop.webp",
+    "source": "improvement/2026-10-04/runs/0800-jst/candidate-05-retina/desktop.png",
+    "size": [
+      1920,
+      1200
+    ],
+    "bytes": 228820
+  },
+  {
+    "path": "public/still-mobile.webp",
+    "source": "improvement/2026-10-04/runs/0800-jst/candidate-05-retina/mobile-390.png",
+    "size": [
+      585,
+      1266
+    ],
+    "bytes": 77574
+  },
+  {
+    "path": "public/still-320.webp",
+    "source": "improvement/2026-10-04/runs/0800-jst/candidate-05-retina/mobile-320.png",
+    "size": [
+      480,
+      1398
+    ],
+    "bytes": 57254
+  },
+  {
+    "path": "public/still-landscape.webp",
+    "source": "improvement/2026-10-04/runs/0800-jst/candidate-05-retina/landscape.png",
+    "size": [
+      1266,
+      585
+    ],
+    "bytes": 79258
+  },
+  {
+    "path": "public/still-portrait-medium.webp",
+    "source": "improvement/2026-10-04/runs/0800-jst/candidate-05-retina/mobile-390-short.png",
+    "size": [
+      585,
+      1110
+    ],
+    "bytes": 73190
+  },
+  {
+    "path": "public/still-portrait-short.webp",
+    "source": "improvement/2026-10-04/runs/0800-jst/candidate-05-retina/mobile-320-short.png",
+    "size": [
+      480,
+      852
+    ],
+    "bytes": 50478
+  },
+  {
+    "path": "public/still-portrait-wide.webp",
+    "source": "improvement/2026-10-04/runs/0800-jst/candidate-05-wide/portrait-wide.png",
+    "size": [
+      1152,
+      1536
+    ],
+    "bytes": 204784
+  }
+]
