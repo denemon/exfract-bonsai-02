@@ -1,0 +1,270 @@
+--- /dev/null
++++ b/sculpt/build_primary.py
+@@ -0,0 +1,81 @@
++"""Closed irregular local surface patch graph; no whole-height contour loft."""
++from pathlib import Path
++import bpy,bmesh,math,json
++from mathutils import Vector
++from mathutils.bvhtree import BVHTree
++R=Path(__file__).resolve().parents[1];version='primary-structure-v01';assert not (R/'models'/f'{version}.glb').exists();bpy.ops.wm.read_factory_settings(use_empty=True)
++plan=json.loads((R/'design/primary-structure-plan.json').read_text());cage=json.loads((R/'design/main-patch-cage-v02.json').read_text());V=cage['positions'];F=cage['all_faces'];removed=set(cage['removed_face_ids']);keys=cage['face_keys'];groups={};parts={}
++for name,keyset in keys.items():groups[name]=set(i for faceid in keyset.values()for i in F[faceid])
++def face_normal(face):
++ tmp=bpy.data.meshes.new('temporary closed source for outward normal');tmp.from_pydata(V,[],[f for i,f in enumerate(F)if i not in removed]);tmp.update();bm=bmesh.new();bm.from_mesh(tmp);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces))
++ if bm.calc_volume(signed=True)<0:bmesh.ops.reverse_faces(bm,faces=list(bm.faces))
++ bm.normal_update();bm.verts.index_update();target=frozenset(face);normal=next(f.normal.copy()for f in bm.faces if frozenset(v.index for v in f.verts)==target);bm.free();bpy.data.meshes.remove(tmp);return normal
++
++def mouth(faceid,scale):
++ assert faceid not in removed;outer=F[faceid];normal=face_normal(outer);centre=sum((Vector(V[i])for i in outer),Vector())/4;removed.add(faceid);inner=[]
++ for i in outer:inner.append(len(V));V.append(list(centre+(Vector(V[i])-centre)*scale))
++ for k in range(4):F.append([outer[k],outer[(k+1)%4],inner[(k+1)%4],inner[k]])
++ return outer,inner,centre,normal
++
++def small_branch(name,faceid,scale,neck,route,radii):
++ outer,initial,centre,n=mouth(faceid,scale);chain=[initial];neckids=[]
++ for i in initial:neckids.append(len(V));V.append(list(centre+(Vector(V[i])-centre)*.86+n*neck))
++ chain.append(neckids);route=[Vector(p)for p in route];route[0]=sum((Vector(V[i])for i in neckids),Vector())/4
++ axis=(route[1]-route[0]).normalized();assert n.dot(axis)>.02,(name,list(n),list(axis));u=Vector(V[neckids[0]])-route[0];u-=axis*u.dot(axis);u.normalize();orientation=(Vector(V[neckids[1]])-Vector(V[neckids[0]])).cross(Vector(V[neckids[2]])-Vector(V[neckids[1]]));sign=1 if orientation.dot(axis)>0 else -1
++ for j,p in enumerate(route):
++  if j==0:continue
++  nxt=p+(p-route[j-1])if j==len(route)-1 else route[j+1];t=(nxt-route[j-1]).normalized();u-=t*u.dot(t);u.normalize();b=t.cross(u).normalized();ids=[]
++  for k in range(4):a=sign*k*math.pi/2;warp=[1.08,.83,1.13,.93][k];ids.append(len(V));V.append(list(p+u*(math.cos(a)*radii[j]*warp)+b*(math.sin(a)*radii[j]*.86*warp)))
++  chain.append(ids)
++ for a,b in zip(chain,chain[1:]):
++  for k in range(4):F.append([a[k],a[(k+1)%4],b[(k+1)%4],b[k]])
++ F.append(chain[-1]);groups[name]=set(outer+sum(chain,[]));parts[name]={'parent_face':outer,'new_local_mouth':initial,'sections':chain,'outward_normal':list(n),'route':[list(p)for p in route],'terminal_section':chain[-1]}
++
++# No blind/oval wound in the second macro form; do not hide shape with a scar.
++for index,root in enumerate(plan['root_stubs']):
++ parent=keys['Unequal buried root seat']['side'+str(root['side'])];outer=F[parent];c=sum((Vector(V[i])for i in outer),Vector())/4;n=face_normal(outer);p=c+n*.05;tip=Vector(root['tip']);small_branch('Buried unequal root '+str(index),parent,root['inset'],.05,[list(p),list(tip)], [root['radius'],root['radius']*.62])
++upper=plan['upper_branch'];small_branch('Separate posterior upper live branch',keys[upper['parent']][upper['face']],upper['inset'],upper['neck'],upper['route'],upper['radii'])
++for branch in plan['primary_branches']:
++ small_branch(branch['name'],keys[branch['parent']][branch['face']],branch['inset'],branch['neck'],branch['route'],branch['radii'])
++mesh=bpy.data.meshes.new('Finite rooted patches and physically terminated deadwood');mesh.from_pydata(V,[],[f for i,f in enumerate(F)if i not in removed]);mesh.update();obj=bpy.data.objects.new('Continuous aged trunk and primary branches',mesh);bpy.context.collection.objects.link(obj);bpy.context.view_layer.objects.active=obj;obj.select_set(True)
++bm=bmesh.new();bm.from_mesh(mesh);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces))
++if bm.calc_volume(signed=True)<0:bmesh.ops.reverse_faces(bm,faces=list(bm.faces))
++bm.to_mesh(mesh);bm.free()
++for name,ids in groups.items():obj.vertex_groups.new(name=name).add(sorted(ids),1,'REPLACE')
++for p in mesh.polygons:p.use_smooth=True
++# Different crease values only on local ending patches, never full-height rails.
++crease=mesh.attributes.new('crease_edge','FLOAT','EDGE');lookup={tuple(sorted(e.vertices)):e.index for e in mesh.edges}
++for name,weights in [('Oblique short shoulder',[.22,.42,.18,.28]),('Forward returned broad deadwood',[.08,.22,.46,.34])]:
++ face=F[keys[name]['cap']]
++ for k in range(4):
++  e=lookup.get(tuple(sorted((face[k],face[(k+1)%4]))))
++  if e is not None:crease.data[e].value=weights[k]
++hinge=cage['finite_front_hinge']['edge'];ei=lookup.get(tuple(sorted(hinge)))
++if ei is not None:crease.data[ei].value=.54
++for edge,weight in [([24,19],.48),([16,24],.26)]:
++ ei=lookup.get(tuple(sorted(edge)))
++ if ei is not None:crease.data[ei].value=weight
++for name in ['Growth direction','Branch growth direction','Branch blend and calibre']:mesh.uv_layers.new(name=name)
++col=mesh.color_attributes.new(name='Unfinished structural role masks',type='FLOAT_COLOR',domain='POINT')
++for c in col.data:c.color=(.6,.1,.3,1)
++for loop in mesh.loops:
++ p=mesh.vertices[loop.vertex_index].co
++ for uv in mesh.uv_layers:uv.data[loop.index].uv=(p.x,p.z)if uv.name!='Branch blend and calibre'else(0,.4)
++mat=bpy.data.materials.new('Continuous wood neutral structural review');mat.diffuse_color=(.34,.32,.29,1);mesh.materials.append(mat);mod=obj.modifiers.new('Local unequal patch interpolation','SUBSURF');mod.levels=2;mod.render_levels=2
++obj['authoring_version']=version;obj['construction']=cage['method'];obj['editable_vertex_groups']=list(groups);obj['stage']='Frozen v02 body with three primary branch origins; structural diagnosis, not leaf or bark finishing';obj['photo_origin_status']='Posterior depth, hidden branch origin and root stubs are authored inference'
++bpy.context.view_layer.update();evaluated=obj.evaluated_get(bpy.context.evaluated_depsgraph_get());me=evaluated.to_mesh();me.calc_loop_triangles();tri=[tuple(t.vertices)for t in me.loop_triangles];bm=bmesh.new();bm.from_mesh(me);volume=bm.calc_volume(signed=True);boundary=sum(e.is_boundary for e in bm.edges);nonmanifold=sum(not e.is_manifold for e in bm.edges);areas=[f.calc_area()for f in bm.faces];bm.free();tree=BVHTree.FromPolygons([v.co.copy()for v in me.vertices],tri,all_triangles=True,epsilon=1e-8);pairs=[(i,j)for i,j in tree.overlap(tree)if i<j and set(tri[i]).isdisjoint(tri[j])];locations=[{'a':i,'b':j,'a_center':[sum(me.vertices[v].co[k]for v in tri[i])/3 for k in range(3)],'b_center':[sum(me.vertices[v].co[k]for v in tri[j])/3 for k in range(3)]}for i,j in pairs];(R/'qa/intersection-locations-primary.json').write_text(json.dumps(locations,indent=2)+'\n')
++adj=[set()for _ in me.vertices]
++for t in tri:
++ for a,b in zip(t,t[1:]+t[:1]):adj[a].add(b);adj[b].add(a)
++pending=set(range(len(adj)));components=[]
++while pending:
++ seed=pending.pop();stack=[seed];size=1
++ while stack:
++  for i in adj[stack.pop()]:
++   if i in pending:pending.remove(i);stack.append(i);size+=1
++ components.append(size)
++inspection={'control_vertices':len(mesh.vertices),'control_faces':len(mesh.polygons),'evaluated_triangles':len(tri),'volume':volume,'boundary_edges':boundary,'nonmanifold_edges':nonmanifold,'nonadjacent_intersections':len(pairs),'connected_component_vertices':components,'minimum_face_area':min(areas),'genus_expected':0,'euler_characteristic':len(me.vertices)-len(me.edges)+len(me.polygons),'bounds':{'min':[min(v.co[k]for v in me.vertices)for k in range(3)],'max':[max(v.co[k]for v in me.vertices)for k in range(3)]}};evaluated.to_mesh_clear();(R/'qa/geometry-inspection-primary.json').write_text(json.dumps(inspection,indent=2)+'\n');print(json.dumps(inspection),flush=True)
++assert boundary==nonmanifold==len(pairs)==0 and len(components)==1 and min(areas)>1e-12 and volume>0 and len(tri)<=18540,inspection
++record={'version':version,'method':obj['construction'],'positions':[list(v.co)for v in mesh.vertices],'faces':[list(f.vertices)for f in mesh.polygons],'parts':parts,'vertex_groups':{n:sorted(ids)for n,ids in groups.items()},'inspection':inspection,'patch_graph':cage,'photo_plan':plan,'low_detail_only':True};(R/'sculpt/primary-structure-v01-cage.json').write_text(json.dumps(record,indent=2)+'\n')
++bpy.ops.wm.save_as_mainfile(filepath=str(R/'models/primary-structure-v01-editable.blend'));bpy.ops.export_scene.gltf(filepath=str(R/'models/primary-structure-v01.glb'),export_format='GLB',use_selection=True,export_apply=True,export_extras=True,export_vertex_color='ACTIVE',export_draco_mesh_compression_enable=True,export_draco_mesh_compression_level=6,export_draco_position_quantization=15,export_draco_normal_quantization=11,export_draco_texcoord_quantization=13)
++print(json.dumps({'glb_bytes':(R/'models/primary-structure-v01.glb').stat().st_size,'native_bytes':(R/'models/primary-structure-v01-editable.blend').stat().st_size}),flush=True)
+--- /dev/null
++++ b/harness/vite.config.mjs
+@@ -0,0 +1,15 @@
++import {defineConfig} from '/Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/vite/dist/node/index.js';
++import {readFileSync,createReadStream,statSync} from 'node:fs';
++import {fileURLToPath} from 'node:url';
++import {resolve} from 'node:path';
++const here=fileURLToPath(new URL('.',import.meta.url)),run=resolve(here,'..'),formal='/Users/kazuki.tanaka/dev0/exfract-bonsai-02',base=resolve(run,'../ancient-volume-0810/site'),entry=resolve(base,'src/main.js');
++const edits=[
++ ["if(query.get('frame')==='shared'){for(const x of [-1.55,1.30])for(const y of [-.08,2.28])for(const z of [-.72,.68])","if(query.get('frame')==='shared'){for(const x of [-1.48,1.42])for(const y of [-.08,2.50])for(const z of [-.72,.68])"],
++ ["import './style.css';","import './style.css';\nimport {applyStructure,structuralMaterial} from '/structure-preview.js';"],
++ ["const query=new URLSearchParams(location.search),study=query.get('study')||'garden';","const query=new URLSearchParams(location.search),study=query.get('study')||'garden',structure=query.get('irregular')==='primary-structure-v01'&&!query.has('reference')?'primary-structure-v01':null;"],
++ ["['ancient-v01','ancient-v02'].includes(candidate)&&!reference?loader.loadAsync('/models/'+candidate+'.glb'):null","structure?loader.loadAsync('/models/primary-structure-v01.glb'):['ancient-v01','ancient-v02'].includes(candidate)&&!reference?loader.loadAsync('/models/'+candidate+'.glb'):null"],
++ ["model=gltf.scene;foliage=prepareFoliageLOD(gltf);","model=gltf.scene;if(structure&&wood)applyStructure(model,wood);foliage=prepareFoliageLOD(gltf);"],
++ ["if(wood){const old=[];","if(wood&&!structure){const old=[];"],
++ ["applyHeroMaterials(model,mats,study==='clay');stats.worldScale","applyHeroMaterials(model,mats,study==='clay');if(structure||query.has('comparison'))structuralMaterial(model,study==='clay');stats.structure=model.userData.structure;stats.worldScale"]
++];
++export default defineConfig({root:here,publicDir:resolve(base,'public'),cacheDir:resolve(run,'../hand-junction-1029/qa/vite-cache'),server:{host:'127.0.0.1',port:5209,strictPort:true,fs:{allow:[formal]}},plugins:[{name:'readonly-stage12-structure-harness',enforce:'pre',transform(code,id){if(id.split('?')[0]!==entry)return;let adapted=code;for(const [a,b]of edits){if(adapted.split(a).length!==2)throw Error('Protected entry anchor changed: '+a);adapted=adapted.replace(a,b);}return {code:adapted,map:null};},configureServer(server){server.middlewares.use((req,res,next)=>{if(req.url?.split('?')[0]!=='/models/primary-structure-v01.glb')return next();const file=resolve(run,'models/primary-structure-v01.glb');res.setHeader('Content-Type','model/gltf-binary');res.setHeader('Content-Length',statSync(file).size);res.setHeader('Cache-Control','no-store');if(req.method==='HEAD')return res.end();createReadStream(file).pipe(res);});}}]});
+--- /dev/null
++++ b/harness/structure-preview.js
+@@ -0,0 +1,12 @@
++import * as THREE from 'three';
++import controls from './structure.controls.json';
++// This diagnostic changes the whole branch hierarchy and every crown centre.
++// Scale only the shoot centres, preserving each closed botanical prototype.
++export function applyStructure(model,wood){
++ const remove=[];model.traverse(o=>{if(o.isMesh&&(/Continuous[_ ]aged/.test(o.name)||/Terminal[_ ]twig[_ ]hierarchy/.test(o.name)))remove.push(o)});if(remove.length!==2)throw Error('Expected original wood core and terminal hierarchy');for(const o of remove)o.removeFromParent();for(const o of [...wood.scene.children])model.add(o);
++ const M=new THREE.Matrix4(),positions=[];let moved=0;model.traverse(o=>{if(!o.isInstancedMesh)return;const id=Number((o.userData.name||o.name).match(/Canopy[_ ]spatial[_ ]group[_ ](\d+)/)?.[1]);const c=controls.crowns.find(c=>c.id===id);if(!c)return;const shoots=[];for(let i=0;i<o.count;i++){o.getMatrixAt(i,M);const e=M.elements;for(let k=0;k<3;k++)e[12+k]=c.center[k]+(e[12+k]-c.old[k])*c.scale[k];o.setMatrixAt(i,M);shoots.push(new THREE.Vector3(e[12],e[13],e[14]));moved++;}o.instanceMatrix.needsUpdate=true;o.computeBoundingSphere();positions.push({id,shoots});});if(moved!==2800)throw Error('Expected all 2800 crown shoots');
++ const vertices=[],indices=[];function branch(A,B,radius,seed){const mid=A.clone().lerp(B,.51).add(new THREE.Vector3(Math.sin(seed)*.018,.012,Math.cos(seed)*.018));const curve=new THREE.QuadraticBezierCurve3(A,mid,B),steps=5,sides=6,start=vertices.length/3;for(let j=0;j<=steps;j++){const t=j/steps,p=curve.getPoint(t),tangent=curve.getTangent(t),x=new THREE.Vector3().crossVectors(tangent,new THREE.Vector3(0,0,1));if(x.lengthSq()<.001)x.crossVectors(tangent,new THREE.Vector3(0,1,0));x.normalize();const y=new THREE.Vector3().crossVectors(tangent,x).normalize(),r=radius*(1-.88*t);for(let k=0;k<sides;k++){const a=k/sides*Math.PI*2;vertices.push(...p.clone().addScaledVector(x,Math.cos(a)*r).addScaledVector(y,Math.sin(a)*r*.83).toArray());}}for(let j=0;j<steps;j++)for(let k=0;k<sides;k++){const a=start+j*sides+k,b=start+j*sides+(k+1)%sides,c=a+sides,d=b+sides;indices.push(a,b,d,a,d,c);}for(let k=1;k<sides-1;k++)indices.push(start,start+k+1,start+k);const end=start+steps*sides;for(let k=1;k<sides-1;k++)indices.push(end,end+k,end+k+1);}
++ for(const crown of controls.crowns){const shoots=positions.filter(p=>p.id===crown.id).flatMap(p=>p.shoots),tip=new THREE.Vector3(...crown.tip),center=new THREE.Vector3(...crown.center);for(let sector=0;sector<5;sector++){const subset=shoots.filter((_,i)=>i%5===sector),hub=center.clone().lerp(subset[Math.floor(subset.length*.43)],.50);branch(tip,hub,.012,sector+crown.id*8);for(let k=0;k<subset.length;k+=14)branch(hub,subset[k],.0054,sector+k*.3);}}
++ const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.Float32BufferAttribute(vertices,3));geo.setIndex(indices);geo.computeVertexNormals();const mat=new THREE.MeshStandardMaterial({color:'#493728',roughness:.94});mat.name='Coupled structural twig wood';const twig=new THREE.Mesh(geo,mat);twig.name='Structural trial supported terminal twig hierarchy';model.add(twig);model.userData.structure={version:controls.version,coreTopology:controls.method,crowns:controls.crowns.map(c=>({id:c.id,center:c.center,scaleCenters:c.scale})),shoots:moved,twigTriangles:indices.length/3,lowDetailOnly:true};
++}
++export function structuralMaterial(model,clay){if(clay)return;model.traverse(o=>{if(o.isMesh&&/Continuous[_ ]aged/.test(o.name)){o.material=new THREE.MeshStandardMaterial({color:'#756452',roughness:.97,metalness:0});o.material.customProgramCacheKey=()=> 'structural-plain-wood-v1';}});}
+--- /dev/null
++++ b/harness/structure.controls.json
+@@ -0,0 +1,150 @@
++{
++  "version": "primary-structure-v01",
++  "method": "Frozen v02 body, distinct left/upper/right primary mouths; whole structure diagnosis, unfinished bark",
++  "crowns": [
++    {
++      "id": 0,
++      "old": [
++        -0.93882731873481,
++        1.304323486617354,
++        0.06406711428139938
++      ],
++      "center": [
++        -1.01,
++        1.63,
++        0.03
++      ],
++      "scale": [
++        0.8,
++        0.95,
++        1
++      ],
++      "tip": [
++        -1.1,
++        1.58,
++        -0.005
++      ],
++      "support": "Manual context support; hidden secondary twigs inferred"
++    },
++    {
++      "id": 1,
++      "old": [
++        -0.6561848580052978,
++        1.6840443466839037,
++        -0.28390305685369593
++      ],
++      "center": [
++        -0.63,
++        1.84,
++        -0.25
++      ],
++      "scale": [
++        0.8,
++        0.9,
++        0.9
++      ],
++      "tip": [
++        -0.75,
++        1.52,
++        0.02
++      ],
++      "support": "Manual context support; hidden secondary twigs inferred"
++    },
++    {
++      "id": 2,
++      "old": [
++        -0.1519872690155171,
++        1.8432931756973268,
++        -0.15941630552256747
++      ],
++      "center": [
++        0.04,
++        2.1,
++        -0.18
++      ],
++      "scale": [
++        0.85,
++        0.9,
++        1
++      ],
++      "tip": [
++        0.12,
++        1.66,
++        -0.09
++      ],
++      "support": "Manual context support; hidden secondary twigs inferred"
++    },
++    {
++      "id": 3,
++      "old": [
++        0.40698952849459236,
++        1.9786915225318715,
++        -0.1672220496045237
++      ],
++      "center": [
++        0.48,
++        2.16,
++        -0.16
++      ],
++      "scale": [
++        0.9,
++        0.95,
++        1
++      ],
++      "tip": [
++        0.48,
++        1.95,
++        -0.04
++      ],
++      "support": "Manual context support; hidden secondary twigs inferred"
++    },
++    {
++      "id": 4,
++      "old": [
++        0.8391851922327822,
++        1.7044157380407507,
++        0.0597140775846459
++      ],
++      "center": [
++        0.78,
++        1.94,
++        0.06
++      ],
++      "scale": [
++        0.7,
++        0.85,
++        1
++      ],
++      "tip": [
++        0.48,
++        1.95,
++        -0.04
++      ],
++      "support": "Manual context support; hidden secondary twigs inferred"
++    },
++    {
++      "id": 5,
++      "old": [
++        0.8451316944930864,
++        0.951799919553425,
++        0.08954829798717781
++      ],
++      "center": [
++        1.05,
++        1.09,
++        0.025
++      ],
++      "scale": [
++        0.8,
++        0.85,
++        1
++      ],
++      "tip": [
++        1.07,
++        1.07,
++        0.025
++      ],
++      "support": "Manual context support; hidden secondary twigs inferred"
++    }
++  ]
++}

@@ -1,0 +1,5 @@
+{
+  "new_harness_directory_already_created": true,
+  "failure": "FileExistsError before harness writes; native/readback/render helpers already created; shell continued subsequent Blender commands. Fixed by checking the new harness was empty and writing only remaining parts. Protected prior files unaffected.",
+  "set_e_added": true
+}

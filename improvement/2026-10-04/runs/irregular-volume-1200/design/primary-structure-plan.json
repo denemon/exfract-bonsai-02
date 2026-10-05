@@ -1,0 +1,391 @@
+{
+  "pot_width": 1.6,
+  "soil_height": 0.36,
+  "reference_status": "Visible user attachment302x404 actually viewed. All coordinates are approximate hand interpretation, not exact pixel measurement. Posterior depth/root branches/occluded upper origin are authored inference. Hidden primary branch origins are inferred; visible photo has wide asymmetrical crowns and low right branch.",
+  "body_procedure": "Irregular closed core with side-specific surface patch graph. No global centerline, no repeated main contour, no all-height semantic role/valley.",
+  "seed_vertices": [
+    [
+      0.09,
+      -0.035,
+      0.5
+    ],
+    [
+      0.32,
+      0,
+      0.51
+    ],
+    [
+      0.35,
+      0.2,
+      0.61
+    ],
+    [
+      0.07,
+      0.23,
+      0.55
+    ],
+    [
+      -0.26,
+      -0.035,
+      1.1
+    ],
+    [
+      0.1,
+      0.02,
+      1.06
+    ],
+    [
+      0.17,
+      0.25,
+      0.99
+    ],
+    [
+      -0.2,
+      0.285,
+      1.09
+    ]
+  ],
+  "seed_faces": {
+    "bottom": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "top": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "front": [
+      0,
+      1,
+      5,
+      4
+    ],
+    "right": [
+      1,
+      2,
+      6,
+      5
+    ],
+    "back": [
+      2,
+      3,
+      7,
+      6
+    ],
+    "left": [
+      3,
+      0,
+      4,
+      7
+    ]
+  },
+  "cells": [
+    {
+      "name": "Unequal buried root seat",
+      "parent": "core",
+      "face": "bottom",
+      "new_points": [
+        [
+          -0.04,
+          -0.07,
+          0.28
+        ],
+        [
+          -0.06,
+          0.24,
+          0.31
+        ],
+        [
+          0.42,
+          0.25,
+          0.29
+        ],
+        [
+          0.35,
+          -0.07,
+          0.3
+        ]
+      ],
+      "role": "Lower support only; branches terminate below soil"
+    },
+    {
+      "name": "Short right posterior swelling",
+      "parent": "core",
+      "face": "right",
+      "new_points": [
+        [
+          0.36,
+          -0.015,
+          0.67
+        ],
+        [
+          0.42,
+          0.18,
+          0.72
+        ],
+        [
+          0.19,
+          0.24,
+          0.99
+        ],
+        [
+          0.13,
+          0.015,
+          1.05
+        ]
+      ],
+      "role": "Short live-side return, not a vertical live rib"
+    },
+    {
+      "name": "Forward returned broad deadwood",
+      "parent": "core",
+      "face": "front",
+      "new_points": [
+        [
+          0.03,
+          -0.19,
+          0.59
+        ],
+        [
+          0.24,
+          -0.22,
+          0.63
+        ],
+        [
+          -0.1,
+          -0.245,
+          1.09
+        ],
+        [
+          -0.4,
+          -0.19,
+          1.2
+        ]
+      ],
+      "role": "Broad visible face bends forward and ends at own cap/shoulder"
+    },
+    {
+      "name": "Oblique short shoulder",
+      "parent": "Forward returned broad deadwood",
+      "face": "side2",
+      "new_points": [
+        [
+          0.06,
+          0.015,
+          1.26
+        ],
+        [
+          -0.3,
+          0.08,
+          1.36
+        ],
+        [
+          -0.47,
+          -0.13,
+          1.37
+        ],
+        [
+          -0.13,
+          -0.25,
+          1.28
+        ]
+      ],
+      "role": "Separate upward-left patch, diagonal closure; broad face does not continue above1.40"
+    }
+  ],
+  "local_scar": null,
+  "upper_branch": {
+    "parent": "core",
+    "face": "top",
+    "inset": 0.55,
+    "neck": 0.08,
+    "route": [
+      [
+        0.04,
+        0.15,
+        1.2
+      ],
+      [
+        0.18,
+        0.2,
+        1.42
+      ],
+      [
+        0.12,
+        0.09,
+        1.66
+      ],
+      [
+        0.32,
+        0.12,
+        1.85
+      ],
+      [
+        0.49,
+        0.04,
+        1.96
+      ]
+    ],
+    "radii": [
+      0.13,
+      0.105,
+      0.072,
+      0.045,
+      0.026
+    ],
+    "note": "Short varied bend with rounded final section, no sharp monotone needle; hidden origin authored"
+  },
+  "root_stubs": [
+    {
+      "side": 0,
+      "inset": 0.48,
+      "tip": [
+        -0.25,
+        0.12,
+        0.29
+      ],
+      "radius": 0.06
+    },
+    {
+      "side": 2,
+      "inset": 0.36,
+      "tip": [
+        0.52,
+        0.085,
+        0.265
+      ],
+      "radius": 0.039
+    },
+    {
+      "side": 1,
+      "inset": 0.42,
+      "tip": [
+        0.1,
+        0.47,
+        0.265
+      ],
+      "radius": 0.052
+    }
+  ],
+  "body_gate": [
+    "Broad body ends at short shoulder, near soil+0.6 pot width",
+    "No two ridges/valley continuously traceable from soil to upper branch",
+    "At\u00b112 shoulder has thickness, no long blade/web/rounded box",
+    "Unequal root direction/extent/endpoints disappearing below soil",
+    "Negative space mainly outside wood/among branches, no central oval hole or continuous groove"
+  ],
+  "render_gate": "Leafless full primary structure first. Shared closed-leaf crowns later only as diagnosed context. No material finish before mass selection.",
+  "finishing": "No bark finish before independent mass gate.",
+  "local_front_hinge": {
+    "left": 24,
+    "right": 25,
+    "edge": [
+      24,
+      25
+    ],
+    "points": [
+      [
+        -0.12,
+        -0.285,
+        0.89
+      ],
+      [
+        0.16,
+        -0.17,
+        0.86
+      ]
+    ],
+    "not_closed_section_loop": true,
+    "source": "Independent pre-mesh correction; coordinates are authored"
+  },
+  "revision_reason": "v01 clay looked like thumb/fist with needle. Right-shifted lower load, narrow front base, leftward short shoulder, lower-only posterior bulge, no blind oval scar.",
+  "primary_branches": [
+    {
+      "name": "Short left primary from shoulder",
+      "parent": "Oblique short shoulder",
+      "face": "side1",
+      "inset": 0.6,
+      "neck": 0.07,
+      "route": [
+        [
+          -0.35,
+          0,
+          1.3
+        ],
+        [
+          -0.61,
+          -0.09,
+          1.4
+        ],
+        [
+          -0.76,
+          -0.02,
+          1.52
+        ],
+        [
+          -0.98,
+          -0.03,
+          1.57
+        ],
+        [
+          -1.12,
+          0.005,
+          1.58
+        ]
+      ],
+      "radii": [
+        0.115,
+        0.094,
+        0.071,
+        0.048,
+        0.03
+      ]
+    },
+    {
+      "name": "Lower right primary from live hip",
+      "parent": "Short right posterior swelling",
+      "face": "cap",
+      "inset": 0.53,
+      "neck": 0.08,
+      "route": [
+        [
+          0.32,
+          0.1,
+          0.85
+        ],
+        [
+          0.58,
+          0.1,
+          1.03
+        ],
+        [
+          0.74,
+          -0.015,
+          1.07
+        ],
+        [
+          0.9,
+          -0.07,
+          1.015
+        ],
+        [
+          1.09,
+          -0.025,
+          1.07
+        ]
+      ],
+      "radii": [
+        0.105,
+        0.083,
+        0.057,
+        0.036,
+        0.024
+      ]
+    }
+  ],
+  "trial_status": "v02 seed/body/finite hinge coordinates unchanged; only primary branch mouth and hierarchy diagnosis. Not a third body-cell revision or final adoption."
+}

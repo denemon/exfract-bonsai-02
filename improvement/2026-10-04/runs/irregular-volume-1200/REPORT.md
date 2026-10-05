@@ -1,0 +1,27 @@
+工程16は非採用です。全高に続く二重S・規則的な孔は解消しましたが、広い前面が滑らかなfin/板状に見え、主要枝を加えても古木の説得力は未達です。作者と独立担当の判定が一致しました。形状NGをnormalや葉で隠す仕上げは行わず、通常表示の美的変更は0です。工程の保存完了を、依頼全体の完成とは扱いません。
+
+会話に添付された302×404の参考写真を実ピクセルで見ています。白いshari・赤褐色の生き筋・細かい葉群から真柏系juniperと推定しましたが、品種や正式な樹種は同定できません。大宮盆栽美術館の公式Japanese Juniper写真も実見し、乾いた枯れ面の折れ、木目方向、鱗葉と空隙を比較しました。参照URLと閲覧事実はdesign/reference-source.json。公式写真は一時的な閲覧のみで、サイトtextureや配布物へ取り込んでいません。Libraryの原画像取得は前の正規helperのTLS阻害が残り、今回retry0/IDなし。これは添付写真を見なかったという意味ではありません。
+
+制作前に完成像・縮尺・カメラ・光・素材・面の終端をDESIGN.mdと図に定め、独立担当からmesh前の具体的な面分割案を受けました。旧Ssurfaceや全高断面loftを微調整した案ではありません。方向の異なるroot seat、後方の短い芯、右下の張出し、前の枯れ面、短い肩を別source-faceのpatchで構成。front-onlyの有限hingeを側面quads/trianglesへつなぎ、全周の中間ringやT-junctionを使っていません。共有quadのmouthからneckと枝を作り、Subsurf2で一つの閉成分にしました。
+
+patch-v01は拳/指、中央の規則的blind傷、長い針に見えたため非採用。v02は荷重点を右、肩を左へずらし、下部だけの張出し、傷の除去、短く丸い上枝へ変更しました。二重Sは戻りませんでしたが、前面のfin感が残りました。同じcell座標/creaseの第三反復は停止しています。
+
+v02の26点body・既存cells・hinge/creaseを固定した構造診断として、左肩side1・右posterior cap・芯topの別mouthから三主要枝を接続しました。上枝を太く短い屈曲へ変更し、左/右の径・向き・高さを分けています。branch mouth周囲のSubsurfは局所的に変わるため「全bodyの評価済み頂点が完全不変」とは主張しません。qa/body-freeze.jsonが固定範囲とSHAを明記します。見えない枝起点や奥行き、根の支持は作者推定です。
+
+主要枝診断は134制御点133面、4,240tri、閉成分1、Euler2、孔0、境界/非多様体/非隣接交差0。BVH epsilon1e−8による検査で、数学的な全交差証明ではありません。native96,092B、GLB27,872B。実Blenderからread-only再読し、点位置誤差0、面・11頂点群・共有mouth・Subsurf2・体積が一致しました。patch-v01は90点89面2,832tri、v02は86点85面2,704tri。三meshとも初回幾何gateは通っています。技術的な連続を自然な老木の合格へ転用しません。nativeはcore/主要枝のみ、葉/鉢/庭の丸ごとコピーはありません。
+
+中立のBlender Cycles像は各候補0/±12度の正しい灰色3枚、camera/lens52/光位置・size・energy/exposure0が同じです。QA proxy鉢幅1.6で、production庭ではありません。v01の最初のhelperでnode/world/active-outputの不具合があり、白色の誤表示3枚と失敗ログも残しました。正しい灰像9枚とは区別します。新harnessが事前作成済みでFileExistsErrorを起こした一回もqa/helper-failure.jsonへ記録、空のnew folderだけを確認して残りを作りました。過去の成果は書換えていません。
+
+Mac実Chrome154でbefore/after 10枚を取得し、作者と独立担当が全画像を見ました。庭全景・盆栽全体・幹寄りは、前後で実camera座標/target/FOV38・同じ庭光/exposure1が一致。390×844と320×568はyaw−27/−23、FOV39の個別構図、前後同じ実cameraです。全頂点を実cameraへ投影し、幹寄りという意図的crop以外の8枚で樹冠〜鉢〜台が画面内です。文字空、overflowなし、console warning/exceptionイベント0。raw CDP JPEGquality96で加工していません。DPR1のブラウザ幅エミュレーションで、実スマホ検査ではありません。
+
+前後ともmain woodだけ同じtextureなしdrybrown/roughness.97/metalness0に置換し、geometryを診断しました。beforeは保護edge-v02と従来のleaf配置、afterは三主要枝と既存の閉じた鱗葉prototype2800shootの再配置です。暫定の細twigは別meshです。twig/葉素材は共有・暫定版のままで、全wood素材の完全同一比較ではありません。仕上げ樹皮shaderの改善比較は0です。PCのcameraをCDPでoverrideした後の画像はcomparisonCameraとexactProjectionが正しい記録であり、stats.camera/framingはoverride前の初期poseです。
+
+全景では左右/上枝の役割は分かりますが、長い滑らかな三腕が離れた葉群を支え、上冠への細twigが支柱に見えます。露出fin、枯れ面の短い折返し/破断、複数方向へ消える根支持が弱いままです。庭・盆栽全体・幹寄りの全てでfinが見え、葉によって隠れたことを改善根拠にしていません。背景の石、台、木造の厚みと奥行き、光の階層は前後維持されていますが、背景の完成認定ではありません。390はbbox幅約74%/高さ36%、320は幅77%/高さ44%。切れと幅不足はありませんが、390の上下の余白と下側の砂利が主役の存在感を弱めます。
+
+最新の形状＋shader条件はdesign/combined-acceptance.mdとHANDOFF/PLANに保存済み。Three0.185.1のローカル実装と公式MeshStandardMaterialのnormal/roughness/metalness/color-space規則を確認しました。自然なgeometry一件を選べなかったため、固定geometry上の色/roughness/normal独立比較、木目の幹→枝への流れ、葉の表裏/厚み透過、mobile shader調整は未実施です。新build、候補固有fallback、steadyGPU/load、reduced input、WebGL失敗、熱持続/Safari/実機は未検証。reduce preferenceでの静止captureだけをmotion機能合格へ転用しません。無throttle/warm loadの初期ready時刻やshadow-pass込み初期tri数も性能合格に使いません。
+
+既存14状態、全過去manifest/root source/production/nativeのSHA照合は通りました。Gitについては外部でcompleted-study archival commitsが追加され、開始HEADと異なっています。親からPR5 mergeの連絡があり、ローカルHEADの変化も読取確認しました。remote merge自体はこのworkerで独立検証していません。こちらのGit書込み/pull/reset/revert/push/PR/mergeは0。active runを競合変更する別writerは確認されず、保護チェックを通した範囲で現在工程だけ保存しました。
+
+13:22頃、保持していたproduction5208/PID66758と診断5209/PID76699が共に不在でした。停止原因は不明で、このworkerは停止操作をしていません。既存ensemble-0915/site/distを以前と同じpreviewコマンドで5208/PID4492へ復旧し、served index20,130BとSHA一致を確認。再buildは0。5209は不在のまま、QA Chromeも終了済みです。復旧はファイルを採用変更する操作ではありません。
+
+run＋同じprofile/cache増分＋小さいstaging/coordinator成長を計上。20MiB目標は超過見込み、100MiB上限/最低空き2GiBを守り、最終実測はfinish.jsonとqa/profile-footprint.jsonへ保存します。旧55profile・過去成果・ユーザーファイルの削除0、新profile0、site/public copy0。購入/公開/automation操作0。Sol/xhigh指定のactual runtime metadataは露出せず未確認です。次工程は親の判断に戻し、ここから追加造形は行いません。
