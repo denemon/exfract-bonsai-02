@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #102033; }
+main { position: fixed; inset: 0; overflow: hidden; }
+picture, img, canvas { position: absolute; display: block; inset: 0; width: 100%; height: 100%; }
+img { object-fit: cover; object-position: center; }
+canvas { opacity: 0; pointer-events: none; }
+@media (prefers-reduced-motion: reduce), (hover: none), (pointer: coarse) {
+  canvas { visibility: hidden; }
+}

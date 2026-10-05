@@ -1,0 +1,36 @@
+{
+  "pointer_sample_frames": 36,
+  "pointer_sample_duration_ms": 1188,
+  "pointer_sample_fps": 30.303030303030305,
+  "renderer_cpu_median_ms": 0.30000001192092896,
+  "renderer_cpu_max_ms": 14.699999988079071,
+  "engine_prepare_ms": 74.80000001192093,
+  "max_displacement_css_px_1440x900": 1.28801708816634,
+  "idle_frames_400ms": 0,
+  "reduced_frames_300ms": 0,
+  "heap": {
+    "usedSize": 12885064,
+    "totalSize": 20807680,
+    "embedderHeapUsedSize": 1271048,
+    "backingStorageSize": 1945767
+  },
+  "initial_desktop_resources": [
+    {
+      "name": "index-Dc_5oiy9.js",
+      "bytes": 2489,
+      "duration": 8
+    },
+    {
+      "name": "index-BJWaVI6k.css",
+      "bytes": 704,
+      "duration": 7.400000035762787
+    },
+    {
+      "name": "desktop.webp",
+      "bytes": 658372,
+      "duration": 9.800000011920929
+    }
+  ],
+  "long_tasks_observed": [],
+  "note": "Local Mac Chrome measurement. render CPU timings are not GPU timings. No physical mobile, Safari, remote-network or cold GPU cache guarantee."
+}

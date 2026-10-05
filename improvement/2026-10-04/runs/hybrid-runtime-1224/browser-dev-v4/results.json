@@ -1,0 +1,2578 @@
+{
+  "mode": "normal",
+  "dpr": 1,
+  "url": "http://127.0.0.1:5187/",
+  "results": [
+    {
+      "name": "desktop",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/desktop.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.600000023841858
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.600000023841858
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 2.199999988079071
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 2.5
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "mobile-390",
+      "ready": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/portrait.webp",
+      "naturalSize": [
+        852,
+        1846
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/portrait.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 4.899999976158142
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 2.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 2.700000047683716
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 2.300000011920929
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 2.199999988079071
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 1.2000000476837158
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "mobile-320",
+      "ready": true,
+      "viewport": [
+        320,
+        932
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/tall.webp",
+      "naturalSize": [
+        734,
+        2141
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/tall.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.699999988079071
+        },
+        {
+          "name": "tall.webp",
+          "bytes": 300,
+          "duration": 2.100000023841858
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 2.100000023841858
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.800000011920929
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 2.099999964237213
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "desktop-16-9",
+      "ready": true,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/wide.webp",
+      "naturalSize": [
+        1923,
+        818
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/wide.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 13.100000023841858
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 3.799999952316284
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 4
+        },
+        {
+          "name": "wide.webp",
+          "bytes": 676718,
+          "duration": 6.799999952316284
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 12.099999964237213
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "landscape",
+      "ready": true,
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/wide.webp",
+      "naturalSize": [
+        1923,
+        818
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/wide.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 4.399999976158142
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 4.5
+        },
+        {
+          "name": "wide.webp",
+          "bytes": 300,
+          "duration": 4.5
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 5.200000047683716
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 3.700000047683716
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 1
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "tablet",
+      "ready": true,
+      "viewport": [
+        768,
+        1024
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/portrait.webp",
+      "naturalSize": [
+        852,
+        1846
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/portrait.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 3.5
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 2.400000035762787
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 2.199999988079071
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 2.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 2.5
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "square",
+      "ready": true,
+      "viewport": [
+        1024,
+        1024
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/square.webp",
+      "naturalSize": [
+        1254,
+        1254
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/square.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 3.099999964237213
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 2.600000023841858
+        },
+        {
+          "name": "square.webp",
+          "bytes": 300,
+          "duration": 4.100000023841858
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 4.199999988079071
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 3.300000011920929
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 1.7000000476837158
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "mobile-390-short",
+      "ready": true,
+      "viewport": [
+        390,
+        740
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/portrait.webp",
+      "naturalSize": [
+        852,
+        1846
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/portrait.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.4000000357627869
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 1.899999976158142
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 2.300000011920929
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 2.5
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.7000000476837158
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 1.4000000357627869
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "mobile-320-short",
+      "ready": true,
+      "viewport": [
+        320,
+        568
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/portrait.webp",
+      "naturalSize": [
+        852,
+        1846
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/portrait.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 2.399999976158142
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 2.800000011920929
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 3
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 3.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 2.699999988079071
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 1.4000000357627869
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "ultrawide",
+      "ready": true,
+      "viewport": [
+        2560,
+        1080
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/wide.webp",
+      "naturalSize": [
+        1923,
+        818
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/wide.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 4
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 5.799999952316284
+        },
+        {
+          "name": "wide.webp",
+          "bytes": 300,
+          "duration": 6.199999988079071
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 5.900000035762787
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 6.300000011920929
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 3.099999964237213
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "desktop-5-4",
+      "ready": true,
+      "viewport": [
+        1280,
+        1024
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/square.webp",
+      "naturalSize": [
+        1254,
+        1254
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/square.webp",
+        "frames": 0,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0,
+        "frameTimes": []
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.199999988079071
+        },
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.100000023841858
+        },
+        {
+          "name": "square.webp",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.2999999523162842
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.199999988079071
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.8999999761581421
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "motion-right",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": true,
+      "stats": {
+        "imageReady": true,
+        "engineReady": true,
+        "mode": "relief",
+        "source": "http://127.0.0.1:5187/desktop.webp",
+        "frames": 17,
+        "running": false,
+        "reducedMotion": false,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0.011166666666666667,
+          0.0073999999999999995
+        ],
+        "maxOffsetPixels": 1.2747667630791801,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791
+        ],
+        "enginePrepareMs": 77.30000001192093,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "motion-left-idle",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": true,
+      "stats": {
+        "imageReady": true,
+        "engineReady": true,
+        "mode": "relief",
+        "source": "http://127.0.0.1:5187/desktop.webp",
+        "frames": 36,
+        "running": false,
+        "reducedMotion": false,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          -0.011333333333333332,
+          -0.0073999999999999995
+        ],
+        "maxOffsetPixels": 1.28801708816634,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896
+        ],
+        "enginePrepareMs": 77.30000001192093,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        }
+      ],
+      "longTasks": [],
+      "idleFramesOver400ms": 0
+    },
+    {
+      "name": "moving-performance",
+      "durationMs": 1187,
+      "frames": 36,
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": true,
+      "stats": {
+        "imageReady": true,
+        "engineReady": true,
+        "mode": "relief",
+        "source": "http://127.0.0.1:5187/desktop.webp",
+        "frames": 72,
+        "running": true,
+        "reducedMotion": false,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0.006889875266565792,
+          0.004726384054220812
+        ],
+        "maxOffsetPixels": 0.7950777547076252,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842
+        ],
+        "enginePrepareMs": 77.30000001192093,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "reduced-motion",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/desktop.webp",
+        "frames": 72,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0.7950777547076252,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842
+        ],
+        "enginePrepareMs": 77.30000001192093,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        }
+      ],
+      "longTasks": [],
+      "framesOver300ms": 0
+    },
+    {
+      "name": "context-lost",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/desktop.webp",
+        "frames": 74,
+        "running": false,
+        "reducedMotion": false,
+        "pointerFine": true,
+        "contextLost": true,
+        "fallbackReason": "context-lost",
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0.29620964279034584,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          10.800000011920929,
+          0.10000002384185791
+        ],
+        "enginePrepareMs": 57.299999952316284,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "context-restored",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": true,
+      "stats": {
+        "imageReady": true,
+        "engineReady": true,
+        "mode": "relief",
+        "source": "http://127.0.0.1:5187/desktop.webp",
+        "frames": 76,
+        "running": true,
+        "reducedMotion": false,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0.0033552075920823344,
+          0.000655435901709107
+        ],
+        "maxOffsetPixels": 0.32531598843134907,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          10.800000011920929,
+          0.10000002384185791,
+          11.100000023841858,
+          0.10000002384185791
+        ],
+        "enginePrepareMs": 61.19999998807907,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "resize-390-844",
+      "ready": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/portrait.webp",
+      "naturalSize": [
+        852,
+        1846
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/portrait.webp",
+        "frames": 76,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0.32531598843134907,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          10.800000011920929,
+          0.10000002384185791,
+          11.100000023841858,
+          0.10000002384185791
+        ],
+        "enginePrepareMs": 61.19999998807907,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 1.699999988079071
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "resize-320-932",
+      "ready": true,
+      "viewport": [
+        320,
+        932
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/tall.webp",
+      "naturalSize": [
+        734,
+        2141
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/tall.webp",
+        "frames": 76,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0.32531598843134907,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          10.800000011920929,
+          0.10000002384185791,
+          11.100000023841858,
+          0.10000002384185791
+        ],
+        "enginePrepareMs": 61.19999998807907,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 1.699999988079071
+        },
+        {
+          "name": "tall.webp",
+          "bytes": 300,
+          "duration": 1.199999988079071
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "resize-844-390",
+      "ready": true,
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/wide.webp",
+      "naturalSize": [
+        1923,
+        818
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/wide.webp",
+        "frames": 76,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0.32531598843134907,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          10.800000011920929,
+          0.10000002384185791,
+          11.100000023841858,
+          0.10000002384185791
+        ],
+        "enginePrepareMs": 61.19999998807907,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 1.699999988079071
+        },
+        {
+          "name": "tall.webp",
+          "bytes": 300,
+          "duration": 1.199999988079071
+        },
+        {
+          "name": "wide.webp",
+          "bytes": 300,
+          "duration": 1.2000000476837158
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "resize-1024-1024",
+      "ready": true,
+      "viewport": [
+        1024,
+        1024
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/square.webp",
+      "naturalSize": [
+        1254,
+        1254
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/square.webp",
+        "frames": 76,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0.32531598843134907,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          10.800000011920929,
+          0.10000002384185791,
+          11.100000023841858,
+          0.10000002384185791
+        ],
+        "enginePrepareMs": 61.19999998807907,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 1.699999988079071
+        },
+        {
+          "name": "tall.webp",
+          "bytes": 300,
+          "duration": 1.199999988079071
+        },
+        {
+          "name": "wide.webp",
+          "bytes": 300,
+          "duration": 1.2000000476837158
+        },
+        {
+          "name": "square.webp",
+          "bytes": 300,
+          "duration": 4
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "resize-1440-900",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": {
+        "imageReady": true,
+        "engineReady": false,
+        "mode": "still",
+        "source": "http://127.0.0.1:5187/desktop.webp",
+        "frames": 76,
+        "running": false,
+        "reducedMotion": true,
+        "pointerFine": true,
+        "contextLost": false,
+        "fallbackReason": null,
+        "offset": [
+          0,
+          0
+        ],
+        "maxOffsetPixels": 0.32531598843134907,
+        "frameTimes": [
+          15,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.20000004768371582,
+          0.10000002384185791,
+          0.20000004768371582,
+          1.5999999642372131,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.40000003576278687,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.2999999523162842,
+          0.10000002384185791,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.09999996423721313,
+          0.20000004768371582,
+          0.09999996423721313,
+          0,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.40000003576278687,
+          0,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.19999998807907104,
+          0,
+          0,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.10000002384185791,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.19999998807907104,
+          0.3999999761581421,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.09999996423721313,
+          0.19999998807907104,
+          0.20000004768371582,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.19999998807907104,
+          0.2999999523162842,
+          0.2999999523162842,
+          10.800000011920929,
+          0.10000002384185791,
+          11.100000023841858,
+          0.10000002384185791
+        ],
+        "enginePrepareMs": 61.19999998807907,
+        "geometryTriangles": 32000,
+        "texturePixels": 1573312
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "client",
+          "bytes": 300,
+          "duration": 1.300000011920929
+        },
+        {
+          "name": "style.css",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 300,
+          "duration": 1.5999999642372131
+        },
+        {
+          "name": "main.js?t=1791085484093",
+          "bytes": 300,
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "env.mjs",
+          "bytes": 300,
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "relief.js?t=1791085484093",
+          "bytes": 22997,
+          "duration": 2.899999976158142
+        },
+        {
+          "name": "three.js?v=7af1dc8b",
+          "bytes": 5886815,
+          "duration": 65.39999997615814
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 300,
+          "duration": 1.699999988079071
+        },
+        {
+          "name": "tall.webp",
+          "bytes": 300,
+          "duration": 1.199999988079071
+        },
+        {
+          "name": "wide.webp",
+          "bytes": 300,
+          "duration": 1.2000000476837158
+        },
+        {
+          "name": "square.webp",
+          "bytes": 300,
+          "duration": 4
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "heap",
+      "metrics": {
+        "metrics": [
+          {
+            "name": "Timestamp",
+            "value": 490129.561551
+          },
+          {
+            "name": "AudioHandlers",
+            "value": 0
+          },
+          {
+            "name": "AudioWorkletProcessors",
+            "value": 0
+          },
+          {
+            "name": "Documents",
+            "value": 28
+          },
+          {
+            "name": "Frames",
+            "value": 40
+          },
+          {
+            "name": "JSEventListeners",
+            "value": 226
+          },
+          {
+            "name": "LayoutObjects",
+            "value": 287
+          },
+          {
+            "name": "MediaKeySessions",
+            "value": 0
+          },
+          {
+            "name": "MediaKeys",
+            "value": 0
+          },
+          {
+            "name": "Nodes",
+            "value": 645
+          },
+          {
+            "name": "Resources",
+            "value": 11
+          },
+          {
+            "name": "ContextLifecycleStateObservers",
+            "value": 95
+          },
+          {
+            "name": "V8PerContextDatas",
+            "value": 14
+          },
+          {
+            "name": "WorkerGlobalScopes",
+            "value": 0
+          },
+          {
+            "name": "UACSSResources",
+            "value": 0
+          },
+          {
+            "name": "RTCPeerConnections",
+            "value": 0
+          },
+          {
+            "name": "ResourceFetchers",
+            "value": 28
+          },
+          {
+            "name": "AdSubframes",
+            "value": 0
+          },
+          {
+            "name": "DetachedScriptStates",
+            "value": 13
+          },
+          {
+            "name": "ArrayBufferContents",
+            "value": 37
+          },
+          {
+            "name": "LayoutCount",
+            "value": 23
+          },
+          {
+            "name": "RecalcStyleCount",
+            "value": 32
+          },
+          {
+            "name": "LayoutDuration",
+            "value": 0.001129
+          },
+          {
+            "name": "RecalcStyleDuration",
+            "value": 0.001502
+          },
+          {
+            "name": "DevToolsCommandDuration",
+            "value": 0.008336
+          },
+          {
+            "name": "ScriptDuration",
+            "value": 0.069914
+          },
+          {
+            "name": "V8CompileDuration",
+            "value": 0
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.302617
+          },
+          {
+            "name": "TaskOtherDuration",
+            "value": 0.221736
+          },
+          {
+            "name": "ThreadTime",
+            "value": 0.26101
+          },
+          {
+            "name": "ProcessTime",
+            "value": 1.412333
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 13292136
+          },
+          {
+            "name": "JSHeapTotalSize",
+            "value": 22315008
+          },
+          {
+            "name": "FirstMeaningfulPaint",
+            "value": 490122.42224
+          },
+          {
+            "name": "DomContentLoaded",
+            "value": 490122.380315
+          },
+          {
+            "name": "NavigationStart",
+            "value": 490122.372101
+          }
+        ]
+      },
+      "heap": {
+        "usedSize": 13292136,
+        "totalSize": 22315008,
+        "embedderHeapUsedSize": 4137104,
+        "backingStorageSize": 8297231
+      }
+    }
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "path": "/Users/kazuki.tanaka/Documents/Codex/2026-10-04/task-2/hybrid-1132-images/portrait-candidate02.png",
+  "bytes": 2785457,
+  "pixels": [
+    852,
+    1846
+  ],
+  "sha256": "ddf4286af9ea9a27ab2d3ef758e5272420f976752f980033548d714d041bbeda",
+  "source": "image_gen PNG bytes, unchanged",
+  "reference_input": "verified local desktop-candidate01.png",
+  "review": "Stronger oblique view; main tree fully present, but stone plinth reaches right frame edge. Refinement required."
+}

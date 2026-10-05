@@ -1,0 +1,12 @@
+{
+  "path": "/Users/kazuki.tanaka/Documents/Codex/2026-10-04/task-2/hybrid-1132-images/portrait-tall-candidate01.png",
+  "bytes": 2779062,
+  "pixels": [
+    734,
+    2141
+  ],
+  "sha256": "4cca5ae4f9390e2d3d846263141905df2900fbe372535cf555706ae39fc5e39c",
+  "source": "image_gen PNG bytes, unchanged",
+  "reference_input": "most recent generated portrait-candidate03, before it had a local path",
+  "review": "Separate 320:932 composition candidate, with more oblique pot and complete subject."
+}
