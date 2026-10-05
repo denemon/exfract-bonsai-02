@@ -1,0 +1,121 @@
+{
+  "version": "spatial-v01",
+  "authored_scene_approximation": true,
+  "tree_frozen": "edge-v02 and existing foliage/pot/low stone platform, material unchanged",
+  "architecture": {
+    "old_origin": [
+      2.08,
+      0,
+      0.15
+    ],
+    "new_origin": [
+      1.72,
+      0,
+      -1.35
+    ],
+    "yaw": -0.21,
+    "room_width": 2.67,
+    "room_depth": 5.31,
+    "opening_height": 2.046,
+    "room_opening_direction": "toward left courtyard, rear recessed alcove",
+    "rear_boundary_z": -6.2,
+    "rear_tiled_ridge_y": 1.81
+  },
+  "terrain": {
+    "domain": [
+      -6,
+      -7,
+      6,
+      7
+    ],
+    "height_scale": 0.3,
+    "base_y": -0.022,
+    "continuity": "Same authored512x512 data supplies geometry, moss/organic color and stone root transitions",
+    "moss_height_max": 0.2,
+    "hero_seat_flat": true,
+    "scattered_small_stones": 0
+  },
+  "stone_placements": [
+    {
+      "asset": "boulder_01",
+      "center": [
+        -1.78,
+        -0.65
+      ],
+      "extent": 1.27,
+      "burial": 0.19
+    },
+    {
+      "asset": "rock_09",
+      "center": [
+        -2.67,
+        -1.78
+      ],
+      "extent": 1.06,
+      "burial": 0.06
+    }
+  ],
+  "planting": {
+    "maple_origin": [
+      -2.82,
+      0,
+      -3.5
+    ],
+    "far_tree_origins": [
+      [
+        -2.5,
+        0,
+        -6.8
+      ],
+      [
+        -0.2,
+        0,
+        -8.3
+      ]
+    ],
+    "form": "Existing individually authored support axes, denser short bud shoots; no new ball crowns",
+    "leaf_size": {
+      "maple": 0.067,
+      "far": 0.09
+    }
+  },
+  "comparison": {
+    "hero_key_fixed": true,
+    "all_baseline_light_positions_for_geometry_pass": true,
+    "exposure_fixed": 1,
+    "pc_garden": {
+      "position": [
+        0,
+        1.4659103017843749,
+        3.889990624398222
+      ],
+      "target": [
+        0,
+        0.78,
+        0
+      ],
+      "fov": 38
+    },
+    "pc_bonsai": {
+      "distance": 3.27,
+      "target": [
+        0,
+        0.78,
+        0
+      ],
+      "fov": 38
+    },
+    "pc_close": {
+      "distance": 1.35,
+      "target": [
+        -0.02,
+        0.68,
+        0.04
+      ],
+      "fov": 38
+    },
+    "mobile": "Use identical actual tree-point fitting for first before/after; redesign composition separately after structural check"
+  },
+  "finish_phase": "Spatial geometry first; separate room-light=proposed change after visible review, preserve global hero key; geometry/hash frozen before finish",
+  "wood_resume": "After background visible selection and saved frozen basis, gray/night wood gate; no shader finish before wood shape selection"
+}

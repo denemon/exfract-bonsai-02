@@ -1,0 +1,6 @@
+{
+  "stopped_owned_pid": 69057,
+  "command": "node ../../../../../node_modules/vite/bin/vite.js preview --config vite.config.mjs --configLoader native",
+  "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/carved-mass-1340/candidate",
+  "reason": "Candidate-only asset route omitted /bark/; fixed, protected preview5208 and harness5209 untouched"
+}

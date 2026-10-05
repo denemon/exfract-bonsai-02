@@ -1,0 +1,62 @@
+[
+  {
+    "file": "candidate/public/stills/pc.webp",
+    "source": "qa/final-scene/pc.jpg",
+    "source_sha256": "6ca37195cb49dbf7e2e8a3ea09a038d45fd9fa47ce0f0b237940a4df24b28c2f",
+    "sha256": "cf58e212aa9446bd34f921ebb41225d6adee20beb7105985f62961cada9b9ab1",
+    "pixel_dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 220186,
+    "operation": "Full actual rendered scene, format conversion only; no crop or beautification"
+  },
+  {
+    "file": "candidate/public/stills/wide.webp",
+    "source": "qa/fallback-extended-source/wide.jpg",
+    "source_sha256": "547bedee72dd8723c77b77b898435675afb977b1f98aa6a2b69c6095cece9d1d",
+    "sha256": "3a00b9effa5c2d079524d8ac3487934d1254c4dc0457e9b77209f97bca1f6965",
+    "pixel_dimensions": [
+      1920,
+      800
+    ],
+    "bytes": 205942,
+    "operation": "Full actual rendered scene, format conversion only; no crop or beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-390.webp",
+    "source": "qa/final-scene/mobile-390.jpg",
+    "source_sha256": "cc135d06e91077495db77cf638758b1ebbe780015e01d589518ca0ad90c92b29",
+    "sha256": "06a8b20e4edc0b37f06e154f50f790c05f419832483c06a3659859d851d6a1c3",
+    "pixel_dimensions": [
+      390,
+      844
+    ],
+    "bytes": 50670,
+    "operation": "Full actual rendered scene, format conversion only; no crop or beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-320.webp",
+    "source": "qa/final-scene/mobile-320.jpg",
+    "source_sha256": "1d00cc8dcb6c1297533e2bdc54f3893d5fc6f939fc18185d20204262fb7e00c9",
+    "sha256": "b02b0c3c9afa00b85d819d9799ac46d7e0dbbcfdce27042e5967247f17cfcff4",
+    "pixel_dimensions": [
+      320,
+      568
+    ],
+    "bytes": 32520,
+    "operation": "Full actual rendered scene, format conversion only; no crop or beautification"
+  },
+  {
+    "file": "candidate/public/stills/mobile-tall.webp",
+    "source": "qa/fallback-extended-source/mobile-tall.jpg",
+    "source_sha256": "5bcf6cdde7217fd1f0d5a2c029440657fbc346bc467a1604d9e0f7dbe746aadb",
+    "sha256": "c86cc694fe042b3bf0088e5799639f68a745d807c2a0a0ffc38706bd47f53f02",
+    "pixel_dimensions": [
+      320,
+      844
+    ],
+    "bytes": 35680,
+    "operation": "Full actual rendered scene, format conversion only; no crop or beautification"
+  }
+]

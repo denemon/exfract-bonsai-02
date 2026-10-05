@@ -1,0 +1,3914 @@
+{
+  "results": [
+    {
+      "name": "wide",
+      "url": "http://127.0.0.1:5211/?qa=wide&room-light=proposed&canopy=depth-v01&finish=material-v01&composition=depth-designed&background-finish=refined&background-light=refined",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 1000,
+        "framesMs": [
+          402
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 117211,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "loading": {
+          "parallelAssets": true,
+          "sharedDraco": true,
+          "woodReplacement": false,
+          "decoderWorkerLimit": 2,
+          "exactGeometrySplit": true,
+          "losslessModelGzip": true
+        },
+        "garden": {
+          "geometrySignature": {
+            "method": "Actual background mesh position/index/normal/world/instance buffers plus same terrain bytes; material/color/light/camera intentionally excluded",
+            "sha256": "2e79449acc970fab3b9e49c5610ee9b7ac01022d7762d8970c280261ecc9fc2b",
+            "fieldSha256": "008d852ef489b472af78dcbdc66c0b47f6a3911bea4ad70fa482c831a7b15592",
+            "meshes": 23,
+            "rows": [
+              {
+                "name": "Branch attached closed garden broadleaves 0",
+                "vertices": 10,
+                "triangles": 16,
+                "instances": 1652,
+                "position": "964aa8316a9eb0af0e4c3c8db20a132ec071fc183bdc0711d779ea475fc22df5",
+                "normal": "7a1876cdb03861d5955852cb9ec351f3b80596b1dcc884c7db37c9a760ea05c8",
+                "index": "80307b16ae9a3012dc3b12c5afc32948cae99e21cfac6381bed42fe8a0cba5a0",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "1aaf6f98d4df57de4e477054f7d9bdd774173d8dc3edaed4d389c0c4a45982c8",
+                "bounds": {
+                  "min": [
+                    -0.28999999165534973,
+                    0,
+                    -0.020999999716877937
+                  ],
+                  "max": [
+                    0.2639000117778778,
+                    1,
+                    0.09399999678134918
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached closed garden broadleaves 1",
+                "vertices": 10,
+                "triangles": 16,
+                "instances": 1651,
+                "position": "70b091d110e47ea388bc969a3b118f2be1b53c25dd86c3883ac531bdf7aa8bda",
+                "normal": "a83604fa9604ff3e2fee030bf2c82dee647aa4a6d3d046786f984a2a8c0a70b9",
+                "index": "80307b16ae9a3012dc3b12c5afc32948cae99e21cfac6381bed42fe8a0cba5a0",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "5b8877d923c06daf3469cbe0cf8842f517fef3d25efd7ced8bcc75802deead7a",
+                "bounds": {
+                  "min": [
+                    -0.33000001311302185,
+                    0,
+                    -0.020999999716877937
+                  ],
+                  "max": [
+                    0.3003000020980835,
+                    1,
+                    0.1120000034570694
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached closed garden broadleaves 2",
+                "vertices": 10,
+                "triangles": 16,
+                "instances": 1651,
+                "position": "e9bf2c22266dee6babd460cab9314aaf49508ef46d1d665406c514b9d93ba772",
+                "normal": "e513467d9a9390d8c47481edeb92387920cdc92d7accaa358133216b10b4ad1b",
+                "index": "80307b16ae9a3012dc3b12c5afc32948cae99e21cfac6381bed42fe8a0cba5a0",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "ce87413223106617bb9587ab994e12fee483c63f42b4462bdd51aa7351bc71aa",
+                "bounds": {
+                  "min": [
+                    -0.25999999046325684,
+                    0,
+                    -0.020999999716877937
+                  ],
+                  "max": [
+                    0.23659999668598175,
+                    1,
+                    0.09399999678134918
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached closed garden broadleaves 3",
+                "vertices": 10,
+                "triangles": 16,
+                "instances": 1651,
+                "position": "3adc0cee71026127444ca2f30ea06bd6fcbcba8b980245d318899237fae8f73b",
+                "normal": "716917c74c026a2229caa2362b283628af651a8dae956d6e548bf9fc35589fbc",
+                "index": "80307b16ae9a3012dc3b12c5afc32948cae99e21cfac6381bed42fe8a0cba5a0",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "cab1a344406c99dcf7ea2d9bbe98f5a575f9aa46a637546682e9dd0760431b47",
+                "bounds": {
+                  "min": [
+                    -0.3100000023841858,
+                    0,
+                    -0.020999999716877937
+                  ],
+                  "max": [
+                    0.28209999203681946,
+                    1,
+                    0.09700000286102295
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached garden leaves",
+                "vertices": 14,
+                "triangles": 24,
+                "instances": 2084,
+                "position": "46823ea1dedb3ad4ac14cdf8e2c06847c0f5daf1664780d0503132de14261e13",
+                "normal": "1855a89bbacdfde6aaa47af039f2ff3afa1002ce3d49c2beb85337ca12afd2a9",
+                "index": "51edcaf4d2bc477dee753a9f1ab179c6d2a5fab954179438bd3947531c0c41a8",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "c55838a635f009f4dbc1ed95e0a109674a91f2aecf07fd04449cf6b4d1a47b76",
+                "bounds": {
+                  "min": [
+                    -0.5400000214576721,
+                    -0.02199999988079071,
+                    0
+                  ],
+                  "max": [
+                    0.5099999904632568,
+                    0.07199999690055847,
+                    1.0399999618530273
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached shrub garden leaves",
+                "vertices": 8,
+                "triangles": 12,
+                "instances": 1209,
+                "position": "7eee4c1b9e92f46f1fae2ac0bac948bfee9ff93eb662121d52e8df642eba6af6",
+                "normal": "da6bb81e86bda6f6cfb9f166087ae1b0b464dd58a000e95b31adc6c2491bb88c",
+                "index": "f157d1f473341faea142c59a048dadf57ed8729b285b9b4d3712290eef6ceae4",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "2d386b1b8b5c7fa30e703e6e1009e347537068b6219a9727b238df35dab3bfd3",
+                "bounds": {
+                  "min": [
+                    -0.3199999928474426,
+                    -0.02199999988079071,
+                    0
+                  ],
+                  "max": [
+                    0.3100000023841858,
+                    0.07199999690055847,
+                    1.0800000429153442
+                  ]
+                }
+              },
+              {
+                "name": "Continuous distant mineral ground",
+                "vertices": 4,
+                "triangles": 2,
+                "instances": 1,
+                "position": "7904e2cbece184be84c9568eb93d61cab59b9fec9d254a0359062244c00c8778",
+                "normal": "132d57fa87f2e37b4ba78b662a7aeb99820ae8f3c440d1a3a8e3e085c775c282",
+                "index": "e6681333c21d3bedc5c5d4ea4503e8acc5b95e8d8e2aabffd97d12425a145443",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -50,
+                    -0.028999999165534973,
+                    -50
+                  ],
+                  "max": [
+                    50,
+                    -0.028999999165534973,
+                    50
+                  ]
+                }
+              },
+              {
+                "name": "Continuous mineral gravel and growing moss",
+                "vertices": 31280,
+                "triangles": 61830,
+                "instances": 1,
+                "position": "235f99fe176ac9430338b6030c87e6adb76a081670bb6176886b55ba71b6a134",
+                "normal": "a07d069bb9624c03467a7e88e85e6a18ac828c0354526b1de89d7fc81bea6b51",
+                "index": "71d9d84e1875a100aee374a51390d1c11baa2af3aa951bbce37fa5ad63b799d9",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -6,
+                    -0.02199999988079071,
+                    -7
+                  ],
+                  "max": [
+                    6,
+                    0.19390319287776947,
+                    7
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture alcove",
+                "vertices": 324,
+                "triangles": 108,
+                "instances": 1,
+                "position": "6da2fc5a6a930c109479ccb64890bc4813d288a697bc66b9d4afd3722b71ea92",
+                "normal": "29f63e26f7e074cb48494797980130ed80b192da81246a894b7655e2f280ac8b",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    3.6557064056396484,
+                    0.4449999928474426,
+                    -7.830253601074219
+                  ],
+                  "max": [
+                    5.314265251159668,
+                    2.434999942779541,
+                    -7.5540385246276855
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture foundation",
+                "vertices": 1944,
+                "triangles": 648,
+                "instances": 1,
+                "position": "faf70b14efb2cf65d072f8c13e444a9ac44c74aed679357858c5e7190a936bca",
+                "normal": "85a469640d557e8c459ab14a7100ded53d5d0d61949f327c9d70e823d24d5144",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13,
+                    -0.04899999871850014,
+                    -7.855197429656982
+                  ],
+                  "max": [
+                    5.52268648147583,
+                    0.20999999344348907,
+                    -2.5004751682281494
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture horizontal",
+                "vertices": 36612,
+                "triangles": 12204,
+                "instances": 1,
+                "position": "759c5764e5c5d4afb0578217a7bac320c40d0c25ac0189ba0c009a1247a14280",
+                "normal": "5e887623976e711b07c54cc378b2b4b8c8157aef7489bcbbbb2c51b82c044e3b",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    1.0507980585098267,
+                    0.25200000405311584,
+                    -8.335445404052734
+                  ],
+                  "max": [
+                    5.829432487487793,
+                    3.0268776416778564,
+                    -2.11148738861084
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture lampShade",
+                "vertices": 324,
+                "triangles": 108,
+                "instances": 1,
+                "position": "68cb3364a338f506638cc756937ab4a73cd5108c7b94d1e160a4e0f88681d3ff",
+                "normal": "29f63e26f7e074cb48494797980130ed80b192da81246a894b7655e2f280ac8b",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    4.076638698577881,
+                    0.7250000238418579,
+                    -5.956607341766357
+                  ],
+                  "max": [
+                    4.275210857391357,
+                    0.9629999995231628,
+                    -5.758035659790039
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture lengthwise",
+                "vertices": 9720,
+                "triangles": 3240,
+                "instances": 1,
+                "position": "cfe1cb09ff1b8d4d197dfd43a9be8006aea16a18cca84b38fa3813f210395ef6",
+                "normal": "f842721ba02fbee3150d9f1a6bf340a8bc16c1092fa2475a8f95da8a4aef47a0",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13.114999771118164,
+                    0.16050000488758087,
+                    -8.43288803100586
+                  ],
+                  "max": [
+                    5.465433597564697,
+                    2.7960000038146973,
+                    -2.5477588176727295
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture matBorder",
+                "vertices": 3888,
+                "triangles": 1296,
+                "instances": 1,
+                "position": "6a9c2166c5e2d63dcffa6da0db8639d459e15dce9d3a66aa6cb8a1f3df6bc18c",
+                "normal": "a74cad7af0c56fcba3d58cde5a21a6f16b2961098ca826f893382fc7c8d1c364",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    2.6301891803741455,
+                    0.375,
+                    -7.745479106903076
+                  ],
+                  "max": [
+                    5.270735740661621,
+                    0.3790000081062317,
+                    -2.7400617599487305
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture paper",
+                "vertices": 648,
+                "triangles": 216,
+                "instances": 1,
+                "position": "88c6b5c3f3c25e9464352375b7eaabe5d920e5c29fd1fe2a664f6e3d6901d7cf",
+                "normal": "682133d092a21d24b1a9b81cd446096c0c242d7d60776a3d55637cc5a4289c26",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    2.923828363418579,
+                    0.4414999485015869,
+                    -7.579719066619873
+                  ],
+                  "max": [
+                    3.115532398223877,
+                    2.4865000247955322,
+                    -6.500763416290283
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture plaster",
+                "vertices": 972,
+                "triangles": 324,
+                "instances": 1,
+                "position": "65404516803e6f04483b93647d69fb3ef1b8552f324ed71eeb739a9b45ae800d",
+                "normal": "0dd1210b8a315ed61bc35d665086666b25730b5e86a6280d5660554b5a993de8",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    3.0096309185028076,
+                    0.36899998784065247,
+                    -8.037300109863281
+                  ],
+                  "max": [
+                    5.677229881286621,
+                    2.6089999675750732,
+                    -2.354304313659668
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture rearWood",
+                "vertices": 43416,
+                "triangles": 14472,
+                "instances": 1,
+                "position": "6ac80c955cb5c8130c2f567508ff3443c7b262cee4ea29920ae1a7d35dde3115",
+                "normal": "b444f533485365d0f9a73a681a35d5a5c8849d4618b8cc2671ae49a6f125a72c",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13.07349967956543,
+                    0.1199999675154686,
+                    -6.508999824523926
+                  ],
+                  "max": [
+                    2.8999998569488525,
+                    1.4950000047683716,
+                    -6.356075286865234
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture roof",
+                "vertices": 13236,
+                "triangles": 4412,
+                "instances": 1,
+                "position": "19db3c4b90ac95f771b517cdb561bff5f076174d213b15e0e3ebb57d8111b55b",
+                "normal": "8a48e6a36d16f95dfab289383b32dee45a984807dbedd7fe3e5ea65f24b2fc0c",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13.119999885559082,
+                    1.5883811712265015,
+                    -8.39850902557373
+                  ],
+                  "max": [
+                    6.02461051940918,
+                    3.2051279544830322,
+                    -1.9427180290222168
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture tatami",
+                "vertices": 2268,
+                "triangles": 756,
+                "instances": 1,
+                "position": "29ee052362341734d2f9c5fc161331cf4512a401322a11785fd4fb9b14d8abd7",
+                "normal": "9d9910aeeb4cb25431ad7dc7e0f04c385a8299d39cbc729c046e9873864945de",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    2.61979341506958,
+                    0.3199999928474426,
+                    -7.747367858886719
+                  ],
+                  "max": [
+                    5.281131267547607,
+                    0.4505000114440918,
+                    -2.738172769546509
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture vertical",
+                "vertices": 10368,
+                "triangles": 3456,
+                "instances": 1,
+                "position": "da4c1bdc9f6f5628a8873d35251d0fb62d2e212250d723e310e0759599c10e94",
+                "normal": "61b7af81cf79bfb1fd67b43355f762fa792a93b4fe0db5c4ced4ea4c7c075836",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13.057499885559082,
+                    -2.38418573772492e-9,
+                    -7.785868167877197
+                  ],
+                  "max": [
+                    5.384956359863281,
+                    2.625499963760376,
+                    -2.371814250946045
+                  ]
+                }
+              },
+              {
+                "name": "Individually authored garden branching",
+                "vertices": 109506,
+                "triangles": 36502,
+                "instances": 1,
+                "position": "a76e4571ca6f7c441464f05ac87a7c8acc1742b5b8f7ec76e9e6a67905d4918d",
+                "normal": "35550f1befdd43c12862c994309b22ac7e0f1ca88eae0114638092358ed0acdc",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -4.709316730499268,
+                    -0.0389159694314003,
+                    -12.109184265136719
+                  ],
+                  "max": [
+                    1.3989731073379517,
+                    3.786099672317505,
+                    -0.47658106684684753
+                  ]
+                }
+              },
+              {
+                "name": "Partly buried scanned garden stone boulder_01",
+                "vertices": 14260,
+                "triangles": 23000,
+                "instances": 1,
+                "position": "5a9e6c9192750c42f8ea23e69e1eef2f2bd717f5939a833aab4386645c254ba4",
+                "normal": "32e15b64f80830d30ee0899643704eba91cd9759b657b8bc80aac66a1fdf58d9",
+                "index": "04d8a2986f32186e797d338c95f37bf416a0b6298b267d75e85a2dfe1483e6da",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -2.4149999618530273,
+                    -0.21199999749660492,
+                    -1.1193939447402954
+                  ],
+                  "max": [
+                    -1.1449999809265137,
+                    0.47556936740875244,
+                    -0.18060600757598877
+                  ]
+                }
+              },
+              {
+                "name": "Partly buried scanned garden stone rock_09",
+                "vertices": 6628,
+                "triangles": 12416,
+                "instances": 1,
+                "position": "913ad14515ce086c5e47fa595cc7304fae2b7827bd72e1b35101bb22d83dd9c1",
+                "normal": "553ccf652184d29b211e69323a668e654b401eaa72b6d5661ffb372435097951",
+                "index": "78948e1a2751139d7d1a7e2d10c86e979e135afc414484df7a407293876e17c3",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -3.1618504524230957,
+                    -0.0820000022649765,
+                    -2.309999942779541
+                  ],
+                  "max": [
+                    -2.178149700164795,
+                    0.19965197145938873,
+                    -1.25
+                  ]
+                }
+              }
+            ],
+            "heroExcluded": true
+          },
+          "backgroundFinish": "material-v01",
+          "canopyMass": "depth-v01",
+          "terrain": {
+            "version": "depth-v04",
+            "rootContacts": [
+              {
+                "name": "Open layered maple",
+                "rootCenter": [
+                  -2.82,
+                  0.11677532749256121,
+                  -3.5
+                ],
+                "surfaceY": 0.12077533096891663,
+                "signedBurial": -0.004000003476355415
+              },
+              {
+                "name": "Low shrub 0 axis 0",
+                "rootCenter": [
+                  -2.3471,
+                  0.053355481815619464,
+                  -1.0211999999999999
+                ],
+                "surfaceY": 0.060355473818700156,
+                "signedBurial": -0.006999992003080692
+              },
+              {
+                "name": "Low shrub 0 axis 1",
+                "rootCenter": [
+                  -2.2337000000000002,
+                  0.08400735599860973,
+                  -0.9636
+                ],
+                "surfaceY": 0.09100735267038301,
+                "signedBurial": -0.006999996671773284
+              },
+              {
+                "name": "Low shrub 0 axis 2",
+                "rootCenter": [
+                  -2.2841,
+                  0.0728393783741704,
+                  -0.9828
+                ],
+                "surfaceY": 0.07983936242113188,
+                "signedBurial": -0.006999984046961477
+              },
+              {
+                "name": "Low shrub 0 axis 3",
+                "rootCenter": [
+                  -2.2148000000000003,
+                  0.08818986759590089,
+                  -0.9571999999999999
+                ],
+                "surfaceY": 0.09518986867321405,
+                "signedBurial": -0.007000001077313162
+              },
+              {
+                "name": "Low shrub 1 axis 0",
+                "rootCenter": [
+                  -2.1059099999999997,
+                  -0.0018612924171707073,
+                  -3.13824
+                ],
+                "surfaceY": 0.005138703520247256,
+                "signedBurial": -0.006999995937417964
+              },
+              {
+                "name": "Low shrub 1 axis 1",
+                "rootCenter": [
+                  -2.064015,
+                  -0.0037130116026386547,
+                  -3.0896
+                ],
+                "surfaceY": 0.003286983778458208,
+                "signedBurial": -0.006999995381096863
+              },
+              {
+                "name": "Low shrub 1 axis 2",
+                "rootCenter": [
+                  -2.03409,
+                  -0.010687798841576961,
+                  -3.1321600000000003
+                ],
+                "surfaceY": -0.003687805193204996,
+                "signedBurial": -0.006999993648371965
+              },
+              {
+                "name": "Low shrub 1 axis 3",
+                "rootCenter": [
+                  -2.087955,
+                  -0.0003981516039436488,
+                  -3.10176
+                ],
+                "surfaceY": 0.006601844253686262,
+                "signedBurial": -0.006999995857629911
+              },
+              {
+                "name": "Low shrub 2 axis 0",
+                "rootCenter": [
+                  -3.13796,
+                  0.03520735952213393,
+                  -2.12736
+                ],
+                "surfaceY": 0.042207369727029265,
+                "signedBurial": -0.007000010204895338
+              },
+              {
+                "name": "Low shrub 2 axis 1",
+                "rootCenter": [
+                  -3.058265,
+                  0.03973539623837038,
+                  -2.1641600000000003
+                ],
+                "surfaceY": 0.04673541175870255,
+                "signedBurial": -0.0070000155203321715
+              },
+              {
+                "name": "Low shrub 2 axis 2",
+                "rootCenter": [
+                  -3.0872450000000002,
+                  0.04198465257442615,
+                  -2.0979200000000002
+                ],
+                "surfaceY": 0.048984659469292535,
+                "signedBurial": -0.0070000068948663854
+              },
+              {
+                "name": "Low shrub 2 axis 3",
+                "rootCenter": [
+                  -3.06551,
+                  0.04170486358961491,
+                  -2.13472
+                ],
+                "surfaceY": 0.04870487557842346,
+                "signedBurial": -0.007000011988808549
+              },
+              {
+                "name": "Low shrub 2 axis 4",
+                "rootCenter": [
+                  -3.0510200000000003,
+                  0.04645700744915892,
+                  -2.1126400000000003
+                ],
+                "surfaceY": 0.05345701278523507,
+                "signedBurial": -0.00700000533607615
+              },
+              {
+                "name": "Near cedar compound crown",
+                "rootCenter": [
+                  -3.42,
+                  -0.034,
+                  -8.3
+                ],
+                "surfaceY": -0.028999999165534973,
+                "signedBurial": -0.005000000834465029
+              },
+              {
+                "name": "Far cedar inclined crown",
+                "rootCenter": [
+                  -0.15,
+                  -0.034,
+                  -11.15
+                ],
+                "surfaceY": -0.028999999165534973,
+                "signedBurial": -0.005000000834465029
+              }
+            ],
+            "heightSource": "One authored512px linear data field used by both geometry and material, generated in memory",
+            "triangles": 61830,
+            "samples": [
+              {
+                "x": -2.11,
+                "z": -1.6,
+                "y": 0.032736900508207475
+              },
+              {
+                "x": -2.78,
+                "z": -0.25,
+                "y": -0.01106061462604251
+              },
+              {
+                "x": -3.1,
+                "z": 0.81,
+                "y": 0.007138144078642715
+              },
+              {
+                "x": 0,
+                "z": 0,
+                "y": -0.022
+              }
+            ]
+          },
+          "phase": "Depth-v01 integrated right-rear room, short branch crown masses, low continuous terrain; hero unchanged",
+          "materialMaps": [
+            {
+              "url": "http://127.0.0.1:5211/garden/mineral.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5211/garden/moss.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "roomLight": {
+            "position": [
+              4.061847803992426,
+              2.49,
+              -4.116205002428348
+            ],
+            "target": [
+              4.431422785701737,
+              1.05,
+              -7.598706162929886
+            ],
+            "shadowMap": 1024,
+            "porchFillPosition": [
+              3.1096307443839364,
+              1.74,
+              -5.098693003062738
+            ],
+            "porchFill": "Weak room bounce approximation within the deep room; proposed mode includes a weakly emissive paper lamp shade (.12), plus its finite point source"
+          },
+          "contacts": [
+            {
+              "foot": "Low_ceramic_foot",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10097949145919802,
+              "gapMetres": 5.078818726411694e-7
+            },
+            {
+              "foot": "Low_ceramic_foot001",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10137052685022355,
+              "gapMetres": -0.00039052750915288814
+            },
+            {
+              "foot": "Low_ceramic_foot002",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10155501782000514,
+              "gapMetres": -0.0005750184789344859
+            },
+            {
+              "foot": "Low_ceramic_foot003",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10125908552944689,
+              "gapMetres": -0.0002790861883762291
+            }
+          ],
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 12,
+            "triangles": 41240,
+            "version": "depth-v02",
+            "houseYaw": -0.14,
+            "frontEdge": [
+              1.6669466426890276,
+              0.3,
+              -2.9590756113974077
+            ],
+            "deckTop": 0.31,
+            "interiorFloorTop": 0.376,
+            "verandaSupportContacts": [
+              {
+                "position": [
+                  2.567294134403154,
+                  -7.699821796774144
+                ],
+                "groundY": -0.029,
+                "stoneBottom": -0.049,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.028999999165534973,
+                "stoneBottomToGround": -0.02000000083446503
+              },
+              {
+                "position": [
+                  2.3468160132652605,
+                  -6.135280522758178
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              },
+              {
+                "position": [
+                  2.1249424609809244,
+                  -4.560837088780085
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              },
+              {
+                "position": [
+                  1.9337683939183206,
+                  -3.204241173968772
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              }
+            ],
+            "roomOpening": {
+              "front": [
+                2.5095431146442366,
+                1.5,
+                -3.850215996212637
+              ],
+              "rear": [
+                2.844446589790404,
+                1.5,
+                -6.226734387122966
+              ],
+              "yMin": 0.402,
+              "yMax": 2.448
+            },
+            "layers": [
+              "floorboards 44mm",
+              "support beams125mm",
+              "short posts200mm",
+              "buried foundation feet",
+              "grooved66mm threshold",
+              "158mm-deep posts",
+              "recessed room and alcove",
+              "separate joists/rafters/roof"
+            ],
+            "rearBoundaryZ": -6.4
+          },
+          "planting": {
+            "distantCrownDesign": {
+              "version": "depth-v04",
+              "strategy": "Unequal overlapping crown regions contain physical endpoint-guided branching and attached closed leaves throughout their depth; no mirrored fans, spheres or cards",
+              "specimens": [
+                {
+                  "name": "Near cedar compound crown",
+                  "origin": [
+                    -3.42,
+                    -8.3
+                  ],
+                  "primaryAxes": 3,
+                  "regions": [
+                    {
+                      "centre": [
+                        -4.23,
+                        2.046,
+                        -8.1
+                      ],
+                      "halfExtents": [
+                        0.5781999999999999,
+                        0.45220000000000005,
+                        0.48750000000000004
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.29,
+                          1.62,
+                          0.16
+                        ],
+                        [
+                          -0.57,
+                          1.91,
+                          0.18
+                        ],
+                        [
+                          -0.81,
+                          2.08,
+                          0.2
+                        ]
+                      ],
+                      "attractionEndpoints": 118,
+                      "unreachedEndpoints": 21,
+                      "growingNodes": 244,
+                      "closedLeaves": 859
+                    },
+                    {
+                      "centre": [
+                        -2.660000000000001,
+                        2.4059999999999997,
+                        -8.440000000000001
+                      ],
+                      "halfExtents": [
+                        0.649,
+                        0.5985,
+                        0.525
+                      ],
+                      "supportingAxis": [
+                        [
+                          0.26,
+                          2.05,
+                          -0.05
+                        ],
+                        [
+                          0.52,
+                          2.37,
+                          -0.2
+                        ],
+                        [
+                          0.76,
+                          2.44,
+                          -0.14
+                        ]
+                      ],
+                      "attractionEndpoints": 142,
+                      "unreachedEndpoints": 26,
+                      "growingNodes": 327,
+                      "closedLeaves": 1132
+                    },
+                    {
+                      "centre": [
+                        -3.4,
+                        2.995999999999999,
+                        -8.180000000000005
+                      ],
+                      "halfExtents": [
+                        0.531,
+                        0.5054000000000001,
+                        0.475
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.05,
+                          2.58,
+                          0.15
+                        ],
+                        [
+                          -0.07,
+                          2.88,
+                          0.23
+                        ],
+                        [
+                          0.02,
+                          3.03,
+                          0.12
+                        ]
+                      ],
+                      "attractionEndpoints": 118,
+                      "unreachedEndpoints": 14,
+                      "growingNodes": 245,
+                      "closedLeaves": 858
+                    }
+                  ],
+                  "closedLeaves": 2849
+                },
+                {
+                  "name": "Far cedar inclined crown",
+                  "origin": [
+                    -0.15,
+                    -11.15
+                  ],
+                  "primaryAxes": 4,
+                  "regions": [
+                    {
+                      "centre": [
+                        -0.9099999999999999,
+                        2.576,
+                        -10.880000000000004
+                      ],
+                      "halfExtents": [
+                        0.5663999999999999,
+                        0.46549999999999997,
+                        0.5375
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.22,
+                          2,
+                          0.13
+                        ],
+                        [
+                          -0.52,
+                          2.44,
+                          0.31
+                        ],
+                        [
+                          -0.76,
+                          2.61,
+                          0.27
+                        ]
+                      ],
+                      "attractionEndpoints": 118,
+                      "unreachedEndpoints": 26,
+                      "growingNodes": 253,
+                      "closedLeaves": 886
+                    },
+                    {
+                      "centre": [
+                        0.6999999999999997,
+                        2.736,
+                        -11.360000000000007
+                      ],
+                      "halfExtents": [
+                        0.6725999999999999,
+                        0.5852,
+                        0.475
+                      ],
+                      "supportingAxis": [
+                        [
+                          0.25,
+                          2.4,
+                          -0.15
+                        ],
+                        [
+                          0.58,
+                          2.63,
+                          -0.27
+                        ],
+                        [
+                          0.85,
+                          2.77,
+                          -0.21
+                        ]
+                      ],
+                      "attractionEndpoints": 142,
+                      "unreachedEndpoints": 24,
+                      "growingNodes": 324,
+                      "closedLeaves": 1131
+                    },
+                    {
+                      "centre": [
+                        -0.69,
+                        3.125999999999999,
+                        -11.57
+                      ],
+                      "halfExtents": [
+                        0.3776,
+                        0.399,
+                        0.4625
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.21,
+                          2.81,
+                          -0.13
+                        ],
+                        [
+                          -0.48,
+                          3.04,
+                          -0.36
+                        ],
+                        [
+                          -0.54,
+                          3.16,
+                          -0.42
+                        ]
+                      ],
+                      "attractionEndpoints": 118,
+                      "unreachedEndpoints": 16,
+                      "growingNodes": 203,
+                      "closedLeaves": 730
+                    },
+                    {
+                      "centre": [
+                        -0.17000000000000004,
+                        3.366000000000001,
+                        -10.979999999999992
+                      ],
+                      "halfExtents": [
+                        0.5192,
+                        0.49210000000000004,
+                        0.525
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.06,
+                          3.02,
+                          0.06
+                        ],
+                        [
+                          -0.1,
+                          3.3,
+                          0.24
+                        ],
+                        [
+                          -0.02,
+                          3.4,
+                          0.17
+                        ]
+                      ],
+                      "attractionEndpoints": 142,
+                      "unreachedEndpoints": 20,
+                      "growingNodes": 284,
+                      "closedLeaves": 1009
+                    }
+                  ],
+                  "closedLeaves": 3756
+                }
+              ],
+              "instances": 6605
+            },
+            "evergreenStats": {
+              "source": "Own four small closed bent botanical leaf prototypes,16tri each; hero geometry untouched",
+              "support": "Every leaf origin is on an actual authored twig path, unequal paired leaves and terminal buds, no cards or spheres",
+              "instances": 6605,
+              "triangles": 105680,
+              "groups": [
+                {
+                  "variant": 0,
+                  "instances": 1652,
+                  "triangles": 26432
+                },
+                {
+                  "variant": 1,
+                  "instances": 1651,
+                  "triangles": 26416
+                },
+                {
+                  "variant": 2,
+                  "instances": 1651,
+                  "triangles": 26416
+                },
+                {
+                  "variant": 3,
+                  "instances": 1651,
+                  "triangles": 26416
+                }
+              ]
+            },
+            "rootCenters": [
+              {
+                "name": "Open layered maple",
+                "position": [
+                  -2.82,
+                  0.11677532749256121,
+                  -3.5
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 0",
+                "position": [
+                  -2.3471,
+                  0.053355481815619464,
+                  -1.0211999999999999
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 1",
+                "position": [
+                  -2.2337000000000002,
+                  0.08400735599860973,
+                  -0.9636
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 2",
+                "position": [
+                  -2.2841,
+                  0.0728393783741704,
+                  -0.9828
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 3",
+                "position": [
+                  -2.2148000000000003,
+                  0.08818986759590089,
+                  -0.9571999999999999
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 0",
+                "position": [
+                  -2.1059099999999997,
+                  -0.0018612924171707073,
+                  -3.13824
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 1",
+                "position": [
+                  -2.064015,
+                  -0.0037130116026386547,
+                  -3.0896
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 2",
+                "position": [
+                  -2.03409,
+                  -0.010687798841576961,
+                  -3.1321600000000003
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 3",
+                "position": [
+                  -2.087955,
+                  -0.0003981516039436488,
+                  -3.10176
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 0",
+                "position": [
+                  -3.13796,
+                  0.03520735952213393,
+                  -2.12736
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 1",
+                "position": [
+                  -3.058265,
+                  0.03973539623837038,
+                  -2.1641600000000003
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 2",
+                "position": [
+                  -3.0872450000000002,
+                  0.04198465257442615,
+                  -2.0979200000000002
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 3",
+                "position": [
+                  -3.06551,
+                  0.04170486358961491,
+                  -2.13472
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 4",
+                "position": [
+                  -3.0510200000000003,
+                  0.04645700744915892,
+                  -2.1126400000000003
+                ]
+              },
+              {
+                "name": "Near cedar compound crown",
+                "position": [
+                  -3.42,
+                  -0.034,
+                  -8.3
+                ]
+              },
+              {
+                "name": "Far cedar inclined crown",
+                "position": [
+                  -0.15,
+                  -0.034,
+                  -11.15
+                ]
+              }
+            ],
+            "design": "Three authored axes with concentrated inner short branches concealing selected arms; compact multi-axial shrubs return toward the stones; closed distant leaves retain a lower triangle count",
+            "specimens": [
+              {
+                "name": "Open layered maple",
+                "origin": [
+                  -2.82,
+                  0,
+                  -3.5
+                ],
+                "kind": "maple",
+                "primaryArms": 5
+              }
+            ],
+            "shrubOrigins": [
+              [
+                -2.24,
+                -0.97
+              ],
+              [
+                -2.07,
+                -3.12
+              ],
+              [
+                -3.08,
+                -2.12
+              ]
+            ],
+            "branchTriangles": 36502,
+            "leafInstances": 3293,
+            "leafTriangles": 64524,
+            "leafGroups": [
+              {
+                "kind": "maple",
+                "instances": 2084,
+                "trianglesPerLeaf": 24,
+                "triangles": 50016
+              },
+              {
+                "kind": "shrub",
+                "instances": 1209,
+                "trianglesPerLeaf": 12,
+                "triangles": 14508
+              }
+            ],
+            "rootGroundHeightSamples": [
+              {
+                "x": -2.82,
+                "z": -3.5,
+                "groundY": 0.12077532749256122
+              },
+              {
+                "x": -2.24,
+                "z": -0.97,
+                "groundY": 0.08867412768740486
+              },
+              {
+                "x": -2.07,
+                "z": -3.12,
+                "groundY": 0.0028226071561718654
+              },
+              {
+                "x": -3.08,
+                "z": -2.12,
+                "groundY": 0.04778176209046616
+              }
+            ],
+            "mossTufts": 0,
+            "mossTuftTriangles": 0,
+            "rejectedMossFronds": "Diagnostic objects omitted: isolated chip/dot silhouettes; source/patches/evidence retained",
+            "mossDetail": "Connected low ridges, unequal soil hollows and pebble-free moss edge share one height/material field"
+          },
+          "largeGardenStones": [
+            {
+              "id": "boulder_01",
+              "center": [
+                -1.78,
+                -0.65
+              ],
+              "horizontalExtent": 1.27,
+              "yaw": 1.2,
+              "burial": 0.19,
+              "triangles": 23000,
+              "bounds": {
+                "min": [
+                  -2.4149999618530273,
+                  -0.21199999749660492,
+                  -1.1193939447402954
+                ],
+                "max": [
+                  -1.1449999809265137,
+                  0.47556936740875244,
+                  -0.18060600757598877
+                ]
+              },
+              "material": "Local CC0 PBR, matte roughness lower bound .90, ground-field root transition",
+              "source": "https://polyhaven.com/a/boulder_01",
+              "textures": [
+                {
+                  "url": "http://127.0.0.1:5211/rocks/boulder_01_diff.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5211/rocks/boulder_01_nor_gl.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5211/rocks/boulder_01_arm.webp",
+                  "width": 512,
+                  "height": 512
+                }
+              ]
+            },
+            {
+              "id": "rock_09",
+              "center": [
+                -2.67,
+                -1.78
+              ],
+              "horizontalExtent": 1.06,
+              "yaw": 0.85,
+              "burial": 0.06,
+              "triangles": 12416,
+              "bounds": {
+                "min": [
+                  -3.1618504524230957,
+                  -0.0820000022649765,
+                  -2.309999942779541
+                ],
+                "max": [
+                  -2.178149700164795,
+                  0.19965197145938873,
+                  -1.25
+                ]
+              },
+              "material": "Local CC0 PBR, matte roughness lower bound .90, ground-field root transition",
+              "source": "https://polyhaven.com/a/rock_09",
+              "textures": [
+                {
+                  "url": "http://127.0.0.1:5211/rocks/rock_09_diff.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5211/rocks/rock_09_nor_gl.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5211/rocks/rock_09_arm.webp",
+                  "width": 512,
+                  "height": 512
+                }
+              ]
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightComparison": "Room sources follow new architecture; hero key/exposure fixed",
+          "lightDesign": "Same cool sky/moon and hero key; moon occluded by real architecture, warm room lighting; small dry paper lamp shade has weak emission in proposed mode, not a luminous wall"
+        },
+        "layout": "night-b",
+        "framing": {
+          "left": 0.3233461429596778,
+          "right": 0.6621186244028441,
+          "top": 0.20177678629023998,
+          "bottom": 0.8788265692631785
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 3.65,
+          "zoom": 1,
+          "position": [
+            0,
+            1.4138158484842958,
+            3.5945482984945594
+          ],
+          "target": [
+            0,
+            0.78,
+            0
+          ]
+        },
+        "viewport": [
+          1920,
+          800
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highAvailable": false,
+          "needsHigh": false,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 361,
+        "triangles": 4161808,
+        "navigationToFirstFrameMs": 1114.8999999761581
+      },
+      "text": "",
+      "viewport": [
+        1920,
+        800
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "exactProjection": {
+        "bounds": {
+          "left": 0.32718909085246783,
+          "right": 0.6590575628492924,
+          "top": 0.20864171121694242,
+          "bottom": 0.8808164324949355
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 800,
+          "top": 0,
+          "right": 1920,
+          "bottom": 800,
+          "left": 0
+        },
+        "cameraAspect": 2.4
+      },
+      "backgroundProjection": {
+        "opening": {
+          "front": [
+            0.7075231581970792,
+            0.22658626080122812,
+            0.9903930315630144
+          ],
+          "rear": [
+            0.6782122416053398,
+            0.230795509413586,
+            0.9930446442430387
+          ]
+        },
+        "frontEdge": [
+          0.6517232406001777,
+          0.4910152866113466,
+          0.9892915437073379
+        ],
+        "architecture": "depth-v02",
+        "crownDesign": {
+          "version": "depth-v04",
+          "strategy": "Unequal overlapping crown regions contain physical endpoint-guided branching and attached closed leaves throughout their depth; no mirrored fans, spheres or cards",
+          "specimens": [
+            {
+              "name": "Near cedar compound crown",
+              "origin": [
+                -3.42,
+                -8.3
+              ],
+              "primaryAxes": 3,
+              "regions": [
+                {
+                  "centre": [
+                    -4.23,
+                    2.046,
+                    -8.1
+                  ],
+                  "halfExtents": [
+                    0.5781999999999999,
+                    0.45220000000000005,
+                    0.48750000000000004
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.29,
+                      1.62,
+                      0.16
+                    ],
+                    [
+                      -0.57,
+                      1.91,
+                      0.18
+                    ],
+                    [
+                      -0.81,
+                      2.08,
+                      0.2
+                    ]
+                  ],
+                  "attractionEndpoints": 118,
+                  "unreachedEndpoints": 21,
+                  "growingNodes": 244,
+                  "closedLeaves": 859
+                },
+                {
+                  "centre": [
+                    -2.660000000000001,
+                    2.4059999999999997,
+                    -8.440000000000001
+                  ],
+                  "halfExtents": [
+                    0.649,
+                    0.5985,
+                    0.525
+                  ],
+                  "supportingAxis": [
+                    [
+                      0.26,
+                      2.05,
+                      -0.05
+                    ],
+                    [
+                      0.52,
+                      2.37,
+                      -0.2
+                    ],
+                    [
+                      0.76,
+                      2.44,
+                      -0.14
+                    ]
+                  ],
+                  "attractionEndpoints": 142,
+                  "unreachedEndpoints": 26,
+                  "growingNodes": 327,
+                  "closedLeaves": 1132
+                },
+                {
+                  "centre": [
+                    -3.4,
+                    2.995999999999999,
+                    -8.180000000000005
+                  ],
+                  "halfExtents": [
+                    0.531,
+                    0.5054000000000001,
+                    0.475
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.05,
+                      2.58,
+                      0.15
+                    ],
+                    [
+                      -0.07,
+                      2.88,
+                      0.23
+                    ],
+                    [
+                      0.02,
+                      3.03,
+                      0.12
+                    ]
+                  ],
+                  "attractionEndpoints": 118,
+                  "unreachedEndpoints": 14,
+                  "growingNodes": 245,
+                  "closedLeaves": 858
+                }
+              ],
+              "closedLeaves": 2849
+            },
+            {
+              "name": "Far cedar inclined crown",
+              "origin": [
+                -0.15,
+                -11.15
+              ],
+              "primaryAxes": 4,
+              "regions": [
+                {
+                  "centre": [
+                    -0.9099999999999999,
+                    2.576,
+                    -10.880000000000004
+                  ],
+                  "halfExtents": [
+                    0.5663999999999999,
+                    0.46549999999999997,
+                    0.5375
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.22,
+                      2,
+                      0.13
+                    ],
+                    [
+                      -0.52,
+                      2.44,
+                      0.31
+                    ],
+                    [
+                      -0.76,
+                      2.61,
+                      0.27
+                    ]
+                  ],
+                  "attractionEndpoints": 118,
+                  "unreachedEndpoints": 26,
+                  "growingNodes": 253,
+                  "closedLeaves": 886
+                },
+                {
+                  "centre": [
+                    0.6999999999999997,
+                    2.736,
+                    -11.360000000000007
+                  ],
+                  "halfExtents": [
+                    0.6725999999999999,
+                    0.5852,
+                    0.475
+                  ],
+                  "supportingAxis": [
+                    [
+                      0.25,
+                      2.4,
+                      -0.15
+                    ],
+                    [
+                      0.58,
+                      2.63,
+                      -0.27
+                    ],
+                    [
+                      0.85,
+                      2.77,
+                      -0.21
+                    ]
+                  ],
+                  "attractionEndpoints": 142,
+                  "unreachedEndpoints": 24,
+                  "growingNodes": 324,
+                  "closedLeaves": 1131
+                },
+                {
+                  "centre": [
+                    -0.69,
+                    3.125999999999999,
+                    -11.57
+                  ],
+                  "halfExtents": [
+                    0.3776,
+                    0.399,
+                    0.4625
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.21,
+                      2.81,
+                      -0.13
+                    ],
+                    [
+                      -0.48,
+                      3.04,
+                      -0.36
+                    ],
+                    [
+                      -0.54,
+                      3.16,
+                      -0.42
+                    ]
+                  ],
+                  "attractionEndpoints": 118,
+                  "unreachedEndpoints": 16,
+                  "growingNodes": 203,
+                  "closedLeaves": 730
+                },
+                {
+                  "centre": [
+                    -0.17000000000000004,
+                    3.366000000000001,
+                    -10.979999999999992
+                  ],
+                  "halfExtents": [
+                    0.5192,
+                    0.49210000000000004,
+                    0.525
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.06,
+                      3.02,
+                      0.06
+                    ],
+                    [
+                      -0.1,
+                      3.3,
+                      0.24
+                    ],
+                    [
+                      -0.02,
+                      3.4,
+                      0.17
+                    ]
+                  ],
+                  "attractionEndpoints": 142,
+                  "unreachedEndpoints": 20,
+                  "growingNodes": 284,
+                  "closedLeaves": 1009
+                }
+              ],
+              "closedLeaves": 3756
+            }
+          ],
+          "instances": 6605
+        },
+        "groundSamples": [
+          {
+            "x": -2.11,
+            "z": -1.6,
+            "y": 0.032736900508207475
+          },
+          {
+            "x": -2.78,
+            "z": -0.25,
+            "y": -0.01106061462604251
+          },
+          {
+            "x": -3.1,
+            "z": 0.81,
+            "y": 0.007138144078642715
+          },
+          {
+            "x": 0,
+            "z": 0,
+            "y": -0.022
+          }
+        ]
+      },
+      "closedLeafAudit": [
+        {
+          "name": "Branch attached closed garden broadleaves 0",
+          "signedVolume": 0.011868746364037381,
+          "closed": true,
+          "outwardWinding": true
+        },
+        {
+          "name": "Branch attached closed garden broadleaves 1",
+          "signedVolume": 0.016716057927313788,
+          "closed": true,
+          "outwardWinding": true
+        },
+        {
+          "name": "Branch attached closed garden broadleaves 2",
+          "signedVolume": 0.009225047790742864,
+          "closed": true,
+          "outwardWinding": true
+        },
+        {
+          "name": "Branch attached closed garden broadleaves 3",
+          "signedVolume": 0.013893352639049363,
+          "closed": true,
+          "outwardWinding": true
+        }
+      ]
+    },
+    {
+      "name": "mobile-tall",
+      "url": "http://127.0.0.1:5211/?qa=mobile-tall&room-light=proposed&canopy=depth-v01&finish=material-v01&composition=depth-designed&background-finish=refined&background-light=refined",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 807.1999999284744,
+        "framesMs": [
+          239.19999992847443
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 117211,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "loading": {
+          "parallelAssets": true,
+          "sharedDraco": true,
+          "woodReplacement": false,
+          "decoderWorkerLimit": 2,
+          "exactGeometrySplit": true,
+          "losslessModelGzip": true
+        },
+        "garden": {
+          "geometrySignature": {
+            "method": "Actual background mesh position/index/normal/world/instance buffers plus same terrain bytes; material/color/light/camera intentionally excluded",
+            "sha256": "2e79449acc970fab3b9e49c5610ee9b7ac01022d7762d8970c280261ecc9fc2b",
+            "fieldSha256": "008d852ef489b472af78dcbdc66c0b47f6a3911bea4ad70fa482c831a7b15592",
+            "meshes": 23,
+            "rows": [
+              {
+                "name": "Branch attached closed garden broadleaves 0",
+                "vertices": 10,
+                "triangles": 16,
+                "instances": 1652,
+                "position": "964aa8316a9eb0af0e4c3c8db20a132ec071fc183bdc0711d779ea475fc22df5",
+                "normal": "7a1876cdb03861d5955852cb9ec351f3b80596b1dcc884c7db37c9a760ea05c8",
+                "index": "80307b16ae9a3012dc3b12c5afc32948cae99e21cfac6381bed42fe8a0cba5a0",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "1aaf6f98d4df57de4e477054f7d9bdd774173d8dc3edaed4d389c0c4a45982c8",
+                "bounds": {
+                  "min": [
+                    -0.28999999165534973,
+                    0,
+                    -0.020999999716877937
+                  ],
+                  "max": [
+                    0.2639000117778778,
+                    1,
+                    0.09399999678134918
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached closed garden broadleaves 1",
+                "vertices": 10,
+                "triangles": 16,
+                "instances": 1651,
+                "position": "70b091d110e47ea388bc969a3b118f2be1b53c25dd86c3883ac531bdf7aa8bda",
+                "normal": "a83604fa9604ff3e2fee030bf2c82dee647aa4a6d3d046786f984a2a8c0a70b9",
+                "index": "80307b16ae9a3012dc3b12c5afc32948cae99e21cfac6381bed42fe8a0cba5a0",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "5b8877d923c06daf3469cbe0cf8842f517fef3d25efd7ced8bcc75802deead7a",
+                "bounds": {
+                  "min": [
+                    -0.33000001311302185,
+                    0,
+                    -0.020999999716877937
+                  ],
+                  "max": [
+                    0.3003000020980835,
+                    1,
+                    0.1120000034570694
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached closed garden broadleaves 2",
+                "vertices": 10,
+                "triangles": 16,
+                "instances": 1651,
+                "position": "e9bf2c22266dee6babd460cab9314aaf49508ef46d1d665406c514b9d93ba772",
+                "normal": "e513467d9a9390d8c47481edeb92387920cdc92d7accaa358133216b10b4ad1b",
+                "index": "80307b16ae9a3012dc3b12c5afc32948cae99e21cfac6381bed42fe8a0cba5a0",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "ce87413223106617bb9587ab994e12fee483c63f42b4462bdd51aa7351bc71aa",
+                "bounds": {
+                  "min": [
+                    -0.25999999046325684,
+                    0,
+                    -0.020999999716877937
+                  ],
+                  "max": [
+                    0.23659999668598175,
+                    1,
+                    0.09399999678134918
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached closed garden broadleaves 3",
+                "vertices": 10,
+                "triangles": 16,
+                "instances": 1651,
+                "position": "3adc0cee71026127444ca2f30ea06bd6fcbcba8b980245d318899237fae8f73b",
+                "normal": "716917c74c026a2229caa2362b283628af651a8dae956d6e548bf9fc35589fbc",
+                "index": "80307b16ae9a3012dc3b12c5afc32948cae99e21cfac6381bed42fe8a0cba5a0",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "cab1a344406c99dcf7ea2d9bbe98f5a575f9aa46a637546682e9dd0760431b47",
+                "bounds": {
+                  "min": [
+                    -0.3100000023841858,
+                    0,
+                    -0.020999999716877937
+                  ],
+                  "max": [
+                    0.28209999203681946,
+                    1,
+                    0.09700000286102295
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached garden leaves",
+                "vertices": 14,
+                "triangles": 24,
+                "instances": 2084,
+                "position": "46823ea1dedb3ad4ac14cdf8e2c06847c0f5daf1664780d0503132de14261e13",
+                "normal": "1855a89bbacdfde6aaa47af039f2ff3afa1002ce3d49c2beb85337ca12afd2a9",
+                "index": "51edcaf4d2bc477dee753a9f1ab179c6d2a5fab954179438bd3947531c0c41a8",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "c55838a635f009f4dbc1ed95e0a109674a91f2aecf07fd04449cf6b4d1a47b76",
+                "bounds": {
+                  "min": [
+                    -0.5400000214576721,
+                    -0.02199999988079071,
+                    0
+                  ],
+                  "max": [
+                    0.5099999904632568,
+                    0.07199999690055847,
+                    1.0399999618530273
+                  ]
+                }
+              },
+              {
+                "name": "Branch attached shrub garden leaves",
+                "vertices": 8,
+                "triangles": 12,
+                "instances": 1209,
+                "position": "7eee4c1b9e92f46f1fae2ac0bac948bfee9ff93eb662121d52e8df642eba6af6",
+                "normal": "da6bb81e86bda6f6cfb9f166087ae1b0b464dd58a000e95b31adc6c2491bb88c",
+                "index": "f157d1f473341faea142c59a048dadf57ed8729b285b9b4d3712290eef6ceae4",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": "2d386b1b8b5c7fa30e703e6e1009e347537068b6219a9727b238df35dab3bfd3",
+                "bounds": {
+                  "min": [
+                    -0.3199999928474426,
+                    -0.02199999988079071,
+                    0
+                  ],
+                  "max": [
+                    0.3100000023841858,
+                    0.07199999690055847,
+                    1.0800000429153442
+                  ]
+                }
+              },
+              {
+                "name": "Continuous distant mineral ground",
+                "vertices": 4,
+                "triangles": 2,
+                "instances": 1,
+                "position": "7904e2cbece184be84c9568eb93d61cab59b9fec9d254a0359062244c00c8778",
+                "normal": "132d57fa87f2e37b4ba78b662a7aeb99820ae8f3c440d1a3a8e3e085c775c282",
+                "index": "e6681333c21d3bedc5c5d4ea4503e8acc5b95e8d8e2aabffd97d12425a145443",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -50,
+                    -0.028999999165534973,
+                    -50
+                  ],
+                  "max": [
+                    50,
+                    -0.028999999165534973,
+                    50
+                  ]
+                }
+              },
+              {
+                "name": "Continuous mineral gravel and growing moss",
+                "vertices": 31280,
+                "triangles": 61830,
+                "instances": 1,
+                "position": "235f99fe176ac9430338b6030c87e6adb76a081670bb6176886b55ba71b6a134",
+                "normal": "a07d069bb9624c03467a7e88e85e6a18ac828c0354526b1de89d7fc81bea6b51",
+                "index": "71d9d84e1875a100aee374a51390d1c11baa2af3aa951bbce37fa5ad63b799d9",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -6,
+                    -0.02199999988079071,
+                    -7
+                  ],
+                  "max": [
+                    6,
+                    0.19390319287776947,
+                    7
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture alcove",
+                "vertices": 324,
+                "triangles": 108,
+                "instances": 1,
+                "position": "6da2fc5a6a930c109479ccb64890bc4813d288a697bc66b9d4afd3722b71ea92",
+                "normal": "29f63e26f7e074cb48494797980130ed80b192da81246a894b7655e2f280ac8b",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    3.6557064056396484,
+                    0.4449999928474426,
+                    -7.830253601074219
+                  ],
+                  "max": [
+                    5.314265251159668,
+                    2.434999942779541,
+                    -7.5540385246276855
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture foundation",
+                "vertices": 1944,
+                "triangles": 648,
+                "instances": 1,
+                "position": "faf70b14efb2cf65d072f8c13e444a9ac44c74aed679357858c5e7190a936bca",
+                "normal": "85a469640d557e8c459ab14a7100ded53d5d0d61949f327c9d70e823d24d5144",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13,
+                    -0.04899999871850014,
+                    -7.855197429656982
+                  ],
+                  "max": [
+                    5.52268648147583,
+                    0.20999999344348907,
+                    -2.5004751682281494
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture horizontal",
+                "vertices": 36612,
+                "triangles": 12204,
+                "instances": 1,
+                "position": "759c5764e5c5d4afb0578217a7bac320c40d0c25ac0189ba0c009a1247a14280",
+                "normal": "5e887623976e711b07c54cc378b2b4b8c8157aef7489bcbbbb2c51b82c044e3b",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    1.0507980585098267,
+                    0.25200000405311584,
+                    -8.335445404052734
+                  ],
+                  "max": [
+                    5.829432487487793,
+                    3.0268776416778564,
+                    -2.11148738861084
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture lampShade",
+                "vertices": 324,
+                "triangles": 108,
+                "instances": 1,
+                "position": "68cb3364a338f506638cc756937ab4a73cd5108c7b94d1e160a4e0f88681d3ff",
+                "normal": "29f63e26f7e074cb48494797980130ed80b192da81246a894b7655e2f280ac8b",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    4.076638698577881,
+                    0.7250000238418579,
+                    -5.956607341766357
+                  ],
+                  "max": [
+                    4.275210857391357,
+                    0.9629999995231628,
+                    -5.758035659790039
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture lengthwise",
+                "vertices": 9720,
+                "triangles": 3240,
+                "instances": 1,
+                "position": "cfe1cb09ff1b8d4d197dfd43a9be8006aea16a18cca84b38fa3813f210395ef6",
+                "normal": "f842721ba02fbee3150d9f1a6bf340a8bc16c1092fa2475a8f95da8a4aef47a0",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13.114999771118164,
+                    0.16050000488758087,
+                    -8.43288803100586
+                  ],
+                  "max": [
+                    5.465433597564697,
+                    2.7960000038146973,
+                    -2.5477588176727295
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture matBorder",
+                "vertices": 3888,
+                "triangles": 1296,
+                "instances": 1,
+                "position": "6a9c2166c5e2d63dcffa6da0db8639d459e15dce9d3a66aa6cb8a1f3df6bc18c",
+                "normal": "a74cad7af0c56fcba3d58cde5a21a6f16b2961098ca826f893382fc7c8d1c364",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    2.6301891803741455,
+                    0.375,
+                    -7.745479106903076
+                  ],
+                  "max": [
+                    5.270735740661621,
+                    0.3790000081062317,
+                    -2.7400617599487305
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture paper",
+                "vertices": 648,
+                "triangles": 216,
+                "instances": 1,
+                "position": "88c6b5c3f3c25e9464352375b7eaabe5d920e5c29fd1fe2a664f6e3d6901d7cf",
+                "normal": "682133d092a21d24b1a9b81cd446096c0c242d7d60776a3d55637cc5a4289c26",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    2.923828363418579,
+                    0.4414999485015869,
+                    -7.579719066619873
+                  ],
+                  "max": [
+                    3.115532398223877,
+                    2.4865000247955322,
+                    -6.500763416290283
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture plaster",
+                "vertices": 972,
+                "triangles": 324,
+                "instances": 1,
+                "position": "65404516803e6f04483b93647d69fb3ef1b8552f324ed71eeb739a9b45ae800d",
+                "normal": "0dd1210b8a315ed61bc35d665086666b25730b5e86a6280d5660554b5a993de8",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    3.0096309185028076,
+                    0.36899998784065247,
+                    -8.037300109863281
+                  ],
+                  "max": [
+                    5.677229881286621,
+                    2.6089999675750732,
+                    -2.354304313659668
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture rearWood",
+                "vertices": 43416,
+                "triangles": 14472,
+                "instances": 1,
+                "position": "6ac80c955cb5c8130c2f567508ff3443c7b262cee4ea29920ae1a7d35dde3115",
+                "normal": "b444f533485365d0f9a73a681a35d5a5c8849d4618b8cc2671ae49a6f125a72c",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13.07349967956543,
+                    0.1199999675154686,
+                    -6.508999824523926
+                  ],
+                  "max": [
+                    2.8999998569488525,
+                    1.4950000047683716,
+                    -6.356075286865234
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture roof",
+                "vertices": 13236,
+                "triangles": 4412,
+                "instances": 1,
+                "position": "19db3c4b90ac95f771b517cdb561bff5f076174d213b15e0e3ebb57d8111b55b",
+                "normal": "8a48e6a36d16f95dfab289383b32dee45a984807dbedd7fe3e5ea65f24b2fc0c",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13.119999885559082,
+                    1.5883811712265015,
+                    -8.39850902557373
+                  ],
+                  "max": [
+                    6.02461051940918,
+                    3.2051279544830322,
+                    -1.9427180290222168
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture tatami",
+                "vertices": 2268,
+                "triangles": 756,
+                "instances": 1,
+                "position": "29ee052362341734d2f9c5fc161331cf4512a401322a11785fd4fb9b14d8abd7",
+                "normal": "9d9910aeeb4cb25431ad7dc7e0f04c385a8299d39cbc729c046e9873864945de",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    2.61979341506958,
+                    0.3199999928474426,
+                    -7.747367858886719
+                  ],
+                  "max": [
+                    5.281131267547607,
+                    0.4505000114440918,
+                    -2.738172769546509
+                  ]
+                }
+              },
+              {
+                "name": "Garden architecture vertical",
+                "vertices": 10368,
+                "triangles": 3456,
+                "instances": 1,
+                "position": "da4c1bdc9f6f5628a8873d35251d0fb62d2e212250d723e310e0759599c10e94",
+                "normal": "61b7af81cf79bfb1fd67b43355f762fa792a93b4fe0db5c4ced4ea4c7c075836",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -13.057499885559082,
+                    -2.38418573772492e-9,
+                    -7.785868167877197
+                  ],
+                  "max": [
+                    5.384956359863281,
+                    2.625499963760376,
+                    -2.371814250946045
+                  ]
+                }
+              },
+              {
+                "name": "Individually authored garden branching",
+                "vertices": 109506,
+                "triangles": 36502,
+                "instances": 1,
+                "position": "a76e4571ca6f7c441464f05ac87a7c8acc1742b5b8f7ec76e9e6a67905d4918d",
+                "normal": "35550f1befdd43c12862c994309b22ac7e0f1ca88eae0114638092358ed0acdc",
+                "index": null,
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -4.709316730499268,
+                    -0.0389159694314003,
+                    -12.109184265136719
+                  ],
+                  "max": [
+                    1.3989731073379517,
+                    3.786099672317505,
+                    -0.47658106684684753
+                  ]
+                }
+              },
+              {
+                "name": "Partly buried scanned garden stone boulder_01",
+                "vertices": 14260,
+                "triangles": 23000,
+                "instances": 1,
+                "position": "5a9e6c9192750c42f8ea23e69e1eef2f2bd717f5939a833aab4386645c254ba4",
+                "normal": "32e15b64f80830d30ee0899643704eba91cd9759b657b8bc80aac66a1fdf58d9",
+                "index": "04d8a2986f32186e797d338c95f37bf416a0b6298b267d75e85a2dfe1483e6da",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -2.4149999618530273,
+                    -0.21199999749660492,
+                    -1.1193939447402954
+                  ],
+                  "max": [
+                    -1.1449999809265137,
+                    0.47556936740875244,
+                    -0.18060600757598877
+                  ]
+                }
+              },
+              {
+                "name": "Partly buried scanned garden stone rock_09",
+                "vertices": 6628,
+                "triangles": 12416,
+                "instances": 1,
+                "position": "913ad14515ce086c5e47fa595cc7304fae2b7827bd72e1b35101bb22d83dd9c1",
+                "normal": "553ccf652184d29b211e69323a668e654b401eaa72b6d5661ffb372435097951",
+                "index": "78948e1a2751139d7d1a7e2d10c86e979e135afc414484df7a407293876e17c3",
+                "world": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+                "instancesMatrix": null,
+                "bounds": {
+                  "min": [
+                    -3.1618504524230957,
+                    -0.0820000022649765,
+                    -2.309999942779541
+                  ],
+                  "max": [
+                    -2.178149700164795,
+                    0.19965197145938873,
+                    -1.25
+                  ]
+                }
+              }
+            ],
+            "heroExcluded": true
+          },
+          "backgroundFinish": "material-v01",
+          "canopyMass": "depth-v01",
+          "terrain": {
+            "version": "depth-v04",
+            "rootContacts": [
+              {
+                "name": "Open layered maple",
+                "rootCenter": [
+                  -2.82,
+                  0.11677532749256121,
+                  -3.5
+                ],
+                "surfaceY": 0.12077533096891663,
+                "signedBurial": -0.004000003476355415
+              },
+              {
+                "name": "Low shrub 0 axis 0",
+                "rootCenter": [
+                  -2.3471,
+                  0.053355481815619464,
+                  -1.0211999999999999
+                ],
+                "surfaceY": 0.060355473818700156,
+                "signedBurial": -0.006999992003080692
+              },
+              {
+                "name": "Low shrub 0 axis 1",
+                "rootCenter": [
+                  -2.2337000000000002,
+                  0.08400735599860973,
+                  -0.9636
+                ],
+                "surfaceY": 0.09100735267038301,
+                "signedBurial": -0.006999996671773284
+              },
+              {
+                "name": "Low shrub 0 axis 2",
+                "rootCenter": [
+                  -2.2841,
+                  0.0728393783741704,
+                  -0.9828
+                ],
+                "surfaceY": 0.07983936242113188,
+                "signedBurial": -0.006999984046961477
+              },
+              {
+                "name": "Low shrub 0 axis 3",
+                "rootCenter": [
+                  -2.2148000000000003,
+                  0.08818986759590089,
+                  -0.9571999999999999
+                ],
+                "surfaceY": 0.09518986867321405,
+                "signedBurial": -0.007000001077313162
+              },
+              {
+                "name": "Low shrub 1 axis 0",
+                "rootCenter": [
+                  -2.1059099999999997,
+                  -0.0018612924171707073,
+                  -3.13824
+                ],
+                "surfaceY": 0.005138703520247256,
+                "signedBurial": -0.006999995937417964
+              },
+              {
+                "name": "Low shrub 1 axis 1",
+                "rootCenter": [
+                  -2.064015,
+                  -0.0037130116026386547,
+                  -3.0896
+                ],
+                "surfaceY": 0.003286983778458208,
+                "signedBurial": -0.006999995381096863
+              },
+              {
+                "name": "Low shrub 1 axis 2",
+                "rootCenter": [
+                  -2.03409,
+                  -0.010687798841576961,
+                  -3.1321600000000003
+                ],
+                "surfaceY": -0.003687805193204996,
+                "signedBurial": -0.006999993648371965
+              },
+              {
+                "name": "Low shrub 1 axis 3",
+                "rootCenter": [
+                  -2.087955,
+                  -0.0003981516039436488,
+                  -3.10176
+                ],
+                "surfaceY": 0.006601844253686262,
+                "signedBurial": -0.006999995857629911
+              },
+              {
+                "name": "Low shrub 2 axis 0",
+                "rootCenter": [
+                  -3.13796,
+                  0.03520735952213393,
+                  -2.12736
+                ],
+                "surfaceY": 0.042207369727029265,
+                "signedBurial": -0.007000010204895338
+              },
+              {
+                "name": "Low shrub 2 axis 1",
+                "rootCenter": [
+                  -3.058265,
+                  0.03973539623837038,
+                  -2.1641600000000003
+                ],
+                "surfaceY": 0.04673541175870255,
+                "signedBurial": -0.0070000155203321715
+              },
+              {
+                "name": "Low shrub 2 axis 2",
+                "rootCenter": [
+                  -3.0872450000000002,
+                  0.04198465257442615,
+                  -2.0979200000000002
+                ],
+                "surfaceY": 0.048984659469292535,
+                "signedBurial": -0.0070000068948663854
+              },
+              {
+                "name": "Low shrub 2 axis 3",
+                "rootCenter": [
+                  -3.06551,
+                  0.04170486358961491,
+                  -2.13472
+                ],
+                "surfaceY": 0.04870487557842346,
+                "signedBurial": -0.007000011988808549
+              },
+              {
+                "name": "Low shrub 2 axis 4",
+                "rootCenter": [
+                  -3.0510200000000003,
+                  0.04645700744915892,
+                  -2.1126400000000003
+                ],
+                "surfaceY": 0.05345701278523507,
+                "signedBurial": -0.00700000533607615
+              },
+              {
+                "name": "Near cedar compound crown",
+                "rootCenter": [
+                  -3.42,
+                  -0.034,
+                  -8.3
+                ],
+                "surfaceY": -0.028999999165534973,
+                "signedBurial": -0.005000000834465029
+              },
+              {
+                "name": "Far cedar inclined crown",
+                "rootCenter": [
+                  -0.15,
+                  -0.034,
+                  -11.15
+                ],
+                "surfaceY": -0.028999999165534973,
+                "signedBurial": -0.005000000834465029
+              }
+            ],
+            "heightSource": "One authored512px linear data field used by both geometry and material, generated in memory",
+            "triangles": 61830,
+            "samples": [
+              {
+                "x": -2.11,
+                "z": -1.6,
+                "y": 0.032736900508207475
+              },
+              {
+                "x": -2.78,
+                "z": -0.25,
+                "y": -0.01106061462604251
+              },
+              {
+                "x": -3.1,
+                "z": 0.81,
+                "y": 0.007138144078642715
+              },
+              {
+                "x": 0,
+                "z": 0,
+                "y": -0.022
+              }
+            ]
+          },
+          "phase": "Depth-v01 integrated right-rear room, short branch crown masses, low continuous terrain; hero unchanged",
+          "materialMaps": [
+            {
+              "url": "http://127.0.0.1:5211/garden/mineral.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5211/garden/moss.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "roomLight": {
+            "position": [
+              4.061847803992426,
+              2.49,
+              -4.116205002428348
+            ],
+            "target": [
+              4.431422785701737,
+              1.05,
+              -7.598706162929886
+            ],
+            "shadowMap": 1024,
+            "porchFillPosition": [
+              3.1096307443839364,
+              1.74,
+              -5.098693003062738
+            ],
+            "porchFill": "Weak room bounce approximation within the deep room; proposed mode includes a weakly emissive paper lamp shade (.12), plus its finite point source"
+          },
+          "contacts": [
+            {
+              "foot": "Low_ceramic_foot",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10097949145919802,
+              "gapMetres": 5.078818726411694e-7
+            },
+            {
+              "foot": "Low_ceramic_foot001",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10137052685022355,
+              "gapMetres": -0.00039052750915288814
+            },
+            {
+              "foot": "Low_ceramic_foot002",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10155501782000514,
+              "gapMetres": -0.0005750184789344859
+            },
+            {
+              "foot": "Low_ceramic_foot003",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10125908552944689,
+              "gapMetres": -0.0002790861883762291
+            }
+          ],
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 12,
+            "triangles": 41240,
+            "version": "depth-v02",
+            "houseYaw": -0.14,
+            "frontEdge": [
+              1.6669466426890276,
+              0.3,
+              -2.9590756113974077
+            ],
+            "deckTop": 0.31,
+            "interiorFloorTop": 0.376,
+            "verandaSupportContacts": [
+              {
+                "position": [
+                  2.567294134403154,
+                  -7.699821796774144
+                ],
+                "groundY": -0.029,
+                "stoneBottom": -0.049,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.028999999165534973,
+                "stoneBottomToGround": -0.02000000083446503
+              },
+              {
+                "position": [
+                  2.3468160132652605,
+                  -6.135280522758178
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              },
+              {
+                "position": [
+                  2.1249424609809244,
+                  -4.560837088780085
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              },
+              {
+                "position": [
+                  1.9337683939183206,
+                  -3.204241173968772
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              }
+            ],
+            "roomOpening": {
+              "front": [
+                2.5095431146442366,
+                1.5,
+                -3.850215996212637
+              ],
+              "rear": [
+                2.844446589790404,
+                1.5,
+                -6.226734387122966
+              ],
+              "yMin": 0.402,
+              "yMax": 2.448
+            },
+            "layers": [
+              "floorboards 44mm",
+              "support beams125mm",
+              "short posts200mm",
+              "buried foundation feet",
+              "grooved66mm threshold",
+              "158mm-deep posts",
+              "recessed room and alcove",
+              "separate joists/rafters/roof"
+            ],
+            "rearBoundaryZ": -6.4
+          },
+          "planting": {
+            "distantCrownDesign": {
+              "version": "depth-v04",
+              "strategy": "Unequal overlapping crown regions contain physical endpoint-guided branching and attached closed leaves throughout their depth; no mirrored fans, spheres or cards",
+              "specimens": [
+                {
+                  "name": "Near cedar compound crown",
+                  "origin": [
+                    -3.42,
+                    -8.3
+                  ],
+                  "primaryAxes": 3,
+                  "regions": [
+                    {
+                      "centre": [
+                        -4.23,
+                        2.046,
+                        -8.1
+                      ],
+                      "halfExtents": [
+                        0.5781999999999999,
+                        0.45220000000000005,
+                        0.48750000000000004
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.29,
+                          1.62,
+                          0.16
+                        ],
+                        [
+                          -0.57,
+                          1.91,
+                          0.18
+                        ],
+                        [
+                          -0.81,
+                          2.08,
+                          0.2
+                        ]
+                      ],
+                      "attractionEndpoints": 118,
+                      "unreachedEndpoints": 21,
+                      "growingNodes": 244,
+                      "closedLeaves": 859
+                    },
+                    {
+                      "centre": [
+                        -2.660000000000001,
+                        2.4059999999999997,
+                        -8.440000000000001
+                      ],
+                      "halfExtents": [
+                        0.649,
+                        0.5985,
+                        0.525
+                      ],
+                      "supportingAxis": [
+                        [
+                          0.26,
+                          2.05,
+                          -0.05
+                        ],
+                        [
+                          0.52,
+                          2.37,
+                          -0.2
+                        ],
+                        [
+                          0.76,
+                          2.44,
+                          -0.14
+                        ]
+                      ],
+                      "attractionEndpoints": 142,
+                      "unreachedEndpoints": 26,
+                      "growingNodes": 327,
+                      "closedLeaves": 1132
+                    },
+                    {
+                      "centre": [
+                        -3.4,
+                        2.995999999999999,
+                        -8.180000000000005
+                      ],
+                      "halfExtents": [
+                        0.531,
+                        0.5054000000000001,
+                        0.475
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.05,
+                          2.58,
+                          0.15
+                        ],
+                        [
+                          -0.07,
+                          2.88,
+                          0.23
+                        ],
+                        [
+                          0.02,
+                          3.03,
+                          0.12
+                        ]
+                      ],
+                      "attractionEndpoints": 118,
+                      "unreachedEndpoints": 14,
+                      "growingNodes": 245,
+                      "closedLeaves": 858
+                    }
+                  ],
+                  "closedLeaves": 2849
+                },
+                {
+                  "name": "Far cedar inclined crown",
+                  "origin": [
+                    -0.15,
+                    -11.15
+                  ],
+                  "primaryAxes": 4,
+                  "regions": [
+                    {
+                      "centre": [
+                        -0.9099999999999999,
+                        2.576,
+                        -10.880000000000004
+                      ],
+                      "halfExtents": [
+                        0.5663999999999999,
+                        0.46549999999999997,
+                        0.5375
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.22,
+                          2,
+                          0.13
+                        ],
+                        [
+                          -0.52,
+                          2.44,
+                          0.31
+                        ],
+                        [
+                          -0.76,
+                          2.61,
+                          0.27
+                        ]
+                      ],
+                      "attractionEndpoints": 118,
+                      "unreachedEndpoints": 26,
+                      "growingNodes": 253,
+                      "closedLeaves": 886
+                    },
+                    {
+                      "centre": [
+                        0.6999999999999997,
+                        2.736,
+                        -11.360000000000007
+                      ],
+                      "halfExtents": [
+                        0.6725999999999999,
+                        0.5852,
+                        0.475
+                      ],
+                      "supportingAxis": [
+                        [
+                          0.25,
+                          2.4,
+                          -0.15
+                        ],
+                        [
+                          0.58,
+                          2.63,
+                          -0.27
+                        ],
+                        [
+                          0.85,
+                          2.77,
+                          -0.21
+                        ]
+                      ],
+                      "attractionEndpoints": 142,
+                      "unreachedEndpoints": 24,
+                      "growingNodes": 324,
+                      "closedLeaves": 1131
+                    },
+                    {
+                      "centre": [
+                        -0.69,
+                        3.125999999999999,
+                        -11.57
+                      ],
+                      "halfExtents": [
+                        0.3776,
+                        0.399,
+                        0.4625
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.21,
+                          2.81,
+                          -0.13
+                        ],
+                        [
+                          -0.48,
+                          3.04,
+                          -0.36
+                        ],
+                        [
+                          -0.54,
+                          3.16,
+                          -0.42
+                        ]
+                      ],
+                      "attractionEndpoints": 118,
+                      "unreachedEndpoints": 16,
+                      "growingNodes": 203,
+                      "closedLeaves": 730
+                    },
+                    {
+                      "centre": [
+                        -0.17000000000000004,
+                        3.366000000000001,
+                        -10.979999999999992
+                      ],
+                      "halfExtents": [
+                        0.5192,
+                        0.49210000000000004,
+                        0.525
+                      ],
+                      "supportingAxis": [
+                        [
+                          -0.06,
+                          3.02,
+                          0.06
+                        ],
+                        [
+                          -0.1,
+                          3.3,
+                          0.24
+                        ],
+                        [
+                          -0.02,
+                          3.4,
+                          0.17
+                        ]
+                      ],
+                      "attractionEndpoints": 142,
+                      "unreachedEndpoints": 20,
+                      "growingNodes": 284,
+                      "closedLeaves": 1009
+                    }
+                  ],
+                  "closedLeaves": 3756
+                }
+              ],
+              "instances": 6605
+            },
+            "evergreenStats": {
+              "source": "Own four small closed bent botanical leaf prototypes,16tri each; hero geometry untouched",
+              "support": "Every leaf origin is on an actual authored twig path, unequal paired leaves and terminal buds, no cards or spheres",
+              "instances": 6605,
+              "triangles": 105680,
+              "groups": [
+                {
+                  "variant": 0,
+                  "instances": 1652,
+                  "triangles": 26432
+                },
+                {
+                  "variant": 1,
+                  "instances": 1651,
+                  "triangles": 26416
+                },
+                {
+                  "variant": 2,
+                  "instances": 1651,
+                  "triangles": 26416
+                },
+                {
+                  "variant": 3,
+                  "instances": 1651,
+                  "triangles": 26416
+                }
+              ]
+            },
+            "rootCenters": [
+              {
+                "name": "Open layered maple",
+                "position": [
+                  -2.82,
+                  0.11677532749256121,
+                  -3.5
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 0",
+                "position": [
+                  -2.3471,
+                  0.053355481815619464,
+                  -1.0211999999999999
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 1",
+                "position": [
+                  -2.2337000000000002,
+                  0.08400735599860973,
+                  -0.9636
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 2",
+                "position": [
+                  -2.2841,
+                  0.0728393783741704,
+                  -0.9828
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 3",
+                "position": [
+                  -2.2148000000000003,
+                  0.08818986759590089,
+                  -0.9571999999999999
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 0",
+                "position": [
+                  -2.1059099999999997,
+                  -0.0018612924171707073,
+                  -3.13824
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 1",
+                "position": [
+                  -2.064015,
+                  -0.0037130116026386547,
+                  -3.0896
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 2",
+                "position": [
+                  -2.03409,
+                  -0.010687798841576961,
+                  -3.1321600000000003
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 3",
+                "position": [
+                  -2.087955,
+                  -0.0003981516039436488,
+                  -3.10176
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 0",
+                "position": [
+                  -3.13796,
+                  0.03520735952213393,
+                  -2.12736
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 1",
+                "position": [
+                  -3.058265,
+                  0.03973539623837038,
+                  -2.1641600000000003
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 2",
+                "position": [
+                  -3.0872450000000002,
+                  0.04198465257442615,
+                  -2.0979200000000002
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 3",
+                "position": [
+                  -3.06551,
+                  0.04170486358961491,
+                  -2.13472
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 4",
+                "position": [
+                  -3.0510200000000003,
+                  0.04645700744915892,
+                  -2.1126400000000003
+                ]
+              },
+              {
+                "name": "Near cedar compound crown",
+                "position": [
+                  -3.42,
+                  -0.034,
+                  -8.3
+                ]
+              },
+              {
+                "name": "Far cedar inclined crown",
+                "position": [
+                  -0.15,
+                  -0.034,
+                  -11.15
+                ]
+              }
+            ],
+            "design": "Three authored axes with concentrated inner short branches concealing selected arms; compact multi-axial shrubs return toward the stones; closed distant leaves retain a lower triangle count",
+            "specimens": [
+              {
+                "name": "Open layered maple",
+                "origin": [
+                  -2.82,
+                  0,
+                  -3.5
+                ],
+                "kind": "maple",
+                "primaryArms": 5
+              }
+            ],
+            "shrubOrigins": [
+              [
+                -2.24,
+                -0.97
+              ],
+              [
+                -2.07,
+                -3.12
+              ],
+              [
+                -3.08,
+                -2.12
+              ]
+            ],
+            "branchTriangles": 36502,
+            "leafInstances": 3293,
+            "leafTriangles": 64524,
+            "leafGroups": [
+              {
+                "kind": "maple",
+                "instances": 2084,
+                "trianglesPerLeaf": 24,
+                "triangles": 50016
+              },
+              {
+                "kind": "shrub",
+                "instances": 1209,
+                "trianglesPerLeaf": 12,
+                "triangles": 14508
+              }
+            ],
+            "rootGroundHeightSamples": [
+              {
+                "x": -2.82,
+                "z": -3.5,
+                "groundY": 0.12077532749256122
+              },
+              {
+                "x": -2.24,
+                "z": -0.97,
+                "groundY": 0.08867412768740486
+              },
+              {
+                "x": -2.07,
+                "z": -3.12,
+                "groundY": 0.0028226071561718654
+              },
+              {
+                "x": -3.08,
+                "z": -2.12,
+                "groundY": 0.04778176209046616
+              }
+            ],
+            "mossTufts": 0,
+            "mossTuftTriangles": 0,
+            "rejectedMossFronds": "Diagnostic objects omitted: isolated chip/dot silhouettes; source/patches/evidence retained",
+            "mossDetail": "Connected low ridges, unequal soil hollows and pebble-free moss edge share one height/material field"
+          },
+          "largeGardenStones": [
+            {
+              "id": "boulder_01",
+              "center": [
+                -1.78,
+                -0.65
+              ],
+              "horizontalExtent": 1.27,
+              "yaw": 1.2,
+              "burial": 0.19,
+              "triangles": 23000,
+              "bounds": {
+                "min": [
+                  -2.4149999618530273,
+                  -0.21199999749660492,
+                  -1.1193939447402954
+                ],
+                "max": [
+                  -1.1449999809265137,
+                  0.47556936740875244,
+                  -0.18060600757598877
+                ]
+              },
+              "material": "Local CC0 PBR, matte roughness lower bound .90, ground-field root transition",
+              "source": "https://polyhaven.com/a/boulder_01",
+              "textures": [
+                {
+                  "url": "http://127.0.0.1:5211/rocks/boulder_01_diff.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5211/rocks/boulder_01_nor_gl.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5211/rocks/boulder_01_arm.webp",
+                  "width": 512,
+                  "height": 512
+                }
+              ]
+            },
+            {
+              "id": "rock_09",
+              "center": [
+                -2.67,
+                -1.78
+              ],
+              "horizontalExtent": 1.06,
+              "yaw": 0.85,
+              "burial": 0.06,
+              "triangles": 12416,
+              "bounds": {
+                "min": [
+                  -3.1618504524230957,
+                  -0.0820000022649765,
+                  -2.309999942779541
+                ],
+                "max": [
+                  -2.178149700164795,
+                  0.19965197145938873,
+                  -1.25
+                ]
+              },
+              "material": "Local CC0 PBR, matte roughness lower bound .90, ground-field root transition",
+              "source": "https://polyhaven.com/a/rock_09",
+              "textures": [
+                {
+                  "url": "http://127.0.0.1:5211/rocks/rock_09_diff.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5211/rocks/rock_09_nor_gl.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5211/rocks/rock_09_arm.webp",
+                  "width": 512,
+                  "height": 512
+                }
+              ]
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightComparison": "Room sources follow new architecture; hero key/exposure fixed",
+          "lightDesign": "Same cool sky/moon and hero key; moon occluded by real architecture, warm room lighting; small dry paper lamp shade has weak emission in proposed mode, not a luminous wall"
+        },
+        "layout": "night-b",
+        "framing": {
+          "left": 0.030000000000000082,
+          "right": 0.97,
+          "top": 0.3534596614889641,
+          "bottom": 0.6947914071255461
+        },
+        "camera": {
+          "yaw": -26,
+          "pitch": 8,
+          "distance": 7.089332690331492,
+          "zoom": 1,
+          "position": [
+            -3.1141809713157396,
+            1.7771462354813046,
+            6.308385201161099
+          ],
+          "target": [
+            -0.03666656588231669,
+            0.7905018212303074,
+            -0.0014544068146722915
+          ]
+        },
+        "viewport": [
+          320,
+          844
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highAvailable": false,
+          "needsHigh": false,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 353,
+        "triangles": 3956188,
+        "navigationToFirstFrameMs": 926.3999999761581
+      },
+      "text": "",
+      "viewport": [
+        320,
+        844
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "exactProjection": {
+        "bounds": {
+          "left": 0.042930247403286936,
+          "right": 0.965489116020033,
+          "top": 0.35682690131032185,
+          "bottom": 0.6950873309470227
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [
+          {
+            "name": "Canopy_spatial_group_0411",
+            "bounds": {
+              "left": 0.646489267447142,
+              "right": 0.965489116020033,
+              "top": 0.4042702317580365,
+              "bottom": 0.44473279875037475
+            }
+          }
+        ],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 844,
+          "top": 0,
+          "right": 320,
+          "bottom": 844,
+          "left": 0
+        },
+        "cameraAspect": 0.3791469194312796
+      },
+      "backgroundProjection": {
+        "opening": {
+          "front": [
+            0.6943656249133374,
+            0.3358604659017551,
+            0.9943860447718171
+          ],
+          "rear": [
+            0.4623178847829934,
+            0.3302347619007565,
+            0.9955257144222897
+          ]
+        },
+        "frontEdge": [
+          0.5829937389723356,
+          0.5015861982404535,
+          0.9937315004679301
+        ],
+        "architecture": "depth-v02",
+        "crownDesign": {
+          "version": "depth-v04",
+          "strategy": "Unequal overlapping crown regions contain physical endpoint-guided branching and attached closed leaves throughout their depth; no mirrored fans, spheres or cards",
+          "specimens": [
+            {
+              "name": "Near cedar compound crown",
+              "origin": [
+                -3.42,
+                -8.3
+              ],
+              "primaryAxes": 3,
+              "regions": [
+                {
+                  "centre": [
+                    -4.23,
+                    2.046,
+                    -8.1
+                  ],
+                  "halfExtents": [
+                    0.5781999999999999,
+                    0.45220000000000005,
+                    0.48750000000000004
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.29,
+                      1.62,
+                      0.16
+                    ],
+                    [
+                      -0.57,
+                      1.91,
+                      0.18
+                    ],
+                    [
+                      -0.81,
+                      2.08,
+                      0.2
+                    ]
+                  ],
+                  "attractionEndpoints": 118,
+                  "unreachedEndpoints": 21,
+                  "growingNodes": 244,
+                  "closedLeaves": 859
+                },
+                {
+                  "centre": [
+                    -2.660000000000001,
+                    2.4059999999999997,
+                    -8.440000000000001
+                  ],
+                  "halfExtents": [
+                    0.649,
+                    0.5985,
+                    0.525
+                  ],
+                  "supportingAxis": [
+                    [
+                      0.26,
+                      2.05,
+                      -0.05
+                    ],
+                    [
+                      0.52,
+                      2.37,
+                      -0.2
+                    ],
+                    [
+                      0.76,
+                      2.44,
+                      -0.14
+                    ]
+                  ],
+                  "attractionEndpoints": 142,
+                  "unreachedEndpoints": 26,
+                  "growingNodes": 327,
+                  "closedLeaves": 1132
+                },
+                {
+                  "centre": [
+                    -3.4,
+                    2.995999999999999,
+                    -8.180000000000005
+                  ],
+                  "halfExtents": [
+                    0.531,
+                    0.5054000000000001,
+                    0.475
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.05,
+                      2.58,
+                      0.15
+                    ],
+                    [
+                      -0.07,
+                      2.88,
+                      0.23
+                    ],
+                    [
+                      0.02,
+                      3.03,
+                      0.12
+                    ]
+                  ],
+                  "attractionEndpoints": 118,
+                  "unreachedEndpoints": 14,
+                  "growingNodes": 245,
+                  "closedLeaves": 858
+                }
+              ],
+              "closedLeaves": 2849
+            },
+            {
+              "name": "Far cedar inclined crown",
+              "origin": [
+                -0.15,
+                -11.15
+              ],
+              "primaryAxes": 4,
+              "regions": [
+                {
+                  "centre": [
+                    -0.9099999999999999,
+                    2.576,
+                    -10.880000000000004
+                  ],
+                  "halfExtents": [
+                    0.5663999999999999,
+                    0.46549999999999997,
+                    0.5375
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.22,
+                      2,
+                      0.13
+                    ],
+                    [
+                      -0.52,
+                      2.44,
+                      0.31
+                    ],
+                    [
+                      -0.76,
+                      2.61,
+                      0.27
+                    ]
+                  ],
+                  "attractionEndpoints": 118,
+                  "unreachedEndpoints": 26,
+                  "growingNodes": 253,
+                  "closedLeaves": 886
+                },
+                {
+                  "centre": [
+                    0.6999999999999997,
+                    2.736,
+                    -11.360000000000007
+                  ],
+                  "halfExtents": [
+                    0.6725999999999999,
+                    0.5852,
+                    0.475
+                  ],
+                  "supportingAxis": [
+                    [
+                      0.25,
+                      2.4,
+                      -0.15
+                    ],
+                    [
+                      0.58,
+                      2.63,
+                      -0.27
+                    ],
+                    [
+                      0.85,
+                      2.77,
+                      -0.21
+                    ]
+                  ],
+                  "attractionEndpoints": 142,
+                  "unreachedEndpoints": 24,
+                  "growingNodes": 324,
+                  "closedLeaves": 1131
+                },
+                {
+                  "centre": [
+                    -0.69,
+                    3.125999999999999,
+                    -11.57
+                  ],
+                  "halfExtents": [
+                    0.3776,
+                    0.399,
+                    0.4625
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.21,
+                      2.81,
+                      -0.13
+                    ],
+                    [
+                      -0.48,
+                      3.04,
+                      -0.36
+                    ],
+                    [
+                      -0.54,
+                      3.16,
+                      -0.42
+                    ]
+                  ],
+                  "attractionEndpoints": 118,
+                  "unreachedEndpoints": 16,
+                  "growingNodes": 203,
+                  "closedLeaves": 730
+                },
+                {
+                  "centre": [
+                    -0.17000000000000004,
+                    3.366000000000001,
+                    -10.979999999999992
+                  ],
+                  "halfExtents": [
+                    0.5192,
+                    0.49210000000000004,
+                    0.525
+                  ],
+                  "supportingAxis": [
+                    [
+                      -0.06,
+                      3.02,
+                      0.06
+                    ],
+                    [
+                      -0.1,
+                      3.3,
+                      0.24
+                    ],
+                    [
+                      -0.02,
+                      3.4,
+                      0.17
+                    ]
+                  ],
+                  "attractionEndpoints": 142,
+                  "unreachedEndpoints": 20,
+                  "growingNodes": 284,
+                  "closedLeaves": 1009
+                }
+              ],
+              "closedLeaves": 3756
+            }
+          ],
+          "instances": 6605
+        },
+        "groundSamples": [
+          {
+            "x": -2.11,
+            "z": -1.6,
+            "y": 0.032736900508207475
+          },
+          {
+            "x": -2.78,
+            "z": -0.25,
+            "y": -0.01106061462604251
+          },
+          {
+            "x": -3.1,
+            "z": 0.81,
+            "y": 0.007138144078642715
+          },
+          {
+            "x": 0,
+            "z": 0,
+            "y": -0.022
+          }
+        ]
+      },
+      "closedLeafAudit": [
+        {
+          "name": "Branch attached closed garden broadleaves 0",
+          "signedVolume": 0.011868746364037381,
+          "closed": true,
+          "outwardWinding": true
+        },
+        {
+          "name": "Branch attached closed garden broadleaves 1",
+          "signedVolume": 0.016716057927313788,
+          "closed": true,
+          "outwardWinding": true
+        },
+        {
+          "name": "Branch attached closed garden broadleaves 2",
+          "signedVolume": 0.009225047790742864,
+          "closed": true,
+          "outwardWinding": true
+        },
+        {
+          "name": "Branch attached closed garden broadleaves 3",
+          "signedVolume": 0.013893352639049363,
+          "closed": true,
+          "outwardWinding": true
+        }
+      ]
+    }
+  ],
+  "logs": []
+}

@@ -1,0 +1,22 @@
+00:00.109  translation      | WARNING Falling back to standard locale ("C")
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+{"control_vertices": 86, "control_faces": 85, "evaluated_triangles": 2704, "volume": 0.09356870736968974, "boundary_edges": 0, "nonmanifold_edges": 0, "nonadjacent_intersections": 0, "connected_component_vertices": [1354], "minimum_face_area": 3.3772452297853306e-05, "genus_expected": 0, "euler_characteristic": 2, "bounds": {"min": [-0.364468514919281, -0.2521321773529053, 0.27619630098342896], "max": [0.5105478167533875, 0.4542267918586731, 1.7740336656570435]}}
+Info: Saved as "patch-v02-editable.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+12:26:51 | INFO: Starting glTF 2.0 export
+12:26:51 | INFO: Extracting primitive: Finite rooted patches and physically terminated deadwood
+12:26:51 | INFO: Primitives created: 1
+12:26:51 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+12:26:51 | INFO: Finished glTF 2.0 export in 0.022664308547973633 s
+
+{"glb_bytes": 20272, "native_bytes": 93752}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1536 vertices, 8112 indices, raw size: 99608, encoded size: 18138, compression ratio: 5.49
+
+Blender quit

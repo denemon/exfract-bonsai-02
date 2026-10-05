@@ -1,0 +1,141 @@
+{
+  "version": "carved-v02",
+  "vertices": 13002,
+  "faces": 26000,
+  "triangles": 26000,
+  "volume": 0.16692895660173798,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "nonadjacent_intersections": 0,
+  "intersection_samples": [],
+  "components": [
+    13002
+  ],
+  "minimum_area": 5.403541649684485e-07,
+  "euler": 2,
+  "bounds": {
+    "min": [
+      -0.8613476753234863,
+      -0.1863425076007843,
+      0.23997020721435547
+    ],
+    "max": [
+      0.9646890163421631,
+      0.45576146245002747,
+      1.9616024494171143
+    ]
+  },
+  "local_fold_repair": [
+    {
+      "iteration": 1,
+      "before_intersections": 7,
+      "after_intersections": 0,
+      "local_vertices": 12,
+      "feather_vertices": 146,
+      "bounds": {
+        "min": [
+          -0.3285321593284607,
+          -0.06717641651630402,
+          1.0038933753967285
+        ],
+        "max": [
+          -0.3167760670185089,
+          -0.03544895350933075,
+          1.0294852256774902
+        ]
+      }
+    }
+  ],
+  "same_topology": true,
+  "operations_vertex_count": {
+    "lower rounded front rim": 637,
+    "upper eye rim": 331,
+    "upper branch one broad oblique face": 117,
+    "root front seat returning to unequal buttresses": 268,
+    "unequal side of core": 449,
+    "finite lower wood return": 122,
+    "upper closed rim opens left once": 122
+  },
+  "maximum_displacement_by_operation": {
+    "lower rounded front rim": 0.07000000041510378,
+    "upper eye rim": 0.079999998989515,
+    "upper branch one broad oblique face": 0.02400000042445026,
+    "root front seat returning to unequal buttresses": 0.06499999852134629,
+    "unequal side of core": 0.0399999994947575,
+    "finite lower wood return": 0.04300000127162349,
+    "upper closed rim opens left once": 0.029999999742334086
+  },
+  "depth_probes": [
+    {
+      "x": 0.12,
+      "z": 0.45,
+      "y_intersections": [
+        -0.0498080849647522,
+        0.21067774295806885
+      ],
+      "occupied_intervals": [
+        [
+          -0.0498080849647522,
+          0.21067774295806885
+        ]
+      ]
+    },
+    {
+      "x": 0.1,
+      "z": 0.6,
+      "y_intersections": [
+        -0.11023151874542236,
+        0.20458140969276428
+      ],
+      "occupied_intervals": [
+        [
+          -0.11023151874542236,
+          0.20458140969276428
+        ]
+      ]
+    },
+    {
+      "x": -0.1,
+      "z": 0.8,
+      "y_intersections": [
+        -0.16469717025756836,
+        0.17564648389816284
+      ],
+      "occupied_intervals": [
+        [
+          -0.16469717025756836,
+          0.17564648389816284
+        ]
+      ]
+    },
+    {
+      "x": -0.2,
+      "z": 1.03,
+      "y_intersections": [
+        -0.09271347522735596,
+        0.1842029094696045
+      ],
+      "occupied_intervals": [
+        [
+          -0.09271347522735596,
+          0.1842029094696045
+        ]
+      ]
+    },
+    {
+      "x": -0.1,
+      "z": 1.16,
+      "y_intersections": [
+        -0.08534616231918335,
+        0.21766397356987
+      ],
+      "occupied_intervals": [
+        [
+          -0.08534616231918335,
+          0.21766397356987
+        ]
+      ]
+    }
+  ],
+  "aesthetic_pass": false
+}

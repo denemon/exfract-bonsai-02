@@ -1,0 +1,17 @@
+{
+  "decision": "Save local spatial basis only, not best adoption or full premium completion",
+  "selected_relative_improvements": [
+    "House setback and room/boundary connection",
+    "Irregular endpoint-guided supported distant branch volumes versus repeated fern pads",
+    "390 yaw−24 versus−12 better occupancy and reduced frontal post dominance"
+  ],
+  "remaining": [
+    "Distant naked branches/dark interiors/crop, natural canopy macro unfinished",
+    "Moss mat quality unfinished: added chip-like fronds rejected",
+    "320 yaw−26 pending actual validation, mobile presence not better than R17"
+  ],
+  "moss_diagnostic_source_preserved": "background/moss-sprigs.js",
+  "geometry_freeze": "Capture new SHA after omission; do not reuse134a7a...",
+  "author_and_independent_review": "qa/background-review.md",
+  "wood_unchanged": true
+}

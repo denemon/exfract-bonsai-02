@@ -1,0 +1,11 @@
+{
+  "created_jst": "2026-10-05T15:02:29.106341+09:00",
+  "reason": "Independent review still sees fern-like thin distant crowns; make one explicit 3D attached-shoot mass comparison before final finish, no wood or architecture edits",
+  "variable": "canopy=mass-v04",
+  "control": "canopy=baseline keeps actual v03 buffers/signature",
+  "change": "Closed evergreen terminal shoot physical length .20-.255m to .38-.475m, still unequal layer factors and support origins fixed; no billboard, sphere, main axis or instance-count change",
+  "hero_geometry_material_lod_changed": false,
+  "background_layout_and_ground_changed": false,
+  "v03_hash": "1839c83959140d635acfe2983b3935f2e9ab25ae213f417e710db4c320ac3652",
+  "quality_gate": "Actual PC/390/320 screenshots; no automatic acceptance from hash or tests"
+}

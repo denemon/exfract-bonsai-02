@@ -1,0 +1,1 @@
+通常夜景の同camera/光/露出を使う構造比較。前後とも露出幹だけ同じ無textureの乾いたbrown materialに置換。前は保護した既存geometry/leaf配置、後は主要枝試作と再配置した既存の閉じた鱗葉prototype。shader仕上げ・material改善・最終採用の比較ではない。PC庭全景/盆栽全体/幹寄りはCDPで同じ実座標を設定。390/320は同じ共有bboxから個別yaw/fovを計算し、全vertex投影で切れを検査。薄枝は庭内の役割を確認するための暫定supportで、主要枝meshとは別成分。

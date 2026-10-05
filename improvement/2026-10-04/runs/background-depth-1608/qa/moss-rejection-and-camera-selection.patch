@@ -1,0 +1,62 @@
+--- background/scene.js@diagnostic
++++ background/scene.js@selected-local-layout
+@@ -1,4 +1,4 @@
+-import {mossSprigs} from './moss-sprigs.js';
++import {backgroundLightScale} from './background-finish.js';
+ import {housePoint} from './layout.js';
+ import {architecture} from './architecture.js';
+ import {backgroundGeometrySignature} from './geometry-signature.js';
+@@ -33,7 +33,7 @@
+  const farGeometry=new THREE.PlaneGeometry(100,100);farGeometry.rotateX(-Math.PI/2);farGeometry.translate(0,-.029,0);const distantGround=new THREE.Mesh(farGeometry,m.ground);distantGround.name='Continuous distant mineral ground';distantGround.receiveShadow=true;scene.add(distantGround);
+  const built=architecture(scene,m,layout);
+  const rocks=placeGardenRocks(scene,rockAssets,m);
+- const plants=planting(scene,m,hero);const moss=mossSprigs(scene,m.terrain,m.ground.userData.mossTexture);
++ const plants=planting(scene,m,hero);
+  scene.updateMatrixWorld(true);const rootRay=new THREE.Raycaster();
+  const foundation=scene.getObjectByName('Garden architecture foundation');
+  for(const row of built.verandaSupportContacts){
+@@ -46,7 +46,7 @@
+  }
+ 
+  const rootContacts=plants.rootCenters.map(root=>{const [x,y,z]=root.position;rootRay.set(new THREE.Vector3(x,y+.30,z),new THREE.Vector3(0,-1,0));const hit=rootRay.intersectObjects([ground,distantGround],false)[0];return {name:root.name,rootCenter:root.position,surfaceY:hit?.point.y,signedBurial:hit?y-hit.point.y:null};});
+- plants.mossSprigs=moss;plants.mossTufts=moss.instances;plants.mossTuftTriangles=moss.triangles;plants.mossDetail='Connected low ridges, unequal soil hollows and pebble-free moss edge share one height/material field';
++ plants.mossTufts=0;plants.mossTuftTriangles=0;plants.rejectedMossFronds='Diagnostic objects omitted: isolated chip/dot silhouettes; source/patches/evidence retained';plants.mossDetail='Connected low ridges, unequal soil hollows and pebble-free moss edge share one height/material field';
+  
+  scene.updateMatrixWorld(true);let bed;const feet=[];hero.traverse(o=>{if(!o.isMesh)return;if(/bedding[_ ]stone/i.test(o.name))bed=o;if(/ceramic[_ ]foot/i.test(o.name))feet.push(o);});
+  const ray=new THREE.Raycaster(),contacts=[];if(bed)for(const foot of feet){const bounds=new THREE.Box3().setFromObject(foot),centre=bounds.getCenter(new THREE.Vector3());ray.set(new THREE.Vector3(centre.x,bounds.min.y+.035,centre.z),new THREE.Vector3(0,-1,0));const hit=ray.intersectObject(bed,false)[0];contacts.push({foot:foot.name,footBottomY:bounds.min.y,stoneTopY:hit?.point.y,gapMetres:hit?bounds.min.y-hit.point.y:null});}
+@@ -59,7 +59,7 @@
+  const room=new THREE.SpotLight('#ffd4a0',18,7,.82,1,2);room.position.copy(roomPoint([3.96,2.49,-.88]));room.target.position.copy(roomPoint([3.84,1.05,-4.38]));room.castShadow=true;room.shadow.mapSize.set(1024,1024);room.shadow.camera.near=.12;room.shadow.camera.far=7;room.shadow.bias=-.00015;room.shadow.normalBias=.003;room.shadow.radius=4;scene.add(room,room.target);
+  const roomBounce=new THREE.PointLight('#ecd0a4',proposedRoom?3.5:2.5,3.6,2);roomBounce.position.copy(roomPoint([2.88,1.74,-1.72]));scene.add(roomBounce);
+  if(proposedRoom){const lamp=new THREE.PointLight('#ffd4a0',1.1,3.1,2);lamp.position.copy(roomPoint([3.83,.844,-2.62]));lamp.name='Small room console lantern source';scene.add(lamp);}
+- const rearGlow=new THREE.SpotLight('#ddc5a0',8.4,5.5,.67,1,2);rearGlow.position.set(-3.70,.20,-3.1);rearGlow.target.position.set(-2.80,1.50,-3.7);scene.add(rearGlow,rearGlow.target);
++ const rearGlow=new THREE.SpotLight('#ddc5a0',8.4*backgroundLightScale(),5.5,.67,1,2);rearGlow.position.set(-3.70,.20,-3.1);rearGlow.target.position.set(-2.80,1.50,-3.7);scene.add(rearGlow,rearGlow.target);
+  const geometrySignature=await backgroundGeometrySignature(scene,subject,m.terrain);
+  return {scene,subject,key,ground,layout:'night-'+layout,metadata:{geometrySignature,backgroundFinish:new URLSearchParams(location.search).get('finish')||'baseline',canopyMass:new URLSearchParams(location.search).get('canopy')||'baseline',terrain:{version:'depth-v04',rootContacts,heightSource:'One authored512px linear data field used by both geometry and material, generated in memory',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Depth-v01 integrated right-rear room, short branch crown masses, low continuous terrain; hero unchanged',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:1024,porchFillPosition:roomBounce.position.toArray(),porchFill:'Weak room bounce approximation within the deep room; proposed mode includes a weakly emissive paper lamp shade (.12), plus its finite point source'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightComparison:proposedRoom?'Room sources follow new architecture; hero key/exposure fixed':'All original world light positions and powers fixed for structure comparison',lightDesign:'Same cool sky/moon and hero key; moon occluded by real architecture, warm room lighting; small dry paper lamp shade has weak emission in proposed mode, not a luminous wall'}};
+ }
+--- background/broadleaf-support.js@diagnostic
++++ background/broadleaf-support.js@selected-local-layout
+@@ -1,3 +1,4 @@
++import {backgroundLeafMaterial} from './background-finish.js';
+ import * as THREE from 'three';
+ // Closed asymmetric cupped leaves, with a front ridge and an underside. The
+ // longest local axis is Y. These are small individual leaves, not canopy cards.
+@@ -9,7 +10,7 @@
+ }
+ export function evergreenTemplates(){return [0,1,2,3].map(v=>({geometry:closedLeaf(v),triangles:16,sourceName:'Own closed cupped broadleaf '+v}));}
+ export function installEvergreenShoots(scene,sources,leaves){
+- const material=new THREE.MeshStandardMaterial({color:'#3b5443',roughness:.96,metalness:0}),up=new THREE.Vector3(0,1,0),obj=new THREE.Object3D(),rows=[];
++ const material=backgroundLeafMaterial(),up=new THREE.Vector3(0,1,0),obj=new THREE.Object3D(),rows=[];
+  for(let variant=0;variant<sources.length;variant++){
+   const list=leaves.filter((_,i)=>i%sources.length===variant),source=sources[variant],mesh=new THREE.InstancedMesh(source.geometry,material,list.length);mesh.name='Branch attached closed garden broadleaves '+variant;
+   list.forEach((a,i)=>{obj.position.copy(a.p);obj.quaternion.setFromUnitVectors(up,a.direction);obj.rotateY(a.roll);obj.scale.set(a.length*(a.width||1),a.length,a.length);obj.updateMatrix();mesh.setMatrixAt(i,obj.matrix);mesh.setColorAt(i,new THREE.Color().setRGB(a.shade*.78,a.shade*.87,a.shade*.80));});
+--- candidate/src/main.js@diagnostic
++++ candidate/src/main.js@selected-local-layout
+@@ -37,7 +37,7 @@
+ }
+ function render(){if(lost||document.hidden)return;const t=performance.now();stats.foliageLOD=foliage.update(camera,innerHeight,distance,query.get("foliage-lod"));if(stats.foliageLOD.changed)renderer.shadowMap.needsUpdate=true;if(stats.foliageLOD.needsHigh)loadDetailedFoliage?.();renderer.info.reset();renderer.render(garden.scene,camera);stats.frames++;stats.framesMs.push(performance.now()-t);if(stats.framesMs.length>120)stats.framesMs.shift();stats.drawCalls=renderer.info.render.calls;stats.triangles=renderer.info.render.triangles;if(!stats.ready){stats.firstFrameMs=performance.now()-started;stats.navigationToFirstFrameMs=performance.now();stats.ready=true;document.documentElement.classList.add('ready');}}
+ function requestRender(){if(frame)return;frame=requestAnimationFrame(()=>{frame=0;render();});}
+-function resize(){const portrait=innerHeight>innerWidth,ratio=innerWidth/innerHeight;camera.aspect=ratio;camera.fov=portrait?39:38;camera.updateProjectionMatrix();baseYaw=Number(query.get('yaw')??(portrait?(ratio<.40?-42:ratio<.52?-27:-23):0));if(portrait&&!query.has('yaw'))baseYaw=query.get('composition')==='baseline'?(innerWidth<350?-33:-30):(innerWidth<350?-16:-12);yaw=baseYaw;pitch=Number(query.get('pitch')??(portrait?8:10));zoom=1;setCamera();const pixel=Math.min(devicePixelRatio,1.6);renderer.setPixelRatio(pixel);renderer.setSize(innerWidth,innerHeight,false);renderer.shadowMap.needsUpdate=true;stats.viewport=[innerWidth,innerHeight];render();}
++function resize(){const portrait=innerHeight>innerWidth,ratio=innerWidth/innerHeight;camera.aspect=ratio;camera.fov=portrait?39:38;camera.updateProjectionMatrix();baseYaw=Number(query.get('yaw')??(portrait?(ratio<.40?-42:ratio<.52?-27:-23):0));if(portrait&&!query.has('yaw'))baseYaw=query.get('composition')==='baseline'?(innerWidth<350?-33:-30):(innerWidth<350?-26:-24);yaw=baseYaw;pitch=Number(query.get('pitch')??(portrait?8:10));zoom=1;setCamera();const pixel=Math.min(devicePixelRatio,1.6);renderer.setPixelRatio(pixel);renderer.setSize(innerWidth,innerHeight,false);renderer.shadowMap.needsUpdate=true;stats.viewport=[innerWidth,innerHeight];render();}
+ try{
+  if(query.get("shadow-filter")!=="original")configureShadowFilter();
+  const context=canvas.getContext('webgl2',{alpha:false,antialias:true,powerPreference:'high-performance'});if(!context)throw Error('WebGL2 unavailable');

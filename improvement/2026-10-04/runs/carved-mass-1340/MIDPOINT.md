@@ -1,0 +1,1 @@
+背景優先へ変更して同writerで継続。木v02は保存保留、灰/夜の選定なし、shaderなし。開口と地面は改善、遠景v02は長房反復で不採用。v03主枝/前後層と別mobilecameraを実QA中。profile増分約14MiBを含む追加量は20MiB目標を既に超えるため、素材とbefore/比較helperは共有して節約。100MiB上限/空き2GiBを維持。外部D24はwriterの削除ではない。完成/性能/fallbackは未認定。

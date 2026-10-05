@@ -1,0 +1,7 @@
+{
+  "capture_source": "../irregular-volume-1200/qa/capture-comparison.mjs",
+  "capture_source_sha256": "140ae482d9b09d822f55bfbd65e847e7d9642e05f0535d3f6b9715143a320095",
+  "resilience_source": "../carved-mass-1340/qa/resilience.mjs",
+  "resilience_source_sha256": "c19112f8b8cdee96432e47661d648272edc6017dec9b8931af75f0e83447a954",
+  "strategy": "Read-only shared helper, checksum asserted, small transforms in memory. One shared QA Chrome profile, no asset/dependency duplication."
+}

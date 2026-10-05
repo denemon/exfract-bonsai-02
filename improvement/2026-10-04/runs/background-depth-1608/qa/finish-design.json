@@ -1,0 +1,7 @@
+{
+  "geometry_sha256": "2e79449acc970fab3b9e49c5610ee9b7ac01022d7762d8970c280261ecc9fc2b",
+  "field_sha256": "008d852ef489b472af78dcbdc66c0b47f6a3911bea4ad70fa482c831a7b15592",
+  "material_comparison": "Same geometry/lighting/camera: darker old leaf albedo versus dry lighter leaves, moss micro normal8.4mm plus distance-filtered.8mm fine height, architectural grain submillimetre .55/.23/.29mm. No emissive bloom or wet material. This is one composite material comparison, not independent proof of each channel.",
+  "lighting_comparison": "After material comparison, same geometry/material/camera; existing concealed rear garden spot8.4→11.088 only, same source/target/angle. Hero key70/moon.58/hemisphere.58/exposure1 unchanged; new room lights follow the changed house consistently.",
+  "limits": "Restricted local basis; natural distant crown/moss macro and premium completion not certified. Hero wood/leaf/pot shaders fixed, new sculpt paused."
+}

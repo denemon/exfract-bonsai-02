@@ -1,0 +1,150 @@
+{
+  "observed_jst": "2026-10-05T15:21:16.809047+09:00",
+  "head_at_start": "104065c0dc26402663376c3268f5f802c950ad26",
+  "head_current": "f13d8ab041eeb4095e4bd176c48c94a23c688bb9",
+  "current_uncommitted_deleted_count": 0,
+  "committed_deleted_count": 26,
+  "deleted_former_blob_bytes": 140354816,
+  "actual_paths": [
+    {
+      "path": "improvement/2026-10-04/runs/local-structure-2122/models/local-a.mesh.npz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 5304917
+    },
+    {
+      "path": "improvement/2026-10-04/runs/local-structure-2122/models/local-b.mesh.npz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 5131522
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v01.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 4553673
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v01.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 1333788
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v02.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 4393096
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v02.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 1325777
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v03.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 4323514
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v03.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 1165287
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v04.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 4328514
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v04.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 1239866
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v05.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 7138433
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v05.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 1918483
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v06.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 7294509
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v06.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 2077041
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v07.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 7294509
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v07.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 2077041
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v08.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 7288382
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v08.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 2107002
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v09.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 7023995
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v09.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 2104739
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v10.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 13357754
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v10.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 3330123
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v19.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 13326300
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v19.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 3515060
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v20.field.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 22497381
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v20.triangles.f32.gz",
+      "missing_in_current_filesystem": true,
+      "former_git_blob_bytes": 4904110
+    }
+  ],
+  "parent_read_only_github_notice": {
+    "PR6_merge": "4e55d2288c675c90fcd7ffa751756644aa980bee",
+    "PR6_at_jst": "2026-10-05T13:43:27+09:00",
+    "PR6_description_scope": "Archive1943 historical files approx2.77GiB, description-derived scope; no local Git object deletion audit",
+    "PR7_merge": "f4a3ef1de4e3bc9fd33ff8856dbdc8075c00c689",
+    "PR7_at_jst": "2026-10-05T14:11:24+09:00",
+    "PR7_description_scope": "24 historical volume arrays and2 rejected reconstruction NPZ; final GLB/Blender/current run protected according to description"
+  },
+  "worker_git_writes_deletes_restore_pull_reset_revert": 0,
+  "historical_note_correction": "Earlier own resume/midpoint/priority notes said24 missing tracked paths; actual external commit has24 arrays plus2 NPZ =26. Notes are corrected explicitly, no files restored."
+}

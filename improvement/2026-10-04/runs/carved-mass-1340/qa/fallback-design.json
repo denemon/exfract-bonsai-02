@@ -1,0 +1,36 @@
+{
+  "source": "Only final actual Three.js rendered scene, no reference/photo background",
+  "inline_first_paint": "Five small same-scene responsive inline WebP background encodings; full-quality picture overlays as soon as fetched",
+  "breakpoints": {
+    "wide": "aspect>=2",
+    "tall": "aspect<=.43",
+    "320": "portrait,width<=350,aspect>=.53",
+    "390": "remaining portrait",
+    "pc": "remaining landscape"
+  },
+  "dimensions": {
+    "pc": [
+      1440,
+      900
+    ],
+    "wide": [
+      1920,
+      800
+    ],
+    "mobile-390": [
+      390,
+      844
+    ],
+    "mobile-320": [
+      320,
+      568
+    ],
+    "mobile-tall": [
+      320,
+      844
+    ]
+  },
+  "inline_bytes": 15511,
+  "webgl_unavailable_and_loading": "Canvas hidden; same completed scene picture and inline background remain",
+  "transforms": "Encoding/downsample for first paint only; no crop or change in composition"
+}

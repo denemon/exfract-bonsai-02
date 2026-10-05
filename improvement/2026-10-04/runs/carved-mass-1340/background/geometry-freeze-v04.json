@@ -1,0 +1,18 @@
+{
+  "geometry_version": "spatial-v04",
+  "selection": "Relative layout/opening/ground and thicker far closed-shoot mass selected as a local study candidate; distant natural crowns and overall premium quality remain unaccepted",
+  "runtime_geometry_sha": "89a0df0c3188adde1ce5088e16b5cf19193e30a439a1f95c581c7bb7aedd7822",
+  "runtime_field_sha": "d693f80323ce6e7ce693dcb6098a0c29619a70f5c1085e94d577d325e4614e40",
+  "verified_cases": 5,
+  "hero_geometry_material_changed": false,
+  "wood_v02_shape_selected": false,
+  "files": {
+    "architecture.js": "a2227cc8649aaac6adbcadb642c66127aaa4cd6e1b969ea433419880e233fdb9",
+    "garden-geometry.js": "08eaa0eacd6e051a611e80ae47b0ecea01b6d84bbbbcce30d205edaaa3455caa",
+    "evergreen-support.js": "e76cdd5e6bf2c8035ab9eddca69bf871d720557bff30c86ec3e1b7dfe005c8d3",
+    "terrain-field.js": "8c7609c0bda28788419d1e86b1d98a19a65cf89fa7e0c9379333b4920315714a",
+    "terrain-design.json": "2f208268b924cfc64f506c991d63219c742a5446acb5ed30eb6350a9e2b165eb"
+  },
+  "allows_finish_only": "scene light/sky and background material responses; actual position/index/normal/world/instance/field buffers must remain identical",
+  "v03_basis": "geometry-freeze-source.json and v03-to-v04 patches, canopy=baseline"
+}

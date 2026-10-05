@@ -1,0 +1,44 @@
+{
+  "observed_at_jst": "2026-10-05T13:33:39.688598+09:00",
+  "head_at_start": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "current_external_head": "104065c0dc26402663376c3268f5f802c950ad26",
+  "recent_local_commits_readonly": [
+    "104065c0dc26402663376c3268f5f802c950ad26 2026-10-05T13:32:23+09:00 Archive loading and structural study evidence",
+    "5989ff4f5cd036cc21fa9e430ce93c540f0621f2 2026-10-05T13:31:51+09:00 Archive night garden and terrain evidence",
+    "2cca6147c5db3b7a33f259b8dec06243dad485aa 2026-10-05T13:31:30+09:00 Archive anatomy and wood study evidence",
+    "2b8a85e4892d0c4d53885eb897be279d2c40ca60 2026-10-05T13:28:39+09:00 Archive volume rebuild models and visual evidence",
+    "b337f09024c5661bf9eaf303eecb05539e71d5f3 2026-10-05T13:22:17+09:00 Archive sculpt gate models and visual evidence",
+    "c8ff202560daf16c1671854083acbcefabf04fdb 2026-10-05T13:20:12+09:00 Archive early prototype models and visual evidence"
+  ],
+  "worker_git_mutations": 0,
+  "parent_notice": "External PR5 completed-study archive merge95a4a491f18527066740a1f64c8daffd8b0b2f12; remote fact not independently verified here",
+  "active_run_tracked_files": 0,
+  "active_run_other_writer_confirmed": false,
+  "storage_free_at_start": 11125669888,
+  "storage_free_at_close": 3606773760,
+  "storage_growth_attribution": "About22MiB from this run/profile/cache/staging/coordinator; external archival Git activity observed separately. Whole disk reduction is not attributed to this run.",
+  "preview_restored": {
+    "recorded_at_jst": "2026-10-05T13:24:15.824426+09:00",
+    "url": "http://127.0.0.1:5208/",
+    "original_pid": 66758,
+    "original_process_absent": true,
+    "restored_pid": 4492,
+    "command": [
+      "node",
+      "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite",
+      "preview",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "5208",
+      "--strictPort"
+    ],
+    "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ensemble-0915/site",
+    "same_existing_protected_dist": true,
+    "served_html_sha256": "2db9326e5d60947a65ef449e402633744c71a48d9ac6e569013bf6211333f458",
+    "served_html_bytes": 20130,
+    "new_build": false,
+    "reason_for_absence": "Unknown; observed after parent external Git archive notice. This worker did not stop it.",
+    "harness_pid_76699_also_absent": true
+  }
+}

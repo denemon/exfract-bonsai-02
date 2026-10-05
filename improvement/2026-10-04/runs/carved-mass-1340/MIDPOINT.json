@@ -1,0 +1,21 @@
+{
+  "at_jst": "2026-10-05T14:40:08.685569+09:00",
+  "priority": "Background first after latest user 14:14JST instruction; same writer lock",
+  "wood": "v01 NG; direct v02 preserved/paused before visual selection, local crossings repaired7\u21920, no wood shader finish",
+  "background": "v01 room opening/roof/ground improved, v02 far crowns fern repetition NG, v03 actual layered/depth primary branches and separate mobile camera now in real-browser capture",
+  "same_condition": "edge-v02/bark-connected-cedar-v2/all original world lights/exposure/camera fixed for first comparison; proposed room lights separate after shape",
+  "measured_capacity": {
+    "run_allocated_bytes": 11780096,
+    "profile_growth": 29315072,
+    "cache_growth": 0,
+    "free_bytes": 3500863488
+  },
+  "preferred20MiB_missed": true,
+  "hard100MiB_not_exceeded": true,
+  "no_files_deleted_by_us": true,
+  "external_git_deleted_paths_detected": 26,
+  "remaining": "Visible background geometry selection; freeze source hashes\u2192room light/material; designed mobile; build/fallback/reduced/GPU/load; adoption decision/save/integrity audit",
+  "no_quality_claim_from_tests": true,
+  "earlier_reported_deleted_count": 24,
+  "correction_note": "Earlier own resume/midpoint/priority notes said24 missing tracked paths; actual external commit has24 arrays plus2 NPZ =26. Notes are corrected explicitly, no files restored."
+}
