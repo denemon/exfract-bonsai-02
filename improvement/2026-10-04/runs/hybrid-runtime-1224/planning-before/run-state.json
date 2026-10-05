@@ -1,0 +1,60 @@
+{
+  "recorded_at_jst": "2026-10-04T12:20:55+09:00",
+  "status": "image-selection-complete; hybrid-integration-pending",
+  "active_run": false,
+  "owner_thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "implementation_changed": false,
+  "planned_first_run": "2026-10-04T08:00:00+09:00",
+  "planned_last_run": "2026-10-04T22:00:00+09:00",
+  "hard_deadline": "2026-10-04T23:00:00+09:00",
+  "timezone": "Asia/Tokyo",
+  "schedule_created_or_updated_here": false,
+  "schedule_owner": "parent_thread",
+  "next_goal": "Use the selected finished images for constrained-view hybrid integration; verify extra aspect ratios, reduced motion, loading, noWebGL and performance",
+  "model_requirement": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "max",
+    "actual_application_verified": false
+  },
+  "local_automation_audit": {
+    "target_count": 0,
+    "all_count": 0,
+    "target_runs_count": 0,
+    "matching_ids": [],
+    "user_crontab": "none",
+    "matching_launch_items": [],
+    "target_running_processes_found": false,
+    "preview_5182": "stopped",
+    "preview_5183": "stopped"
+  },
+  "award_reference_status": "parent-provided official-page research; no live-site visual or performance audit",
+  "current_run": "hybrid-1132",
+  "started_at_jst": "2026-10-04T11:37:33+09:00",
+  "model_selection": "explicit parent execution selection; runtime metadata not exposed",
+  "last_completed_run": "hybrid-1132 image-selection phase",
+  "next_planned_run": "Afternoon integration; no duplicate writer is currently active",
+  "latest_finish": "runs/hybrid-1132/finish-image-phase.json",
+  "git_baseline": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "git_observed_head": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "phase": "Finished-image gate complete; runtime integration pending",
+  "candidate_implementation_changed": true,
+  "user_authorization": "11:32 JST constrained-view image/prerender hybrid accepted",
+  "finished_at_jst": "2026-10-04T12:20:55+09:00",
+  "current_preview": {
+    "image_study": {
+      "url": "http://127.0.0.1:5186/",
+      "http": 200
+    },
+    "baseline_0900": {
+      "url": "http://127.0.0.1:5183/",
+      "http": 200
+    },
+    "unadopted_3d": {
+      "url": "http://127.0.0.1:5185/",
+      "http": 200
+    }
+  },
+  "root_best_remains": "0900-jst-candidate-04",
+  "new_finished_image_candidate": "runs/hybrid-1132/image-selection.json",
+  "library_status": "blocked during official helper tools/list with TLS; no IDs"
+}
