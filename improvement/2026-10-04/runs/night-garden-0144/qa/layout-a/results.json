@@ -1,0 +1,672 @@
+{
+  "results": [
+    {
+      "name": "pc",
+      "url": "http://127.0.0.1:5197/?layout=a&qa=pc",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 3999.600000023842,
+        "framesMs": [
+          3821.6999999284744
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "phase": "Night layout study; hero geometry unchanged",
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 8,
+            "triangles": 20976,
+            "frontEdgeX": 1.75,
+            "deckTop": 0.3,
+            "roomOpening": {
+              "x": 2.46,
+              "zMin": -2.8,
+              "zMax": -0.4,
+              "yMin": 0.47,
+              "yMax": 2.53
+            },
+            "rearBoundaryZ": -4.92
+          },
+          "planting": {
+            "branchTriangles": 41592,
+            "leafInstances": 5304,
+            "leafTriangles": 42432
+          },
+          "largeGardenStones": [
+            {
+              "center": [
+                -1.87,
+                0.065,
+                -1.54
+              ],
+              "scale": [
+                0.57,
+                0.5,
+                0.42
+              ],
+              "seed": 3
+            },
+            {
+              "center": [
+                -2.8,
+                0.055,
+                -2.7
+              ],
+              "scale": [
+                0.42,
+                0.4,
+                0.37
+              ],
+              "seed": 14
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow"
+        },
+        "layout": "night-a",
+        "framing": {
+          "left": 0.1979311901448214,
+          "right": 0.8004335195444341,
+          "top": 0.10000000000000014,
+          "bottom": 0.9000000000000001
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 3.125588746792487,
+          "zoom": 1,
+          "position": [
+            -0.03559236420468226,
+            1.3858724117057477,
+            3.060124266958029
+          ],
+          "target": [
+            -0.03559236420468226,
+            0.6827679276694582,
+            0.014644157253831492
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 213,
+        "triangles": 2281232,
+        "navigationToFirstFrameMs": 4181.5
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-390",
+      "url": "http://127.0.0.1:5197/?layout=a&qa=mobile-390",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 348.89999997615814,
+        "framesMs": [
+          198
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "phase": "Night layout study; hero geometry unchanged",
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 8,
+            "triangles": 20976,
+            "frontEdgeX": 1.75,
+            "deckTop": 0.3,
+            "roomOpening": {
+              "x": 2.46,
+              "zMin": -2.8,
+              "zMax": -0.4,
+              "yMin": 0.47,
+              "yMax": 2.53
+            },
+            "rearBoundaryZ": -4.92
+          },
+          "planting": {
+            "branchTriangles": 41592,
+            "leafInstances": 5304,
+            "leafTriangles": 42432
+          },
+          "largeGardenStones": [
+            {
+              "center": [
+                -1.87,
+                0.065,
+                -1.54
+              ],
+              "scale": [
+                0.57,
+                0.5,
+                0.42
+              ],
+              "seed": 3
+            },
+            {
+              "center": [
+                -2.8,
+                0.055,
+                -2.7
+              ],
+              "scale": [
+                0.42,
+                0.4,
+                0.37
+              ],
+              "seed": 14
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow"
+        },
+        "layout": "night-a",
+        "framing": {
+          "left": 0.040000000000000036,
+          "right": 0.9599999999999999,
+          "top": 0.2818145638816246,
+          "bottom": 0.6873985984863045
+        },
+        "camera": {
+          "yaw": 28,
+          "pitch": 11,
+          "distance": 5.9653943186423195,
+          "zoom": 1,
+          "position": [
+            2.7208056505375606,
+            1.7364994041230917,
+            5.197289274920939
+          ],
+          "target": [
+            -0.028322745292062895,
+            0.5982485071580025,
+            0.026930744249058863
+          ]
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 212,
+        "triangles": 2280908,
+        "navigationToFirstFrameMs": 364
+      },
+      "text": "",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-320",
+      "url": "http://127.0.0.1:5197/?layout=a&qa=mobile-320",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 342.60000002384186,
+        "framesMs": [
+          197.39999997615814
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "phase": "Night layout study; hero geometry unchanged",
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 8,
+            "triangles": 20976,
+            "frontEdgeX": 1.75,
+            "deckTop": 0.3,
+            "roomOpening": {
+              "x": 2.46,
+              "zMin": -2.8,
+              "zMax": -0.4,
+              "yMin": 0.47,
+              "yMax": 2.53
+            },
+            "rearBoundaryZ": -4.92
+          },
+          "planting": {
+            "branchTriangles": 41592,
+            "leafInstances": 5304,
+            "leafTriangles": 42432
+          },
+          "largeGardenStones": [
+            {
+              "center": [
+                -1.87,
+                0.065,
+                -1.54
+              ],
+              "scale": [
+                0.57,
+                0.5,
+                0.42
+              ],
+              "seed": 3
+            },
+            {
+              "center": [
+                -2.8,
+                0.055,
+                -2.7
+              ],
+              "scale": [
+                0.42,
+                0.4,
+                0.37
+              ],
+              "seed": 14
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow"
+        },
+        "layout": "night-a",
+        "framing": {
+          "left": 0.04000000000000026,
+          "right": 0.9600000000000001,
+          "top": 0.24330044953893054,
+          "bottom": 0.7257951564098963
+        },
+        "camera": {
+          "yaw": 24,
+          "pitch": 11,
+          "distance": 5.052634892390018,
+          "zoom": 1,
+          "position": [
+            1.994488872314849,
+            1.5742170949754186,
+            4.553114480356132
+          ],
+          "target": [
+            -0.02284505869402794,
+            0.6101289071540026,
+            0.02210828606544318
+          ]
+        },
+        "viewport": [
+          320,
+          568
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 212,
+        "triangles": 2280908,
+        "navigationToFirstFrameMs": 369.60000002384186
+      },
+      "text": "",
+      "viewport": [
+        320,
+        568
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-tall",
+      "url": "http://127.0.0.1:5197/?layout=a&qa=mobile-tall",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 328.60000002384186,
+        "framesMs": [
+          188.60000002384186
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "phase": "Night layout study; hero geometry unchanged",
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 8,
+            "triangles": 20976,
+            "frontEdgeX": 1.75,
+            "deckTop": 0.3,
+            "roomOpening": {
+              "x": 2.46,
+              "zMin": -2.8,
+              "zMax": -0.4,
+              "yMin": 0.47,
+              "yMax": 2.53
+            },
+            "rearBoundaryZ": -4.92
+          },
+          "planting": {
+            "branchTriangles": 41592,
+            "leafInstances": 5304,
+            "leafTriangles": 42432
+          },
+          "largeGardenStones": [
+            {
+              "center": [
+                -1.87,
+                0.065,
+                -1.54
+              ],
+              "scale": [
+                0.57,
+                0.5,
+                0.42
+              ],
+              "seed": 3
+            },
+            {
+              "center": [
+                -2.8,
+                0.055,
+                -2.7
+              ],
+              "scale": [
+                0.42,
+                0.4,
+                0.37
+              ],
+              "seed": 14
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow"
+        },
+        "layout": "night-a",
+        "framing": {
+          "left": 0.03999999999999937,
+          "right": 0.9599999999999995,
+          "top": 0.3189917128398102,
+          "bottom": 0.6510596851171386
+        },
+        "camera": {
+          "yaw": 40,
+          "pitch": 11,
+          "distance": 7.25997239579441,
+          "zoom": 1,
+          "position": [
+            4.56164366677994,
+            1.96184867558674,
+            5.484866610010014
+          ],
+          "target": [
+            -0.019237677162406038,
+            0.5765806362837613,
+            0.025584811118930344
+          ]
+        },
+        "viewport": [
+          320,
+          932
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 211,
+        "triangles": 2280476,
+        "navigationToFirstFrameMs": 361.6999999284744
+      },
+      "text": "",
+      "viewport": [
+        320,
+        932
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": []
+}

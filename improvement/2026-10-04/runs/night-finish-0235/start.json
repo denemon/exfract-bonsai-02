@@ -1,0 +1,37 @@
+{
+  "run": "night-finish-0235",
+  "thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "started_at_jst": "2026-10-05T02:39:50.814378+09:00",
+  "midpoint_due_jst": "2026-10-05T03:39:50.814378+09:00",
+  "stage_latest_end_jst": "2026-10-05T05:39:50.814378+09:00",
+  "new_data_budget_bytes": 104857600,
+  "minimum_free_bytes": 2147483648,
+  "free_disk_bytes": 7991844864,
+  "reused_qa_profile": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "profile_allocated_bytes_at_start": 138805248,
+  "protected_stage8_manifest_sha256": "3cd69664861808b6be85eec0bbfd259d28df9faca5d62ce3c4dad1a434bc9235",
+  "protected_stage7_native": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/models/edge-v02-editable.blend",
+  "protected_stage7_native_sha256": "797e86664f36278c96dcf228aff734c9d7af212ef144af34a6336da31742e1e6",
+  "protected_stage7_glb_sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+  "protected_scene_source_sha256": {
+    "materials.js": "860457362496c68eebe1a107769796becc9c67ea9e93e9dcd25f7edb62737fcb",
+    "garden-geometry.js": "6238c91319decd0822294c8e78246a18c7be80db558166fd12b207c05d699cfc",
+    "scene.js": "fcf9e5c78df3450ae8bea8d03e7ef00738a2ab279e0f3f5c9e4710a598cebe32",
+    "shadow-filter.js": "909f2ed4586f40f126c4d42ed62306b547c23f9e5f0c4453845efae70cfe723e",
+    "main.js": "76ca0a3c6a668953fb8a1cc3e95d999546dc2d676ce78bb73b3e06a9fa387d00",
+    "style.css": "532f95b7d86a5ca4221989666e91288ffb10882e3d265bf33fff6da0bf5958b8",
+    "foliage-lod.js": "0576521feca39601a0823d03ccfc86b77876273648cdc070d5d8d497c6989bf7",
+    "garden-materials.js": "9bca3368fc0700549ba95b94987b264b5a0950d64ca44fd2569c4e8c23e0b1a5"
+  },
+  "protected_state_sha256": {
+    "best-state.json": "1a7d3394753fed411028ef5fdd920308f3e169f0eeb805f33643e20f7963d258",
+    "candidate-state.json": "a95c50fdd610a510a1fe8608345c07c19b23226a86c707119b4e4815863f065f",
+    "geometry-state.json": "fd1e8522e824fdb9f07de06d57eb89a52f70e04847b4bb2e60a5c1b0a36e7088",
+    "integrated-study-state.json": "c67a4227af30be8d686476a8c68c015c9445435a522fd44bb79c37e6e01be496",
+    "wood-study-state.json": "97c228a99e34c379b065b6b08da7fc16f0f3d0101a9016f9d77eb907cf010370",
+    "local-edge-study-state.json": "b0bf8b263f3b73d965968b7eaaefa1bcce820496b26e964beca369d8ea177e0d",
+    "night-garden-study-state.json": "a7bbb7557e66c5f5b6fed428de3c38e3f11075a112131328d9f540ffea9c2b06"
+  },
+  "maximum_material_candidates": 2,
+  "deadline_jst": "2026-10-10T23:00:00+09:00"
+}

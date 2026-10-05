@@ -1,0 +1,13 @@
+{
+  "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "reused": true,
+  "new_profiles": 0,
+  "allocated_bytes_at_start": 165842944,
+  "allocated_bytes_at_finish": 189689856,
+  "growth_bytes": 23846912,
+  "new_optimization_model_files": [],
+  "profile_files_deleted": 0,
+  "old_profile_count": 55,
+  "old_profiles_deleted": 0,
+  "note": "Observed stage result with background networking/component updates/optimization features disabled; no guarantee about future Chrome behavior."
+}

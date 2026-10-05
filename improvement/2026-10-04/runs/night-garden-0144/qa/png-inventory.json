@@ -1,0 +1,192 @@
+{
+  "files": [
+    {
+      "path": "qa/framing-audit/mobile-tall.png",
+      "bytes": 346964,
+      "sha256": "a3eb5050c250dfa551cc440f86da8cf94957484b2bef8bcf7e0df31c888d704d"
+    },
+    {
+      "path": "qa/framing-isolated/mobile-tall.png",
+      "bytes": 125988,
+      "sha256": "720e378fbc6d361152f6acd2fd2ae056f918395f11a65f97b1c00f1b3b435e49"
+    },
+    {
+      "path": "qa/layout-a/mobile-320.png",
+      "bytes": 226154,
+      "sha256": "3f5f3272aefef61b4f1d16e37b6c1d7ee44f08edc067defc0ac0de62532ce307"
+    },
+    {
+      "path": "qa/layout-a/mobile-390.png",
+      "bytes": 379652,
+      "sha256": "fbdf44c4e6ef1fbd81328f82afe5e4ff3ddae7866f01a88a74c0b506d0580b7a"
+    },
+    {
+      "path": "qa/layout-a/mobile-tall.png",
+      "bytes": 333392,
+      "sha256": "ba2315f1e4e70e237674e61f0a6008596979609c82f995a6e821f6f70176bf4b"
+    },
+    {
+      "path": "qa/layout-a/pc.png",
+      "bytes": 1535240,
+      "sha256": "24dcce6915e8ceb242372116b19225a4368020cad11b876ca61e18c61430b464"
+    },
+    {
+      "path": "qa/layout-b/mobile-320.png",
+      "bytes": 229038,
+      "sha256": "55c3897aa83047696df1641dc4aaf47b80dbf6fa2e04f3e60b2325e4297a986c"
+    },
+    {
+      "path": "qa/layout-b/mobile-390.png",
+      "bytes": 391210,
+      "sha256": "9251616321d57378bee593a1475cdd12a14856c974b780cdbc4a8d4d05ce2430"
+    },
+    {
+      "path": "qa/layout-b/mobile-tall.png",
+      "bytes": 342846,
+      "sha256": "dc4ae8869a74a0a07991d45778a57cc3ef5c8c7c7e2f0e2d6bebaff1faea7147"
+    },
+    {
+      "path": "qa/layout-b/pc.png",
+      "bytes": 1556890,
+      "sha256": "c29dd3ae5be09cbb8c7023a2f37ece50c10801ab89372a2bae11f53b27f12688"
+    },
+    {
+      "path": "qa/layout-b-corrected/mobile-320.png",
+      "bytes": 230507,
+      "sha256": "e981a9118f64d2f3388f528f0d2852dfd4df2757b829a59e0f88482d072b2b6f"
+    },
+    {
+      "path": "qa/layout-b-corrected/mobile-390.png",
+      "bytes": 392207,
+      "sha256": "f5c4f1a8360689b7702f33c3ac3f055443783a10948cca3df213f3746fd118da"
+    },
+    {
+      "path": "qa/layout-b-corrected/mobile-tall.png",
+      "bytes": 346964,
+      "sha256": "a3eb5050c250dfa551cc440f86da8cf94957484b2bef8bcf7e0df31c888d704d"
+    },
+    {
+      "path": "qa/layout-b-corrected/pc.png",
+      "bytes": 1586099,
+      "sha256": "24caf3477b55425e0663c7179638e0af4239a0f387d30869bf58f14deb3f80a3"
+    },
+    {
+      "path": "qa/pre-finish-stills/mobile-320.png",
+      "bytes": 230507,
+      "sha256": "e981a9118f64d2f3388f528f0d2852dfd4df2757b829a59e0f88482d072b2b6f"
+    },
+    {
+      "path": "qa/pre-finish-stills/mobile-390.png",
+      "bytes": 392207,
+      "sha256": "f5c4f1a8360689b7702f33c3ac3f055443783a10948cca3df213f3746fd118da"
+    },
+    {
+      "path": "qa/pre-finish-stills/mobile-tall.png",
+      "bytes": 346964,
+      "sha256": "a3eb5050c250dfa551cc440f86da8cf94957484b2bef8bcf7e0df31c888d704d"
+    },
+    {
+      "path": "qa/pre-finish-stills/pc.png",
+      "bytes": 1586099,
+      "sha256": "24caf3477b55425e0663c7179638e0af4239a0f387d30869bf58f14deb3f80a3"
+    },
+    {
+      "path": "qa/pre-finish-stills/pot-contact.png",
+      "bytes": 1706493,
+      "sha256": "03e6599cb8100e82e3d0714b01f67a0eb44216a008d77a3d5d9e4be49cbd9a89"
+    },
+    {
+      "path": "qa/pre-finish-stills/wood-front.png",
+      "bytes": 1897295,
+      "sha256": "2e36fc26e33e71e26d07a3d2960af8cbeaed07ad9eb7c3da44cadb8f5b2457ce"
+    },
+    {
+      "path": "qa/pre-finish-stills/wood-oblique.png",
+      "bytes": 1642221,
+      "sha256": "0d8757b8a4c6939f2beb849820fd8ab1cbde77bdff772fc59722f21dfd5d8fc0"
+    },
+    {
+      "path": "qa/selected-stills/mobile-320.png",
+      "bytes": 228818,
+      "sha256": "03803158517baeaea987ddc490b3323ad64edca6ff0acb635b3c4f44eabbfc68"
+    },
+    {
+      "path": "qa/selected-stills/mobile-390.png",
+      "bytes": 390702,
+      "sha256": "d229df3e06c3713491e01d457d602d6a5cf1bacc9bb12d5227a33f2abd2cb754"
+    },
+    {
+      "path": "qa/selected-stills/mobile-tall.png",
+      "bytes": 345892,
+      "sha256": "b56679eaee63688ee9c1ef5c6803c884767bf16bad05df07ea6ec89865125414"
+    },
+    {
+      "path": "qa/selected-stills/pc.png",
+      "bytes": 1559501,
+      "sha256": "cf664166ef7b5d228771746b6e09b6a9467fca0b72be3403a61a4109b2db0a05"
+    },
+    {
+      "path": "qa/selected-stills/pot-contact.png",
+      "bytes": 1676445,
+      "sha256": "0b3408ccb4b5fbd63d1ab52caeca1f79d94ed09ec1fea12cc407a4c52c37fa79"
+    },
+    {
+      "path": "qa/verification/context-loss-still.png",
+      "bytes": 1383502,
+      "sha256": "f7d547d793e5fc77c7981d698f794a0c73e1a015f77bf4fb5a0b30da66bcb1d4"
+    },
+    {
+      "path": "qa/verification/light-from-right.png",
+      "bytes": 1549717,
+      "sha256": "393af6ba7c91b815f091fd43cd764adfda0df8e21dca601181ba1ff23f825cd3"
+    },
+    {
+      "path": "qa/verification/loading-initial-still.png",
+      "bytes": 592509,
+      "sha256": "35dc899a594c0f84159071163313dc32d57058d58f3ca63545fe540276b87dc6"
+    },
+    {
+      "path": "qa/verification/loading-still.png",
+      "bytes": 1371872,
+      "sha256": "f1d1a160891e17f17888b882d9817b9f814d6020da419db96ea707bfbff3e652"
+    },
+    {
+      "path": "qa/verification/mobile-320.png",
+      "bytes": 228818,
+      "sha256": "03803158517baeaea987ddc490b3323ad64edca6ff0acb635b3c4f44eabbfc68"
+    },
+    {
+      "path": "qa/verification/mobile-390.png",
+      "bytes": 390702,
+      "sha256": "d229df3e06c3713491e01d457d602d6a5cf1bacc9bb12d5227a33f2abd2cb754"
+    },
+    {
+      "path": "qa/verification/mobile-retina-390.png",
+      "bytes": 2388654,
+      "sha256": "9c632ea2822000f82c5b720643fe2fa5f3b3305c2635b4e11456a72587c26a56"
+    },
+    {
+      "path": "qa/verification/mobile-tall-320.png",
+      "bytes": 345892,
+      "sha256": "b56679eaee63688ee9c1ef5c6803c884767bf16bad05df07ea6ec89865125414"
+    },
+    {
+      "path": "qa/verification/near-inspection.png",
+      "bytes": 1883991,
+      "sha256": "f72b2f976cb8368f9c7578ac41490b6afd4455d010011e5bb47a07d2c99ce706"
+    },
+    {
+      "path": "qa/verification/no-webgl-still.png",
+      "bytes": 1383502,
+      "sha256": "f7d547d793e5fc77c7981d698f794a0c73e1a015f77bf4fb5a0b30da66bcb1d4"
+    },
+    {
+      "path": "qa/verification/pc.png",
+      "bytes": 1559501,
+      "sha256": "cf664166ef7b5d228771746b6e09b6a9467fca0b72be3403a61a4109b2db0a05"
+    }
+  ],
+  "png_files": 37,
+  "unique_hashes": 27,
+  "pixel_editing": "None; all PNG files are raw Chrome captures. Four selected captures are also byte-identical final production verification captures."
+}

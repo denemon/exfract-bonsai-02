@@ -1,0 +1,37 @@
+{
+  "version": "space-v1",
+  "design_sha256": "17e346313b4b57282c050ae4dc5fff34dd4362ceee6740a1c2169fc475377db1",
+  "domain": [
+    -6,
+    -7,
+    6,
+    7
+  ],
+  "baseY": -0.022,
+  "heightScale": 0.128,
+  "size": [
+    512,
+    512
+  ],
+  "channels": {
+    "R": "moss coverage",
+    "G": "exposed organic soil",
+    "B": "continuous terrain rise / heightScale",
+    "A": "255, avoids canvas premultiplication when reading geometry data"
+  },
+  "colorSpace": "linear data; no sRGB conversion",
+  "row_zero": "zmax; Three default flipY=true",
+  "pixel_centres": true,
+  "webp_lossless_pixels_verified": true,
+  "maximum_height_metres": 0.1049706936776685,
+  "files": {
+    "terrain-field.png": {
+      "bytes": 60532,
+      "sha256": "0b14e2c553d08407148fcb4d9b2893e40b85858592b0600f7ff2292eb13a2fe3"
+    },
+    "terrain-field.webp": {
+      "bytes": 37574,
+      "sha256": "205796ac7c35b65e3d4dd1898db31ba83d4c2200a2fb44ea3bb7a5999808385d"
+    }
+  }
+}

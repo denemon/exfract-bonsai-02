@@ -1,0 +1,1049 @@
+{
+  "results": [
+    {
+      "name": "pc",
+      "url": "http://127.0.0.1:5200/?qa=pc",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 449.6999999284744,
+        "framesMs": [
+          237.39999997615814
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "phase": "Night B material and background finish v2; hero and camera composition unchanged",
+          "materialMaps": [
+            {
+              "url": "http://127.0.0.1:5200/garden/mineral.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5200/garden/moss.webp",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "roomLight": {
+            "position": [
+              3.7224988108674495,
+              2.46,
+              -1.3198971584090544
+            ],
+            "target": [
+              4.432860924960856,
+              1.5,
+              -4.460818307826967
+            ],
+            "shadowMap": 512,
+            "porchFillPosition": [
+              1.5034313847025642,
+              2.44,
+              0.45654303426109255
+            ],
+            "porchFill": "Concealed under front eave, outside the return wall; no emissive visible object"
+          },
+          "contacts": [
+            {
+              "foot": "Low_ceramic_foot",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10097949145919802,
+              "gapMetres": 5.078818726411694e-7
+            },
+            {
+              "foot": "Low_ceramic_foot001",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10137052685022355,
+              "gapMetres": -0.00039052750915288814
+            },
+            {
+              "foot": "Low_ceramic_foot002",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10155501782000514,
+              "gapMetres": -0.0005750184789344859
+            },
+            {
+              "foot": "Low_ceramic_foot003",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10125908552944689,
+              "gapMetres": -0.0002790861883762291
+            }
+          ],
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 8,
+            "triangles": 26240,
+            "houseYaw": -0.21,
+            "frontEdge": [
+              1.385598050545855,
+              0.3,
+              0.0019934711092693125
+            ],
+            "deckTop": 0.3,
+            "roomOpening": {
+              "front": [
+                2.2884598998460994,
+                1.5,
+                -0.8280309147241482
+              ],
+              "rear": [
+                2.7887636594767384,
+                1.5,
+                -3.175305110062104
+              ],
+              "yMin": 0.47,
+              "yMax": 2.53
+            },
+            "rearBoundaryZ": -5.15
+          },
+          "planting": {
+            "design": "Three individually authored main axes and unequal forks; attached shoots face outward/upward; fixed tree/shrub origins",
+            "specimens": [
+              {
+                "name": "Near left garden tree",
+                "origin": [
+                  -2.72,
+                  -0.007,
+                  -3.55
+                ],
+                "height": 2.43,
+                "mainArms": 5
+              },
+              {
+                "name": "Receding left tree",
+                "origin": [
+                  -4.85,
+                  -0.02,
+                  -5.7
+                ],
+                "height": 3,
+                "mainArms": 4
+              },
+              {
+                "name": "Distant grove tree",
+                "origin": [
+                  -5.7,
+                  -0.02,
+                  -8.3
+                ],
+                "height": 3.4,
+                "mainArms": 5
+              }
+            ],
+            "branchTriangles": 30532,
+            "leafInstances": 5004,
+            "leafTriangles": 60048,
+            "mossTufts": 0,
+            "mossTuftTriangles": 0,
+            "mossDetail": "Continuous low relief with shared terrain height; micro-height material; no scattered tetrahedra"
+          },
+          "largeGardenStones": [
+            {
+              "center": [
+                -1.87,
+                0.065,
+                -1.54
+              ],
+              "scale": [
+                0.57,
+                0.5,
+                0.42
+              ],
+              "seed": 3
+            },
+            {
+              "center": [
+                -2.8,
+                0.055,
+                -2.7
+              ],
+              "scale": [
+                0.42,
+                0.4,
+                0.37
+              ],
+              "seed": 14
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow"
+        },
+        "layout": "night-b",
+        "framing": {
+          "left": 0.16898449577243646,
+          "right": 0.7710482044552744,
+          "top": 0.09999999999999981,
+          "bottom": 0.9
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 3.1155957641752177,
+          "zoom": 1,
+          "position": [
+            0.055556653840810793,
+            1.2215507457191122,
+            3.0791909558671455
+          ],
+          "target": [
+            0.055556653840810793,
+            0.6805332189232783,
+            0.010928092055396528
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 224,
+        "triangles": 2432014,
+        "navigationToFirstFrameMs": 505.1999999284744
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 62 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 60,
+        "medianMs": 10.781124,
+        "p95Ms": 13.727041,
+        "milliseconds": [
+          11.742374,
+          10.108041,
+          11.521749,
+          10.453166,
+          9.3425,
+          9.327041,
+          8.375708,
+          8.807416,
+          9.955958,
+          13.727041,
+          10.966749,
+          9.684875,
+          12.460625,
+          10.904416,
+          10.896666,
+          11.150791,
+          9.536874,
+          12.370124,
+          11.221249,
+          9.670375,
+          10.781124,
+          11.03675,
+          10.646583,
+          9.11075,
+          10.539375,
+          13.785874,
+          12.670083,
+          10.608958,
+          9.148875,
+          12.345125,
+          10.969249,
+          9.56325,
+          12.370166,
+          11.141833,
+          9.587416,
+          10.785458,
+          12.138166,
+          11.8185,
+          10.3325,
+          10.378125,
+          13.704291,
+          12.16575,
+          10.308333,
+          10.670666,
+          11.436375,
+          10.220083,
+          10.457916,
+          13.379791,
+          12.113875,
+          12.167583,
+          10.313999,
+          10.521208,
+          11.394041,
+          10.199166,
+          13.938583,
+          12.251999,
+          10.251124,
+          10.571958,
+          9.413999,
+          13.758999,
+          12.366249,
+          10.515291
+        ],
+        "steadyTriangles": 1174594,
+        "drawCalls": 109,
+        "pixelRatio": 1
+      }
+    },
+    {
+      "name": "wide",
+      "url": "http://127.0.0.1:5200/?qa=wide",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 390.5,
+        "framesMs": [
+          222
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "phase": "Night B material and background finish v2; hero and camera composition unchanged",
+          "materialMaps": [
+            {
+              "url": "http://127.0.0.1:5200/garden/mineral.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5200/garden/moss.webp",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "roomLight": {
+            "position": [
+              3.7224988108674495,
+              2.46,
+              -1.3198971584090544
+            ],
+            "target": [
+              4.432860924960856,
+              1.5,
+              -4.460818307826967
+            ],
+            "shadowMap": 512,
+            "porchFillPosition": [
+              1.5034313847025642,
+              2.44,
+              0.45654303426109255
+            ],
+            "porchFill": "Concealed under front eave, outside the return wall; no emissive visible object"
+          },
+          "contacts": [
+            {
+              "foot": "Low_ceramic_foot",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10097949145919802,
+              "gapMetres": 5.078818726411694e-7
+            },
+            {
+              "foot": "Low_ceramic_foot001",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10137052685022355,
+              "gapMetres": -0.00039052750915288814
+            },
+            {
+              "foot": "Low_ceramic_foot002",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10155501782000514,
+              "gapMetres": -0.0005750184789344859
+            },
+            {
+              "foot": "Low_ceramic_foot003",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10125908552944689,
+              "gapMetres": -0.0002790861883762291
+            }
+          ],
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 8,
+            "triangles": 26240,
+            "houseYaw": -0.21,
+            "frontEdge": [
+              1.385598050545855,
+              0.3,
+              0.0019934711092693125
+            ],
+            "deckTop": 0.3,
+            "roomOpening": {
+              "front": [
+                2.2884598998460994,
+                1.5,
+                -0.8280309147241482
+              ],
+              "rear": [
+                2.7887636594767384,
+                1.5,
+                -3.175305110062104
+              ],
+              "yMin": 0.47,
+              "yMax": 2.53
+            },
+            "rearBoundaryZ": -5.15
+          },
+          "planting": {
+            "design": "Three individually authored main axes and unequal forks; attached shoots face outward/upward; fixed tree/shrub origins",
+            "specimens": [
+              {
+                "name": "Near left garden tree",
+                "origin": [
+                  -2.72,
+                  -0.007,
+                  -3.55
+                ],
+                "height": 2.43,
+                "mainArms": 5
+              },
+              {
+                "name": "Receding left tree",
+                "origin": [
+                  -4.85,
+                  -0.02,
+                  -5.7
+                ],
+                "height": 3,
+                "mainArms": 4
+              },
+              {
+                "name": "Distant grove tree",
+                "origin": [
+                  -5.7,
+                  -0.02,
+                  -8.3
+                ],
+                "height": 3.4,
+                "mainArms": 5
+              }
+            ],
+            "branchTriangles": 30532,
+            "leafInstances": 5004,
+            "leafTriangles": 60048,
+            "mossTufts": 0,
+            "mossTuftTriangles": 0,
+            "mossDetail": "Continuous low relief with shared terrain height; micro-height material; no scattered tetrahedra"
+          },
+          "largeGardenStones": [
+            {
+              "center": [
+                -1.87,
+                0.065,
+                -1.54
+              ],
+              "scale": [
+                0.57,
+                0.5,
+                0.42
+              ],
+              "seed": 3
+            },
+            {
+              "center": [
+                -2.8,
+                0.055,
+                -2.7
+              ],
+              "scale": [
+                0.42,
+                0.4,
+                0.37
+              ],
+              "seed": 14
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow"
+        },
+        "layout": "night-b",
+        "framing": {
+          "left": 0.2764142473348089,
+          "right": 0.6828060327922774,
+          "top": 0.09999999999999981,
+          "bottom": 0.9
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 3.1155957641752177,
+          "zoom": 1,
+          "position": [
+            0.0562764624322343,
+            1.2215507457191122,
+            3.0791909558671455
+          ],
+          "target": [
+            0.0562764624322343,
+            0.6805332189232783,
+            0.010928092055396528
+          ]
+        },
+        "viewport": [
+          1920,
+          810
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 224,
+        "triangles": 2432014,
+        "navigationToFirstFrameMs": 408.7000000476837
+      },
+      "text": "",
+      "viewport": [
+        1920,
+        810
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 62 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 60,
+        "medianMs": 10.592416,
+        "p95Ms": 13.322291,
+        "milliseconds": [
+          12.622958,
+          7.062958,
+          7.209583,
+          7.984541,
+          10.223375,
+          10.094624,
+          9.578083,
+          13.621333,
+          11.873083,
+          10.425291,
+          9.796249,
+          13.3225,
+          11.615625,
+          9.787708,
+          12.983624,
+          11.408041,
+          9.495374,
+          10.040791,
+          13.322291,
+          11.777249,
+          10.273083,
+          10.817874,
+          9.564999,
+          12.629,
+          11.172375,
+          14.112833,
+          12.292874,
+          10.592416,
+          11.535375,
+          9.825374,
+          11.268124,
+          9.744375,
+          12.972624,
+          11.404874,
+          9.895625,
+          11.526625,
+          9.894541,
+          11.312374,
+          9.537499,
+          10.841499,
+          9.760541,
+          13.060083,
+          11.44025,
+          9.8005,
+          12.089499,
+          10.73175,
+          9.509208,
+          10.844958,
+          9.735166,
+          12.1715,
+          11.453333,
+          10.551416,
+          9.604624,
+          7.97475,
+          6.578833,
+          8.213083,
+          8.07725,
+          10.7535,
+          11.429875,
+          12.383249,
+          6.540458,
+          6.578916
+        ],
+        "steadyTriangles": 1174594,
+        "drawCalls": 109,
+        "pixelRatio": 1
+      }
+    },
+    {
+      "name": "leaf-detail",
+      "url": "http://127.0.0.1:5200/?detail=leaf&qa=leaf-detail",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 383.1999999284744,
+        "framesMs": [
+          222.10000002384186
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "phase": "Night B material and background finish v2; hero and camera composition unchanged",
+          "materialMaps": [
+            {
+              "url": "http://127.0.0.1:5200/garden/mineral.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5200/garden/moss.webp",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "roomLight": {
+            "position": [
+              3.7224988108674495,
+              2.46,
+              -1.3198971584090544
+            ],
+            "target": [
+              4.432860924960856,
+              1.5,
+              -4.460818307826967
+            ],
+            "shadowMap": 512,
+            "porchFillPosition": [
+              1.5034313847025642,
+              2.44,
+              0.45654303426109255
+            ],
+            "porchFill": "Concealed under front eave, outside the return wall; no emissive visible object"
+          },
+          "contacts": [
+            {
+              "foot": "Low_ceramic_foot",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10097949145919802,
+              "gapMetres": 5.078818726411694e-7
+            },
+            {
+              "foot": "Low_ceramic_foot001",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10137052685022355,
+              "gapMetres": -0.00039052750915288814
+            },
+            {
+              "foot": "Low_ceramic_foot002",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10155501782000514,
+              "gapMetres": -0.0005750184789344859
+            },
+            {
+              "foot": "Low_ceramic_foot003",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10125908552944689,
+              "gapMetres": -0.0002790861883762291
+            }
+          ],
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 8,
+            "triangles": 26240,
+            "houseYaw": -0.21,
+            "frontEdge": [
+              1.385598050545855,
+              0.3,
+              0.0019934711092693125
+            ],
+            "deckTop": 0.3,
+            "roomOpening": {
+              "front": [
+                2.2884598998460994,
+                1.5,
+                -0.8280309147241482
+              ],
+              "rear": [
+                2.7887636594767384,
+                1.5,
+                -3.175305110062104
+              ],
+              "yMin": 0.47,
+              "yMax": 2.53
+            },
+            "rearBoundaryZ": -5.15
+          },
+          "planting": {
+            "design": "Three individually authored main axes and unequal forks; attached shoots face outward/upward; fixed tree/shrub origins",
+            "specimens": [
+              {
+                "name": "Near left garden tree",
+                "origin": [
+                  -2.72,
+                  -0.007,
+                  -3.55
+                ],
+                "height": 2.43,
+                "mainArms": 5
+              },
+              {
+                "name": "Receding left tree",
+                "origin": [
+                  -4.85,
+                  -0.02,
+                  -5.7
+                ],
+                "height": 3,
+                "mainArms": 4
+              },
+              {
+                "name": "Distant grove tree",
+                "origin": [
+                  -5.7,
+                  -0.02,
+                  -8.3
+                ],
+                "height": 3.4,
+                "mainArms": 5
+              }
+            ],
+            "branchTriangles": 30532,
+            "leafInstances": 5004,
+            "leafTriangles": 60048,
+            "mossTufts": 0,
+            "mossTuftTriangles": 0,
+            "mossDetail": "Continuous low relief with shared terrain height; micro-height material; no scattered tetrahedra"
+          },
+          "largeGardenStones": [
+            {
+              "center": [
+                -1.87,
+                0.065,
+                -1.54
+              ],
+              "scale": [
+                0.57,
+                0.5,
+                0.42
+              ],
+              "seed": 3
+            },
+            {
+              "center": [
+                -2.8,
+                0.055,
+                -2.7
+              ],
+              "scale": [
+                0.42,
+                0.4,
+                0.37
+              ],
+              "seed": 14
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow"
+        },
+        "layout": "night-b",
+        "framing": {
+          "left": -0.12476150859746005,
+          "right": 2.215706201876373,
+          "top": -0.6291446110145205,
+          "bottom": 2.564053535012254
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 0.9239999999999999,
+          "zoom": 1,
+          "position": [
+            -0.4752,
+            1.0316509161642438,
+            0.9363623637832801
+          ],
+          "target": [
+            -0.4752,
+            0.8712000000000001,
+            0.026400000000000003
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "mixed",
+          "changed": true,
+          "highGroups": 24,
+          "visibleGroups": 49,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 2014640,
+          "allocatedLeafTriangles": 2212420,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 197,
+        "triangles": 4922322,
+        "navigationToFirstFrameMs": 426.89999997615814
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 62 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 60,
+        "medianMs": 11.159999,
+        "p95Ms": 14.814208,
+        "milliseconds": [
+          27.1575,
+          10.239124,
+          9.244624,
+          9.933583,
+          10.198041,
+          9.829583,
+          9.510416,
+          10.604124,
+          13.796749,
+          12.797666,
+          11.247041,
+          10.668499,
+          9.790624,
+          9.297625,
+          9.742666,
+          10.332583,
+          11.370124,
+          10.575874,
+          10.080624,
+          9.263874,
+          10.183958,
+          10.398166,
+          11.052125,
+          11.437125,
+          12.556708,
+          12.190875,
+          11.046333,
+          11.499749,
+          11.362874,
+          11.988625,
+          13.291875,
+          14.814208,
+          12.918624,
+          11.4315,
+          12.862166,
+          14.998833,
+          13.07275,
+          17.052583,
+          11.732499,
+          13.190374,
+          12.664375,
+          15.043874,
+          12.326166,
+          10.711833,
+          11.291416,
+          11.503124,
+          10.422958,
+          11.007874,
+          11.4165,
+          11.796791,
+          12.945499,
+          11.366625,
+          11.483625,
+          10.587249,
+          11.159999,
+          9.800791,
+          9.288458,
+          10.230874,
+          10.042124,
+          9.233875,
+          9.815708,
+          9.824791
+        ],
+        "steadyTriangles": 2320482,
+        "drawCalls": 82,
+        "pixelRatio": 1
+      }
+    }
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+{
+  "candidate": "space-v1",
+  "files": {
+    "garden-geometry.js": "7665976fde054dfc488c486d63abe8643004a5fa8373a70d9e23da11b213fe95",
+    "garden-materials.js": "08ceb4dc98eac3244e87e2667bad1741c254d6cf8d02ee489497d91a5bd63586",
+    "scene.js": "bc09c405a7af036d804ed2b037bd83476f33da931b528257b12d62efd6256948",
+    "terrain-design.json": "17e346313b4b57282c050ae4dc5fff34dd4362ceee6740a1c2169fc475377db1",
+    "terrain-field.png": "0b14e2c553d08407148fcb4d9b2893e40b85858592b0600f7ff2292eb13a2fe3",
+    "terrain-field.webp": "205796ac7c35b65e3d4dd1898db31ba83d4c2200a2fb44ea3bb7a5999808385d",
+    "terrain-manifest.json": "d128d29f0c19c9226323d77766443186a996e0e4a0a3a9e030b89e5b13af8b86"
+  },
+  "hero": "edge-v02",
+  "cameras": "unchanged",
+  "sky_and_hero_key": "unchanged",
+  "scope": "Joined architecture and room depth, integrated stone shoulders"
+}
