@@ -1,0 +1,620 @@
+{
+  "results": [
+    {
+      "name": "pc",
+      "url": "http://127.0.0.1:5190/?qa=pc",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 412.69999998807907,
+        "framesMs": [
+          124.69999998807907
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 466597,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v23",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0011444027768447995,
+            -1.3887577056884766,
+            1.1576745510101318,
+            1.0684823989868164
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.17789137049675996,
+          "right": 0.8139092160799626,
+          "top": 0.07,
+          "bottom": 0.9300000000000002
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 3.1940983702357406,
+          "zoom": 1,
+          "position": [
+            -0.052198538270751604,
+            1.4431331439720747,
+            3.0452745388446845
+          ],
+          "target": [
+            -0.052198538270751604,
+            0.7246173479095241,
+            -0.06695929709232847
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 1245270,
+          "allocatedLeafTriangles": 1245270,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 325,
+        "triangles": 3279470
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "medianMs": 13.546375,
+        "p95Ms": 15.616499,
+        "milliseconds": [
+          18.996791,
+          9.038041,
+          13.604208,
+          15.616499,
+          13.546375,
+          13.931124,
+          12.337958,
+          12.294916,
+          16.715166,
+          11.099541,
+          13.000875,
+          15.030208,
+          11.817249,
+          12.291875,
+          15.001208
+        ],
+        "steadyTriangles": 1638332,
+        "drawCalls": 150,
+        "pixelRatio": 1
+      }
+    },
+    {
+      "name": "pc-retina",
+      "url": "http://127.0.0.1:5190/?qa=pc-retina",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 285.7000000476837,
+        "framesMs": [
+          118.80000001192093
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 466597,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v23",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0011444027768447995,
+            -1.3887577056884766,
+            1.1576745510101318,
+            1.0684823989868164
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.17789137049675996,
+          "right": 0.8139092160799626,
+          "top": 0.07,
+          "bottom": 0.9300000000000002
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 3.1940983702357406,
+          "zoom": 1,
+          "position": [
+            -0.052198538270751604,
+            1.4431331439720747,
+            3.0452745388446845
+          ],
+          "target": [
+            -0.052198538270751604,
+            0.7246173479095241,
+            -0.06695929709232847
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 1245270,
+          "allocatedLeafTriangles": 1245270,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 325,
+        "triangles": 3279470
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "medianMs": 12.27,
+        "p95Ms": 19.724583,
+        "milliseconds": [
+          20.222208,
+          15.125375,
+          7.9355,
+          11.600499,
+          15.059083,
+          8.978625,
+          12.27,
+          20.360208,
+          15.454541,
+          19.724583,
+          15.413,
+          15.947166,
+          8.819666,
+          9.207791,
+          9.889791
+        ],
+        "steadyTriangles": 1638332,
+        "drawCalls": 150,
+        "pixelRatio": 1.6
+      }
+    },
+    {
+      "name": "mobile-390",
+      "url": "http://127.0.0.1:5190/?qa=mobile-390",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 270.7999999523163,
+        "framesMs": [
+          106.79999995231628
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 466597,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v23",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0011444027768447995,
+            -1.3887577056884766,
+            1.1576745510101318,
+            1.0684823989868164
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.034999999999999254,
+          "right": 0.9649999999999996,
+          "top": 0.20167088801265093,
+          "bottom": 0.7565897390408547
+        },
+        "camera": {
+          "yaw": -61,
+          "pitch": 11,
+          "distance": 4.876546475288677,
+          "zoom": 1,
+          "position": [
+            -4.303923542908072,
+            1.5567272662873979,
+            2.2751515291968945
+          ],
+          "target": [
+            -0.11716222723517788,
+            0.626238332430535,
+            -0.04560816435289512
+          ]
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 1245270,
+          "allocatedLeafTriangles": 1245270,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 322,
+        "triangles": 3279146
+      },
+      "text": "",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "medianMs": 11.409375,
+        "p95Ms": 12.717375,
+        "milliseconds": [
+          16.235999,
+          15.492749,
+          8.119249,
+          14.57625,
+          11.409375,
+          11.432041,
+          12.542249,
+          12.187333,
+          9.12775,
+          9.138958,
+          10.524625,
+          12.370375,
+          12.717375,
+          9.532875,
+          7.083625
+        ],
+        "steadyTriangles": 1638008,
+        "drawCalls": 147,
+        "pixelRatio": 1.6
+      }
+    },
+    {
+      "name": "leaf-detail",
+      "url": "http://127.0.0.1:5190/?study=material&detail=leaf&qa=leaf-detail",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 271.0999999642372,
+        "framesMs": [
+          116.69999998807907
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 466597,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v23",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0011444027768447995,
+            -1.3887577056884766,
+            1.1576745510101318,
+            1.0684823989868164
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": -0.24767026677207382,
+          "right": 2.8227254005690057,
+          "top": -0.9741049859305537,
+          "bottom": 2.4448844963866967
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 0.9239999999999999,
+          "zoom": 1,
+          "position": [
+            -0.4752,
+            1.0790547742137313,
+            0.9267179398615573
+          ],
+          "target": [
+            -0.4752,
+            0.8712000000000001,
+            0.026400000000000003
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "mixed",
+          "changed": true,
+          "highGroups": 12,
+          "visibleGroups": 60,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 2095324,
+          "allocatedLeafTriangles": 2233894,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 171,
+        "triangles": 5102492
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "medianMs": 17.487625,
+        "p95Ms": 18.614291,
+        "milliseconds": [
+          28.841166,
+          13.36825,
+          24.339416,
+          18.598249,
+          15.058708,
+          15.611624,
+          18.073166,
+          14.357666,
+          15.373124,
+          18.232374,
+          17.487625,
+          14.112083,
+          18.614291,
+          16.449749,
+          17.58
+        ],
+        "steadyTriangles": 2481586,
+        "drawCalls": 78,
+        "pixelRatio": 1
+      }
+    },
+    {
+      "name": "wood-detail",
+      "url": "http://127.0.0.1:5190/?study=material&detail=wood&qa=wood-detail",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 258.4000000357628,
+        "framesMs": [
+          102.20000004768372
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 466597,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v23",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0011444027768447995,
+            -1.3887577056884766,
+            1.1576745510101318,
+            1.0684823989868164
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": -0.3871863835976669,
+          "right": 1.3999508370188094,
+          "top": -0.7003960281431543,
+          "bottom": 1.5359448263685278
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 1.353,
+          "zoom": 1,
+          "position": [
+            -0.0198,
+            0.9841587765272495,
+            1.3315226976544234
+          ],
+          "target": [
+            -0.0198,
+            0.6798000000000001,
+            0.013200000000000002
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "mixed",
+          "changed": true,
+          "highGroups": 24,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 2551666,
+          "allocatedLeafTriangles": 2551666,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 185,
+        "triangles": 5876982
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "medianMs": 17.411375,
+        "p95Ms": 20.391875,
+        "milliseconds": [
+          14.192249,
+          7.491583,
+          19.887375,
+          17.411375,
+          16.147999,
+          15.424708,
+          19.468916,
+          14.602708,
+          17.655916,
+          17.3505,
+          14.739124,
+          21.031249,
+          14.093875,
+          20.391875,
+          17.41775
+        ],
+        "steadyTriangles": 2938304,
+        "drawCalls": 92,
+        "pixelRatio": 1
+      }
+    }
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+{
+  "independent_reviewer": "/root/anatomy_review",
+  "pixels_viewed": 8,
+  "material_gate": "improved; natural brown wood, v01 cracked-clay impression resolved",
+  "major_surface_gate": "not passed; local dark root depression remains in front and 55-degree clay views; wide weathered face is not articulated",
+  "candidate_three_direction": "Fill the inherited depression at relative height .15-.40, set one four-sided inclined broad plane from .25-.85 of root-to-first-branch height. Keep rear/root silhouette and a thick adjacent mass. Stop coefficient iteration if it fails; change local control-edge layout/sculpting method.",
+  "remaining_material_limits": [
+    "Similar knot repetition",
+    "Some elongated grain near branch crotches",
+    "Dark oblique side limits material assessment"
+  ],
+  "composition": "No material regression in PC390320 fit"
+}

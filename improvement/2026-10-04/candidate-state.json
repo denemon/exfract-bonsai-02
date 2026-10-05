@@ -1,0 +1,11 @@
+{
+  "updated_at_jst": "2026-10-04T19:48:41.781894+09:00",
+  "candidate": "volume-rebuild-1656-v23",
+  "source": "runs/volume-rebuild-1656/site",
+  "report": "runs/volume-rebuild-1656/REPORT.md",
+  "preview": "http://127.0.0.1:5190/",
+  "decision": "Stage two saved and verified; aesthetic gate not passed; not promoted",
+  "protected_root_best": "0900-jst-candidate-04",
+  "formal_root_replaced": false,
+  "previous_candidate": "sculpt-gate-1329-v27"
+}

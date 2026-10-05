@@ -1,0 +1,23 @@
+{
+  "root_source_files": 17,
+  "root_production_files": 10,
+  "initial_archive_entries": 53,
+  "stage_two_archives_and_files": [
+    {
+      "archive": "stage-two-source.zip",
+      "live_files": 83
+    },
+    {
+      "archive": "production-build.zip",
+      "live_files": 30
+    },
+    {
+      "archive": "evidence.zip",
+      "live_files": 59
+    }
+  ],
+  "stage_three_delivery_files": 55,
+  "stage_three_qa_profile": "Reused by authorization; excluded from its delivery manifest; all other previous delivery files unchanged",
+  "git_head": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "tracked_status": ""
+}

@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:5208/",
+  "pid": 66758,
+  "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5208 --strictPort",
+  "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ensemble-0915/site",
+  "html_bytes": 20130,
+  "served_gzip_parts_hash_match": true,
+  "own5206_and5207_stopped": true,
+  "other_user_processes_stopped": 0
+}

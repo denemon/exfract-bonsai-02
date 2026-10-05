@@ -1,0 +1,10 @@
+{
+  "phase": "before first visual candidate",
+  "cause": "Even without the child,27 pairs are within the rear elbow itself, beyond the torso maximumdepth: the broad port and first turn cause local foldback.",
+  "repair": [
+    "Narrow rear primary aperture to .38, child to .40",
+    "Add a supporting short route section before the rear elbow turns upward",
+    "Use smaller branch cross sections with more posterior clearance"
+  ],
+  "appearance_candidates": 0
+}

@@ -1,0 +1,361 @@
+{
+  "frozen_native_sha256": "797e86664f36278c96dcf228aff734c9d7af212ef144af34a6336da31742e1e6",
+  "frozen_glb_sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+  "unchanged_sources": {
+    "main.js": "5822541c81a5fd10e2db2b02f97aca1fb86b3f0669a4641b7b63e70c8f56ccea",
+    "materials.js": "860457362496c68eebe1a107769796becc9c67ea9e93e9dcd25f7edb62737fcb",
+    "foliage-lod.js": "0576521feca39601a0823d03ccfc86b77876273648cdc070d5d8d497c6989bf7",
+    "shadow-filter.js": "909f2ed4586f40f126c4d42ed62306b547c23f9e5f0c4453845efae70cfe723e",
+    "style.css": "532f95b7d86a5ca4221989666e91288ffb10882e3d265bf33fff6da0bf5958b8"
+  },
+  "scene_blocks": {
+    "sky": {
+      "byte_identical": true,
+      "sha256": "45b936a557094b6ab5b6e80c9b52bb852a812763c231e970e6600380aaa781d2"
+    },
+    "architecture": {
+      "byte_identical": true,
+      "sha256": "8db27106bda8aaa2ffd5bf4f0246fd1ff65665432a4780e61f186769c7386aab"
+    },
+    "night-lights": {
+      "byte_identical": true,
+      "sha256": "ab0409aed50f07f3227d87a9ac4612e3a2c2a75492a9871374617e9d153b7d17"
+    }
+  },
+  "framing": [
+    {
+      "name": "pc",
+      "viewport": [
+        1440,
+        900
+      ],
+      "camera": {
+        "yaw": 0,
+        "pitch": 10,
+        "distance": 3.1155957641752177,
+        "zoom": 1,
+        "position": [
+          0.055556653840810793,
+          1.2215507457191122,
+          3.0791909558671455
+        ],
+        "target": [
+          0.055556653840810793,
+          0.6805332189232783,
+          0.010928092055396528
+        ]
+      },
+      "camera_identical_to_stage9": true,
+      "actual_visible_vertex_projection": {
+        "bounds": {
+          "left": 0.1758839028083714,
+          "right": 0.7658468012370931,
+          "top": 0.1075012784522621,
+          "bottom": 0.9024389341149488
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "cameraAspect": 1.6
+      },
+      "subject_height_fraction": 0.7949376556626867
+    },
+    {
+      "name": "mobile-390",
+      "viewport": [
+        390,
+        844
+      ],
+      "camera": {
+        "yaw": -27,
+        "pitch": 9,
+        "distance": 5.8039889836772804,
+        "zoom": 1,
+        "position": [
+          -2.6632328971515777,
+          1.4838296994183882,
+          5.131972210861256
+        ],
+        "target": [
+          -0.06071771705420628,
+          0.5758857876574395,
+          0.024248577665524292
+        ]
+      },
+      "camera_identical_to_stage9": true,
+      "actual_visible_vertex_projection": {
+        "bounds": {
+          "left": 0.04342278330426086,
+          "right": 0.9654413366350079,
+          "top": 0.27282808720413304,
+          "bottom": 0.6867871044059527
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [
+          {
+            "name": "Canopy_spatial_group_0411",
+            "bounds": {
+              "left": 0.6499485561915539,
+              "right": 0.9654413366350079,
+              "top": 0.3312338827268074,
+              "bottom": 0.3809471158595426
+            }
+          }
+        ],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "cameraAspect": 0.46208530805687204
+      },
+      "subject_height_fraction": 0.41395901720181966
+    },
+    {
+      "name": "mobile-320",
+      "viewport": [
+        320,
+        568
+      ],
+      "camera": {
+        "yaw": -23,
+        "pitch": 9,
+        "distance": 4.93614098289181,
+        "zoom": 1,
+        "position": [
+          -1.9730501620094099,
+          1.3628772475944557,
+          4.5065928146566145
+        ],
+        "target": [
+          -0.06809177134251451,
+          0.590694673572616,
+          0.018792083208200208
+        ]
+      },
+      "camera_identical_to_stage9": true,
+      "actual_visible_vertex_projection": {
+        "bounds": {
+          "left": 0.04324525975146237,
+          "right": 0.9657674946961086,
+          "top": 0.23759526919619023,
+          "bottom": 0.7252176493498264
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [
+          {
+            "name": "Canopy_spatial_group_0411",
+            "bounds": {
+              "left": 0.6557591282973071,
+              "right": 0.9657674946961086,
+              "top": 0.3069655959380625,
+              "bottom": 0.36559435788295885
+            }
+          }
+        ],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "cameraAspect": 0.5633802816901409
+      },
+      "subject_height_fraction": 0.4876223801536361
+    },
+    {
+      "name": "wide",
+      "viewport": [
+        1920,
+        810
+      ],
+      "camera": {
+        "yaw": 0,
+        "pitch": 10,
+        "distance": 3.1155957641752177,
+        "zoom": 1,
+        "position": [
+          0.0562764624322343,
+          1.2215507457191122,
+          3.0791909558671455
+        ],
+        "target": [
+          0.0562764624322343,
+          0.6805332189232783,
+          0.010928092055396528
+        ]
+      },
+      "camera_identical_to_stage9": true,
+      "actual_visible_vertex_projection": {
+        "bounds": {
+          "left": 0.28107151430474786,
+          "right": 0.6792937199784105,
+          "top": 0.1075012784522621,
+          "bottom": 0.9024389341149488
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 810,
+          "top": 0,
+          "right": 1920,
+          "bottom": 810,
+          "left": 0
+        },
+        "cameraAspect": 2.3703703703703702
+      },
+      "subject_height_fraction": 0.7949376556626867
+    },
+    {
+      "name": "mobile-tall",
+      "viewport": [
+        320,
+        932
+      ],
+      "camera": {
+        "yaw": -42,
+        "pitch": 9,
+        "distance": 6.6046744388903,
+        "zoom": 1,
+        "position": [
+          -4.422088190669064,
+          1.5827076652032162,
+          4.8817148307069775
+        ],
+        "target": [
+          -0.05710840071540832,
+          0.549508952590525,
+          0.033913649007946384
+        ]
+      },
+      "camera_identical_to_stage9": true,
+      "actual_visible_vertex_projection": {
+        "bounds": {
+          "left": 0.035946921274307764,
+          "right": 0.9639074137898378,
+          "top": 0.2941221784785431,
+          "bottom": 0.660964800960871
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 932,
+          "top": 0,
+          "right": 320,
+          "bottom": 932,
+          "left": 0
+        },
+        "cameraAspect": 0.34334763948497854
+      },
+      "subject_height_fraction": 0.36684262248232785
+    },
+    {
+      "name": "mobile-landscape",
+      "viewport": [
+        844,
+        390
+      ],
+      "camera": {
+        "yaw": 0,
+        "pitch": 10,
+        "distance": 3.1155957641752177,
+        "zoom": 1,
+        "position": [
+          0.0561376728476021,
+          1.2215507457191122,
+          3.0791909558671455
+        ],
+        "target": [
+          0.0561376728476021,
+          0.6805332189232783,
+          0.010928092055396528
+        ]
+      },
+      "camera_identical_to_stage9": true,
+      "actual_visible_vertex_projection": {
+        "bounds": {
+          "left": 0.2602364170947589,
+          "right": 0.6964150853452383,
+          "top": 0.1075012784522621,
+          "bottom": 0.9024389341149488
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390,
+          "top": 0,
+          "right": 844,
+          "bottom": 390,
+          "left": 0
+        },
+        "cameraAspect": 2.164102564102564
+      },
+      "subject_height_fraction": 0.7949376556626867
+    }
+  ],
+  "normal_screenshot_matching": [
+    {
+      "selected": "qa/selected-stills/pc.png",
+      "production": "qa/verification/pc.png",
+      "sha256": "e37a1b5578954355d418561d4a4eecabdab75cb505d72305a9d29b682d08f756",
+      "identical": true
+    },
+    {
+      "selected": "qa/selected-stills/mobile-390.png",
+      "production": "qa/verification/mobile-390.png",
+      "sha256": "28801a539c968919e51ddd08c89e9914013f102cd99772a578363d232039976b",
+      "identical": true
+    },
+    {
+      "selected": "qa/selected-stills/mobile-320.png",
+      "production": "qa/verification/mobile-320.png",
+      "sha256": "3660b4af2429e923ccb863acf85772c6e7d8a5541b45624bcda4e83a60eb2243",
+      "identical": true
+    },
+    {
+      "selected": "qa/selected-stills/wide.png",
+      "production": "qa/verification/wide.png",
+      "sha256": "0ba04b55109b90e164dbbf5721ce81c598c4ead434a77f81f94cb05db829857e",
+      "identical": true
+    },
+    {
+      "selected": "qa/selected-stills/mobile-tall.png",
+      "production": "qa/verification/mobile-tall-320.png",
+      "sha256": "6f88e113f0d7e2defd02104aea44f74e9b41aaf97fbb7ce0e95552a8d7201bd9",
+      "identical": true
+    },
+    {
+      "selected": "qa/selected-stills/mobile-landscape.png",
+      "production": "qa/verification/mobile-landscape.png",
+      "sha256": "c4ebdc8f618689865263312322b87f0fd5c0fa19c1c47464e50a645003138122",
+      "identical": true
+    }
+  ]
+}

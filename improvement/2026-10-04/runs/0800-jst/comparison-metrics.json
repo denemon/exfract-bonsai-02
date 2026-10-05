@@ -1,0 +1,67 @@
+{
+  "recorded_at_jst": "2026-10-04T08:36:04+09:00",
+  "metrics": [
+    {
+      "name": "desktop",
+      "viewport": [
+        1440,
+        900
+      ],
+      "before_subject_height_fraction": 0.6513474473899066,
+      "after_subject_height_fraction": 0.6697008354162717,
+      "after_framing": {
+        "left": 0.23472124022599883,
+        "right": 0.7023742180901406,
+        "top": 0.17319060060726277,
+        "bottom": 0.8428914360235344
+      },
+      "dpr2_measured_fps": 30.64205800586811,
+      "sample_duration_ms": 1403.300000011921,
+      "first_frame_ms_dpr1": 706.5999999642372,
+      "first_frame_ms_dpr2": 714.8000000119209
+    },
+    {
+      "name": "mobile-390",
+      "viewport": [
+        390,
+        844
+      ],
+      "before_subject_height_fraction": 0.4318422578262131,
+      "after_subject_height_fraction": 0.4792370425368493,
+      "after_framing": {
+        "left": 0.06874876443910688,
+        "right": 0.9196197015673631,
+        "top": 0.2621041196125782,
+        "bottom": 0.7413411621494275
+      },
+      "dpr2_measured_fps": 29.93585174625802,
+      "sample_duration_ms": 1403,
+      "first_frame_ms_dpr1": 640.5,
+      "first_frame_ms_dpr2": 643.5999999642372
+    },
+    {
+      "name": "mobile-320",
+      "viewport": [
+        320,
+        932
+      ],
+      "before_subject_height_fraction": 0.3129125409607135,
+      "after_subject_height_fraction": 0.40769886685108303,
+      "after_framing": {
+        "left": 0.04415488763956177,
+        "right": 0.926487328806542,
+        "top": 0.29536020171640454,
+        "bottom": 0.7030590685674876
+      },
+      "dpr2_measured_fps": 29.910269191407043,
+      "sample_duration_ms": 1404.2000000476837,
+      "first_frame_ms_dpr1": 637.1000000238419,
+      "first_frame_ms_dpr2": 629
+    }
+  ],
+  "gpu": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "vendor": "Google Inc. (Apple)"
+  },
+  "note": "Framing and speed describe this Mac run; they are not an aesthetic score or physical-phone validation."
+}

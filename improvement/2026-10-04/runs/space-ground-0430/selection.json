@@ -1,0 +1,25 @@
+{
+  "selected": "space-v2",
+  "layout": "night-b",
+  "hero": "edge-v02",
+  "major_candidates": 2,
+  "prior_states_unchanged": true,
+  "root_best_promoted": false,
+  "premium_aesthetic_gate": "not passed",
+  "major_aged_form_gate": "not passed",
+  "scattered_small_stone_objects": 0,
+  "unchanged": [
+    "Hero native/GLB/material",
+    "main/cameras/controls",
+    "foliage LOD",
+    "background planting geometry",
+    "sky function"
+  ],
+  "changes": [
+    "Architecture joinery and room depth",
+    "Room light and moon occlusion",
+    "Two natural CC0 3D stones/PBR",
+    "One-sided moss/soil shared terrain field"
+  ],
+  "next": "次は選定夜景参考と通常PC390320を並べ、主役の大きな古木体積と太枝/根元の関係を全景の構造案として扱うことを親へ提案。現在の滑らかなS字を細かな溝/ノイズだけで補わない。主軸の複数の流れ、侵食された面、枝間の負形を全体の輪郭とともに設計し、最大2案で通常構図から採否を判断する。今回の建築/石/夜/茶褐色/無文字/小装飾石0を比較基準として保護。実装範囲は親が次工程で決定する。性能はPC/390のp95増加と低速25.282秒を保持し、素材取得/Draco共有などは具体的原因に沿って別途判断。"
+}

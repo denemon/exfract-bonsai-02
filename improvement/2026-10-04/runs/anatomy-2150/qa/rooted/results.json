@@ -1,0 +1,670 @@
+{
+  "results": [
+    {
+      "name": "front",
+      "url": "http://127.0.0.1:5191/?frame=lower&qa=front",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "clay",
+        "reduced": true,
+        "model": {
+          "meshes": 8,
+          "vertices": 15695,
+          "instances": 0,
+          "authoringVersion": "cage-v03"
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "camera": {
+          "yaw": 0,
+          "pitch": 12,
+          "distance": 2.443016552053736,
+          "position": [
+            0,
+            1.0679662980478337,
+            2.396850348431213
+          ],
+          "target": [
+            0,
+            0.560034596014569,
+            0.007219569486876493
+          ]
+        },
+        "framing": {
+          "left": 0.15044152642115954,
+          "right": 0.8495584735788404,
+          "top": 0.06000000000000011,
+          "bottom": 0.9400000000000002
+        },
+        "drawCalls": 17,
+        "triangles": 48510
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "left",
+      "url": "http://127.0.0.1:5191/?frame=lower&yaw=-30&qa=left",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "clay",
+        "reduced": true,
+        "model": {
+          "meshes": 8,
+          "vertices": 15695,
+          "instances": 0,
+          "authoringVersion": "cage-v03"
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "camera": {
+          "yaw": -30,
+          "pitch": 12,
+          "distance": 2.7634256439151397,
+          "position": [
+            -1.3876026200694498,
+            1.0679662980478337,
+            2.344753688629298
+          ],
+          "target": [
+            -0.036083538368516896,
+            0.49341779997228163,
+            0.003853971724449021
+          ]
+        },
+        "framing": {
+          "left": 0.21598659420974486,
+          "right": 0.7910292541062782,
+          "top": 0.060000000000000164,
+          "bottom": 0.9399999999999997
+        },
+        "drawCalls": 17,
+        "triangles": 48510
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "right",
+      "url": "http://127.0.0.1:5191/?frame=lower&yaw=30&qa=right",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "clay",
+        "reduced": true,
+        "model": {
+          "meshes": 8,
+          "vertices": 15695,
+          "instances": 0,
+          "authoringVersion": "cage-v03"
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "camera": {
+          "yaw": 30,
+          "pitch": 12,
+          "distance": 2.7634256439151397,
+          "position": [
+            1.3876026200694498,
+            1.0679662980478337,
+            2.344753688629298
+          ],
+          "target": [
+            0.036083538368516896,
+            0.49341779997228163,
+            0.003853971724449021
+          ]
+        },
+        "framing": {
+          "left": 0.20897074589372172,
+          "right": 0.7840134057902551,
+          "top": 0.060000000000000164,
+          "bottom": 0.9399999999999997
+        },
+        "drawCalls": 17,
+        "triangles": 48510
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "three-quarter",
+      "url": "http://127.0.0.1:5191/?frame=lower&yaw=55&qa=three-quarter",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "clay",
+        "reduced": true,
+        "model": {
+          "meshes": 8,
+          "vertices": 15695,
+          "instances": 0,
+          "authoringVersion": "cage-v03"
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "camera": {
+          "yaw": 55,
+          "pitch": 12,
+          "distance": 2.8944690785763676,
+          "position": [
+            2.4524643076365575,
+            1.0679662980478337,
+            1.4809664204606905
+          ],
+          "target": [
+            0.13326630771743078,
+            0.4661723379012993,
+            -0.14295350168356422
+          ]
+        },
+        "framing": {
+          "left": 0.2350007552733584,
+          "right": 0.705814881869954,
+          "top": 0.060000000000000275,
+          "bottom": 0.94
+        },
+        "drawCalls": 17,
+        "triangles": 48510
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "root-oblique",
+      "url": "http://127.0.0.1:5191/?frame=lower&yaw=-55&pitch=18&qa=root-oblique",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "clay",
+        "reduced": true,
+        "model": {
+          "meshes": 8,
+          "vertices": 15695,
+          "instances": 0,
+          "authoringVersion": "cage-v03"
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "camera": {
+          "yaw": -55,
+          "pitch": 18,
+          "distance": 2.8710094267514346,
+          "position": [
+            -2.3894404046433464,
+            1.3128053259930237,
+            1.4433803497670907
+          ],
+          "target": [
+            -0.15275211771971237,
+            0.42561462211615464,
+            -0.12276564936220033
+          ]
+        },
+        "framing": {
+          "left": 0.28504059875093407,
+          "right": 0.7720634801027073,
+          "top": 0.05999999999999989,
+          "bottom": 0.94
+        },
+        "drawCalls": 17,
+        "triangles": 48510
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": [
+    {
+      "method": "Log.entryAdded",
+      "params": {
+        "entry": {
+          "source": "network",
+          "level": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "timestamp": 1791119501256.959,
+          "url": "http://127.0.0.1:5191/favicon.ico",
+          "networkRequestId": "67000.13"
+        }
+      },
+      "sessionId": "E7B5BFBD70CC44B5DDAE8D9BA8A53F58"
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead."
+          }
+        ],
+        "executionContextId": 2,
+        "timestamp": 1791119501269.204,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "console.<computed>",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5191/@vite/client",
+              "lineNumber": 532,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "warn",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 1727,
+              "columnNumber": 15
+            },
+            {
+              "functionName": "WebGLShadowMap.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 46702,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "WebGLRenderer.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 51533,
+              "columnNumber": 13
+            },
+            {
+              "functionName": "render",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 13,
+              "columnNumber": 27
+            },
+            {
+              "functionName": "setView",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 12,
+              "columnNumber": 1339
+            },
+            {
+              "functionName": "resize",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 16,
+              "columnNumber": 210
+            },
+            {
+              "functionName": "",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 17,
+              "columnNumber": 203
+            }
+          ]
+        }
+      },
+      "sessionId": "E7B5BFBD70CC44B5DDAE8D9BA8A53F58"
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead."
+          }
+        ],
+        "executionContextId": 3,
+        "timestamp": 1791119501617.145,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "console.<computed>",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5191/@vite/client",
+              "lineNumber": 532,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "warn",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 1727,
+              "columnNumber": 15
+            },
+            {
+              "functionName": "WebGLShadowMap.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 46702,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "WebGLRenderer.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 51533,
+              "columnNumber": 13
+            },
+            {
+              "functionName": "render",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 13,
+              "columnNumber": 27
+            },
+            {
+              "functionName": "setView",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 12,
+              "columnNumber": 1339
+            },
+            {
+              "functionName": "resize",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 16,
+              "columnNumber": 210
+            },
+            {
+              "functionName": "",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 17,
+              "columnNumber": 203
+            }
+          ]
+        }
+      },
+      "sessionId": "E7B5BFBD70CC44B5DDAE8D9BA8A53F58"
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead."
+          }
+        ],
+        "executionContextId": 4,
+        "timestamp": 1791119502032.75,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "console.<computed>",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5191/@vite/client",
+              "lineNumber": 532,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "warn",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 1727,
+              "columnNumber": 15
+            },
+            {
+              "functionName": "WebGLShadowMap.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 46702,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "WebGLRenderer.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 51533,
+              "columnNumber": 13
+            },
+            {
+              "functionName": "render",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 13,
+              "columnNumber": 27
+            },
+            {
+              "functionName": "setView",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 12,
+              "columnNumber": 1339
+            },
+            {
+              "functionName": "resize",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 16,
+              "columnNumber": 210
+            },
+            {
+              "functionName": "",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 17,
+              "columnNumber": 203
+            }
+          ]
+        }
+      },
+      "sessionId": "E7B5BFBD70CC44B5DDAE8D9BA8A53F58"
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead."
+          }
+        ],
+        "executionContextId": 5,
+        "timestamp": 1791119502448.976,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "console.<computed>",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5191/@vite/client",
+              "lineNumber": 532,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "warn",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 1727,
+              "columnNumber": 15
+            },
+            {
+              "functionName": "WebGLShadowMap.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 46702,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "WebGLRenderer.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 51533,
+              "columnNumber": 13
+            },
+            {
+              "functionName": "render",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 13,
+              "columnNumber": 27
+            },
+            {
+              "functionName": "setView",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 12,
+              "columnNumber": 1339
+            },
+            {
+              "functionName": "resize",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 16,
+              "columnNumber": 210
+            },
+            {
+              "functionName": "",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 17,
+              "columnNumber": 203
+            }
+          ]
+        }
+      },
+      "sessionId": "E7B5BFBD70CC44B5DDAE8D9BA8A53F58"
+    },
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead."
+          }
+        ],
+        "executionContextId": 6,
+        "timestamp": 1791119502868.419,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "console.<computed>",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5191/@vite/client",
+              "lineNumber": 532,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "warn",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 1727,
+              "columnNumber": 15
+            },
+            {
+              "functionName": "WebGLShadowMap.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 46702,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "WebGLRenderer.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5191/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=35a4966c",
+              "lineNumber": 51533,
+              "columnNumber": 13
+            },
+            {
+              "functionName": "render",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 13,
+              "columnNumber": 27
+            },
+            {
+              "functionName": "setView",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 12,
+              "columnNumber": 1339
+            },
+            {
+              "functionName": "resize",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 16,
+              "columnNumber": 210
+            },
+            {
+              "functionName": "",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5191/src/main.js",
+              "lineNumber": 17,
+              "columnNumber": 203
+            }
+          ]
+        }
+      },
+      "sessionId": "E7B5BFBD70CC44B5DDAE8D9BA8A53F58"
+    }
+  ]
+}

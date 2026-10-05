@@ -1,0 +1,65 @@
+{
+  "existing_micro_materials": {
+    "mineral.png": {
+      "sha256": "1489edf46f372fdaf146bd94216e634cc608eade0c239465a6852fd4e71b190d",
+      "bytes": 494013,
+      "read_only_reference": "night-finish-0235/site/public/garden/mineral.png"
+    },
+    "moss.png": {
+      "sha256": "55ef1f7e940a1bb619704bdee3f1c416040ec0ddfa63bdc147dd2a5daffacc62",
+      "bytes": 313379,
+      "read_only_reference": "night-finish-0235/site/public/garden/moss.png"
+    },
+    "mineral.webp": {
+      "sha256": "f314ea37c11645be0ae3a5dc5681520648c148319800e497136cf14d2906a6e2",
+      "bytes": 194842,
+      "read_only_reference": "night-finish-0235/site/public/garden/mineral.webp"
+    },
+    "moss.webp": {
+      "sha256": "f94c0f7482d26385a21f533970059ee1bda66be436901285cf125fae79ad3af0",
+      "bytes": 133660,
+      "read_only_reference": "night-finish-0235/site/public/garden/moss.webp"
+    }
+  },
+  "terrain": {
+    "version": "space-v2",
+    "design_sha256": "fd5c57ce503cd6bd7df9769d5d958fe8221ed29ebe583bfa229c9fd080f24bac",
+    "domain": [
+      -6,
+      -7,
+      6,
+      7
+    ],
+    "baseY": -0.022,
+    "heightScale": 0.128,
+    "size": [
+      512,
+      512
+    ],
+    "channels": {
+      "R": "moss coverage",
+      "G": "exposed organic soil",
+      "B": "continuous terrain rise / heightScale",
+      "A": "255, avoids canvas premultiplication when reading geometry data"
+    },
+    "colorSpace": "linear data; no sRGB conversion",
+    "row_zero": "zmax; Three default flipY=true",
+    "pixel_centres": true,
+    "webp_lossless_pixels_verified": true,
+    "maximum_height_metres": 0.08475118588669875,
+    "files": {
+      "terrain-field.png": {
+        "bytes": 60342,
+        "sha256": "75e34aaa43d0f05303888abf73acd3619bb7eb5df1d3edd55f9894ed810407c1"
+      },
+      "terrain-field.webp": {
+        "bytes": 37264,
+        "sha256": "911b7ba36628557251ea4eef519c3e18d27b63b59c8ff3248e6468cb2dcf5ace"
+      }
+    }
+  },
+  "terrain_generator": "site/scripts/make_terrain_field.py",
+  "terrain_design": "site/src/terrain-design.json",
+  "no_new_external_asset": false,
+  "new_external_assets": "Two CC0 physical garden rocks; assets/provenance.json"
+}

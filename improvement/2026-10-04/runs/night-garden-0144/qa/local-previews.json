@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-05T02:32:11.408749+09:00",
+  "previews": [
+    {
+      "url": "http://127.0.0.1:5190/",
+      "status": 200,
+      "html_bytes": 50818
+    },
+    {
+      "url": "http://127.0.0.1:5192/",
+      "status": 200,
+      "html_bytes": 17083
+    },
+    {
+      "url": "http://127.0.0.1:5194/",
+      "status": 200,
+      "html_bytes": 15910
+    },
+    {
+      "url": "http://127.0.0.1:5196/",
+      "status": 200,
+      "html_bytes": 15946
+    },
+    {
+      "url": "http://127.0.0.1:5198/",
+      "status": 200,
+      "html_bytes": 16916
+    }
+  ],
+  "development_5197_stopped": true,
+  "final_served_model_hash_verified": true
+}

@@ -1,0 +1,176 @@
+{
+  "scope": "Current stage only",
+  "removed_intermediate_pngs": [
+    {
+      "path": "qa/material-v1/mobile-320.png",
+      "bytes": 193240,
+      "sha256": "487b2244bde6b7199a1ec244e7a99f73b9a7426473473ff791b198c778f8862f",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v1/mobile-tall.png",
+      "bytes": 280299,
+      "sha256": "cd12b8f11e7a84eb1dac2b7a3ec0752d46c43697a78a3d7e095e41344cf1019d",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v2-before-cleanup/mobile-320.png",
+      "bytes": 192934,
+      "sha256": "3c94974025877699a37ff36f5adf1fff777be1e7e678f63db81c1d33b9656020",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v2-before-cleanup/mobile-tall.png",
+      "bytes": 277273,
+      "sha256": "747006ba3f53c3b8049f1f1c44277ef3faaa4813cae7b791eb58bad697df9040",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v2-before-cleanup/pc.png",
+      "bytes": 1317402,
+      "sha256": "9afdefcce654c731a7f4813399b175ae4eeea025b005a5ab07348398624820f3",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v2-before-cleanup/wide.png",
+      "bytes": 1424930,
+      "sha256": "fb449e64d70200bd075f2e79fdb8712842656e33c46b4ba5bddc8f83741bf568",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v2/mobile-320.png",
+      "bytes": 196336,
+      "sha256": "a6e115ab9b6a8c8ac74f509bc07317f06f9478406b4840f0566bdfbfff64b1b3",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v2/mobile-tall.png",
+      "bytes": 279812,
+      "sha256": "4b6ee7212b8d989de9a49790139db660374e8b70a5c3d7412fc0891127b85248",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v2/pc.png",
+      "bytes": 1333280,
+      "sha256": "2f44908c2b227c2189a6d84dab0a197851ed03c08f213af97a4812dfd7112f32",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/material-v2/wide.png",
+      "bytes": 1445535,
+      "sha256": "b4d85afe7d7fd1e33c6b85695abd593eac8bac3af81805325941bd83d0cff6f0",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/precompile-error/mobile-320.png",
+      "bytes": 186184,
+      "sha256": "db201a59497882907bbe40c2b28a185a4abe7856bb1713e21bfbab66e36be83f",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/precompile-error/mobile-390.png",
+      "bytes": 313839,
+      "sha256": "821037becc7abc4099a28691c4ea0881897cf331208550ce24f9a52e8cea41ae",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/precompile-error/mobile-tall.png",
+      "bytes": 271056,
+      "sha256": "edb8e473c0f5a3607d799d6aaae76686cee649ce80dd947dd25bfe014166736d",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    },
+    {
+      "path": "qa/precompile-error/wide.png",
+      "bytes": 1347759,
+      "sha256": "b121928c9850de73d36a4fd38bb6cfe66e4092086807b26581e2a8f466967809",
+      "reason": "Current-stage intermediate capture outside the representative set; metadata and raw logs retained"
+    }
+  ],
+  "deduplicated_pngs": [
+    {
+      "path": "qa/light-corrected/mobile-390.png",
+      "bytes": 342718,
+      "sha256": "0fb8adc11b356058942ade6ee24cdcc720a6f2b62c498cf118b3cec22ab6fbc8",
+      "same_bytes_as": "qa/selected-stills/mobile-390.png",
+      "link": "../selected-stills/mobile-390.png"
+    },
+    {
+      "path": "qa/light-corrected/wide.png",
+      "bytes": 1473445,
+      "sha256": "ef0aad72f31163f4b8d3417c1f1ee93f49ea14cfd8c2af891f32b0a6e2ce57ae",
+      "same_bytes_as": "qa/selected-stills/wide.png",
+      "link": "../selected-stills/wide.png"
+    },
+    {
+      "path": "qa/verification/mobile-320.png",
+      "bytes": 200908,
+      "sha256": "ca8a43352aed77e4ad6a2e5754d5c4b59a1479e98666c09f9fdbf8904905cebb",
+      "same_bytes_as": "qa/selected-stills/mobile-320.png",
+      "link": "../selected-stills/mobile-320.png"
+    },
+    {
+      "path": "qa/verification/mobile-390.png",
+      "bytes": 342718,
+      "sha256": "0fb8adc11b356058942ade6ee24cdcc720a6f2b62c498cf118b3cec22ab6fbc8",
+      "same_bytes_as": "qa/selected-stills/mobile-390.png",
+      "link": "../selected-stills/mobile-390.png"
+    },
+    {
+      "path": "qa/verification/mobile-landscape.png",
+      "bytes": 358812,
+      "sha256": "de883b880a5fb5a3c33845648dc1f27fdbe9ce95f652f8837c2bf369bf0a0b51",
+      "same_bytes_as": "qa/selected-stills/mobile-landscape.png",
+      "link": "../selected-stills/mobile-landscape.png"
+    },
+    {
+      "path": "qa/verification/mobile-tall-320.png",
+      "bytes": 292559,
+      "sha256": "3096f402d911b13d2e84d35d9b16429b9d8f3e356d3cabb56d871ed712fdfd5f",
+      "same_bytes_as": "qa/selected-stills/mobile-tall.png",
+      "link": "../selected-stills/mobile-tall.png"
+    },
+    {
+      "path": "qa/verification/no-webgl-still.png",
+      "bytes": 1175279,
+      "sha256": "e754df14abe1827a842085c9d39d126163215a2b8ed335839fbd748f7705c6b1",
+      "same_bytes_as": "qa/verification/context-loss-still.png",
+      "link": "context-loss-still.png"
+    },
+    {
+      "path": "qa/verification/pc.png",
+      "bytes": 1358103,
+      "sha256": "1385af53dfbb483d34138f2d4a73dffce1f5a8487d52afbad83b0fe515c546b5",
+      "same_bytes_as": "qa/selected-stills/pc.png",
+      "link": "../selected-stills/pc.png"
+    },
+    {
+      "path": "qa/verification/wide.png",
+      "bytes": 1473445,
+      "sha256": "ef0aad72f31163f4b8d3417c1f1ee93f49ea14cfd8c2af891f32b0a6e2ce57ae",
+      "same_bytes_as": "qa/selected-stills/wide.png",
+      "link": "../selected-stills/wide.png"
+    }
+  ],
+  "removed_development_caches": [
+    {
+      "path": "site/node_modules/.vite",
+      "allocated_bytes": 5378048
+    }
+  ],
+  "removed_reproduction_copies": [
+    {
+      "path": "/Users/kazuki.tanaka/Documents/Codex/2026-10-04/task-2/night-finish-0235/reproduce-png",
+      "reason": "Byte-verified duplicate offline generator outputs; authoritative source and runtime outputs retained in site/public/garden"
+    },
+    {
+      "path": "/Users/kazuki.tanaka/Documents/Codex/2026-10-04/task-2/night-finish-0235/reproduce-webp",
+      "reason": "Byte-verified duplicate offline generator outputs; authoritative source and runtime outputs retained in site/public/garden"
+    }
+  ],
+  "new_profiles": 0,
+  "old_profiles_deleted": 0,
+  "prior_deliverables_deleted": 0,
+  "new_hero_native_copies": 0,
+  "new_hero_glb_copies": 0,
+  "new_archives": 0
+}

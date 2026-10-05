@@ -1,0 +1,47 @@
+{
+  "created_at_jst": "2026-10-04T09:36:31+09:00",
+  "archive": "production-build.tar.gz",
+  "archive_sha256": "7479def773253ee4f59c6bc82df1747bc25b638a27a66bda1a1c439eae91e077",
+  "files": {
+    "dist/assets/index-DcsUSN7H.css": {
+      "sha256": "fa28455eb8658a1ca1305b9e9111ffc1bcdba94eccbb4c3fd79c6697a41a6418",
+      "bytes": 406
+    },
+    "dist/assets/index-DnokzJTw.js": {
+      "sha256": "52e78251534bc344e845de1377876ec69218d333b838ac2dead57f971129682a",
+      "bytes": 666348
+    },
+    "dist/index.html": {
+      "sha256": "e30f1a1aa671b3693904ab07ca35228cde6e3c210850264ccc36a24c3740477d",
+      "bytes": 1288
+    },
+    "dist/still-320.webp": {
+      "sha256": "8e703a7f2357481b15468428da75a602e8e4f834bc0beae58efa8766bd03c911",
+      "bytes": 55536
+    },
+    "dist/still-desktop.webp": {
+      "sha256": "a5b5b1e8d6dee4765597b050713ee61f7e92de64f4dbfa0a7553cffd89537726",
+      "bytes": 227748
+    },
+    "dist/still-landscape.webp": {
+      "sha256": "afc9b4c0edd3a3e286794ff380216ae3771995eb84cf853f6400fb3eeb41b2cc",
+      "bytes": 79586
+    },
+    "dist/still-mobile.webp": {
+      "sha256": "605bd905817c85596aa2d75b9df105452d51ec3e8b83e016aa612310784bfb3b",
+      "bytes": 77590
+    },
+    "dist/still-portrait-medium.webp": {
+      "sha256": "46d7e5d9640efad13d4e917f60e77155c00e2062f11b29856fd3019031718830",
+      "bytes": 72602
+    },
+    "dist/still-portrait-short.webp": {
+      "sha256": "9b1bbdcdebc664738da855f57681addc9c5edae2e4068ec9b60891b3647fe257",
+      "bytes": 50336
+    },
+    "dist/still-portrait-wide.webp": {
+      "sha256": "86ae514e7befac53f25805a1d418fbce94b9660309d8ea41119756a92b8345a4",
+      "bytes": 204910
+    }
+  }
+}

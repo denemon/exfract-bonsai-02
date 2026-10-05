@@ -1,0 +1,30 @@
+{
+  "design": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-ground-0335/site/src/terrain-design.json",
+  "generator": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-ground-0335/site/scripts/make_terrain_field.py",
+  "output_policy": "New empty directory, refuses overwriting",
+  "files": [
+    {
+      "file": "terrain-field.png",
+      "bytes": 60362,
+      "sha256": "73e28181c371632ff014f279a5f180ce3378102417fb9f8f67a259f051ba27f3",
+      "regenerated_byte_identical": true
+    },
+    {
+      "file": "terrain-field.webp",
+      "bytes": 37136,
+      "sha256": "f52d304e77d4f888ba060dcd01100fdc8214745d90d5a6dbaa1751db3250eb9d",
+      "regenerated_byte_identical": true
+    },
+    {
+      "file": "terrain-manifest.json",
+      "bytes": 955,
+      "sha256": "25dc3612463e4c6e9ef0214c04ccfcb88c8745515152d2517359f3491017e99d",
+      "regenerated_byte_identical": true
+    }
+  ],
+  "lossless_decoded_RGBA_verified": true,
+  "new_runtime_bytes": 37136,
+  "all_ground_runtime_bytes": 365638,
+  "retained_editable_png_bytes": 60362,
+  "new_external_assets": 0
+}

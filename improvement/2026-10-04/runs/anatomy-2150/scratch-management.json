@@ -1,0 +1,166 @@
+{
+  "scope": "Only reproducible scratch created during anatomy-2150",
+  "retained_control_snapshots": 6,
+  "restored_and_verified_snapshots": 6,
+  "retained_native_files": 1,
+  "retained_model_glbs": 1,
+  "retained_representative_pngs": 14,
+  "prior_profiles_deleted": 0,
+  "prior_deliverables_deleted": 0,
+  "removed": [
+    {
+      "path": "models/cage-v01.glb",
+      "bytes": 657336,
+      "sha256": "ad7a10613d4c95691849ddd2242b623241ac0882e420cc8f987f6081969d9b75",
+      "reason": "Current-run intermediate GLB; exact control cage and subdivision were restored and verified; support source preserved"
+    },
+    {
+      "path": "models/cage-v02.glb",
+      "bytes": 663964,
+      "sha256": "75b97c111a87288436ac433ee7f1776a3db9f9bb7c44f68c539209aafadfc302",
+      "reason": "Current-run intermediate GLB; exact control cage and subdivision were restored and verified; support source preserved"
+    },
+    {
+      "path": "models/cage-v03.glb",
+      "bytes": 663964,
+      "sha256": "a547008369416eb51506a52e3fcf2e167c77d0d86e58f84678d5a8d95e358826",
+      "reason": "Current-run intermediate GLB; exact control cage and subdivision were restored and verified; support source preserved"
+    },
+    {
+      "path": "models/cage-v04.glb",
+      "bytes": 663964,
+      "sha256": "7ef78825b38e528b7980e92aa55a1e5a69a9e118def8437fd9ab57aca47ae98a",
+      "reason": "Current-run intermediate GLB; exact control cage and subdivision were restored and verified; support source preserved"
+    },
+    {
+      "path": "models/cage-v05.glb",
+      "bytes": 814592,
+      "sha256": "a8f1dd3fa29cf1f36ad42861dd72fff768809255fd91afc28340aefe025efa24",
+      "reason": "Current-run intermediate GLB; exact control cage and subdivision were restored and verified; support source preserved"
+    },
+    {
+      "path": "qa/initial/left.png",
+      "bytes": 97687,
+      "sha256": "5e0982ca6e86b6d3272fd1063b30caf151d3606b0affd8540a753c22de6939e8",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/initial/right.png",
+      "bytes": 108946,
+      "sha256": "308287ebb1135e762f8c959ce9ef9e6aedb29a24d78dbc99d47a3f78fe6a3523",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/initial/v23-front.png",
+      "bytes": 286636,
+      "sha256": "91b90fc2f430df37e6d472d70ad3187e3c30b211e85778b5599333349bc77a2b",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/initial/v23-left.png",
+      "bytes": 239073,
+      "sha256": "7bbf86f8a10152b4410e4c16a58469abd6d8d9de00d1e1182042cdfc705eb3ae",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/initial/v23-right.png",
+      "bytes": 243673,
+      "sha256": "c44e713233da731ba501822d2f740b0b5c0eec92bbfd4a63196b83ee1ebed15e",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/initial/v23-three-quarter.png",
+      "bytes": 221771,
+      "sha256": "d9ae29d6cdd9b918fbfa94e04e99fd92f6c065f43374114145d2e7c9815e3701",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/revised/front.png",
+      "bytes": 107359,
+      "sha256": "7bb6d1ec09741773b7b995904bb01442f502d210f566caf8d99fcb654ea57a26",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/revised/left.png",
+      "bytes": 99732,
+      "sha256": "d8403e8622dbc34a286d4f20c4a8f60a13d6f06e766c104e2fc789b03ff7a615",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/revised/right.png",
+      "bytes": 110619,
+      "sha256": "8c36ded1beb51f4d1fe996b6c1bb49a953dc1c7650063a7ec95ee7b42ecc21a1",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/revised/three-quarter.png",
+      "bytes": 103490,
+      "sha256": "c6ace16b53c85165d3b97a8c00c152f62254c9457de433bfe6364190190685e0",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/rooted/front.png",
+      "bytes": 105844,
+      "sha256": "203a788d568f0f786fef79b9841dbce06ea96dc070c810cf2d1c4f4985ba6f47",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/rooted/left.png",
+      "bytes": 99799,
+      "sha256": "28a3dc23e63eabba19311b7d3b0ac0375dfe14e0d99a9fbad9636659bd312856",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/rooted/right.png",
+      "bytes": 110317,
+      "sha256": "498f63844d034a4181f98a0b192b11ea8ef592a98bcd030b5ec594e67f0b67dc",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/rooted/three-quarter.png",
+      "bytes": 104064,
+      "sha256": "aabc27655145c727ec6681f31b94c7fa754c499f28ce7307f18e7b8c32262f1c",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/rooted/root-oblique.png",
+      "bytes": 98568,
+      "sha256": "11d6a36377aea4397d21f5bea1a5a163c75de7ce097ac5ae9d72f01f67f55753",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/footprint/left.png",
+      "bytes": 100284,
+      "sha256": "bf04a7009d8707824019fa0fef694cefd06f3f1f9c34d8fad9e3ebe227825548",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/extended/front.png",
+      "bytes": 111305,
+      "sha256": "f92a8d28c929f9336750cc5452270fbc9f7318925ec0350afd71343d0e73af65",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/extended/right.png",
+      "bytes": 111400,
+      "sha256": "d34e88052e72484d19e73c4ac2528f017c18b61540e9421d47d6a442ca7dad2c",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "qa/extended/three-quarter.png",
+      "bytes": 103390,
+      "sha256": "b5e609c6d34dcc3e2a0fcb231bad94e7e29e8307706375551f5344273c5f7ec7",
+      "reason": "Current-run nonrepresentative capture; browser result and representative views retained"
+    },
+    {
+      "path": "site/public/models/hero.glb",
+      "bytes": 814592,
+      "reason": "Replaced duplicate selected model with read-only relative symlink"
+    },
+    {
+      "path": "site/node_modules/.vite",
+      "allocated_bytes": 5308416,
+      "reason": "Only the current-run regenerated Vite cache; server stopped first"
+    }
+  ]
+}

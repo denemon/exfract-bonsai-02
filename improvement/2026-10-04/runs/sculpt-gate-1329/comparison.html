@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>工程1 比較資料</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eeeae1;color:#292b26;font:15px/1.7 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:40px 30px 80px}h1{font-size:28px;font-weight:500;margin:0 0 12px}h2{font-size:20px;font-weight:500;margin:36px 0 15px}p{max-width:1000px}strong{color:#794f38}section{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}figure{margin:0}img{display:block;width:100%;height:auto;background:#dad7d0}figcaption{padding:9px 0;color:#55574e}.angles{grid-template-columns:repeat(3,minmax(0,1fr))}.phones{display:flex;gap:25px;align-items:flex-start}.phones figure{max-width:320px}.phones img{width:100%}a{color:inherit}@media(max-width:700px){main{padding:24px 16px}section,.angles{grid-template-columns:1fr}.phones{flex-wrap:wrap}.phones figure{max-width:260px}}
+</style>
+<main>
+<h1>工程1の比較 — 造形ゲート未達</h1>
+<p><strong>主幹と枝の連続性は改善しましたが、名木としての自然さ、木肌、葉群のまとまりは完成基準に届いていません。</strong>背景は空間配置の仮段階です。既存の09bestは置き換えていません。この文書は確認用の資料で、サイト本体には文字を表示しません。</p>
+<h2>完成像の参考と、現在の実3D</h2>
+<section><figure><img src="reference/desktop-candidate01.png" alt="選定した生成参考画像"><figcaption>外観基準の生成画像。実3Dの表示画像としては使用していません。</figcaption></figure><figure><img src="qa/production/pc.png" alt="v27候補のPC表示"><figcaption>v27本番ビルド、1440×900。幹・葉・庭・建築は実際の3D。写真調の参考との差は大きく残っています。</figcaption></figure></section>
+<h2>単色での旧モデル比較</h2>
+<section><figure><img src="qa/comparison/previous-clay-front.png" alt="旧モデルの単色正面"><figcaption>旧Blender案。別管の生き筋と細い帯状の幹が目立ちます。</figcaption></figure><figure><img src="qa/comparison/clay-front.png" alt="候補の単色正面"><figcaption>v27。連続した体積へ変更。面の流れが整いすぎており、板・帯を連想する部分が残ります。</figcaption></figure></section>
+<p>同じ材質・照明・画角で、各モデルを画面へ自動フィットしています。輪郭の差に合わせてカメラ距離は個別に調整されます。</p>
+<h2>候補の正面と斜め</h2>
+<section class="angles"><figure><img src="qa/comparison/clay-left.png" alt="左25度"><figcaption>左25度</figcaption></figure><figure><img src="qa/comparison/clay-front.png" alt="正面"><figcaption>正面</figcaption></figure><figure><img src="qa/comparison/clay-right.png" alt="右25度"><figcaption>右25度。枝元の境界と幹の面の変化が未達。</figcaption></figure></section>
+<h2>代表素材</h2>
+<section><figure><img src="qa/comparison/wood-detail.png" alt="幹の拡大"><figcaption>木目・生き筋のシェーダー。まだ均一で人工的な流れが残ります。</figcaption></figure><figure><img src="qa/comparison/leaf-detail.png" alt="立体の葉の拡大"><figcaption>枝に接続した立体の鱗葉。球や平面の葉群ではありませんが、剪定された樹冠としての密度が不足しています。</figcaption></figure></section>
+<h2>スマートフォンの別構図</h2>
+<div class="phones"><figure><img src="qa/production/mobile-390.png" alt="390×844"><figcaption>390×844 / 左40度。主役は高さ約42.5%。</figcaption></figure><figure><img src="qa/production/mobile-320.png" alt="320×568"><figcaption>320×568 / 左45度。主役は高さ約52.9%。</figcaption></figure><figure><img src="qa/production/mobile-tall-320.png" alt="320×932"><figcaption>320×932 / 左45度。主役は高さ約32.1%で存在感が弱い。</figcaption></figure></div>
+<h2>同じ空間内での光の反応</h2>
+<section><figure><img src="qa/production/pc.png" alt="既定の左側光源"><figcaption>既定の光源。</figcaption></figure><figure><img src="qa/production/light-from-right.png" alt="右側へ移した光源"><figcaption>主光源を右側へ移動。幹・鉢・台・地面の陰影と落ちる影が同じ空間で変化します。</figcaption></figure></section>
+<p>機能の36項目成功は外観の完成判定とは分けています。詳細は <a href="REPORT.md">REPORT.md</a>、生データは <a href="qa/production/results.json">ブラウザ検証</a> と <a href="qa/gpu-diagnostics/results.json">GPU時間</a> に保存しています。実スマホとSafariは未検証です。</p>
+</main></html>

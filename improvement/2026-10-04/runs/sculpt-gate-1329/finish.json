@@ -1,0 +1,54 @@
+{
+  "run": "sculpt-gate-1329",
+  "status": "stage_one_saved_aesthetic_gate_not_passed",
+  "started_at_jst": "2026-10-04T13:32:15+09:00",
+  "finished_at_jst": "2026-10-04T16:53:12.025291+09:00",
+  "elapsed_hours": 3.3491736919444444,
+  "candidate": "v27",
+  "aesthetic_gate_passed": false,
+  "technical_checks_passed": true,
+  "browser_check_count": 36,
+  "geometry_one_closed_component": true,
+  "root_best_promoted": false,
+  "protected_root_best": "0900-jst-candidate-04",
+  "preview": "http://127.0.0.1:5188/",
+  "preview_kind": "local production build",
+  "source": "site/",
+  "model": "models/hero-v27.blend",
+  "model_glb": "models/hero-v27.glb",
+  "report": "REPORT.md",
+  "comparison": "comparison.html",
+  "screenshots": {
+    "pc": "qa/production/pc.png",
+    "390": "qa/production/mobile-390.png",
+    "320": "qa/production/mobile-320.png",
+    "320_tall": "qa/production/mobile-tall-320.png"
+  },
+  "archives": [
+    "stage-one-source.zip",
+    "production-build.zip",
+    "evidence.zip"
+  ],
+  "library_file_ids": [],
+  "library_status": "prior official helper tools/list TLS failure; no retry",
+  "git_head": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "tracked_worktree_clean": true,
+  "free_disk_bytes": 1362739200,
+  "final_deadline_jst": "2026-10-10T23:00:00+09:00",
+  "next_stage": "Rework aged-trunk surfaces, root and branch growth junctions, and canopy density before background detail",
+  "next_stage_estimate_hours": [
+    6,
+    10
+  ],
+  "next_stage_start": "immediate, parent orchestration; no hourly waiting",
+  "active_run_released": true,
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort_requested": "max",
+  "runtime_model_verified": false,
+  "notes": [
+    "Old separate living-cord structure resolved; board/ribbon appearance not fully resolved",
+    "Real Android/iPhone/Safari not tested",
+    "GPU median PC 17.45 ms; same-Mac mobile viewport 16.80 ms; performance still needs work",
+    "No commit, push, PR, merge, external publishing, paid purchases, or old-project edits"
+  ]
+}

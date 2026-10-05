@@ -1,0 +1,10 @@
+{
+  "within_candidate": "night-b",
+  "major_candidate_count": 2,
+  "fixes": [
+    "Background instanced leaves had no geometry color attribute, so vertexColors:true incorrectly multiplied the intended instance colors. Disabled geometry vertex colors; instance colors remain active.",
+    "Closed an unintended gap between the longer rotated house and the timber boundary.",
+    "Moved/reduced concealed planting light to remove an excessive hot patch on the rear rock."
+  ],
+  "not_new_layout": "House pose/cameras/hero remain the selected B arrangement."
+}

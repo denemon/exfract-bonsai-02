@@ -1,0 +1,406 @@
+{
+  "results": [
+    {
+      "name": "bias-0005",
+      "url": "http://127.0.0.1:5189/?study=material&detail=wood&shadow-bias=-.0005&qa=bias-0005",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 318,
+        "framesMs": [
+          135.19999998807907
+        ],
+        "model": {
+          "meshes": 33,
+          "vertices": 184376,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v16",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0009700992377474904,
+            -0.8391566276550293,
+            1.425699234008789,
+            1.0583808422088623
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": -0.38555579848881016,
+          "right": 1.3980763865621262,
+          "top": -0.6977454021347356,
+          "bottom": 1.5359448263685278
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 1.353,
+          "position": [
+            -0.0198,
+            0.9841587765272495,
+            1.3315226976544234
+          ],
+          "target": [
+            -0.0198,
+            0.6798000000000001,
+            0.013200000000000002
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 65,
+        "triangles": 6140362
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "bias-0015",
+      "url": "http://127.0.0.1:5189/?study=material&detail=wood&shadow-bias=-.0015&qa=bias-0015",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 272.5,
+        "framesMs": [
+          117.10000002384186
+        ],
+        "model": {
+          "meshes": 33,
+          "vertices": 184376,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v16",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0009700992377474904,
+            -0.8391566276550293,
+            1.425699234008789,
+            1.0583808422088623
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": -0.38555579848881016,
+          "right": 1.3980763865621262,
+          "top": -0.6977454021347356,
+          "bottom": 1.5359448263685278
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 1.353,
+          "position": [
+            -0.0198,
+            0.9841587765272495,
+            1.3315226976544234
+          ],
+          "target": [
+            -0.0198,
+            0.6798000000000001,
+            0.013200000000000002
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 65,
+        "triangles": 6140362
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "soft-0003",
+      "url": "http://127.0.0.1:5189/?study=material&detail=wood&shadow-type=soft&shadow-bias=-.0003&qa=soft-0003",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 275.80000001192093,
+        "framesMs": [
+          122
+        ],
+        "model": {
+          "meshes": 33,
+          "vertices": 184376,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v16",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0009700992377474904,
+            -0.8391566276550293,
+            1.425699234008789,
+            1.0583808422088623
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": -0.38555579848881016,
+          "right": 1.3980763865621262,
+          "top": -0.6977454021347356,
+          "bottom": 1.5359448263685278
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 1.353,
+          "position": [
+            -0.0198,
+            0.9841587765272495,
+            1.3315226976544234
+          ],
+          "target": [
+            -0.0198,
+            0.6798000000000001,
+            0.013200000000000002
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 65,
+        "triangles": 6140362
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "contact-0005",
+      "url": "http://127.0.0.1:5189/?study=material&detail=pot&shadow-bias=-.0005&qa=contact-0005",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 285.80000001192093,
+        "framesMs": [
+          119.80000001192093
+        ],
+        "model": {
+          "meshes": 33,
+          "vertices": 184376,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v16",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0009700992377474904,
+            -0.8391566276550293,
+            1.425699234008789,
+            1.0583808422088623
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": -0.20634014617963115,
+          "right": 1.1721049150694176,
+          "top": -0.9504017038295824,
+          "bottom": 0.8477853418517396
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 1.749,
+          "position": [
+            0,
+            0.5980393940474199,
+            1.7041732433093766
+          ],
+          "target": [
+            0,
+            0.2046,
+            0
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 67,
+        "triangles": 6140738
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": [
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead."
+          }
+        ],
+        "executionContextId": 5,
+        "timestamp": 1791106373776.518,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "console.<computed>",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5189/@vite/client",
+              "lineNumber": 532,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "warn",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5189/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=89cdd9e4",
+              "lineNumber": 1727,
+              "columnNumber": 15
+            },
+            {
+              "functionName": "WebGLShadowMap.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5189/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=89cdd9e4",
+              "lineNumber": 46702,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "WebGLRenderer.render",
+              "scriptId": "10",
+              "url": "http://127.0.0.1:5189/node_modules/.vite/deps/three.module-C4KXsj_i.js?v=89cdd9e4",
+              "lineNumber": 51533,
+              "columnNumber": 13
+            },
+            {
+              "functionName": "render",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5189/src/main.js?t=1791106370209",
+              "lineNumber": 29,
+              "columnNumber": 107
+            },
+            {
+              "functionName": "resize",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5189/src/main.js?t=1791106370209",
+              "lineNumber": 31,
+              "columnNumber": 494
+            },
+            {
+              "functionName": "",
+              "scriptId": "5",
+              "url": "http://127.0.0.1:5189/src/main.js?t=1791106370209",
+              "lineNumber": 48,
+              "columnNumber": 1
+            }
+          ]
+        }
+      },
+      "sessionId": "717504856E4B1B448565112770FA18A2"
+    }
+  ]
+}

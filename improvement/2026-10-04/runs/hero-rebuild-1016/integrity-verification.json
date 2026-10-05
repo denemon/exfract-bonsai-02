@@ -1,0 +1,44 @@
+{
+  "verified_at_jst": "2026-10-04T11:19:26+09:00",
+  "initial": {
+    "archive_sha256_matches": true,
+    "file_count": 53,
+    "contents_match": true
+  },
+  "0800": {
+    "archive_sha256_matches": true,
+    "file_count": 17,
+    "contents_match": true
+  },
+  "0900": {
+    "archive_sha256_matches": true,
+    "file_count": 17,
+    "contents_match": true
+  },
+  "0900_production": {
+    "archive_sha256_matches": true,
+    "file_count": 10,
+    "contents_match": true
+  },
+  "root_implementation_matches_0900": true,
+  "root_production_matches_0900": true,
+  "source_before_matches_0900": true,
+  "protected_initial_qa_and_delivery": true,
+  "git_head": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "tracked_diff": "",
+  "new_source_archive": {
+    "archive_sha256_matches": true,
+    "file_count": 23,
+    "contents_match": true
+  },
+  "new_production_archive": {
+    "archive_sha256_matches": true,
+    "file_count": 21,
+    "contents_match": true
+  },
+  "new_sculpt_archive": {
+    "archive_sha256_matches": true,
+    "file_count": 5,
+    "contents_match": true
+  }
+}

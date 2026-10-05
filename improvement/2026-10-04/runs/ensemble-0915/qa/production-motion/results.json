@@ -1,0 +1,908 @@
+{
+  "results": [
+    {
+      "name": "pc",
+      "method": "Actual Mac Chrome pointer drag, forward and reverse, sequential PNG after two RAF; finite sampled poses, not continuous video",
+      "idlePixelStable": true,
+      "frames": [
+        {
+          "index": 0,
+          "offsetPx": 0,
+          "sha256": "8bb4497bdb7fdb67eff089f0bb7900cbc4a65d745d07c306f342b689f18056cf",
+          "camera": {
+            "yaw": 0,
+            "pitch": 10,
+            "distance": 3.1155957641752177,
+            "zoom": 1,
+            "position": [
+              0.055556653840810793,
+              1.2215507457191122,
+              3.0791909558671455
+            ],
+            "target": [
+              0.055556653840810793,
+              0.6805332189232783,
+              0.010928092055396528
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1204122,
+          "renderCpuMs": 1.600000023841858
+        },
+        {
+          "index": 1,
+          "offsetPx": 32,
+          "sha256": "a495dcf105ff895057331b1bc0d5de06cc9e351a6a78143997b40166354a8069",
+          "camera": {
+            "yaw": 1.44,
+            "pitch": 10,
+            "distance": 3.1121369888996395,
+            "zoom": 1,
+            "position": [
+              0.14014220870879524,
+              1.2229063740337403,
+              3.07176060150981
+            ],
+            "target": [
+              0.0631220689484747,
+              0.68248945726147,
+              0.007871880975891771
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1204122,
+          "renderCpuMs": 1.100000023841858
+        },
+        {
+          "index": 2,
+          "offsetPx": 64,
+          "sha256": "384da4a0dcf2ecc8a9ffdcb22cf13bf7fde2a07340b6d86ce57a94e037d4434e",
+          "camera": {
+            "yaw": 2.88,
+            "pitch": 10,
+            "distance": 3.1159359553857104,
+            "zoom": 1,
+            "position": [
+              0.22478982321561486,
+              1.223554367589013,
+              3.0695130788791496
+            ],
+            "target": [
+              0.07061021462781113,
+              0.682477767209419,
+              0.00479096441545282
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1204122,
+          "renderCpuMs": 1.0999999046325684
+        },
+        {
+          "index": 3,
+          "offsetPx": 96,
+          "sha256": "201f81b9027f2dadfe93ee03abc0ee519318a226144b5351683b3fd7f2ee01c4",
+          "camera": {
+            "yaw": 4.32,
+            "pitch": 10,
+            "distance": 3.1251260614886704,
+            "zoom": 1,
+            "position": [
+              0.3098508493665662,
+              1.2236763173837952,
+              3.0705025841744398
+            ],
+            "target": [
+              0.07802142877765707,
+              0.6810038718268563,
+              0.0015981156745896227
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1204122,
+          "renderCpuMs": 1.100000023841858
+        },
+        {
+          "index": 4,
+          "offsetPx": 64,
+          "sha256": "384da4a0dcf2ecc8a9ffdcb22cf13bf7fde2a07340b6d86ce57a94e037d4434e",
+          "camera": {
+            "yaw": 2.88,
+            "pitch": 10,
+            "distance": 3.1159359553857104,
+            "zoom": 1,
+            "position": [
+              0.22478982321561486,
+              1.223554367589013,
+              3.0695130788791496
+            ],
+            "target": [
+              0.07061021462781113,
+              0.682477767209419,
+              0.00479096441545282
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1204122,
+          "renderCpuMs": 1
+        },
+        {
+          "index": 5,
+          "offsetPx": 32,
+          "sha256": "a495dcf105ff895057331b1bc0d5de06cc9e351a6a78143997b40166354a8069",
+          "camera": {
+            "yaw": 1.44,
+            "pitch": 10,
+            "distance": 3.1121369888996395,
+            "zoom": 1,
+            "position": [
+              0.14014220870879524,
+              1.2229063740337403,
+              3.07176060150981
+            ],
+            "target": [
+              0.0631220689484747,
+              0.68248945726147,
+              0.007871880975891771
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1204122,
+          "renderCpuMs": 0.7999999523162842
+        },
+        {
+          "index": 6,
+          "offsetPx": 0,
+          "sha256": "8bb4497bdb7fdb67eff089f0bb7900cbc4a65d745d07c306f342b689f18056cf",
+          "camera": {
+            "yaw": 0,
+            "pitch": 10,
+            "distance": 3.1155957641752177,
+            "zoom": 1,
+            "position": [
+              0.055556653840810793,
+              1.2215507457191122,
+              3.0791909558671455
+            ],
+            "target": [
+              0.055556653840810793,
+              0.6805332189232783,
+              0.010928092055396528
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1204122,
+          "renderCpuMs": 0.7000000476837158
+        }
+      ],
+      "pairs": [
+        {
+          "a": 0,
+          "b": 6,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            0,
+            0
+          ]
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            0,
+            0
+          ]
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mobile-390",
+      "method": "Actual Mac Chrome pointer drag, forward and reverse, sequential PNG after two RAF; finite sampled poses, not continuous video",
+      "idlePixelStable": true,
+      "frames": [
+        {
+          "index": 0,
+          "offsetPx": 0,
+          "sha256": "770cacb04d4b3c3b28945a65e59fc37847b4de5f0b2b4f05cdc66accd1436f11",
+          "camera": {
+            "yaw": -27,
+            "pitch": 9,
+            "distance": 5.8039889836772804,
+            "zoom": 1,
+            "position": [
+              -2.6632328971515777,
+              1.4838296994183882,
+              5.131972210861256
+            ],
+            "target": [
+              -0.06071771705420628,
+              0.5758857876574395,
+              0.024248577665524292
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1109030,
+          "renderCpuMs": 1.100000023841858
+        },
+        {
+          "index": 1,
+          "offsetPx": 32,
+          "sha256": "06b856fd33fb6ff7415230b0ac18a4d2af40e9ca9e8d772bb37d92425799cca5",
+          "camera": {
+            "yaw": -25.56,
+            "pitch": 9,
+            "distance": 5.87069609308341,
+            "zoom": 1,
+            "position": [
+              -2.56171807425541,
+              1.4960558961306827,
+              5.2553105665718665
+            ],
+            "target": [
+              -0.05995553725441797,
+              0.5776766933954061,
+              0.02436070390003146
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1109030,
+          "renderCpuMs": 1
+        },
+        {
+          "index": 2,
+          "offsetPx": 64,
+          "sha256": "f6a90707917cb49d5bb86589a1b5b2d976b7214f54f168923f7e6a4421bb41fb",
+          "camera": {
+            "yaw": -24.12,
+            "pitch": 9,
+            "distance": 5.933719078522184,
+            "zoom": 1,
+            "position": [
+              -2.4541277018133787,
+              1.5080552627531385,
+              5.373382277833851
+            ],
+            "target": [
+              -0.05917231083506675,
+              0.579817093005509,
+              0.02440249863617286
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1109030,
+          "renderCpuMs": 0.8999999761581421
+        },
+        {
+          "index": 3,
+          "offsetPx": 96,
+          "sha256": "b325104ce2ea89206a95f0521b574c25bda54ab19b96888a9862d0deae7c8314",
+          "camera": {
+            "yaw": -22.68,
+            "pitch": 9,
+            "distance": 5.993018133325205,
+            "zoom": 1,
+            "position": [
+              -2.340748188770823,
+              1.5195933537968358,
+              5.48592172287998
+            ],
+            "target": [
+              -0.058386259672420074,
+              0.5820787681337043,
+              0.024405745366425938
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1109030,
+          "renderCpuMs": 0.7999999523162842
+        },
+        {
+          "index": 4,
+          "offsetPx": 64,
+          "sha256": "f6a90707917cb49d5bb86589a1b5b2d976b7214f54f168923f7e6a4421bb41fb",
+          "camera": {
+            "yaw": -24.12,
+            "pitch": 9,
+            "distance": 5.933719078522184,
+            "zoom": 1,
+            "position": [
+              -2.4541277018133787,
+              1.5080552627531385,
+              5.373382277833851
+            ],
+            "target": [
+              -0.05917231083506675,
+              0.579817093005509,
+              0.02440249863617286
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1109030,
+          "renderCpuMs": 0.7999999523162842
+        },
+        {
+          "index": 5,
+          "offsetPx": 32,
+          "sha256": "06b856fd33fb6ff7415230b0ac18a4d2af40e9ca9e8d772bb37d92425799cca5",
+          "camera": {
+            "yaw": -25.56,
+            "pitch": 9,
+            "distance": 5.87069609308341,
+            "zoom": 1,
+            "position": [
+              -2.56171807425541,
+              1.4960558961306827,
+              5.2553105665718665
+            ],
+            "target": [
+              -0.05995553725441797,
+              0.5776766933954061,
+              0.02436070390003146
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1109030,
+          "renderCpuMs": 0.8000000715255737
+        },
+        {
+          "index": 6,
+          "offsetPx": 0,
+          "sha256": "770cacb04d4b3c3b28945a65e59fc37847b4de5f0b2b4f05cdc66accd1436f11",
+          "camera": {
+            "yaw": -27,
+            "pitch": 9,
+            "distance": 5.8039889836772804,
+            "zoom": 1,
+            "position": [
+              -2.6632328971515777,
+              1.4838296994183882,
+              5.131972210861256
+            ],
+            "target": [
+              -0.06071771705420628,
+              0.5758857876574395,
+              0.024248577665524292
+            ]
+          },
+          "lod": {
+            "level": "low",
+            "changed": false,
+            "highAvailable": false,
+            "needsHigh": false,
+            "highGroups": 0,
+            "visibleGroups": 72,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 868000,
+            "allocatedLeafTriangles": 868000,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 1109030,
+          "renderCpuMs": 0.6000000238418579
+        }
+      ],
+      "pairs": [
+        {
+          "a": 0,
+          "b": 6,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            0,
+            0
+          ]
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            0,
+            0
+          ]
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "leaf-detail",
+      "method": "Actual Mac Chrome pointer drag, forward and reverse, sequential PNG after two RAF; finite sampled poses, not continuous video",
+      "idlePixelStable": true,
+      "frames": [
+        {
+          "index": 0,
+          "offsetPx": 0,
+          "sha256": "2e423346cbbd55a4180a384a5bdad56a5b1ef435691d97397c39f5f46ae30970",
+          "camera": {
+            "yaw": 0,
+            "pitch": 10,
+            "distance": 0.9239999999999999,
+            "zoom": 1,
+            "position": [
+              -0.4752,
+              1.0316509161642438,
+              0.9363623637832801
+            ],
+            "target": [
+              -0.4752,
+              0.8712000000000001,
+              0.026400000000000003
+            ]
+          },
+          "lod": {
+            "level": "mixed",
+            "changed": false,
+            "highAvailable": true,
+            "needsHigh": false,
+            "highGroups": 24,
+            "visibleGroups": 49,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 2014640,
+            "allocatedLeafTriangles": 2212420,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 2349902,
+          "renderCpuMs": 0.8999999761581421
+        },
+        {
+          "index": 1,
+          "offsetPx": 32,
+          "sha256": "9ac1718abc0325127afa307b557a4b97059ad232f807321a782149a8421799b7",
+          "camera": {
+            "yaw": 1.44,
+            "pitch": 10,
+            "distance": 0.9239999999999999,
+            "zoom": 1,
+            "position": [
+              -0.4523325589482812,
+              1.0316509161642438,
+              0.9360749879170037
+            ],
+            "target": [
+              -0.4752,
+              0.8712000000000001,
+              0.026400000000000003
+            ]
+          },
+          "lod": {
+            "level": "mixed",
+            "changed": false,
+            "highAvailable": true,
+            "needsHigh": false,
+            "highGroups": 24,
+            "visibleGroups": 49,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 2014640,
+            "allocatedLeafTriangles": 2212420,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 2349902,
+          "renderCpuMs": 0.7000000476837158
+        },
+        {
+          "index": 2,
+          "offsetPx": 64,
+          "sha256": "978583c24c70e14510f8339914fd9f42440db4be3fdacc688001454d9fb36bb2",
+          "camera": {
+            "yaw": 2.88,
+            "pitch": 10,
+            "distance": 0.9239999999999999,
+            "zoom": 1,
+            "position": [
+              -0.4294795614624577,
+              1.0316509161642438,
+              0.935213041830931
+            ],
+            "target": [
+              -0.4752,
+              0.8712000000000001,
+              0.026400000000000003
+            ]
+          },
+          "lod": {
+            "level": "mixed",
+            "changed": false,
+            "highAvailable": true,
+            "needsHigh": false,
+            "highGroups": 24,
+            "visibleGroups": 48,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 2004720,
+            "allocatedLeafTriangles": 2212420,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 2339982,
+          "renderCpuMs": 0.9000000953674316
+        },
+        {
+          "index": 3,
+          "offsetPx": 96,
+          "sha256": "c5877dc3c4d353b14c80fde1aaa3f000be24452923a582936b9075fe856fdf98",
+          "camera": {
+            "yaw": 4.32,
+            "pitch": 10,
+            "distance": 0.9239999999999999,
+            "zoom": 1,
+            "position": [
+              -0.4066554419855589,
+              1.0316509161642438,
+              0.9337770699486843
+            ],
+            "target": [
+              -0.4752,
+              0.8712000000000001,
+              0.026400000000000003
+            ]
+          },
+          "lod": {
+            "level": "mixed",
+            "changed": false,
+            "highAvailable": true,
+            "needsHigh": false,
+            "highGroups": 24,
+            "visibleGroups": 48,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 2004720,
+            "allocatedLeafTriangles": 2212420,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 2339982,
+          "renderCpuMs": 0.6000000238418579
+        },
+        {
+          "index": 4,
+          "offsetPx": 64,
+          "sha256": "978583c24c70e14510f8339914fd9f42440db4be3fdacc688001454d9fb36bb2",
+          "camera": {
+            "yaw": 2.88,
+            "pitch": 10,
+            "distance": 0.9239999999999999,
+            "zoom": 1,
+            "position": [
+              -0.4294795614624577,
+              1.0316509161642438,
+              0.935213041830931
+            ],
+            "target": [
+              -0.4752,
+              0.8712000000000001,
+              0.026400000000000003
+            ]
+          },
+          "lod": {
+            "level": "mixed",
+            "changed": false,
+            "highAvailable": true,
+            "needsHigh": false,
+            "highGroups": 24,
+            "visibleGroups": 48,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 2004720,
+            "allocatedLeafTriangles": 2212420,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 2339982,
+          "renderCpuMs": 0.6999999284744263
+        },
+        {
+          "index": 5,
+          "offsetPx": 32,
+          "sha256": "9ac1718abc0325127afa307b557a4b97059ad232f807321a782149a8421799b7",
+          "camera": {
+            "yaw": 1.44,
+            "pitch": 10,
+            "distance": 0.9239999999999999,
+            "zoom": 1,
+            "position": [
+              -0.4523325589482812,
+              1.0316509161642438,
+              0.9360749879170037
+            ],
+            "target": [
+              -0.4752,
+              0.8712000000000001,
+              0.026400000000000003
+            ]
+          },
+          "lod": {
+            "level": "mixed",
+            "changed": false,
+            "highAvailable": true,
+            "needsHigh": false,
+            "highGroups": 24,
+            "visibleGroups": 49,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 2014640,
+            "allocatedLeafTriangles": 2212420,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 2349902,
+          "renderCpuMs": 0.7000000476837158
+        },
+        {
+          "index": 6,
+          "offsetPx": 0,
+          "sha256": "2e423346cbbd55a4180a384a5bdad56a5b1ef435691d97397c39f5f46ae30970",
+          "camera": {
+            "yaw": 0,
+            "pitch": 10,
+            "distance": 0.9239999999999999,
+            "zoom": 1,
+            "position": [
+              -0.4752,
+              1.0316509161642438,
+              0.9363623637832801
+            ],
+            "target": [
+              -0.4752,
+              0.8712000000000001,
+              0.026400000000000003
+            ]
+          },
+          "lod": {
+            "level": "mixed",
+            "changed": false,
+            "highAvailable": true,
+            "needsHigh": false,
+            "highGroups": 24,
+            "visibleGroups": 49,
+            "groups": 72,
+            "crowns": 6,
+            "visibleLeafTriangles": 2014640,
+            "allocatedLeafTriangles": 2212420,
+            "leafBudget": 2600000,
+            "closedScaleLeaves": true
+          },
+          "triangles": 2349902,
+          "renderCpuMs": 0.5999999046325684
+        }
+      ],
+      "pairs": [
+        {
+          "a": 0,
+          "b": 6,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            24,
+            24
+          ]
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            24,
+            24
+          ]
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "sameCamera": true,
+          "samePixels": true,
+          "sameLOD": true,
+          "highGroups": [
+            24,
+            24
+          ]
+        }
+      ]
+    }
+  ],
+  "logs": []
+}

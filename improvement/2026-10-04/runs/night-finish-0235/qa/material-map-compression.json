@@ -1,0 +1,16 @@
+[
+  {
+    "name": "mineral",
+    "png_bytes": 494013,
+    "webp_bytes": 194842,
+    "rgb_mean_absolute_error_255": 1.774731953938802,
+    "height_alpha_identical": true
+  },
+  {
+    "name": "moss",
+    "png_bytes": 313379,
+    "webp_bytes": 133660,
+    "rgb_mean_absolute_error_255": 0.873999277750651,
+    "height_alpha_identical": true
+  }
+]

@@ -1,0 +1,2144 @@
+{
+  "hardware": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "vendor": "Google Inc. (Apple)",
+    "maxTextureSize": 16384,
+    "timerQueryAvailable": true,
+    "error": 0
+  },
+  "first_pass_method": "Actual EXT_disjoint_timer_query_webgl2:15 renders, first2 excluded,13 samples. Nearest-rank p95 is max13. Initial measured camera renders retained; not a measurement of the complete first loading frame.",
+  "rows": [
+    {
+      "name": "pc",
+      "current_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 8.988708,
+        "p95Ms": 19.888416,
+        "milliseconds": [
+          21.486291,
+          11.135958,
+          7.325125,
+          7.463,
+          8.272625,
+          8.269541,
+          8.988333,
+          10.746208,
+          10.442291,
+          9.7275,
+          8.988708,
+          12.624375,
+          19.888416,
+          11.108624,
+          8.970124
+        ],
+        "steadyTriangles": 1204122,
+        "drawCalls": 114,
+        "pixelRatio": 1
+      },
+      "previous_stage10_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 10.366541,
+        "p95Ms": 12.764708,
+        "milliseconds": [
+          20.179499,
+          16.163374,
+          12.764708,
+          11.137749,
+          9.769249,
+          8.897749,
+          7.348375,
+          8.274874,
+          9.278874,
+          10.366541,
+          11.080208,
+          12.323041,
+          11.769125,
+          10.716958,
+          9.4195
+        ],
+        "steadyTriangles": 1164402,
+        "drawCalls": 111,
+        "pixelRatio": 1
+      },
+      "p95_delta_ms": 7.123707999999999,
+      "median_delta_ms": -1.377832999999999,
+      "triangles_delta": 39720,
+      "initial_inclusive_max_ms": 21.486291
+    },
+    {
+      "name": "mobile-390",
+      "current_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 12.952125,
+        "p95Ms": 15.663541,
+        "milliseconds": [
+          21.580291,
+          12.985458,
+          9.178958,
+          9.967083,
+          12.952125,
+          11.984833,
+          15.399041,
+          14.798083,
+          14.205416,
+          15.0925,
+          13.981916,
+          15.663541,
+          9.609583,
+          5.718833,
+          6.818749
+        ],
+        "steadyTriangles": 1109030,
+        "drawCalls": 109,
+        "pixelRatio": 1.6
+      },
+      "previous_stage10_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 8.599333,
+        "p95Ms": 11.61325,
+        "milliseconds": [
+          15.040124,
+          11.549541,
+          8.599333,
+          9.45675,
+          6.61875,
+          8.110499,
+          8.906666,
+          10.131541,
+          11.61325,
+          9.520416,
+          6.627583,
+          8.13375,
+          9.996999,
+          8.537958,
+          7.101708
+        ],
+        "steadyTriangles": 1102766,
+        "drawCalls": 106,
+        "pixelRatio": 1.6
+      },
+      "p95_delta_ms": 4.050291,
+      "median_delta_ms": 4.352792000000001,
+      "triangles_delta": 6264,
+      "initial_inclusive_max_ms": 21.580291
+    },
+    {
+      "name": "mobile-320",
+      "current_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 8.977125,
+        "p95Ms": 12.127583,
+        "milliseconds": [
+          13.436833,
+          8.209208,
+          4.79725,
+          5.998458,
+          6.449999,
+          7.215125,
+          8.818916,
+          9.11025,
+          9.922874,
+          8.977125,
+          8.898249,
+          12.127583,
+          11.885041,
+          10.682375,
+          9.684624
+        ],
+        "steadyTriangles": 1120730,
+        "drawCalls": 110,
+        "pixelRatio": 1.6
+      },
+      "previous_stage10_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 9.024541,
+        "p95Ms": 11.938041,
+        "milliseconds": [
+          11.869375,
+          10.347291,
+          9.138583,
+          9.308083,
+          9.072124,
+          9.024541,
+          7.115624,
+          8.24025,
+          8.933249,
+          11.130125,
+          8.855791,
+          5.590624,
+          6.989124,
+          9.5875,
+          11.938041
+        ],
+        "steadyTriangles": 1114466,
+        "drawCalls": 107,
+        "pixelRatio": 1.6
+      },
+      "p95_delta_ms": 0.18954199999999943,
+      "median_delta_ms": -0.047416000000000125,
+      "triangles_delta": 6264,
+      "initial_inclusive_max_ms": 13.436833
+    },
+    {
+      "name": "wide",
+      "current_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 9.941,
+        "p95Ms": 10.853333,
+        "milliseconds": [
+          23.689083,
+          11.402791,
+          7.9505,
+          8.450124,
+          10.012416,
+          9.317124,
+          10.831249,
+          10.166458,
+          10.853333,
+          10.050041,
+          9.434874,
+          8.709874,
+          9.941,
+          10.265416,
+          9.260708
+        ],
+        "steadyTriangles": 1204122,
+        "drawCalls": 114,
+        "pixelRatio": 1
+      },
+      "previous_stage10_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 7.626666,
+        "p95Ms": 11.297249,
+        "milliseconds": [
+          16.253916,
+          8.799041,
+          6.997499,
+          7.828291,
+          9.663874,
+          6.317749,
+          6.614416,
+          6.803708,
+          7.626666,
+          8.666291,
+          9.453666,
+          10.744666,
+          11.297249,
+          6.234625,
+          6.754499
+        ],
+        "steadyTriangles": 1164402,
+        "drawCalls": 111,
+        "pixelRatio": 1
+      },
+      "p95_delta_ms": -0.44391600000000153,
+      "median_delta_ms": 2.3143340000000006,
+      "triangles_delta": 39720,
+      "initial_inclusive_max_ms": 23.689083
+    },
+    {
+      "name": "wood-detail",
+      "current_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 11.155208,
+        "p95Ms": 12.079583,
+        "milliseconds": [
+          22.966833,
+          24.8295,
+          11.037499,
+          11.101749,
+          11.093375,
+          11.13125,
+          12.079583,
+          11.52825,
+          11.504166,
+          11.367999,
+          11.14325,
+          11.155208,
+          11.232624,
+          11.022874,
+          11.503291
+        ],
+        "steadyTriangles": 2860506,
+        "drawCalls": 112,
+        "pixelRatio": 1
+      },
+      "previous_stage10_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 10.165749,
+        "p95Ms": 14.761583,
+        "milliseconds": [
+          21.891499,
+          14.582625,
+          9.011749,
+          10.33225,
+          10.165749,
+          9.720375,
+          9.330458,
+          9.787166,
+          10.437375,
+          14.761583,
+          13.149249,
+          11.545625,
+          10.683125,
+          10.001458,
+          9.242791
+        ],
+        "steadyTriangles": 2820786,
+        "drawCalls": 109,
+        "pixelRatio": 1
+      },
+      "p95_delta_ms": -2.6820000000000004,
+      "median_delta_ms": 0.9894590000000001,
+      "triangles_delta": 39720,
+      "initial_inclusive_max_ms": 24.8295
+    },
+    {
+      "name": "leaf-detail",
+      "current_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 11.276624,
+        "p95Ms": 12.164333,
+        "milliseconds": [
+          17.606125,
+          28.000708,
+          11.08875,
+          11.366999,
+          12.164333,
+          11.681958,
+          11.262916,
+          11.102124,
+          11.238249,
+          11.175083,
+          11.318541,
+          11.233083,
+          11.276624,
+          11.312374,
+          11.401875
+        ],
+        "steadyTriangles": 2349902,
+        "drawCalls": 86,
+        "pixelRatio": 1
+      },
+      "previous_stage10_13_samples": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 15 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 13,
+        "medianMs": 10.219541,
+        "p95Ms": 12.630999,
+        "milliseconds": [
+          26.512666,
+          28.092541,
+          9.006374,
+          10.219541,
+          9.949416,
+          8.949333,
+          9.316666,
+          9.460458,
+          10.074125,
+          10.805083,
+          12.630999,
+          12.394208,
+          11.30725,
+          11.284708,
+          10.670125
+        ],
+        "steadyTriangles": 2310290,
+        "drawCalls": 84,
+        "pixelRatio": 1
+      },
+      "p95_delta_ms": -0.466666,
+      "median_delta_ms": 1.0570830000000004,
+      "triangles_delta": 39612,
+      "initial_inclusive_max_ms": 28.000708
+    }
+  ],
+  "targeted_followup": [
+    {
+      "name": "pc",
+      "url": "http://127.0.0.1:5204/?qa=pc",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 703.0999999046326,
+        "framesMs": [
+          370.39999997615814
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "terrain": {
+            "version": "space-v2",
+            "rootContacts": [
+              {
+                "name": "Open layered maple",
+                "rootCenter": [
+                  -2.72,
+                  -0.014229551167978806,
+                  -3.55
+                ],
+                "surfaceY": -0.010229551443932172,
+                "signedBurial": -0.003999999724046634
+              },
+              {
+                "name": "Receding inclined tree",
+                "rootCenter": [
+                  -4.85,
+                  -0.018617351368354827,
+                  -5.7
+                ],
+                "surfaceY": -0.01461735102536027,
+                "signedBurial": -0.0040000003429945565
+              },
+              {
+                "name": "Distant broken canopy",
+                "rootCenter": [
+                  -5.7,
+                  -0.033,
+                  -8.3
+                ],
+                "surfaceY": -0.028999999165534973,
+                "signedBurial": -0.004000000834465028
+              },
+              {
+                "name": "Low shrub 0 axis 0",
+                "rootCenter": [
+                  -2.3471,
+                  0.02308764876554913,
+                  -1.0211999999999999
+                ],
+                "surfaceY": 0.03008764242154527,
+                "signedBurial": -0.006999993655996139
+              },
+              {
+                "name": "Low shrub 0 axis 1",
+                "rootCenter": [
+                  -2.2337000000000002,
+                  0.009269416287299333,
+                  -0.9636
+                ],
+                "surfaceY": 0.01626941934002568,
+                "signedBurial": -0.007000003052726349
+              },
+              {
+                "name": "Low shrub 0 axis 2",
+                "rootCenter": [
+                  -2.2841,
+                  0.012709745147760798,
+                  -0.9828
+                ],
+                "surfaceY": 0.019709746578953635,
+                "signedBurial": -0.007000001431192837
+              },
+              {
+                "name": "Low shrub 0 axis 3",
+                "rootCenter": [
+                  -2.2148000000000003,
+                  0.008589678370416347,
+                  -0.9571999999999999
+                ],
+                "surfaceY": 0.01558968217518586,
+                "signedBurial": -0.007000003804769513
+              },
+              {
+                "name": "Low shrub 1 axis 0",
+                "rootCenter": [
+                  -2.1059099999999997,
+                  -0.012313155640913193,
+                  -3.13824
+                ],
+                "surfaceY": -0.005313155583412832,
+                "signedBurial": -0.007000000057500361
+              },
+              {
+                "name": "Low shrub 1 axis 1",
+                "rootCenter": [
+                  -2.064015,
+                  -0.009537258400254937,
+                  -3.0896
+                ],
+                "surfaceY": -0.0025372587738105024,
+                "signedBurial": -0.006999999626444434
+              },
+              {
+                "name": "Low shrub 1 axis 2",
+                "rootCenter": [
+                  -2.03409,
+                  -0.0090159081963163,
+                  -3.1321600000000003
+                ],
+                "surfaceY": -0.0020159077740425912,
+                "signedBurial": -0.007000000422273708
+              },
+              {
+                "name": "Low shrub 1 axis 3",
+                "rootCenter": [
+                  -2.087955,
+                  -0.010829623521391227,
+                  -3.10176
+                ],
+                "surfaceY": -0.003829625056835373,
+                "signedBurial": -0.006999998464555854
+              },
+              {
+                "name": "Low shrub 2 axis 0",
+                "rootCenter": [
+                  -3.13796,
+                  -0.013217772189386837,
+                  -2.12736
+                ],
+                "surfaceY": -0.0062177705945318795,
+                "signedBurial": -0.0070000015948549574
+              },
+              {
+                "name": "Low shrub 2 axis 1",
+                "rootCenter": [
+                  -3.058265,
+                  -0.007326159952956622,
+                  -2.1641600000000003
+                ],
+                "surfaceY": -0.00032616382815237044,
+                "signedBurial": -0.006999996124804252
+              },
+              {
+                "name": "Low shrub 2 axis 2",
+                "rootCenter": [
+                  -3.0872450000000002,
+                  -0.012532953180321958,
+                  -2.0979200000000002
+                ],
+                "surfaceY": -0.005532957373764857,
+                "signedBurial": -0.006999995806557101
+              },
+              {
+                "name": "Low shrub 2 axis 3",
+                "rootCenter": [
+                  -3.06551,
+                  -0.009430139090002084,
+                  -2.13472
+                ],
+                "surfaceY": -0.0024301429338798863,
+                "signedBurial": -0.006999996156122198
+              },
+              {
+                "name": "Low shrub 2 axis 4",
+                "rootCenter": [
+                  -3.0510200000000003,
+                  -0.009956732329385001,
+                  -2.1126400000000003
+                ],
+                "surfaceY": -0.0029567349690363676,
+                "signedBurial": -0.006999997360348634
+              }
+            ],
+            "heightSource": "The same lossless512px linear data field used by the ground material",
+            "triangles": 34662,
+            "samples": [
+              {
+                "x": -2.11,
+                "z": -1.6,
+                "y": 0.027102205305382848
+              },
+              {
+                "x": -2.78,
+                "z": -0.25,
+                "y": -0.02183145739822721
+              },
+              {
+                "x": -3.1,
+                "z": 0.81,
+                "y": 0.04102302083594062
+              },
+              {
+                "x": 0,
+                "z": 0,
+                "y": -0.022
+              }
+            ]
+          },
+          "phase": "Space v2: supported veranda, layered room, real weathered stone volume and one-sided growing ground; fixed hero and cameras",
+          "materialMaps": [
+            {
+              "url": "http://127.0.0.1:5204/garden/mineral.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5204/garden/moss.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5204/garden/terrain-field.webp",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "roomLight": {
+            "position": [
+              3.85556702385845,
+              2.49,
+              -0.9847959040225901
+            ],
+            "target": [
+              4.4678129635529,
+              1.05,
+              -4.43291929353864
+            ],
+            "shadowMap": 1024,
+            "porchFillPosition": [
+              2.974399951827093,
+              1.74,
+              -2.031478564224662
+            ],
+            "porchFill": "Weak room bounce approximation within the deep room; no emissive visible object"
+          },
+          "contacts": [
+            {
+              "foot": "Low_ceramic_foot",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10097949145919802,
+              "gapMetres": 5.078818726411694e-07
+            },
+            {
+              "foot": "Low_ceramic_foot001",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10137052685022355,
+              "gapMetres": -0.00039052750915288814
+            },
+            {
+              "foot": "Low_ceramic_foot002",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10155501782000514,
+              "gapMetres": -0.0005750184789344859
+            },
+            {
+              "foot": "Low_ceramic_foot003",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10125908552944689,
+              "gapMetres": -0.0002790861883762291
+            }
+          ],
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 11,
+            "triangles": 32504,
+            "version": "space-v2",
+            "houseYaw": -0.21,
+            "frontEdge": [
+              1.385598050545855,
+              0.3,
+              0.0019934711092693125
+            ],
+            "deckTop": 0.31,
+            "interiorFloorTop": 0.376,
+            "verandaSupportContacts": [
+              {
+                "position": [
+                  2.6153218781906085,
+                  -4.664169760896521
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              },
+              {
+                "position": [
+                  2.2859552364337716,
+                  -3.1188809156323685
+                ],
+                "groundY": -0.015752144982131847,
+                "stoneBottom": -0.03575214498213185,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.01575214642218084,
+                "stoneBottomToGround": -0.019999998559951007
+              },
+              {
+                "position": [
+                  1.954503995678473,
+                  -1.5638117612209725
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              },
+              {
+                "position": [
+                  1.6689139328893168,
+                  -0.22390940804888929
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              }
+            ],
+            "roomOpening": {
+              "front": [
+                2.2884598998460994,
+                1.5,
+                -0.8280309147241482
+              ],
+              "rear": [
+                2.7887636594767384,
+                1.5,
+                -3.175305110062104
+              ],
+              "yMin": 0.402,
+              "yMax": 2.448
+            },
+            "layers": [
+              "floorboards 44mm",
+              "support beams125mm",
+              "short posts200mm",
+              "buried foundation feet",
+              "grooved66mm threshold",
+              "158mm-deep posts",
+              "recessed room and alcove",
+              "separate joists/rafters/roof"
+            ],
+            "rearBoundaryZ": -5.15
+          },
+          "planting": {
+            "rootCenters": [
+              {
+                "name": "Open layered maple",
+                "position": [
+                  -2.72,
+                  -0.014229551167978806,
+                  -3.55
+                ]
+              },
+              {
+                "name": "Receding inclined tree",
+                "position": [
+                  -4.85,
+                  -0.018617351368354827,
+                  -5.7
+                ]
+              },
+              {
+                "name": "Distant broken canopy",
+                "position": [
+                  -5.7,
+                  -0.033,
+                  -8.3
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 0",
+                "position": [
+                  -2.3471,
+                  0.02308764876554913,
+                  -1.0211999999999999
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 1",
+                "position": [
+                  -2.2337000000000002,
+                  0.009269416287299333,
+                  -0.9636
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 2",
+                "position": [
+                  -2.2841,
+                  0.012709745147760798,
+                  -0.9828
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 3",
+                "position": [
+                  -2.2148000000000003,
+                  0.008589678370416347,
+                  -0.9571999999999999
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 0",
+                "position": [
+                  -2.1059099999999997,
+                  -0.012313155640913193,
+                  -3.13824
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 1",
+                "position": [
+                  -2.064015,
+                  -0.009537258400254937,
+                  -3.0896
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 2",
+                "position": [
+                  -2.03409,
+                  -0.0090159081963163,
+                  -3.1321600000000003
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 3",
+                "position": [
+                  -2.087955,
+                  -0.010829623521391227,
+                  -3.10176
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 0",
+                "position": [
+                  -3.13796,
+                  -0.013217772189386837,
+                  -2.12736
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 1",
+                "position": [
+                  -3.058265,
+                  -0.007326159952956622,
+                  -2.1641600000000003
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 2",
+                "position": [
+                  -3.0872450000000002,
+                  -0.012532953180321958,
+                  -2.0979200000000002
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 3",
+                "position": [
+                  -3.06551,
+                  -0.009430139090002084,
+                  -2.13472
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 4",
+                "position": [
+                  -3.0510200000000003,
+                  -0.009956732329385001,
+                  -2.1126400000000003
+                ]
+              }
+            ],
+            "design": "Three authored axes with concentrated inner short branches concealing selected arms; compact multi-axial shrubs return toward the stones; closed distant leaves retain a lower triangle count",
+            "specimens": [
+              {
+                "name": "Open layered maple",
+                "origin": [
+                  -2.72,
+                  0,
+                  -3.55
+                ],
+                "kind": "maple",
+                "primaryArms": 5
+              },
+              {
+                "name": "Receding inclined tree",
+                "origin": [
+                  -4.85,
+                  0,
+                  -5.7
+                ],
+                "kind": "distant",
+                "primaryArms": 4
+              },
+              {
+                "name": "Distant broken canopy",
+                "origin": [
+                  -5.7,
+                  0,
+                  -8.3
+                ],
+                "kind": "distant",
+                "primaryArms": 5
+              }
+            ],
+            "shrubOrigins": [
+              [
+                -2.24,
+                -0.97
+              ],
+              [
+                -2.07,
+                -3.12
+              ],
+              [
+                -3.08,
+                -2.12
+              ]
+            ],
+            "branchTriangles": 18818,
+            "leafInstances": 3667,
+            "leafTriangles": 59676,
+            "leafGroups": [
+              {
+                "kind": "maple",
+                "instances": 1306,
+                "trianglesPerLeaf": 24,
+                "triangles": 31344
+              },
+              {
+                "kind": "distant",
+                "instances": 1386,
+                "trianglesPerLeaf": 12,
+                "triangles": 16632
+              },
+              {
+                "kind": "shrub",
+                "instances": 975,
+                "trianglesPerLeaf": 12,
+                "triangles": 11700
+              }
+            ],
+            "rootGroundHeightSamples": [
+              {
+                "x": -2.72,
+                "z": -3.55,
+                "groundY": -0.010229551167978806
+              },
+              {
+                "x": -4.85,
+                "z": -5.7,
+                "groundY": -0.014617351368354826
+              },
+              {
+                "x": -5.7,
+                "z": -8.3,
+                "groundY": -0.029
+              },
+              {
+                "x": -2.24,
+                "z": -0.97,
+                "groundY": 0.017489117309718125
+              },
+              {
+                "x": -2.07,
+                "z": -3.12,
+                "groundY": -0.0034544822941361313
+              },
+              {
+                "x": -3.08,
+                "z": -2.12,
+                "groundY": -0.004001518112335791
+              }
+            ],
+            "mossTufts": 0,
+            "mossTuftTriangles": 0,
+            "mossDetail": "Authored shore and soil hollows share one relief field with geometry; no moss sheet or scattered tetrahedra"
+          },
+          "largeGardenStones": [
+            {
+              "id": "boulder_01",
+              "center": [
+                -1.94,
+                -1.58
+              ],
+              "horizontalExtent": 1.2,
+              "yaw": 1.2,
+              "burial": 0.145,
+              "triangles": 23000,
+              "bounds": {
+                "min": [
+                  -2.5399999618530273,
+                  -0.16699999570846558,
+                  -2.023521900177002
+                ],
+                "max": [
+                  -1.340000033378601,
+                  0.482671856880188,
+                  -1.136478066444397
+                ]
+              },
+              "material": "Local CC0 PBR, matte roughness lower bound .90, ground-field root transition",
+              "source": "https://polyhaven.com/a/boulder_01",
+              "textures": [
+                {
+                  "url": "http://127.0.0.1:5204/rocks/boulder_01_diff.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5204/rocks/boulder_01_nor_gl.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5204/rocks/boulder_01_arm.webp",
+                  "width": 512,
+                  "height": 512
+                }
+              ]
+            },
+            {
+              "id": "rock_09",
+              "center": [
+                -2.8,
+                -2.7
+              ],
+              "horizontalExtent": 0.83,
+              "yaw": 0.85,
+              "burial": 0.03,
+              "triangles": 12416,
+              "bounds": {
+                "min": [
+                  -3.1851282119750977,
+                  -0.052000001072883606,
+                  -3.115000009536743
+                ],
+                "max": [
+                  -2.41487193107605,
+                  0.16853880882263184,
+                  -2.2850000858306885
+                ]
+              },
+              "material": "Local CC0 PBR, matte roughness lower bound .90, ground-field root transition",
+              "source": "https://polyhaven.com/a/rock_09",
+              "textures": [
+                {
+                  "url": "http://127.0.0.1:5204/rocks/rock_09_diff.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5204/rocks/rock_09_nor_gl.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5204/rocks/rock_09_arm.webp",
+                  "width": 512,
+                  "height": 512
+                }
+              ]
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Same cool sky/moon and hero key; moon now occluded by real architecture, warm concealed room lighting, no visible glow surface"
+        },
+        "layout": "night-b",
+        "framing": {
+          "left": 0.16898449577243646,
+          "right": 0.7710482044552744,
+          "top": 0.09999999999999981,
+          "bottom": 0.9
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 3.1155957641752177,
+          "zoom": 1,
+          "position": [
+            0.055556653840810793,
+            1.2215507457191122,
+            3.0791909558671455
+          ],
+          "target": [
+            0.055556653840810793,
+            0.6805332189232783,
+            0.010928092055396528
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 346,
+        "triangles": 3591912,
+        "navigationToFirstFrameMs": 753.2999999523163
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 62 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 60,
+        "medianMs": 11.349041,
+        "p95Ms": 16.379,
+        "milliseconds": [
+          23.409708,
+          12.944041,
+          7.355875,
+          7.622999,
+          9.5575,
+          13.004499,
+          17.772208,
+          15.727208,
+          12.653749,
+          14.699083,
+          12.217874,
+          10.264374,
+          10.879749,
+          11.262791,
+          16.756625,
+          10.859208,
+          11.349041,
+          12.133874,
+          10.832791,
+          9.130666,
+          9.868041,
+          11.134625,
+          9.320499,
+          8.665499,
+          9.768208,
+          9.18175,
+          7.912291,
+          9.201333,
+          8.849749,
+          7.742249,
+          8.303374,
+          9.119499,
+          11.080124,
+          11.177916,
+          10.081333,
+          11.442541,
+          10.277374,
+          10.931124,
+          11.453916,
+          12.252875,
+          16.600625,
+          11.160374,
+          11.533749,
+          11.187999,
+          16.051625,
+          13.791874,
+          11.398083,
+          11.939333,
+          12.416749,
+          15.267416,
+          12.518083,
+          16.379,
+          12.998583,
+          11.098458,
+          13.578791,
+          12.520041,
+          11.43425,
+          11.959583,
+          14.556333,
+          11.9715,
+          12.540124,
+          14.887875
+        ],
+        "steadyTriangles": 1204122,
+        "drawCalls": 114,
+        "pixelRatio": 1
+      }
+    },
+    {
+      "name": "mobile-390",
+      "url": "http://127.0.0.1:5204/?qa=mobile-390",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 483.7999999523163,
+        "framesMs": [
+          234.59999990463257
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "garden": {
+          "terrain": {
+            "version": "space-v2",
+            "rootContacts": [
+              {
+                "name": "Open layered maple",
+                "rootCenter": [
+                  -2.72,
+                  -0.014229551167978806,
+                  -3.55
+                ],
+                "surfaceY": -0.010229551443932172,
+                "signedBurial": -0.003999999724046634
+              },
+              {
+                "name": "Receding inclined tree",
+                "rootCenter": [
+                  -4.85,
+                  -0.018617351368354827,
+                  -5.7
+                ],
+                "surfaceY": -0.01461735102536027,
+                "signedBurial": -0.0040000003429945565
+              },
+              {
+                "name": "Distant broken canopy",
+                "rootCenter": [
+                  -5.7,
+                  -0.033,
+                  -8.3
+                ],
+                "surfaceY": -0.028999999165534973,
+                "signedBurial": -0.004000000834465028
+              },
+              {
+                "name": "Low shrub 0 axis 0",
+                "rootCenter": [
+                  -2.3471,
+                  0.02308764876554913,
+                  -1.0211999999999999
+                ],
+                "surfaceY": 0.03008764242154527,
+                "signedBurial": -0.006999993655996139
+              },
+              {
+                "name": "Low shrub 0 axis 1",
+                "rootCenter": [
+                  -2.2337000000000002,
+                  0.009269416287299333,
+                  -0.9636
+                ],
+                "surfaceY": 0.01626941934002568,
+                "signedBurial": -0.007000003052726349
+              },
+              {
+                "name": "Low shrub 0 axis 2",
+                "rootCenter": [
+                  -2.2841,
+                  0.012709745147760798,
+                  -0.9828
+                ],
+                "surfaceY": 0.019709746578953635,
+                "signedBurial": -0.007000001431192837
+              },
+              {
+                "name": "Low shrub 0 axis 3",
+                "rootCenter": [
+                  -2.2148000000000003,
+                  0.008589678370416347,
+                  -0.9571999999999999
+                ],
+                "surfaceY": 0.01558968217518586,
+                "signedBurial": -0.007000003804769513
+              },
+              {
+                "name": "Low shrub 1 axis 0",
+                "rootCenter": [
+                  -2.1059099999999997,
+                  -0.012313155640913193,
+                  -3.13824
+                ],
+                "surfaceY": -0.005313155583412832,
+                "signedBurial": -0.007000000057500361
+              },
+              {
+                "name": "Low shrub 1 axis 1",
+                "rootCenter": [
+                  -2.064015,
+                  -0.009537258400254937,
+                  -3.0896
+                ],
+                "surfaceY": -0.0025372587738105024,
+                "signedBurial": -0.006999999626444434
+              },
+              {
+                "name": "Low shrub 1 axis 2",
+                "rootCenter": [
+                  -2.03409,
+                  -0.0090159081963163,
+                  -3.1321600000000003
+                ],
+                "surfaceY": -0.0020159077740425912,
+                "signedBurial": -0.007000000422273708
+              },
+              {
+                "name": "Low shrub 1 axis 3",
+                "rootCenter": [
+                  -2.087955,
+                  -0.010829623521391227,
+                  -3.10176
+                ],
+                "surfaceY": -0.003829625056835373,
+                "signedBurial": -0.006999998464555854
+              },
+              {
+                "name": "Low shrub 2 axis 0",
+                "rootCenter": [
+                  -3.13796,
+                  -0.013217772189386837,
+                  -2.12736
+                ],
+                "surfaceY": -0.0062177705945318795,
+                "signedBurial": -0.0070000015948549574
+              },
+              {
+                "name": "Low shrub 2 axis 1",
+                "rootCenter": [
+                  -3.058265,
+                  -0.007326159952956622,
+                  -2.1641600000000003
+                ],
+                "surfaceY": -0.00032616382815237044,
+                "signedBurial": -0.006999996124804252
+              },
+              {
+                "name": "Low shrub 2 axis 2",
+                "rootCenter": [
+                  -3.0872450000000002,
+                  -0.012532953180321958,
+                  -2.0979200000000002
+                ],
+                "surfaceY": -0.005532957373764857,
+                "signedBurial": -0.006999995806557101
+              },
+              {
+                "name": "Low shrub 2 axis 3",
+                "rootCenter": [
+                  -3.06551,
+                  -0.009430139090002084,
+                  -2.13472
+                ],
+                "surfaceY": -0.0024301429338798863,
+                "signedBurial": -0.006999996156122198
+              },
+              {
+                "name": "Low shrub 2 axis 4",
+                "rootCenter": [
+                  -3.0510200000000003,
+                  -0.009956732329385001,
+                  -2.1126400000000003
+                ],
+                "surfaceY": -0.0029567349690363676,
+                "signedBurial": -0.006999997360348634
+              }
+            ],
+            "heightSource": "The same lossless512px linear data field used by the ground material",
+            "triangles": 34662,
+            "samples": [
+              {
+                "x": -2.11,
+                "z": -1.6,
+                "y": 0.027102205305382848
+              },
+              {
+                "x": -2.78,
+                "z": -0.25,
+                "y": -0.02183145739822721
+              },
+              {
+                "x": -3.1,
+                "z": 0.81,
+                "y": 0.04102302083594062
+              },
+              {
+                "x": 0,
+                "z": 0,
+                "y": -0.022
+              }
+            ]
+          },
+          "phase": "Space v2: supported veranda, layered room, real weathered stone volume and one-sided growing ground; fixed hero and cameras",
+          "materialMaps": [
+            {
+              "url": "http://127.0.0.1:5204/garden/mineral.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5204/garden/moss.webp",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "url": "http://127.0.0.1:5204/garden/terrain-field.webp",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "roomLight": {
+            "position": [
+              3.85556702385845,
+              2.49,
+              -0.9847959040225901
+            ],
+            "target": [
+              4.4678129635529,
+              1.05,
+              -4.43291929353864
+            ],
+            "shadowMap": 1024,
+            "porchFillPosition": [
+              2.974399951827093,
+              1.74,
+              -2.031478564224662
+            ],
+            "porchFill": "Weak room bounce approximation within the deep room; no emissive visible object"
+          },
+          "contacts": [
+            {
+              "foot": "Low_ceramic_foot",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10097949145919802,
+              "gapMetres": 5.078818726411694e-07
+            },
+            {
+              "foot": "Low_ceramic_foot001",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10137052685022355,
+              "gapMetres": -0.00039052750915288814
+            },
+            {
+              "foot": "Low_ceramic_foot002",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10155501782000514,
+              "gapMetres": -0.0005750184789344859
+            },
+            {
+              "foot": "Low_ceramic_foot003",
+              "footBottomY": 0.10097999934107066,
+              "stoneTopY": 0.10125908552944689,
+              "gapMetres": -0.0002790861883762291
+            }
+          ],
+          "reference": "hybrid-1132/desktop-candidate01.png",
+          "architecture": {
+            "drawCalls": 11,
+            "triangles": 32504,
+            "version": "space-v2",
+            "houseYaw": -0.21,
+            "frontEdge": [
+              1.385598050545855,
+              0.3,
+              0.0019934711092693125
+            ],
+            "deckTop": 0.31,
+            "interiorFloorTop": 0.376,
+            "verandaSupportContacts": [
+              {
+                "position": [
+                  2.6153218781906085,
+                  -4.664169760896521
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              },
+              {
+                "position": [
+                  2.2859552364337716,
+                  -3.1188809156323685
+                ],
+                "groundY": -0.015752144982131847,
+                "stoneBottom": -0.03575214498213185,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.01575214642218084,
+                "stoneBottomToGround": -0.019999998559951007
+              },
+              {
+                "position": [
+                  1.954503995678473,
+                  -1.5638117612209725
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              },
+              {
+                "position": [
+                  1.6689139328893168,
+                  -0.22390940804888929
+                ],
+                "groundY": -0.022,
+                "stoneBottom": -0.041999999999999996,
+                "stoneTop": 0.027,
+                "woodBottom": 0.025,
+                "woodTop": 0.225,
+                "actualStoneTopY": 0.026999998837709427,
+                "woodToStoneGap": -0.0019999988377094255,
+                "actualGroundY": -0.02199999988079071,
+                "stoneBottomToGround": -0.020000000119209285
+              }
+            ],
+            "roomOpening": {
+              "front": [
+                2.2884598998460994,
+                1.5,
+                -0.8280309147241482
+              ],
+              "rear": [
+                2.7887636594767384,
+                1.5,
+                -3.175305110062104
+              ],
+              "yMin": 0.402,
+              "yMax": 2.448
+            },
+            "layers": [
+              "floorboards 44mm",
+              "support beams125mm",
+              "short posts200mm",
+              "buried foundation feet",
+              "grooved66mm threshold",
+              "158mm-deep posts",
+              "recessed room and alcove",
+              "separate joists/rafters/roof"
+            ],
+            "rearBoundaryZ": -5.15
+          },
+          "planting": {
+            "rootCenters": [
+              {
+                "name": "Open layered maple",
+                "position": [
+                  -2.72,
+                  -0.014229551167978806,
+                  -3.55
+                ]
+              },
+              {
+                "name": "Receding inclined tree",
+                "position": [
+                  -4.85,
+                  -0.018617351368354827,
+                  -5.7
+                ]
+              },
+              {
+                "name": "Distant broken canopy",
+                "position": [
+                  -5.7,
+                  -0.033,
+                  -8.3
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 0",
+                "position": [
+                  -2.3471,
+                  0.02308764876554913,
+                  -1.0211999999999999
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 1",
+                "position": [
+                  -2.2337000000000002,
+                  0.009269416287299333,
+                  -0.9636
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 2",
+                "position": [
+                  -2.2841,
+                  0.012709745147760798,
+                  -0.9828
+                ]
+              },
+              {
+                "name": "Low shrub 0 axis 3",
+                "position": [
+                  -2.2148000000000003,
+                  0.008589678370416347,
+                  -0.9571999999999999
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 0",
+                "position": [
+                  -2.1059099999999997,
+                  -0.012313155640913193,
+                  -3.13824
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 1",
+                "position": [
+                  -2.064015,
+                  -0.009537258400254937,
+                  -3.0896
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 2",
+                "position": [
+                  -2.03409,
+                  -0.0090159081963163,
+                  -3.1321600000000003
+                ]
+              },
+              {
+                "name": "Low shrub 1 axis 3",
+                "position": [
+                  -2.087955,
+                  -0.010829623521391227,
+                  -3.10176
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 0",
+                "position": [
+                  -3.13796,
+                  -0.013217772189386837,
+                  -2.12736
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 1",
+                "position": [
+                  -3.058265,
+                  -0.007326159952956622,
+                  -2.1641600000000003
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 2",
+                "position": [
+                  -3.0872450000000002,
+                  -0.012532953180321958,
+                  -2.0979200000000002
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 3",
+                "position": [
+                  -3.06551,
+                  -0.009430139090002084,
+                  -2.13472
+                ]
+              },
+              {
+                "name": "Low shrub 2 axis 4",
+                "position": [
+                  -3.0510200000000003,
+                  -0.009956732329385001,
+                  -2.1126400000000003
+                ]
+              }
+            ],
+            "design": "Three authored axes with concentrated inner short branches concealing selected arms; compact multi-axial shrubs return toward the stones; closed distant leaves retain a lower triangle count",
+            "specimens": [
+              {
+                "name": "Open layered maple",
+                "origin": [
+                  -2.72,
+                  0,
+                  -3.55
+                ],
+                "kind": "maple",
+                "primaryArms": 5
+              },
+              {
+                "name": "Receding inclined tree",
+                "origin": [
+                  -4.85,
+                  0,
+                  -5.7
+                ],
+                "kind": "distant",
+                "primaryArms": 4
+              },
+              {
+                "name": "Distant broken canopy",
+                "origin": [
+                  -5.7,
+                  0,
+                  -8.3
+                ],
+                "kind": "distant",
+                "primaryArms": 5
+              }
+            ],
+            "shrubOrigins": [
+              [
+                -2.24,
+                -0.97
+              ],
+              [
+                -2.07,
+                -3.12
+              ],
+              [
+                -3.08,
+                -2.12
+              ]
+            ],
+            "branchTriangles": 18818,
+            "leafInstances": 3667,
+            "leafTriangles": 59676,
+            "leafGroups": [
+              {
+                "kind": "maple",
+                "instances": 1306,
+                "trianglesPerLeaf": 24,
+                "triangles": 31344
+              },
+              {
+                "kind": "distant",
+                "instances": 1386,
+                "trianglesPerLeaf": 12,
+                "triangles": 16632
+              },
+              {
+                "kind": "shrub",
+                "instances": 975,
+                "trianglesPerLeaf": 12,
+                "triangles": 11700
+              }
+            ],
+            "rootGroundHeightSamples": [
+              {
+                "x": -2.72,
+                "z": -3.55,
+                "groundY": -0.010229551167978806
+              },
+              {
+                "x": -4.85,
+                "z": -5.7,
+                "groundY": -0.014617351368354826
+              },
+              {
+                "x": -5.7,
+                "z": -8.3,
+                "groundY": -0.029
+              },
+              {
+                "x": -2.24,
+                "z": -0.97,
+                "groundY": 0.017489117309718125
+              },
+              {
+                "x": -2.07,
+                "z": -3.12,
+                "groundY": -0.0034544822941361313
+              },
+              {
+                "x": -3.08,
+                "z": -2.12,
+                "groundY": -0.004001518112335791
+              }
+            ],
+            "mossTufts": 0,
+            "mossTuftTriangles": 0,
+            "mossDetail": "Authored shore and soil hollows share one relief field with geometry; no moss sheet or scattered tetrahedra"
+          },
+          "largeGardenStones": [
+            {
+              "id": "boulder_01",
+              "center": [
+                -1.94,
+                -1.58
+              ],
+              "horizontalExtent": 1.2,
+              "yaw": 1.2,
+              "burial": 0.145,
+              "triangles": 23000,
+              "bounds": {
+                "min": [
+                  -2.5399999618530273,
+                  -0.16699999570846558,
+                  -2.023521900177002
+                ],
+                "max": [
+                  -1.340000033378601,
+                  0.482671856880188,
+                  -1.136478066444397
+                ]
+              },
+              "material": "Local CC0 PBR, matte roughness lower bound .90, ground-field root transition",
+              "source": "https://polyhaven.com/a/boulder_01",
+              "textures": [
+                {
+                  "url": "http://127.0.0.1:5204/rocks/boulder_01_diff.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5204/rocks/boulder_01_nor_gl.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5204/rocks/boulder_01_arm.webp",
+                  "width": 512,
+                  "height": 512
+                }
+              ]
+            },
+            {
+              "id": "rock_09",
+              "center": [
+                -2.8,
+                -2.7
+              ],
+              "horizontalExtent": 0.83,
+              "yaw": 0.85,
+              "burial": 0.03,
+              "triangles": 12416,
+              "bounds": {
+                "min": [
+                  -3.1851282119750977,
+                  -0.052000001072883606,
+                  -3.115000009536743
+                ],
+                "max": [
+                  -2.41487193107605,
+                  0.16853880882263184,
+                  -2.2850000858306885
+                ]
+              },
+              "material": "Local CC0 PBR, matte roughness lower bound .90, ground-field root transition",
+              "source": "https://polyhaven.com/a/rock_09",
+              "textures": [
+                {
+                  "url": "http://127.0.0.1:5204/rocks/rock_09_diff.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5204/rocks/rock_09_nor_gl.webp",
+                  "width": 1024,
+                  "height": 1024
+                },
+                {
+                  "url": "http://127.0.0.1:5204/rocks/rock_09_arm.webp",
+                  "width": 512,
+                  "height": 512
+                }
+              ]
+            }
+          ],
+          "scatteredSmallStoneObjects": 0,
+          "groundBaseY": -0.022,
+          "stoneMinimumY": -0.0497234085,
+          "stoneBurialAtNominalGround": 0.0277234085,
+          "lightDesign": "Same cool sky/moon and hero key; moon now occluded by real architecture, warm concealed room lighting, no visible glow surface"
+        },
+        "layout": "night-b",
+        "framing": {
+          "left": 0.029999999999999916,
+          "right": 0.9700000000000002,
+          "top": 0.268723227265125,
+          "bottom": 0.6864279911928374
+        },
+        "camera": {
+          "yaw": -27,
+          "pitch": 9,
+          "distance": 5.8039889836772804,
+          "zoom": 1,
+          "position": [
+            -2.6632328971515777,
+            1.4838296994183882,
+            5.131972210861256
+          ],
+          "target": [
+            -0.06071771705420628,
+            0.5758857876574395,
+            0.024248577665524292
+          ]
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 341,
+        "triangles": 3496820,
+        "navigationToFirstFrameMs": 501.6999999284744
+      },
+      "text": "",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "gpuTimer": {
+        "supported": true,
+        "invalid": false,
+        "method": "EXT_disjoint_timer_query_webgl2, 62 renders, first 2 excluded from summary; actual same Mac GPU for both viewports",
+        "sampleCount": 60,
+        "medianMs": 10.400333,
+        "p95Ms": 15.748458,
+        "milliseconds": [
+          16.324666,
+          14.287124,
+          9.727374,
+          12.299666,
+          7.965874,
+          7.701458,
+          10.880833,
+          10.743624,
+          11.663666,
+          9.787624,
+          8.022041,
+          13.862083,
+          12.842916,
+          16.469125,
+          16.598875,
+          13.483208,
+          11.9,
+          13.061499,
+          12.698,
+          9.831916,
+          11.379166,
+          9.247749,
+          10.579249,
+          12.133166,
+          15.092624,
+          12.398166,
+          15.415749,
+          8.819208,
+          7.979625,
+          17.387375,
+          9.147749,
+          9.611666,
+          7.946999,
+          9.109916,
+          10.043499,
+          12.405916,
+          11.892708,
+          10.050916,
+          11.729666,
+          9.953333,
+          11.359749,
+          10.400333,
+          8.925916,
+          9.18975,
+          11.9375,
+          9.287333,
+          10.160541,
+          12.115875,
+          10.207624,
+          11.905666,
+          10.823374,
+          9.608624,
+          7.991,
+          8.837,
+          10.114041,
+          10.981999,
+          15.748458,
+          8.054291,
+          8.249916,
+          9.730749,
+          12.194041,
+          10.182458
+        ],
+        "steadyTriangles": 1109030,
+        "drawCalls": 109,
+        "pixelRatio": 1.6
+      }
+    }
+  ],
+  "reason_for_followup": "PC and390 p95 increased relative to stage10; exactly those two cases expanded to62 renders/60 samples. No other repeat.",
+  "interpretation": "PC followup p95 16.379ms,390 p95 15.748458ms, above prior short-run values. Added geometry and three extra ordinary draw calls are retained for image quality. No general speedup or universal60fps claim. Static scene stops rendering.",
+  "phone_emulation": "Same Mac GPU,390/320 CSS pixels,DPR3 with renderer cap1.6; no physical-phone or thermal test",
+  "slow_load": {
+    "latency_ms": 150,
+    "bytes_per_second": 200000,
+    "current_ms": 25281.899999976158,
+    "previous_ms": 15268.100000023842
+  }
+}

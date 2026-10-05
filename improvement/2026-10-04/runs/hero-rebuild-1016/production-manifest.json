@@ -1,0 +1,92 @@
+{
+  "created_at_jst": "2026-10-04T11:19:26+09:00",
+  "archive": "production-build.tar.gz",
+  "archive_sha256": "6eae26e13dc0edb83384ad399de8e47c23af4784d71d2b30e3fc5774757187c6",
+  "files": {
+    "assets/draco_decoder-C32yEggz.wasm": {
+      "bytes": 285747,
+      "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2"
+    },
+    "assets/draco_decoder-Z1_iN-Ht.wasm": {
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    "assets/draco_decoder-fzg4nYZr.js": {
+      "bytes": 719410,
+      "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04"
+    },
+    "assets/draco_wasm_wrapper-DxJM36Ib.js": {
+      "bytes": 58763,
+      "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+    },
+    "assets/draco_wasm_wrapper-fZCQGLGb.js": {
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    "assets/index-Cd_-FtpJ.js": {
+      "bytes": 743644,
+      "sha256": "6ac15c2bf3891592adf6aefbc092301420fecf57d660d9bb1dc946baa7645f9f"
+    },
+    "assets/index-DcsUSN7H.css": {
+      "bytes": 406,
+      "sha256": "fa28455eb8658a1ca1305b9e9111ffc1bcdba94eccbb4c3fd79c6697a41a6418"
+    },
+    "draco/LICENSE": {
+      "bytes": 13898,
+      "sha256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4"
+    },
+    "draco/README.md": {
+      "bytes": 1395,
+      "sha256": "839850a67c93f6b26d3cc038a45bd8289e3cfdf15531e69339e8eb1282b4eb76"
+    },
+    "draco/draco_decoder.js": {
+      "bytes": 512465,
+      "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f"
+    },
+    "draco/draco_decoder.wasm": {
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    "draco/draco_wasm_wrapper.js": {
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    "index.html": {
+      "bytes": 1288,
+      "sha256": "2c1b0cbc2a3afe835d2d9fc709a0c81d591d03f16d9809896f5493dc919d4ba1"
+    },
+    "models/bonsai-structural-study.glb": {
+      "bytes": 4927692,
+      "sha256": "27d6c7d4a5fffcdf6237e919128eb6a690dba26151fe4092060c1e2e640f3df2"
+    },
+    "still-320.webp": {
+      "bytes": 149952,
+      "sha256": "7f0040f8d9d4e93c85c281a3a240dd2ce19c78a8761eba866bb813007a81c3c3"
+    },
+    "still-desktop.webp": {
+      "bytes": 588660,
+      "sha256": "72335dde96703c3ac1b8354920d3a1d6bbe47d0e3470bc657c32c1ad62ac4057"
+    },
+    "still-landscape.webp": {
+      "bytes": 134358,
+      "sha256": "096b3fb45051ac4197dee67968d4adc34be9863b8fac9364e04747f046300c22"
+    },
+    "still-mobile.webp": {
+      "bytes": 168680,
+      "sha256": "965b93a138f28d0082b178150474ba23bd1057a35198c766f0b6c36c0ee6e317"
+    },
+    "still-portrait-medium.webp": {
+      "bytes": 152196,
+      "sha256": "71fc3f6b9e7ff17fa4821b371e032b91386d38331d71c8ec10f5cd4bbe46e42d"
+    },
+    "still-portrait-short.webp": {
+      "bytes": 97392,
+      "sha256": "25aad1b6325e42ebf24fc713c6bc906057e63a7b23cf4967ea9ce3408e5820c2"
+    },
+    "still-portrait-wide.webp": {
+      "bytes": 426772,
+      "sha256": "7d7bd168ae6df71df549ab285dc754261f1862382a718c512bc89554e35527f9"
+    }
+  },
+  "status": "unadopted structural prototype"
+}

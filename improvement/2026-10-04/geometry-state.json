@@ -1,0 +1,11 @@
+{
+  "updated_at_jst": "2026-10-04T22:43:09.977336+09:00",
+  "run": "anatomy-2150",
+  "geometry": "cage-v06",
+  "editable_native": "runs/anatomy-2150/models/best-coarse.blend",
+  "inspection_glb": "runs/anatomy-2150/models/cage-v06.glb",
+  "gate": "passed; volume, root contact outline and primary connections only",
+  "not_a_production_release": true,
+  "runtime_candidate_unchanged": "volume-rebuild-1656-v23",
+  "report": "runs/anatomy-2150/REPORT.md"
+}

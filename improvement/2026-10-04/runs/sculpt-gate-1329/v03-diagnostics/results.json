@@ -1,0 +1,190 @@
+{
+  "results": [
+    {
+      "name": "daylight",
+      "url": "http://127.0.0.1:5188/?study=material&qa=daylight",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 2176.600000023842,
+        "framesMs": [
+          1216.1000000238419
+        ],
+        "model": {
+          "meshes": 10,
+          "vertices": 1781829,
+          "hasWoodMasks": true
+        },
+        "framing": {
+          "left": 0.2059212203611699,
+          "right": 0.789290333081012,
+          "top": 0.13737452749796342,
+          "bottom": 0.9299999999999999
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 4.987507151438885,
+          "position": [
+            -0.12876403331756592,
+            2.349591743220518,
+            4.803749048548495
+          ],
+          "target": [
+            -0.12876403331756592,
+            1.2276467509567737,
+            -0.05592861771583557
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 21,
+        "triangles": 4549310
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "daylight-no-shadow",
+      "url": "http://127.0.0.1:5188/?study=material&shadow=0&qa=daylight-no-shadow",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 1000.1000000238419,
+        "framesMs": [
+          96.80000001192093
+        ],
+        "model": {
+          "meshes": 10,
+          "vertices": 1781829,
+          "hasWoodMasks": true
+        },
+        "framing": {
+          "left": 0.2059212203611699,
+          "right": 0.789290333081012,
+          "top": 0.13737452749796342,
+          "bottom": 0.9299999999999999
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 4.987507151438885,
+          "position": [
+            -0.12876403331756592,
+            2.349591743220518,
+            4.803749048548495
+          ],
+          "target": [
+            -0.12876403331756592,
+            1.2276467509567737,
+            -0.05592861771583557
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 21,
+        "triangles": 4549310
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "normals",
+      "url": "http://127.0.0.1:5188/?study=normals&bare=1&qa=normals",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "normals",
+        "reduced": true,
+        "firstFrameMs": 816.1999999880791,
+        "framesMs": [
+          42.30000001192093
+        ],
+        "model": {
+          "meshes": 10,
+          "vertices": 1781829,
+          "hasWoodMasks": true
+        },
+        "framing": {
+          "left": 0.2124249858916727,
+          "right": 0.7805356470819504,
+          "top": 0.14060842507403104,
+          "bottom": 0.9299999999999999
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 4.8435924802927985,
+          "position": [
+            -0.11705029010772705,
+            2.2593986197555767,
+            4.6443018634740705
+          ],
+          "target": [
+            -0.11705029010772705,
+            1.1698273845016955,
+            -0.07514965534210205
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 19,
+        "triangles": 739070
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": []
+}

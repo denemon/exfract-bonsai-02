@@ -1,0 +1,26 @@
+{
+  "reviewer": "/root/anatomy_review",
+  "images": [
+    "qa/selected-stills/pc.png",
+    "qa/selected-stills/mobile-390.png",
+    "qa/selected-stills/mobile-320.png",
+    "qa/selected-stills/mobile-tall.png",
+    "qa/selected-stills/pot-contact.png"
+  ],
+  "decision": "Accept final B as the next full-scene finishing basis. No clear deterioration from prior B.",
+  "improvements": [
+    "The distant tree no longer reads as a continuation of the hero crown.",
+    "Removing the low right background shrub separates the hero foliage.",
+    "Pot feet, stone and embedded ground relation read coherently.",
+    "Cool night sky, warm architecture and brown hero preserve the night hierarchy."
+  ],
+  "remaining": [
+    "Moss and gravel remain uniform.",
+    "Stone base reads as a band of planar material.",
+    "Interior materials and shadows remain flat.",
+    "Background branching remains regular.",
+    "Major hero aged form remains unfinished."
+  ],
+  "crop_correction": "Earlier tall320 crop claim remains withdrawn after actual vertex projection and isolated-subject pixels. Larger vertical margins remain, but are not a cut-off.",
+  "overall_premium_reference_quality": "Not reached."
+}

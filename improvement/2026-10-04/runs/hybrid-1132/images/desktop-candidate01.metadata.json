@@ -1,0 +1,11 @@
+{
+  "path": "/Users/kazuki.tanaka/Documents/Codex/2026-10-04/task-2/hybrid-1132-images/desktop-candidate01.png",
+  "bytes": 2952144,
+  "pixels": [
+    1586,
+    992
+  ],
+  "sha256": "22c2f2db365916f8a4c4d5f7bd9e780d6bd34bf46db169bbc2d277944d1bcc6d",
+  "source": "image_gen image_url PNG bytes, saved unchanged on this Mac",
+  "reference_input": "text description based on visually inspected attached photograph; source image bytes were not passed to imagegen"
+}

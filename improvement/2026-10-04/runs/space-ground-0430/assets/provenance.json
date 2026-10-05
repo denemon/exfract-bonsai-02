@@ -1,0 +1,104 @@
+{
+  "purpose": "Two physically modeled natural garden rocks for candidate B; no image-background replacement",
+  "assets": [
+    {
+      "id": "boulder_01",
+      "name": "Boulder 01",
+      "authors": {
+        "Rico Cilliers": "All"
+      },
+      "source_page": "https://polyhaven.com/a/boulder_01",
+      "metadata_url": "https://api.polyhaven.com/files/boulder_01",
+      "license": "CC0",
+      "license_url": "https://polyhaven.com/license",
+      "files": [
+        {
+          "file": "assets/source/boulder_01/boulder_01_1k.gltf",
+          "bytes": 2773,
+          "md5": "26e2eef4a1f68c9557c65cd375b21d6c",
+          "sha256": "51487934db898b4c24072780a451e34eca5c02e3ada24a62bbc600bbc4019e92",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/boulder_01/boulder_01_1k.gltf"
+        },
+        {
+          "file": "assets/source/boulder_01/textures/boulder_01_arm_1k.jpg",
+          "bytes": 659386,
+          "md5": "d632159982cc3121ed3d69b89a122146",
+          "sha256": "c57187c5746b6be913fa53846cb44ff78743e7ca5000f131c9627b99563c2b87",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/boulder_01/boulder_01_arm_1k.jpg"
+        },
+        {
+          "file": "assets/source/boulder_01/textures/boulder_01_diff_1k.jpg",
+          "bytes": 987467,
+          "md5": "25f8a843f13369d56d37f49db05ea8c3",
+          "sha256": "c38f0e918f6dc16b8d386ba3cdd89805c78320c119a1ceec85856f82b09a65b8",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/boulder_01/boulder_01_diff_1k.jpg"
+        },
+        {
+          "file": "assets/source/boulder_01/boulder_01.bin",
+          "bytes": 2938808,
+          "md5": "27a19fa031d8b4c3a09261f19c444dc5",
+          "sha256": "7f5b06503d62bd95bfe9c6b8a354a5cc8ff04a4d271a8cf87a3e3125db4232d7",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/boulder_01/boulder_01.bin"
+        },
+        {
+          "file": "assets/source/boulder_01/textures/boulder_01_nor_gl_1k.jpg",
+          "bytes": 1183552,
+          "md5": "0c4da644d901144b53e4fe2446f3c389",
+          "sha256": "0810cf6e89d89bb6eb065b4d2e2855288f5dcbd2c15c6e40ab90d462021b50aa",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/boulder_01/boulder_01_nor_gl_1k.jpg"
+        }
+      ]
+    },
+    {
+      "id": "rock_09",
+      "name": "Rock 09",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      },
+      "source_page": "https://polyhaven.com/a/rock_09",
+      "metadata_url": "https://api.polyhaven.com/files/rock_09",
+      "license": "CC0",
+      "license_url": "https://polyhaven.com/license",
+      "files": [
+        {
+          "file": "assets/source/rock_09/rock_09_1k.gltf",
+          "bytes": 2745,
+          "md5": "d12ac6e8433fe1346fe6945154269f66",
+          "sha256": "636e57eb0090889627da18edaec202ff9f65f83101b94f91b7da4d21dc080ab9",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rock_09/rock_09_1k.gltf"
+        },
+        {
+          "file": "assets/source/rock_09/textures/rock_09_arm_1k.jpg",
+          "bytes": 322950,
+          "md5": "323d7cca17cd87656e7f80230a372368",
+          "sha256": "594e2cec49e6bb40bd9bab2649e37dcc261079456cf4d6f680f56770c19db5ea",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_09/rock_09_arm_1k.jpg"
+        },
+        {
+          "file": "assets/source/rock_09/textures/rock_09_nor_gl_1k.jpg",
+          "bytes": 757031,
+          "md5": "dc1a208133a23006582f792a309c2dcc",
+          "sha256": "2195b5c7da3a23af2a5f93dbb20f38bc069028509b106397bc8d2aee0bc55729",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_09/rock_09_nor_gl_1k.jpg"
+        },
+        {
+          "file": "assets/source/rock_09/textures/rock_09_diff_1k.jpg",
+          "bytes": 595103,
+          "md5": "07f92b23d6e05fbd28cbabecdd98b321",
+          "sha256": "afb7ae5ae82238d304aba589391ac6bc87f7cf1dbfe50980c21f762cfdd87efd",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_09/rock_09_diff_1k.jpg"
+        },
+        {
+          "file": "assets/source/rock_09/rock_09.bin",
+          "bytes": 286592,
+          "md5": "6f2f71c9ca594566c1a3b29da27293a1",
+          "sha256": "780c37d6fc11ca3a01c3763535ef883908b6007271a46bd446d2289ded820751",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rock_09/rock_09.bin"
+        }
+      ]
+    }
+  ],
+  "total_downloaded_bytes": 7736407,
+  "no_paid_purchase": true,
+  "api_inside_website": false
+}

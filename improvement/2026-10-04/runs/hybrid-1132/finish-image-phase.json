@@ -1,0 +1,27 @@
+{
+  "finished_at_jst": "2026-10-04T12:20:55+09:00",
+  "run": "hybrid-1132",
+  "thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "phase_complete": "finished-image generation, Mac materialization, selection and browser comparison",
+  "overall_task_complete": false,
+  "next_phase": "integrate constrained-view hybrid with minimal parallax and correct reduced-motion/loading/noWebGL behavior",
+  "preview": {
+    "image_study": {
+      "url": "http://127.0.0.1:5186/",
+      "http": 200
+    },
+    "baseline_0900": {
+      "url": "http://127.0.0.1:5183/",
+      "http": 200
+    },
+    "unadopted_3d": {
+      "url": "http://127.0.0.1:5185/",
+      "http": 200
+    }
+  },
+  "library_file_ids": [],
+  "library_error": "library upload failed: hosted apps tools/list request failed: TLS",
+  "lock_released": true,
+  "git_mutations_performed": false,
+  "root_site_unchanged": true
+}

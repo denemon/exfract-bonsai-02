@@ -1,0 +1,18 @@
+{
+  "run": "integrated-form-2245",
+  "thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "started_at_jst": "2026-10-04T22:48:46.347806+09:00",
+  "free_disk_bytes": 8233824256,
+  "new_data_budget_bytes": 104857600,
+  "minimum_free_bytes": 2147483648,
+  "stage_limit_hours": 4,
+  "midpoint_due_jst": "2026-10-05T00:48:46.347806+09:00",
+  "stage_latest_end_jst": "2026-10-05T02:48:46.347806+09:00",
+  "protected_candidate": "volume-rebuild-1656-v23",
+  "protected_editing_basis": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/anatomy-2150/models/best-coarse.blend",
+  "protected_native_sha256": "4b00825316771ae7b4e1ca2e808c1cd45220a195581d0e97842f074588072e47",
+  "single_writer": true,
+  "reused_qa_profile": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "old_55_profile_deletion_authorized": false,
+  "deadline_jst": "2026-10-10T23:00:00+09:00"
+}

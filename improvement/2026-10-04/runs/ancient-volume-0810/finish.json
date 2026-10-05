@@ -1,0 +1,183 @@
+{
+  "run": "ancient-volume-0810",
+  "thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "started_at_jst": "2026-10-05T08:12:41.530216+09:00",
+  "finished_at_jst": "2026-10-05T09:07:46.330643+09:00",
+  "elapsed_minutes": 55.08,
+  "stage_complete": true,
+  "overall_goal_complete": false,
+  "selected": "load-pcf8-v1",
+  "hero": "protected edge-v02",
+  "layout": "night-b",
+  "space": "space-v2",
+  "structural_candidates": 2,
+  "adopted_structural_candidates": 0,
+  "major_aged_form_gate": "not passed",
+  "premium_aesthetic_gate": "not passed",
+  "ordinary_functional_checks": 72,
+  "additional_resilience_checks": 7,
+  "production_pngs": 14,
+  "normal_selected_production_pixel_matches": 6,
+  "normal_camera_matches_to_stage11": 6,
+  "raw_png_paths": 42,
+  "unique_png_files": 31,
+  "gpu_production_p95_ms": {
+    "pc": 14.54875,
+    "mobile-390": 12.802541
+  },
+  "gpu_steady_triangles": {
+    "pc": 1204122,
+    "mobile-390": 1109030
+  },
+  "loading": [
+    {
+      "name": "pc",
+      "baseline": {
+        "inline_paint_opportunity_ms": 402,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 408
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 408
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 2085.5,
+        "threeD_ready_ms": 25384.799999952316,
+        "external_encoded_bytes": 4704745,
+        "detailed_geometry_requested": false
+      },
+      "final": {
+        "inline_paint_opportunity_ms": 395.5,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 404
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 404
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 2076.7999999523163,
+        "threeD_ready_ms": 19941,
+        "external_encoded_bytes": 3730784,
+        "detailed_geometry_requested": false
+      }
+    },
+    {
+      "name": "mobile-390",
+      "baseline": {
+        "inline_paint_opportunity_ms": 474.10000002384186,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 472
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 472
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 857.5,
+        "threeD_ready_ms": 24607.899999976158,
+        "external_encoded_bytes": 4575727,
+        "detailed_geometry_requested": false
+      },
+      "final": {
+        "inline_paint_opportunity_ms": 459,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 464
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 464
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 859.2999999523163,
+        "threeD_ready_ms": 19208,
+        "external_encoded_bytes": 3603276,
+        "detailed_geometry_requested": false
+      }
+    },
+    {
+      "name": "mobile-320",
+      "baseline": {
+        "inline_paint_opportunity_ms": 451.5,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 440
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 440
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 686.2999999523163,
+        "threeD_ready_ms": 24511.399999976158,
+        "external_encoded_bytes": 4562019,
+        "detailed_geometry_requested": false
+      },
+      "final": {
+        "inline_paint_opportunity_ms": 442.8000000715256,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 432
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 432
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 676.8000000715256,
+        "threeD_ready_ms": 19094.800000071526,
+        "external_encoded_bytes": 3587450,
+        "detailed_geometry_requested": false
+      }
+    }
+  ],
+  "slow_detail_wait_ms": 2679.399999976158,
+  "detail_compressed_bytes": 491629,
+  "fallback_webp_bytes": 425990,
+  "initial_html_bytes": 19951,
+  "run_allocated_bytes_before_close": 41406464,
+  "staging_allocated_bytes": 561152,
+  "profile_allocated_bytes": 245719040,
+  "profile_growth_bytes": 30806016,
+  "new_data_total_bytes_before_close": 72773632,
+  "new_data_budget_bytes": 104857600,
+  "free_disk_bytes": 7029927936,
+  "new_profiles": 0,
+  "old_profiles_remaining": 55,
+  "old_profiles_deleted": 0,
+  "new_native_copies": 0,
+  "new_large_redundant_hero_candidate_copies": 0,
+  "new_runtime_parts": "Two actual geometry parts, raw GLB and deterministic gzip; same source Draco buffers",
+  "new_archives": 0,
+  "prior_deliverables_deleted": 0,
+  "paid_purchase": 0,
+  "git_writes": 0,
+  "external_publish": 0,
+  "new_automation": 0,
+  "approval_rejections": 0,
+  "production_url": "http://127.0.0.1:5206/",
+  "production_pid": 35290,
+  "library_ids": [],
+  "library_retry": false,
+  "library_blocker": "Prior official helper TLS failure; no retry in this stage",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning": "xhigh",
+  "runtime_model_metadata_verified": false,
+  "lock_released": true,
+  "next_stage": "Do not repeat radial broad grooves or coefficient-only S-trunk reshaping. Parent should authorize one topology/edge-layout redesign around lower shoulder–first branching, retaining rear thick core, shortening actual junction boundary and burying roots; compare neutral front/quarter and normal PC390320 before material work. Preserve this loading pipeline and its budgets.",
+  "deadline_jst": "2026-10-10T23:00:00+09:00",
+  "run_allocated_bytes_after_reports": 41476096,
+  "new_data_total_bytes_after_reports": 72843264,
+  "free_disk_bytes_after_reports": 7029858304
+}

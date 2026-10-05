@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-10-04T16:29:25.549889+09:00",
+  "protected": [
+    {
+      "manifest": "improvement/2026-10-04/baseline-initial/manifest.json",
+      "archive_verified": true,
+      "archive_file_count": 53,
+      "current_root_files_verified": 0
+    },
+    {
+      "manifest": "improvement/2026-10-04/runs/0900-jst/source-manifest.json",
+      "archive_verified": true,
+      "archive_file_count": 17,
+      "current_root_files_verified": 17
+    },
+    {
+      "manifest": "improvement/2026-10-04/runs/0900-jst/production-manifest.json",
+      "archive_verified": true,
+      "archive_file_count": 10,
+      "current_root_files_verified": 10
+    }
+  ],
+  "git_head": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "tracked_worktree_clean": true,
+  "no_git_write_commands_used": true
+}

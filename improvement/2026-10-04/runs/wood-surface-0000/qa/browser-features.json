@@ -1,0 +1,12 @@
+{
+  "added_disabled_features": [
+    "OptimizationHints",
+    "OptimizationHintsFetching",
+    "OptimizationTargetPrediction"
+  ],
+  "evidence": "These names were found in the locally installed Chrome 154 framework binary. Existing background-networking/component-update flags did not stop all previous downloads.",
+  "download_prevention_verified": "Observed in this stage only; not a general guarantee",
+  "validation": "Compare the existing profile model-store footprint after browser runs; do not claim prevention from flags alone.",
+  "new_model_files_observed": 0,
+  "footprint_report": "qa/profile-footprint.json"
+}

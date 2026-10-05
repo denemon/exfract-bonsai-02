@@ -1,0 +1,11 @@
+# Coarse volume review — v10
+
+The Mac Chrome front, +25° and +45° images, plus a close view without self-shadow, were inspected. v07 and v09 also include -25° checks. The v27 comparison uses the same camera envelope, lens, clay and light. No foliage, colour or grain was used to make this judgement.
+
+**Advance this structural base to wood refinement. Do not promote it as a finished hero or completed site.** Relative to v27, the root flare has unequal front/back supports, the lower bend has a substantial rear mass instead of one corrugated face, the returning front mass changes thickness, and the large branches emerge from broad continuous shoulders. Secondary forks split in depth rather than remain a single front-facing zigzag. These are visible improvements in the untextured skeleton. The front white-wood region is still too smooth and regular to be a convincing finished ancient tree; fine weathering, living-wood boundaries and terminal branch anatomy remain work to do. This is a structural progression decision, not the final aesthetic acceptance.
+
+Rejected form decisions: v02's long slot and near-circular paired trunks; v04's closed oval cutter wounds. Open, unequal radial losses on the complete growth volumes replaced them. The v07–v09 close views exposed sampling teeth in narrow grooves. Self-shadow-off and normal views confirmed that this was geometry, not merely shadow aliasing. A rounded groove bottom, denser field and limited surface relaxation reduce it in v10; some small regularities remain at the nearest inspection distance and must be checked again after refinement.
+
+The field is now 320³; this is only source sampling density. The runtime wood remains capped at 140,000 triangles. v10 source: 200,325 vertices, 400,650 triangular faces, one component, no boundary/non-manifold edges. GLB with the fixed pot, soil and support: 551,364 bytes. These numbers establish structure and budget, not quality.
+
+Next sequence: refine wood on this solid, retain the live vein as material on the same skin, inspect wood close views in clay and material; then construct terminal branches and foliage with a branching hierarchy and compact irregular volumes. Do not improve the background to mask the hero.

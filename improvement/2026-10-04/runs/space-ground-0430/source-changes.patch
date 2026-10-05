@@ -1,0 +1,455 @@
+--- growth-ground-0335/site/src/scene.js
++++ space-ground-0430/site/src/scene.js
+@@ -1,6 +1,7 @@
++import {loadGardenRocks,placeGardenRocks} from './garden-rocks.js';
+ import * as THREE from 'three';
+ import {gardenMaterials} from './garden-materials.js';
+-import {batches,groundGeometry,groundHeight,setGroundField,stoneGeometry,planting,random} from './garden-geometry.js';
++import {batches,groundGeometry,groundHeight,setGroundField,planting,random} from './garden-geometry.js';
+ 
+ function sky(scene){
+  const material=new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,toneMapped:false,
+@@ -12,52 +13,82 @@
+ }
+ 
+ function architecture(scene,m,layout){
+- const batch=batches(scene,m),{box}=batch;const rng=random(93011);
+- const shift=-.45,yaw=-.21;
++ const batch=batches(scene,m),{box}=batch,rng=random(93011),yaw=-.21;
+  const housePoint=p=>new THREE.Vector3(p[0]-2.46,p[1],p[2]-.60).applyAxisAngle(new THREE.Vector3(0,1,0),yaw).add(new THREE.Vector3(2.08,0,.15));
+  const B=(p,s,key,angle=0)=>box(housePoint(p).toArray(),s,key,angle,yaw);
+- // Foundation, separate deck and interior floor. The underside and joints read
+- // through the open bay, rather than a flat facade placed behind the tree.
+- B([3.60,.068,-1.87],[3.48,.18,5.40],'foundation');
+- for(const z of [-4.26,-2.50,-.72,.60])for(const x of [1.91,2.56,4.78])B([x,.072,z],[.20,.21,.20],'foundation');
+- B([1.75,.18,-1.88],[.13,.21,5.45],'lengthwise');
+- for(let i=0;i<37;i++)B([3.45,.27,-4.42+i*.143],[3.54,.060,.135],'horizontal');
+- B([3.77,.32,-1.96],[2.43,.055,4.99],'horizontal');
+- // Thick framing of the left-facing facade, with a deep open room.
+- for(const z of [-4.18,-2.80,-.40,.66])B([2.46,1.47,z],[.16,2.43,.18],'vertical');
+- B([2.46,2.66,-1.76],[.21,.25,5.24],'lengthwise');
+- B([2.46,.39,-1.76],[.16,.15,5.24],'lengthwise');
+- B([4.91,1.54,-1.88],[.19,2.51,5.39],'plaster');
+- B([3.63,1.54,-4.50],[2.54,2.51,.18],'plaster');
+- B([3.69,1.54,.77],[2.61,2.51,.18],'plaster');
+- B([3.72,2.68,-1.89],[2.68,.13,5.4],'horizontal');
+- // A recess beyond the opening has separate side, back and raised floor planes.
+- B([4.20,.40,-2.92],[1.24,.105,1.22],'horizontal');
+- B([4.79,1.45,-2.92],[.045,2.02,1.16],'plaster');
+- B([4.26,1.46,-3.53],[1.22,2.04,.10],'vertical');
+- // Restrained paper screens occupy only one rear bay, not a full backdrop grid.
+- for(const z of [-3.84,-3.33]){
+-  B([2.49,1.47,z],[.046,2.02,.48],'paper');
+-  for(const zz of [z-.246,z+.246])B([2.453,1.47,zz],[.035,2.12,.027],'vertical');
+-  for(const yy of [.51,1.02,1.63,2.44])B([2.451,yy,z],[.036,.021,.49],'lengthwise');
++ const supportContacts=[];
++ // A raised room and an open underside beneath the narrow veranda.
++ // Floor boards bear on two continuous beams, then short posts and stone feet.
++ B([3.77,.076,-1.91],[2.33,.21,5.05],'foundation');
++ for(const z of [-4.22,-2.64,-1.05,.32]){
++  const p=housePoint([1.98,0,z]),floor=groundHeight(p.x,p.z),stoneTop=.027;
++  B([1.98,(floor-.020+stoneTop)/2,z],[.25,stoneTop-floor+.020,.28],'foundation');
++  B([1.98,.125,z],[.102,.200,.11],'vertical');
++  supportContacts.push({position:[p.x,p.z],groundY:floor,stoneBottom:floor-.020,stoneTop,woodBottom:.025,woodTop:.225});
+  }
+- // Framed right-front return prevents an infinite dark interior.
+- B([4.43,1.40,-.0],[.85,2.0,.05],'paper');
+- for(const x of [4.01,4.44,4.87])B([x,1.40,.035],[.029,2.08,.037],'vertical');
+- for(const y of [.40,1.03,1.68,2.4])B([4.44,y,.035],[.88,.027,.04],'horizontal');
+- // Layered eaves: visible beam thickness, irregular weathered end grain,
+- // shaded underside and a shallow pitched ceramic cap.
+- B([3.23,2.86,-1.88],[3.96,.13,5.70],'horizontal',.092);
+- B([3.29,2.98,-1.88],[4.21,.084,5.86],'roof',.092);
+- B([1.18,2.72,-1.88],[.12,.15,5.90],'lengthwise');
+- for(let j=0;j<31;j++)B([1.73,2.77,-4.76+j*.187],[1.10,.073,.054],'horizontal',.092);
++ B([1.98,.223,-1.91],[.136,.125,5.30],'lengthwise');
++ B([2.43,.229,-1.91],[.15,.137,5.38],'lengthwise');
++ for(let i=0;i<37;i++)B([2.10,.288,-4.49+i*.141],[.87,.044,.135],'horizontal');
++ // Thin front end-board overlaps the supporting beam; no huge solid slab.
++ B([2.10,.281,.682],[.87,.058,.034],'horizontal');
++ B([1.663,.280,-1.91],[.035,.059,5.35],'lengthwise');
++ // Interior floor is a little higher, with a continuous wooden perimeter.
++ B([3.76,.311,-1.91],[2.46,.05,5.18],'horizontal');
++ for(const x of [2.61,4.80])B([x,.344,-1.92],[.16,.052,4.99],'lengthwise');
++ for(const z of [-4.40,.51])B([3.72,.344,z],[2.07,.052,.13],'horizontal');
++ for(let row=0;row<3;row++)for(let col=0;col<2;col++){
++  const x=3.185+col*1.015,z=-3.58+row*1.60;
++  B([x,.348,z],[1.001,.056,1.576],'tatami');
++  for(const dx of [-.477,.477])B([x+dx,.377,z],[.025,.004,1.574],'matBorder');
++ }
++ // Sill and paired shallow track rebates have actual depth.
++ for(const [x,w]of [[2.39,.073],[2.476,.091],[2.558,.058]])B([x,.369,-1.91],[w,.066,5.20],'lengthwise');
++ for(const z of [-4.20,-2.80,-.40,.66]){
++  B([2.46,1.498,z],[.145,2.255,.158],'vertical');
++  B([2.46,2.552,z],[.225,.13,.222],'lengthwise');
++ }
++ B([2.46,2.573,-1.78],[.23,.158,5.26],'lengthwise');
++ B([2.461,2.468,-1.78],[.168,.040,5.18],'lengthwise');
++ // Wall returns enclose the room instead of a flat rectangle across the view.
++ B([4.96,1.489,-1.91],[.20,2.24,5.31],'plaster');
++ B([3.73,1.489,-4.53],[2.67,2.24,.18],'plaster');
++ B([4.89,1.498,.66],[.16,2.255,.16],'vertical');
++ B([3.66,2.57,.66],[2.61,.17,.18],'horizontal');
++ B([4.67,1.485,.64],[.29,2.22,.18],'plaster');
++ B([4.455,1.49,.627],[.09,2.25,.23],'vertical');
++ B([3.43,2.435,.645],[2.03,.09,.095],'horizontal');
++ // The rear alcove has near cheeks, a raised floor and a deeper back plane.
++ B([3.88,.416,-4.10],[1.78,.103,.64],'horizontal');
++ B([3.88,1.44,-4.48],[1.67,1.99,.045],'alcove');
++ B([2.998,1.447,-4.12],[.086,2.0,.65],'vertical');
++ B([4.752,1.447,-4.12],[.085,2.0,.65],'vertical');
++ B([3.875,2.423,-4.12],[1.84,.102,.66],'horizontal');
++ B([3.875,2.362,-3.794],[1.81,.040,.035],'horizontal');
++ // A deep secondary screen crosses only the rear bay, so the garden sees
++ // the near posts, inner floor and back alcove at different distances.
++ for(const z of [-3.91,-3.35]){
++  B([2.52,1.464,z],[.042,2.045,.525],'paper');
++  for(const zz of [z-.272,z+.272])B([2.486,1.464,zz],[.036,2.145,.030],'vertical');
++  for(const yy of [.44,.93,1.53,2.485])B([2.483,yy,z],[.037,.020,.548],'lengthwise');
++ }
++ // Ceiling, joists and layered eaves. Each visible edge has its own thickness.
++ B([3.72,2.676,-1.91],[2.69,.055,5.4],'horizontal');
++ for(const z of [-4.35,-3.1,-1.85,-.60,.57])B([3.73,2.601,z],[2.69,.108,.105],'horizontal');
++ B([3.23,2.824,-1.88],[3.96,.043,5.70],'horizontal',.092);
++ B([3.29,2.918,-1.88],[4.21,.074,5.86],'roof',.092);
++ B([1.18,2.719,-1.88],[.130,.154,5.90],'lengthwise');
++ B([1.106,2.762,-1.88],[.039,.061,5.91],'lengthwise');
++ for(let j=0;j<28;j++){
++  const z=-4.72+j*.211;
++  B([1.78,2.740,z],[1.19,.076,.061],'horizontal',.092);
++  B([2.32,2.662,z],[.26,.118,.07],'horizontal');
++ }
+  for(let j=0;j<47;j++){
+-  const g=new THREE.CylinderGeometry(.042,.042,4.23,8,1,true,0,Math.PI);g.rotateZ(Math.PI/2+.092);g.rotateY(yaw);g.translate(...housePoint([3.28,3.031,-4.77+j*.127]).toArray());batch.add(g,'roof');
++  const g=new THREE.CylinderGeometry(.042,.042,4.23,8,1,true,0,Math.PI);g.rotateZ(Math.PI/2+.092);g.rotateY(yaw);g.translate(...housePoint([3.28,2.969,-4.77+j*.127]).toArray());batch.add(g,'roof');
+  }
+- // A shallow timber cove hides the room's downlight above the opening.
+- B([3.76,2.55,-1.17],[1.02,.055,.105],'horizontal');
+- B([3.76,2.51,-1.21],[1.02,.055,.035],'lengthwise');
+- // The garden boundary is a low, deep timber structure with varied boards.
++ // Concealed cove lighting has a real lip above the front room opening.
++ B([3.86,2.552,-.15],[1.28,.050,.155],'horizontal');
++ B([3.86,2.513,-.092],[1.28,.07,.036],'lengthwise');
+  const rearZ=layout==='b'?-5.15:-4.92;
+  box([-2.20,.10,rearZ],[11.72,.22,.25],'foundation');
+  box([-2.20,.69,rearZ-.07],[11.72,1.13,.078],'rearWood');
+@@ -70,7 +101,7 @@
+  box([-2.20,1.38,rearZ-.015],[11.89,.063,.62],'roof',0);
+  box([-2.20,1.34,rearZ+.306],[11.93,.11,.065],'lengthwise');
+  box([-2.20,1.29,rearZ+.01],[11.72,.09,.095],'lengthwise');
+- return {...batch.done(),houseYaw:yaw,frontEdge:housePoint([1.75,.3,.6]).toArray(),deckTop:.30,roomOpening:{front:housePoint([2.46,1.5,-.4]).toArray(),rear:housePoint([2.46,1.5,-2.8]).toArray(),yMin:.47,yMax:2.53},rearBoundaryZ:rearZ};
++ return {...batch.done(),version:'space-v2',houseYaw:yaw,frontEdge:housePoint([1.75,.3,.6]).toArray(),deckTop:.31,interiorFloorTop:.376,verandaSupportContacts:supportContacts,roomOpening:{front:housePoint([2.46,1.5,-.4]).toArray(),rear:housePoint([2.46,1.5,-2.8]).toArray(),yMin:.402,yMax:2.448},layers:['floorboards 44mm','support beams125mm','short posts200mm','buried foundation feet','grooved66mm threshold','158mm-deep posts','recessed room and alcove','separate joists/rafters/roof'],rearBoundaryZ:rearZ};
+ }
+ 
+ export async function createScene(hero,study){
+@@ -82,25 +113,34 @@
+   scene.add(new THREE.HemisphereLight('#ffffff','#9a9387',1.1));const key=new THREE.DirectionalLight('#fffaf0',3.4);key.position.set(-3.8,4.5,2.8);key.target.position.set(0,.9,0);key.castShadow=true;key.shadow.mapSize.set(2048,2048);Object.assign(key.shadow.camera,{left:-3,right:3,top:3,bottom:-3,near:.1,far:12});key.shadow.bias=-.0001;key.shadow.normalBias=.003;key.shadow.radius=5;scene.add(key,key.target);const fill=new THREE.DirectionalLight('#edf0f4',.55);fill.position.set(3,3,-2);scene.add(fill);return {scene,subject,key,ground,layout:'diagnostic'};
+  }
+  scene.background=new THREE.Color('#101e32');sky(scene);scene.fog=new THREE.FogExp2('#142337',.020);
+- const m=await gardenMaterials();setGroundField(m.terrain.image);const ground=new THREE.Mesh(groundGeometry(),m.ground);ground.name='Continuous mineral gravel and growing moss';ground.receiveShadow=true;scene.add(ground);
++ const [m,rockAssets]=await Promise.all([gardenMaterials(),loadGardenRocks()]);setGroundField(m.terrain.image);const ground=new THREE.Mesh(groundGeometry(),m.ground);ground.name='Continuous mineral gravel and growing moss';ground.receiveShadow=true;scene.add(ground);
+  const farGeometry=new THREE.PlaneGeometry(100,100);farGeometry.rotateX(-Math.PI/2);farGeometry.translate(0,-.029,0);const distantGround=new THREE.Mesh(farGeometry,m.ground);distantGround.name='Continuous distant mineral ground';distantGround.receiveShadow=true;scene.add(distantGround);
+  const built=architecture(scene,m,layout);
+- const rocks=[{center:[-1.87,.065,-1.54],scale:[.57,.50,.42],seed:3},{center:[-2.80,.055,-2.70],scale:[.42,.40,.37],seed:14}];
+- for(const r of rocks){const rock=new THREE.Mesh(stoneGeometry(r.center,r.scale,r.seed),m.stone);rock.name='Partly buried natural garden stone';rock.castShadow=rock.receiveShadow=true;scene.add(rock);}
++ const rocks=placeGardenRocks(scene,rockAssets,m);
+  const plants=planting(scene,m,layout);
+  scene.updateMatrixWorld(true);const rootRay=new THREE.Raycaster();
++ const foundation=scene.getObjectByName('Garden architecture foundation');
++ for(const row of built.verandaSupportContacts){
++  const [x,z]=row.position;
++  rootRay.set(new THREE.Vector3(x,row.woodBottom+.02,z),new THREE.Vector3(0,-1,0));
++  const foot=rootRay.intersectObject(foundation,false)[0];
++  rootRay.set(new THREE.Vector3(x,.15,z),new THREE.Vector3(0,-1,0));
++  const terrain=rootRay.intersectObjects([ground,distantGround],false)[0];
++  Object.assign(row,{actualStoneTopY:foot?.point.y,woodToStoneGap:foot?row.woodBottom-foot.point.y:null,actualGroundY:terrain?.point.y,stoneBottomToGround:terrain?row.stoneBottom-terrain.point.y:null});
++ }
++
+  const rootContacts=plants.rootCenters.map(root=>{const [x,y,z]=root.position;rootRay.set(new THREE.Vector3(x,y+.30,z),new THREE.Vector3(0,-1,0));const hit=rootRay.intersectObjects([ground,distantGround],false)[0];return {name:root.name,rootCenter:root.position,surfaceY:hit?.point.y,signedBurial:hit?y-hit.point.y:null};});
+  plants.mossTufts=0;plants.mossTuftTriangles=0;plants.mossDetail='Authored shore and soil hollows share one relief field with geometry; no moss sheet or scattered tetrahedra';
+  
+  scene.updateMatrixWorld(true);let bed;const feet=[];hero.traverse(o=>{if(!o.isMesh)return;if(/bedding[_ ]stone/i.test(o.name))bed=o;if(/ceramic[_ ]foot/i.test(o.name))feet.push(o);});
+  const ray=new THREE.Raycaster(),contacts=[];if(bed)for(const foot of feet){const bounds=new THREE.Box3().setFromObject(foot),centre=bounds.getCenter(new THREE.Vector3());ray.set(new THREE.Vector3(centre.x,bounds.min.y+.035,centre.z),new THREE.Vector3(0,-1,0));const hit=ray.intersectObject(bed,false)[0];contacts.push({foot:foot.name,footBottomY:bounds.min.y,stoneTopY:hit?.point.y,gapMetres:hit?bounds.min.y-hit.point.y:null});}
+  scene.add(new THREE.HemisphereLight('#a3bddb','#29251d',.58));
+- const moon=new THREE.DirectionalLight('#a9c6e9',.58);moon.position.set(-3.2,7.0,-2.5);scene.add(moon);
++ const moon=new THREE.DirectionalLight('#a9c6e9',.58);moon.position.set(-3.2,7.0,-2.5);moon.castShadow=true;moon.shadow.mapSize.set(1024,1024);Object.assign(moon.shadow.camera,{left:-7,right:7,top:6,bottom:-5,near:.3,far:18});moon.shadow.normalBias=.009;moon.shadow.bias=-.00012;moon.shadow.radius=5;scene.add(moon);
+  // A concealed, broad warm garden wash and cool sky illuminate one place.
+  const key=new THREE.SpotLight('#ffe0b5',70,14,.78,1,2);key.position.set(-2.2,3.4,3.2);key.target.position.set(0,.72,-.4);key.castShadow=true;key.shadow.mapSize.set(2048,2048);key.shadow.camera.near=.15;key.shadow.camera.far=14;key.shadow.bias=-.00012;key.shadow.normalBias=.0023;key.shadow.radius=7;scene.add(key,key.target);
+  const roomPoint=p=>new THREE.Vector3(p[0]-2.46,p[1],p[2]-.60).applyAxisAngle(new THREE.Vector3(0,1,0),-.21).add(new THREE.Vector3(2.08,0,.15));
+- const room=new THREE.SpotLight('#ffd4a0',26,7,.98,.95,2);room.position.copy(roomPoint([3.76,2.46,-1.18]));room.target.position.copy(roomPoint([3.80,1.50,-4.40]));room.castShadow=true;room.shadow.mapSize.set(512,512);room.shadow.camera.near=.12;room.shadow.camera.far=7;room.shadow.bias=-.00015;room.shadow.normalBias=.003;room.shadow.radius=4;scene.add(room,room.target);
+- const roomBounce=new THREE.PointLight('#ecd0a4',3.8,5,2);roomBounce.position.copy(roomPoint([1.96,2.44,1.02]));scene.add(roomBounce);
++ const room=new THREE.SpotLight('#ffd4a0',18,7,.82,1,2);room.position.copy(roomPoint([3.96,2.49,-.88]));room.target.position.copy(roomPoint([3.84,1.05,-4.38]));room.castShadow=true;room.shadow.mapSize.set(1024,1024);room.shadow.camera.near=.12;room.shadow.camera.far=7;room.shadow.bias=-.00015;room.shadow.normalBias=.003;room.shadow.radius=4;scene.add(room,room.target);
++ const roomBounce=new THREE.PointLight('#ecd0a4',2.5,3.6,2);roomBounce.position.copy(roomPoint([2.88,1.74,-1.72]));scene.add(roomBounce);
+  const rearGlow=new THREE.SpotLight('#ddc5a0',8.4,5.5,.67,1,2);rearGlow.position.set(-3.70,.20,-3.1);rearGlow.target.position.set(-2.80,1.50,-3.7);scene.add(rearGlow,rearGlow.target);
+- return {scene,subject,key,ground,layout:'night-'+layout,metadata:{terrain:{version:'growth-v2',rootContacts,heightSource:'The same lossless512px linear data field used by the ground material',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Growth and integrated ground v2; fixed hero, cameras, architecture and night lights',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:512,porchFillPosition:roomBounce.position.toArray(),porchFill:'Concealed under front eave, outside the return wall; no emissive visible object'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightDesign:'Soft cool sky/moon, restrained broad warm garden wash, warm room opening; no daylight or visible moon glow'}};
++ return {scene,subject,key,ground,layout:'night-'+layout,metadata:{terrain:{version:'space-v2',rootContacts,heightSource:'The same lossless512px linear data field used by the ground material',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Space v2: supported veranda, layered room, real weathered stone volume and one-sided growing ground; fixed hero and cameras',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:1024,porchFillPosition:roomBounce.position.toArray(),porchFill:'Weak room bounce approximation within the deep room; no emissive visible object'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightDesign:'Same cool sky/moon and hero key; moon now occluded by real architecture, warm concealed room lighting, no visible glow surface'}};
+ }
+--- growth-ground-0335/site/src/garden-materials.js
++++ space-ground-0430/site/src/garden-materials.js
+@@ -14,7 +14,7 @@
+   const vary=local?'varying vec3 vGrain;varying vec3 vGrainNormal;varying float vBoard;':'';
+   s.vertexShader='varying vec3 vEnv;\n'+vary+(local?'attribute vec3 grainPosition;attribute vec3 grainNormal;attribute float boardSeed;':'')+'\n'+s.vertexShader;
+   s.vertexShader=s.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nvEnv=position;'+(local?'vGrain=grainPosition;vGrainNormal=grainNormal;vBoard=boardSeed;':''));
+-  s.fragmentShader='varying vec3 vEnv;\n'+vary+(uniforms.uMineral?'uniform sampler2D uMineral;uniform sampler2D uMoss;uniform sampler2D uTerrain;':'')+noise+s.fragmentShader;
++  s.fragmentShader='varying vec3 vEnv;\n'+vary+Object.keys(uniforms).map(n=>'uniform sampler2D '+n+';').join('')+noise+s.fragmentShader;
+   s.fragmentShader=s.fragmentShader.replace('#include <color_fragment>','#include <color_fragment>\n'+fragment);
+   if(bump)s.fragmentShader=s.fragmentShader.replace('#include <normal_fragment_maps>','#include <normal_fragment_maps>\n'+bump);
+  };
+@@ -33,14 +33,15 @@
+   float broad=en(vEnv*3.4);vec3 mineral=mineralMap.rgb*(.96+.08*broad);
+   vec3 moss=mossMap.rgb*(.83+.17*broad);
+   vec3 soil=vec3(.043,.036,.022)*(.80+.30*mossMap.a);
+-  diffuseColor.rgb=mix(mineral,soil,organic*.84);
++  diffuseColor.rgb=mix(mineral,soil,organic*.91);
+   diffuseColor.rgb=mix(diffuseColor.rgb,moss,m);
+   vec2 r=abs(vEnv.xz)-vec2(.66,.34);float contact=length(max(r,0.))-.08;
+   float baseAO=1.-.52*exp(-max(contact,0.)*29.);
+   float rock1=1.-.22*exp(-max(ellipse(vEnv.xz,vec2(-1.87,-1.54),vec2(.55,.40)),0.)*12.);
+   float rock2=1.-.17*exp(-max(ellipse(vEnv.xz,vec2(-2.8,-2.70),vec2(.40,.35)),0.)*10.);
+-  diffuseColor.rgb*=baseAO*rock1*rock2;
++  diffuseColor.rgb*=baseAO;
+  `,`normal=envBump(normal,mix(mineralMap.a*.0010,mossMap.a*.0034,m),-vViewPosition);`,1,false,{uMineral:{value:maps[0]},uMoss:{value:maps[1]},uTerrain:{value:maps[2]}});
++ ground.userData.mossTexture=maps[1];
+  function wood(axis,name,color){return surface(name,color,`
+   vec3 q=vGrain.${axis};vec3 face=abs(vGrainNormal.${axis});
+   q.x+=vBoard*.71;q.z+=vBoard*.39;
+@@ -64,19 +65,32 @@
+   float ceilingOcclusion=1.-.17*exp(-abs(vEnv.y-2.63)*7.);
+   diffuseColor.rgb*=floorOcclusion*ceilingOcclusion;
+  `,`normal=envBump(normal,(lime-.5)*.00013,-vViewPosition);`,1);
+- const stone=surface('quiet-weathered-rock-v2','#ffffff',`
+-  float broad=ef(vEnv*5.7),grain=en(vEnv*150.);
+-  diffuseColor.rgb=mix(vec3(.037,.046,.048),vec3(.15,.163,.154),broad*.72+grain*.22);
+-  float mossBand=1.-smoothstep(.05,.24,vEnv.y+(en(vEnv*14.)-.5)*.13);
+-  diffuseColor.rgb=mix(diffuseColor.rgb,vec3(.033,.050,.016)*(.87+grain*.23),mossBand*.75);
+- `,`normal=envBump(normal,(en(vEnv*93.)-.5)*.0012+(en(vEnv*247.)-.5)*.0002,-vViewPosition);`,.98);
++ const stone=surface('weathered-fracture-contact-v1','#ffffff',`
++  float broad=ef(vEnv*4.3),grain=en(vEnv*112.);
++  float seam=smoothstep(.39,.47,ef(vec3(vEnv.x*5.2,vEnv.y*18.+vEnv.z*4.,vEnv.z*6.6)));
++  diffuseColor.rgb=mix(vec3(.052,.059,.055),vec3(.19,.193,.167),broad*.71+grain*.17)*(.88+.12*seam);
++  vec3 field=texture2D(uTerrain,(vEnv.xz-vec2(-6.,-7.))/vec2(12.,14.)).rgb;
++  float soilY=-.022+field.b*.128;
++  float rootZone=1.-smoothstep(.012,.097,vEnv.y-soilY+(en(vEnv*15.)-.5)*.020);
++  vec3 moss=texture2D(uMoss,vEnv.xz/.42).rgb;
++  diffuseColor.rgb=mix(diffuseColor.rgb,moss*.88,rootZone*field.r*.78);
++ `,`normal=envBump(normal,(en(vEnv*93.)-.5)*.0013+(en(vEnv*247.)-.5)*.0002,-vViewPosition);`,.98,false,{uTerrain:{value:maps[2]},uMoss:{value:maps[1]}});
+  const treeBark=surface('background-bark-v2','#5a5040',`
+   float bark=en(vEnv*vec3(135.,5.,127.));float older=en(vEnv*vec3(15.,1.3,19.));diffuseColor.rgb*=.82+older*.22+bark*.13;
+  `,`normal=envBump(normal,(bark-.5)*.0008,-vViewPosition);`,.97);
+- const foundation=surface('grounded-foundation-v2','#404540',`float f=en(vEnv*39.);diffuseColor.rgb*=.88+f*.20;diffuseColor.rgb*=.63+.37*smoothstep(-.02,.11,vEnv.y);`,`normal=envBump(normal,(f-.5)*.0005,-vViewPosition);`,.99);
++ const foundation=surface('grounded-foundation-v3','#55584f',`float f=en(vEnv*39.);diffuseColor.rgb*=.88+f*.20;diffuseColor.rgb*=.63+.37*smoothstep(-.02,.11,vEnv.y);`,`normal=envBump(normal,(f-.5)*.0005,-vViewPosition);`,.99);
+  const roof=surface('quiet-charcoal-roof-v2','#292e2f',`float clay=en(vEnv*35.);diffuseColor.rgb*=.90+clay*.16;`,`normal=envBump(normal,(clay-.5)*.00012,-vViewPosition);`,.96);
++ const tatami=surface('quiet-woven-floor-v1','#79735b',`
++  float fibre=en(vEnv*vec3(19.,2.,480.));float broad=en(vEnv*4.);
++  diffuseColor.rgb*=.93+fibre*.042+broad*.046;
++ `,`normal=envBump(normal,(fibre-.5)*.00012,-vViewPosition);`,1);
++ const matBorder=new THREE.MeshStandardMaterial({color:'#33392d',roughness:1});
++ const alcove=surface('deep-alcove-lime-v1','#89816e',`
++  float lime=en(vEnv*86.);diffuseColor.rgb*=.95+lime*.055;
++  diffuseColor.rgb*=.81+.19*smoothstep(.38,1.10,vEnv.y);
++ `,`normal=envBump(normal,(lime-.5)*.00012,-vViewPosition);`,1);
+  const paper=new THREE.MeshStandardMaterial({color:'#bfa881',roughness:1});
+  const leaves=new THREE.MeshStandardMaterial({color:'#758052',vertexColors:false,roughness:.92});
+  const mossTuft=new THREE.MeshStandardMaterial({color:'#506429',roughness:1});
+- return {terrain:maps[2],mossTuft,ground,vertical,horizontal,lengthwise,rearWood,plaster,stone,foundation,roof,paper,leaves,treeBark,maps:maps.map(t=>({url:t.image.src,width:t.image.width,height:t.image.height}))};
++ return {tatami,matBorder,alcove,terrain:maps[2],mossTuft,ground,vertical,horizontal,lengthwise,rearWood,plaster,stone,foundation,roof,paper,leaves,treeBark,maps:maps.map(t=>({url:t.image.src,width:t.image.width,height:t.image.height}))};
+ }
+--- growth-ground-0335/site/src/terrain-design.json
++++ space-ground-0430/site/src/terrain-design.json
+@@ -1,5 +1,5 @@
+ {
+-  "version": "growth-v2",
++  "version": "space-v2",
+   "domain": [
+     -6,
+     -7,
+@@ -184,11 +184,11 @@
+   ],
+   "mounds": [
+     [
+-      -2.11,
+-      -1.6,
+-      0.86,
+-      1.02,
+-      0.071
++      -2.08,
++      -1.49,
++      0.73,
++      0.8,
++      0.041
+     ],
+     [
+       -2.82,
+@@ -252,6 +252,27 @@
+       0.51,
+       0.19,
+       0.018
++    ],
++    [
++      -2.37,
++      -1.48,
++      0.2,
++      0.39,
++      0.047
++    ],
++    [
++      -2.31,
++      -1.12,
++      0.28,
++      0.16,
++      0.03
++    ],
++    [
++      -2.8,
++      -2.42,
++      0.21,
++      0.18,
++      0.023
+     ]
+   ],
+   "bareHollows": [
+@@ -324,43 +345,36 @@
+       0.26,
+       0.1,
+       0.54
++    ],
++    [
++      -1.62,
++      -1.23,
++      0.27,
++      0.35,
++      0.96
++    ],
++    [
++      -1.53,
++      -0.95,
++      0.26,
++      0.22,
++      0.84
++    ],
++    [
++      -1.75,
++      -1.045,
++      0.35,
++      0.19,
++      0.59
+     ]
+   ],
+-  "note": "Second candidate: short wide foreground shoulder at mobile left edge, separated by a mineral inlet; authored low cushions and exposed soil at natural stone toes. Shared continuous field; no separate moss sheet. One final local correction from independent tall320 review: lower/unequal foreground tips with a tapered organic shoulder; not a third design candidate.",
++  "note": "Second whole-scene candidate. The growing shoulder follows only the left-rear toe of a weathered scanned stone; the front/right slopes into a connected bare organic inlet. No round collar, no separate moss sheet, no scattered pebbles.",
+   "microRelief": [
+     [
+       -2.43,
+       -0.99,
+       0.1,
+       0.18,
+-      0.009
+-    ],
+-    [
+-      -2.22,
+-      -1.03,
+-      0.14,
+-      0.08,
+-      0.012
+-    ],
+-    [
+-      -2.05,
+-      -0.9,
+-      0.09,
+-      0.14,
+-      0.01
+-    ],
+-    [
+-      -1.84,
+-      -0.89,
+-      0.1,
+-      0.08,
+-      0.008
+-    ],
+-    [
+-      -1.68,
+-      -1.02,
+-      0.08,
+-      0.11,
+       0.009
+     ],
+     [
+@@ -378,20 +392,6 @@
+       0.01
+     ],
+     [
+-      -1.37,
+-      -1.33,
+-      0.06,
+-      0.17,
+-      0.009
+-    ],
+-    [
+-      -1.43,
+-      -1.74,
+-      0.07,
+-      0.15,
+-      0.012
+-    ],
+-    [
+       -2.5,
+       -2.82,
+       0.13,
+@@ -474,6 +474,13 @@
+       0.13,
+       0.09,
+       0.009
++    ],
++    [
++      -2.32,
++      -1.08,
++      0.105,
++      0.06,
++      0.013
+     ]
+   ]
+ }
+--- /dev/null
++++ space-ground-0430/site/src/garden-rocks.js
+@@ -0,0 +1,41 @@
++import * as THREE from 'three';
++import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
++import {DRACOLoader} from 'three/addons/loaders/DRACOLoader.js';
++
++export async function loadGardenRocks(){
++ const draco=new DRACOLoader().setDecoderPath('/draco/'),loader=new GLTFLoader().setDRACOLoader(draco),textures=new THREE.TextureLoader();
++ try{return await Promise.all(['boulder_01','rock_09'].map(async id=>{
++  const [gltf,...maps]=await Promise.all([loader.loadAsync('/rocks/'+id+'.glb'),...['diff','nor_gl','arm'].map(n=>textures.loadAsync('/rocks/'+id+'_'+n+'.webp'))]);
++  gltf.scene.updateMatrixWorld(true);let geometry;gltf.scene.traverse(o=>{if(o.isMesh){if(geometry)throw Error('Garden stone must be one mesh');geometry=o.geometry.clone().applyMatrix4(o.matrixWorld);}});
++  if(!geometry?.attributes.uv)throw Error('Garden stone UVs missing');
++  maps[0].colorSpace=THREE.SRGBColorSpace;for(const t of maps){t.flipY=false;t.anisotropy=4;}
++  return {id,geometry,maps};
++ }));}finally{draco.dispose();}
++}
++
++export function placeGardenRocks(scene,assets,gardenMaterials){
++ const placements=[{id:'boulder_01',center:[-1.94,-1.58],horizontalExtent:1.20,yaw:1.20,burial:.145},{id:'rock_09',center:[-2.80,-2.70],horizontalExtent:.83,yaw:.85,burial:.030}],rows=[];
++ for(const [i,asset]of assets.entries()){
++  const p=placements[i],g=asset.geometry;g.rotateY(p.yaw);g.computeBoundingBox();let b=g.boundingBox,size=b.getSize(new THREE.Vector3()),centre=b.getCenter(new THREE.Vector3());
++  const scale=p.horizontalExtent/Math.max(size.x,size.z);g.translate(-centre.x,-b.min.y,-centre.z);g.scale(scale,scale,scale);g.translate(p.center[0],-.022-p.burial,p.center[1]);g.computeBoundingBox();
++  const [color,normal,arm]=asset.maps,m=new THREE.MeshStandardMaterial({color:'#bdc5bc',map:color,normalMap:normal,normalScale:new THREE.Vector2(.67,.67),aoMap:arm,aoMapIntensity:.70,roughnessMap:arm,roughness:1,metalness:0});
++  m.onBeforeCompile=s=>{
++   s.uniforms.rockTerrain={value:gardenMaterials.terrain};s.uniforms.rockMoss={value:gardenMaterials.ground.userData.mossTexture};
++   s.vertexShader='varying vec3 vRockWorld;\n'+s.vertexShader;s.vertexShader=s.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nvRockWorld=(modelMatrix*vec4(transformed,1.)).xyz;');
++   s.fragmentShader='varying vec3 vRockWorld;uniform sampler2D rockTerrain;uniform sampler2D rockMoss;\n'+s.fragmentShader;
++   s.fragmentShader=s.fragmentShader.replace('#include <color_fragment>',`#include <color_fragment>
++    vec3 field=texture2D(rockTerrain,(vRockWorld.xz-vec2(-6.,-7.))/vec2(12.,14.)).rgb;
++    float ground=-.022+field.b*.128;
++    float rooted=1.-smoothstep(.009,.073,vRockWorld.y-ground);
++    vec3 growing=texture2D(rockMoss,vRockWorld.xz/.42).rgb;
++    diffuseColor.rgb=mix(diffuseColor.rgb,growing*.88,rooted*field.r*.74);
++   `);
++   s.fragmentShader=s.fragmentShader.replace('#include <roughnessmap_fragment>','#include <roughnessmap_fragment>\nroughnessFactor=max(roughnessFactor,.90);');
++  };
++  m.customProgramCacheKey=()=>asset.id+'-grounded-scan-v1';
++  const rock=new THREE.Mesh(g,m);rock.name='Partly buried scanned garden stone '+asset.id;rock.castShadow=rock.receiveShadow=true;scene.add(rock);
++  const triangles=g.index?g.index.count/3:g.attributes.position.count/3;
++  rows.push({...p,triangles,bounds:{min:g.boundingBox.min.toArray(),max:g.boundingBox.max.toArray()},material:'Local CC0 PBR, matte roughness lower bound .90, ground-field root transition',source:'https://polyhaven.com/a/'+asset.id,textures:asset.maps.map(t=>({url:t.image.src,width:t.image.width,height:t.image.height}))});
++ }
++ return rows;
++}
