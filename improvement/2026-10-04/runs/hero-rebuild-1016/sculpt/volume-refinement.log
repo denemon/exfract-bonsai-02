@@ -1,0 +1,8 @@
+00:00.121  translation      | WARNING Falling back to standard locale ("C")
+/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/sculpt/generate.py:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*color(hex),1);p.inputs['Roughness'].default_value=roughness
+Info: Saved as "bonsai-structural-study.blend"
+{"vertices": 687140, "polygons": 869382, "objects": ["Heartwood sculpt", "Living bark and branch hierarchy", "Canopy"], "foliage_sprays": 4360, "seed": 8196, "source": "Original generated geometry; no downloaded assets"}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

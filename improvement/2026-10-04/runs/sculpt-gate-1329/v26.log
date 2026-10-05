@@ -1,0 +1,23 @@
+00:00.116  translation      | WARNING Falling back to standard locale ("C")
+/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/sculpt/generate.py:15: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True
+1.0s Remeshing continuous volume with authored surface coordinates
+1.3s Remeshed: 321444 vertices; UV layers ['Wood flow']
+5.0s Tapered weathered grain split: 320996 vertices
+5.0s Cavities complete
+5.4s Continuous wood verified; removed 8 tiny remeshing fragment vertices
+16.9s Surface flow and masks complete
+18.1s Root contact: 10193 moss shoots, 6484 mineral particles
+18.9s Branch-led foliage: 5700 instanced sprays, 12 volumetric prototypes
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/sculpt/generate.py", line 286, in <module>
+    bpy.ops.wm.save_as_mainfile(filepath=str(blend))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: No such file or directory
+
+Error: No such file or directory
+
+Error: script failed, file: 'sculpt/generate.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

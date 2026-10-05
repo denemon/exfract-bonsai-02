@@ -1,0 +1,71 @@
+00:00.193  translation      | WARNING Falling back to standard locale ("C")
+/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/sculpt/generate.py:15: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*base,1);p.inputs['Roughness'].default_value=rough
+0.2s Remeshing continuous volume
+0.6s Remeshed: 331952 vertices
+4.8s Open weathered hollow: 330729 vertices
+8.5s Upper shallow scar: 331952 vertices
+8.5s Cavities complete
+15.9s Surface flow and masks complete
+27.1s Branch-led foliage: 2940 sprays, 317520 scale leaves
+Info: Saved as "hero-v05.blend"
+27.6s Saved Blender file; exporting GLB
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+14:24:43 | INFO: Starting glTF 2.0 export
+14:24:43 | INFO: Extracting primitive: Branch led scale foliage
+14:24:44 | INFO: Primitives created: 1
+14:24:46 | INFO: Extracting primitive: Continuous aged trunk and primary branches
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Extracting primitive: Continuous planted soil
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Extracting primitive: Cube.001
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Extracting primitive: Cube.002
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Extracting primitive: Cube.003
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Extracting primitive: Cube.004
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Extracting primitive: Cube.005
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Extracting primitive: Shallow unglazed pot
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Extracting primitive: Terminal branch hierarchy
+14:24:47 | INFO: Primitives created: 1
+14:24:47 | INFO: Draco encoder: Encoding mesh Branch led scale foliage.
+14:24:48 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+14:24:48 | INFO: Draco encoder: Encoding mesh Continuous planted soil.
+14:24:48 | INFO: Draco encoder: Encoding mesh Low ceramic foot.
+14:24:48 | INFO: Draco encoder: Encoding mesh Low ceramic foot.001.
+14:24:48 | INFO: Draco encoder: Encoding mesh Low ceramic foot.002.
+14:24:48 | INFO: Draco encoder: Encoding mesh Low ceramic foot.003.
+14:24:48 | INFO: Draco encoder: Encoding mesh Low natural bedding stone.
+14:24:48 | INFO: Draco encoder: Encoding mesh Shallow unglazed pot.
+14:24:48 | INFO: Draco encoder: Encoding mesh Terminal branch hierarchy.
+14:24:48 | INFO: Finished glTF 2.0 export in 5.1673359870910645 s
+
+{"saved": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/models/hero-v05.blend", "glb": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/models/hero-v05.glb", "vertices": 1966612, "faces": 2278205, "bytes": 13575484}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1587600 vertices, 5715360 indices, raw size: 86365440, encoded size: 11812667, compression ratio: 7.31
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 153275 vertices, 897171 indices, raw size: 10943484, encoded size: 1481853, compression ratio: 7.38
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1520 vertices, 8640 indices, raw size: 65920, encoded size: 6764, compression ratio: 9.75
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 116 vertices, 564 indices, raw size: 4840, encoded size: 1202, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6305 vertices, 36864 indices, raw size: 275488, encoded size: 27664, compression ratio: 9.96
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1280 vertices, 7434 indices, raw size: 55828, encoded size: 7889, compression ratio: 7.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 37730 vertices, 194040 indices, raw size: 1897280, encoded size: 224769, compression ratio: 8.44
+
+Blender quit

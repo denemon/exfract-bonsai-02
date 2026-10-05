@@ -1,0 +1,21 @@
+
+> bonsai-ensemble-structure@1.0.0 build
+> node scripts/build.mjs
+
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 25 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                              20.13 kB │ gzip:  14.79 kB
+dist/assets/draco_wasm_wrapper-fZCQGLGb.js   58.45 kB
+dist/assets/draco_wasm_wrapper-DxJM36Ib.js   58.76 kB
+dist/assets/draco_decoder-Z1_iN-Ht.wasm     192.42 kB │ gzip:  64.11 kB
+dist/assets/draco_decoder-C32yEggz.wasm     285.74 kB │ gzip:  89.66 kB
+dist/assets/draco_decoder-fzg4nYZr.js       719.41 kB
+dist/assets/index-DVKFpQ5r.css                0.43 kB │ gzip:   0.26 kB
+dist/assets/ensemble-Wg_f9GUq.js              8.47 kB │ gzip:   3.33 kB
+dist/assets/three.core-Bp-3RSdi.js          222.01 kB │ gzip:  59.23 kB
+dist/assets/index-DutFR28I.js               455.91 kB │ gzip: 121.35 kB
+
+✓ built in 165ms

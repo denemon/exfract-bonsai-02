@@ -1,0 +1,21 @@
+00:00.169  translation      | WARNING Falling back to standard locale ("C")
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+09:35:04 | INFO: Starting glTF 2.0 export
+09:35:04 | WARNING: Mesh Joined authored variable contours is not valid, and may be exported wrongly
+09:35:04 | INFO: Extracting primitive: Joined authored variable contours
+09:35:04 | INFO: Primitives created: 1
+09:35:04 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+09:35:04 | INFO: Finished glTF 2.0 export in 0.0647590160369873 s
+
+{"version": "graph-v02", "inspection": {"graph_vertices": 38, "graph_edges": 37, "control_vertices": 8754, "control_faces": 17500, "subdivision_level": 0, "evaluated_triangles": 17500, "signed_volume": 0.12089786104494493, "boundary_edges": 0, "nonmanifold_edges": 0, "nonadjacent_intersections": 0, "bounds_blender": {"min": [-0.8399791717529297, -0.18746653199195862, 0.1951090693473816], "max": [0.9613707661628723, 0.3532104194164276, 1.935017704963684]}}, "glb_bytes": 91776}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 8754 vertices, 52497 indices, raw size: 595218, encoded size: 90027, compression ratio: 6.61
+
+Blender quit

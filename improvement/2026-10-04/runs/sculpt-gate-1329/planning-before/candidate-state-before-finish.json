@@ -1,0 +1,10 @@
+{
+  "updated_at_jst": "2026-10-04T13:00:01+09:00",
+  "candidate": "hybrid-runtime-1224",
+  "source": "runs/hybrid-runtime-1224/site",
+  "report": "runs/hybrid-runtime-1224/REPORT.md",
+  "preview": "http://127.0.0.1:5187/",
+  "decision": "Ready for parent/user visual review; retains limited depth parallax on eligible desktop pointers, static on mobile",
+  "protected_root_best": "0900-jst-candidate-04",
+  "formal_root_replaced": false
+}

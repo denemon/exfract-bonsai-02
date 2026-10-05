@@ -1,0 +1,29 @@
+00:00.110  translation      | WARNING Falling back to standard locale ("C")
+/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/anatomy-2150/sculpt/cage.py:79: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Neutral inspection wood');mat.use_nodes=True;bs=mat.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.43,.43,.41,1);bs.inputs['Roughness'].default_value=1;mesh.materials.append(mat)
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+22:18:21 | INFO: Starting glTF 2.0 export
+22:18:21 | INFO: Extracting primitive: Continuous anatomical control cage
+22:18:21 | INFO: Primitives created: 1
+22:18:21 | INFO: Extracting primitive: Continuous planted soil
+22:18:21 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+22:18:21 | INFO: Primitives created: 1
+22:18:21 | INFO: Extracting primitive: Cube.001
+22:18:21 | INFO: Primitives created: 1
+22:18:21 | INFO: Extracting primitive: Cube.002
+22:18:21 | INFO: Primitives created: 1
+22:18:21 | INFO: Extracting primitive: Cube.003
+22:18:21 | INFO: Primitives created: 1
+22:18:21 | INFO: Extracting primitive: Cube.004
+22:18:21 | INFO: Primitives created: 1
+22:18:21 | INFO: Extracting primitive: Low split natural bedding stone
+22:18:21 | INFO: Primitives created: 1
+22:18:21 | INFO: Extracting primitive: Shallow unglazed pot
+22:18:21 | INFO: Primitives created: 1
+22:18:21 | INFO: Finished glTF 2.0 export in 0.034874916076660156 s
+
+{"version": "cage-v05", "control": {"vertices": 554, "faces": 528, "boundary_edges": 0, "nonmanifold_edges": 0, "components": [554], "signed_volume": 0.2406056461040397}, "evaluated": {"vertices": 8642, "faces": 8640, "boundary_edges": 0, "nonmanifold_edges": 0, "components": [8642], "signed_volume": 0.22316595695239236}, "cross_sections": [{"z_above_soil": -0.09, "frontal_width": 1.058875, "front_back_depth": 0.8062499999999999, "depth_to_width": 0.7614213197969543}, {"z_above_soil": 0.016, "frontal_width": 0.985, "front_back_depth": 0.75, "depth_to_width": 0.7614213197969544}, {"z_above_soil": 0.125, "frontal_width": 0.6858316427443218, "front_back_depth": 0.5545263689536015, "depth_to_width": 0.8085459089269945}, {"z_above_soil": 0.265, "frontal_width": 0.49842481127531807, "front_back_depth": 0.39098626465267095, "depth_to_width": 0.7844438234369906}, {"z_above_soil": 0.405, "frontal_width": 0.4383443897810414, "front_back_depth": 0.3766972473190652, "depth_to_width": 0.8593636786528288}, {"z_above_soil": 0.55, "frontal_width": 0.5018590246074921, "front_back_depth": 0.35991592490021257, "depth_to_width": 0.7171653935718415}, {"z_above_soil": 0.615, "frontal_width": 0.4657019935928962, "front_back_depth": 0.3725400539332896, "depth_to_width": 0.7999537452247923}, {"z_above_soil": 0.685, "frontal_width": 0.4246223947651203, "front_back_depth": 0.3493795851424375, "depth_to_width": 0.822800656417796}, {"z_above_soil": 0.765, "frontal_width": 0.379376432490813, "front_back_depth": 0.3370307517809664, "depth_to_width": 0.8883808347507933}, {"z_above_soil": 0.82, "frontal_width": 0.36040589748769025, "front_back_depth": 0.3325466152729221, "depth_to_width": 0.9227002598765197}, {"z_above_soil": 0.955, "frontal_width": 0.31393983535643266, "front_back_depth": 0.3187378056180742, "depth_to_width": 1.0152830884178623}, {"z_above_soil": 1.025, "frontal_width": 0.29915152116486043, "front_back_depth": 0.30011344537012696, "depth_to_width": 1.0032155083200678}, {"z_above_soil": 1.1, "frontal_width": 0.2893002608108704, "front_back_depth": 0.28470871705353495, "depth_to_width": 0.9841287949604126}, {"z_above_soil": 1.18, "frontal_width": 0.25822449719114365, "front_back_depth": 0.24824955952087166, "depth_to_width": 0.9613710636334851}, {"z_above_soil": 1.27, "frontal_width": 0.23806492808929247, "front_back_depth": 0.22471509260053896, "depth_to_width": 0.9439235523018901}, {"z_above_soil": 1.34, "frontal_width": 0.22221737044812076, "front_back_depth": 0.20898735289618436, "depth_to_width": 0.9404636211595119}, {"z_above_soil": 1.42, "frontal_width": 0.20315518806606048, "front_back_depth": 0.19226840604491877, "depth_to_width": 0.9464114988901902}, {"z_above_soil": 1.49, "frontal_width": 0.17888929781348148, "front_back_depth": 0.17017984418637533, "depth_to_width": 0.9513137245572564}, {"z_above_soil": 1.58, "frontal_width": 0.1546093834268956, "front_back_depth": 0.15550035079675584, "depth_to_width": 1.0057626991978887}, {"z_above_soil": 1.665, "frontal_width": 0.09865168191687834, "front_back_depth": 0.09448111899824033, "depth_to_width": 0.9577243607245132}, {"z_above_soil": 1.715, "frontal_width": 0.0545499356896218, "front_back_depth": 0.05755777421790097, "depth_to_width": 1.0551391764308058}, {"z_above_soil": 1.735, "frontal_width": 0.033572147174334654, "front_back_depth": 0.037107421396658125, "depth_to_width": 1.1053037866170838}], "glb_bytes": 814592}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,15 @@
+00:00.111  translation      | WARNING Falling back to standard locale ("C")
+/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/anatomy-2150/sculpt/cage.py:69: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Neutral inspection wood');mat.use_nodes=True;bs=mat.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.43,.43,.41,1);bs.inputs['Roughness'].default_value=1;mesh.materials.append(mat)
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/anatomy-2150/sculpt/cage.py", line 86, in <module>
+    coarse=inspect(mesh);evaluated=core.evaluated_get(bpy.context.evaluated_depsgraph_get());fine=inspect(evaluated.to_mesh());evaluated.to_mesh_clear()
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/anatomy-2150/sculpt/cage.py", line 85, in inspect
+    result={'vertices':len(bm.verts),'faces':len(bm.faces),'boundary_edges':sum(e.is_boundary for e in bm.edges),'nonmanifold_edges':sum(not e.is_manifold for e in bm.edges),'components':components,'signed_volume':bm.calc_volume(signed=True)};bm.free();assert result['boundary_edges']==0 and result['nonmanifold_edges']==0 and len(components)==1 and result['signed_volume']>0,result;return result
+                                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'vertices': 280, 'faces': 259, 'boundary_edges': 0, 'nonmanifold_edges': 0, 'components': [277, 1, 1, 1], 'signed_volume': 0.18728748416734825}
+
+Error: script failed, file: 'sculpt/cage.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit
