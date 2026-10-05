@@ -1,0 +1,116 @@
+{
+  "method": "Same actual Mac Chrome, profile, latency150ms,download200000B/s,cache disabled; per viewport one run. Paint opportunity is decode plus two RAFs, separate from actual first-paint/FCP.",
+  "rows": [
+    {
+      "name": "pc",
+      "baseline": {
+        "inline_paint_opportunity_ms": 402,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 408
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 408
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 2085.5,
+        "threeD_ready_ms": 25384.799999952316,
+        "external_encoded_bytes": 4704745,
+        "detailed_geometry_requested": false
+      },
+      "final": {
+        "inline_paint_opportunity_ms": 395.5,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 404
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 404
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 2076.7999999523163,
+        "threeD_ready_ms": 19941,
+        "external_encoded_bytes": 3730784,
+        "detailed_geometry_requested": false
+      }
+    },
+    {
+      "name": "mobile-390",
+      "baseline": {
+        "inline_paint_opportunity_ms": 474.10000002384186,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 472
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 472
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 857.5,
+        "threeD_ready_ms": 24607.899999976158,
+        "external_encoded_bytes": 4575727,
+        "detailed_geometry_requested": false
+      },
+      "final": {
+        "inline_paint_opportunity_ms": 459,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 464
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 464
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 859.2999999523163,
+        "threeD_ready_ms": 19208,
+        "external_encoded_bytes": 3603276,
+        "detailed_geometry_requested": false
+      }
+    },
+    {
+      "name": "mobile-320",
+      "baseline": {
+        "inline_paint_opportunity_ms": 451.5,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 440
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 440
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 686.2999999523163,
+        "threeD_ready_ms": 24511.399999976158,
+        "external_encoded_bytes": 4562019,
+        "detailed_geometry_requested": false
+      },
+      "final": {
+        "inline_paint_opportunity_ms": 442.8000000715256,
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 432
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 432
+          }
+        ],
+        "sharp_external_still_paint_opportunity_ms": 676.8000000715256,
+        "threeD_ready_ms": 19094.800000071526,
+        "external_encoded_bytes": 3587450,
+        "detailed_geometry_requested": false
+      }
+    }
+  ]
+}

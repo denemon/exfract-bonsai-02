@@ -1,0 +1,247 @@
+{
+  "selected_native_sha256": "797e86664f36278c96dcf228aff734c9d7af212ef144af34a6336da31742e1e6",
+  "protected_hero_glb_sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+  "camera_functions_byte_identical": true,
+  "architecture_function_byte_identical": true,
+  "sky_function_byte_identical": true,
+  "unchanged_material_geometry_design_sources": [
+    "garden-materials.js",
+    "garden-geometry.js",
+    "terrain-design.json",
+    "style.css",
+    "shadow-filter.js"
+  ],
+  "normal_views": [
+    {
+      "name": "pc",
+      "selected": "qa/selected-stills/pc.png",
+      "production": "qa/verification/pc.png",
+      "identical": true,
+      "sha256": "8bb4497bdb7fdb67eff089f0bb7900cbc4a65d745d07c306f342b689f18056cf",
+      "camera_identical_to_stage11": true,
+      "exactProjection": {
+        "bounds": {
+          "left": 0.1758839028083714,
+          "right": 0.7658468012370931,
+          "top": 0.1075012784522621,
+          "bottom": 0.9024389341149488
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "top": 0,
+          "right": 1440,
+          "bottom": 900,
+          "left": 0
+        },
+        "cameraAspect": 1.6
+      }
+    },
+    {
+      "name": "mobile-390",
+      "selected": "qa/selected-stills/mobile-390.png",
+      "production": "qa/verification/mobile-390.png",
+      "identical": true,
+      "sha256": "5b56a48317f47bcc1ae1bba8bb72574876f6206d718a179ddcb483b5f6ee2dc4",
+      "camera_identical_to_stage11": true,
+      "exactProjection": {
+        "bounds": {
+          "left": 0.04342278330426086,
+          "right": 0.9654413366350079,
+          "top": 0.27282808720413304,
+          "bottom": 0.6867871044059527
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [
+          {
+            "name": "Canopy_spatial_group_0411",
+            "bounds": {
+              "left": 0.6499485561915539,
+              "right": 0.9654413366350079,
+              "top": 0.3312338827268074,
+              "bottom": 0.3809471158595426
+            }
+          }
+        ],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "cameraAspect": 0.46208530805687204
+      }
+    },
+    {
+      "name": "mobile-320",
+      "selected": "qa/selected-stills/mobile-320.png",
+      "production": "qa/verification/mobile-320.png",
+      "identical": true,
+      "sha256": "ed2873a2e6838bc924f4175314029d41d0129de255580261a4331c6a93f96c9d",
+      "camera_identical_to_stage11": true,
+      "exactProjection": {
+        "bounds": {
+          "left": 0.04324525975146237,
+          "right": 0.9657674946961086,
+          "top": 0.23759526919619023,
+          "bottom": 0.7252176493498264
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [
+          {
+            "name": "Canopy_spatial_group_0411",
+            "bounds": {
+              "left": 0.6557591282973071,
+              "right": 0.9657674946961086,
+              "top": 0.3069655959380625,
+              "bottom": 0.36559435788295885
+            }
+          }
+        ],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568,
+          "top": 0,
+          "right": 320,
+          "bottom": 568,
+          "left": 0
+        },
+        "cameraAspect": 0.5633802816901409
+      }
+    },
+    {
+      "name": "mobile-tall",
+      "selected": "qa/selected-stills/mobile-tall.png",
+      "production": "qa/verification/mobile-tall-320.png",
+      "identical": true,
+      "sha256": "1ff3f11ae173aa94710a05c643301c695d11c72d14b7bdbdacae74755f934d53",
+      "camera_identical_to_stage11": true,
+      "exactProjection": {
+        "bounds": {
+          "left": 0.035946921274307764,
+          "right": 0.9639074137898378,
+          "top": 0.2941221784785431,
+          "bottom": 0.660964800960871
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 932,
+          "top": 0,
+          "right": 320,
+          "bottom": 932,
+          "left": 0
+        },
+        "cameraAspect": 0.34334763948497854
+      }
+    },
+    {
+      "name": "wide",
+      "selected": "qa/selected-stills/wide.png",
+      "production": "qa/verification/wide.png",
+      "identical": true,
+      "sha256": "4c77e1669b70fe72b4069cf8ed7f883cb4a91688763aa4167b01ab90acd7c533",
+      "camera_identical_to_stage11": true,
+      "exactProjection": {
+        "bounds": {
+          "left": 0.28107151430474786,
+          "right": 0.6792937199784105,
+          "top": 0.1075012784522621,
+          "bottom": 0.9024389341149488
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 810,
+          "top": 0,
+          "right": 1920,
+          "bottom": 810,
+          "left": 0
+        },
+        "cameraAspect": 2.3703703703703702
+      }
+    },
+    {
+      "name": "mobile-landscape",
+      "selected": "qa/selected-stills/mobile-landscape.png",
+      "production": "qa/verification/mobile-landscape.png",
+      "identical": true,
+      "sha256": "0be372af1043848fe4e116ea4941225043a13a5d035b9d161423cf3b4e114edd",
+      "camera_identical_to_stage11": true,
+      "exactProjection": {
+        "bounds": {
+          "left": 0.2602364170947589,
+          "right": 0.6964150853452383,
+          "top": 0.1075012784522621,
+          "bottom": 0.9024389341149488
+        },
+        "verticesProjected": 2567263,
+        "edgeObjects": [],
+        "canvasCSS": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390,
+          "top": 0,
+          "right": 844,
+          "bottom": 390,
+          "left": 0
+        },
+        "cameraAspect": 2.164102564102564
+      }
+    }
+  ],
+  "split_only_PC390320_byte_identical_to_stage11": [
+    {
+      "name": "pc",
+      "byte_identical": true,
+      "mean_absolute_rgb_difference": 0.0,
+      "max": 0.0,
+      "pixels_max_channel_difference_gt1_percent": 0.0
+    },
+    {
+      "name": "mobile-390",
+      "byte_identical": true,
+      "mean_absolute_rgb_difference": 0.0,
+      "max": 0.0,
+      "pixels_max_channel_difference_gt1_percent": 0.0
+    },
+    {
+      "name": "mobile-320",
+      "byte_identical": true,
+      "mean_absolute_rgb_difference": 0.0,
+      "max": 0.0,
+      "pixels_max_channel_difference_gt1_percent": 0.0
+    }
+  ],
+  "PCF8_quality_delta": [
+    {
+      "name": "pc",
+      "meanRGBAbsoluteDifference": 0.15806378600823046,
+      "p99MaxChannelDifference": 6.0,
+      "pixelsMaxChannelDifferenceGT3Percent": 2.0957561728395064
+    },
+    {
+      "name": "mobile-320",
+      "meanRGBAbsoluteDifference": 0.15766211854460094,
+      "p99MaxChannelDifference": 5.0,
+      "pixelsMaxChannelDifferenceGT3Percent": 2.0934198943661975
+    }
+  ]
+}

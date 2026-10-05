@@ -1,0 +1,42 @@
+{
+  "results": [],
+  "logs": [
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "Static garden retained:"
+          },
+          {
+            "type": "string",
+            "value": "Failed to fetch"
+          }
+        ],
+        "executionContextId": 3,
+        "timestamp": 1791157386130.696,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "console.<computed>",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5205/@vite/client",
+              "lineNumber": 532,
+              "columnNumber": 3
+            },
+            {
+              "functionName": "",
+              "scriptId": "3",
+              "url": "http://127.0.0.1:5205/src/main.js?t=1791157384665",
+              "lineNumber": 65,
+              "columnNumber": 56
+            }
+          ]
+        }
+      },
+      "sessionId": "D7AE911010AFB42C260BFE59546755A0"
+    }
+  ]
+}
