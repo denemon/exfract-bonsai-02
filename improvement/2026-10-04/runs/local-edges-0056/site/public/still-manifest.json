@@ -1,0 +1,149 @@
+{
+  "purpose": "Same selected real-WebGL scene for loading and unavailable WebGL. Root attachment improved locally; aged major form and the full premium garden remain unfinished.",
+  "model": "models/edge-v02.glb",
+  "model_sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+  "version": "edge-v02",
+  "material_file_sha256": "860457362496c68eebe1a107769796becc9c67ea9e93e9dcd25f7edb62737fcb",
+  "images": [
+    {
+      "name": "pc",
+      "source": "qa/selected-stills/pc.png",
+      "source_sha256": "3b26f286cf6a68a0e27f950d224a642c3fdac9e9ff062d74cb9af97256aab8ec",
+      "source_url": "http://127.0.0.1:5195/?qa=pc",
+      "viewport": [
+        1440,
+        900
+      ],
+      "camera": {
+        "yaw": 0,
+        "pitch": 13,
+        "distance": 2.9209766980211356,
+        "zoom": 1,
+        "position": [
+          -0.03537073089605103,
+          1.3388838393992206,
+          2.8609782474919503
+        ],
+        "target": [
+          -0.03537073089605103,
+          0.6818070514655048,
+          0.014865993004933811
+        ]
+      },
+      "full_webp": "stills/pc.webp",
+      "webp_sha256": "9057ca2b196d09e5c41190a253fa5b5c7ff00716ed5c1ce2907921c34b18f70a",
+      "webp_bytes": 105456,
+      "inline_dimensions": [
+        384,
+        240
+      ],
+      "inline_bytes": 3224,
+      "conversion": "PNG decode, WebP quality88 and small thumbnail quality44; no compositing or screenshot retouching"
+    },
+    {
+      "name": "mobile-390",
+      "source": "qa/selected-stills/mobile-390.png",
+      "source_sha256": "f90ba78f2ffb23ff7c5486f1358bebb1a7547c0d13432668be078ddce2a1cce7",
+      "source_url": "http://127.0.0.1:5195/?qa=mobile-390",
+      "viewport": [
+        390,
+        844
+      ],
+      "camera": {
+        "yaw": -38,
+        "pitch": 11,
+        "distance": 5.2393140757229295,
+        "zoom": 1,
+        "position": [
+          -3.2354561558064017,
+          1.5661819584454526,
+          4.082114914739318
+        ],
+        "target": [
+          -0.06907648466939789,
+          0.5664737031945701,
+          0.02933375032123769
+        ]
+      },
+      "full_webp": "stills/mobile-390.webp",
+      "webp_sha256": "c9ef89e8b44ce85e14e78ee4101b3e07f5ec1c6d78efc1f0d87a9f4e95a14fb4",
+      "webp_bytes": 31858,
+      "inline_dimensions": [
+        177,
+        384
+      ],
+      "inline_bytes": 2644,
+      "conversion": "PNG decode, WebP quality88 and small thumbnail quality44; no compositing or screenshot retouching"
+    },
+    {
+      "name": "mobile-320",
+      "source": "qa/selected-stills/mobile-320.png",
+      "source_sha256": "b959c057c0d8abab466a95f217ff325d7497011f883c22a38ba4424407a081ea",
+      "source_url": "http://127.0.0.1:5195/?qa=mobile-320",
+      "viewport": [
+        320,
+        568
+      ],
+      "camera": {
+        "yaw": -32,
+        "pitch": 11,
+        "distance": 4.632071238133095,
+        "zoom": 1,
+        "position": [
+          -2.48691922516553,
+          1.463831280217216,
+          3.8772577701578146
+        ],
+        "target": [
+          -0.07739379523705261,
+          0.5799904207564519,
+          0.021211026040789407
+        ]
+      },
+      "full_webp": "stills/mobile-320.webp",
+      "webp_sha256": "2bd9a1250f47725fd257d8797da481d2c644ba428497b1ebbb1c6af71f24257c",
+      "webp_bytes": 20216,
+      "inline_dimensions": [
+        216,
+        384
+      ],
+      "inline_bytes": 3118,
+      "conversion": "PNG decode, WebP quality88 and small thumbnail quality44; no compositing or screenshot retouching"
+    },
+    {
+      "name": "mobile-tall",
+      "source": "qa/selected-stills/mobile-tall.png",
+      "source_sha256": "8b961823b8cc2ec4d88b84866eeda52ee33ab65b9a6195fa009f0c31376c54a5",
+      "source_url": "http://127.0.0.1:5195/?qa=mobile-tall",
+      "viewport": [
+        320,
+        932
+      ],
+      "camera": {
+        "yaw": -48,
+        "pitch": 11,
+        "distance": 6.268043683630619,
+        "zoom": 1,
+        "position": [
+          -4.651812601627504,
+          1.743819843778133,
+          4.141541065115854
+        ],
+        "target": [
+          -0.07933013184610715,
+          0.5478207255282772,
+          0.02445935684370888
+        ]
+      },
+      "full_webp": "stills/mobile-tall.webp",
+      "webp_sha256": "9bbb79cab744e4817f580c85eea87aabb678be4cd462fb7a6934722477472f52",
+      "webp_bytes": 26254,
+      "inline_dimensions": [
+        132,
+        384
+      ],
+      "inline_bytes": 1792,
+      "conversion": "PNG decode, WebP quality88 and small thumbnail quality44; no compositing or screenshot retouching"
+    }
+  ]
+}

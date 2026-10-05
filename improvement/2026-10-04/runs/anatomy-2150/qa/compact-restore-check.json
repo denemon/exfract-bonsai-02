@@ -1,0 +1,65 @@
+{
+  "restored_compact_cages": [
+    {
+      "version": "cage-v01",
+      "control_vertices": 277,
+      "control_faces": 259,
+      "evaluated_vertices": 4274,
+      "evaluated_faces": 4272,
+      "signed_volume": 0.17386844201928842,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "version": "cage-v02",
+      "control_vertices": 288,
+      "control_faces": 271,
+      "evaluated_vertices": 4458,
+      "evaluated_faces": 4456,
+      "signed_volume": 0.1918178099778826,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "version": "cage-v03",
+      "control_vertices": 288,
+      "control_faces": 271,
+      "evaluated_vertices": 4458,
+      "evaluated_faces": 4456,
+      "signed_volume": 0.18411018691559358,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "version": "cage-v04",
+      "control_vertices": 288,
+      "control_faces": 271,
+      "evaluated_vertices": 4458,
+      "evaluated_faces": 4456,
+      "signed_volume": 0.19449165027395107,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "version": "cage-v05",
+      "control_vertices": 554,
+      "control_faces": 528,
+      "evaluated_vertices": 8642,
+      "evaluated_faces": 8640,
+      "signed_volume": 0.22316595695239236,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "version": "cage-v06",
+      "control_vertices": 554,
+      "control_faces": 528,
+      "evaluated_vertices": 8642,
+      "evaluated_faces": 8640,
+      "signed_volume": 0.22020138570719386,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "native_duplicates_written": false
+}

@@ -1,0 +1,48 @@
+{
+  "changes": [
+    "Use supported PCFShadowMap, equivalent to the prior automatic fallback",
+    "Empty data favicon avoids the 404"
+  ],
+  "prior_logs": [
+    {
+      "capture": "initial",
+      "favicon_404": 1,
+      "deprecated_shadow_setting": 8
+    },
+    {
+      "capture": "revised",
+      "favicon_404": 1,
+      "deprecated_shadow_setting": 4
+    },
+    {
+      "capture": "rooted",
+      "favicon_404": 1,
+      "deprecated_shadow_setting": 5
+    },
+    {
+      "capture": "footprint",
+      "favicon_404": 1,
+      "deprecated_shadow_setting": 4
+    },
+    {
+      "capture": "extended",
+      "favicon_404": 1,
+      "deprecated_shadow_setting": 6
+    },
+    {
+      "capture": "final",
+      "favicon_404": 0,
+      "deprecated_shadow_setting": 0
+    },
+    {
+      "capture": "final-before-diagnostic-fix",
+      "favicon_404": 1,
+      "deprecated_shadow_setting": 4
+    }
+  ],
+  "final_logs": [],
+  "final_views_rechecked": 6,
+  "final_screenshots_byte_identical": true,
+  "geometry_changed": false,
+  "final_build_passed": true
+}
