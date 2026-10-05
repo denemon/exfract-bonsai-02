@@ -1,0 +1,194 @@
+--- stage11/main.js
++++ stage12/main.js
+@@ -3,7 +3,7 @@
+ import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+ import {DRACOLoader} from 'three/addons/loaders/DRACOLoader.js';
+ import {makeMaterials,applyHeroMaterials} from './materials.js';
+-import {createScene} from './scene.js';
++import {createScene,loadGardenAssets} from './scene.js';
+ import {prepareFoliageLOD} from './foliage-lod.js';
+ import {configureShadowFilter} from './shadow-filter.js';
+ const query=new URLSearchParams(location.search),study=query.get('study')||'garden';
+@@ -14,6 +14,8 @@
+ let renderer,camera,garden,model,foliage,frame=0,lost=false,points=[],baseYaw=0,yaw=0,pitch=13,distance=5,zoom=1,target=new THREE.Vector3(),down,pinch;
+ const pointers=new Map();
+ const started=performance.now();
++let loadDetailedFoliage;
++async function loadCompressedGLB(loader,name){if(typeof DecompressionStream!=='function')return loader.loadAsync('/models/'+name+'.glb');const response=await fetch('/models/'+name+'.glb.gz');if(!response.ok)throw Error('Model fetch failed: '+response.status);let bytes=await response.arrayBuffer();if(new DataView(bytes).getUint32(0,true)!==0x46546c67)bytes=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();return loader.parseAsync(bytes,'/models/');}
+ function still(){document.documentElement.classList.remove('ready');stats.ready=false;cancelAnimationFrame(frame);frame=0;}
+ function scanPoints(){points=[];if(query.get('frame')==='shared'){for(const x of [-1.55,1.30])for(const y of [-.08,2.28])for(const z of [-.72,.68])points.push(new THREE.Vector3(x,y,z).multiplyScalar(HERO_SCALE));return;}garden.subject.updateMatrixWorld(true);garden.subject.traverse(o=>{if(!o.isMesh||!o.visible)return;if(o.isInstancedMesh){o.geometry.computeBoundingBox();const b=o.userData.foliageEnvelope||o.geometry.boundingBox,m=new THREE.Matrix4();for(let i=0;i<o.count;i++){o.getMatrixAt(i,m);m.premultiply(o.matrixWorld);for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])points.push(new THREE.Vector3(x,y,z).applyMatrix4(m));}}else{const p=o.geometry.attributes.position;for(let i=0;i<p.count;i+=8)points.push(new THREE.Vector3().fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld));}});}
+ function setCamera(fit=true){
+@@ -32,21 +34,26 @@
+  const bounds={left:1,right:0,top:1,bottom:0},q=new THREE.Vector3();for(const p of points){q.copy(p).project(camera);const x=(q.x+1)/2,y=(1-q.y)/2;bounds.left=Math.min(bounds.left,x);bounds.right=Math.max(bounds.right,x);bounds.top=Math.min(bounds.top,y);bounds.bottom=Math.max(bounds.bottom,y);}
+  stats.framing=bounds;stats.camera={yaw,pitch,distance,zoom,position:camera.position.toArray(),target:target.toArray()};
+ }
+-function render(){if(lost||document.hidden)return;const t=performance.now();stats.foliageLOD=foliage.update(camera,innerHeight,distance,query.get("foliage-lod"));if(stats.foliageLOD.changed)renderer.shadowMap.needsUpdate=true;renderer.info.reset();renderer.render(garden.scene,camera);stats.frames++;stats.framesMs.push(performance.now()-t);if(stats.framesMs.length>120)stats.framesMs.shift();stats.drawCalls=renderer.info.render.calls;stats.triangles=renderer.info.render.triangles;if(!stats.ready){stats.firstFrameMs=performance.now()-started;stats.navigationToFirstFrameMs=performance.now();stats.ready=true;document.documentElement.classList.add('ready');}}
++function render(){if(lost||document.hidden)return;const t=performance.now();stats.foliageLOD=foliage.update(camera,innerHeight,distance,query.get("foliage-lod"));if(stats.foliageLOD.changed)renderer.shadowMap.needsUpdate=true;if(stats.foliageLOD.needsHigh)loadDetailedFoliage?.();renderer.info.reset();renderer.render(garden.scene,camera);stats.frames++;stats.framesMs.push(performance.now()-t);if(stats.framesMs.length>120)stats.framesMs.shift();stats.drawCalls=renderer.info.render.calls;stats.triangles=renderer.info.render.triangles;if(!stats.ready){stats.firstFrameMs=performance.now()-started;stats.navigationToFirstFrameMs=performance.now();stats.ready=true;document.documentElement.classList.add('ready');}}
+ function requestRender(){if(frame)return;frame=requestAnimationFrame(()=>{frame=0;render();});}
+ function resize(){const portrait=innerHeight>innerWidth,ratio=innerWidth/innerHeight;camera.aspect=ratio;camera.fov=portrait?39:38;camera.updateProjectionMatrix();baseYaw=Number(query.get('yaw')??(portrait?(ratio<.40?-42:ratio<.52?-27:-23):0));yaw=baseYaw;pitch=Number(query.get('pitch')??(portrait?9:10));zoom=1;setCamera();const pixel=Math.min(devicePixelRatio,1.6);renderer.setPixelRatio(pixel);renderer.setSize(innerWidth,innerHeight,false);renderer.shadowMap.needsUpdate=true;stats.viewport=[innerWidth,innerHeight];render();}
+ try{
+  if(query.get("shadow-filter")!=="original")configureShadowFilter();
+  const context=canvas.getContext('webgl2',{alpha:false,antialias:true,powerPreference:'high-performance'});if(!context)throw Error('WebGL2 unavailable');
+  renderer=new THREE.WebGLRenderer({canvas,context,antialias:true});renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=study==='clay'?1.05:1.0;renderer.shadowMap.enabled=true;renderer.shadowMap.type=query.get('shadow-type')==='vsm'?THREE.VSMShadowMap:query.get('shadow-type')==='soft'?THREE.PCFSoftShadowMap:THREE.PCFShadowMap;renderer.shadowMap.autoUpdate=false;
+- const draco=new DRACOLoader().setDecoderPath('/draco/');const loader=new GLTFLoader().setDRACOLoader(draco);const gltf=await loader.loadAsync(({basis:'/models/basis.glb'})[query.get('reference')]||'/models/hero.glb');model=gltf.scene;foliage=prepareFoliageLOD(gltf);
+- model.scale.setScalar(HERO_SCALE);draco.dispose();const mats=await makeMaterials();applyHeroMaterials(model,mats,study==='clay');stats.worldScale=HERO_SCALE;
++ const draco=new DRACOLoader().setDecoderPath('/draco/').setWorkerLimit(2),loader=new GLTFLoader().setDRACOLoader(draco),reference=query.has('reference'),candidate=query.get('candidate');
++ const [gltf,wood,mats,loadedAssets]=await Promise.all([reference?loader.loadAsync(query.get('reference')==='basis'?'/models/basis.glb':'/models/hero.glb'):loadCompressedGLB(loader,'hero-low'),['ancient-v01','ancient-v02'].includes(candidate)&&!reference?loader.loadAsync('/models/'+candidate+'.glb'):null,makeMaterials(),loadGardenAssets(loader,study)]);
++ model=gltf.scene;foliage=prepareFoliageLOD(gltf);
++ if(wood){const old=[];model.traverse(o=>{if(o.isMesh&&/Continuous[_ ]aged/.test(o.name))old.push(o)});if(old.length!==1)throw Error('Expected one original continuous wood core');old[0].removeFromParent();for(const o of [...wood.scene.children])model.add(o);}
++ let detailedRequest;loadDetailedFoliage=()=>{if(detailedRequest)return;stats.detailLoading=true;detailedRequest=loadCompressedGLB(loader,'foliage-high').then(detail=>{foliage.installHigh(detail);stats.detailLoading=false;stats.detailReady=true;requestRender();}).catch(error=>{stats.detailLoading=false;stats.detailError=error.message;});};
++ window.addEventListener('pagehide',()=>draco.dispose(),{once:true});
++ model.scale.setScalar(HERO_SCALE);applyHeroMaterials(model,mats,study==='clay');stats.worldScale=HERO_SCALE;stats.loading={parallelAssets:true,sharedDraco:true,woodReplacement:Boolean(wood),decoderWorkerLimit:2,exactGeometrySplit:!reference,losslessModelGzip:!reference&&typeof DecompressionStream==='function'};
+  if(study==='normals')model.traverse(o=>{if(o.isMesh)o.material=new THREE.MeshNormalMaterial();});
+  if(query.get('shadow')==='0')model.traverse(o=>{if(o.isMesh)o.receiveShadow=false;});
+  if(query.has('bare'))model.traverse(o=>{if(/Canopy|foliage|sprays|twig|shoots|particles|terminal[ _]branch/i.test(o.name))o.visible=false;});
+- garden=await createScene(model,study);stats.garden=garden.metadata;stats.layout=garden.layout;camera=new THREE.PerspectiveCamera(38,1,.04,60);scanPoints();renderer.info.autoReset=false;
++ garden=await createScene(model,study,loadedAssets);stats.garden=garden.metadata;stats.layout=garden.layout;camera=new THREE.PerspectiveCamera(38,1,.04,60);scanPoints();renderer.info.autoReset=false;
+  stats.model={meshes:0,vertices:0,instances:0,hasWoodMasks:false};model.traverse(o=>{if(o.isMesh){stats.model.meshes++;stats.model.vertices+=o.geometry.attributes.position.count;if(o.isInstancedMesh)stats.model.instances+=o.count;if(/Continuous[_ ]aged/.test(o.name)){stats.model.authoringVersion=o.userData.authoring_version;stats.model.hasWoodMasks=Boolean(o.geometry.attributes.color);stats.model.woodAttributes=Object.keys(o.geometry.attributes);stats.model.woodUVRange=[Infinity,Infinity,-Infinity,-Infinity];const uv=o.geometry.attributes.uv;if(uv)for(let n=0;n<uv.count;n+=100){const r=stats.model.woodUVRange;r[0]=Math.min(r[0],uv.getX(n));r[1]=Math.min(r[1],uv.getY(n));r[2]=Math.max(r[2],uv.getX(n));r[3]=Math.max(r[3],uv.getY(n));}stats.model.woodMaterial=o.material.customProgramCacheKey();}}});
+- window.__garden={stats,scene:garden.scene,subject:garden.subject,camera,renderer,render,model,setView:(azimuth,elevation=13)=>{yaw=azimuth;pitch=elevation;setCamera();render();},setKey:(p)=>{garden.key.position.set(...p);renderer.shadowMap.needsUpdate=true;render();}};
++ window.__garden={stats,foliage,scene:garden.scene,subject:garden.subject,camera,renderer,render,model,setView:(azimuth,elevation=13)=>{yaw=azimuth;pitch=elevation;setCamera();render();},setKey:(p)=>{garden.key.position.set(...p);renderer.shadowMap.needsUpdate=true;render();}};
+  window.addEventListener('resize',resize);reduced.addEventListener('change',()=>{stats.reduced=reduced.matches;render();});document.addEventListener('visibilitychange',()=>{if(!document.hidden)render();});
+  canvas.addEventListener('pointerdown',e=>{if(reduced.matches)return;pointers.set(e.pointerId,new THREE.Vector2(e.clientX,e.clientY));down={x:e.clientX,y:e.clientY,yaw,pitch};if(pointers.size===2){const [a,b]=[...pointers.values()];pinch={distance:a.distanceTo(b),zoom};}canvas.setPointerCapture(e.pointerId);});
+  canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId)||reduced.matches)return;pointers.set(e.pointerId,new THREE.Vector2(e.clientX,e.clientY));if(pointers.size===2&&pinch){const [a,b]=[...pointers.values()];zoom=THREE.MathUtils.clamp(pinch.zoom*pinch.distance/Math.max(a.distanceTo(b),10),.60,1);setCamera();requestRender();return;}if(!down)return;const portrait=innerHeight>innerWidth,limit=portrait?10:25;yaw=THREE.MathUtils.clamp(down.yaw+(e.clientX-down.x)*.045,baseYaw-limit,baseYaw+limit);pitch=THREE.MathUtils.clamp(down.pitch+(e.clientY-down.y)*.035,portrait?6:8,portrait?16:19);setCamera();requestRender();});
+--- stage11/foliage-lod.js
++++ stage12/foliage-lod.js
+@@ -6,17 +6,19 @@
+  const templates=new Map(),remove=[],items=[];
+  gltf.scene.traverse(o=>{if(o.isMesh&&o.userData.foliage_lod_template){templates.set(Number(o.userData.foliage_variant),o.geometry);remove.push(o);}});
+  for(const o of remove)o.removeFromParent();
+- const definitions=new Map(gltf.parser.json.nodes.filter(n=>n.mesh!==undefined).map(n=>[n.name,gltf.parser.json.meshes[n.mesh].name]));
++ const definitions=new Map(gltf.parser.json.nodes.filter(n=>n.mesh!==undefined).map(n=>[n.name,gltf.parser.json.meshes[n.mesh]]));
++ let highAvailable=true;
+  gltf.scene.traverse(o=>{
+   if(!o.isInstancedMesh)return;
+-  const match=/^Volumetric scale shoot (\d+)(?:\.\d+)?$/.exec(definitions.get(o.userData.name)||'');
++  const match=/^Volumetric scale shoot (\d+)(?:\.\d+)?$/.exec(definitions.get(o.userData.name)?.name||'');
+   if(!match)return;
+   const low=templates.get(Number(match[1]));if(!low)throw Error('Missing volumetric foliage LOD');
+-  const high=o.geometry;high.computeBoundingBox();low.computeBoundingBox();
++  let high=o.geometry;const saved=definitions.get(o.userData.name)?.extras?.deferred_high_bounds;
++  if(saved){highAvailable=false;high=high.clone();high.boundingBox=new THREE.Box3(new THREE.Vector3(...saved.min),new THREE.Vector3(...saved.max));high.boundingSphere=new THREE.Sphere(new THREE.Vector3(...saved.sphere.center),saved.sphere.radius);o.geometry=high;}else high.computeBoundingBox();low.computeBoundingBox();
+   o.userData.foliageEnvelope=high.boundingBox.clone().union(low.boundingBox);
+   o.computeBoundingSphere();const envelope=o.boundingSphere.clone();
+   o.geometry=low;o.computeBoundingSphere();envelope.union(o.boundingSphere);o.geometry=high;o.boundingSphere=envelope;
+-  items.push({mesh:o,high,low,level:'high',crown:(o.userData.name||o.name).match(/Canopy[ _]spatial[ _]group[ _](\d+)/)?.[1]||'legacy',sphere:new THREE.Sphere(),lowTriangles:low.index.count/3*o.count,extraTriangles:(high.index.count-low.index.count)/3*o.count});
++  items.push({variant:Number(match[1]),mesh:o,high,low,level:'high',crown:(o.userData.name||o.name).match(/Canopy[ _]spatial[ _]group[ _](\d+)/)?.[1]||'legacy',sphere:new THREE.Sphere(),lowTriangles:low.index.count/3*o.count,extraTriangles:(high.index.count-low.index.count)/3*o.count});
+  });
+  const frustum=new THREE.Frustum(),projection=new THREE.Matrix4(),viewPoint=new THREE.Vector3();
+  const crowns=[...new Set(items.map(item=>item.crown))].map(key=>({key,items:items.filter(item=>item.crown===key),level:'high'}));
+@@ -24,6 +26,8 @@
+  const isVisible=mesh=>{for(let p=mesh;p;p=p.parent)if(!p.visible)return false;return true;};
+  return {
+   count:items.length,
++  installHigh(detail){const templates=new Map();detail.scene.traverse(o=>{if(o.isMesh){o.geometry.computeBoundingBox();templates.set(Number(o.userData.high_template_variant),o.geometry)}});if(templates.size!==12)throw Error('Expected twelve exact detailed foliage prototypes');for(const item of items){const high=templates.get(item.variant);if(!high)throw Error('Missing detailed leaf variant');item.high=high;item.extraTriangles=(high.index.count-item.low.index.count)/3*item.mesh.count;}highAvailable=true;},
++  templateBounds(){const found=new Map();for(const i of items)if(!found.has(i.variant)){i.high.computeBoundingSphere();found.set(i.variant,{variant:i.variant,min:i.high.boundingBox.min.toArray(),max:i.high.boundingBox.max.toArray(),sphere:{center:i.high.boundingSphere.center.toArray(),radius:i.high.boundingSphere.radius}})}return [...found.values()]},
+   update(camera,height,distance,forced){
+    projection.multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse);frustum.setFromProjectionMatrix(projection);
+    const eligible=[];let allocatedLeafTriangles=baseTriangles;
+@@ -42,23 +46,25 @@
+     crown.next='low';crown.priority=priority;crown.extraTriangles=crown.items.reduce((sum,item)=>sum+item.extraTriangles,0);
+     if(visible&&pixels>(crown.level==='high'?38:42))eligible.push(crown);
+    }
++   const needsHigh=!highAvailable&&eligible.length>0;
+    eligible.sort((a,b)=>b.priority-a.priority);
+-   for(const crown of eligible)if(allocatedLeafTriangles+crown.extraTriangles<=leafBudget){crown.next='high';allocatedLeafTriangles+=crown.extraTriangles;}
++   for(const crown of eligible)if(highAvailable&&allocatedLeafTriangles+crown.extraTriangles<=leafBudget){crown.next='high';allocatedLeafTriangles+=crown.extraTriangles;}
+    if(forced==='high'||forced==='low'){
+     allocatedLeafTriangles=baseTriangles;
+-    for(const crown of crowns){crown.next=forced;if(forced==='high')allocatedLeafTriangles+=crown.extraTriangles;}
++    for(const crown of crowns){crown.next=highAvailable?forced:'low';if(crown.next==='high')allocatedLeafTriangles+=crown.extraTriangles;}
+    }
+    let changed=false,highGroups=0,visibleGroups=0,visibleLeafTriangles=0;
+    for(const crown of crowns){
+     crown.level=crown.next;
+     for(const item of crown.items){
+      if(crown.next==='high')highGroups++;
++     if(item.mesh.userData.foliageMaterials)item.mesh.material=item.mesh.userData.foliageMaterials[crown.next];
+      if(item.level!==crown.next){item.mesh.geometry=item[crown.next];item.level=crown.next;changed=true;}
+      if(item.visible){visibleGroups++;visibleLeafTriangles+=item.lowTriangles+(item.level==='high'?item.extraTriangles:0);}
+     }
+    }
+    const level=highGroups===0?'low':highGroups===items.length?'high':'mixed';
+-   return {level,changed,highGroups,visibleGroups,groups:items.length,crowns:crowns.length,visibleLeafTriangles,allocatedLeafTriangles,leafBudget,closedScaleLeaves:true};
++   return {level,changed,highAvailable,needsHigh:needsHigh||(forced==='high'&&!highAvailable),highGroups,visibleGroups,groups:items.length,crowns:crowns.length,visibleLeafTriangles,allocatedLeafTriangles,leafBudget,closedScaleLeaves:true};
+   }
+  };
+ }
+--- stage11/materials.js
++++ stage12/materials.js
+@@ -60,12 +60,15 @@
+    roughnessFactor=clamp(.86+.13*roughValue,.90,.99);
+   `,{barkColor:{value:color},barkNormalMap:{value:normal},barkHeight:{value:height},barkRough:{value:rough}});
+  }
+- const leaf=new THREE.MeshStandardMaterial({color:'#ffffff',vertexColors:true,roughness:.78,metalness:0});
+- extend(leaf,'scale-leaf-v2',`
++ const leafFragment=`
+  float age=clamp(vColor.r,0.,1.),tip=clamp(vColor.g,0.,1.);
+  diffuseColor.rgb=mix(vec3(.035,.090,.025),vec3(.15,.250,.073),age*.66+tip*.24);
+  diffuseColor.rgb*=.96+fb(vLocal*13.)*.08;
+- `);
++ `;
++ const leaf=extend(new THREE.MeshStandardMaterial({color:'#ffffff',vertexColors:true,roughness:.78,metalness:0}),'scale-leaf-v2',leafFragment);
++ const leafLow=extend(new THREE.MeshStandardMaterial({color:'#ffffff',vertexColors:true,roughness:.78,metalness:0}),'scale-leaf-low-pcf8-v1',leafFragment);
++ const before=leafLow.onBeforeCompile;leafLow.onBeforeCompile=shader=>{before(shader);let chunk=THREE.ShaderChunk.shadowmap_pars_fragment;if(chunk.includes('sampleIndex<16')){chunk=chunk.replace('sampleIndex<16','sampleIndex<8').replace('vogelDiskSample(sampleIndex,16,0.0)','vogelDiskSample(sampleIndex,8,0.0)').replace('shadow *= 0.0625','shadow *= 0.125');shader.fragmentShader=shader.fragmentShader.replace('#include <shadowmap_pars_fragment>',chunk);}};
++ 
+  const ceramic=extend(new THREE.MeshStandardMaterial({color:'#6f5140',roughness:.86}),'unglazed-clay-v1',`
+  float pore=fb(vLocal*370.);float kiln=fb(vLocal*5.+vec3(4,2,1));
+  diffuseColor.rgb*=.78+.30*kiln+.16*pore;
+@@ -82,11 +85,11 @@
+  diffuseColor.rgb=mix(vec3(.032,.023,.012),vec3(.046,.074,.015),coverage)*(.72+grain*.5);
+  `);
+  const grit=extend(new THREE.MeshStandardMaterial({color:'#655344',roughness:1}),'root-grit-v1',`diffuseColor.rgb*=.65+fb(vLocal*100.)*.65;`);
+- return {wood,leaf,ceramic,stone,soil,grit,twig:new THREE.MeshStandardMaterial({color:'#493728',roughness:.94}),clay:new THREE.MeshStandardMaterial({color:'#b2afa5',roughness:1})};
++ return {wood,leaf,leafLow,ceramic,stone,soil,grit,twig:new THREE.MeshStandardMaterial({color:'#493728',roughness:.94}),clay:new THREE.MeshStandardMaterial({color:'#b2afa5',roughness:1})};
+ }
+ export function applyHeroMaterials(hero,m,clay=false){
+  hero.traverse(o=>{if(!o.isMesh)return;o.castShadow=true;o.receiveShadow=true;
+-  const n=o.material.name;
++  const n=o.material.name;if(!clay&&n.includes('foliage'))o.userData.foliageMaterials={high:m.leaf,low:m.leafLow};
+   o.material=clay?m.clay:n.includes('twig')?m.twig:n.includes('wood')?m.wood:n.includes('foliage')?m.leaf:n.includes('ceramic')?m.ceramic:n.toLowerCase().includes('loose')?m.grit:n.includes('soil')?m.soil:m.stone;
+  });
+ }
+--- stage11/scene.js
++++ stage12/scene.js
+@@ -104,7 +104,9 @@
+  return {...batch.done(),version:'space-v2',houseYaw:yaw,frontEdge:housePoint([1.75,.3,.6]).toArray(),deckTop:.31,interiorFloorTop:.376,verandaSupportContacts:supportContacts,roomOpening:{front:housePoint([2.46,1.5,-.4]).toArray(),rear:housePoint([2.46,1.5,-2.8]).toArray(),yMin:.402,yMax:2.448},layers:['floorboards 44mm','support beams125mm','short posts200mm','buried foundation feet','grooved66mm threshold','158mm-deep posts','recessed room and alcove','separate joists/rafters/roof'],rearBoundaryZ:rearZ};
+ }
+ 
+-export async function createScene(hero,study){
++export async function loadGardenAssets(loader,study){if(['clay','material','normals'].includes(study))return null;return Promise.all([gardenMaterials(),loadGardenRocks(loader)]);}
++
++export async function createScene(hero,study,loadedAssets){
+  const scene=new THREE.Scene(),subject=new THREE.Group();subject.name='bonsai';subject.add(hero);scene.add(subject);
+  const clay=['clay','material','normals'].includes(study),layout=new URLSearchParams(location.search).get('layout')||'b';
+  if(clay){
+@@ -113,7 +115,7 @@
+   scene.add(new THREE.HemisphereLight('#ffffff','#9a9387',1.1));const key=new THREE.DirectionalLight('#fffaf0',3.4);key.position.set(-3.8,4.5,2.8);key.target.position.set(0,.9,0);key.castShadow=true;key.shadow.mapSize.set(2048,2048);Object.assign(key.shadow.camera,{left:-3,right:3,top:3,bottom:-3,near:.1,far:12});key.shadow.bias=-.0001;key.shadow.normalBias=.003;key.shadow.radius=5;scene.add(key,key.target);const fill=new THREE.DirectionalLight('#edf0f4',.55);fill.position.set(3,3,-2);scene.add(fill);return {scene,subject,key,ground,layout:'diagnostic'};
+  }
+  scene.background=new THREE.Color('#101e32');sky(scene);scene.fog=new THREE.FogExp2('#142337',.020);
+- const [m,rockAssets]=await Promise.all([gardenMaterials(),loadGardenRocks()]);setGroundField(m.terrain.image);const ground=new THREE.Mesh(groundGeometry(),m.ground);ground.name='Continuous mineral gravel and growing moss';ground.receiveShadow=true;scene.add(ground);
++ const [m,rockAssets]=loadedAssets||await Promise.all([gardenMaterials(),loadGardenRocks()]);setGroundField(m.terrain.image);const ground=new THREE.Mesh(groundGeometry(),m.ground);ground.name='Continuous mineral gravel and growing moss';ground.receiveShadow=true;scene.add(ground);
+  const farGeometry=new THREE.PlaneGeometry(100,100);farGeometry.rotateX(-Math.PI/2);farGeometry.translate(0,-.029,0);const distantGround=new THREE.Mesh(farGeometry,m.ground);distantGround.name='Continuous distant mineral ground';distantGround.receiveShadow=true;scene.add(distantGround);
+  const built=architecture(scene,m,layout);
+  const rocks=placeGardenRocks(scene,rockAssets,m);
+--- stage11/garden-rocks.js
++++ stage12/garden-rocks.js
+@@ -2,15 +2,15 @@
+ import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+ import {DRACOLoader} from 'three/addons/loaders/DRACOLoader.js';
+ 
+-export async function loadGardenRocks(){
+- const draco=new DRACOLoader().setDecoderPath('/draco/'),loader=new GLTFLoader().setDRACOLoader(draco),textures=new THREE.TextureLoader();
++export async function loadGardenRocks(sharedLoader){
++ const draco=sharedLoader?null:new DRACOLoader().setDecoderPath('/draco/'),loader=sharedLoader||new GLTFLoader().setDRACOLoader(draco),textures=new THREE.TextureLoader();
+  try{return await Promise.all(['boulder_01','rock_09'].map(async id=>{
+   const [gltf,...maps]=await Promise.all([loader.loadAsync('/rocks/'+id+'.glb'),...['diff','nor_gl','arm'].map(n=>textures.loadAsync('/rocks/'+id+'_'+n+'.webp'))]);
+   gltf.scene.updateMatrixWorld(true);let geometry;gltf.scene.traverse(o=>{if(o.isMesh){if(geometry)throw Error('Garden stone must be one mesh');geometry=o.geometry.clone().applyMatrix4(o.matrixWorld);}});
+   if(!geometry?.attributes.uv)throw Error('Garden stone UVs missing');
+   maps[0].colorSpace=THREE.SRGBColorSpace;for(const t of maps){t.flipY=false;t.anisotropy=4;}
+   return {id,geometry,maps};
+- }));}finally{draco.dispose();}
++ }));}finally{draco?.dispose();}
+ }
+ 
+ export function placeGardenRocks(scene,assets,gardenMaterials){

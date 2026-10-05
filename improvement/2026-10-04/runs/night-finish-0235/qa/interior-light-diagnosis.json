@@ -1,0 +1,7 @@
+{
+  "evidence": "qa/interior-probe/results.json",
+  "visible_surface": "Rear interior plaster at world z\u2248-4.53m, normal approximately[-.208,0,.978], rather than the front return wall.",
+  "failed_target": "Interior spotlight had been turned toward positive local Z; visible rear wall cone cosine -0.37 to -0.68, outside light cone.",
+  "correction": "Aim the same ceiling-cove spotlight at local[3.80,1.50,-4.40]. Keep its position, use26cd,0.98rad cone and0.95penumbra. No camera or geometry movement.",
+  "porch_fill": "The separate restrained point light remains under the front eave to read pillar/eave side surfaces."
+}

@@ -1,0 +1,325 @@
+{
+  "results": [
+    {
+      "name": "pc",
+      "url": "http://127.0.0.1:5188/?qa=pc",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 1933.9000000357628,
+        "framesMs": [
+          1681.4000000357628
+        ],
+        "model": {
+          "meshes": 23,
+          "vertices": 461736,
+          "instances": 4320,
+          "hasWoodMasks": true,
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.1577313095331192,
+            -1.1704262495040894,
+            1.4057029485702515,
+            1.0525562763214111
+          ],
+          "woodMaterial": "continuous-wood-v3"
+        },
+        "framing": {
+          "left": 0.1714973179630102,
+          "right": 0.8252577832081021,
+          "top": 0.07,
+          "bottom": 0.9300000000000002
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 4.856269780424726,
+          "position": [
+            -0.14087401375490516,
+            2.1639055562813647,
+            4.585704505378403
+          ],
+          "target": [
+            -0.14087401375490516,
+            1.0714825489965731,
+            -0.14609939518861734
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 200,
+        "triangles": 11776122
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-390",
+      "url": "http://127.0.0.1:5188/?qa=mobile-390",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 278.69999998807907,
+        "framesMs": [
+          87.89999997615814
+        ],
+        "model": {
+          "meshes": 23,
+          "vertices": 461736,
+          "instances": 4320,
+          "hasWoodMasks": true,
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.1577313095331192,
+            -1.1704262495040894,
+            1.4057029485702515,
+            1.0525562763214111
+          ],
+          "woodMaterial": "continuous-wood-v3"
+        },
+        "framing": {
+          "left": 0.04500000000000032,
+          "right": 0.9550000000000004,
+          "top": 0.3348069879703762,
+          "bottom": 0.7459645185752617
+        },
+        "camera": {
+          "yaw": 45,
+          "pitch": 9,
+          "distance": 9.693887386880435,
+          "position": [
+            6.728817583356497,
+            2.7908974093586227,
+            6.463542459542243
+          ],
+          "target": [
+            -0.04140425711128507,
+            1.2744393218317405,
+            -0.30667938092554
+          ]
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "drawCalls": 146,
+        "triangles": 11770290
+      },
+      "text": "",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "mobile-320",
+      "url": "http://127.0.0.1:5188/?qa=mobile-320",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 264.60000002384186,
+        "framesMs": [
+          89.60000002384186
+        ],
+        "model": {
+          "meshes": 23,
+          "vertices": 461736,
+          "instances": 4320,
+          "hasWoodMasks": true,
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.1577313095331192,
+            -1.1704262495040894,
+            1.4057029485702515,
+            1.0525562763214111
+          ],
+          "woodMaterial": "continuous-wood-v3"
+        },
+        "framing": {
+          "left": 0.04500000000000054,
+          "right": 0.9550000000000007,
+          "top": 0.27117037424743384,
+          "bottom": 0.8126687188923571
+        },
+        "camera": {
+          "yaw": 50,
+          "pitch": 9,
+          "distance": 7.626107667290678,
+          "position": [
+            5.754984702601332,
+            2.4066260122702055,
+            4.494782766423648
+          ],
+          "target": [
+            -0.015028755006176928,
+            1.2136399389983852,
+            -0.34683339774275557
+          ]
+        },
+        "viewport": [
+          320,
+          568
+        ],
+        "drawCalls": 145,
+        "triangles": 11770182
+      },
+      "text": "",
+      "viewport": [
+        320,
+        568
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "wood-detail",
+      "url": "http://127.0.0.1:5188/?detail=wood&qa=wood-detail",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 268.4000000357628,
+        "framesMs": [
+          88.10000002384186
+        ],
+        "model": {
+          "meshes": 23,
+          "vertices": 461736,
+          "instances": 4320,
+          "hasWoodMasks": true,
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.1577313095331192,
+            -1.1704262495040894,
+            1.4057029485702515,
+            1.0525562763214111
+          ],
+          "woodMaterial": "continuous-wood-v3"
+        },
+        "framing": {
+          "left": -0.5864690854493784,
+          "right": 1.4805742295828948,
+          "top": -0.7400147199001372,
+          "bottom": 1.5453271283693155
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 2.05,
+          "position": [
+            -0.03,
+            1.4911496614049233,
+            2.017458632809732
+          ],
+          "target": [
+            -0.03,
+            1.03,
+            0.02
+          ]
+        },
+        "viewport": [
+          1280,
+          1000
+        ],
+        "drawCalls": 175,
+        "triangles": 11773262
+      },
+      "text": "",
+      "viewport": [
+        1280,
+        1000
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": []
+}

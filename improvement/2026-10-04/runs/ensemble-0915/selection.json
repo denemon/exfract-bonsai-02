@@ -1,0 +1,153 @@
+{
+  "selected": "protected load-pcf8-v1 / edge-v02 / space-v2 / night-b",
+  "structural_candidates": [
+    {
+      "version": "graph-v01",
+      "connected_components": 1,
+      "components": [
+        {
+          "vertices": 8752,
+          "faces": 17500,
+          "bounds": {
+            "min": [
+              -0.8408031463623047,
+              -0.18659506738185883,
+              0.25550568103790283
+            ],
+            "max": [
+              0.9406081438064575,
+              0.34562188386917114,
+              1.9362441301345825
+            ]
+          }
+        }
+      ],
+      "inspection": {
+        "graph_vertices": 38,
+        "graph_edges": 37,
+        "control_vertices": 8752,
+        "control_faces": 17500,
+        "subdivision_level": 0,
+        "evaluated_triangles": 17500,
+        "signed_volume": 0.10385249225206104,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonadjacent_intersections": 0,
+        "bounds_blender": {
+          "min": [
+            -0.8408031463623047,
+            -0.18659506738185883,
+            0.25550568103790283
+          ],
+          "max": [
+            0.9406081438064575,
+            0.34562188386917114,
+            1.9362441301345825
+          ]
+        }
+      },
+      "glb_bytes": 91616,
+      "restore": {
+        "version": "graph-v01",
+        "positions_faces_exact": true,
+        "vertices": 8752,
+        "faces": 17500,
+        "triangles": 17500,
+        "volume": 0.10385249225206104,
+        "expected_volume": 0.10385249225206104,
+        "volume_absolute_error": 0.0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "record_sha256": "e45b7722a5fa9d2f0adb13b62f2ca64c6088fe2556ee6dd9425d616fe94f79ef",
+        "native_saved": false,
+        "candidate_adopted": false
+      },
+      "adopted": false
+    },
+    {
+      "version": "graph-v02",
+      "connected_components": 2,
+      "components": [
+        {
+          "vertices": 8751,
+          "faces": 17498,
+          "bounds": {
+            "min": [
+              -0.8399791717529297,
+              -0.18746653199195862,
+              0.1951090693473816
+            ],
+            "max": [
+              0.9613707661628723,
+              0.3532104194164276,
+              1.935017704963684
+            ]
+          }
+        },
+        {
+          "vertices": 3,
+          "faces": 2,
+          "bounds": {
+            "min": [
+              0.11250051856040955,
+              -0.0975036472082138,
+              0.3599948287010193
+            ],
+            "max": [
+              0.11250147223472595,
+              -0.0975005030632019,
+              0.359999418258667
+            ]
+          }
+        }
+      ],
+      "inspection": {
+        "graph_vertices": 38,
+        "graph_edges": 37,
+        "control_vertices": 8754,
+        "control_faces": 17500,
+        "subdivision_level": 0,
+        "evaluated_triangles": 17500,
+        "signed_volume": 0.12089786104494493,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonadjacent_intersections": 0,
+        "bounds_blender": {
+          "min": [
+            -0.8399791717529297,
+            -0.18746653199195862,
+            0.1951090693473816
+          ],
+          "max": [
+            0.9613707661628723,
+            0.3532104194164276,
+            1.935017704963684
+          ]
+        }
+      },
+      "glb_bytes": 91776,
+      "restore": {
+        "version": "graph-v02",
+        "positions_faces_exact": true,
+        "vertices": 8754,
+        "faces": 17500,
+        "triangles": 17500,
+        "volume": 0.12089786104494493,
+        "expected_volume": 0.12089786104494493,
+        "volume_absolute_error": 0.0,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "record_sha256": "3802bae4afe3b682ba2281c23afd11fa3662a7cce381aa0a1b5a4513105a995e",
+        "native_saved": false,
+        "candidate_adopted": false
+      },
+      "adopted": false
+    }
+  ],
+  "structural_candidates_adopted": 0,
+  "new_visual_changes_to_selected_scene": 0,
+  "new_technical_work": "Editable branch graph plus volume junction experiments and motion recording/verification; lazy diagnostic chunks only",
+  "old_native_sha256": "797e86664f36278c96dcf228aff734c9d7af212ef144af34a6336da31742e1e6",
+  "premium_aesthetic_gate": "not passed",
+  "next": "幹/枝の不等な量塊と短い接続面を手動の共有meshで設計し、葉群/鉢と同時に全景低詳細ゲートを通す。graph+taper+voxelの係数反復を止める。工程12性能を保持。"
+}

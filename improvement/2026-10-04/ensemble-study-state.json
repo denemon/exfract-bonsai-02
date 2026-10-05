@@ -1,0 +1,19 @@
+{
+  "updated_at_jst": "2026-10-05T10:13:14.820942+09:00",
+  "run": "ensemble-0915",
+  "selected": "protected load-pcf8-v1",
+  "hero": "edge-v02",
+  "space": "space-v2",
+  "layout": "night-b",
+  "structural_candidates_not_adopted": 2,
+  "source": "runs/ensemble-0915/site/src",
+  "report": "runs/ensemble-0915/REPORT.md",
+  "preview": "http://127.0.0.1:5208/",
+  "ancient_form_gate": "not passed",
+  "premium_garden_gate": "not passed",
+  "motion_scope": "Same-pose9pairs/idle3 exact;2.2second10fps record; full-rate/LOD-boundary/physical-phone/long-run unverified",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning": "xhigh",
+  "actual_model_verified": false,
+  "next": "幹/枝の不等な量塊と短い接続面を手動の共有meshで設計し、葉群/鉢と同時に全景低詳細ゲートを通す。graph+taper+voxelの係数反復を止める。工程12性能を保持。"
+}

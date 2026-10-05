@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "devicePixelRatio": 1,
+      "gpu": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "vendor": "Google Inc. (Apple)"
+      },
+      "jsHeapBytes": 144061009,
+      "ready": true,
+      "canvasVisible": true,
+      "stats": {
+        "frames": 3,
+        "ready": true,
+        "reduced": true,
+        "firstFrameMs": 815.1999999880791,
+        "frameMs": [
+          211,
+          1.199999988079071,
+          1117.5
+        ],
+        "drawCalls": 74,
+        "triangles": 2375512,
+        "framing": {
+          "left": 0.23472124022599883,
+          "right": 0.7023742180901406,
+          "top": 0.17319060060726277,
+          "bottom": 0.8522604082313174
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "buffer": [
+          1440,
+          900
+        ],
+        "camera": {
+          "position": [
+            1.85,
+            1.5,
+            3.85
+          ],
+          "target": [
+            0.18,
+            0.83,
+            -0.12
+          ],
+          "fov": 38.5,
+          "portrait": false
+        },
+        "intervals": [
+          211.20000004768372,
+          19.5
+        ]
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "still": {
+        "complete": true,
+        "width": 1920,
+        "src": "http://127.0.0.1:5183/still-desktop.webp"
+      },
+      "text": "",
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": []
+}

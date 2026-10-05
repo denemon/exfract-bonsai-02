@@ -1,0 +1,67 @@
+{
+  "source_model": "hero-v23.glb",
+  "model_sha256": "ec49c8b0cde5abd34f6ec5808fceddf62598ae1f40053f5d960f9b43c00b3de2",
+  "image_source": "Mac Chrome actual WebGL render, no image-generation compositing",
+  "views": [
+    {
+      "name": "desktop",
+      "size": [
+        2304,
+        1440
+      ],
+      "source_png_sha256": "9c895821c7c57e418c0e3c11bcc1bbdad3772f07171edf4c127871da5c256a45",
+      "webp_sha256": "ad19bcd59f68391f57be0a4a808956e3f181f8d95dd5d39e511586bf89bc1acb",
+      "bytes": 375164
+    },
+    {
+      "name": "portrait",
+      "size": [
+        624,
+        1350
+      ],
+      "source_png_sha256": "031b4a4aae30b4210a8d054be8847463ca3a66f7374ae0a5a5eb0c1facfb0d4c",
+      "webp_sha256": "7d65988f261af5086656a1684c41a60e3b3f22e5171644eafe1c6faadc8da14e",
+      "bytes": 113240
+    },
+    {
+      "name": "320",
+      "size": [
+        512,
+        909
+      ],
+      "source_png_sha256": "6a99204908b7db7221bc3d6b49148052e9b0fc33853b79e7012677d5358130ff",
+      "webp_sha256": "4fe32c95849a33dfadfe2ce01936acb02c02e00c194667a26a5aab44529ca14b",
+      "bytes": 72386
+    },
+    {
+      "name": "tall",
+      "size": [
+        512,
+        1491
+      ],
+      "source_png_sha256": "7f4cbfee30cb254032284c91dc7cc10b8790bf83a1cca37eb31662d2b6b86cc7",
+      "webp_sha256": "984155606d2b2fb3cafa9d99a18e4936c4781e2131ee0fda28a79a8be724bb81",
+      "bytes": 98686
+    },
+    {
+      "name": "wide",
+      "size": [
+        3072,
+        1440
+      ],
+      "source_png_sha256": "dc87f9e15f8e51b8ca6878b7913bd19410e0f739ab68f77774c0037318a10225",
+      "webp_sha256": "fea577c0c415b554a1e67e52e086dc3a60062a0f6be0fefe01975b56c4333c6e",
+      "bytes": 392928
+    },
+    {
+      "name": "square",
+      "size": [
+        1638,
+        1638
+      ],
+      "source_png_sha256": "73610cddd3fcd31f4377539cbe28905d2334f6ee667cd1bb4b5c0c2ac7d924f1",
+      "webp_sha256": "424be153cc28f1b2a4014a55081afd38d1b73b48c11e1a4bb4f2a2dea0c3d6dd",
+      "bytes": 291170
+    }
+  ]
+}

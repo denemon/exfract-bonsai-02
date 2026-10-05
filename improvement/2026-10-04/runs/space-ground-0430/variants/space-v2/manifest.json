@@ -1,0 +1,29 @@
+{
+  "candidate": "space-v2",
+  "files": {
+    "garden-geometry.js": "be1caf51ae41b5b055a2683cf6e655f28eb1f35bf08df48737439eded3294119",
+    "garden-materials.js": "e06530c20ce824ff2279eccd6fe6d80da0c92cce8827576841893410d3802b99",
+    "garden-rocks.js": "b1f72de7e6b1c15598c112db03b5d47082c17caad0de2541e50d8b7854946a81",
+    "scene.js": "5865027c3e9e3389ed3b93019b1afb95cc42c03e71a12c94b3098e6a28542acb",
+    "terrain-design.json": "fd5c57ce503cd6bd7df9769d5d958fe8221ed29ebe583bfa229c9fd080f24bac",
+    "terrain-field.png": "75e34aaa43d0f05303888abf73acd3619bb7eb5df1d3edd55f9894ed810407c1",
+    "terrain-field.webp": "911b7ba36628557251ea4eef519c3e18d27b63b59c8ff3248e6468cb2dcf5ace",
+    "terrain-manifest.json": "c687f55fc064877004d20cc199347986a855fb360a7cc04630ce01e968560ace"
+  },
+  "external_asset_references": {
+    "site/public/rocks/boulder_01.glb": "152900074271b81042c260bfd6518d77b4ad5eec3777b76c652a59c91052f02c",
+    "site/public/rocks/rock_09_diff.webp": "be9ecefb553ed153ba5318d2a797017432380857c81b3012a512784cfc0348ef",
+    "site/public/rocks/rock_09_nor_gl.webp": "829579587baf82a9e1b3677f3860e8cbc816203556a530ee4ad3046fc5902f2f",
+    "site/public/rocks/texture-manifest.json": "c7c2fdc7f362a857ee57df5a1068c409900be4a35fc92175f00a9ebaabc2d3c2",
+    "site/public/rocks/rock_09.glb": "c177081f5f6b8c317be25e2ae692753036fb347596c2d37cd943dbb307c9b7b6",
+    "site/public/rocks/boulder_01_nor_gl.webp": "1488a1e5b39112a3d23e26844cacba2c1678087165f93b9f298c96832d79515f",
+    "site/public/rocks/boulder_01_arm.webp": "2e6ce39b59681d74ddc6678b433e337a729dfd8a6326b59bdbbd20dd2b59eca9",
+    "site/public/rocks/boulder_01_diff.webp": "797aef8d808e23736389f9d50d54720547a6ec76a94285886bfb1021de62950b",
+    "site/public/rocks/geometry-manifest.json": "180f1c4739511eff15604055dff3a89009f0e2c4b4ffa5b5d78ec02c7564211b",
+    "site/public/rocks/rock_09_arm.webp": "b5ef26158e9fd224206479df24823dee041b821c577ed84b3a2398bf596c3e7b"
+  },
+  "hero": "edge-v02",
+  "cameras": "unchanged",
+  "decision": "Limited improvement; premium whole-scene finish remains unpassed",
+  "local_correction": "One placement correction: rock max horizontal extent1.20m, yaw1.20, buried.145m, top.482672m; actual support-contact rays"
+}

@@ -1,0 +1,14 @@
+{
+  "updated_at_jst": "2026-10-05T04:22:52.526151+09:00",
+  "run": "growth-ground-0335",
+  "layout": "night-b",
+  "growth": "growth-v2",
+  "hero": "edge-v02",
+  "source": "runs/growth-ground-0335/site/src",
+  "report": "runs/growth-ground-0335/REPORT.md",
+  "preview": "http://127.0.0.1:5202/",
+  "whole_scene_finish": "limited improvement",
+  "major_form_gate": "not passed",
+  "premium_garden_gate": "not passed",
+  "next": "Preserve night-b/growth-v2 and the frozen hero/cameras as comparison evidence. Before another change, compare normal PC390320 with the chosen night reference and identify the largest remaining whole-scene silhouette/mass problem. Decide one structural scope: background planting mass and architectural enclosure/contact currently remain more consequential than extra noise. Do not equate this stage with premium completion or return automatically to local trunk sculpt/noise/intensity loops. The hero ancient-form gate remains separately unfinished and needs an explicit structural scope decision by the parent. Keep dark night, brown wood, no visible text and no scattered small stones."
+}

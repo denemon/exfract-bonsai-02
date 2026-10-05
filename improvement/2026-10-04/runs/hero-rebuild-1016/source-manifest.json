@@ -1,0 +1,100 @@
+{
+  "created_at_jst": "2026-10-04T11:19:26+09:00",
+  "archive": "site-source.tar.gz",
+  "archive_sha256": "835542528ee1ad3f1535d0d65e7926f024d60e981abf3ff071b5c6e37a676254",
+  "files": {
+    ".gitignore": {
+      "bytes": 30,
+      "sha256": "3a3bcf768c25d0483b1e4b81f5a2879def4f8160c994929ae3a997511dbd84ae"
+    },
+    "README.md": {
+      "bytes": 1950,
+      "sha256": "63aa8e6f893679fba8f6ae0963fc345002f577ad9394ee391f341c5bbe41e75c"
+    },
+    "index.html": {
+      "bytes": 1233,
+      "sha256": "be6f48afa18519b2be5b056db1c97565bf5d676fc389f3e6e23ea3599f54fa0e"
+    },
+    "package-lock.json": {
+      "bytes": 7703,
+      "sha256": "cd86c8274a377b2d582b3ca8307ebed6c94baefdc880c1e5d5a19881f0b92e8e"
+    },
+    "package.json": {
+      "bytes": 388,
+      "sha256": "6debcfa53477ec27bb1891116f10846822da321341738d755daac025496654dc"
+    },
+    "public/draco/LICENSE": {
+      "bytes": 13898,
+      "sha256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4"
+    },
+    "public/draco/README.md": {
+      "bytes": 1395,
+      "sha256": "839850a67c93f6b26d3cc038a45bd8289e3cfdf15531e69339e8eb1282b4eb76"
+    },
+    "public/draco/draco_decoder.js": {
+      "bytes": 512465,
+      "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f"
+    },
+    "public/draco/draco_decoder.wasm": {
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    "public/draco/draco_wasm_wrapper.js": {
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    "public/models/bonsai-structural-study.glb": {
+      "bytes": 4927692,
+      "sha256": "27d6c7d4a5fffcdf6237e919128eb6a690dba26151fe4092060c1e2e640f3df2"
+    },
+    "public/still-320.webp": {
+      "bytes": 149952,
+      "sha256": "7f0040f8d9d4e93c85c281a3a240dd2ce19c78a8761eba866bb813007a81c3c3"
+    },
+    "public/still-desktop.webp": {
+      "bytes": 588660,
+      "sha256": "72335dde96703c3ac1b8354920d3a1d6bbe47d0e3470bc657c32c1ad62ac4057"
+    },
+    "public/still-landscape.webp": {
+      "bytes": 134358,
+      "sha256": "096b3fb45051ac4197dee67968d4adc34be9863b8fac9364e04747f046300c22"
+    },
+    "public/still-mobile.webp": {
+      "bytes": 168680,
+      "sha256": "965b93a138f28d0082b178150474ba23bd1057a35198c766f0b6c36c0ee6e317"
+    },
+    "public/still-portrait-medium.webp": {
+      "bytes": 152196,
+      "sha256": "71fc3f6b9e7ff17fa4821b371e032b91386d38331d71c8ec10f5cd4bbe46e42d"
+    },
+    "public/still-portrait-short.webp": {
+      "bytes": 97392,
+      "sha256": "25aad1b6325e42ebf24fc713c6bc906057e63a7b23cf4967ea9ce3408e5820c2"
+    },
+    "public/still-portrait-wide.webp": {
+      "bytes": 426772,
+      "sha256": "7d7bd168ae6df71df549ab285dc754261f1862382a718c512bc89554e35527f9"
+    },
+    "scripts/browser-qa.mjs": {
+      "bytes": 8050,
+      "sha256": "2d85b22b1294ad12c206711fed5684f34d9cf85596c639b9d0cf03d61fa9629e"
+    },
+    "src/framing.js": {
+      "bytes": 617,
+      "sha256": "0ae625e1886349ea5c4e23deae1faceba141b360b3b68c9d5fb2c74a35f3c4cb"
+    },
+    "src/main.js": {
+      "bytes": 5876,
+      "sha256": "f1228dcdbea4ab19c7aff87927d097bf0bf7e94c182a43e79c29718b56288133"
+    },
+    "src/scene.js": {
+      "bytes": 23684,
+      "sha256": "5fc5830d7db82aac638923804f3f94e0490ae7d6e64705121158a5ff61db5b51"
+    },
+    "src/style.css": {
+      "bytes": 410,
+      "sha256": "dccdf58dce99a60524d071a59221eea5a87454e430438dcdfa4983ffaa84a83b"
+    }
+  },
+  "status": "unadopted structural prototype"
+}

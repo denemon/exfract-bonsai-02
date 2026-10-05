@@ -1,0 +1,146 @@
+{
+  "design": "First structural candidate: thick outer/back core, front/back support offsets, broad returning plane and tapered primary shoulders",
+  "trunk_sections": [
+    [
+      -0.09,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0.022,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0.13,
+      -0.01,
+      -0.03,
+      1.04,
+      1.08,
+      -0.18
+    ],
+    [
+      0.29,
+      -0.045,
+      -0.055,
+      1.03,
+      1.13,
+      -0.11
+    ],
+    [
+      0.44,
+      -0.055,
+      0.03,
+      0.94,
+      1.11,
+      0.18
+    ],
+    [
+      0.6,
+      -0.01,
+      0.092,
+      0.97,
+      1.06,
+      0.28
+    ],
+    [
+      0.77,
+      0.018,
+      0.07,
+      0.92,
+      1.12,
+      0.12
+    ],
+    [
+      0.96,
+      -0.02,
+      -0.065,
+      0.93,
+      1.13,
+      -0.2
+    ],
+    [
+      1.12,
+      -0.045,
+      -0.07,
+      0.9,
+      1.1,
+      -0.25
+    ],
+    [
+      1.29,
+      -0.06,
+      0.052,
+      0.94,
+      1.1,
+      0.12
+    ],
+    [
+      1.45,
+      -0.02,
+      0.028,
+      0.96,
+      1.07,
+      0.27
+    ],
+    [
+      1.5572,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  ],
+  "wide_plane_depth": 0.27,
+  "outer_core_weight": 0.13,
+  "rear_core_weight": 0.1,
+  "branches": {
+    "First left living branch": {
+      "middle_calibre": 0.92,
+      "bend": [
+        0,
+        0.04,
+        -0.019
+      ]
+    },
+    "Rear ascending primary": {
+      "middle_calibre": 0.91,
+      "bend": [
+        0.014,
+        0.017,
+        -0.01
+      ]
+    },
+    "Right crown primary": {
+      "middle_calibre": 0.88,
+      "bend": [
+        0,
+        -0.026,
+        -0.022
+      ]
+    },
+    "Upper left primary": {
+      "middle_calibre": 0.92,
+      "bend": [
+        -0.006,
+        0.021,
+        0.016
+      ]
+    },
+    "Subordinate low right": {
+      "middle_calibre": 0.93,
+      "bend": [
+        0,
+        0.019,
+        -0.008
+      ]
+    }
+  }
+}

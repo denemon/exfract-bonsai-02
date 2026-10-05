@@ -1,0 +1,139 @@
+{
+  "mode": "blocked-js",
+  "dpr": 1,
+  "url": "http://127.0.0.1:5187/",
+  "results": [
+    {
+      "name": "desktop",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/desktop.webp",
+      "naturalSize": [
+        1586,
+        992
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "index-Dc_5oiy9.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "name": "index-BJWaVI6k.css",
+          "bytes": 704,
+          "duration": 21.5
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 658372,
+          "duration": 33.09999996423721
+        },
+        {
+          "name": "index-Dc_5oiy9.js",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "mobile-390",
+      "ready": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/portrait.webp",
+      "naturalSize": [
+        852,
+        1846
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "index-Dc_5oiy9.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "name": "index-BJWaVI6k.css",
+          "bytes": 300,
+          "duration": 17.399999976158142
+        },
+        {
+          "name": "portrait.webp",
+          "bytes": 61236,
+          "duration": 33.200000047683716
+        },
+        {
+          "name": "index-Dc_5oiy9.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "name": "desktop.webp",
+          "bytes": 658372,
+          "duration": 0.10000002384185791
+        }
+      ],
+      "longTasks": []
+    },
+    {
+      "name": "mobile-320",
+      "ready": true,
+      "viewport": [
+        320,
+        932
+      ],
+      "dpr": 1,
+      "source": "http://127.0.0.1:5187/tall.webp",
+      "naturalSize": [
+        734,
+        2141
+      ],
+      "text": "",
+      "scroll": false,
+      "canvasVisible": false,
+      "stats": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "resources": [
+        {
+          "name": "index-Dc_5oiy9.js",
+          "bytes": 0,
+          "duration": 0
+        },
+        {
+          "name": "index-BJWaVI6k.css",
+          "bytes": 300,
+          "duration": 52.19999998807907
+        },
+        {
+          "name": "tall.webp",
+          "bytes": 300,
+          "duration": 56.40000003576279
+        },
+        {
+          "name": "index-Dc_5oiy9.js",
+          "bytes": 0,
+          "duration": 0
+        }
+      ],
+      "longTasks": []
+    }
+  ],
+  "logs": []
+}

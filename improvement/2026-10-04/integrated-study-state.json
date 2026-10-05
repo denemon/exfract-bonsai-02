@@ -1,0 +1,12 @@
+{
+  "updated_at_jst": "2026-10-04T23:53:36.143346+09:00",
+  "run": "integrated-form-2245",
+  "model": "integrated-v03",
+  "wood": "form-v08",
+  "editing_native": "runs/integrated-form-2245/models/integrated-v03.blend",
+  "report": "runs/integrated-form-2245/REPORT.md",
+  "preview": "http://127.0.0.1:5192/",
+  "gate": "Not passed; integrated editing basis only",
+  "runtime_candidate_unchanged": "volume-rebuild-1656-v23",
+  "geometry_basis_unchanged": "anatomy-2150/cage-v06"
+}

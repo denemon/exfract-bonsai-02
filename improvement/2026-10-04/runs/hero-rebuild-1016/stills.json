@@ -1,0 +1,72 @@
+[
+  {
+    "source": "still-capture/desktop.png",
+    "destination": "prototype/public/still-desktop.webp",
+    "pixels": [
+      2880,
+      1800
+    ],
+    "bytes": 588660,
+    "sha256": "72335dde96703c3ac1b8354920d3a1d6bbe47d0e3470bc657c32c1ad62ac4057"
+  },
+  {
+    "source": "still-capture/mobile-390.png",
+    "destination": "prototype/public/still-mobile.webp",
+    "pixels": [
+      780,
+      1688
+    ],
+    "bytes": 168680,
+    "sha256": "965b93a138f28d0082b178150474ba23bd1057a35198c766f0b6c36c0ee6e317"
+  },
+  {
+    "source": "still-capture/mobile-320.png",
+    "destination": "prototype/public/still-320.webp",
+    "pixels": [
+      640,
+      1864
+    ],
+    "bytes": 149952,
+    "sha256": "7f0040f8d9d4e93c85c281a3a240dd2ce19c78a8761eba866bb813007a81c3c3"
+  },
+  {
+    "source": "still-capture/landscape.png",
+    "destination": "prototype/public/still-landscape.webp",
+    "pixels": [
+      1688,
+      780
+    ],
+    "bytes": 134358,
+    "sha256": "096b3fb45051ac4197dee67968d4adc34be9863b8fac9364e04747f046300c22"
+  },
+  {
+    "source": "still-capture/mobile-390-short.png",
+    "destination": "prototype/public/still-portrait-medium.webp",
+    "pixels": [
+      780,
+      1480
+    ],
+    "bytes": 152196,
+    "sha256": "71fc3f6b9e7ff17fa4821b371e032b91386d38331d71c8ec10f5cd4bbe46e42d"
+  },
+  {
+    "source": "still-capture/mobile-320-short.png",
+    "destination": "prototype/public/still-portrait-short.webp",
+    "pixels": [
+      640,
+      1136
+    ],
+    "bytes": 97392,
+    "sha256": "25aad1b6325e42ebf24fc713c6bc906057e63a7b23cf4967ea9ce3408e5820c2"
+  },
+  {
+    "source": "still-capture/portrait-wide.png",
+    "destination": "prototype/public/still-portrait-wide.webp",
+    "pixels": [
+      1536,
+      2048
+    ],
+    "bytes": 426772,
+    "sha256": "7d7bd168ae6df71df549ab285dc754261f1862382a718c512bc89554e35527f9"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "hero-v03.field.f32",
+    "archive": "hero-v03.field.f32.gz",
+    "bytes": 44957696,
+    "archive_bytes": 4323514,
+    "sha256": "6fe660366415a93e0e408cbb2cd384a67694aa83032cf4ed05482df0441aaed6"
+  },
+  {
+    "file": "hero-v03.triangles.f32",
+    "archive": "hero-v03.triangles.f32.gz",
+    "bytes": 5606928,
+    "archive_bytes": 1165287,
+    "sha256": "f45bbf8d1b7f779d51da1cb4c2dfef0fdbdd4b7f06d791d0c390b0365a4cf321"
+  }
+]

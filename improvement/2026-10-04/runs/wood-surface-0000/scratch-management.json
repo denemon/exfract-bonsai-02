@@ -1,0 +1,144 @@
+{
+  "scope": "Only this newly created stage",
+  "native_files_retained": 1,
+  "runtime_glbs_retained": 1,
+  "compact_records_verified": 3,
+  "unique_pngs_retained": 25,
+  "new_profiles": 0,
+  "old_profiles_deleted": 0,
+  "prior_deliverables_deleted": 0,
+  "new_archives": 0,
+  "removed": [
+    {
+      "path": "qa/selected-stills/pc.png",
+      "bytes": 848360,
+      "sha256": "785b02e9f32c86f0232294577d12fc04d461fb173f8c49a07de9e775105c2fe7",
+      "reason": "Same bytes as the final production screenshot; replaced with a relative link preserving provenance."
+    },
+    {
+      "path": "qa/selected-stills/mobile-390.png",
+      "bytes": 240213,
+      "sha256": "4447d2c7effdde410473077ac3dd2401573096d3456b7f78d68cfa46027fb4cc",
+      "reason": "Same bytes as the final production screenshot; replaced with a relative link preserving provenance."
+    },
+    {
+      "path": "qa/selected-stills/mobile-320.png",
+      "bytes": 150528,
+      "sha256": "d9ce4174b0d01f8daf2e931f5aff25179e97d32732471205e3293e9696fe424c",
+      "reason": "Same bytes as the final production screenshot; replaced with a relative link preserving provenance."
+    },
+    {
+      "path": "qa/selected-stills/mobile-tall.png",
+      "bytes": 193121,
+      "sha256": "247475136d0ec5e97c37ec1985aebc5fdbfdf52ab91540abd8b2ea32b0a77220",
+      "reason": "Same bytes as the final production screenshot; replaced with a relative link preserving provenance."
+    },
+    {
+      "path": "qa/wood-v01/mobile-390.png",
+      "bytes": 240197,
+      "sha256": "680bd23e9485b6062328fa027475970a3efd2da8c6f5a2b056ed0f72c0e090d3",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v01/mobile-320.png",
+      "bytes": 150756,
+      "sha256": "89c1e4b15e870b655e2ceacb746ade8fffc66aa94c95b6ebbcf9410b60d75924",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v01/clay-three-quarter.png",
+      "bytes": 122774,
+      "sha256": "16e221519a6ee3049de8eb8cbcc6e0fd327dfbce80234779b24e22a05d850a56",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v02/pc.png",
+      "bytes": 849468,
+      "sha256": "07ac02405fad93850f9ae530256ba81ce7284decb911f972deeeeb251d4ab7c7",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v02/mobile-390.png",
+      "bytes": 240246,
+      "sha256": "65571172e25c7143fa33882b332ff50739ef67e512555bc8b02f97c69911401b",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v02/mobile-320.png",
+      "bytes": 168001,
+      "sha256": "ed336c9755cd308bd2f26a752229c32cb5903cda4a5c28cb469e5f870b330418",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v02/wood-detail.png",
+      "bytes": 849468,
+      "sha256": "07ac02405fad93850f9ae530256ba81ce7284decb911f972deeeeb251d4ab7c7",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v02/wood-oblique.png",
+      "bytes": 541633,
+      "sha256": "4910bcb28108fc7987d9f196067dd0ea31cb4fde2e33e6345580d26b6209c7e9",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v02-detail/wood-front.png",
+      "bytes": 1366499,
+      "sha256": "67a9cd22df361d15004c98f04227803f838892747cb41f9fb83a428337e91d70",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v02-detail/wood-oblique.png",
+      "bytes": 1144930,
+      "sha256": "92b5435a333f91a7a308cd17c708d26e49fe31d27514100c372f27d3dcf3915d",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v03/pc.png",
+      "bytes": 848351,
+      "sha256": "9a2dc46bd87bf72928b497f7d1165d075478c6a9cf3bcb3877f577d91ab4fe25",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v03/mobile-390.png",
+      "bytes": 240026,
+      "sha256": "f450ccae23f97f8a6e5b5757818c457a76c757f72430dc790beb9dbcd0b02957",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v03/mobile-320.png",
+      "bytes": 150452,
+      "sha256": "46701aec1ba5c0dc96c978230ebf773c36b22267af860a58756f2f45c71c3da2",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v03/wood-oblique.png",
+      "bytes": 1142191,
+      "sha256": "b1ad966c7e931b5a853181a0d83ea6573bbe3eb000539731afbd5e125fb287a4",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "qa/wood-v03/mobile-tall.png",
+      "bytes": 193111,
+      "sha256": "f4a7d42a4837c35c8f431a1c67459414a9b8c9c9cdb5686bc65d0699c3923674",
+      "reason": "Current-stage provisional view; full browser record and representative evidence retained."
+    },
+    {
+      "path": "models/wood-v01.glb",
+      "bytes": 1424488,
+      "sha256": "da380d755ddd2910a647571e9dcf9f6f0fadc54efced1d9b51897ceb494dcec2",
+      "reason": "Rejected current-stage export. Exact geometry, masks, UVs and creases were restored and validated from the retained compact record."
+    },
+    {
+      "path": "models/wood-v03.glb",
+      "bytes": 1451096,
+      "sha256": "523de6b4724fa598a14a2ad272b1a075b920b7426f779604431b3424ac55df75",
+      "reason": "Rejected current-stage export. Exact geometry, masks, UVs and creases were restored and validated from the retained compact record."
+    },
+    {
+      "path": "site/node_modules/.vite",
+      "allocated_bytes": 5328896,
+      "reason": "Only this stage Vite cache, after its listener stopped."
+    }
+  ]
+}

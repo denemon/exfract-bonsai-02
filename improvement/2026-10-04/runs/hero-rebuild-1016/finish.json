@@ -1,0 +1,63 @@
+{
+  "finished_at_jst": "2026-10-04T11:22:40+09:00",
+  "scope": "first structural prototype within the authorized 10:16–11:46 JST window",
+  "decision": "not_adopted",
+  "root_best_retained": "0900-jst-candidate-04",
+  "root_implementation_unchanged": true,
+  "root_production_unchanged": true,
+  "reference_pixels_viewed": true,
+  "complete_full_3d_prototype": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/prototype",
+  "report": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/REPORT.md",
+  "comparison": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/comparison.html",
+  "screenshots": [
+    "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final/desktop.png",
+    "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final/mobile-390.png",
+    "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/final/mobile-320.png"
+  ],
+  "evidence_manifest": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hero-rebuild-1016/evidence-images.json",
+  "library_file_ids": [],
+  "library_note": "No upload performed: latest instruction prohibits external image uploads",
+  "preview": {
+    "5183": {
+      "url": "http://127.0.0.1:5183/",
+      "http_status": 200
+    },
+    "5185": {
+      "url": "http://127.0.0.1:5185/",
+      "http_status": 200
+    }
+  },
+  "candidate_preview_pid": 44305,
+  "existing_baseline_preview_pid": 44847,
+  "own_dev_server_stopped": 25533,
+  "own_lock_released": true,
+  "build": "passed with >500KB chunk warning",
+  "qa": {
+    "final": {
+      "records": 7,
+      "unhandled_exceptions": 0,
+      "result_file": "final/results.json"
+    },
+    "final-retina": {
+      "records": 22,
+      "unhandled_exceptions": 0,
+      "result_file": "final-retina/results.json"
+    },
+    "fallback": {
+      "records": 7,
+      "unhandled_exceptions": 0,
+      "result_file": "fallback/fallback-results.json"
+    },
+    "loading": {
+      "records": 7,
+      "unhandled_exceptions": 0,
+      "result_file": "loading/loading-results.json"
+    }
+  },
+  "remaining": [
+    "Old-tree naturalness and premium whole-scene quality not achieved",
+    "Actual phones, Safari, slow networks, long thermal loads unverified",
+    "Runtime model/reasoning metadata not exposed; parent selection recorded separately"
+  ],
+  "no_git_write_or_publish_or_schedule_change": true
+}

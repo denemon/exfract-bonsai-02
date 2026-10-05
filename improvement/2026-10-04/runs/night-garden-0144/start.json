@@ -1,0 +1,27 @@
+{
+  "run": "night-garden-0144",
+  "thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "started_at_jst": "2026-10-05T01:46:11.438317+09:00",
+  "midpoint_due_jst": "2026-10-05T02:46:11.438317+09:00",
+  "stage_latest_end_jst": "2026-10-05T03:46:11.438317+09:00",
+  "maximum_major_candidates": 2,
+  "new_data_budget_bytes": 104857600,
+  "minimum_free_bytes": 2147483648,
+  "free_disk_bytes": 8048377856,
+  "reused_qa_profile": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "profile_allocated_bytes_at_start": 114958336,
+  "protected_stage7_native": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/models/edge-v02-editable.blend",
+  "protected_stage7_native_sha256": "797e86664f36278c96dcf228aff734c9d7af212ef144af34a6336da31742e1e6",
+  "protected_stage7_glb_sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+  "protected_stage7_manifest_sha256": "1f6fcad6487fd4c86f006640c4477f62ccdfb783add94dc7f9c30587a0d31fd3",
+  "visual_reference": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/images/desktop-candidate01.png",
+  "visual_reference_sha256": "22c2f2db365916f8a4c4d5f7bd9e780d6bd34bf46db169bbc2d277944d1bcc6d",
+  "requirements": [
+    "quiet dark luxury night, soft cool moon/sky and restrained warm architecture",
+    "grey-brown hero fixed",
+    "no visible text",
+    "no scattered small decorative stones",
+    "actual unified 3D space, individually composed mobile cameras"
+  ],
+  "deadline_jst": "2026-10-10T23:00:00+09:00"
+}

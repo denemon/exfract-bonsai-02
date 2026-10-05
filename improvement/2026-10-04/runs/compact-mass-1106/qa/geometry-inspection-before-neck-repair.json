@@ -1,0 +1,27 @@
+{
+  "control_vertices": 348,
+  "control_faces": 334,
+  "evaluated_triangles": 10880,
+  "volume": 0.21187841087720535,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "nonadjacent_intersections": 39,
+  "connected_component_vertices": [
+    5442
+  ],
+  "minimum_face_area": 8.274252650153358e-06,
+  "genus_expected": 0,
+  "euler_characteristic": 2,
+  "bounds": {
+    "min": [
+      -0.47924700379371643,
+      -0.24025367200374603,
+      0.2874656617641449
+    ],
+    "max": [
+      1.3375415802001953,
+      0.35728058218955994,
+      2.187224864959717
+    ]
+  }
+}

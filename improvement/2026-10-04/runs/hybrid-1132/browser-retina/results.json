@@ -1,0 +1,62 @@
+{
+  "results": [
+    {
+      "name": "desktop",
+      "ready": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "devicePixelRatio": 2,
+      "still": {
+        "complete": true,
+        "width": 1586,
+        "height": 992,
+        "src": "http://127.0.0.1:5186/desktop.webp"
+      },
+      "text": "",
+      "scroll": false,
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "usesWebGL": false
+    },
+    {
+      "name": "mobile-390",
+      "ready": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "devicePixelRatio": 2,
+      "still": {
+        "complete": true,
+        "width": 852,
+        "height": 1846,
+        "src": "http://127.0.0.1:5186/portrait.webp"
+      },
+      "text": "",
+      "scroll": false,
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "usesWebGL": false
+    },
+    {
+      "name": "mobile-320",
+      "ready": true,
+      "viewport": [
+        320,
+        932
+      ],
+      "devicePixelRatio": 2,
+      "still": {
+        "complete": true,
+        "width": 734,
+        "height": 2141,
+        "src": "http://127.0.0.1:5186/tall.webp"
+      },
+      "text": "",
+      "scroll": false,
+      "version": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "usesWebGL": false
+    }
+  ],
+  "logs": []
+}

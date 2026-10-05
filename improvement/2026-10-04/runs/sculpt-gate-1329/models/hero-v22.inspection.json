@@ -1,0 +1,73 @@
+{
+  "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/models/hero-v22.blend",
+  "wood": {
+    "vertices": 316825,
+    "faces": 316596,
+    "components": [
+      316825
+    ],
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "signed_volume_m3": 0.22684238483294186,
+    "uv_layers": [
+      "Wood flow"
+    ],
+    "material_fields": [
+      "Wood masks"
+    ],
+    "dimensions_m": [
+      2.4068102836608887,
+      0.9058775901794434,
+      1.7229175567626953
+    ]
+  },
+  "surfaces": [
+    {
+      "name": "Shallow unglazed pot",
+      "vertices": 1440,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.05048011812998927
+    },
+    {
+      "name": "Low ceramic foot",
+      "vertices": 96,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0006868236824352553
+    },
+    {
+      "name": "Low ceramic foot.001",
+      "vertices": 96,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0006868236824352553
+    },
+    {
+      "name": "Low ceramic foot.002",
+      "vertices": 96,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0006868236824352553
+    },
+    {
+      "name": "Low ceramic foot.003",
+      "vertices": 96,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0006868236824352553
+    },
+    {
+      "name": "Low split natural bedding stone",
+      "vertices": 2020,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.5576607594889461
+    }
+  ],
+  "foliage": {
+    "instances": 5700,
+    "unique_meshes": 12,
+    "distribution": "Connected woody branch hierarchy; authored in foliage.py"
+  }
+}

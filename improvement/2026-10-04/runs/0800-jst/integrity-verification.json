@@ -1,0 +1,31 @@
+{
+  "verified_at_jst": "2026-10-04T08:48:21+09:00",
+  "source_files_match_manifest": true,
+  "source_archive_files_match_manifest": true,
+  "source_archive_sha256_match": true,
+  "initial_archive_files_and_sha256_match": true,
+  "protected_qa_and_delivery_files_match": true,
+  "git_head_unchanged": "4ed0bd766278263c706c996788c662200880f8bf",
+  "qa": {
+    "final": {
+      "result_file": "final/results.json",
+      "records": 7,
+      "unhandled_exceptions": 0
+    },
+    "final-retina": {
+      "result_file": "final-retina/results.json",
+      "records": 22,
+      "unhandled_exceptions": 0
+    },
+    "fallback": {
+      "result_file": "fallback/fallback-results.json",
+      "records": 7,
+      "unhandled_exceptions": 0
+    },
+    "loading": {
+      "result_file": "loading/loading-results.json",
+      "records": 7,
+      "unhandled_exceptions": 0
+    }
+  }
+}

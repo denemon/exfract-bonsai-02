@@ -1,0 +1,15 @@
+{
+  "selected": "material-v2",
+  "layout": "night-b",
+  "hero": "edge-v02",
+  "major_finishing_candidates": 2,
+  "precompile_snapshot": "Diagnostic compile failure, not a third design candidate",
+  "camera_geometry_and_hero_material_frozen": true,
+  "whole_scene_material_improvement": "limited adoption",
+  "premium_aesthetic_gate": "not passed",
+  "major_aged_form_gate": "not passed",
+  "root_best_promoted": false,
+  "prior_candidate_states_unchanged": true,
+  "scattered_small_stone_objects": 0,
+  "next": "Keep night-b and material-v2 as the protected comparison basis. The next meaningful whole-scene pass should improve the authored growth and mass of the background planting and the depth/contact of architecture and ground, using one normal full-scene comparison before adding detail. Avoid a third cycle of noise/intensity-only changes or trunk-local repair loops. Major ancient hero form is still a separate unfinished gate; parent should explicitly decide the next structural scope rather than treating material refinement as completion. Preserve dark night, brown wood, no visible text and no scattered small decorative stones."
+}

@@ -1,0 +1,35 @@
+{
+  "normal_six_compositions_byte_identical_to_stage12": true,
+  "rows": [
+    {
+      "name": "mobile-320.png",
+      "byte_identical": true,
+      "sha256": "ed2873a2e6838bc924f4175314029d41d0129de255580261a4331c6a93f96c9d"
+    },
+    {
+      "name": "mobile-390.png",
+      "byte_identical": true,
+      "sha256": "5b56a48317f47bcc1ae1bba8bb72574876f6206d718a179ddcb483b5f6ee2dc4"
+    },
+    {
+      "name": "mobile-landscape.png",
+      "byte_identical": true,
+      "sha256": "0be372af1043848fe4e116ea4941225043a13a5d035b9d161423cf3b4e114edd"
+    },
+    {
+      "name": "mobile-tall.png",
+      "byte_identical": true,
+      "sha256": "1ff3f11ae173aa94710a05c643301c695d11c72d14b7bdbdacae74755f934d53"
+    },
+    {
+      "name": "pc.png",
+      "byte_identical": true,
+      "sha256": "8bb4497bdb7fdb67eff089f0bb7900cbc4a65d745d07c306f342b689f18056cf"
+    },
+    {
+      "name": "wide.png",
+      "byte_identical": true,
+      "sha256": "4c77e1669b70fe72b4069cf8ed7f883cb4a91688763aa4167b01ab90acd7c533"
+    }
+  ]
+}

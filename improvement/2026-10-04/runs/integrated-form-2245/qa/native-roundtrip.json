@@ -1,0 +1,25 @@
+{
+  "native_file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/models/integrated-v03.blend",
+  "native_bytes": 2439988,
+  "native_sha256": "a4c83c0beb1142a9508f21baf2875f633d00d182c0a92a339f10308094db3d10",
+  "reopened": true,
+  "editable_control_vertices": 2314,
+  "editable_control_faces": 2312,
+  "unapplied_subdivision": 1,
+  "max_position_error_vs_selected_control": 0.0,
+  "evaluated_volume_matches": true,
+  "hidden_lod_templates": 12,
+  "vertex_groups": [
+    "ROOT · retained ground contact",
+    "LOWER TRUNK · full support volume",
+    "UPPER TRUNK · major growth planes",
+    "BRANCH · First left living branch",
+    "BRANCH · Rear ascending primary",
+    "BRANCH · Right crown primary",
+    "BRANCH · Upper left primary",
+    "BRANCH · Subordinate low right"
+  ],
+  "source_control_record": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/models/form-v08.json",
+  "self_contained_geometry": true,
+  "native_preview_growth_mask": true
+}

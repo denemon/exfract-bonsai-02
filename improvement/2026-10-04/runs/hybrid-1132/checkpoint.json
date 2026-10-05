@@ -1,0 +1,119 @@
+{
+  "recorded_at_jst": "2026-10-04T12:20:55+09:00",
+  "phase": "finished image selection checkpoint complete; constrained-view runtime integration pending",
+  "selected_images": [
+    {
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/images/desktop-candidate01.png",
+      "role": "PC",
+      "browser_viewport": [
+        1440,
+        900
+      ],
+      "sha256": "22c2f2db365916f8a4c4d5f7bd9e780d6bd34bf46db169bbc2d277944d1bcc6d"
+    },
+    {
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/images/portrait-candidate03.png",
+      "role": "390px",
+      "browser_viewport": [
+        390,
+        844
+      ],
+      "sha256": "8c1d2d0cc74c9f2c5c7a8740d3614e93c7de66f9d070b43c5ba2bcfe59509338"
+    },
+    {
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/images/portrait-tall-candidate01.png",
+      "role": "320px",
+      "browser_viewport": [
+        320,
+        932
+      ],
+      "sha256": "4cca5ae4f9390e2d3d846263141905df2900fbe372535cf555706ae39fc5e39c"
+    }
+  ],
+  "imagegen_usable": true,
+  "mac_png_files_verified": true,
+  "browser": [
+    {
+      "result": "browser/results.json",
+      "views": 3,
+      "logs": 0,
+      "viewports": [
+        [
+          1440,
+          900
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          320,
+          932
+        ]
+      ],
+      "all_loaded": true,
+      "all_text_free": true,
+      "no_scroll": true
+    },
+    {
+      "result": "browser-retina/results.json",
+      "views": 3,
+      "logs": 0,
+      "viewports": [
+        [
+          1440,
+          900
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          320,
+          932
+        ]
+      ],
+      "all_loaded": true,
+      "all_text_free": true,
+      "no_scroll": true
+    }
+  ],
+  "library": {
+    "saved": false,
+    "library_file_ids": [],
+    "phase": "official prepared-upload helper failed before preparation, during tools/list",
+    "error": "hosted apps tools/list request failed: TLS",
+    "request_order": [
+      "bonsai-night-desktop.png",
+      "bonsai-night-mobile-390.png",
+      "bonsai-night-mobile-320.png"
+    ],
+    "local_generated_files_readable": true,
+    "retry_or_alternate_upload_attempted": false,
+    "private_error_record": "/Users/kazuki.tanaka/Documents/Codex/2026-10-04/task-2/hybrid-1132-images/library-upload-error.txt"
+  },
+  "root_0900_source_preserved": true,
+  "root_0900_production_preserved": true,
+  "old_full_3d_policy_superseded": true,
+  "remaining": "Constrained parallax/local motion, runtime reduced-motion/noWebGL/loading verification, further aspect ratios and final site integration are not implemented in this image-selection phase.",
+  "report": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/IMAGE_REVIEW.md",
+  "comparison": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-1132/comparison.html",
+  "local_preview": {
+    "image_study": {
+      "url": "http://127.0.0.1:5186/",
+      "http": 200
+    },
+    "baseline_0900": {
+      "url": "http://127.0.0.1:5183/",
+      "http": 200
+    },
+    "unadopted_3d": {
+      "url": "http://127.0.0.1:5185/",
+      "http": 200
+    }
+  },
+  "npm_test_passed": true,
+  "npm_test_result": "browser-package-check/results.json",
+  "static_preview_build_passed": true,
+  "active_writer_released": true
+}

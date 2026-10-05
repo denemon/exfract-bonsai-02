@@ -1,0 +1,15 @@
+{
+  "version": "graph-v02",
+  "positions_faces_exact": true,
+  "vertices": 8754,
+  "faces": 17500,
+  "triangles": 17500,
+  "volume": 0.12089786104494493,
+  "expected_volume": 0.12089786104494493,
+  "volume_absolute_error": 0.0,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "record_sha256": "3802bae4afe3b682ba2281c23afd11fa3662a7cce381aa0a1b5a4513105a995e",
+  "native_saved": false,
+  "candidate_adopted": false
+}

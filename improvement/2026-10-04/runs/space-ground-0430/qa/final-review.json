@@ -1,0 +1,21 @@
+{
+  "reviewer": "/root/anatomy_review",
+  "actual_pixel_scope": "Selected reference, stage10, A, corrected B and final8 captures. Ordinary6 plus two diagnostic close views.",
+  "decision": "Freeze space-v2 as limited spatial/stone improvement",
+  "improvements": [
+    "Natural continuous stone volume replaces the A block-shaped stone; final1.20m extent and .482672m top separate it from lower-left hero leaves.",
+    "Opening, inner floor, eave layers and veranda supporting relation are more legible than stage10.",
+    "Ordinary6 compositions retain complete hero, dark night, brown wood and scene priority without a new major regression."
+  ],
+  "remaining": [
+    "主幹の大きなS字は滑らかな彫刻状。古木の侵食・ねじれ・太枝/根元との連続した体積が参照へ届かない。",
+    "背景の裸枝と細葉房が硬く、主役ほど近くなくても枝分布の人工的な繰り返しが読める。",
+    "苔・土は画面で滑らかで、砂利も一様。自然石の細部品質との釣り合いは未達。",
+    "建築は支持/開口の厚みを改善したが、木/壁/畳の材質が均質で、部材端も精密な模型に見える。",
+    "390pxと縦長は主役が切れないが、上下の余白が大きい。カメラ固定の本工程で解決していない。"
+  ],
+  "premium_aesthetic_gate": "not passed",
+  "first_candidate": "Hold: useful room depth, but stacked supports, block-shaped stone and green collar regressed.",
+  "second_candidate": "Limited adoption after topology repair and one local placement correction. No third full-scene design.",
+  "functional_success_is_not_aesthetic_completion": true
+}

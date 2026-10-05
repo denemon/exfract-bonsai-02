@@ -1,0 +1,5 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {MarchingCubes} from 'three/addons/objects/MarchingCubes.js';
+import {MeshBasicMaterial} from 'three';
+const prefix=process.argv[2],meta=JSON.parse(await readFile(prefix+'.json','utf8'));const chunks=[];for await(const data of process.stdin)chunks.push(data);const bytes=Buffer.concat(chunks),density=new Float32Array(bytes.buffer,bytes.byteOffset,bytes.byteLength/4);if(density.length!==meta.resolution**3)throw Error('Incomplete density stream');
+const mesh=new MarchingCubes(meta.resolution,new MeshBasicMaterial(),false,false,800000);mesh.field.set(density);mesh.isolation=0;mesh.update();if(mesh.count>2400000)throw Error('Surface exceeds extraction capacity');const p=mesh.geometry.attributes.position.array.slice(0,mesh.count*3),[lo,hi]=meta.bounds;for(let i=0;i<p.length;i+=3)for(let d=0;d<3;d++)p[i+d]=lo[d]+(p[i+d]+1)*.5*(hi[d]-lo[d]);await writeFile(prefix+'.triangles.f32',new Uint8Array(p.buffer));meta.extraction={triangles:mesh.count/3,bytes:p.byteLength,streamed_density:true};await writeFile(prefix+'.json',JSON.stringify(meta,null,2));console.log(JSON.stringify(meta.extraction));

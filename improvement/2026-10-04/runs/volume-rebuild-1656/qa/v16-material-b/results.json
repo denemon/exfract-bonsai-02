@@ -1,0 +1,254 @@
+{
+  "results": [
+    {
+      "name": "material-front",
+      "url": "http://127.0.0.1:5189/?study=material&qa=material-front",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 685,
+        "framesMs": [
+          391.2000000476837
+        ],
+        "model": {
+          "meshes": 33,
+          "vertices": 184376,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v16",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0009700992377474904,
+            -0.8391566276550293,
+            1.425699234008789,
+            1.0583808422088623
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.17785255153349183,
+          "right": 0.813477299972339,
+          "top": 0.07000000000000017,
+          "bottom": 0.93
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 3.1919621567290815,
+          "position": [
+            -0.05127161448175982,
+            1.4424000060051712,
+            3.0439784668094436
+          ],
+          "target": [
+            -0.05127161448175982,
+            0.7243647534232469,
+            -0.06617390663469092
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 67,
+        "triangles": 6140738
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "wood-detail",
+      "url": "http://127.0.0.1:5189/?study=material&detail=wood&qa=wood-detail",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 283.69999998807907,
+        "framesMs": [
+          120.69999998807907
+        ],
+        "model": {
+          "meshes": 33,
+          "vertices": 184376,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v16",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0009700992377474904,
+            -0.8391566276550293,
+            1.425699234008789,
+            1.0583808422088623
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": -0.38555579848881016,
+          "right": 1.3980763865621262,
+          "top": -0.6977454021347356,
+          "bottom": 1.5359448263685278
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 1.353,
+          "position": [
+            -0.0198,
+            0.9841587765272495,
+            1.3315226976544234
+          ],
+          "target": [
+            -0.0198,
+            0.6798000000000001,
+            0.013200000000000002
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 65,
+        "triangles": 6140362
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "name": "wood-shadow-off",
+      "url": "http://127.0.0.1:5189/?study=material&detail=wood&shadow=0&qa=wood-shadow-off",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "material",
+        "reduced": true,
+        "firstFrameMs": 279.5,
+        "framesMs": [
+          122.20000004768372
+        ],
+        "model": {
+          "meshes": 33,
+          "vertices": 184376,
+          "instances": 8617,
+          "hasWoodMasks": true,
+          "authoringVersion": "v16",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            0.0009700992377474904,
+            -0.8391566276550293,
+            1.425699234008789,
+            1.0583808422088623
+          ],
+          "woodMaterial": "spatial-wood-v4-tiled"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": -0.38555579848881016,
+          "right": 1.3980763865621262,
+          "top": -0.6977454021347356,
+          "bottom": 1.5359448263685278
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 1.353,
+          "position": [
+            -0.0198,
+            0.9841587765272495,
+            1.3315226976544234
+          ],
+          "target": [
+            -0.0198,
+            0.6798000000000001,
+            0.013200000000000002
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "drawCalls": 65,
+        "triangles": 6140362
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": []
+}

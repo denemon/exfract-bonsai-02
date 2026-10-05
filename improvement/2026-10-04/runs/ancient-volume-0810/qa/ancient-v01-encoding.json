@@ -1,0 +1,9 @@
+{
+  "purpose": "The level6 output exceeded the150kB target; level10 retains identical geometry and quantization",
+  "level6_bytes": 154480,
+  "level10_bytes": 167656,
+  "geometry_quantization_unchanged": true,
+  "triangles": 18540,
+  "sha256": "25f4b03a9bb5b3af8506f68ba4382527bf9f81a5ee17092187946443544bbf76",
+  "target150kB_met": false
+}

@@ -1,0 +1,67 @@
+{
+  "source": "Actual Mac Chrome WebGL renders of this same candidate, not generated photographs",
+  "model": "hero-v27",
+  "hero_sha256": "201a124451d1e087f391b2b1d38c409cc491a9ff86e8c44737f17252c6e0c76d",
+  "files": [
+    {
+      "source": "qa/still-source/desktop.png",
+      "target": "site/public/still-desktop.webp",
+      "pixel_size": [
+        2304,
+        1440
+      ],
+      "bytes": 354748,
+      "sha256": "bd04d2795abf66c0c4561ae5128e951573bce8d91e279221db3a8e72c88a561b"
+    },
+    {
+      "source": "qa/still-source/portrait.png",
+      "target": "site/public/still-portrait.webp",
+      "pixel_size": [
+        624,
+        1350
+      ],
+      "bytes": 81506,
+      "sha256": "1c542c0f9d1804900faac1e929df71485083715a8608b3ca9a67aaf7fa74072c"
+    },
+    {
+      "source": "qa/still-source/mobile-320.png",
+      "target": "site/public/still-320.webp",
+      "pixel_size": [
+        512,
+        909
+      ],
+      "bytes": 53026,
+      "sha256": "7eb729bb22d48a99dfc9494feefc44e955d6cb1f50b79e5025a5b8a6978574dd"
+    },
+    {
+      "source": "qa/still-source/tall.png",
+      "target": "site/public/still-tall.webp",
+      "pixel_size": [
+        512,
+        1491
+      ],
+      "bytes": 62494,
+      "sha256": "33d7f99fcd5aef9dc2533c1df5594091b7d4f5ffece77f8bb9a0f8eca03c9c28"
+    },
+    {
+      "source": "qa/still-source/wide.png",
+      "target": "site/public/still-wide.webp",
+      "pixel_size": [
+        3072,
+        1280
+      ],
+      "bytes": 308764,
+      "sha256": "14fc7519a50de969a8c120f31459568b511e3e8e9d377b73a08bd7b6199cdc96"
+    },
+    {
+      "source": "qa/still-source/square.png",
+      "target": "site/public/still-square.webp",
+      "pixel_size": [
+        1638,
+        1638
+      ],
+      "bytes": 251070,
+      "sha256": "fab17c91e97837d5cb53c4ae67c804dc85750b0479680599a7c9f9e0ad1e7790"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": "cage-v06",
+  "evaluated_triangle_count": 17280,
+  "nonadjacent_surface_intersections": 0,
+  "intersection_pairs_first10": [],
+  "measured_lower_sections": [
+    {
+      "height_above_soil": 0.02,
+      "width": 0.9008535742759705,
+      "depth": 0.6831437349319458,
+      "depth_over_width": 0.758329382753461
+    },
+    {
+      "height_above_soil": 0.1,
+      "width": 0.7825275361537933,
+      "depth": 0.5948944687843323,
+      "depth_over_width": 0.760221770224601
+    },
+    {
+      "height_above_soil": 0.2,
+      "width": 0.5642109215259552,
+      "depth": 0.45165446400642395,
+      "depth_over_width": 0.8005064183885116
+    },
+    {
+      "height_above_soil": 0.3,
+      "width": 0.4634651243686676,
+      "depth": 0.3800518065690994,
+      "depth_over_width": 0.8200224495571402
+    },
+    {
+      "height_above_soil": 0.4,
+      "width": 0.44285398721694946,
+      "depth": 0.36606231331825256,
+      "depth_over_width": 0.8265982104366207
+    },
+    {
+      "height_above_soil": 0.5,
+      "width": 0.4584829956293106,
+      "depth": 0.35506444424390793,
+      "depth_over_width": 0.7744331799188079
+    }
+  ],
+  "method": "Blender BVHTree self-overlap excluding triangles sharing any vertex, epsilon 1e-9; exact mesh/height-plane intersections for width/depth"
+}

@@ -1,0 +1,7 @@
+{
+  "thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "run": "hybrid-runtime-1224",
+  "started_at_jst": "2026-10-04T12:24:38+09:00",
+  "heartbeat_at_jst": "2026-10-04T12:24:38+09:00",
+  "phase": "Integrating selected finished scenes; 13:00 wake must follow the same writer, not duplicate"
+}

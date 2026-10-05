@@ -1,0 +1,13 @@
+{
+  "updated_at_jst": "2026-10-05T01:37:47.810764+09:00",
+  "run": "local-edges-0056",
+  "model": "edge-v02",
+  "editing_native": "runs/local-edges-0056/models/edge-v02-editable.blend",
+  "report": "runs/local-edges-0056/REPORT.md",
+  "preview": "http://127.0.0.1:5196/",
+  "root_attachment_gate": "improved",
+  "major_form_gate": "not passed",
+  "full_garden_gate": "not passed",
+  "protected_wood_basis": "wood-surface-0000/wood-v02",
+  "next": "Freeze provisional edge-v02 and proceed immediately to whole garden, measured ground contacts, gravel/moss/partly buried stones, real veranda/opening depth and soft daylight. First 1–2h: at most two whole-scene layouts, PC/390/320 review, then materials. Do not gate this on further trunk-only iterations; record the remaining aged-form limitation separately. See NEXT-SCENE.md."
+}

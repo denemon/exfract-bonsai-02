@@ -1,0 +1,94 @@
+{
+  "scope": "Only profiles created by this stage after its start; no active profile or user profile",
+  "removed": [
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-DB8nIg",
+      "bytes": 36838975
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-xGoPtd",
+      "bytes": 45910855
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-YSb3nI",
+      "bytes": 44727850
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-abvPTC",
+      "bytes": 38307147
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-R1mn8H",
+      "bytes": 36186818
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-jhLIE0",
+      "bytes": 44543418
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-4krvJw",
+      "bytes": 36872388
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-G5hMEL",
+      "bytes": 35569907
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-Tlw2qb",
+      "bytes": 31825755
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-bzg3C7",
+      "bytes": 36970979
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-thI2zq",
+      "bytes": 34937478
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-pAmc06",
+      "bytes": 39895800
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-VkDLVk",
+      "bytes": 35446252
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-agFu9f",
+      "bytes": 44605508
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-1NpFpn",
+      "bytes": 34727654
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-WbtODq",
+      "bytes": 43279387
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-SNRSQA",
+      "bytes": 46578975
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-cegrRF",
+      "bytes": 36069767
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-EIgGHa",
+      "bytes": 35637710
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-77nFBI",
+      "bytes": 33743314
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-ymGV7L",
+      "bytes": 42033740
+    },
+    {
+      "path": "/var/folders/65/yhdkwfkd2jlc6qldn23z45y80000gq/T/bonsai-sculpt-gate-qGZbnX",
+      "bytes": 36183855
+    }
+  ],
+  "bytes_released": 850893532
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-runtime-1224/images/wide-candidate01.png",
+    "source_sha256": "8ec960a863dbdf891210edf102cf77a2bdbbfabfa1f25e5ee812af2644fb1d7e",
+    "served": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-runtime-1224/site/public/wide.webp",
+    "pixels": [
+      1923,
+      818
+    ],
+    "webp_bytes": 676418
+  },
+  {
+    "source": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-runtime-1224/images/square-candidate01.png",
+    "source_sha256": "54baf6c52f1a1897c2092c7850e6f3d0f0d4d909a5af8e8527df3a829fb51dcf",
+    "served": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hybrid-runtime-1224/site/public/square.webp",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "webp_bytes": 693626
+  }
+]

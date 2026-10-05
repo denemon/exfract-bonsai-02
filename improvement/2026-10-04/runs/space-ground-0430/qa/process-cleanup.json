@@ -1,0 +1,65 @@
+{
+  "reason": "Parent explicitly asked to stop unnecessary own historical preview processes; static deliverables retained",
+  "stopped": [
+    {
+      "pid": 90535,
+      "port": 5188,
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/site",
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5188 --strictPort",
+      "resident_kib_before": 95856,
+      "listener_stopped": true
+    },
+    {
+      "pid": 22864,
+      "port": 5190,
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/volume-rebuild-1656/site",
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5189 --strictPort --port 5190",
+      "resident_kib_before": 95040,
+      "listener_stopped": true
+    },
+    {
+      "pid": 86798,
+      "port": 5192,
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/site",
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 5192 --strictPort",
+      "resident_kib_before": 99776,
+      "listener_stopped": true
+    },
+    {
+      "pid": 99903,
+      "port": 5194,
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/wood-surface-0000/site",
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5194 --strictPort",
+      "resident_kib_before": 89344,
+      "listener_stopped": true
+    },
+    {
+      "pid": 11179,
+      "port": 5196,
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/site",
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5196 --strictPort",
+      "resident_kib_before": 88432,
+      "listener_stopped": true
+    },
+    {
+      "pid": 22777,
+      "port": 5198,
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/night-garden-0144/site",
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5198 --strictPort",
+      "resident_kib_before": 88416,
+      "listener_stopped": true
+    },
+    {
+      "pid": 34273,
+      "port": 5200,
+      "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/night-finish-0235/site",
+      "command": "node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/.bin/vite preview --host 127.0.0.1 --port 5200 --strictPort",
+      "resident_kib_before": 90144,
+      "listener_stopped": true
+    }
+  ],
+  "total_resident_kib_before": 647008,
+  "preserved_comparison": "http://127.0.0.1:5202/",
+  "user_or_other_task_processes_touched": false,
+  "deliverable_files_deleted": false
+}

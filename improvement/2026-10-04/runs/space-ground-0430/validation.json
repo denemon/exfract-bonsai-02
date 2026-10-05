@@ -1,0 +1,40 @@
+{
+  "production_build": "Vite8.2.2,21modules passed",
+  "build_warning": "main670.16kB/gzip177.04kB exceeds500kB warning; retained",
+  "functional_checks": 68,
+  "production_screenshots": 14,
+  "selected_vs_production_normal_views_identical": 6,
+  "ordinary_shader_or_exception_errors": 0,
+  "expected_no_webgl_warnings": 2,
+  "gpu_first_pass_cases": 6,
+  "gpu_followup_cases": 2,
+  "fallback_webp_count": 5,
+  "fallback_webp_bytes": 422882,
+  "html_bytes": 20075,
+  "slow_navigation_to_3d_ms": 25281.899999976158,
+  "new_rock_runtime_bytes": 1758250,
+  "new_rock_original_bytes": 7736407,
+  "new_rock_triangles": 35416,
+  "terrain_runtime_bytes": 37264,
+  "native_editable_stones": 2,
+  "remaining_visual_limits": [
+    "主幹の大きなS字は滑らかな彫刻状。古木の侵食・ねじれ・太枝/根元との連続した体積が参照へ届かない。",
+    "背景の裸枝と細葉房が硬く、主役ほど近くなくても枝分布の人工的な繰り返しが読める。",
+    "苔・土は画面で滑らかで、砂利も一様。自然石の細部品質との釣り合いは未達。",
+    "建築は支持/開口の厚みを改善したが、木/壁/畳の材質が均質で、部材端も精密な模型に見える。",
+    "390pxと縦長は主役が切れないが、上下の余白が大きい。カメラ固定の本工程で解決していない。"
+  ],
+  "unverified": [
+    "Physical iPhone/Android",
+    "Safari",
+    "Sustained thermal behavior",
+    "Execution model metadata"
+  ],
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning": "xhigh",
+  "model_metadata_verified": false,
+  "library_ids": [],
+  "library_retry": false,
+  "approval_rejections": 0,
+  "overall_goal_complete": false
+}

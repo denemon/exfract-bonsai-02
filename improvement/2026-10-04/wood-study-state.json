@@ -1,0 +1,14 @@
+{
+  "updated_at_jst": "2026-10-05T00:53:16.539513+09:00",
+  "run": "wood-surface-0000",
+  "model": "wood-v02",
+  "editing_native": "runs/wood-surface-0000/models/wood-v02-editable.blend",
+  "report": "runs/wood-surface-0000/REPORT.md",
+  "preview": "http://127.0.0.1:5194/",
+  "material_gate": "improved grey-brown material",
+  "major_form_gate": "not passed",
+  "full_garden_gate": "not passed",
+  "runtime_candidate_unchanged": "volume-rebuild-1656-v23",
+  "stage5_integration_unchanged": "integrated-form-2245/integrated-v03",
+  "next_method": "Change the lower-front control-edge layout, not deformation coefficients: separate a gently convex major face, one thick shoulder and a broad transition. Fix root tips/ground outline, back and branch attachments. Stagger the termination rows and maintain boundary tangent continuity; inspect neutral front/both obliques/55-degree/side plus three cross-sections before restoring materials."
+}

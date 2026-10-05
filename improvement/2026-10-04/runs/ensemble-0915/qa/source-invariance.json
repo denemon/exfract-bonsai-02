@@ -1,0 +1,125 @@
+{
+  "sources": [
+    {
+      "name": "materials.js",
+      "stage12_sha256": "83df60dcac9879a4e35ed60a450acbea3f4e8cbfd55a34decaa5777b5ee0daca",
+      "current_sha256": "83df60dcac9879a4e35ed60a450acbea3f4e8cbfd55a34decaa5777b5ee0daca",
+      "unchanged": true
+    },
+    {
+      "name": "garden-geometry.js",
+      "stage12_sha256": "be1caf51ae41b5b055a2683cf6e655f28eb1f35bf08df48737439eded3294119",
+      "current_sha256": "be1caf51ae41b5b055a2683cf6e655f28eb1f35bf08df48737439eded3294119",
+      "unchanged": true
+    },
+    {
+      "name": "scene.js",
+      "stage12_sha256": "87a3b53e7937be589723f6ac2ab2882f35fbfd496bf49df4265ea55cf0ec03cb",
+      "current_sha256": "87a3b53e7937be589723f6ac2ab2882f35fbfd496bf49df4265ea55cf0ec03cb",
+      "unchanged": true
+    },
+    {
+      "name": "terrain-design.json",
+      "stage12_sha256": "fd5c57ce503cd6bd7df9769d5d958fe8221ed29ebe583bfa229c9fd080f24bac",
+      "current_sha256": "fd5c57ce503cd6bd7df9769d5d958fe8221ed29ebe583bfa229c9fd080f24bac",
+      "unchanged": true
+    },
+    {
+      "name": "shadow-filter.js",
+      "stage12_sha256": "909f2ed4586f40f126c4d42ed62306b547c23f9e5f0c4453845efae70cfe723e",
+      "current_sha256": "909f2ed4586f40f126c4d42ed62306b547c23f9e5f0c4453845efae70cfe723e",
+      "unchanged": true
+    },
+    {
+      "name": "main.js",
+      "stage12_sha256": "30c3141eff81514255447caca801c42cd8ea2b65e3e6028fc8af4361872044f7",
+      "current_sha256": "f5287b53438e4ba10fde7bd4f0e0da8ed71b9fef5bbfdb100b2ff584efed18a7",
+      "unchanged": false
+    },
+    {
+      "name": "style.css",
+      "stage12_sha256": "532f95b7d86a5ca4221989666e91288ffb10882e3d265bf33fff6da0bf5958b8",
+      "current_sha256": "532f95b7d86a5ca4221989666e91288ffb10882e3d265bf33fff6da0bf5958b8",
+      "unchanged": true
+    },
+    {
+      "name": "foliage-lod.js",
+      "stage12_sha256": "b88ca2c80911a504ca00fe70ff3a6d9729fdfc90e711ac178878bdfab1a926f3",
+      "current_sha256": "b88ca2c80911a504ca00fe70ff3a6d9729fdfc90e711ac178878bdfab1a926f3",
+      "unchanged": true
+    },
+    {
+      "name": "garden-materials.js",
+      "stage12_sha256": "e06530c20ce824ff2279eccd6fe6d80da0c92cce8827576841893410d3802b99",
+      "current_sha256": "e06530c20ce824ff2279eccd6fe6d80da0c92cce8827576841893410d3802b99",
+      "unchanged": true
+    },
+    {
+      "name": "garden-rocks.js",
+      "stage12_sha256": "4305af88def09f72ae56664a0159ed1bf11862ac80791d712271d61c5e5bd616",
+      "current_sha256": "4305af88def09f72ae56664a0159ed1bf11862ac80791d712271d61c5e5bd616",
+      "unchanged": true
+    }
+  ],
+  "camera_input_render_invariants": [
+    {
+      "part": "scanPoints",
+      "byte_identical": true,
+      "sha256": "8a9eda5baecb79f2b6b7afc72a38d1efa8d1d0a7e2cf30dcff86a579ce70d667"
+    },
+    {
+      "part": "camera",
+      "byte_identical": true,
+      "sha256": "2b4679c9ee6ec7be7b9114dda7d697f352eaf33837453dc96ef6aaf0f428f986"
+    },
+    {
+      "part": "render",
+      "byte_identical": true,
+      "sha256": "fbf44e5b981cb27375bed266836902ac936b7297c18a44bb9efc124fa2ecf7e6"
+    },
+    {
+      "part": "resize",
+      "byte_identical": true,
+      "sha256": "169ea2fcd5ffbad3dd51c0fccf162f764e0816492ec62ac86c64c1cf05f1eedf"
+    },
+    {
+      "part": "input",
+      "byte_identical": true,
+      "sha256": "98257242c2458f5e6cc9191ac7d89997cb202882c598b0b56fa6f80adc3cc5a8"
+    }
+  ],
+  "selected_runtime_assets": [
+    {
+      "name": "hero.glb",
+      "sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+      "unchanged": true
+    },
+    {
+      "name": "hero-low.glb",
+      "sha256": "b40ca7a13b9d5950c185b3769f70083aec69343a540e6de28db0c288c22e7a0f",
+      "unchanged": true
+    },
+    {
+      "name": "hero-low.glb.gz",
+      "sha256": "d7edb168b6fd94a2ffdefb702819670bc548c44e10ee4716ca576a1c5bbd34a4",
+      "unchanged": true
+    },
+    {
+      "name": "foliage-high.glb",
+      "sha256": "ec91e54f6eacc746b03452073d5dff57555fa96416d8c906f2afcfa7dca8dce7",
+      "unchanged": true
+    },
+    {
+      "name": "foliage-high.glb.gz",
+      "sha256": "d8fe595dfa60595bad9796688476f3ff8d8429c109fa1b1f205a58cc456b2b10",
+      "unchanged": true
+    },
+    {
+      "name": "split-manifest.json",
+      "sha256": "48eabe94891d250849b6f0e03212420778111f6771368f0ca990daba60c004d0",
+      "unchanged": true
+    }
+  ],
+  "normal_scene_changed": false,
+  "new_experiments_lazy_loaded": true
+}

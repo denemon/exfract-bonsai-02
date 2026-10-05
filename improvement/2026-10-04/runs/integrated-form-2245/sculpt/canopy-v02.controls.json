@@ -1,0 +1,130 @@
+[
+  [
+    "left lower primary",
+    [
+      -0.99,
+      -0.17,
+      0.883
+    ],
+    [
+      0.39,
+      0.27,
+      0.185
+    ],
+    380,
+    "First left living branch",
+    0
+  ],
+  [
+    "left lower rear fork",
+    [
+      -0.94,
+      0.105,
+      0.95
+    ],
+    [
+      0.29,
+      0.215,
+      0.16
+    ],
+    230,
+    "First left living branch",
+    0
+  ],
+  [
+    "left rear primary",
+    [
+      -0.67,
+      0.285,
+      1.27
+    ],
+    [
+      0.35,
+      0.24,
+      0.195
+    ],
+    380,
+    "Rear ascending primary",
+    1
+  ],
+  [
+    "upper left primary",
+    [
+      -0.16,
+      0.16,
+      1.437
+    ],
+    [
+      0.32,
+      0.24,
+      0.17
+    ],
+    350,
+    "Upper left primary",
+    2
+  ],
+  [
+    "apex",
+    [
+      0.39,
+      0.115,
+      1.597
+    ],
+    [
+      0.46,
+      0.32,
+      0.205
+    ],
+    580,
+    "apex",
+    3
+  ],
+  [
+    "crown right primary",
+    [
+      0.83,
+      -0.05,
+      1.295
+    ],
+    [
+      0.385,
+      0.29,
+      0.18
+    ],
+    440,
+    "Right crown primary",
+    4
+  ],
+  [
+    "subordinate low right",
+    [
+      0.82,
+      -0.085,
+      0.55
+    ],
+    [
+      0.275,
+      0.215,
+      0.145
+    ],
+    230,
+    "Subordinate low right",
+    5
+  ],
+  [
+    "rear crown fork",
+    [
+      0.34,
+      0.33,
+      1.55
+    ],
+    [
+      0.34,
+      0.25,
+      0.17
+    ],
+    210,
+    "apex",
+    3
+  ]
+]

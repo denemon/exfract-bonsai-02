@@ -1,0 +1,35 @@
+{
+  "method": "Run make_ground_maps.py into a new empty directory, then compress_ground_maps.py at WebP86/method6/exactTrue. Compare all4 outputs byte for byte. The supplied512px maps are locally authored, not external assets.",
+  "files": [
+    {
+      "name": "mineral",
+      "format": "png",
+      "bytes": 494013,
+      "sha256": "1489edf46f372fdaf146bd94216e634cc608eade0c239465a6852fd4e71b190d",
+      "regenerated_byte_identical": true
+    },
+    {
+      "name": "moss",
+      "format": "png",
+      "bytes": 313379,
+      "sha256": "55ef1f7e940a1bb619704bdee3f1c416040ec0ddfa63bdc147dd2a5daffacc62",
+      "regenerated_byte_identical": true
+    },
+    {
+      "name": "mineral",
+      "format": "webp",
+      "bytes": 194842,
+      "sha256": "f314ea37c11645be0ae3a5dc5681520648c148319800e497136cf14d2906a6e2",
+      "regenerated_byte_identical": true
+    },
+    {
+      "name": "moss",
+      "format": "webp",
+      "bytes": 133660,
+      "sha256": "f94c0f7482d26385a21f533970059ee1bda66be436901285cf125fae79ad3af0",
+      "regenerated_byte_identical": true
+    }
+  ],
+  "runtime_total_bytes": 328502,
+  "retained_source_png_bytes": 807392
+}

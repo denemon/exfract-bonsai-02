@@ -1,0 +1,96 @@
+{
+  "recorded_at_jst": "2026-10-05T00:53:16.539513+09:00",
+  "status": "stage_complete",
+  "active_run": false,
+  "owner_thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "implementation_changed": false,
+  "planned_first_run": "2026-10-04T08:00:00+09:00",
+  "planned_last_run": "Stage driven until 2026-10-10 23:00 JST",
+  "hard_deadline": "2026-10-10T23:00:00+09:00",
+  "timezone": "Asia/Tokyo",
+  "schedule_created_or_updated_here": false,
+  "schedule_owner": "parent_thread",
+  "next_goal": "Change the lower-front control-edge layout, not deformation coefficients: separate a gently convex major face, one thick shoulder and a broad transition. Fix root tips/ground outline, back and branch attachments. Stagger the termination rows and maintain boundary tangent continuity; inspect neutral front/both obliques/55-degree/side plus three cross-sections before restoring materials.",
+  "model_requirement": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "max",
+    "actual_application_verified": false
+  },
+  "local_automation_audit": {
+    "target_count": 0,
+    "all_count": 0,
+    "target_runs_count": 0,
+    "matching_ids": [],
+    "user_crontab": "none",
+    "matching_launch_items": [],
+    "target_running_processes_found": false,
+    "preview_5182": "stopped",
+    "preview_5183": "stopped"
+  },
+  "award_reference_status": "parent-provided official-page research; no live-site visual or performance audit",
+  "current_run": "wood-surface-0000",
+  "started_at_jst": "2026-10-05T00:04:55.426070+09:00",
+  "model_selection": "explicit parent execution selection; runtime metadata not exposed",
+  "last_completed_run": "wood-surface-0000",
+  "next_planned_run": "Immediate next stage after validated save, orchestrated by parent",
+  "latest_finish": "runs/wood-surface-0000/finish.json",
+  "git_baseline": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "git_observed_head": "576a85c5d9603572dfc6aff9249fcf1c1c26f43c",
+  "phase": "Grey-brown wood material saved; major aged form and full garden still unpassed",
+  "candidate_implementation_changed": false,
+  "user_authorization": "Latest explicit execution approval and new 10/10 23:00 JST deadline supersede old deadline and image-hybrid direction",
+  "current_preview": {
+    "stage_one": {
+      "url": "http://127.0.0.1:5188/",
+      "production": true,
+      "run": "sculpt-gate-1329"
+    },
+    "protected_baseline": "http://127.0.0.1:5183/",
+    "stopped_previews": [
+      "http://127.0.0.1:5185/",
+      "http://127.0.0.1:5186/",
+      "http://127.0.0.1:5187/"
+    ],
+    "stage_two": {
+      "url": "http://127.0.0.1:5190/",
+      "production": true,
+      "model": "v23",
+      "note": "44 functional checks passed; aesthetic gate not passed"
+    },
+    "stage_five": {
+      "url": "http://127.0.0.1:5192/",
+      "production_build": true,
+      "model": "integrated-v03",
+      "note": "44 functional checks passed; integrated study only, art gate not passed"
+    },
+    "stage_six": {
+      "url": "http://127.0.0.1:5194/",
+      "production_build": true,
+      "model": "wood-v02",
+      "note": "46 functional checks passed; color/material improved; major form and full-garden aesthetic gates not passed"
+    }
+  },
+  "root_best_remains": "0900-jst-candidate-04",
+  "new_finished_image_candidate": "runs/hybrid-1132/image-selection.json",
+  "library_status": "blocked during official helper tools/list with TLS; no IDs",
+  "hard_deadline_utc": "2026-10-10T14:00:00Z",
+  "old_hourly_automation": "stopped by parent",
+  "midpoint_due_jst": null,
+  "stage_latest_end_jst": null,
+  "current_geometry_trial": null,
+  "macro_gate": "Major front surface not passed; change local control-edge layout instead of global displacement parameters",
+  "current_library_retry": "none; prior TLS blocker retained",
+  "midpoint_report": "runs/volume-rebuild-1656/MIDPOINT.md",
+  "next_stage_estimate_hours": [
+    2,
+    3
+  ],
+  "free_disk_bytes": 8108294144,
+  "active": false,
+  "heartbeat_at_jst": "2026-10-05T00:53:16.539513+09:00",
+  "current_geometry": "Stage4 cage-v06 remains protected basis; stage5 integrated-v03 is a separate editing study",
+  "current_integration_study": "integrated-v03 / form-v08",
+  "reused_qa_profile_allocated_bytes": 91549696,
+  "current_stage_profile_cache_note": "runs/wood-surface-0000/qa/profile-footprint.json",
+  "current_wood_study": "wood-v02"
+}

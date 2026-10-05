@@ -1,0 +1,12 @@
+{
+  "candidate": "night-b",
+  "files": {
+    "garden-geometry.js": "6238c91319decd0822294c8e78246a18c7be80db558166fd12b207c05d699cfc",
+    "garden-materials.js": "9bca3368fc0700549ba95b94987b264b5a0950d64ca44fd2569c4e8c23e0b1a5",
+    "scene.js": "fcf9e5c78df3450ae8bea8d03e7ef00738a2ab279e0f3f5c9e4710a598cebe32",
+    "main.js": "76ca0a3c6a668953fb8a1cc3e95d999546dc2d676ce78bb73b3e06a9fa387d00"
+  },
+  "hero_unchanged": true,
+  "selection": "Full-scene foundation; premium visual finish and ancient hero form remain unfinished.",
+  "reproduce_a": "Use the separate layout-a source snapshot; query parameter alone does not recreate the historical A."
+}

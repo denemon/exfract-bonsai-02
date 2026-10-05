@@ -1,0 +1,13 @@
+{
+  "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "reused": true,
+  "new_profiles": 0,
+  "allocated_bytes_at_start": 138805248,
+  "allocated_bytes_at_finish": 165842944,
+  "growth_bytes": 27037696,
+  "new_optimization_model_files": [],
+  "profile_files_deleted": 0,
+  "old_profile_count": 55,
+  "old_profiles_deleted": 0,
+  "note": "Browser flags limited component updates/background network/optimization features for this stage. This is an observed stage result, not a guarantee about future Chrome behavior."
+}

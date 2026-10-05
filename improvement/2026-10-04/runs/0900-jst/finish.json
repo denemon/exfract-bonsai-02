@@ -1,0 +1,49 @@
+{
+  "finished_at_jst": "2026-10-04T09:38:22+09:00",
+  "run": "0900-jst",
+  "status": "completed",
+  "adopted": "candidate-04",
+  "implementation_changed": true,
+  "model_selection": "Parent explicitly selected gpt-6-astra / thinking max; independent runtime metadata unavailable",
+  "git_start_head": "32700472734730f424327eed692e8357fb596c2c",
+  "git_finish_head": "001539b02744ba1272ff890b28f97414cb2efda8",
+  "git_finish_branch": "feat/qa-heap-memory-report",
+  "git_head_changed_externally": true,
+  "git_mutations_in_this_run": false,
+  "commit_push_pr_merge_deployment_performed": false,
+  "schedule_created_or_updated": false,
+  "qa": {
+    "final": {
+      "result_file": "final/results.json",
+      "records": 7,
+      "unhandled_exceptions": 0
+    },
+    "final-retina": {
+      "result_file": "final-retina/results.json",
+      "records": 22,
+      "unhandled_exceptions": 0
+    },
+    "fallback": {
+      "result_file": "fallback/fallback-results.json",
+      "records": 7,
+      "unhandled_exceptions": 0
+    },
+    "loading": {
+      "result_file": "loading/loading-results.json",
+      "records": 7,
+      "unhandled_exceptions": 0
+    }
+  },
+  "source_and_build_archive_verified": true,
+  "preview": {
+    "dev_5182_stopped": true,
+    "production_5183_http": 200,
+    "production_pid": 44847,
+    "url": "http://127.0.0.1:5183",
+    "note": "State verified at completion; process persistence after turn end is not guaranteed."
+  },
+  "library_file_ids": [],
+  "own_lock_released": true,
+  "next_run": "1000-jst",
+  "next_goal": "Architecture, openings, eaves, background planting and boundaries; resolve floor dark dots in a coherent architectural revision."
+}
