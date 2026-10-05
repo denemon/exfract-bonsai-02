@@ -1,0 +1,61 @@
+{
+  "model": "hero-v23.glb",
+  "source": "same six actual WebGL screenshots as high-resolution stills",
+  "images": [
+    {
+      "view": "desktop",
+      "size": [
+        384,
+        240
+      ],
+      "bytes": 5430,
+      "sha256": "b6721791a3f4459427e8a02c6376e90f85dc44eb741b8bef8df9722d415d6bb7"
+    },
+    {
+      "view": "wide",
+      "size": [
+        384,
+        180
+      ],
+      "bytes": 3778,
+      "sha256": "51e15f685e9a176477b90cb6b4e42ad4e2ab87adb2bd35665df285670308f327"
+    },
+    {
+      "view": "square",
+      "size": [
+        384,
+        384
+      ],
+      "bytes": 7872,
+      "sha256": "82ec68584e098f14078b6a7bd39f321cf5cfafe03276ec1ce4fc6ecb437c2807"
+    },
+    {
+      "view": "portrait",
+      "size": [
+        237,
+        512
+      ],
+      "bytes": 6466,
+      "sha256": "69275df67ff3fd388c6cd34eb2dfb1d8918ecf955b9cacd261f4faf6c345923d"
+    },
+    {
+      "view": "320",
+      "size": [
+        288,
+        512
+      ],
+      "bytes": 8760,
+      "sha256": "90bad94c847da90e8a7be3892f9b997cb6178832c04fb00d32ddeb2d6ec9ae98"
+    },
+    {
+      "view": "tall",
+      "size": [
+        176,
+        512
+      ],
+      "bytes": 4530,
+      "sha256": "0b51b5603f7070d0fa651f29efba4bbb9c4818ae1892407768b34da7b459b1d8"
+    }
+  ],
+  "total_image_bytes": 36836
+}

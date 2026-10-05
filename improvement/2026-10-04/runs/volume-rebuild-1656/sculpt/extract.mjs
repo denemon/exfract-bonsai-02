@@ -1,0 +1,14 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {MarchingCubes} from 'three/addons/objects/MarchingCubes.js';
+import {MeshBasicMaterial} from 'three';
+const prefix=process.argv[2];if(!prefix)throw Error('Expected model prefix');
+const meta=JSON.parse(await readFile(prefix+'.json','utf8')),bytes=await readFile(prefix+'.field.f32');
+const density=new Float32Array(bytes.buffer,bytes.byteOffset,bytes.byteLength/4);
+const mesh=new MarchingCubes(meta.resolution,new MeshBasicMaterial(),false,false,800000);mesh.field.set(density);mesh.isolation=0;mesh.update();
+if(mesh.count>2400000)throw Error('Extraction exceeded coarse source-surface limit');
+const p=mesh.geometry.attributes.position.array.slice(0,mesh.count*3),[lo,hi]=meta.bounds;
+for(let i=0;i<p.length;i+=3)for(let d=0;d<3;d++)p[i+d]=lo[d]+(p[i+d]+1)*.5*(hi[d]-lo[d]);
+await writeFile(prefix+'.triangles.f32',new Uint8Array(p.buffer));
+meta.extraction={implementation:'Installed Three.js 0.185.1 MarchingCubes',triangles:mesh.count/3,bytes:p.byteLength};
+await writeFile(prefix+'.json',JSON.stringify(meta,null,2));
+console.log(JSON.stringify(meta.extraction));

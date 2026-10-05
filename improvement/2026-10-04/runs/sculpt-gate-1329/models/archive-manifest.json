@@ -1,0 +1,175 @@
+{
+  "scope": "Only Blender studies created in this run; each decompressed archive checked byte-for-byte by SHA256 before removing its raw duplicate",
+  "archived_at": "2026-10-04T16:21:57.181037+09:00",
+  "files": [
+    {
+      "original": "models/hero-core-v01.blend",
+      "archive": "models/archived/hero-core-v01.blend.gz",
+      "sha256_uncompressed": "580c35de9bef4505efbb89d2e4f96fdfdd288cd03cc60d144bbd1f40d1180b31",
+      "original_bytes": 15392960,
+      "archive_bytes": 15296005
+    },
+    {
+      "original": "models/hero-v02.blend",
+      "archive": "models/archived/hero-v02.blend.gz",
+      "sha256_uncompressed": "8af98b18467554434a6a09652c18a136adad29f56136c41bb6dd39d0ee4ed4f0",
+      "original_bytes": 41824422,
+      "archive_bytes": 39128091
+    },
+    {
+      "original": "models/hero-v03.blend",
+      "archive": "models/archived/hero-v03.blend.gz",
+      "sha256_uncompressed": "3f0e6d14bcd998cd56607eb013dd6b7250bbf04baaaf3ff39dfbd8ba5df7b7ba",
+      "original_bytes": 65339507,
+      "archive_bytes": 60251842
+    },
+    {
+      "original": "models/hero-v04.blend",
+      "archive": "models/archived/hero-v04.blend.gz",
+      "sha256_uncompressed": "b21e32d34e88dbf529ed518fc87cd120843b89a7c6965d180d5f785c86bd322d",
+      "original_bytes": 49122458,
+      "archive_bytes": 44124967
+    },
+    {
+      "original": "models/hero-v05.blend",
+      "archive": "models/archived/hero-v05.blend.gz",
+      "sha256_uncompressed": "03c7abebf6f8bd5192e72b5784ac2fa9112b7f91578f08c06a8501b5062e8a55",
+      "original_bytes": 66087065,
+      "archive_bytes": 60991556
+    },
+    {
+      "original": "models/hero-v06.blend",
+      "archive": "models/archived/hero-v06.blend.gz",
+      "sha256_uncompressed": "9919698c6d5a9a61528f928fbd39c902c00310e8b3f5a8ba771c16004df7c2e4",
+      "original_bytes": 70193730,
+      "archive_bytes": 64494086
+    },
+    {
+      "original": "models/hero-v07.blend",
+      "archive": "models/archived/hero-v07.blend.gz",
+      "sha256_uncompressed": "adeba3bea1e09796e300c2ab4841ecb690f0f91a0f147cfa3d1032627c7f1a7e",
+      "original_bytes": 73121724,
+      "archive_bytes": 67269137
+    },
+    {
+      "original": "models/hero-v08.blend",
+      "archive": "models/archived/hero-v08.blend.gz",
+      "sha256_uncompressed": "78d5449020d552b061516e0c7bd3246be713810d30e4d497da6c2e4a7076d14a",
+      "original_bytes": 21881486,
+      "archive_bytes": 21596697
+    },
+    {
+      "original": "models/hero-v09.blend",
+      "archive": "models/archived/hero-v09.blend.gz",
+      "sha256_uncompressed": "1b77cab9bed720dd06c98d1cb6f0bab80fd964c9c3301cb2f972355475850740",
+      "original_bytes": 25011351,
+      "archive_bytes": 24425363
+    },
+    {
+      "original": "models/hero-v10.blend",
+      "archive": "models/archived/hero-v10.blend.gz",
+      "sha256_uncompressed": "63ae93bb80b5e5513da42ecdde48b6528588e9d9930e16cd68b786dcc5129e37",
+      "original_bytes": 25359416,
+      "archive_bytes": 24808551
+    },
+    {
+      "original": "models/hero-v11.blend",
+      "archive": "models/archived/hero-v11.blend.gz",
+      "sha256_uncompressed": "d593c646db8728924fadf00f8de689a24c52ecb8ef37faf4bf934a290eea23c2",
+      "original_bytes": 25215668,
+      "archive_bytes": 24651741
+    },
+    {
+      "original": "models/hero-v12.blend",
+      "archive": "models/archived/hero-v12.blend.gz",
+      "sha256_uncompressed": "e98683557589ffcc234ed8b92cfbf5a468be0bf157ee48e93501a63595d4acd3",
+      "original_bytes": 25351999,
+      "archive_bytes": 24739683
+    },
+    {
+      "original": "models/hero-v13.blend",
+      "archive": "models/archived/hero-v13.blend.gz",
+      "sha256_uncompressed": "883a15b779dc355f3ef67cc12c351aa96c4becf96d9b40e578385e4427542ae2",
+      "original_bytes": 26050627,
+      "archive_bytes": 25454053
+    },
+    {
+      "original": "models/hero-v14.blend",
+      "archive": "models/archived/hero-v14.blend.gz",
+      "sha256_uncompressed": "5da8535d655e8f43aecfac23a0ceae36fd2b87767d530437918ae85f5569f62b",
+      "original_bytes": 26301353,
+      "archive_bytes": 25682180
+    },
+    {
+      "original": "models/hero-v15.blend",
+      "archive": "models/archived/hero-v15.blend.gz",
+      "sha256_uncompressed": "24c4f9b1b728a4c2970e0cdf52c868398b76056545fd8b325b39e573e205396d",
+      "original_bytes": 26220825,
+      "archive_bytes": 25631899
+    },
+    {
+      "original": "models/hero-v16.blend",
+      "archive": "models/archived/hero-v16.blend.gz",
+      "sha256_uncompressed": "fc7c9cad64e54536017e24e45e0e641da6ba6c0d1eb604886706e5b552c273af",
+      "original_bytes": 26420689,
+      "archive_bytes": 25812249
+    },
+    {
+      "original": "models/hero-v17.blend",
+      "archive": "models/archived/hero-v17.blend.gz",
+      "sha256_uncompressed": "95b955579013c7f1cadbfd08e273657d306bca24976b9e9f586bf53a25a4eedf",
+      "original_bytes": 24595604,
+      "archive_bytes": 24021992
+    },
+    {
+      "original": "models/hero-v18.blend",
+      "archive": "models/archived/hero-v18.blend.gz",
+      "sha256_uncompressed": "34373730e3ddc3bd29030e4fd814e2ce3dce52a6fd273f3602776c68b6d51d06",
+      "original_bytes": 24951594,
+      "archive_bytes": 24350846
+    },
+    {
+      "original": "models/hero-v19.blend",
+      "archive": "models/archived/hero-v19.blend.gz",
+      "sha256_uncompressed": "cdf825833edd7e7acbc8150ed75b91863d2e11096947fbaca1a0624b5f48825e",
+      "original_bytes": 25079716,
+      "archive_bytes": 24469294
+    },
+    {
+      "original": "models/hero-v20.blend",
+      "archive": "models/archived/hero-v20.blend.gz",
+      "sha256_uncompressed": "0eafe5446b7d3c11a69d54fefa2eb211b3666fe2ad1fc65e232961302ad6e583",
+      "original_bytes": 25087556,
+      "archive_bytes": 24478932
+    },
+    {
+      "original": "models/hero-v21.blend",
+      "archive": "models/archived/hero-v21.blend.gz",
+      "sha256_uncompressed": "6b639932f60af875de8b042e56abefae62c3fa15937fa15c8dea2ab53a0a10ed",
+      "original_bytes": 25079467,
+      "archive_bytes": 24463345
+    },
+    {
+      "original": "models/hero-v23.blend",
+      "archive": "models/archived/hero-v23.blend.gz",
+      "sha256_uncompressed": "dc6535ddd200acf2d2be6e6e51ade8bd626dd51fcc0b608db1b3969583c22d38",
+      "original_bytes": 24939630,
+      "archive_bytes": 24338688
+    },
+    {
+      "original": "models/hero-v24.blend",
+      "archive": "models/archived/hero-v24.blend.gz",
+      "sha256_uncompressed": "eda06a5dfd5abe82a4d077dc7c9f6ab66f0e355652f1a6057e550bfd42737ed1",
+      "original_bytes": 25178890,
+      "archive_bytes": 24615250
+    },
+    {
+      "original": "models/hero-v25.blend",
+      "archive": "models/archived/hero-v25.blend.gz",
+      "sha256_uncompressed": "b4bc955eea03b2f0629b1937f0100d2006e307189d99ceac30ac852148a8e125",
+      "original_bytes": 25175762,
+      "archive_bytes": 24578671
+    }
+  ],
+  "bytes_saved": 39308381
+}

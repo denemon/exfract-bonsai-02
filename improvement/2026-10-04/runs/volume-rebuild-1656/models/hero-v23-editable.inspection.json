@@ -1,0 +1,9 @@
+{
+  "core_vertices": 295248,
+  "core_faces": 590496,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "signed_volume": 0.3005069810539787,
+  "wood_alpha_min": 0.3199999928474426,
+  "runtime_templates_hidden": 12
+}
