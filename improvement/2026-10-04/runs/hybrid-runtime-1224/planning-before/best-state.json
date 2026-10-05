@@ -1,0 +1,20 @@
+{
+  "updated_at_jst": "2026-10-04T09:38:22+09:00",
+  "best_version": "0900-jst-candidate-04",
+  "adopted_run": "0900-jst",
+  "archive": "runs/0900-jst/site-source.tar.gz",
+  "manifest": "runs/0900-jst/source-manifest.json",
+  "production_archive": "runs/0900-jst/production-build.tar.gz",
+  "production_manifest": "runs/0900-jst/production-manifest.json",
+  "images": [
+    "runs/0900-jst/final/desktop.png",
+    "runs/0900-jst/final/mobile-390.png",
+    "runs/0900-jst/final/mobile-320.png"
+  ],
+  "retina_images": "runs/0900-jst/final-retina/",
+  "comparison": "runs/0900-jst/comparison.html",
+  "report": "runs/0900-jst/REPORT.md",
+  "reason": "Adopted after full-scene comparison: embedded support, continuous pot soil, fractured stones, unified moss/gravel terrain, organic boundary, lower transient JS allocation. Previous cameras and architectural scale preserved.",
+  "protected_initial": "baseline-initial/",
+  "previous_best": "runs/0800-jst/"
+}

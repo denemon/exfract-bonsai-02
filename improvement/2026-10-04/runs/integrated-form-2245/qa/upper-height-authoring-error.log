@@ -1,0 +1,12 @@
+00:00.110  translation      | WARNING Falling back to standard locale ("C")
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/sculpt/form.py", line 71, in <module>
+    assert source['name']==edit['name'];branches.append(fill_branch(source,edit['sections'],source['new_rings']))
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/sculpt/form.py", line 52, in fill_branch
+    assert angles[-1]-angles[0]<math.tau,(record['name'],angles)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Upper left primary', [2.1627823796213943, 2.5914331067236693, 2.663621965932637, 8.908157684733869, 9.374459260934493, 11.724831978413345, 11.81420503671205, 11.970045046808622, 12.152911237903197, 12.402077377512498])
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

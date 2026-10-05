@@ -1,0 +1,18 @@
+{
+  "name": "exfract-bonsai-02",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5182",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5182",
+    "test": "node scripts/browser-qa.mjs"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "vite": "8.2.2"
+  }
+}

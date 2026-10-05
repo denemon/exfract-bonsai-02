@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/sculpt/capture_diagrams.py", line 10, in <module>
+    result=subprocess.run(command,capture_output=True,text=True,timeout=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '--headless', '--disable-background-networking', '--disable-component-update', '--disable-features=OptimizationHints,OptimizationHintsFetching,OptimizationTargetPrediction', '--disable-sync', '--disable-default-apps', '--no-first-run', '--no-default-browser-check', '--hide-scrollbars', '--force-device-scale-factor=1', '--user-data-dir=/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile', '--window-size=1290,570', '--screenshot=/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/qa/edge-v01-sections.png', '--timeout=10000', 'file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/qa/edge-v01-sections.svg']' timed out after 40 seconds

@@ -1,0 +1,21 @@
+00:00.170  translation      | WARNING Falling back to standard locale ("C")
+00:00.711  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/models/edge-v02-editable.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+08:25:27 | INFO: Starting glTF 2.0 export
+08:25:28 | INFO: Extracting primitive: Local shoulder and broad front editable control net
+08:25:28 | INFO: Primitives created: 1
+08:25:28 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+08:25:28 | INFO: Finished glTF 2.0 export in 0.3868978023529053 s
+
+{"purpose": "The level6 output exceeded the150kB target; level10 retains identical geometry and quantization", "level6_bytes": 154480, "level10_bytes": 167656, "geometry_quantization_unchanged": true, "triangles": 18540, "sha256": "25f4b03a9bb5b3af8506f68ba4382527bf9f81a5ee17092187946443544bbf76", "target150kB_met": false}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 12521 vertices, 55620 indices, raw size: 784360, encoded size: 165075, compression ratio: 4.75
+
+Blender quit

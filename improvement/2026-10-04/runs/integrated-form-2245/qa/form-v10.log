@@ -1,0 +1,29 @@
+00:00.112  translation      | WARNING Falling back to standard locale ("C")
+00:00.527  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/anatomy-2150/models/best-coarse.blend"
+/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/integrated-form-2245/sculpt/spalls.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Continuous wood growth');mat.use_nodes=True;mat.diffuse_color=(.43,.39,.31,1);me.materials.append(mat)
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+23:28:43 | INFO: Starting glTF 2.0 export
+23:28:43 | INFO: Extracting primitive: Editable hand-authored broad loss faces
+23:28:43 | INFO: Primitives created: 1
+23:28:43 | INFO: Extracting primitive: Continuous planted soil
+23:28:43 | INFO: Primitives created: 1
+23:28:43 | INFO: Extracting primitive: Cube.001
+23:28:43 | INFO: Primitives created: 1
+23:28:43 | INFO: Extracting primitive: Cube.002
+23:28:43 | INFO: Primitives created: 1
+23:28:43 | INFO: Extracting primitive: Cube.003
+23:28:43 | INFO: Primitives created: 1
+23:28:43 | INFO: Extracting primitive: Cube.004
+23:28:43 | INFO: Primitives created: 1
+23:28:43 | INFO: Extracting primitive: Low split natural bedding stone
+23:28:43 | INFO: Primitives created: 1
+23:28:43 | INFO: Extracting primitive: Shallow unglazed pot
+23:28:43 | INFO: Primitives created: 1
+23:28:43 | INFO: Finished glTF 2.0 export in 0.0986478328704834 s
+
+{"version": "form-v10", "inspection": {"control_vertices": 9250, "control_faces": 9248, "evaluated_vertices": 36994, "triangles": 73984, "volume": 0.23801021155128477, "boundary_edges": 0, "nonmanifold_edges": 0, "nonadjacent_intersections": 0, "maximum_surface_edit": 0.025442489457466067, "edited_vertices": 1633, "retained_volume_vs_form_v09": 0.9869201953869956}}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

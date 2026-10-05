@@ -1,0 +1,42 @@
+<!-- STAGE_TWO_LIVE -->
+# Active stage 2 — volume rebuild
+
+Updated 2026-10-04T17:46:59.002834+09:00. Worker is active in `runs/volume-rebuild-1656/`; consult `progress.json`, `METHOD.md`, `GATE-volume.md` and the active-run lock. Coarse front/oblique comparisons show structural improvement over v27. Wood refinement is in progress; final hero quality is not accepted and root best remains unchanged. Dedicated local preview: http://127.0.0.1:5189/. No Library retries, Git writes or publication. Midpoint due 19:58 JST, stage estimate upper end 02:58 JST on October 5.
+
+---
+
+# 実3D・工程1を保存済み / 造形ゲート未達
+
+最新の実行承認は **2026-10-10 23:00 JST** まで。工程完了→検証保存→親への報告→次工程の即時開始を継続する。旧10/4終了、10/5以降禁止、画像ハイブリッド完成方針は無効。毎時automationは親が停止済み。このexecutorで新規スケジュールは設定していない。
+
+## 直近の成果と判定
+
+`runs/sculpt-gate-1329/REPORT.md` と `MIDPOINT.md`、`comparison.html` を読む。候補は **v27**。本番プレビューは **http://127.0.0.1:5188/**、ソースは同runの `site/`、編集用は `models/hero-v27.blend`、ウェブ用は `models/hero-v27.glb`。`stage-one-source.zip`、`production-build.zip`、`evidence.zip` とSHA256マニフェストを保存済み。
+
+**自然な古木としての形状ゲートは未達。09best/rootは変更していない。** 根・主幹・主要枝が一つの閉じた体積になり、別の管を貼る生き筋は解消した。しかし単色の正面/斜めでも、曲げた板を連想する面、硬い枝元、均一な木目、薄い葉群が残る。背景は仮配置。主役未達を庭の細部追加で補わない。
+
+本番のMac Chrome 154/M1 Proによる36機能項目は成功。PC/390/320、動き低減、WebGL不可/復旧、読込中の同一3D静止画を確認。GPUタイマーはPC中央値17.45ms/p95 21.31ms、390pxのDPR3条件は16.80/18.04ms。CPU側2.6msやRAF約16.7msとGPU時間を混同しない。200000B/s・遅延150msでは3D初回表示がJS起動後約21.4秒。実スマホ/Safari/長時間負荷は未検証。
+
+## 次の6〜10時間の優先事項
+
+1. 主幹の大きな面、根張り、枝元を参考の成長方向に合わせて設計し直す。単色・正面/斜め・通常サイズで板/帯感を消す。現在のロフトの細かい係数変更だけを反復せず、面構成と接合の方式を見直す。
+2. 主要枝から作る葉群の大小・密度・剪定輪郭を整え、樹冠の量感と枝間の余白を両立する。球/楕円の充填や同じ板の集合で済ませない。
+3. 形が成立したら木目の座標継ぎ目と均一さを改善し、代表素材を再評価。背景仕上げはその後。
+
+強いS字では局所の曲率半径が断面より小さくなり、内側の面が交差して折り返すことを確認。v26には内側だけを制限する処理を加えたが、強い屈曲の外観は不十分だった。v27は穏やかな中心線を採用。枝の結合はボクセル統合＋平滑化で、成長した枝元としての形にはさらに作業が必要。表面のUVを統合前に作り、`Wood flow` を転送する。空のUVMapがTEXCOORD0に入る問題は解決済み。生き筋はCOLOR0.R、粗い個体差はG/B。
+
+葉は12個の実立体プロトタイプを `EXT_mesh_gpu_instancing` で5700配置。約460万三角形の大半は葉。既定表示のGTAOはノイズと負荷のため不採用。カメラは実形状からフィットする。モバイルは左40度、320pxは左45度で、正面中心20〜30度より斜めの推定面を使っている。縦長320×932では高さ約32%で存在感が未達。
+
+モデル座標に0.66を掛けてウェブへ配置。鉢幅約1.06m。地面、台の埋まり、台上面と鉢脚、鉢内の土を同じ縮尺で合わせている。造形や構図を変更したら、必ず同じ候補からfallback静止画を再取得する。
+
+## 保護・実行状態
+
+初回53、09bestの17ソース/10本番とアーカイブの一致を `integrity-verification.json` で確認済み。Git HEADは `576a85c5d9603572dfc6aff9249fcf1c1c26f43c`。commit/push/PR/merge/公開/購入/旧作業先変更は禁止。旧Blender、生成画像、ハイブリッド案も保持している。`best-state.json` は09bestのまま。直近の候補は `candidate-state.json` で区別する。
+
+この工程のロックは `finish.json` で解放結果を確認してから次工程で取得する。writerと検証ブラウザは各1つ。保護版の5183、現候補の5188は作業ディレクトリを確認して扱う。旧候補5185/5186/5187は停止済み。
+
+ディスク不足で保存失敗が実際に一度発生。専用の終了済みChromeプロファイルを、この工程22件・前工程35件整理して約1.90GBを回収した。通常のユーザープロファイルや旧成果物は削除していない。途中Blender24件は `models/archived/*.blend.gz` に復元SHA256一致を確認して保持。モデルは元から圧縮されていたため追加の圧縮効果は約39MBだけ。`finish.json` の空きを確認し、検証ブラウザは必ず終了時に専用プロファイルを削除する。中間モデルの大量複製を避ける。
+
+Libraryは既報の公式helper tools/listのTLS障害のまま。再試行しない。**画像/ZIPのLibrary IDはなし。全てMacのローカル保存物。** Androidから127.0.0.1へアクセスできるものとして案内しない。
+
+指定はGPT-6 Astra/max。実行モデル識別メタデータはexecutorで公開されておらず、独立した適用確認は未検証。旧キャッシュの別executorのパスをMacに実在すると仮定しない。次工程も終了時に外観の合否、実ブラウザ、未検証を分けて報告する。
