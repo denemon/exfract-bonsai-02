@@ -1,0 +1,1307 @@
+{
+  "startedAt": "2026-10-04T14:42:29.417Z",
+  "url": "http://127.0.0.1:5192/",
+  "checks": [
+    {
+      "name": "pc has no visible text or overflow",
+      "pass": true
+    },
+    {
+      "name": "pc contains the full subject",
+      "pass": true,
+      "details": {
+        "left": 0.1752741557229643,
+        "right": 0.8231552967686881,
+        "top": 0.07000000000000012,
+        "bottom": 0.9299999999999999
+      }
+    },
+    {
+      "name": "pc renders actual instanced geometry",
+      "pass": true,
+      "details": {
+        "meshes": 93,
+        "vertices": 358885,
+        "instances": 5800,
+        "hasWoodMasks": true,
+        "authoringVersion": "integrated-v03",
+        "woodAttributes": [
+          "position",
+          "normal",
+          "uv",
+          "color"
+        ],
+        "woodUVRange": [
+          -0.9539329409599304,
+          -0.9479241967201233,
+          0.9635874629020691,
+          0.6923356056213379
+        ],
+        "woodMaterial": "continuous-growth-major-v1"
+      }
+    },
+    {
+      "name": "pc has a visible canvas",
+      "pass": true
+    },
+    {
+      "name": "WebGL reports no error",
+      "pass": true,
+      "details": {
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+        "vendor": "Google Inc. (Apple)",
+        "maxTextureSize": 16384,
+        "timerQueryAvailable": true,
+        "error": 0
+      }
+    },
+    {
+      "name": "Final model version is displayed",
+      "pass": true
+    },
+    {
+      "name": "Default view uses volumetric foliage LOD",
+      "pass": true
+    },
+    {
+      "name": "No continuous camera or render loop",
+      "pass": true,
+      "details": {
+        "idleBefore": 1,
+        "idleAfter": 1
+      }
+    },
+    {
+      "name": "Wheel approaches the actual sculpture and selects detailed leaves",
+      "pass": true
+    },
+    {
+      "name": "Near foliage remains within the visible triangle budget",
+      "pass": true
+    },
+    {
+      "name": "Fine foliage selection stays stable without camera changes",
+      "pass": true
+    },
+    {
+      "name": "Double click restores the complete composition",
+      "pass": true
+    },
+    {
+      "name": "Moving the key light changes the rendered scene",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion suppresses pointer camera movement",
+      "pass": true,
+      "details": {
+        "before": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 2.9209766980211356,
+          "zoom": 1,
+          "position": [
+            -0.03537073089605103,
+            1.3388838393992206,
+            2.8609782474919503
+          ],
+          "target": [
+            -0.03537073089605103,
+            0.6818070514655048,
+            0.014865993004933811
+          ]
+        },
+        "after": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 2.9209766980211356,
+          "zoom": 1,
+          "position": [
+            -0.03537073089605103,
+            1.3388838393992206,
+            2.8609782474919503
+          ],
+          "target": [
+            -0.03537073089605103,
+            0.6818070514655048,
+            0.014865993004933811
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pointer interaction changes the actual camera",
+      "pass": true,
+      "details": {
+        "pointerBefore": 0,
+        "pointerAfter": 13.5
+      }
+    },
+    {
+      "name": "mobile-390 has no visible text or overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile-390 contains the full subject",
+      "pass": true,
+      "details": {
+        "left": 0.034999999999999365,
+        "right": 0.9650000000000001,
+        "top": 0.23914603877124313,
+        "bottom": 0.7151246083820539
+      }
+    },
+    {
+      "name": "mobile-390 renders actual instanced geometry",
+      "pass": true,
+      "details": {
+        "meshes": 93,
+        "vertices": 358885,
+        "instances": 5800,
+        "hasWoodMasks": true,
+        "authoringVersion": "integrated-v03",
+        "woodAttributes": [
+          "position",
+          "normal",
+          "uv",
+          "color"
+        ],
+        "woodUVRange": [
+          -0.9539329409599304,
+          -0.9479241967201233,
+          0.9635874629020691,
+          0.6923356056213379
+        ],
+        "woodMaterial": "continuous-growth-major-v1"
+      }
+    },
+    {
+      "name": "mobile-390 has a visible canvas",
+      "pass": true
+    },
+    {
+      "name": "mobile-320 has no visible text or overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile-320 contains the full subject",
+      "pass": true,
+      "details": {
+        "left": 0.034999999999999976,
+        "right": 0.9650000000000001,
+        "top": 0.20987149997846188,
+        "bottom": 0.7478619433335403
+      }
+    },
+    {
+      "name": "mobile-320 renders actual instanced geometry",
+      "pass": true,
+      "details": {
+        "meshes": 93,
+        "vertices": 358885,
+        "instances": 5800,
+        "hasWoodMasks": true,
+        "authoringVersion": "integrated-v03",
+        "woodAttributes": [
+          "position",
+          "normal",
+          "uv",
+          "color"
+        ],
+        "woodUVRange": [
+          -0.9539329409599304,
+          -0.9479241967201233,
+          0.9635874629020691,
+          0.6923356056213379
+        ],
+        "woodMaterial": "continuous-growth-major-v1"
+      }
+    },
+    {
+      "name": "mobile-320 has a visible canvas",
+      "pass": true
+    },
+    {
+      "name": "Two-finger gesture approaches the actual 3D model",
+      "pass": true
+    },
+    {
+      "name": "mobile-tall-320 has no visible text or overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile-tall-320 contains the full subject",
+      "pass": true,
+      "details": {
+        "left": 0.034999999999999976,
+        "right": 0.9650000000000001,
+        "top": 0.27648279540936294,
+        "bottom": 0.6745567783255022
+      }
+    },
+    {
+      "name": "mobile-tall-320 renders actual instanced geometry",
+      "pass": true,
+      "details": {
+        "meshes": 93,
+        "vertices": 358885,
+        "instances": 5800,
+        "hasWoodMasks": true,
+        "authoringVersion": "integrated-v03",
+        "woodAttributes": [
+          "position",
+          "normal",
+          "uv",
+          "color"
+        ],
+        "woodUVRange": [
+          -0.9539329409599304,
+          -0.9479241967201233,
+          0.9635874629020691,
+          0.6923356056213379
+        ],
+        "woodMaterial": "continuous-growth-major-v1"
+      }
+    },
+    {
+      "name": "mobile-tall-320 has a visible canvas",
+      "pass": true
+    },
+    {
+      "name": "mobile-retina-390 has no visible text or overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile-retina-390 contains the full subject",
+      "pass": true,
+      "details": {
+        "left": 0.034999999999999365,
+        "right": 0.9650000000000001,
+        "top": 0.23914603877124313,
+        "bottom": 0.7151246083820539
+      }
+    },
+    {
+      "name": "mobile-retina-390 renders actual instanced geometry",
+      "pass": true,
+      "details": {
+        "meshes": 93,
+        "vertices": 358885,
+        "instances": 5800,
+        "hasWoodMasks": true,
+        "authoringVersion": "integrated-v03",
+        "woodAttributes": [
+          "position",
+          "normal",
+          "uv",
+          "color"
+        ],
+        "woodUVRange": [
+          -0.9539329409599304,
+          -0.9479241967201233,
+          0.9635874629020691,
+          0.6923356056213379
+        ],
+        "woodMaterial": "continuous-growth-major-v1"
+      }
+    },
+    {
+      "name": "mobile-retina-390 has a visible canvas",
+      "pass": true
+    },
+    {
+      "name": "Renderer caps the device pixel ratio",
+      "pass": true
+    },
+    {
+      "name": "context-test has no visible text or overflow",
+      "pass": true
+    },
+    {
+      "name": "context-test contains the full subject",
+      "pass": true,
+      "details": {
+        "left": 0.1752741557229643,
+        "right": 0.8231552967686881,
+        "top": 0.07000000000000012,
+        "bottom": 0.9299999999999999
+      }
+    },
+    {
+      "name": "context-test renders actual instanced geometry",
+      "pass": true,
+      "details": {
+        "meshes": 93,
+        "vertices": 358885,
+        "instances": 5800,
+        "hasWoodMasks": true,
+        "authoringVersion": "integrated-v03",
+        "woodAttributes": [
+          "position",
+          "normal",
+          "uv",
+          "color"
+        ],
+        "woodUVRange": [
+          -0.9539329409599304,
+          -0.9479241967201233,
+          0.9635874629020691,
+          0.6923356056213379
+        ],
+        "woodMaterial": "continuous-growth-major-v1"
+      }
+    },
+    {
+      "name": "context-test has a visible canvas",
+      "pass": true
+    },
+    {
+      "name": "Context loss reveals the scene still",
+      "pass": true,
+      "details": {
+        "ready": true,
+        "source": "http://127.0.0.1:5192/stills/pc.webp",
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "name": "Context restoration resumes 3D",
+      "pass": true
+    },
+    {
+      "name": "No WebGL retains a readable scene still",
+      "pass": true,
+      "details": {
+        "url": "http://127.0.0.1:5192/?qa=no-webgl",
+        "ready": false,
+        "stats": {
+          "ready": false,
+          "frames": 0,
+          "mode": "garden",
+          "reduced": false,
+          "firstFrameMs": null,
+          "framesMs": [],
+          "model": null,
+          "error": "WebGL2 unavailable"
+        },
+        "text": "",
+        "overflow": false,
+        "image": {
+          "ready": true,
+          "source": "http://127.0.0.1:5192/stills/pc.webp",
+          "width": 1440,
+          "height": 900
+        },
+        "canvas": {
+          "visible": "hidden",
+          "width": 300,
+          "height": 150
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "dpr": 1
+      }
+    },
+    {
+      "name": "The first HTML includes an actual-scene image before external still loading",
+      "pass": true
+    },
+    {
+      "name": "Loading retains the actual scene still",
+      "pass": true,
+      "details": {
+        "image": {
+          "ready": true,
+          "source": "http://127.0.0.1:5192/stills/pc.webp",
+          "width": 1440,
+          "height": 900
+        }
+      }
+    },
+    {
+      "name": "3D completes after throttled loading",
+      "pass": true
+    },
+    {
+      "name": "No uncaught JavaScript or shader errors",
+      "pass": true,
+      "details": {
+        "exceptions": 0,
+        "shaderErrors": 0
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "pc",
+      "url": "http://127.0.0.1:5192/?qa=pc",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": false,
+        "firstFrameMs": 191.70000004768372,
+        "framesMs": [
+          83.60000002384186
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 358885,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "integrated-v03",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.9539329409599304,
+            -0.9479241967201233,
+            0.9635874629020691,
+            0.6923356056213379
+          ],
+          "woodMaterial": "continuous-growth-major-v1"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.1752741557229643,
+          "right": 0.8231552967686881,
+          "top": 0.07000000000000012,
+          "bottom": 0.9299999999999999
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 2.9209766980211356,
+          "zoom": 1,
+          "position": [
+            -0.03537073089605103,
+            1.3388838393992206,
+            2.8609782474919503
+          ],
+          "target": [
+            -0.03537073089605103,
+            0.6818070514655048,
+            0.014865993004933811
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 325,
+        "triangles": 2058458,
+        "navigationToFirstFrameMs": 243.20000004768372
+      },
+      "text": "",
+      "overflow": false,
+      "image": {
+        "ready": true,
+        "source": "http://127.0.0.1:5192/stills/pc.webp",
+        "width": 1440,
+        "height": 900
+      },
+      "canvas": {
+        "visible": "visible",
+        "width": 1440,
+        "height": 900
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "mobile-390",
+      "url": "http://127.0.0.1:5192/?qa=mobile-390",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": false,
+        "firstFrameMs": 156.19999998807907,
+        "framesMs": [
+          71.5
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 358885,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "integrated-v03",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.9539329409599304,
+            -0.9479241967201233,
+            0.9635874629020691,
+            0.6923356056213379
+          ],
+          "woodMaterial": "continuous-growth-major-v1"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.034999999999999365,
+          "right": 0.9650000000000001,
+          "top": 0.23914603877124313,
+          "bottom": 0.7151246083820539
+        },
+        "camera": {
+          "yaw": -38,
+          "pitch": 11,
+          "distance": 5.2393140757229295,
+          "zoom": 1,
+          "position": [
+            -3.2354561558064017,
+            1.5661819584454526,
+            4.082114914739318
+          ],
+          "target": [
+            -0.06907648466939789,
+            0.5664737031945701,
+            0.02933375032123769
+          ]
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 333,
+        "triangles": 2059322,
+        "navigationToFirstFrameMs": 172.5999999642372
+      },
+      "text": "",
+      "overflow": false,
+      "image": {
+        "ready": true,
+        "source": "http://127.0.0.1:5192/stills/mobile-390.webp",
+        "width": 390,
+        "height": 844
+      },
+      "canvas": {
+        "visible": "visible",
+        "width": 390,
+        "height": 844
+      },
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 1,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "mobile-320",
+      "url": "http://127.0.0.1:5192/?qa=mobile-320",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": false,
+        "firstFrameMs": 148.69999998807907,
+        "framesMs": [
+          70.59999996423721
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 358885,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "integrated-v03",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.9539329409599304,
+            -0.9479241967201233,
+            0.9635874629020691,
+            0.6923356056213379
+          ],
+          "woodMaterial": "continuous-growth-major-v1"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.034999999999999976,
+          "right": 0.9650000000000001,
+          "top": 0.20987149997846188,
+          "bottom": 0.7478619433335403
+        },
+        "camera": {
+          "yaw": -32,
+          "pitch": 11,
+          "distance": 4.632071238133095,
+          "zoom": 1,
+          "position": [
+            -2.48691922516553,
+            1.463831280217216,
+            3.8772577701578146
+          ],
+          "target": [
+            -0.07739379523705261,
+            0.5799904207564519,
+            0.021211026040789407
+          ]
+        },
+        "viewport": [
+          320,
+          568
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 330,
+        "triangles": 2058998,
+        "navigationToFirstFrameMs": 167.5999999642372
+      },
+      "text": "",
+      "overflow": false,
+      "image": {
+        "ready": true,
+        "source": "http://127.0.0.1:5192/stills/mobile-320.webp",
+        "width": 320,
+        "height": 568
+      },
+      "canvas": {
+        "visible": "visible",
+        "width": 320,
+        "height": 568
+      },
+      "viewport": [
+        320,
+        568
+      ],
+      "dpr": 1,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "mobile-tall-320",
+      "url": "http://127.0.0.1:5192/?qa=mobile-tall-320",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": false,
+        "firstFrameMs": 149,
+        "framesMs": [
+          69.89999997615814
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 358885,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "integrated-v03",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.9539329409599304,
+            -0.9479241967201233,
+            0.9635874629020691,
+            0.6923356056213379
+          ],
+          "woodMaterial": "continuous-growth-major-v1"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.034999999999999976,
+          "right": 0.9650000000000001,
+          "top": 0.27648279540936294,
+          "bottom": 0.6745567783255022
+        },
+        "camera": {
+          "yaw": -48,
+          "pitch": 11,
+          "distance": 6.268043683630619,
+          "zoom": 1,
+          "position": [
+            -4.651812601627504,
+            1.743819843778133,
+            4.141541065115854
+          ],
+          "target": [
+            -0.07933013184610715,
+            0.5478207255282772,
+            0.02445935684370888
+          ]
+        },
+        "viewport": [
+          320,
+          932
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 335,
+        "triangles": 2059538,
+        "navigationToFirstFrameMs": 167.69999998807907
+      },
+      "text": "",
+      "overflow": false,
+      "image": {
+        "ready": true,
+        "source": "http://127.0.0.1:5192/stills/mobile-tall.webp",
+        "width": 320,
+        "height": 932
+      },
+      "canvas": {
+        "visible": "visible",
+        "width": 320,
+        "height": 932
+      },
+      "viewport": [
+        320,
+        932
+      ],
+      "dpr": 1,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "mobile-retina-390",
+      "url": "http://127.0.0.1:5192/?qa=mobile-retina-390",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": false,
+        "firstFrameMs": 159.30000001192093,
+        "framesMs": [
+          72.69999998807907
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 358885,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "integrated-v03",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.9539329409599304,
+            -0.9479241967201233,
+            0.9635874629020691,
+            0.6923356056213379
+          ],
+          "woodMaterial": "continuous-growth-major-v1"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.034999999999999365,
+          "right": 0.9650000000000001,
+          "top": 0.23914603877124313,
+          "bottom": 0.7151246083820539
+        },
+        "camera": {
+          "yaw": -38,
+          "pitch": 11,
+          "distance": 5.2393140757229295,
+          "zoom": 1,
+          "position": [
+            -3.2354561558064017,
+            1.5661819584454526,
+            4.082114914739318
+          ],
+          "target": [
+            -0.06907648466939789,
+            0.5664737031945701,
+            0.02933375032123769
+          ]
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 333,
+        "triangles": 2059322,
+        "navigationToFirstFrameMs": 178
+      },
+      "text": "",
+      "overflow": false,
+      "image": {
+        "ready": true,
+        "source": "http://127.0.0.1:5192/stills/mobile-390.webp",
+        "width": 390,
+        "height": 844
+      },
+      "canvas": {
+        "visible": "visible",
+        "width": 624,
+        "height": 1350
+      },
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 3,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "context-test",
+      "url": "http://127.0.0.1:5192/?qa=context-test",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": false,
+        "firstFrameMs": 143,
+        "framesMs": [
+          70.60000002384186
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 358885,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "integrated-v03",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.9539329409599304,
+            -0.9479241967201233,
+            0.9635874629020691,
+            0.6923356056213379
+          ],
+          "woodMaterial": "continuous-growth-major-v1"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.1752741557229643,
+          "right": 0.8231552967686881,
+          "top": 0.07000000000000012,
+          "bottom": 0.9299999999999999
+        },
+        "camera": {
+          "yaw": 0,
+          "pitch": 13,
+          "distance": 2.9209766980211356,
+          "zoom": 1,
+          "position": [
+            -0.03537073089605103,
+            1.3388838393992206,
+            2.8609782474919503
+          ],
+          "target": [
+            -0.03537073089605103,
+            0.6818070514655048,
+            0.014865993004933811
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "low",
+          "changed": true,
+          "highGroups": 0,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 868000,
+          "allocatedLeafTriangles": 868000,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 325,
+        "triangles": 2058458,
+        "navigationToFirstFrameMs": 172.80000001192093
+      },
+      "text": "",
+      "overflow": false,
+      "image": {
+        "ready": true,
+        "source": "http://127.0.0.1:5192/stills/pc.webp",
+        "width": 1440,
+        "height": 900
+      },
+      "canvas": {
+        "visible": "visible",
+        "width": 1440,
+        "height": 900
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "case": "no-webgl",
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "Static garden retained:"
+          },
+          {
+            "type": "string",
+            "value": "WebGL2 unavailable"
+          }
+        ],
+        "executionContextId": 8,
+        "timestamp": 1791124957238.392,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5192/assets/index-Dw76r4Ay.js",
+              "lineNumber": 4151,
+              "columnNumber": 7050
+            }
+          ]
+        }
+      },
+      "sessionId": "1AB7FC69EE51124A14E4FFC891004183"
+    }
+  ],
+  "performance": {
+    "pc": {
+      "method": "36 requestAnimationFrame camera frames, gl.finish after each render; Mac GPU, no CPU throttle",
+      "frameCostMedianMs": 1.600000023841858,
+      "frameCostP95Ms": 1.800000011920929,
+      "rafMedianMs": 16.699999999999818,
+      "rafP95Ms": 16.700000000000273,
+      "raw": {
+        "costs": [
+          2.399999976158142,
+          2.5,
+          7.800000011920929,
+          7.800000011920929,
+          1.800000011920929,
+          1.5999999642372131,
+          1.600000023841858,
+          1.699999988079071,
+          1.5999999642372131,
+          1.5,
+          1.600000023841858,
+          1.699999988079071,
+          1.800000011920929,
+          1.600000023841858,
+          1.5999999642372131,
+          1.600000023841858,
+          1.600000023841858,
+          1.699999988079071,
+          1.5,
+          2.699999988079071,
+          1.600000023841858,
+          1.600000023841858,
+          1.5999999642372131,
+          1.5999999642372131,
+          1.5,
+          1.5999999642372131,
+          1.699999988079071,
+          1.600000023841858,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.699999988079071,
+          1.600000023841858,
+          1.5999999642372131,
+          1.5
+        ],
+        "intervals": [
+          16.699999999999818,
+          16.700000000000045,
+          16.600000000000136,
+          16.699999999999818,
+          16.600000000000136,
+          16.700000000000045,
+          16.699999999999818,
+          16.700000000000045,
+          16.600000000000136,
+          16.699999999999818,
+          16.600000000000136,
+          16.700000000000045,
+          16.699999999999818,
+          16.59999999999991,
+          16.700000000000273,
+          16.699999999999818,
+          16.700000000000273,
+          16.59999999999991,
+          16.59999999999991,
+          16.699999999999818,
+          16.700000000000273,
+          16.699999999999818,
+          16.59999999999991,
+          16.700000000000273,
+          16.699999999999818,
+          16.59999999999991,
+          16.700000000000273,
+          16.699999999999818,
+          16.59999999999991,
+          16.700000000000273,
+          16.699999999999818,
+          16.700000000000273,
+          16.5,
+          16.799999999999727,
+          16.59999999999991
+        ]
+      }
+    },
+    "mobileViewport": {
+      "hardware": "Same Mac GPU; 390×844 CSS pixels, emulated DPR 3, renderer capped at 1.6; not a physical phone",
+      "frameCostMedianMs": 1.600000023841858,
+      "frameCostP95Ms": 2.600000023841858,
+      "raw": [
+        4.800000011920929,
+        8.299999952316284,
+        4.399999976158142,
+        9,
+        2.5,
+        2.600000023841858,
+        1.600000023841858,
+        1.600000023841858,
+        1.699999988079071,
+        1.600000023841858,
+        1.5999999642372131,
+        1.600000023841858,
+        1.800000011920929,
+        1.399999976158142,
+        1.699999988079071,
+        1.399999976158142,
+        1.600000023841858,
+        1.5999999642372131,
+        1.5999999642372131,
+        1.5,
+        1.5999999642372131,
+        1.5,
+        1.600000023841858,
+        2.099999964237213,
+        1.600000023841858,
+        1.5,
+        1.699999988079071,
+        1.5,
+        1.5,
+        4.400000035762787
+      ]
+    },
+    "throttledLoad": {
+      "firstFrameMs": 8296.099999964237,
+      "navigationToFirstFrameMs": 9979.5,
+      "entries": [
+        {
+          "name": "/assets/index-Dw76r4Ay.js",
+          "transferSize": 159849,
+          "encodedBodySize": 159549,
+          "duration": 1454.5999999642372
+        },
+        {
+          "name": "/assets/index-DVKFpQ5r.css",
+          "transferSize": 739,
+          "encodedBodySize": 439,
+          "duration": 157.20000004768372
+        },
+        {
+          "name": "/stills/pc.webp",
+          "transferSize": 98870,
+          "encodedBodySize": 98570,
+          "duration": 1143.7000000476837
+        },
+        {
+          "name": "/models/hero.glb",
+          "transferSize": 1354736,
+          "encodedBodySize": 1354436,
+          "duration": 6939.100000023842
+        },
+        {
+          "name": "/draco/draco_wasm_wrapper.js",
+          "transferSize": 12048,
+          "encodedBodySize": 11748,
+          "duration": 274
+        },
+        {
+          "name": "/draco/draco_decoder.wasm",
+          "transferSize": 192720,
+          "encodedBodySize": 192420,
+          "duration": 1182.699999988079
+        }
+      ]
+    }
+  },
+  "screenshots": [
+    "pc.png",
+    "near-inspection.png",
+    "light-from-right.png",
+    "mobile-390.png",
+    "mobile-320.png",
+    "mobile-tall-320.png",
+    "mobile-retina-390.png",
+    "context-loss-still.png",
+    "no-webgl-still.png",
+    "loading-initial-still.png",
+    "loading-still.png"
+  ],
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/154.0.8037.97",
+    "revision": "@b510e9d7cd3a2fbd78d0ddc42234103206c5f78d",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "jsVersion": "15.4.80.20"
+  },
+  "profile": {
+    "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+    "reused": true,
+    "newProfiles": 0
+  },
+  "gpu": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "vendor": "Google Inc. (Apple)",
+    "maxTextureSize": 16384,
+    "timerQueryAvailable": true,
+    "error": 0
+  },
+  "passed": true,
+  "finishedAt": "2026-10-04T14:42:47.494Z"
+}

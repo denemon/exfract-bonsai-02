@@ -1,0 +1,102 @@
+{
+  "results": [
+    {
+      "name": "wood-oblique",
+      "url": "http://127.0.0.1:5195/?detail=wood&yaw=55&qa=wood-oblique",
+      "ready": true,
+      "stats": {
+        "ready": true,
+        "frames": 1,
+        "mode": "garden",
+        "reduced": true,
+        "firstFrameMs": 210.30000001192093,
+        "framesMs": [
+          117.30000001192093
+        ],
+        "model": {
+          "meshes": 93,
+          "vertices": 360355,
+          "instances": 5800,
+          "hasWoodMasks": true,
+          "authoringVersion": "edge-v02",
+          "woodAttributes": [
+            "position",
+            "normal",
+            "uv",
+            "uv1",
+            "uv2",
+            "color"
+          ],
+          "woodUVRange": [
+            -0.5967938303947449,
+            -1.351403832435608,
+            0.6941814422607422,
+            0.9941143989562988
+          ],
+          "woodMaterial": "bark-connected-cedar-v2"
+        },
+        "worldScale": 0.66,
+        "framing": {
+          "left": 0.1499689761168292,
+          "right": 1.4501996324992215,
+          "top": -0.7830497040577271,
+          "bottom": 2.0079636012301814
+        },
+        "camera": {
+          "yaw": 55,
+          "pitch": 13,
+          "distance": 1.353,
+          "zoom": 1,
+          "position": [
+            1.0601067328161993,
+            0.9841587765272495,
+            0.7693588348813217
+          ],
+          "target": [
+            -0.0198,
+            0.6798000000000001,
+            0.013200000000000002
+          ]
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "foliageLOD": {
+          "level": "mixed",
+          "changed": true,
+          "highGroups": 36,
+          "visibleGroups": 72,
+          "groups": 72,
+          "crowns": 6,
+          "visibleLeafTriangles": 2253160,
+          "allocatedLeafTriangles": 2253160,
+          "leafBudget": 2600000,
+          "closedScaleLeaves": true
+        },
+        "drawCalls": 269,
+        "triangles": 4822658,
+        "navigationToFirstFrameMs": 226.4000000357628
+      },
+      "text": "",
+      "viewport": [
+        1440,
+        900
+      ],
+      "scroll": false,
+      "programs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "logs": []
+}

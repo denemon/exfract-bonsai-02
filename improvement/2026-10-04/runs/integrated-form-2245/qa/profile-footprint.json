@@ -1,0 +1,140 @@
+{
+  "scope": "Only 18 Optimization Guide model-cache files created after this stage started inside the one agent-owned dedicated QA profile. No earlier profile files or the 55 old profiles were removed.",
+  "why": "Chrome downloaded auxiliary Optimization Guide models despite disable-background-networking and disable-component-update. They are unrelated to the site and reproducible.",
+  "before_profile_allocated_bytes": 106430464,
+  "after_profile_allocated_bytes": 64376832,
+  "removed_files": [
+    {
+      "path": "optimization_guide_model_store/58/62932665C4715854/9395D8565524E26D/model-info.pb",
+      "bytes": 6998,
+      "allocated_bytes": 8192,
+      "created_at_jst": "2026-10-04T23:42:43.838382+09:00",
+      "sha256": "6d4695311d2a599b9bfdb3ac73e1462d10a5a97c8400781a4c33bd50f2f5c759"
+    },
+    {
+      "path": "optimization_guide_model_store/58/62932665C4715854/9395D8565524E26D/model.tflite",
+      "bytes": 195104,
+      "allocated_bytes": 196608,
+      "created_at_jst": "2026-10-04T23:42:43.838984+09:00",
+      "sha256": "49abe64e2eee074ded9ca31750ce449e414b45b8d198e04efdc317dd2f429ba4"
+    },
+    {
+      "path": "optimization_guide_model_store/20/62932665C4715854/6CD02DA18F1B3E74/model-info.pb",
+      "bytes": 164,
+      "allocated_bytes": 4096,
+      "created_at_jst": "2026-10-04T23:42:43.429350+09:00",
+      "sha256": "fd9510efa2478b1709fa685f2c51c4517225ec618971819c808d64c8c49f6c9a"
+    },
+    {
+      "path": "optimization_guide_model_store/20/62932665C4715854/6CD02DA18F1B3E74/model.tflite",
+      "bytes": 31520,
+      "allocated_bytes": 32768,
+      "created_at_jst": "2026-10-04T23:42:43.429759+09:00",
+      "sha256": "e8c55250b30a5999403e9b7ad1031223ca3297e2a79de5bd169581f734691eab"
+    },
+    {
+      "path": "optimization_guide_model_store/9/62932665C4715854/AE82BD3478126EEC/model-info.pb",
+      "bytes": 164,
+      "allocated_bytes": 4096,
+      "created_at_jst": "2026-10-04T23:42:43.231058+09:00",
+      "sha256": "804b149ba8918e68e78c25d262ba95118b4088e0cf06bf9c9dd821bfc8815dca"
+    },
+    {
+      "path": "optimization_guide_model_store/9/62932665C4715854/AE82BD3478126EEC/model.tflite",
+      "bytes": 31520,
+      "allocated_bytes": 32768,
+      "created_at_jst": "2026-10-04T23:42:43.231459+09:00",
+      "sha256": "21ecf18a9eb18a66870208035d857a536d6d714e0eec47a86d316ade56bb90a4"
+    },
+    {
+      "path": "optimization_guide_model_store/45/62932665C4715854/67FBB71076340509/model-info.pb",
+      "bytes": 7104,
+      "allocated_bytes": 8192,
+      "created_at_jst": "2026-10-04T23:42:43.703844+09:00",
+      "sha256": "fab8e53a41540b352b8d58f37f23dc464ac8e0ecc47f65bd5f4be34df792c2e3"
+    },
+    {
+      "path": "optimization_guide_model_store/45/62932665C4715854/67FBB71076340509/model.tflite",
+      "bytes": 131736,
+      "allocated_bytes": 135168,
+      "created_at_jst": "2026-10-04T23:42:43.702819+09:00",
+      "sha256": "4c897707a45592774ffc4c65b207589efee2f1667798f96b4e37245047466e3e"
+    },
+    {
+      "path": "optimization_guide_model_store/26/62932665C4715854/E0BFB181645757AF/model-info.pb",
+      "bytes": 416,
+      "allocated_bytes": 4096,
+      "created_at_jst": "2026-10-04T23:42:43.468810+09:00",
+      "sha256": "df5ace9343b9c960993fd8d97a3911d6cdfc2531ecd36d4bba32fef89dd46db3"
+    },
+    {
+      "path": "optimization_guide_model_store/26/62932665C4715854/E0BFB181645757AF/model.tflite",
+      "bytes": 7112,
+      "allocated_bytes": 8192,
+      "created_at_jst": "2026-10-04T23:42:43.469128+09:00",
+      "sha256": "92e81784c55f74000441d25a29c895b19ca1bd53efe0177ce3c27fbdb7869fa1"
+    },
+    {
+      "path": "optimization_guide_model_store/43/62932665C4715854/DCFFA19CF6DD3926/sentencepiece.model",
+      "bytes": 794346,
+      "allocated_bytes": 794624,
+      "created_at_jst": "2026-10-04T23:42:47.069282+09:00",
+      "sha256": "839ffa4b9afae8d77834a88b87781849aa021975d6063dec6085633fcaf7171c"
+    },
+    {
+      "path": "optimization_guide_model_store/43/62932665C4715854/DCFFA19CF6DD3926/model-info.pb",
+      "bytes": 138,
+      "allocated_bytes": 4096,
+      "created_at_jst": "2026-10-04T23:42:47.068767+09:00",
+      "sha256": "76710ebdc60b1488efd8da877e7597beed852f805a7043697faa92282c65c74d"
+    },
+    {
+      "path": "optimization_guide_model_store/43/62932665C4715854/DCFFA19CF6DD3926/model.tflite",
+      "bytes": 36778224,
+      "allocated_bytes": 36782080,
+      "created_at_jst": "2026-10-04T23:42:47.074492+09:00",
+      "sha256": "bbc7dc1ae142e321b07749bc824f487c199334f6cfc567166ce8e2e58bd955a4"
+    },
+    {
+      "path": "optimization_guide_model_store/2/62932665C4715854/26524D798A8CF56F/model-info.pb",
+      "bytes": 12,
+      "allocated_bytes": 4096,
+      "created_at_jst": "2026-10-04T23:42:43.234062+09:00",
+      "sha256": "5887dcfba850053c7d4cc3897c84f73a96baf16e48e00b87eb1e6fbd8e5101e6"
+    },
+    {
+      "path": "optimization_guide_model_store/2/62932665C4715854/26524D798A8CF56F/model.tflite",
+      "bytes": 392048,
+      "allocated_bytes": 393216,
+      "created_at_jst": "2026-10-04T23:42:43.234438+09:00",
+      "sha256": "a0956386dc64fd9f4883c8741f950cd60a56859616b159c9e4251c9eb0ac5534"
+    },
+    {
+      "path": "optimization_guide_model_store/25/62932665C4715854/121179D85811774B/model-info.pb",
+      "bytes": 146,
+      "allocated_bytes": 4096,
+      "created_at_jst": "2026-10-04T23:42:43.624856+09:00",
+      "sha256": "48fb46558b429470e3442dd71df63466f71722c8ff28d8eb2ce0970f9883daba"
+    },
+    {
+      "path": "optimization_guide_model_store/25/62932665C4715854/121179D85811774B/visual_model_desktop.tflite",
+      "bytes": 3452826,
+      "allocated_bytes": 3452928,
+      "created_at_jst": "2026-10-04T23:42:43.625380+09:00",
+      "sha256": "eaea1c7eeb2af4fcb59c7db541df61057c4ccdb8a4d4f70af75776d70aa1850c"
+    },
+    {
+      "path": "optimization_guide_model_store/25/62932665C4715854/121179D85811774B/model.tflite",
+      "bytes": 180520,
+      "allocated_bytes": 184320,
+      "created_at_jst": "2026-10-04T23:42:43.644326+09:00",
+      "sha256": "498e3205bf85da0a8f8b57e292d4bd12b31d691e04039c04bedcde75d1ea7459"
+    }
+  ],
+  "unrelated_profile_files_verified_unchanged": 514,
+  "conservative_total_run_staging_and_entire_reused_profile_bytes": 94810112,
+  "budget_bytes": 104857600,
+  "old_profiles_remaining": 55,
+  "old_profiles_deleted": 0,
+  "future_browser_download_prevention": "Not resolved or claimed; next stage must check profile footprint and suppress unnecessary Chrome model downloads. No browser was relaunched solely to test this."
+}

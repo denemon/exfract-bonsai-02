@@ -1,0 +1,59 @@
+{
+  "method": "Pillow resize and WebP encoding. Only runtime texture packaging; no screenshot retouching. Original verified CC0 images retained unchanged.",
+  "images": [
+    {
+      "name": "color",
+      "original": "site/public/bark/color.jpg",
+      "source_bytes": 735610,
+      "derived": "site/public/bark/color.webp",
+      "bytes": 78696,
+      "dimensions": [
+        768,
+        768
+      ],
+      "quality": 85,
+      "sha256": "8cb61f4aff82430e751f7af965c1593677ff01478173864a70bdecc0948c2da5"
+    },
+    {
+      "name": "normal",
+      "original": "site/public/bark/normal.jpg",
+      "source_bytes": 994079,
+      "derived": "site/public/bark/normal.webp",
+      "bytes": 291264,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "quality": 88,
+      "sha256": "f70ae6fa437e51832f56012b01b1428fd627ff6cd54671e3ff1f9292e64f7369"
+    },
+    {
+      "name": "height",
+      "original": "site/public/bark/height.jpg",
+      "source_bytes": 368624,
+      "derived": "site/public/bark/height.webp",
+      "bytes": 5414,
+      "dimensions": [
+        256,
+        256
+      ],
+      "quality": 85,
+      "sha256": "221b5003710a01dc052dc5fac50822f4204dd23e9112de81ca2e07493ca74704"
+    },
+    {
+      "name": "roughness",
+      "original": "site/public/bark/roughness.jpg",
+      "source_bytes": 228225,
+      "derived": "site/public/bark/roughness.webp",
+      "bytes": 226,
+      "dimensions": [
+        256,
+        256
+      ],
+      "quality": 85,
+      "sha256": "3d04eff164566595f8818fb4555b47499f8cf61bde1c0579a358cd5a6d309723"
+    }
+  ],
+  "total_original_bytes": 2326538,
+  "total_runtime_bytes": 375600
+}

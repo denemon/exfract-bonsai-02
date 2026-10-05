@@ -1,0 +1,19 @@
+{
+  "selected": "edge-v02",
+  "purpose": "Local root attachment repair and editing basis; not a completed premium bonsai or garden",
+  "native": "models/edge-v02-editable.blend",
+  "glb": "models/edge-v02.glb",
+  "native_sha256": "797e86664f36278c96dcf228aff734c9d7af212ef144af34a6336da31742e1e6",
+  "glb_sha256": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a",
+  "major_candidates": 2,
+  "basis": "wood-surface-0000/wood-v02",
+  "root_attachment_gate": "improved",
+  "B_against_A": "Small improvement: shoulder line softer and joins neighboring surface",
+  "major_aged_form_gate": "not passed",
+  "full_garden_gate": "not passed",
+  "normal_color_requirement_passed": true,
+  "root_best_promoted": false,
+  "protected_prior_states_unchanged": true,
+  "runtime_candidate_unchanged": "volume-rebuild-1656-v23",
+  "next_stage": "Freeze provisional edge-v02 and proceed immediately to whole garden, measured ground contacts, gravel/moss/partly buried stones, real veranda/opening depth and soft daylight. First 1–2h: at most two whole-scene layouts, PC/390/320 review, then materials. Do not gate this on further trunk-only iterations; record the remaining aged-form limitation separately. See NEXT-SCENE.md."
+}

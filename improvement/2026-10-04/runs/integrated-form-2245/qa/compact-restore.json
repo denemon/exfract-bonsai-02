@@ -1,0 +1,186 @@
+{
+  "method": "Recreate control vertices/faces/colors from each JSON, apply its recorded Catmull-Clark evaluation in memory, compare volumes and counts, test edge manifoldness, components and BVH self-overlap excluding triangles sharing vertices. No native file is written.",
+  "passed": true,
+  "records": [
+    {
+      "record": "models/form-v01.json",
+      "sha256": "cfa00ef0009974754709ef53c7cd8a369bd23a4bf5747792ab1f1741796e5f39",
+      "control_vertices": 593,
+      "control_faces": 565,
+      "unapplied_subdivision": 2,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.22947230838113902,
+      "volume_error": 5.859274732067377e-10,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v02.json",
+      "sha256": "e00d89108620d21f10647cdf67f29dfe5a2c17e1da691678d839ee5b41279343",
+      "control_vertices": 2314,
+      "control_faces": 2312,
+      "unapplied_subdivision": 1,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.21109579519397162,
+      "volume_error": 1.898210422179858e-09,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v03.json",
+      "sha256": "428e59dc38bad579c81895ce82bdcdcda0567be5d3bfa8274d9ea7f37d4ba0a4",
+      "control_vertices": 593,
+      "control_faces": 565,
+      "unapplied_subdivision": 2,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.23536915324233817,
+      "volume_error": 8.834825093728682e-10,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v04.json",
+      "sha256": "f08fa9b1292941a6c01fe202dd93f055812571d0069ad71e6b29f63385ad5a33",
+      "control_vertices": 2314,
+      "control_faces": 2312,
+      "unapplied_subdivision": 1,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.21550198981045476,
+      "volume_error": 4.516956864097921e-09,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v05.json",
+      "sha256": "5b745ff2909284b33d7d9d43a88d8b21e5ce3619e4b62a86e48c027182689861",
+      "control_vertices": 593,
+      "control_faces": 565,
+      "unapplied_subdivision": 2,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.23376911313390006,
+      "volume_error": 6.208260017181999e-10,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v06.json",
+      "sha256": "1fb8a58bbde32937beea3cf8abe14d079c610adbfd89fa2327f862de27db2c0c",
+      "control_vertices": 2314,
+      "control_faces": 2312,
+      "unapplied_subdivision": 1,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.2137104997735923,
+      "volume_error": 4.84817946899696e-09,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v07.json",
+      "sha256": "c15a7e80a26df47d0a0aa6e048f645d5232292030380245d873a3bae1abc82e8",
+      "control_vertices": 2314,
+      "control_faces": 2312,
+      "unapplied_subdivision": 1,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.2106779346919324,
+      "volume_error": 4.479408732827039e-09,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v08.json",
+      "sha256": "5d1e1289c3b8202a0a85c7a885a88e4f858492b6dfecab3672d0708ba514edd5",
+      "control_vertices": 2314,
+      "control_faces": 2312,
+      "unapplied_subdivision": 1,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.21070133468555818,
+      "volume_error": 4.1431109099043795e-09,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v09.json",
+      "sha256": "c51810cec653f168af2486edf60ba15b0a656dca3d87c5442d9c29493d3bc596",
+      "control_vertices": 593,
+      "control_faces": 565,
+      "unapplied_subdivision": 2,
+      "evaluated_vertices": 9250,
+      "evaluated_triangles": 18496,
+      "volume": 0.24116459905803364,
+      "volume_error": 1.6936488322905063e-09,
+      "components": [
+        9250
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    },
+    {
+      "record": "models/form-v10.json",
+      "sha256": "4df1c83af883227aec776f6a2c2ac92ef243a9f81e9feb38b55e091ad4b24974",
+      "control_vertices": 9250,
+      "control_faces": 9248,
+      "unapplied_subdivision": 1,
+      "evaluated_vertices": 36994,
+      "evaluated_triangles": 73984,
+      "volume": 0.23801021364421085,
+      "volume_error": 2.092926082442048e-09,
+      "components": [
+        36994
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonadjacent_intersections": 0,
+      "restored": true
+    }
+  ]
+}

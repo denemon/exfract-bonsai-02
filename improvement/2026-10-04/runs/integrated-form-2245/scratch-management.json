@@ -1,0 +1,307 @@
+{
+  "scope": "integrated-form-2245 scratch only",
+  "retained_control_records": 10,
+  "restored_control_records": 10,
+  "retained_native_files": 1,
+  "retained_model_glbs": 1,
+  "retained_unique_pngs": 22,
+  "new_profiles": 0,
+  "old_profiles_deleted": 0,
+  "prior_deliverables_deleted": 0,
+  "new_archives": 0,
+  "removed": [
+    {
+      "path": "models/form-v01.glb",
+      "bytes": 1016844,
+      "sha256": "2c00be1f49557f26cae4896879a428175c116306515255d86cf67388d96fd942",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v02.glb",
+      "bytes": 1027472,
+      "sha256": "cc9ffca6327dfd2547c9469fd88181fec9bb1ea1c228db4f07d148a878435818",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v03.glb",
+      "bytes": 1018044,
+      "sha256": "302efef62452e388e67fb663c0dd1e1c7d03cbdf0eb6bad37e7a1cb2834fae3d",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v04.glb",
+      "bytes": 1027392,
+      "sha256": "d4760c7f5643a7f714efb3c64b484ade052e3cc1ce9218f9abb3ae9bc43aa8bf",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v05.glb",
+      "bytes": 1018444,
+      "sha256": "b7b9c276fa657cb6eb7013ef0a393dcc3af046029044bde28e54f9f920b85190",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v06.glb",
+      "bytes": 1027192,
+      "sha256": "75417fbe3f8e9947ffed68ee5ae366c28710b501ca61ac818678d1fa0c7df328",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v07.glb",
+      "bytes": 1027848,
+      "sha256": "e190ac38ac9e8f7a41cfbcbb1d3dfb1b713149cc5230e1a21d0336563721cf81",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v08.glb",
+      "bytes": 1027728,
+      "sha256": "ca0974ff81e8f2d82572b524696cf51defdc12bcdcb737a9ff5ab05bf0f805e4",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v09.glb",
+      "bytes": 1017524,
+      "sha256": "14dd652634daa6f9ad18511aeeafa9c863db7d89c96be450eeedbf6d47d06d9b",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/form-v10.glb",
+      "bytes": 2551816,
+      "sha256": "861bd9913d82816dfdd42ce3f3190741353aec1f3788156092a302bd984d4381",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/integrated-v01.glb",
+      "bytes": 1328204,
+      "sha256": "1d77e9685f6d429bd665d919ef4a63db86dee03c59feb54f736948a7c79adaf1",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "models/integrated-v02.glb",
+      "bytes": 1353644,
+      "sha256": "7ec93ba91aae3f1de42ded8bc3e3edc1db7fcc3ac05f827929b40f340f0f6f23",
+      "reason": "Current-run intermediate export. Exact wood controls recovered and verified; supporting sources and canopy records retained. Not a prior-stage deliverable."
+    },
+    {
+      "path": "qa/selected-stills/pc.png",
+      "bytes": 798327,
+      "sha256": "9446c168dc95bfa150a484ebf4dd027017114972e5188d0f873b8056260d57af",
+      "reason": "Identical bytes to final production capture; replaced by a relative symlink, preserving same-scene still provenance."
+    },
+    {
+      "path": "qa/selected-stills/mobile-390.png",
+      "bytes": 235360,
+      "sha256": "100201e62ba4073bc05a20c4b6b032ea55f6a491483ed5474e737d2a41c736fa",
+      "reason": "Identical bytes to final production capture; replaced by a relative symlink, preserving same-scene still provenance."
+    },
+    {
+      "path": "qa/selected-stills/mobile-320.png",
+      "bytes": 148891,
+      "sha256": "2d60472e9d1bc0e6fcbccf2d6542e32bcfe920c391e0546144fccd50124cb37b",
+      "reason": "Identical bytes to final production capture; replaced by a relative symlink, preserving same-scene still provenance."
+    },
+    {
+      "path": "qa/selected-stills/mobile-tall.png",
+      "bytes": 189631,
+      "sha256": "6e151b92facfec7fe74e6b8ac064d83a298c884483d3fe4342fdf90993607f56",
+      "reason": "Identical bytes to final production capture; replaced by a relative symlink, preserving same-scene still provenance."
+    },
+    {
+      "path": "qa/form-v01/clay-front.png",
+      "bytes": 125714,
+      "sha256": "19b0406dfe7aa0ce43550d0f760704c941241f685ae4f539e271c039a5f0ed24",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v01/clay-left.png",
+      "bytes": 109737,
+      "sha256": "157e5bf63e18e3bb728691a7d23fc61def624d1b76dddaceca870d52a01b6efe",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v01/clay-three-quarter.png",
+      "bytes": 125086,
+      "sha256": "75d26a7c0cd543b18078382df4eb3c4b5ade7855e6c5fe42f6c957e5b132f968",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v01/material-front.png",
+      "bytes": 277526,
+      "sha256": "4cfb0f1f501823bc7d38f262c3dc0df6b686939fa280503ab28b6f340d403cfd",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v01/basis-front.png",
+      "bytes": 119308,
+      "sha256": "3de522a29b104eaa11d226d48253253d8c15f9533f6f334fa2c022e8f77844e2",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v02/clay-front.png",
+      "bytes": 129560,
+      "sha256": "90f7a1d0e6251e2ef2bcfbe215e31271193b19f62c13a8c43fa19f8ca16b8323",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v02/clay-left.png",
+      "bytes": 112407,
+      "sha256": "1649d2871099e2a981c4c3430006d22be7fd1d796c48d3d663b9f6891fdc849f",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v02/clay-three-quarter.png",
+      "bytes": 125584,
+      "sha256": "7f946d2fe71a55e2d505b37ba89d343741ebf40ef6acdf5afb787778d26aaae4",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v02/material-front.png",
+      "bytes": 278542,
+      "sha256": "46ee5b74e3226ed0f71a66a0cde24bba21dd4026b0b94f2a460c57dd07dbc4bc",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v04/clay-front.png",
+      "bytes": 124234,
+      "sha256": "c5db36efc3df04e2f3b171ed3bb8f13a34e171651418b7ba77b748d0800d961d",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v04/clay-left.png",
+      "bytes": 108471,
+      "sha256": "8a7bb4e298cae5dce0e7115f2979c01c679294f5ae9fe671b8ee0deb00378c19",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v04/clay-three-quarter.png",
+      "bytes": 123114,
+      "sha256": "23ea4032479e9360d7cfa3fc1301a18f73ce8fc3f7d156777e6bc80a726ff0af",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v04/material-front.png",
+      "bytes": 276457,
+      "sha256": "2bb4de177162b7f5536e3d1bad09daae04a11c6e570c458ae0bd8d0b208afd73",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v09/clay-left.png",
+      "bytes": 111778,
+      "sha256": "23c84a1c87b7d085fa52a459c096992fd3d82f507418ac14f4a5c131a22f9035",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v09/clay-three-quarter.png",
+      "bytes": 125674,
+      "sha256": "661952cf66410f5fe3b626ebc32a0634263103443604564dde27f97e5306d89b",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v09/material-front.png",
+      "bytes": 277187,
+      "sha256": "7fbda590547d60346e7ecf06122b235655058655eee00b5fe6dded8c8814bea1",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v10/material-front.png",
+      "bytes": 281485,
+      "sha256": "1589bc1bcf47ea5ab5150d004afeb79d96182fc77865cde65f46733de9a1fc30",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/form-v10/wood-detail.png",
+      "bytes": 408124,
+      "sha256": "b12713dce3f7c409d6301673278ca4671584af68fe912d39cd12405bafa1847f",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v01/mobile-390.png",
+      "bytes": 255059,
+      "sha256": "da5bf768e1b6c989911701ce6ba337c2cfb0f621c70557efec71913f64fac6c4",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v01/mobile-320.png",
+      "bytes": 158203,
+      "sha256": "fd1457373bf28a9be7bf119536ab21bc54222e736e4c92d035d96fa475ccbab3",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v01/clay-front.png",
+      "bytes": 124682,
+      "sha256": "43b9014cab1c75464b7fd9cfabd4c48302d5e64d97c45d08e2bf413511c14486",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v01/clay-three-quarter.png",
+      "bytes": 122762,
+      "sha256": "8c76c5b84a9cd67c8809daa181846c01c2faf482b40b66c1455365258a85cc83",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v01/leaf-detail.png",
+      "bytes": 1286180,
+      "sha256": "6cc93c28f606f924a03daf2d877ce2476b75fd8b005d81b1c195930d560be3b6",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v02/mobile-390.png",
+      "bytes": 243369,
+      "sha256": "c683c2176236bd655bc1e36adb33b6e0786ec740bc03d6fdce0f3cdefc7d4474",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v02/mobile-320.png",
+      "bytes": 153071,
+      "sha256": "152dfaec7ff7cdc29906d14febed9cac8bf579515a585e46a979ecea0fc6e54c",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v02/mobile-right-390.png",
+      "bytes": 156377,
+      "sha256": "a7a7a04f7d90dcef38c29c6e56c93ebbf15a27f66e26f17126080ed05072d97b",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v02/mobile-right-320.png",
+      "bytes": 105030,
+      "sha256": "320d6619996e266e34a83c53a01354cb00b15584d9bfeb7f5062e1f9d14301a7",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v02/clay-three-quarter.png",
+      "bytes": 121199,
+      "sha256": "a193c65efad0d2e110802ce547acc6f44f6144de57428b1231b57940512e6fd5",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v03/pc.png",
+      "bytes": 798327,
+      "sha256": "9446c168dc95bfa150a484ebf4dd027017114972e5188d0f873b8056260d57af",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v03/mobile-390.png",
+      "bytes": 203399,
+      "sha256": "1802edbff671f2226d7a4c86ea1af4a3a5e526024150cdb9049cb44543148bad",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "qa/integrated-v03/mobile-320.png",
+      "bytes": 128404,
+      "sha256": "41feca98e6e001428a52d7b10e3b4fb06c310905adc8bd9583875895e323fc67",
+      "reason": "Current-run nonrepresentative provisional capture; browser result and representative comparison retained."
+    },
+    {
+      "path": "site/node_modules/.vite",
+      "allocated_bytes": 5328896,
+      "reason": "Only this stage regenerated Vite cache, after stopping its development server."
+    },
+    {
+      "path": "site/public/textures",
+      "reason": "Unused current-stage symlink only; target untouched.",
+      "target": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/volume-rebuild-1656/site/public/textures"
+    }
+  ],
+  "additional_profile_cache_cleanup": "qa/profile-footprint.json"
+}

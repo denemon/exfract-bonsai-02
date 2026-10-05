@@ -1,0 +1,42 @@
+{
+  "asset": "Chinese Cedar Bark",
+  "author": "Charlotte Baglioni",
+  "asset_page": "https://polyhaven.com/a/chinese_cedar_bark",
+  "license": "CC0-1.0",
+  "license_page": "https://polyhaven.com/license",
+  "legal_code": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "api_source": "https://api.polyhaven.com/files/chinese_cedar_bark",
+  "retrieved_at_utc": "2026-10-04T15:19:18.491805+00:00",
+  "usage": "Actual bark surface maps on the 3D mesh, never a background or replacement scene image.",
+  "purchase": false,
+  "files": {
+    "Diffuse": {
+      "size": 735610,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/chinese_cedar_bark/chinese_cedar_bark_diff_1k.jpg",
+      "md5": "ad3d7d486f77b8d625ac74fc7d0ec04e",
+      "local_file": "site/public/bark/color.jpg",
+      "sha256": "53e388eda1394bcb322d5c36f4fceeee23fd6888245a59bbd229d0319f4646cd"
+    },
+    "Displacement": {
+      "size": 368624,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/chinese_cedar_bark/chinese_cedar_bark_disp_1k.jpg",
+      "md5": "cd1447fe8897435d722d27f1aa60a4fb",
+      "local_file": "site/public/bark/height.jpg",
+      "sha256": "3a3ac2eb9b82ca0771cc7cce2c36a7f37a6574fde3759fb4ac2164bf551e6900"
+    },
+    "nor_gl": {
+      "size": 994079,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/chinese_cedar_bark/chinese_cedar_bark_nor_gl_1k.jpg",
+      "md5": "a91ed96087ef1ac90a6b6f55da5ae0aa",
+      "local_file": "site/public/bark/normal.jpg",
+      "sha256": "38cac49c9d03b6eed86464a02ae36e0d42f526b8ff585814de0251a298d27d7b"
+    },
+    "Rough": {
+      "size": 228225,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/chinese_cedar_bark/chinese_cedar_bark_rough_1k.jpg",
+      "md5": "47a3856be06d613baccb438a0acafcb6",
+      "local_file": "site/public/bark/roughness.jpg",
+      "sha256": "3533e9e27064a19db7d0829e224ea98010a18f507de5fba44252e2103020469c"
+    }
+  }
+}

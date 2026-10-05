@@ -1,0 +1,15 @@
+{
+  "run": "local-structure-2122",
+  "thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
+  "started_at_jst": "2026-10-04T21:27:09.634258+09:00",
+  "free_disk_bytes": 8252780544,
+  "new_data_budget_bytes": 314572800,
+  "minimum_free_bytes": 2147483648,
+  "candidate_limit": 2,
+  "stage_limit_hours": 2,
+  "base_model": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v20.blend",
+  "base_sha256": "ca3eb2b5f1e55ba51671ecfafa20ff0d48076756f3dda7467da0e7e0bb6d5b08",
+  "protected_candidate": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v23-editable.blend",
+  "deadline_jst": "2026-10-10T23:00:00+09:00",
+  "existing_qa_profile_deletion_authorized": false
+}

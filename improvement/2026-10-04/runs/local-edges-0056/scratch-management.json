@@ -1,0 +1,108 @@
+{
+  "scope": "Only this newly created stage",
+  "native_files_retained": 1,
+  "runtime_glbs_retained": 1,
+  "compact_records_verified": 2,
+  "unique_pngs_retained": 30,
+  "new_profiles": 0,
+  "old_profiles_deleted": 0,
+  "prior_deliverables_deleted": 0,
+  "new_archives": 0,
+  "removed": [
+    {
+      "path": "qa/selected-stills/pc.png",
+      "bytes": 848253,
+      "sha256": "3b26f286cf6a68a0e27f950d224a642c3fdac9e9ff062d74cb9af97256aab8ec",
+      "reason": "Exact duplicate of final production PNG; retain source path through a relative link."
+    },
+    {
+      "path": "qa/selected-stills/mobile-390.png",
+      "bytes": 240193,
+      "sha256": "f90ba78f2ffb23ff7c5486f1358bebb1a7547c0d13432668be078ddce2a1cce7",
+      "reason": "Exact duplicate of final production PNG; retain source path through a relative link."
+    },
+    {
+      "path": "qa/selected-stills/mobile-320.png",
+      "bytes": 150573,
+      "sha256": "b959c057c0d8abab466a95f217ff325d7497011f883c22a38ba4424407a081ea",
+      "reason": "Exact duplicate of final production PNG; retain source path through a relative link."
+    },
+    {
+      "path": "qa/selected-stills/mobile-tall.png",
+      "bytes": 193123,
+      "sha256": "8b961823b8cc2ec4d88b84866eeda52ee33ab65b9a6195fa009f0c31376c54a5",
+      "reason": "Exact duplicate of final production PNG; retain source path through a relative link."
+    },
+    {
+      "path": "qa/edge-v01/clay-left.png",
+      "bytes": 108573,
+      "sha256": "f684a8607ceecafc636db21f5d0ea29f9361f6335602df9235550ad1262861cc",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/edge-v01/clay-right.png",
+      "bytes": 126385,
+      "sha256": "6c8b2db85c43892dfc4262b5cc029323462092870a51001cb7c6fcb27eeca9ab",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/edge-v01/pc.png",
+      "bytes": 848337,
+      "sha256": "6a3b04be845d2d46eb6ba19c70ad3c18254f34ba5f88d051d30c2c50070a72f8",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/edge-v01/mobile-390.png",
+      "bytes": 240206,
+      "sha256": "45c81687863c1a7504967ac385e1116f94f94e3f7dd4554ece33e988d1f3a495",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/edge-v01/mobile-320.png",
+      "bytes": 150556,
+      "sha256": "f70ee086e470b300f93d2f9afc917257036410f84d2fbcf1efd68094c4fed819",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/edge-v02/pc.png",
+      "bytes": 848253,
+      "sha256": "3b26f286cf6a68a0e27f950d224a642c3fdac9e9ff062d74cb9af97256aab8ec",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/edge-v02/mobile-390.png",
+      "bytes": 240193,
+      "sha256": "f90ba78f2ffb23ff7c5486f1358bebb1a7547c0d13432668be078ddce2a1cce7",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/edge-v02/mobile-320.png",
+      "bytes": 150573,
+      "sha256": "b959c057c0d8abab466a95f217ff325d7497011f883c22a38ba4424407a081ea",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/edge-v02/wood-detail.png",
+      "bytes": 1341928,
+      "sha256": "49773380414258274c1c74fb7e69aa102a5fece70fe01674cd53fc4f853a27a5",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "qa/selected-stills/wood-oblique.png",
+      "bytes": 1341928,
+      "sha256": "49773380414258274c1c74fb7e69aa102a5fece70fe01674cd53fc4f853a27a5",
+      "reason": "Current-stage duplicate/provisional capture; complete browser records and representative comparisons retained."
+    },
+    {
+      "path": "models/edge-v01.glb",
+      "bytes": 1453756,
+      "sha256": "a837341ed1d128f0a313e2b08e4362e5f50e66eee3736f9d742ee8f03d14a59b",
+      "reason": "Unselected current-stage export. Full control positions/topology/UV/colors/creases were restored and checked from its compact record."
+    },
+    {
+      "path": "site/node_modules/.vite",
+      "allocated_bytes": 5328896,
+      "reason": "Only current-stage Vite cache after its listener stopped."
+    }
+  ]
+}

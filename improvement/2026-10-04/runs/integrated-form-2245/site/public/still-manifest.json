@@ -1,0 +1,148 @@
+{
+  "purpose": "Same selected real-WebGL scene, used while loading or without WebGL. This is an unfinished integrated study, not a finished garden.",
+  "model": "models/integrated-v03.glb",
+  "model_sha256": "e405345899a01c1b88d2df92988fb885772172494e8f61604a5f691992d7050e",
+  "version": "integrated-v03",
+  "images": [
+    {
+      "name": "pc",
+      "source": "qa/selected-stills/pc.png",
+      "source_sha256": "9446c168dc95bfa150a484ebf4dd027017114972e5188d0f873b8056260d57af",
+      "source_url": "http://127.0.0.1:5191/?qa=pc",
+      "viewport": [
+        1440,
+        900
+      ],
+      "camera": {
+        "yaw": 0,
+        "pitch": 13,
+        "distance": 2.9209766980211356,
+        "zoom": 1,
+        "position": [
+          -0.03537073089605103,
+          1.3388838393992206,
+          2.8609782474919503
+        ],
+        "target": [
+          -0.03537073089605103,
+          0.6818070514655048,
+          0.014865993004933811
+        ]
+      },
+      "full_webp": "stills/pc.webp",
+      "webp_sha256": "d61788ab967c5d3b88348bedf43b58bfcde3a488dab78534d5776e10f2421b3d",
+      "webp_bytes": 98570,
+      "inline_dimensions": [
+        384,
+        240
+      ],
+      "inline_bytes": 3382,
+      "conversion": "Pillow lossless PNG decode; WebP quality 88 full, quality 44 thumbnail; no compositing or image alteration"
+    },
+    {
+      "name": "mobile-390",
+      "source": "qa/selected-stills/mobile-390.png",
+      "source_sha256": "100201e62ba4073bc05a20c4b6b032ea55f6a491483ed5474e737d2a41c736fa",
+      "source_url": "http://127.0.0.1:5191/?qa=mobile-390",
+      "viewport": [
+        390,
+        844
+      ],
+      "camera": {
+        "yaw": -38,
+        "pitch": 11,
+        "distance": 5.2393140757229295,
+        "zoom": 1,
+        "position": [
+          -3.2354561558064017,
+          1.5661819584454526,
+          4.082114914739318
+        ],
+        "target": [
+          -0.06907648466939789,
+          0.5664737031945701,
+          0.02933375032123769
+        ]
+      },
+      "full_webp": "stills/mobile-390.webp",
+      "webp_sha256": "680621a162d9efe90526cc39066770dae82c2e9bce86bfdb10d5df90530d0478",
+      "webp_bytes": 31770,
+      "inline_dimensions": [
+        177,
+        384
+      ],
+      "inline_bytes": 2860,
+      "conversion": "Pillow lossless PNG decode; WebP quality 88 full, quality 44 thumbnail; no compositing or image alteration"
+    },
+    {
+      "name": "mobile-320",
+      "source": "qa/selected-stills/mobile-320.png",
+      "source_sha256": "2d60472e9d1bc0e6fcbccf2d6542e32bcfe920c391e0546144fccd50124cb37b",
+      "source_url": "http://127.0.0.1:5191/?qa=mobile-320",
+      "viewport": [
+        320,
+        568
+      ],
+      "camera": {
+        "yaw": -32,
+        "pitch": 11,
+        "distance": 4.632071238133095,
+        "zoom": 1,
+        "position": [
+          -2.48691922516553,
+          1.463831280217216,
+          3.8772577701578146
+        ],
+        "target": [
+          -0.07739379523705261,
+          0.5799904207564519,
+          0.021211026040789407
+        ]
+      },
+      "full_webp": "stills/mobile-320.webp",
+      "webp_sha256": "bdb7ba5229e785da6f47d5605ebb4fad82a63473a3212ad5a88e0c2649a0abcf",
+      "webp_bytes": 20368,
+      "inline_dimensions": [
+        216,
+        384
+      ],
+      "inline_bytes": 3390,
+      "conversion": "Pillow lossless PNG decode; WebP quality 88 full, quality 44 thumbnail; no compositing or image alteration"
+    },
+    {
+      "name": "mobile-tall",
+      "source": "qa/selected-stills/mobile-tall.png",
+      "source_sha256": "6e151b92facfec7fe74e6b8ac064d83a298c884483d3fe4342fdf90993607f56",
+      "source_url": "http://127.0.0.1:5191/?qa=mobile-tall",
+      "viewport": [
+        320,
+        932
+      ],
+      "camera": {
+        "yaw": -48,
+        "pitch": 11,
+        "distance": 6.268043683630619,
+        "zoom": 1,
+        "position": [
+          -4.651812601627504,
+          1.743819843778133,
+          4.141541065115854
+        ],
+        "target": [
+          -0.07933013184610715,
+          0.5478207255282772,
+          0.02445935684370888
+        ]
+      },
+      "full_webp": "stills/mobile-tall.webp",
+      "webp_sha256": "a7c67cf3f7ffb3764bd78c84810b5a898e21d9ba90fabf530d93e40d454fff87",
+      "webp_bytes": 26342,
+      "inline_dimensions": [
+        132,
+        384
+      ],
+      "inline_bytes": 1994,
+      "conversion": "Pillow lossless PNG decode; WebP quality 88 full, quality 44 thumbnail; no compositing or image alteration"
+    }
+  ]
+}

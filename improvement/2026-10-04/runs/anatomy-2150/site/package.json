@@ -1,0 +1,16 @@
+{
+  "name": "bonsai-continuous-anatomy-study",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5191 --strictPort",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "vite": "8.2.2"
+  }
+}

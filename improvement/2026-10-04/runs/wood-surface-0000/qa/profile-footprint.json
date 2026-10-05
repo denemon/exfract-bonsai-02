@@ -1,0 +1,10 @@
+{
+  "same_profile_reused": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "allocated_bytes_at_start": 64376832,
+  "allocated_bytes_at_finish": 91549696,
+  "growth_bytes": 27172864,
+  "new_optimization_model_files_observed": [],
+  "observation": "No new optimization-guide/tflite/onnx files observed during this stage with the added flags. This is a measured stage result, not a guarantee for all future Chrome versions or runs.",
+  "profile_files_deleted": 0,
+  "old_55_profiles_deleted": 0
+}
