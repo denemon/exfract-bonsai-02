@@ -1,0 +1,28 @@
+
+> bonsai-spatial-study-v04@0.1.0 dev
+> node ../../../../../node_modules/vite/bin/vite.js --config vite.config.mjs --configLoader native
+
+4:16:53 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+
+  VITE v8.2.2  ready in 117 ms
+
+  ➜  Local:   http://127.0.0.1:5211/
+4:23:35 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/distant-crowns.js
+4:23:35 PM [vite] (client) page reload src/main.js
+4:23:35 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/architecture.js
+4:29:07 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/garden-geometry.js
+4:29:07 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/scene.js
+4:29:07 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/distant-crowns.js
+4:37:08 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/scene.js
+4:37:08 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/moss-sprigs.js
+4:37:08 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/distant-crowns.js
+4:41:12 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/broadleaf-support.js
+4:41:12 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/moss-sprigs.js
+4:51:17 PM [vite] (client) page reload src/main.js
+4:51:17 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/broadleaf-support.js
+4:51:17 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/scene.js
+4:54:59 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/garden-materials.js
+4:54:59 PM [vite] (client) page reload /Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/background-depth-1608/background/background-finish.js
+5:02:26 PM [vite] (client) page reload src/main.js
+5:06:15 PM [vite] (client) page reload index.html
+5:06:18 PM [vite] (client) page reload dist/index.html
