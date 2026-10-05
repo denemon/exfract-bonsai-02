@@ -1,0 +1,9 @@
+{
+  "parent_wrapper": "../background-depth-1608/qa/capture.mjs",
+  "sha256": "5713d2a5ce831765e0b9d92d7777a55e8d1cc301980f818482eba19a442501ce",
+  "raw_helper": "../irregular-volume-1200/qa/capture-comparison.mjs",
+  "persistent_session": "One Chrome/profile and one renderer tab across independently saved jobs; per-job errors/outputs scoped, profile lock held until explicitstop",
+  "capture_quality": "JPEG86, wood90",
+  "after_camera_detail_settle": true,
+  "profile_flags": "CDP cache-disabled, no tiny cache size flags"
+}
