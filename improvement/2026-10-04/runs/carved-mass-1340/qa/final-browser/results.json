@@ -1,0 +1,34 @@
+{
+  "results": [],
+  "logs": [
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "Static garden retained:"
+          },
+          {
+            "type": "undefined"
+          }
+        ],
+        "executionContextId": 2,
+        "timestamp": 1791180777551.314,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5210/assets/index-z14nQLMp.js",
+              "lineNumber": 4249,
+              "columnNumber": 8715
+            }
+          ]
+        }
+      },
+      "sessionId": "144098135BB015BAA3CEF50B6BA786F8"
+    }
+  ]
+}

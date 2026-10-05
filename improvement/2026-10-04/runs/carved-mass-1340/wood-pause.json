@@ -1,0 +1,29 @@
+{
+  "at_jst": "2026-10-05T14:21:59.069474+09:00",
+  "status": "Paused before gray/night v02 selection; not adopted",
+  "v01_aesthetic_pass": false,
+  "v02_aesthetic_pass": null,
+  "shader_finish": false,
+  "positions_sha256": "2ccb12d00497f7d827866de524bdb5be9bb93009a69f78919e7cb0296e9f5696",
+  "geometry_inspection": "qa/geometry-inspection-v02.json",
+  "models": {
+    "carved-v02.glb": {
+      "bytes": 171948,
+      "sha256": "ee9afd094f160eb4f08cdf8b5c9cb8d14cb8ee37b45d4a2606f0f948587a9bfe"
+    },
+    "carved-v01-editable.blend": {
+      "bytes": 1274187,
+      "sha256": "778f900261997e18a787ac9f6391c8ecd10fb0c5fe4850178c2a69120bdbd660"
+    },
+    "carved-v01.glb": {
+      "bytes": 171920,
+      "sha256": "b65038381c994218c1d7c6f9a77c34a87b843c0105cf800b42be466877c3c3dd"
+    },
+    "carved-v02-editable.blend": {
+      "bytes": 1321443,
+      "sha256": "7022aa586090e93979d760195a20d9850893e8ef7c652d8a5688770431114404"
+    }
+  },
+  "reason": "Latest user directs comparison and reprioritization of whole background instead of waiting for unsuccessful bonsai",
+  "resume_conditions": "See PRIORITY_DECISION.md"
+}

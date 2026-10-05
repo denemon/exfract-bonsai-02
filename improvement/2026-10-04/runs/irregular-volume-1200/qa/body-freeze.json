@@ -1,0 +1,8 @@
+{
+  "v02_body_inputs_exact": true,
+  "source_cage_shared_sha256": "e4faa5d590faec313905a05f835e2f662fd70d8e75898ea0286787a9786fabdf",
+  "primary_changes": "Three distinct primary branch mouths/routes/calibre; upper branch replaces the v02 stub. Subdivision may alter the local collar vicinity.",
+  "native_primary_sha256": "b597bb7dbf32aa2f0c6a5ac2db413836342be52e635b57f28e91860ce4c6b26f",
+  "glb_primary_sha256": "7d7578c60fb556318ab2da43ce0a2f568a61b46635d41a36b049ff3a1a35ebc3",
+  "geometry_not_selected_for_shader_finish": true
+}

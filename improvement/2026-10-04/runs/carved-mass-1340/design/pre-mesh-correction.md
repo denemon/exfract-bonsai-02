@@ -1,0 +1,1 @@
+独立reviewのpre-mesh3点を反映。lowercleftを.50〜.73へ短縮・左側へ回す。upperは.99〜1.08のみで向きを分ける。roundtube差分ではなくtriangle-wedge段で異なる終端を彫る。rootoriginを左.52/rear.50/right.485へ上げ、rootjunctionblockingを小さくし、soilへ不等なbuttressが見えるようにする。leafcentersとmain/secondary realbranch endpointを先に指定し、暫定twigの可視長を.1〜.15W以内に抑える。全てauthor推定、実photo精密測定ではない。

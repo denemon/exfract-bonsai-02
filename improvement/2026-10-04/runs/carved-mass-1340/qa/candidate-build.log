@@ -1,0 +1,56 @@
+
+> bonsai-spatial-study-v04@0.1.0 build
+> node ../../../../../node_modules/vite/bin/vite.js build --config vite.config.mjs --configLoader native
+
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 5 modules transformed.
+✗ Build failed in 25ms
+error during build:
+Build failed with 3 errors:
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../../../../ancient-volume-0810/site/src/materials.js' in src/main.js
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.js:5:48 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m5 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249mm[0m[38;5;249ma[0m[38;5;249mk[0m[38;5;249me[0m[38;5;249mM[0m[38;5;249ma[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249ms[0m[38;5;249m,[0m[38;5;249ma[0m[38;5;249mp[0m[38;5;249mp[0m[38;5;249ml[0m[38;5;249my[0m[38;5;249mH[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mM[0m[38;5;249ma[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249mi[0m[38;5;249ma[0m[38;5;249ml[0m[38;5;249ms[0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m'../../../../ancient-volume-0810/site/src/materials.js'[38;5;249m;[0m
+ [38;5;240m  │[0m                                                ───────────────────────────┬───────────────────────────  
+ [38;5;240m  │[0m                                                                           ╰───────────────────────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/main.js' is imported by the following path:
+ [38;5;240m  │[0m         - src/main.js
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../../../../ancient-volume-0810/site/src/foliage-lod.js' in src/main.js
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.js:7:33 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m7 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249mp[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mp[0m[38;5;249ma[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mF[0m[38;5;249mo[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249ma[0m[38;5;249mg[0m[38;5;249me[0m[38;5;249mL[0m[38;5;249mO[0m[38;5;249mD[0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m'../../../../ancient-volume-0810/site/src/foliage-lod.js'[38;5;249m;[0m
+ [38;5;240m  │[0m                                 ────────────────────────────┬────────────────────────────  
+ [38;5;240m  │[0m                                                             ╰────────────────────────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/main.js' is imported by the following path:
+ [38;5;240m  │[0m         - src/main.js
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../../../../ancient-volume-0810/site/src/shadow-filter.js' in src/main.js
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.js:8:37 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m8 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mf[0m[38;5;249mi[0m[38;5;249mg[0m[38;5;249mu[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249mS[0m[38;5;249mh[0m[38;5;249ma[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mw[0m[38;5;249mF[0m[38;5;249mi[0m[38;5;249ml[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m'../../../../ancient-volume-0810/site/src/shadow-filter.js'[38;5;249m;[0m
+ [38;5;240m  │[0m                                     ─────────────────────────────┬─────────────────────────────  
+ [38;5;240m  │[0m                                                                  ╰─────────────────────────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/main.js' is imported by the following path:
+ [38;5;240m  │[0m         - src/main.js
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+    at aggregateBindingErrorsIntoJsError (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/rolldown/dist/shared/error-BP8lJHle.mjs:48:18)
+    at unwrapBindingResult (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/rolldown/dist/shared/error-BP8lJHle.mjs:18:128)
+    at #build (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/rolldown/dist/shared/rolldown-DfXO5K1m.mjs:133:34)
+    at async buildEnvironment (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/vite/dist/node/chunks/node.js:33821:66)
+    at async Object.build (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/vite/dist/node/chunks/node.js:34242:19)
+    at async Object.buildApp (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/vite/dist/node/chunks/node.js:34239:153)
+    at async CAC.<anonymous> (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/vite/dist/node/cli.js:776:3) {
+  errors: [Getter/Setter]
+}

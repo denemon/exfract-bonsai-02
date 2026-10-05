@@ -1,0 +1,13 @@
+{
+  "version": "material-v01",
+  "geometry_basis": "89a0df0c3188adde1ce5088e16b5cf19193e30a439a1f95c581c7bb7aedd7822",
+  "variables": {
+    "architecture": "More visible long-grain color variation, dry .91 roughness unchanged, submillimetre normal relief",
+    "ground": "Same linear field and texture colors; slight neutral mineral color, gravel height2.3mm/moss6.8mm maximum alpha modulation",
+    "large_stones": "78% neutral cool luminance blend preserves CC0 scan geometry and normal maps; roughness>=.90 unchanged",
+    "sky": "Blue-hour colour gradient adjusted without photography, unchanged global hero key/moon/exposure"
+  },
+  "hero_geometry_wood_leaf_pot_materials_changed": false,
+  "room_light": "Selected proposed physical room source positions with small weakly emissive paper lamp",
+  "quality_gate": "Actual allscene/completebonsai/trunk +390/320; material cannot repair outstanding canopy macro or wood anatomy"
+}

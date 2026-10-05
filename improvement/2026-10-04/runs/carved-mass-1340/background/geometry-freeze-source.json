@@ -1,0 +1,21 @@
+{
+  "geometry_version": "spatial-v03",
+  "selection": "Only layout/opening/ground relative improvement selected for controlled finish study; distant natural crowns still NG, overall premium quality not accepted",
+  "review": "../qa/background-review.md",
+  "files": {
+    "architecture.js": "a2227cc8649aaac6adbcadb642c66127aaa4cd6e1b969ea433419880e233fdb9",
+    "garden-geometry.js": "e91cac888501d436e7c6c59c6cac076d7a9e6b54e8e641a644d7cffe13c56571",
+    "evergreen-support.js": "e76cdd5e6bf2c8035ab9eddca69bf871d720557bff30c86ec3e1b7dfe005c8d3",
+    "terrain-field.js": "8c7609c0bda28788419d1e86b1d98a19a65cf89fa7e0c9379333b4920315714a",
+    "terrain-design.json": "2f208268b924cfc64f506c991d63219c742a5446acb5ed30eb6350a9e2b165eb"
+  },
+  "rock_geometry_policy": "Placements fixed in design.json; actual rock positions/index fingerprint verified in runtime",
+  "hero_geometry_material_changed": false,
+  "wood_v02_shape_selected": false,
+  "runtime_geometry_sha_pending": false,
+  "allows_finish_only": "scene lights/sky, garden-materials response, rock material response; no geometry module changes",
+  "runtime_geometry_sha": "1839c83959140d635acfe2983b3935f2e9ab25ae213f417e710db4c320ac3652",
+  "runtime_field_sha": "d693f80323ce6e7ce693dcb6098a0c29619a70f5c1085e94d577d325e4614e40",
+  "verified_cases": 8,
+  "subsequent_study": "Canopy mass v04 requested after independent review: v03 is preserved by explicit canopy=baseline and reverse patch. Its limited freeze is a comparison basis, not full shape acceptance."
+}

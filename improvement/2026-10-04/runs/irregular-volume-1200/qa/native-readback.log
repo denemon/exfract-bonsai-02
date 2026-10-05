@@ -1,0 +1,11 @@
+00:00.126  translation      | WARNING Falling back to standard locale ("C")
+00:00.628  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/irregular-volume-1200/models/patch-v01-editable.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+{"read_only_native": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/irregular-volume-1200/models/patch-v01-editable.blend", "native_meshes": 1, "editable_control_vertices": 90, "editable_control_faces": 89, "position_error": 0.0, "faces_exact": true, "subdivision_level": 2, "vertex_groups": ["core", "Unequal buried root seat", "Short right posterior swelling", "Forward returned broad deadwood", "Oblique short shoulder", "Blind local scar with physical closed end", "Buried unequal root 0", "Buried unequal root 1", "Buried unequal root 2", "Separate posterior upper live branch"], "shared_collar_ids_exact": true, "evaluated_triangles": 2832, "volume": 0.12879164675723917, "boundary_edges": 0, "nonmanifold_edges": 0, "source_rewritten": false}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

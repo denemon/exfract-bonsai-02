@@ -1,0 +1,12 @@
+{
+  "profile_path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-structure-2122/qa/browser-profile",
+  "profile_allocated_bytes": 322613248,
+  "profile_growth_bytes": 14094336,
+  "shared_mutable_cache": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/hand-junction-1029/qa/vite-cache",
+  "cache_allocated_bytes": 5378048,
+  "cache_growth_bytes": 0,
+  "staging_allocated_bytes": 45056,
+  "temporary_reference_allocated_bytes": 90112,
+  "coordinator_growth_bytes": 5758,
+  "note": "Final total after all logs/audit/manifest in finish.json; no existing profile or cache deleted"
+}

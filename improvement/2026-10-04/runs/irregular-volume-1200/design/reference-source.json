@@ -1,0 +1,26 @@
+{
+  "user_reference": "Visible302x404 attached photo; pixel viewed; exact identity/species unknown",
+  "estimated_species": "Shimpaku-type juniper, inference only; cultivar unverified",
+  "inference_basis": [
+    "Fine dense conifer foliage pads",
+    "White irregular shari and reddish live strip"
+  ],
+  "official_tree_type_url": "https://www.bonsai-art-museum.jp/en/about/trees/",
+  "official_photo_label": "Japanese Juniper",
+  "official_photo_url": "https://www.bonsai-art-museum.jp/wp-content/themes/bonsai2023_2/img_en/about/about_10.jpg",
+  "official_photo_pixels_viewed": true,
+  "photo_dimensions": [
+    660,
+    450
+  ],
+  "photo_temporary_view_only": "/tmp/irregular-volume-1200-shimpaku-view-only.jpg",
+  "photo_bytes": 86199,
+  "photo_not_in_site_or_deliverable": true,
+  "texture_import": false,
+  "library_retries": 0,
+  "urllib_tls_error": "CERTIFICATE_VERIFY_FAILED local issuer missing",
+  "system_curl_tls_verification_kept": true,
+  "three_version": "0.185.1",
+  "official_material_url": "https://threejs.org/docs/pages/MeshStandardMaterial.html",
+  "local_material_source_verified": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/three/src/materials/MeshStandardMaterial.js"
+}

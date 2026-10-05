@@ -1,0 +1,5 @@
+
+> bonsai-spatial-study-v04@0.1.0 preview
+> node ../../../../../node_modules/vite/bin/vite.js preview --config vite.config.mjs --configLoader native
+
+  ➜  Local:   http://127.0.0.1:5212/

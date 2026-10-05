@@ -1,0 +1,19 @@
+00:00.118  translation      | WARNING Falling back to standard locale ("C")
+00:00.614  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/irregular-volume-1200/models/patch-v01-editable.blend"
+/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/irregular-volume-1200/qa/render_neutral.py:5: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  obj=next(o for o in bpy.data.objects if o.type=='MESH');mat=bpy.data.materials.new('Neutral dry clay review');mat.use_nodes=True;bs=mat.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.32,.33,.31,1);bs.inputs['Roughness'].default_value=.88;obj.data.materials.clear();obj.data.materials.append(mat)
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/irregular-volume-1200/qa/render_neutral.py", line 5, in <module>
+    obj=next(o for o in bpy.data.objects if o.type=='MESH');mat=bpy.data.materials.new('Neutral dry clay review');mat.use_nodes=True;bs=mat.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.32,.33,.31,1);bs.inputs['Roughness'].default_value=.88;obj.data.materials.clear();obj.data.materials.append(mat)
+                                                                                                                                                                                   ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'inputs'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+
+Error: script failed, file: '/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/irregular-volume-1200/qa/render_neutral.py', exiting.
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

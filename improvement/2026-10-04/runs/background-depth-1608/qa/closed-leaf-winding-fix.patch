@@ -1,0 +1,30 @@
+--- background/broadleaf-support.js@inside-out
++++ background/broadleaf-support.js@outward
+@@ -4,7 +4,7 @@
+ function closedLeaf(variant){
+  const width=[.29,.33,.26,.31][variant],bend=[.042,.067,.028,.052][variant];
+  const ps=[[0,0,0],[-width*.64,.18,-.016],[-width,.47,.010],[-width*.63,.76,.041],[0,1,.094],[width*.55,.80,.052],[width*.91,.49,.004],[width*.62,.21,-.018],[.016,.52,bend+.045],[-.003,.49,-.021]].flat(),ix=[];
+- for(let i=0;i<8;i++){const j=(i+1)%8;ix.push(i,j,8,j,i,9);}
++ for(let i=0;i<8;i++){const j=(i+1)%8;ix.push(j,i,8,i,j,9);}
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(ps,3));g.setIndex(ix);g.computeVertexNormals();return g;
+ }
+ export function evergreenTemplates(){return [0,1,2,3].map(v=>({geometry:closedLeaf(v),triangles:16,sourceName:'Own closed cupped broadleaf '+v}));}
+--- background/moss-sprigs.js@inside-out
++++ background/moss-sprigs.js@outward
+@@ -7,7 +7,7 @@
+  for(let k=0;k<3;k++){
+   const angle=k*2.399963,ca=Math.cos(angle),sa=Math.sin(angle),height=[1,.77,.88][k],width=[.36,.30,.33][k],p=[[0,0,0],[-width,.40,.03],[-width*.72,.73,.13],[.03,height,.23],[width*.86,.72,.14],[width*.92,.38,.015],[0,.57,.17],[0,.54,-.022]],off=ps.length/3;
+   for(const [x,y,z]of p)ps.push(x*ca-z*sa,y,z*ca+x*sa);
+-  for(let n=0;n<6;n++){const m=(n+1)%6;ix.push(off+n,off+m,off+6,off+m,off+n,off+7);}
++  for(let n=0;n<6;n++){const m=(n+1)%6;ix.push(off+m,off+n,off+6,off+n,off+m,off+7);}
+  }
+  const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(ps,3));g.setIndex(ix);g.computeVertexNormals();return g;
+ }
+--- qa/capture.mjs@inside-out
++++ qa/capture.mjs@outward
+@@ -10,4 +10,5 @@
+ code=code.replace('g.setView(origin.yaw+Math.sin(n*.31)*4,origin.pitch)','g.render()').replaceAll('g.setView(origin.yaw,origin.pitch)','g.render()');
+ code=code.replace("purpose:'Exact shared actual camera/light/exposure; controlled unfinished geometry comparison'","purpose:'Exact shared camera/FOV/exposure; background geometry and room source locations are declared changed, hero key/material fixed'");
+ code=code.replace("results.push({name,...state});",`state.backgroundProjection=await ev(\`(()=>{const g=window.__garden,V=g.camera.position.constructor,p=new V();const sample=q=>{p.set(...q).project(g.camera);return [(p.x+1)/2,(1-p.y)/2,p.z]};const a=g.stats.garden.architecture;return {opening:{front:sample(a.roomOpening.front),rear:sample(a.roomOpening.rear)},frontEdge:sample(a.frontEdge),architecture:a.version,crownDesign:g.stats.garden.planting.distantCrownDesign,groundSamples:g.stats.garden.terrain.samples}})()\`);results.push({name,...state});`);
++code=code.replace("results.push({name,...state});",`state.closedLeafAudit=await ev(\`(()=>{const rows=[];window.__garden.scene.traverse(o=>{if(!o.isMesh||!(/closed garden broadleaves|short moss fronds/.test(o.name)))return;const p=o.geometry.attributes.position,a=p.array,ix=o.geometry.index.array,edges=new Map();let volume=0;for(let n=0;n<ix.length;n+=3){const ids=[ix[n],ix[n+1],ix[n+2]],q=ids.map(i=>[a[i*3],a[i*3+1],a[i*3+2]]);const [u,v,w]=q;volume+=(u[0]*(v[1]*w[2]-v[2]*w[1])+u[1]*(v[2]*w[0]-v[0]*w[2])+u[2]*(v[0]*w[1]-v[1]*w[0]))/6;for(let k=0;k<3;k++){const i=ids[k],j=ids[(k+1)%3],key=Math.min(i,j)+':'+Math.max(i,j),row=edges.get(key)||{count:0,orientation:0};row.count++;row.orientation+=i<j?1:-1;edges.set(key,row);}}rows.push({name:o.name,signedVolume:volume,closed: [...edges.values()].every(e=>e.count===2&&e.orientation===0),outwardWinding:volume>0});});return rows;})()\`);if(!state.closedLeafAudit.every(r=>r.closed&&r.outwardWinding))throw Error('Closed leaf normals/winding audit failed');results.push({name,...state});`);
+ await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));

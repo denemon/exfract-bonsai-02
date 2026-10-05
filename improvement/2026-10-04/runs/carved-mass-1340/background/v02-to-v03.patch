@@ -1,0 +1,69 @@
+--- v02/garden-geometry.js
++++ v03/garden-geometry.js
+@@ -89,7 +89,7 @@
+   const middle=a.clone().lerp(b,.55).addScaledVector(UP,.016),twig=addBranch([a,middle,b],kind==='shrub'?.0015:.0017,.00045,3,3);
+   const axis=b.clone().sub(a).normalize(),across=new THREE.Vector3().crossVectors(axis,UP);if(across.lengthSq()<.01)across.set(1,0,0);across.normalize();
+   if(kind==='distant'){
+-   for(let j=0;j<2;j++){const p=twig.path.getPoint(j?.64:.14),dir=axis.clone().addScaledVector(across,j?.34:-.24).addScaledVector(UP,.30+(j%2)*.12).normalize();evergreenShoots.push({p,direction:dir,length:.21+(.05*rng()),roll:rng()*Math.PI*2,shade:.85+.14*rng()});}
++   for(let j=0;j<(exposure<.65?1:2);j++){const p=twig.path.getPoint(j?.64:.14),dir=axis.clone().addScaledVector(across,j?.34:-.24).addScaledVector(UP,.30+(j%2)*.12).normalize();evergreenShoots.push({p,direction:dir,length:(leafSize/.09)*(.20+.055*rng())*(exposure<.65?.72:1.08),roll:rng()*Math.PI*2,shade:.85+.14*rng()});}
+    return;
+   }
+   // Bud clusters are deliberately short and unequal. Some inner nodes stay bare,
+@@ -112,17 +112,8 @@
+    [.59,[[-.18,1.76,-.18],[-.45,2.03,-.38],[-.86,2.19,-.26]]],
+    [.73,[[.05,2.04,.29],[-.28,2.37,.36],[-.59,2.49,.46]]],
+    [.83,[[.48,2.29,.13],[.73,2.35,.21],[.96,2.45,.14]]]],size:.067},
+-  {name:'Receding inclined tree',origin:[-2.5,0,-6.8],kind:'distant',spine:[[0,0,0],[.12,.51,-.05],[.25,1.06,-.06],[.15,1.66,.05],[.34,2.26,.13],[.53,2.92,.05]],arms:[
+-   [.38,[[.57,1.26,.28],[.87,1.68,.32],[1.17,1.98,.16]]],
+-   [.55,[[-.21,1.80,-.16],[-.69,2.16,-.32],[-.97,2.53,-.31]]],
+-   [.74,[[.65,2.33,-.12],[1.03,2.50,-.30],[1.31,2.67,-.19]]],
+-   [.87,[[.15,2.70,.31],[-.08,3.02,.43],[-.33,3.16,.49]]]],size:.086},
+-  {name:'Distant broken canopy',origin:[-.2,0,-8.3],kind:'distant',spine:[[0,0,0],[-.18,.86,.14],[-.10,1.42,.22],[-.29,2.04,.35],[-.13,2.66,.45],[-.33,3.25,.39]],arms:[
+-   [.35,[[-.60,1.37,.20],[-.97,1.90,.02],[-1.31,2.23,-.16]]],
+-   [.53,[[.27,2.05,.24],[.62,2.44,-.02],[.89,2.74,-.19]]],
+-   [.69,[[-.63,2.55,.51],[-1.00,2.89,.38],[-1.27,3.09,.12]]],
+-   [.80,[[.14,2.98,.61],[.44,3.39,.75],[.80,3.51,.83]]],
+-   [.89,[[-.65,3.36,.18],[-.82,3.66,-.02],[-1.05,3.74,-.19]]]],size:.091}
++  {"name":"Receding layered evergreen","origin":[-2.5,0,-6.8],"kind":"distant","spine":[[0,0,0],[0.03,0.8,0],[0.15,1.6,0.1],[0.08,2.05,0.08],[0.24,2.55,0.05],[0.17,2.95,0.02]],"arms":[[0.48,[[-0.2,1.55,0.04],[-0.55,1.7,0.12],[-1.05,1.65,0.22]]],[0.58,[[0.37,1.87,0.06],[0.85,1.92,0.16],[1.23,1.94,0.25]]],[0.66,[[-0.35,2.11,-0.18],[-0.74,2.27,-0.35],[-0.86,2.27,-0.48]]],[0.78,[[0.53,2.44,0.04],[0.96,2.48,0.26],[1.03,2.62,0.32]]],[0.88,[[-0.17,2.67,0.1],[-0.47,2.9,0.14],[-0.66,2.88,0.1]]]],"size":0.086},
++  {"name":"Distant unequal evergreen canopy","origin":[-0.2,0,-8.3],"kind":"distant","spine":[[0,0,0],[-0.05,0.83,0.04],[0.15,1.65,0.13],[0.05,2.33,0.05],[0.22,2.89,0.07],[0.16,3.6,0.09]],"arms":[[0.4,[[-0.35,1.75,0.1],[-0.78,1.93,0.22],[-1.08,1.94,0.29]]],[0.56,[[0.3,2.2,-0.13],[0.77,2.34,-0.28],[1.1,2.39,-0.44]]],[0.7,[[-0.34,2.66,0.11],[-0.73,2.91,0.24],[-0.88,2.88,0.41]]],[0.81,[[0.43,3.13,-0.04],[0.71,3.24,-0.27],[0.85,3.23,-0.39]]],[0.91,[[-0.16,3.43,0.09],[-0.39,3.56,0.15],[-0.56,3.61,0.17]]]],"size":0.091}
+  ];
+  const growthPlans=[
+   [[.22,-1,.23,.62],[.40,1,.30,1],[.65,-1,.28,.9],[.81,1,.29,1],[.95,-1,.22,.9]],
+@@ -137,6 +128,7 @@
+   const limbs=s.arms.map(([t,points],k)=>addBranch([trunk.path.getPoint(t),...points.map(at)],.0135-k*.0013,.0017,9,6));
+   limbs.push({path:new THREE.CatmullRomCurve3([trunk.path.getPoint(.82),trunk.path.getPoint(.93),trunk.path.getPoint(1)])});
+   limbs.forEach((limb,k)=>{
++   const layerLeafSize=s.size*(si===1?[.80,1.20,1.0,.92,.73,.76][k]:si===2?[1.10,.85,1.08,.88,.76,.70][k]:1);
+    const plan=growthPlans[(k+si)%growthPlans.length];
+    plan.forEach(([t,handed,span,exposure],j)=>{
+     const a=limb.path.getPoint(t),axis=limb.path.getTangent(t),side=new THREE.Vector3().crossVectors(axis,UP).normalize();span*=si===0?.68:.83;
+@@ -147,9 +139,9 @@
+     shootNodes.forEach((u,ii)=>{
+      const p=fork.path.getPoint(u),advance=fork.path.getTangent(u),sign=(ii+j)%2?1:-1;
+      const end=p.clone().addScaledVector(advance,.071+(ii%2)*.032).addScaledVector(axis,sign*.058).addScaledVector(UP,.039);
+-     shortShoot(p,end,s.kind,exposure,s.size);
++     shortShoot(p,end,s.kind,exposure,layerLeafSize);
+     });
+-    if(j===1||j===3){const p=limb.path.getPoint(Math.max(.10,t-.12));shortShoot(p,p.clone().addScaledVector(axis,.14).addScaledVector(side,-handed*.07).addScaledVector(UP,.07),s.kind,.7,s.size*.92);}
++    if(j===1||j===3){const p=limb.path.getPoint(Math.max(.10,t-.12));shortShoot(p,p.clone().addScaledVector(axis,.14).addScaledVector(side,-handed*.07).addScaledVector(UP,.07),s.kind,.7,layerLeafSize*.92);}
+    });
+    if(si===0){
+     const innerGroups=[[[.14,-1,.18],[.54,1,.17]],[[.10,1,.20],[.35,-1,.18],[.62,1,.15]],[[.19,-1,.15],[.49,1,.21]],[[.27,1,.17],[.56,-1,.18]],[[.12,-1,.18],[.43,1,.19]],[[.15,1,.15],[.59,-1,.13]]][k];
+--- v02/scene.js
++++ v03/scene.js
+@@ -114,7 +114,7 @@
+  const ridge=new THREE.CylinderGeometry(.066,.066,11.94,10);ridge.rotateZ(Math.PI/2);ridge.translate(-2.20,1.81,rearZ);batch.add(ridge,'roof');
+  box([-2.20,1.59,rearZ+.467],[11.93,.11,.065],'lengthwise');
+  box([-2.20,1.54,rearZ+.01],[11.72,.09,.095],'lengthwise');
+- return {...batch.done(),version:'spatial-v02',houseYaw:yaw,frontEdge:housePoint([1.75,.3,.6]).toArray(),deckTop:.31,interiorFloorTop:.376,verandaSupportContacts:supportContacts,roomOpening:{front:housePoint([2.46,1.5,-.4]).toArray(),rear:housePoint([2.46,1.5,-2.8]).toArray(),yMin:.402,yMax:2.448},layers:['floorboards 44mm','support beams125mm','short posts200mm','buried foundation feet','grooved66mm threshold','158mm-deep posts','recessed room and alcove','separate joists/rafters/roof'],rearBoundaryZ:rearZ};
++ return {...batch.done(),version:'spatial-v03',houseYaw:yaw,frontEdge:housePoint([1.75,.3,.6]).toArray(),deckTop:.31,interiorFloorTop:.376,verandaSupportContacts:supportContacts,roomOpening:{front:housePoint([2.46,1.5,-.4]).toArray(),rear:housePoint([2.46,1.5,-2.8]).toArray(),yMin:.402,yMax:2.448},layers:['floorboards 44mm','support beams125mm','short posts200mm','buried foundation feet','grooved66mm threshold','158mm-deep posts','recessed room and alcove','separate joists/rafters/roof'],rearBoundaryZ:rearZ};
+ }
+ 
+ export async function loadGardenAssets(loader,study){if(['clay','material','normals'].includes(study))return null;return Promise.all([gardenMaterials(),loadGardenRocks(loader)]);}
+@@ -159,5 +159,5 @@
+  const roomBounce=new THREE.PointLight('#ecd0a4',proposedRoom?3.5:2.5,3.6,2);roomBounce.position.copy(roomPoint([2.88,1.74,-1.72]));scene.add(roomBounce);
+  if(proposedRoom){const lamp=new THREE.PointLight('#ffd4a0',1.1,3.1,2);lamp.position.copy(roomPoint([3.83,.844,-2.62]));lamp.name='Small room console lantern source';scene.add(lamp);}
+  const rearGlow=new THREE.SpotLight('#ddc5a0',8.4,5.5,.67,1,2);rearGlow.position.set(-3.70,.20,-3.1);rearGlow.target.position.set(-2.80,1.50,-3.7);scene.add(rearGlow,rearGlow.target);
+- return {scene,subject,key,ground,layout:'night-'+layout,metadata:{terrain:{version:'spatial-v02',rootContacts,heightSource:'One authored512px linear data field used by both geometry and material, generated in memory',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Spatial v02: rear room/eaves, real tiled boundary, receding canopies, massed moss/embedded stones; fixed hero and controlled light comparison',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:1024,porchFillPosition:roomBounce.position.toArray(),porchFill:'Weak room bounce approximation within the deep room; no emissive visible object'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightComparison:proposedRoom?'Room sources follow new architecture; hero key/exposure fixed':'All original world light positions and powers fixed for structure comparison',lightDesign:'Same cool sky/moon and hero key; moon now occluded by real architecture, warm concealed room lighting, no visible glow surface'}};
++ return {scene,subject,key,ground,layout:'night-'+layout,metadata:{terrain:{version:'spatial-v03',rootContacts,heightSource:'One authored512px linear data field used by both geometry and material, generated in memory',triangles:ground.geometry.index.count/3,samples:[[-2.11,-1.60],[-2.78,-.25],[-3.10,.81],[0,0]].map(([x,z])=>({x,z,y:groundHeight(x,z)}))},phase:'Spatial v03: rear room/eaves, real tiled boundary, receding canopies, massed moss/embedded stones; fixed hero and controlled light comparison',materialMaps:m.maps,roomLight:{position:room.position.toArray(),target:room.target.position.toArray(),shadowMap:1024,porchFillPosition:roomBounce.position.toArray(),porchFill:'Weak room bounce approximation within the deep room; no emissive visible object'},contacts,reference:'hybrid-1132/desktop-candidate01.png',architecture:built,planting:plants,largeGardenStones:rocks,scatteredSmallStoneObjects:0,groundBaseY:-.022,stoneMinimumY:-.0497234085,stoneBurialAtNominalGround:.0277234085,lightComparison:proposedRoom?'Room sources follow new architecture; hero key/exposure fixed':'All original world light positions and powers fixed for structure comparison',lightDesign:'Same cool sky/moon and hero key; moon now occluded by real architecture, warm concealed room lighting, no visible glow surface'}};
+ }

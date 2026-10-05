@@ -1,0 +1,12 @@
+{
+  "finished_at_jst": "2026-10-05T15:58:56.881438+09:00",
+  "review_frozen_sha256": "ee2a431d44cfa77304c29afb7cd8f72e387cab9e1fa31c6da07f392c8b978660",
+  "new_sixteenth_state_sha256": "3a387711c4092e10d5955ec48db38ef39b414dc02b5f86c8520c5add3916adbb",
+  "diagnostic_stopped": true,
+  "preserved_preview_pid": 4492,
+  "candidate_preview_pid": 81352,
+  "writer_lock_release_pending": true,
+  "delivery_manifest_pending": true,
+  "production_adopted": false,
+  "overall_goal_complete": false
+}
