@@ -1,0 +1,7 @@
+{
+  "measurement_helper_error": "Runtime.evaluate expression had extra closing brace; no valid timings collected",
+  "site_runtime_failure": false,
+  "raw_failure_preserved": "qa/qualified-frame-expression-failure/failure.json",
+  "correction": "remove duplicated function closing brace; unchanged protocol, sampler or site source",
+  "retry_reason": "measurement syntax failure; no successful performance cohort repeated"
+}

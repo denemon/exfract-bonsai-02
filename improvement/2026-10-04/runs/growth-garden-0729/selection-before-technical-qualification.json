@@ -1,0 +1,15 @@
+{
+  "selected_candidate": "R29grown-v02/R30garden",
+  "PC_over_R27_visual_improved": true,
+  "mobile390320_nonregression": true,
+  "R31experimentalV01V02_adopted": false,
+  "R30_revised_gate_reassessment": "Old all-width improvement requirement was overly strict; no other major visual regression found. Qualified performance/idle/cold was the remaining separate condition.",
+  "TOP_5214_unchanged": true,
+  "TOP_adopted": false,
+  "technical_qualification_pending": true,
+  "experimental_paths": [
+    "/compare/r31/crest-v01.html",
+    "/compare/r31/crest-v02.html"
+  ],
+  "whole_completion": false
+}

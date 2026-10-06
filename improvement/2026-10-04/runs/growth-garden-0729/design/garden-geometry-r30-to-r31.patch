@@ -1,0 +1,79 @@
+--- R30/background/garden-geometry.js
++++ R31/background/garden-geometry.js
+@@ -155,22 +155,19 @@
+  // Low multi-axial shrubs: sprawling old wood supports unequal little crowns.
+  // The three shrubs have different forks and heights; none radiates from one dot.
+  const shrubs=[
+-  {origin:[-1.50,.52],scale:.86,axes:[
+-   [[-.17,0,-.08],[-.11,.10,-.03],[.10,.17,.02],[.32,.23,-.01]],
+-   [[.01,0,.01],[-.12,.12,.08],[-.31,.25,.14],[-.43,.27,.10]],
+-   [[-.07,0,-.02],[-.02,.18,-.12],[.10,.31,-.25],[.21,.30,-.32]],
+-   [[.04,0,.02],[.02,.14,.13],[.17,.20,.28],[.24,.19,.35]]]},
+-  {origin:[-1.66,-1.60],scale:.95,axes:[
+-   [[-.06,0,-.03],[-.17,.15,-.10],[-.32,.29,-.15],[-.48,.26,-.09]],
+-   [[.01,0,.05],[.13,.11,.14],[.28,.21,.18],[.44,.28,.11]],
+-   [[.06,0,-.02],[.05,.16,-.13],[-.07,.35,-.28],[-.19,.38,-.33]],
+-   [[-.03,0,.03],[-.12,.11,.19],[-.05,.18,.32],[.12,.20,.39]]]},
+-  {origin:[-3.08,-2.12],scale:1.15,axes:[
+-   [[-.08,0,-.01],[-.22,.11,.04],[-.39,.26,.18],[-.52,.25,.27]],
+-   [[.03,0,-.06],[.18,.15,-.16],[.39,.28,-.20],[.53,.31,-.15]],
+-   [[-.01,0,.03],[.02,.18,.12],[.16,.32,.27],[.34,.36,.34]],
+-   [[.02,0,-.02],[-.05,.19,-.13],[-.20,.41,-.29],[-.37,.43,-.30]],
+-   [[.04,0,.01],[.14,.11,.06],[.33,.18,.03],[.51,.17,-.02]]]}
++  {origin:[-1.50,.52],scale:.86,yaw:0,spine:[[0,0,0],[-.09,.065,.06],[-.20,.16,.17],[-.37,.185,.41]],arms:[
++   [.32,[[-.03,.20,-.08],[-.06,.34,-.32],[-.10,.40,-.50]]],
++   [.57,[[.10,.20,-.02],[.23,.27,-.09],[.32,.26,-.10]]],
++   [.68,[[-.18,.20,.10],[-.22,.27,.01],[-.27,.285,-.03]]]]},
++  {origin:[-1.66,-1.60],scale:.95,yaw:25,spine:[[0,0,0],[.11,.09,.06],[.06,.16,.025],[-.19,.235,-.16],[-.39,.24,-.10]],arms:[
++   [.30,[[.17,.16,.14],[.30,.23,.18],[.42,.24,.13]]],
++   [.58,[[-.02,.24,-.14],[-.11,.32,-.23],[-.18,.36,-.30]]],
++   [.72,[[-.10,.19,.15],[-.03,.17,.25],[.08,.16,.34]]]]},
++  {origin:[-3.08,-2.12],scale:1.15,yaw:-18,spine:[[0,0,0],[-.01,.11,.01],[-.10,.21,.06],[-.32,.25,.22],[-.49,.24,.26]],arms:[
++   [.35,[[.14,.18,-.14],[.31,.26,-.21],[.48,.30,-.17]]],
++   [.62,[[.01,.25,.15],[.15,.32,.24],[.29,.35,.32]]],
++   [.72,[[-.14,.32,-.10],[-.26,.40,-.22],[-.35,.43,-.28]]],
++   [.49,[[.17,.18,.045],[.31,.17,.02],[.47,.16,-.02]]]]}
+  ];
+  // Unequal alternate short shoots on the existing old multiaxial skeleton.
+  // Local RNG leaves every already-authored rear specimen untouched.
+@@ -207,17 +204,26 @@
+   }
+   shrubShootRecords.push({specimen,length,nodes:count,positions,actualNodePositions:positions.map(t=>twig.path.getPoint(t).toArray()),desiredInternodes:gaps});
+  }
++ const shrubStructuralRecords=[];
+  for(const [si,s]of shrubs.entries()){
+-  const [x,z]=s.origin;
+-  for(const [k,points]of s.axes.entries()){
+-   const rootX=x+points[0][0]*.63*s.scale,rootZ=z+points[0][2]*.64*s.scale,rootY=groundHeight(rootX,rootZ)-.007;
+-   const stem=addBranch(points.map(p=>new THREE.Vector3(x+p[0]*.63*s.scale,rootY+p[1]*.78*s.scale,z+p[2]*.64*s.scale)),.007,.0015,7,5);
+-   rootCenters.push({name:'Low shrub '+si+' axis '+k,position:[rootX,rootY,rootZ]});
++  const [x,z]=s.origin,rootY=groundHeight(x,z)-.007,angle=s.yaw*Math.PI/180;
++  const at=p=>{const q=new THREE.Vector3(p[0]*.63*s.scale,p[1]*.78*s.scale,p[2]*.64*s.scale);q.applyAxisAngle(UP,angle);return q.add(new THREE.Vector3(x,rootY,z));};
++  const main=addBranch(s.spine.map(at),.0075,.0016,11,6),limbs=[main];
++  const record={specimen:si,origin:s.origin,root:[x,rootY,z],yawDegrees:s.yaw,mainAxis:s.spine.map(p=>at(p).toArray()),junctions:[]};
++  rootCenters.push({name:'Low shrub '+si+' actual primary root',position:[x,rootY,z]});
++  for(const [k,[t,points]]of s.arms.entries()){
++   const attachment=main.path.getPoint(t),radius=THREE.MathUtils.lerp(.0075,.0016,Math.pow(t,.82))*.83;
++   const child=addBranch([attachment,...points.map(at)],radius,.0013,8,5);limbs.push(child);
++   record.junctions.push({parentFraction:t,parentWorld:attachment.toArray(),childStart:child.path.getPoint(0).toArray(),tip:child.path.getPoint(1).toArray(),parentActualRadiusMetres:radius/.83,childActualRadiusMetres:radius});
++  }
++  shrubStructuralRecords.push(record);
++  for(const [k,stem]of limbs.entries()){
+    const count=3+Math.floor(shrubRng()*3),nodes=[];let t=.17+shrubRng()*.045;
+    for(let j=0;j<count;j++){nodes.push(Math.min(t,.96));t+=.13+shrubRng()*.14;}
++   const first=nodes[0],last=nodes.at(-1);for(let j=0;j<nodes.length;j++)nodes[j]=.31+(nodes[j]-first)/Math.max(.001,last-first)*.65;
+    nodes.forEach((t,j)=>{
+     const a=stem.path.getPoint(t),axis=stem.path.getTangent(t),side=new THREE.Vector3().crossVectors(axis,UP).normalize(),sign=(j+k+si)%2?1:-1;
+-    const end=a.clone().addScaledVector(axis,.08+shrubRng()*.10).addScaledVector(side,sign*(.08+shrubRng()*.09)).addScaledVector(UP,.018+shrubRng()*.035);
++    const end=a.clone().addScaledVector(axis,.08+shrubRng()*.10).addScaledVector(side,sign*(.035+shrubRng()*.055)).addScaledVector(UP,.022+shrubRng()*.030);
+     const twig=addBranch([a,a.clone().lerp(end,.54).addScaledVector(UP,.010+shrubRng()*.010),end],.0024,.0007,5,4);
+     const n=6+Math.floor(shrubRng()*4),gaps=Array.from({length:n-1},()=>.010+shrubRng()*.012),sum=gaps.reduce((s,x)=>s+x,0);let u=.07;
+     for(let ii=0;ii<n;ii++){
+@@ -254,5 +260,5 @@
+   }
+  }
+  const evergreenStats=installEvergreenShoots(scene,evergreens,evergreenShoots);
+- return {terminalForkRecords,shrubShootRecords,shrubLeafDesign:{version:'thin-grown-v02',bladeThicknessMM:[.308,.560],bladeLengthMM:[22,40],bendMM:[.814,2.36],variants:4,primaryAxesUnchanged:true,density:'Unequal2-5nodes,10-22mm desired internodes, bareinner nodes and denserouter buds; every leaf attaches to a twig'},distantCrownDesign:crowns.metadata,evergreenStats,rootCenters,design:'Three distinct layered trees at middle/rear and beyond the pavilion, each rooted and physically branch-attached; low multiaxial shrubs and continuous moss cushions return to natural stones',specimens:specimens.map(({name,origin,kind,arms})=>({name,origin,kind,primaryArms:arms.length})),shrubOrigins:shrubs.map(s=>s.origin),branchTriangles:woodMesh.geometry.attributes.position.count/3,leafInstances:groupStats.reduce((s,g)=>s+g.instances,0),leafTriangles:groupStats.reduce((s,g)=>s+g.triangles,0),leafGroups:groupStats,rootGroundHeightSamples:[...specimens.map(s=>[s.origin[0],s.origin[2]]),...shrubs.map(s=>s.origin)].map(([x,z])=>({x,z,groundY:groundHeight(x,z)}))};
+-}
++ return {shrubStructuralRecords,terminalForkRecords,shrubShootRecords,shrubLeafDesign:{version:'same-thin-leaves-hierarchical-growth-r31-v01',bladeThicknessMM:[.308,.560],bladeLengthMM:[22,40],bendMM:[.814,2.36],variants:4,primaryAxesUnchanged:false,rootedHierarchicalAxes:true,leafPrototypesUnchanged:true,density:'Unequal2-5nodes,10-22mm desired internodes, bareinner nodes and denserouter buds; every leaf attaches to a twig'},distantCrownDesign:crowns.metadata,evergreenStats,rootCenters,design:'Three distinct layered trees at middle/rear and beyond the pavilion, each rooted and physically branch-attached; low multiaxial shrubs and continuous moss cushions return to natural stones',specimens:specimens.map(({name,origin,kind,arms})=>({name,origin,kind,primaryArms:arms.length})),shrubOrigins:shrubs.map(s=>s.origin),branchTriangles:woodMesh.geometry.attributes.position.count/3,leafInstances:groupStats.reduce((s,g)=>s+g.instances,0),leafTriangles:groupStats.reduce((s,g)=>s+g.triangles,0),leafGroups:groupStats,rootGroundHeightSamples:[...specimens.map(s=>[s.origin[0],s.origin[2]]),...shrubs.map(s=>s.origin)].map(([x,z])=>({x,z,groundY:groundHeight(x,z)}))};
++}

@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "selected_final": "grown-v02_normal_R30near-shore-v02",
+  "six_full_scene_rows": [
+    {
+      "name": "selected-pc",
+      "same_R30_native_wood_and_2800_leaf_world": true,
+      "same_actual_camera_lights_exposure_projection": true,
+      "same_hero_hash": "4d16e9decdf0ebd7153ea27adcfed5773127ee4048503c24fa1c705cd6354286",
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "selected-mobile-390",
+      "same_R30_native_wood_and_2800_leaf_world": true,
+      "same_actual_camera_lights_exposure_projection": true,
+      "same_hero_hash": "4d16e9decdf0ebd7153ea27adcfed5773127ee4048503c24fa1c705cd6354286",
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "selected-mobile-320",
+      "same_R30_native_wood_and_2800_leaf_world": true,
+      "same_actual_camera_lights_exposure_projection": true,
+      "same_hero_hash": "4d16e9decdf0ebd7153ea27adcfed5773127ee4048503c24fa1c705cd6354286",
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      }
+    },
+    {
+      "name": "selected-neutral-pc",
+      "same_R30_native_wood_and_2800_leaf_world": true,
+      "same_actual_camera_lights_exposure_projection": true,
+      "same_hero_hash": "4d16e9decdf0ebd7153ea27adcfed5773127ee4048503c24fa1c705cd6354286",
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "selected-neutral-mobile-390",
+      "same_R30_native_wood_and_2800_leaf_world": true,
+      "same_actual_camera_lights_exposure_projection": true,
+      "same_hero_hash": "4d16e9decdf0ebd7153ea27adcfed5773127ee4048503c24fa1c705cd6354286",
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "selected-neutral-mobile-320",
+      "same_R30_native_wood_and_2800_leaf_world": true,
+      "same_actual_camera_lights_exposure_projection": true,
+      "same_hero_hash": "4d16e9decdf0ebd7153ea27adcfed5773127ee4048503c24fa1c705cd6354286",
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      }
+    }
+  ],
+  "normal_and_base_identical_geometry_camera_lights_projection": true,
+  "fixed_native_7_SHA_verified": true,
+  "read_only_R30_garden3_SHA_verified": true,
+  "R27_render_partition_exact": true,
+  "actual_contact_fullfield_exact_R30": true,
+  "technical_invariants_do_not_establish_ancient_tree_quality": true
+}

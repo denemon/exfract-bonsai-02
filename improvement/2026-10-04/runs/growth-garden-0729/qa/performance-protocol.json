@@ -1,0 +1,23 @@
+{
+  "stage": 31,
+  "candidate": "grown-v02_normal_R30near-shore-v02_stable",
+  "urls": {
+    "r27": "http://127.0.0.1:5215/compare/r27/",
+    "candidate": "http://127.0.0.1:5215/compare/r31/"
+  },
+  "same_actual_camera_light_exposure_DPR": true,
+  "active_frame": "ABBA then BAAB each width;4cohorts/variant,30warm/61samples each first2exclude=236valid/variant/width;CPU uninstrumented render submit andEXT_disjoint elapsed",
+  "idle": "ABBA eachwidth,7samples/cohort2400ms idle=14/variant/width;actualwait recorded",
+  "cold": "ABBA eachwidth,2cacheoff runs/variant,120ms latency256000B/s;FCP/completedStill/first3D/transfer/resources;not systemcold",
+  "predeclared_nonregression_tolerances": {
+    "frame_CPU_median_delta_ms": "max(.5,baseline*.15)",
+    "frame_CPU_p95_delta_ms": "max(1.5,baseline*.20)",
+    "frame_GPU_median_delta_ms": "max(1.,baseline*.15)",
+    "frame_GPU_p95_delta_ms": "max(2.,baseline*.15)",
+    "idle_GPU_p95_delta_ms": "max(3.,baseline*.15)",
+    "cold_first3D_median_delta_ms": "max(800.,baseline*.10)"
+  },
+  "threshold_reason": "Modest sampleddesktop variation or bounded addedgeometry cost is distinguished from material regressions; report exactdeltas and no general60fps/realphone claim. Recheck only a new failure or unresolved concern.",
+  "prior_R27_results_are_reference_only": true,
+  "whole_completion_independent": true
+}

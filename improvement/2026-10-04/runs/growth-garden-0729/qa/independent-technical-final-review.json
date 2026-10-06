@@ -1,0 +1,33 @@
+{
+  "reviewer": "/root/volume_review",
+  "read_only": true,
+  "qualified_raw_recalculation_matches": true,
+  "all18_predeclared_conditions_passed": true,
+  "samples_each_variant_width": {
+    "active": 236,
+    "idle": 14,
+    "cold": 2
+  },
+  "same_camera_DPR1_version_and_network_conditions": true,
+  "PNG_dynamic6_passed": true,
+  "valid3_baseline": "legacyboth",
+  "invalid3_baseline": "completeoriginal",
+  "invalid_batch_light_partition_false": true,
+  "physical8_and_shared_shadow_authority": true,
+  "initial_original72_batch12_known_difference": "BothR27andR31 settled30pixels,max26,bboxmetrics equal, ownsame-mode repeated SHAstable; no strict original/batch equivalence claim",
+  "current_dynamic_hold_reason_cleared": true,
+  "performance_one_way_improvement": false,
+  "material_performance_limits": [
+    "PCactiveGPUp9512.934→14.539ms",
+    "idleGPUmedian21.266→26.175ms",
+    "idleCPUmedian3.15→4.85ms",
+    "first3Dabout12sec"
+  ],
+  "measurement_limits": [
+    "DPR1 desktop MacChrome emulation",
+    "not realphone Retina Safari thermal systemcold or presented-frame timing"
+  ],
+  "visual_gate_already_passed": true,
+  "whole_high_end_quality_complete": false,
+  "final_TOP_visual_and_fallback_verification_pending": true
+}
