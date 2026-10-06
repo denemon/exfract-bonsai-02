@@ -1,0 +1,10 @@
+{
+  "adopted": true,
+  "relatedQAComplete": true,
+  "selected_root": "program-state-0426",
+  "trial_run": "program-state-0426",
+  "geometry_preserved_from": "root-flow-0206",
+  "overall_goal_complete": false,
+  "scope": "CPU optimization preserving selected scene",
+  "reason": "R25\u666f\u8272/124native meshes/world/2800sprays/8physical lights/5shadow maps\u3092\u4fdd\u3061\u3001actual5stills/7high-near PNG/6dynamic PNG/functional11\u3067\u78ba\u8a8d\u3002finalv03 paired236/\u7248/\u5e45\u306eCPUmedian PC5.0\u21923.5\u30013903.75\u21922.4\u30013204.0\u21922.3ms\u3001key26/25/26\u21920\u3002CPU\u9650\u5b9a\u306e\u66ab\u5b9a\u66f4\u65b0\u3002\u65b0\u3057\u3044\u7f8e\u7684\u5b8c\u6210\u3067\u306f\u306a\u304f\u3001R26\u5c0f\u5f62/\u8449\u306f\u975e\u7d71\u5408\u3002390GPU p95+.544ms/idle36.211ms/cold11.987sec/\u5168\u666f\u9ad8\u7d1a\u54c1\u8cea\u306f\u672a\u9054\u3002"
+}

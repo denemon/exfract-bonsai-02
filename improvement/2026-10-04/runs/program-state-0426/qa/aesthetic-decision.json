@@ -1,0 +1,30 @@
+{
+  "R25_form_and_original_leaf_preserved": true,
+  "R26_age_v01_and_botanical_v1_integrated": false,
+  "R26_assessment": "Closed-scale leaves have quieter gloss and slightly better underside. Local32control form improves small shoulder/ridge shape, but gray ordinary distance and near reveals broad smooth sliding main S. Whole garden not materially lifted; independent reviewer also calls this small gain. Existing R26 model/leaf studies preserved read-only, no new shape candidates accumulated.",
+  "shape_evidence": [
+    "../age-leaf-0342/qa/gray-neutral-local/wood.jpg",
+    "../age-leaf-0342/qa/gray-night-local/pc.jpg",
+    "../age-leaf-0342/qa/gray-neutral-turns/bonsai-left.jpg",
+    "../age-leaf-0342/qa/gray-neutral-turns/bonsai-right.jpg"
+  ],
+  "bark_evidence": [
+    "../age-leaf-0342/qa/fixed-wood-independent-neutral-ab/wood-base.jpg",
+    "../age-leaf-0342/qa/fixed-wood-independent-neutral-cd/wood-roughness.jpg",
+    "../age-leaf-0342/qa/fixed-normal-night-detail/wood.jpg"
+  ],
+  "leaves_evidence": [
+    "../age-leaf-0342/qa/leaf-baseline-local/leaf-night.jpg",
+    "../age-leaf-0342/qa/leaf-botanical-night-detail/leaf-night.jpg"
+  ],
+  "light_whole_evidence": [
+    "../age-leaf-0342/qa/final-normal-neutral-whole/pc.jpg",
+    "../age-leaf-0342/qa/leaf-botanical-night-whole/pc.jpg",
+    "qa/special-stills/pc.jpg"
+  ],
+  "largest_unnatural_cause": "Main trunk broad nearly planar smooth S/taper, uniform curve thickness and rounded spoon fold; aged main structure not readable in3D, bark microfinish masks it.",
+  "next_single_coherent_change": "One main-core volume rewrite from protected R25 native: uneven axial thickness, off-axis twisted shoulders and deep/shallower longitudinal return faces; main-to-graft mother surface and buried roots follow same structural flow. Whole gray PC390320+left/right/neutral before material; preserve crown2800spray/world/void/outer silhouette, pot soil base walls/rightfrontshoji/night graybrown steering. No more small surface candidates.",
+  "overall_goal_complete": false,
+  "new_aesthetic_improvement_this_stage": false,
+  "CPU_success_is_not_high_end_scene_completion": true
+}

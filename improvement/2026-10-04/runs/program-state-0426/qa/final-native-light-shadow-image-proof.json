@@ -1,0 +1,108 @@
+{
+  "physical_meshes": 124,
+  "physical_mesh_geometry_world_instance_visibility_material_type_SHA256": "ed939c33e4bfbdbd3a4a74321bcb0dddb04f05b1f0ef98807fc39818a9ddac5d",
+  "physical8lights_bit_equal": true,
+  "shadow5GPU_maps_bit_equal": true,
+  "shadow_maps": [
+    {
+      "type": "DirectionalLight",
+      "name": "",
+      "pos": [
+        -3.2,
+        7,
+        -2.5
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "99da71fb22452f3c839705d3857aeefbed89300100807ab65ada86775ee8ee33"
+    },
+    {
+      "type": "SpotLight",
+      "name": "",
+      "pos": [
+        -2.2,
+        3.4,
+        3.2
+      ],
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "3877ece8e2d164ae07b85d6b9313f6da70d439070097c76fcc8c452e48ec9273"
+    },
+    {
+      "type": "SpotLight",
+      "name": "",
+      "pos": [
+        2.785971779537747,
+        2.35,
+        -4.294995624131106
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "9a4b4349f05f4b03d5e8628ecd9e9388719b09bf933bca8fe0c02d8f3f3bbd6e"
+    },
+    {
+      "type": "SpotLight",
+      "name": "",
+      "pos": [
+        -3.4,
+        0.15,
+        -6.35
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "6de9dfd655fa82e9a0f3011effa117062fc1dedc624fbbadec9f3ac66d997b6f"
+    },
+    {
+      "type": "SpotLight",
+      "name": "",
+      "pos": [
+        0.6,
+        0.12,
+        -8.15
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "35800ee43b10144c655c317480f6b412f2628de720725a195359ddb172569268"
+    }
+  ],
+  "replica11_reference_identity_and_world_all_passed": true,
+  "actual_default_PC390320_JPEGs": [
+    {
+      "name": "pc",
+      "actual_JPEG_SHA": "99bed2e15a33f4dcd8b4f36b9c61e6373401b28cba283460d74f876a6eabdd4a",
+      "identical_to_protected_selected_R25": true
+    },
+    {
+      "name": "mobile-390",
+      "actual_JPEG_SHA": "0bebc6fc02cf9ff9d22978941ad18bfba4ccaa1eeddd99404683c08123e7ad2d",
+      "identical_to_protected_selected_R25": true
+    },
+    {
+      "name": "mobile-320",
+      "actual_JPEG_SHA": "0b89e1bdc367c83ae989e1ee8915cac79c6edd7048effd74213aeebfb3d36d6d",
+      "identical_to_protected_selected_R25": true
+    }
+  ],
+  "actual5full_webps_bit_equal_to_R25": true,
+  "legacy_both_vs_stable_initialPNG0_changed_pixels": true,
+  "full_unbatched_vs_old_batch_initialPNG": {
+    "changed_pixels": 30,
+    "total_pixels": 1296000,
+    "maximum_channel_difference": 26,
+    "mean_channel_abs_difference": 0.00011728395061728395,
+    "interpretation": "Existing source72 vs display12 grouping/overlapping shadow fragments difference; not introduced by stable scopes; conservative fallback now restores unbatched original native source meshes."
+  },
+  "dynamic6PNGtests": true,
+  "high5view_plus2near_PNGtests": true,
+  "limitations": "Only fixed native source and declared high/low envelopes. Arbitrary leaf geometry edits beyond declared envelope must rebuild partition. Freshload used between tests. No broad dynamic scene guarantee."
+}

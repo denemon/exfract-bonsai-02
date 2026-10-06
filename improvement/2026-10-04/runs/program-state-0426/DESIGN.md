@@ -1,0 +1,5 @@
+# Stage27 空間・カメラ・光・素材・効率化の方針
+
+R25最良選定の全景/高塀/右前障子/夜空/graybrown幹/文字0/散在小石0、native/root-v02と全2800sprays/鉢/soil/低土台/地面苔境界/光cameraを保護。同native/materialのrendererだけを先に一候補として変更。Three0.185.1のofficial sourceとdocsからScene毎の永続RenderStateとlightsStateVersion判定を確認。公開Scene add/removeとcloneLightを用い、background/heroのcolorpassごとに安定したlights stateを保持。元PhysicalSceneを全shadow再構築の権威として残し、pass light replicaは同shadowobject/map/target/physicalpropertiesを参照し追加照度を作らない。全native node ownership/world/attributes/instancing、allcachedshadows、背景/heroの同pixelを比較。依存Three本体patch/internalstate override/geometry減少/光消去なし。
+
+選択済R25と新rendererのPC390320/whole/wood・neutral/night、key26/frame→0/frameの因果/実CPU/GPUを同条件順序ABBAで確認。cold250KiB/s/120ms/idle2400msは別指標。R26小形状/葉trialは元凍結shape/material/light別条件で価値を再評価し、最大の不自然さ一原因を一まとまりで減らす。新形状候補を積み増さず、全景完成を評価。採用はpixel/frame品質+負荷+finalbuild/5ownstills/inline/loading/fallback/reduced/context/TOP同期後だけ。19MiB見積/20MiB上限/share/profile/cache/単一5214、旧28states/成果SHA保護、Gitwrite/publication/purchase/他project/旧delete/Libraryretry/automation0。deadline10/10 23JST、requestedSol/xhigh実metadata未検証。
