@@ -1,0 +1,785 @@
+{
+  "controls_sha256": "585753b99342b825aac9360b49563aa1a745df89921f695cc87c719534cd980b",
+  "native_control_positions_sha256": "753dfcb0ca15dd669b2d17a4c7c56c7167299d83cf010fe205c4d16003dbba05",
+  "native_control_faces_sha256": "fd1a2c8252a6415ee01cb989e78df37f467ecb44bfe4a26e538b8c725ef2f887",
+  "branches": [
+    {
+      "id": "first-left",
+      "mouth_faces": [
+        85,
+        69
+      ],
+      "mouth_vertex_ids": [
+        56,
+        66,
+        73,
+        65,
+        55,
+        48
+      ],
+      "control_vertex_ids": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "centreline": [
+        [
+          -0.29350000619888306,
+          -0.05950000137090683,
+          1.0808334350585938
+        ],
+        [
+          -0.3799999952316284,
+          -0.07500000298023224,
+          1.090000033378601
+        ],
+        [
+          -0.46000000834465027,
+          -0.10300000011920929,
+          1.0839999914169312
+        ],
+        [
+          -0.574999988079071,
+          -0.10849999636411667,
+          1.0917999744415283
+        ]
+      ]
+    },
+    {
+      "id": "right-crown",
+      "mouth_faces": [
+        96,
+        95
+      ],
+      "mouth_vertex_ids": [
+        76,
+        77,
+        85,
+        84,
+        83,
+        75
+      ],
+      "control_vertex_ids": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "centreline": [
+        [
+          0.09699999541044235,
+          -0.05233333632349968,
+          1.439000129699707
+        ],
+        [
+          0.27399998903274536,
+          -0.052000001072883606,
+          1.4900000095367432
+        ],
+        [
+          0.38999998569488525,
+          -0.07999999821186066,
+          1.527999997138977
+        ],
+        [
+          0.5529999732971191,
+          -0.09759999811649323,
+          1.5095000267028809
+        ]
+      ]
+    },
+    {
+      "id": "rear-ascending",
+      "mouth_faces": [
+        91
+      ],
+      "mouth_vertex_ids": [
+        71,
+        72,
+        80,
+        79
+      ],
+      "control_vertex_ids": [
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "centreline": [
+        [
+          -0.16749998927116394,
+          0.10775000602006912,
+          1.2864999771118164
+        ],
+        [
+          -0.22300000488758087,
+          0.21899999678134918,
+          1.4229999780654907
+        ],
+        [
+          -0.3249000012874603,
+          0.30649998784065247,
+          1.5009000301361084
+        ]
+      ]
+    },
+    {
+      "id": "upper-left",
+      "mouth_faces": [
+        133
+      ],
+      "mouth_vertex_ids": [
+        99,
+        90,
+        100,
+        107
+      ],
+      "control_vertex_ids": [
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "centreline": [
+        [
+          0.08300000429153442,
+          -0.005750000011175871,
+          1.7417500019073486
+        ],
+        [
+          -0.07000000029802322,
+          0.15700000524520874,
+          1.7300000190734863
+        ],
+        [
+          -0.1899999976158142,
+          0.2240000069141388,
+          1.7489999532699585
+        ]
+      ]
+    },
+    {
+      "id": "low-right",
+      "mouth_faces": [
+        37
+      ],
+      "mouth_vertex_ids": [
+        34,
+        35,
+        44,
+        43
+      ],
+      "control_vertex_ids": [
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "centreline": [
+        [
+          0.17399999499320984,
+          0.013249999843537807,
+          0.7807499766349792
+        ],
+        [
+          0.3009999990463257,
+          -0.05400000140070915,
+          0.8270000219345093
+        ],
+        [
+          0.4514000117778778,
+          -0.0697999969124794,
+          0.8000699877738953
+        ]
+      ]
+    },
+    {
+      "id": "root-left",
+      "mouth_faces": [
+        9
+      ],
+      "mouth_vertex_ids": [
+        9,
+        0,
+        10,
+        19
+      ],
+      "control_vertex_ids": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "centreline": [
+        [
+          -0.19724999368190765,
+          -0.05999999865889549,
+          0.3815000057220459
+        ],
+        [
+          -0.28299999237060547,
+          -0.0989999994635582,
+          0.39100000262260437
+        ],
+        [
+          -0.4099999964237213,
+          -0.10499999672174454,
+          0.3269999921321869
+        ],
+        [
+          -0.4749999940395355,
+          -0.09099999815225601,
+          0.25999999046325684
+        ]
+      ]
+    },
+    {
+      "id": "root-right-front",
+      "mouth_faces": [
+        4
+      ],
+      "mouth_vertex_ids": [
+        4,
+        5,
+        15,
+        14
+      ],
+      "control_vertex_ids": [
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "centreline": [
+        [
+          0.20000000298023224,
+          -0.03700000047683716,
+          0.38100001215934753
+        ],
+        [
+          0.2809999883174896,
+          -0.1770000010728836,
+          0.37700000405311584
+        ],
+        [
+          0.36500000953674316,
+          -0.21799999475479126,
+          0.3100000023841858
+        ]
+      ]
+    },
+    {
+      "id": "root-rear",
+      "mouth_faces": [
+        6
+      ],
+      "mouth_vertex_ids": [
+        6,
+        7,
+        17,
+        16
+      ],
+      "control_vertex_ids": [
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "centreline": [
+        [
+          0.09174999594688416,
+          0.1862500011920929,
+          0.3824999928474426
+        ],
+        [
+          0.04699999839067459,
+          0.28999999165534973,
+          0.375
+        ],
+        [
+          0.09399999678134918,
+          0.3400000035762787,
+          0.3100000023841858
+        ]
+      ]
+    }
+  ],
+  "face_roles": [
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "root-seat",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "compression-turn",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "upper-fold",
+    "buried-cap",
+    "apex-cap",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "first-left",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "right-crown",
+    "rear-ascending",
+    "rear-ascending",
+    "rear-ascending",
+    "rear-ascending",
+    "rear-ascending",
+    "rear-ascending",
+    "rear-ascending",
+    "rear-ascending",
+    "rear-ascending",
+    "upper-left",
+    "upper-left",
+    "upper-left",
+    "upper-left",
+    "upper-left",
+    "upper-left",
+    "upper-left",
+    "upper-left",
+    "upper-left",
+    "low-right",
+    "low-right",
+    "low-right",
+    "low-right",
+    "low-right",
+    "low-right",
+    "low-right",
+    "low-right",
+    "low-right",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-left",
+    "root-right-front",
+    "root-right-front",
+    "root-right-front",
+    "root-right-front",
+    "root-right-front",
+    "root-right-front",
+    "root-right-front",
+    "root-right-front",
+    "root-right-front",
+    "root-rear",
+    "root-rear",
+    "root-rear",
+    "root-rear",
+    "root-rear",
+    "root-rear",
+    "root-rear",
+    "root-rear",
+    "root-rear"
+  ],
+  "vertex_groups": {
+    "main": 77,
+    "first-left": 22,
+    "right-crown": 23,
+    "rear-ascending": 11,
+    "upper-left": 10,
+    "low-right": 14,
+    "root-left": 20,
+    "root-right-front": 12,
+    "root-rear": 13
+  },
+  "evaluated_geometry": {
+    "version": "landmark-v01",
+    "control_vertices": 202,
+    "control_faces": 234,
+    "evaluated_vertices": 3474,
+    "triangles": 6944,
+    "volume": 0.09402786695372137,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "nonadjacent_intersections": 0,
+    "intersection_examples": [],
+    "intersection_centres": [],
+    "root_actual_soil": [
+      {
+        "id": "root-left",
+        "cap_burial": [
+          {
+            "position": [
+              -0.46915701031684875,
+              -0.06769785284996033,
+              0.2592005431652069
+            ],
+            "soil_z": 0.4019981622695923,
+            "below_soil": 0.14279761910438538
+          },
+          {
+            "position": [
+              -0.45785441994667053,
+              -0.09550991654396057,
+              0.2424238622188568
+            ],
+            "soil_z": 0.40225768089294434,
+            "below_soil": 0.15983381867408752
+          },
+          {
+            "position": [
+              -0.4808429777622223,
+              -0.1143021434545517,
+              0.26079943776130676
+            ],
+            "soil_z": 0.4027836322784424,
+            "below_soil": 0.14198419451713562
+          },
+          {
+            "position": [
+              -0.4921455681324005,
+              -0.08649007976055145,
+              0.27757611870765686
+            ],
+            "soil_z": 0.4011629819869995,
+            "below_soil": 0.12358686327934265
+          }
+        ]
+      },
+      {
+        "id": "root-right-front",
+        "cap_burial": [
+          {
+            "position": [
+              0.34426653385162354,
+              -0.235765278339386,
+              0.2948770821094513
+            ],
+            "soil_z": 0.4032151699066162,
+            "below_soil": 0.10833808779716492
+          },
+          {
+            "position": [
+              0.3588200509548187,
+              -0.19632035493850708,
+              0.28898531198501587
+            ],
+            "soil_z": 0.4077104330062866,
+            "below_soil": 0.11872512102127075
+          },
+          {
+            "position": [
+              0.3857334852218628,
+              -0.20023471117019653,
+              0.3251229226589203
+            ],
+            "soil_z": 0.40682506561279297,
+            "below_soil": 0.08170214295387268
+          },
+          {
+            "position": [
+              0.3711799681186676,
+              -0.23967963457107544,
+              0.3310146927833557
+            ],
+            "soil_z": 0.40343236923217773,
+            "below_soil": 0.07241767644882202
+          }
+        ]
+      },
+      {
+        "id": "root-rear",
+        "cap_burial": [
+          {
+            "position": [
+              0.10795649141073227,
+              0.3187766671180725,
+              0.3037659823894501
+            ],
+            "soil_z": 0.39469873905181885,
+            "below_soil": 0.09093275666236877
+          },
+          {
+            "position": [
+              0.07437881827354431,
+              0.33396631479263306,
+              0.2911710739135742
+            ],
+            "soil_z": 0.39386284351348877,
+            "below_soil": 0.10269176959991455
+          },
+          {
+            "position": [
+              0.0800435021519661,
+              0.36122334003448486,
+              0.3162340223789215
+            ],
+            "soil_z": 0.39314162731170654,
+            "below_soil": 0.07690760493278503
+          },
+          {
+            "position": [
+              0.11362117528915405,
+              0.3460336923599243,
+              0.32882893085479736
+            ],
+            "soil_z": 0.39347636699676514,
+            "below_soil": 0.06464743614196777
+          }
+        ]
+      }
+    ],
+    "twig_changed_nodes": [
+      {
+        "region": "left lower rear fork",
+        "node": 0,
+        "position": [
+          -0.4341343343257904,
+          -0.09186963737010956,
+          1.083227276802063
+        ],
+        "no_spray_attachment": true
+      },
+      {
+        "region": "left lower rear fork",
+        "node": 1,
+        "position": [
+          -0.5192137956619263,
+          -0.11109355837106705,
+          1.0829827785491943
+        ],
+        "no_spray_attachment": true
+      },
+      {
+        "region": "left lower rear fork",
+        "node": 2,
+        "position": [
+          -0.6257928609848022,
+          -0.15069684386253357,
+          1.1009315252304077
+        ],
+        "no_spray_attachment": true
+      }
+    ],
+    "twig_vertices": 21025,
+    "aesthetic_pass": false
+  },
+  "editable_subdivision": 2,
+  "geometry_frozen_for_material": false
+}

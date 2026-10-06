@@ -1,0 +1,1653 @@
+{
+  "same_native_geometry_all_render_fields": true,
+  "same_view_camera_lights_leaf_lod": true,
+  "same_native_glb_file_hashes": true,
+  "color_isolation": "flat base and texture color retain wood roughness .96 and twig .97. Shape-gray roughness1 is a separate form diagnostic, not strict color-only baseline.",
+  "roughness_isolation": "color baseline then aligned-map roughness clamp .94-.995, no normal map",
+  "normal_isolation": "aligned roughness then normal .20; same sampling offsets for all maps",
+  "color_capture_basis": "Valid v1 color-only source, sample formula/offset equivalent to aligned shader; no multi-map mismatch in color-only mode. Not a claim of byte-identical new color screenshot.",
+  "geometry_remaining": [
+    "paired roots",
+    "broad smooth main surfaces",
+    "local graft lines/protrusions"
+  ],
+  "uv_remaining": [
+    "right root horizontal color stripes/flow stretching"
+  ],
+  "texture": "Existing local Cedar001 provisional wood, not exact-reference Juniper scan",
+  "final_source_sha256": "5ebe2758a07ae59715e595aab68c7fcc2d626f0801a5acdefdbaaca0bc5791f4",
+  "rows": [
+    {
+      "mode": "base",
+      "case": "base-pc",
+      "dataset": "material-flat-base",
+      "wood_fields_hash": "8381f8adefcdb12f041199b387512f61d99a2676a97774d8e22a36fbc52c5a9b",
+      "hero_hash": "22a5124933ff101b7447e544afd43251c764c71d367fd271f52acc8a34e901a7",
+      "camera": {
+        "position": [
+          0,
+          1.4138158484842958,
+          3.5945482984945594
+        ],
+        "target": [
+          0,
+          1.2401676708173655,
+          2.6097405454823512
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "lights": [
+        {
+          "name": "",
+          "type": "HemisphereLight",
+          "intensity": 0.58,
+          "color": "a3bddb",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "castShadow": false
+        },
+        {
+          "name": "",
+          "type": "DirectionalLight",
+          "intensity": 0.58,
+          "color": "a9c6e9",
+          "position": [
+            -3.2,
+            7,
+            -2.5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 70,
+          "color": "ffe0b5",
+          "position": [
+            -2.2,
+            3.4,
+            3.2
+          ],
+          "target": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "castShadow": true,
+          "mapSize": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18,
+          "color": "ffd4a0",
+          "position": [
+            2.785971779537747,
+            2.35,
+            -4.294995624131106
+          ],
+          "target": [
+            3.15150082564068,
+            1.1,
+            -5.616731284713463
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "PointLight",
+          "intensity": 3.5,
+          "color": "ecd0a4",
+          "position": [
+            2.9324161534261663,
+            1.43,
+            -4.499763896469446
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "Small room console lantern source",
+          "type": "PointLight",
+          "intensity": 1.1,
+          "color": "ffd4a0",
+          "position": [
+            3.291193260692804,
+            0.904,
+            -5.161272193697368
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 26.400000000000002,
+          "color": "ddc5a0",
+          "position": [
+            -3.4,
+            0.15,
+            -6.35
+          ],
+          "target": [
+            -3.35,
+            2.7,
+            -5.65
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18.48,
+          "color": "ddc5a0",
+          "position": [
+            0.6,
+            0.12,
+            -8.15
+          ],
+          "target": [
+            0.55,
+            3.15,
+            -7.25
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "Continuous_aged_trunk_and_primary_branches",
+          "type": "MeshStandardMaterial",
+          "key": "native-independent-wood-base-v2-aligned",
+          "roughness": 0.96,
+          "metalness": 0,
+          "emissive": "000000"
+        },
+        {
+          "name": "Terminal_twig_hierarchy",
+          "type": "MeshStandardMaterial",
+          "key": "onBeforeCompile(){}",
+          "roughness": 0.97,
+          "metalness": 0,
+          "emissive": "000000"
+        }
+      ],
+      "leaf_lod": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": false,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 868000,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "mode": "base",
+      "case": "base-wood",
+      "dataset": "material-flat-base",
+      "wood_fields_hash": "8381f8adefcdb12f041199b387512f61d99a2676a97774d8e22a36fbc52c5a9b",
+      "hero_hash": "93b8a5ddbb70716c0bbeae6c7301bb77f977637993eceeeead6fa89ddaa5316e",
+      "camera": {
+        "position": [
+          -0.0198,
+          0.9147459843833567,
+          1.3456448898255176
+        ],
+        "target": [
+          -0.0198,
+          0.7410978067164263,
+          0.3608371368133093
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "lights": [
+        {
+          "name": "",
+          "type": "HemisphereLight",
+          "intensity": 0.58,
+          "color": "a3bddb",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "castShadow": false
+        },
+        {
+          "name": "",
+          "type": "DirectionalLight",
+          "intensity": 0.58,
+          "color": "a9c6e9",
+          "position": [
+            -3.2,
+            7,
+            -2.5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 70,
+          "color": "ffe0b5",
+          "position": [
+            -2.2,
+            3.4,
+            3.2
+          ],
+          "target": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "castShadow": true,
+          "mapSize": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18,
+          "color": "ffd4a0",
+          "position": [
+            2.785971779537747,
+            2.35,
+            -4.294995624131106
+          ],
+          "target": [
+            3.15150082564068,
+            1.1,
+            -5.616731284713463
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "PointLight",
+          "intensity": 3.5,
+          "color": "ecd0a4",
+          "position": [
+            2.9324161534261663,
+            1.43,
+            -4.499763896469446
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "Small room console lantern source",
+          "type": "PointLight",
+          "intensity": 1.1,
+          "color": "ffd4a0",
+          "position": [
+            3.291193260692804,
+            0.904,
+            -5.161272193697368
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 26.400000000000002,
+          "color": "ddc5a0",
+          "position": [
+            -3.4,
+            0.15,
+            -6.35
+          ],
+          "target": [
+            -3.35,
+            2.7,
+            -5.65
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18.48,
+          "color": "ddc5a0",
+          "position": [
+            0.6,
+            0.12,
+            -8.15
+          ],
+          "target": [
+            0.55,
+            3.15,
+            -7.25
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "Continuous_aged_trunk_and_primary_branches",
+          "type": "MeshStandardMaterial",
+          "key": "native-independent-wood-base-v2-aligned",
+          "roughness": 0.96,
+          "metalness": 0,
+          "emissive": "000000"
+        },
+        {
+          "name": "Terminal_twig_hierarchy",
+          "type": "MeshStandardMaterial",
+          "key": "onBeforeCompile(){}",
+          "roughness": 0.97,
+          "metalness": 0,
+          "emissive": "000000"
+        }
+      ],
+      "leaf_lod": {
+        "level": "mixed",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 36,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 2484020,
+        "allocatedLeafTriangles": 2484020,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "mode": "color",
+      "case": "color-pc",
+      "dataset": "independent-material-color",
+      "wood_fields_hash": "8381f8adefcdb12f041199b387512f61d99a2676a97774d8e22a36fbc52c5a9b",
+      "hero_hash": "22a5124933ff101b7447e544afd43251c764c71d367fd271f52acc8a34e901a7",
+      "camera": {
+        "position": [
+          0,
+          1.4138158484842958,
+          3.5945482984945594
+        ],
+        "target": [
+          0,
+          1.2401676708173655,
+          2.6097405454823512
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "lights": [
+        {
+          "name": "",
+          "type": "HemisphereLight",
+          "intensity": 0.58,
+          "color": "a3bddb",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "castShadow": false
+        },
+        {
+          "name": "",
+          "type": "DirectionalLight",
+          "intensity": 0.58,
+          "color": "a9c6e9",
+          "position": [
+            -3.2,
+            7,
+            -2.5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 70,
+          "color": "ffe0b5",
+          "position": [
+            -2.2,
+            3.4,
+            3.2
+          ],
+          "target": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "castShadow": true,
+          "mapSize": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18,
+          "color": "ffd4a0",
+          "position": [
+            2.785971779537747,
+            2.35,
+            -4.294995624131106
+          ],
+          "target": [
+            3.15150082564068,
+            1.1,
+            -5.616731284713463
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "PointLight",
+          "intensity": 3.5,
+          "color": "ecd0a4",
+          "position": [
+            2.9324161534261663,
+            1.43,
+            -4.499763896469446
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "Small room console lantern source",
+          "type": "PointLight",
+          "intensity": 1.1,
+          "color": "ffd4a0",
+          "position": [
+            3.291193260692804,
+            0.904,
+            -5.161272193697368
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 26.400000000000002,
+          "color": "ddc5a0",
+          "position": [
+            -3.4,
+            0.15,
+            -6.35
+          ],
+          "target": [
+            -3.35,
+            2.7,
+            -5.65
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18.48,
+          "color": "ddc5a0",
+          "position": [
+            0.6,
+            0.12,
+            -8.15
+          ],
+          "target": [
+            0.55,
+            3.15,
+            -7.25
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "Continuous_aged_trunk_and_primary_branches",
+          "type": "MeshStandardMaterial",
+          "key": "native-independent-wood-color-v1",
+          "roughness": 0.96,
+          "metalness": 0,
+          "emissive": "000000"
+        },
+        {
+          "name": "Terminal_twig_hierarchy",
+          "type": "MeshStandardMaterial",
+          "key": "onBeforeCompile(){}",
+          "roughness": 0.97,
+          "metalness": 0,
+          "emissive": "000000"
+        }
+      ],
+      "leaf_lod": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": false,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 868000,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "mode": "color",
+      "case": "color-wood",
+      "dataset": "independent-material-color",
+      "wood_fields_hash": "8381f8adefcdb12f041199b387512f61d99a2676a97774d8e22a36fbc52c5a9b",
+      "hero_hash": "93b8a5ddbb70716c0bbeae6c7301bb77f977637993eceeeead6fa89ddaa5316e",
+      "camera": {
+        "position": [
+          -0.0198,
+          0.9147459843833567,
+          1.3456448898255176
+        ],
+        "target": [
+          -0.0198,
+          0.7410978067164263,
+          0.3608371368133093
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "lights": [
+        {
+          "name": "",
+          "type": "HemisphereLight",
+          "intensity": 0.58,
+          "color": "a3bddb",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "castShadow": false
+        },
+        {
+          "name": "",
+          "type": "DirectionalLight",
+          "intensity": 0.58,
+          "color": "a9c6e9",
+          "position": [
+            -3.2,
+            7,
+            -2.5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 70,
+          "color": "ffe0b5",
+          "position": [
+            -2.2,
+            3.4,
+            3.2
+          ],
+          "target": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "castShadow": true,
+          "mapSize": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18,
+          "color": "ffd4a0",
+          "position": [
+            2.785971779537747,
+            2.35,
+            -4.294995624131106
+          ],
+          "target": [
+            3.15150082564068,
+            1.1,
+            -5.616731284713463
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "PointLight",
+          "intensity": 3.5,
+          "color": "ecd0a4",
+          "position": [
+            2.9324161534261663,
+            1.43,
+            -4.499763896469446
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "Small room console lantern source",
+          "type": "PointLight",
+          "intensity": 1.1,
+          "color": "ffd4a0",
+          "position": [
+            3.291193260692804,
+            0.904,
+            -5.161272193697368
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 26.400000000000002,
+          "color": "ddc5a0",
+          "position": [
+            -3.4,
+            0.15,
+            -6.35
+          ],
+          "target": [
+            -3.35,
+            2.7,
+            -5.65
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18.48,
+          "color": "ddc5a0",
+          "position": [
+            0.6,
+            0.12,
+            -8.15
+          ],
+          "target": [
+            0.55,
+            3.15,
+            -7.25
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "Continuous_aged_trunk_and_primary_branches",
+          "type": "MeshStandardMaterial",
+          "key": "native-independent-wood-color-v1",
+          "roughness": 0.96,
+          "metalness": 0,
+          "emissive": "000000"
+        },
+        {
+          "name": "Terminal_twig_hierarchy",
+          "type": "MeshStandardMaterial",
+          "key": "onBeforeCompile(){}",
+          "roughness": 0.97,
+          "metalness": 0,
+          "emissive": "000000"
+        }
+      ],
+      "leaf_lod": {
+        "level": "mixed",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 36,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 2484020,
+        "allocatedLeafTriangles": 2484020,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "mode": "roughness",
+      "case": "roughness-pc",
+      "dataset": "aligned-material-roughness",
+      "wood_fields_hash": "8381f8adefcdb12f041199b387512f61d99a2676a97774d8e22a36fbc52c5a9b",
+      "hero_hash": "22a5124933ff101b7447e544afd43251c764c71d367fd271f52acc8a34e901a7",
+      "camera": {
+        "position": [
+          0,
+          1.4138158484842958,
+          3.5945482984945594
+        ],
+        "target": [
+          0,
+          1.2401676708173655,
+          2.6097405454823512
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "lights": [
+        {
+          "name": "",
+          "type": "HemisphereLight",
+          "intensity": 0.58,
+          "color": "a3bddb",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "castShadow": false
+        },
+        {
+          "name": "",
+          "type": "DirectionalLight",
+          "intensity": 0.58,
+          "color": "a9c6e9",
+          "position": [
+            -3.2,
+            7,
+            -2.5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 70,
+          "color": "ffe0b5",
+          "position": [
+            -2.2,
+            3.4,
+            3.2
+          ],
+          "target": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "castShadow": true,
+          "mapSize": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18,
+          "color": "ffd4a0",
+          "position": [
+            2.785971779537747,
+            2.35,
+            -4.294995624131106
+          ],
+          "target": [
+            3.15150082564068,
+            1.1,
+            -5.616731284713463
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "PointLight",
+          "intensity": 3.5,
+          "color": "ecd0a4",
+          "position": [
+            2.9324161534261663,
+            1.43,
+            -4.499763896469446
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "Small room console lantern source",
+          "type": "PointLight",
+          "intensity": 1.1,
+          "color": "ffd4a0",
+          "position": [
+            3.291193260692804,
+            0.904,
+            -5.161272193697368
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 26.400000000000002,
+          "color": "ddc5a0",
+          "position": [
+            -3.4,
+            0.15,
+            -6.35
+          ],
+          "target": [
+            -3.35,
+            2.7,
+            -5.65
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18.48,
+          "color": "ddc5a0",
+          "position": [
+            0.6,
+            0.12,
+            -8.15
+          ],
+          "target": [
+            0.55,
+            3.15,
+            -7.25
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "Continuous_aged_trunk_and_primary_branches",
+          "type": "MeshStandardMaterial",
+          "key": "native-independent-wood-roughness-v2-aligned",
+          "roughness": 0.96,
+          "metalness": 0,
+          "emissive": "000000"
+        },
+        {
+          "name": "Terminal_twig_hierarchy",
+          "type": "MeshStandardMaterial",
+          "key": "onBeforeCompile(){}",
+          "roughness": 0.97,
+          "metalness": 0,
+          "emissive": "000000"
+        }
+      ],
+      "leaf_lod": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": false,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 868000,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "mode": "roughness",
+      "case": "roughness-wood",
+      "dataset": "aligned-material-roughness",
+      "wood_fields_hash": "8381f8adefcdb12f041199b387512f61d99a2676a97774d8e22a36fbc52c5a9b",
+      "hero_hash": "93b8a5ddbb70716c0bbeae6c7301bb77f977637993eceeeead6fa89ddaa5316e",
+      "camera": {
+        "position": [
+          -0.0198,
+          0.9147459843833567,
+          1.3456448898255176
+        ],
+        "target": [
+          -0.0198,
+          0.7410978067164263,
+          0.3608371368133093
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "lights": [
+        {
+          "name": "",
+          "type": "HemisphereLight",
+          "intensity": 0.58,
+          "color": "a3bddb",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "castShadow": false
+        },
+        {
+          "name": "",
+          "type": "DirectionalLight",
+          "intensity": 0.58,
+          "color": "a9c6e9",
+          "position": [
+            -3.2,
+            7,
+            -2.5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 70,
+          "color": "ffe0b5",
+          "position": [
+            -2.2,
+            3.4,
+            3.2
+          ],
+          "target": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "castShadow": true,
+          "mapSize": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18,
+          "color": "ffd4a0",
+          "position": [
+            2.785971779537747,
+            2.35,
+            -4.294995624131106
+          ],
+          "target": [
+            3.15150082564068,
+            1.1,
+            -5.616731284713463
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "PointLight",
+          "intensity": 3.5,
+          "color": "ecd0a4",
+          "position": [
+            2.9324161534261663,
+            1.43,
+            -4.499763896469446
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "Small room console lantern source",
+          "type": "PointLight",
+          "intensity": 1.1,
+          "color": "ffd4a0",
+          "position": [
+            3.291193260692804,
+            0.904,
+            -5.161272193697368
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 26.400000000000002,
+          "color": "ddc5a0",
+          "position": [
+            -3.4,
+            0.15,
+            -6.35
+          ],
+          "target": [
+            -3.35,
+            2.7,
+            -5.65
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18.48,
+          "color": "ddc5a0",
+          "position": [
+            0.6,
+            0.12,
+            -8.15
+          ],
+          "target": [
+            0.55,
+            3.15,
+            -7.25
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "Continuous_aged_trunk_and_primary_branches",
+          "type": "MeshStandardMaterial",
+          "key": "native-independent-wood-roughness-v2-aligned",
+          "roughness": 0.96,
+          "metalness": 0,
+          "emissive": "000000"
+        },
+        {
+          "name": "Terminal_twig_hierarchy",
+          "type": "MeshStandardMaterial",
+          "key": "onBeforeCompile(){}",
+          "roughness": 0.97,
+          "metalness": 0,
+          "emissive": "000000"
+        }
+      ],
+      "leaf_lod": {
+        "level": "mixed",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 36,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 2484020,
+        "allocatedLeafTriangles": 2484020,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "mode": "normal",
+      "case": "normal-pc",
+      "dataset": "aligned-material-normal",
+      "wood_fields_hash": "8381f8adefcdb12f041199b387512f61d99a2676a97774d8e22a36fbc52c5a9b",
+      "hero_hash": "22a5124933ff101b7447e544afd43251c764c71d367fd271f52acc8a34e901a7",
+      "camera": {
+        "position": [
+          0,
+          1.4138158484842958,
+          3.5945482984945594
+        ],
+        "target": [
+          0,
+          1.2401676708173655,
+          2.6097405454823512
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "lights": [
+        {
+          "name": "",
+          "type": "HemisphereLight",
+          "intensity": 0.58,
+          "color": "a3bddb",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "castShadow": false
+        },
+        {
+          "name": "",
+          "type": "DirectionalLight",
+          "intensity": 0.58,
+          "color": "a9c6e9",
+          "position": [
+            -3.2,
+            7,
+            -2.5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 70,
+          "color": "ffe0b5",
+          "position": [
+            -2.2,
+            3.4,
+            3.2
+          ],
+          "target": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "castShadow": true,
+          "mapSize": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18,
+          "color": "ffd4a0",
+          "position": [
+            2.785971779537747,
+            2.35,
+            -4.294995624131106
+          ],
+          "target": [
+            3.15150082564068,
+            1.1,
+            -5.616731284713463
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "PointLight",
+          "intensity": 3.5,
+          "color": "ecd0a4",
+          "position": [
+            2.9324161534261663,
+            1.43,
+            -4.499763896469446
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "Small room console lantern source",
+          "type": "PointLight",
+          "intensity": 1.1,
+          "color": "ffd4a0",
+          "position": [
+            3.291193260692804,
+            0.904,
+            -5.161272193697368
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 26.400000000000002,
+          "color": "ddc5a0",
+          "position": [
+            -3.4,
+            0.15,
+            -6.35
+          ],
+          "target": [
+            -3.35,
+            2.7,
+            -5.65
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18.48,
+          "color": "ddc5a0",
+          "position": [
+            0.6,
+            0.12,
+            -8.15
+          ],
+          "target": [
+            0.55,
+            3.15,
+            -7.25
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "Continuous_aged_trunk_and_primary_branches",
+          "type": "MeshStandardMaterial",
+          "key": "native-independent-wood-normal-v2-aligned",
+          "roughness": 0.96,
+          "metalness": 0,
+          "emissive": "000000"
+        },
+        {
+          "name": "Terminal_twig_hierarchy",
+          "type": "MeshStandardMaterial",
+          "key": "onBeforeCompile(){}",
+          "roughness": 0.97,
+          "metalness": 0,
+          "emissive": "000000"
+        }
+      ],
+      "leaf_lod": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": false,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 868000,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "mode": "normal",
+      "case": "normal-wood",
+      "dataset": "aligned-material-normal",
+      "wood_fields_hash": "8381f8adefcdb12f041199b387512f61d99a2676a97774d8e22a36fbc52c5a9b",
+      "hero_hash": "93b8a5ddbb70716c0bbeae6c7301bb77f977637993eceeeead6fa89ddaa5316e",
+      "camera": {
+        "position": [
+          -0.0198,
+          0.9147459843833567,
+          1.3456448898255176
+        ],
+        "target": [
+          -0.0198,
+          0.7410978067164263,
+          0.3608371368133093
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "lights": [
+        {
+          "name": "",
+          "type": "HemisphereLight",
+          "intensity": 0.58,
+          "color": "a3bddb",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "castShadow": false
+        },
+        {
+          "name": "",
+          "type": "DirectionalLight",
+          "intensity": 0.58,
+          "color": "a9c6e9",
+          "position": [
+            -3.2,
+            7,
+            -2.5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 70,
+          "color": "ffe0b5",
+          "position": [
+            -2.2,
+            3.4,
+            3.2
+          ],
+          "target": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "castShadow": true,
+          "mapSize": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18,
+          "color": "ffd4a0",
+          "position": [
+            2.785971779537747,
+            2.35,
+            -4.294995624131106
+          ],
+          "target": [
+            3.15150082564068,
+            1.1,
+            -5.616731284713463
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "PointLight",
+          "intensity": 3.5,
+          "color": "ecd0a4",
+          "position": [
+            2.9324161534261663,
+            1.43,
+            -4.499763896469446
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "Small room console lantern source",
+          "type": "PointLight",
+          "intensity": 1.1,
+          "color": "ffd4a0",
+          "position": [
+            3.291193260692804,
+            0.904,
+            -5.161272193697368
+          ],
+          "castShadow": false,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 26.400000000000002,
+          "color": "ddc5a0",
+          "position": [
+            -3.4,
+            0.15,
+            -6.35
+          ],
+          "target": [
+            -3.35,
+            2.7,
+            -5.65
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        },
+        {
+          "name": "",
+          "type": "SpotLight",
+          "intensity": 18.48,
+          "color": "ddc5a0",
+          "position": [
+            0.6,
+            0.12,
+            -8.15
+          ],
+          "target": [
+            0.55,
+            3.15,
+            -7.25
+          ],
+          "castShadow": true,
+          "mapSize": [
+            512,
+            512
+          ]
+        }
+      ],
+      "materials": [
+        {
+          "name": "Continuous_aged_trunk_and_primary_branches",
+          "type": "MeshStandardMaterial",
+          "key": "native-independent-wood-normal-v2-aligned",
+          "roughness": 0.96,
+          "metalness": 0,
+          "emissive": "000000"
+        },
+        {
+          "name": "Terminal_twig_hierarchy",
+          "type": "MeshStandardMaterial",
+          "key": "onBeforeCompile(){}",
+          "roughness": 0.97,
+          "metalness": 0,
+          "emissive": "000000"
+        }
+      ],
+      "leaf_lod": {
+        "level": "mixed",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 36,
+        "visibleGroups": 72,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 2484020,
+        "allocatedLeafTriangles": 2484020,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    }
+  ]
+}

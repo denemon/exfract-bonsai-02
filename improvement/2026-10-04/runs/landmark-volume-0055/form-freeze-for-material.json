@@ -1,0 +1,52 @@
+{
+  "frozen_at_jst": "2026-10-06T01:35:10.919208+09:00",
+  "scope": "Provisional geometry fixed only for independent material experiment; no final natural ancient-tree approval, no TOP adoption",
+  "geometry_version": "landmark-v02",
+  "ordinary_gray_improvement_milestone": true,
+  "final_form_gate_passed": false,
+  "remaining_geometry": [
+    "paired anterior root pillars",
+    "broad smooth middle surfaces",
+    "near-view graft seam, small protrusion and shoulder steps"
+  ],
+  "native": {
+    "version": "landmark-v02",
+    "reopened": true,
+    "native_sha256": "66919d8a870f43bdb482d97f606e33cd6a333fd4f671a1033aa95c2020d0cfd4",
+    "glb_sha256": "565e7b5bee99af4ecfdc0959fefff4df47806fc1d4d18d18874d9e0c322873b2",
+    "checks": {
+      "positions": true,
+      "faces": true,
+      "authoring_version": true
+    },
+    "native_attribute_hashes": {
+      "positions": "b1b267706b83450d76aea16bf42851bee9c1e252f7ccd95b17d6e1f93505dde4",
+      "faces": "bf32bac7dbe83d739832f69f7d3d89c48f63dd0423f2f968ac6462dac97aa33f",
+      "normals": "be5d516765351b38f319d42c848e5478fa061658b6e600c644e999be995001bf",
+      "colors": "4f3077d5bc7b2f8cf05afb4abde26a9f5a00ec58795f92376920b92629e25bea",
+      "uv": {
+        "Growth flow": "5ae05940764339f6573caed8fad1a4446895aa577e82ba501ae17224843680c9",
+        "Branch flow": "128647c03e3a0b3c4fda3484a2d6eb2892c5afc111a36757551a6b90247e8fef",
+        "Branch transition": "a25633bd78861cafe7ddff03357f122df2feec873a8e4809f1e79be7c8043320"
+      }
+    },
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "evaluated_volume": 0.08974625206810542,
+    "modifiers": [
+      [
+        "Local support surface subdivision",
+        "SUBSURF"
+      ]
+    ],
+    "geometry_only_not_aesthetic": true
+  },
+  "source_hashes": {
+    "sculpt/patch_native.py": "4ae04ff75953fb275448184dfddb93f5906dd11e98a80990c3c51d2092f62f25",
+    "sculpt/control-record-v02.json": "038a27c4c90e368c701db21248daf41670bd5e6dcc45b17e4547683253bab8fe",
+    "design/landmarks.json": "585753b99342b825aac9360b49563aa1a745df89921f695cc87c719534cd980b"
+  },
+  "review_sha256": "e9f70c32e8f1a7108982afccefd36cf62a94b8a6dcf2d64ee3ba84c6d7127b00",
+  "camera_lighting_basis": "gray-landmark-v02-verified/results.json, R20 exact fixed cameras/key70/exposure1",
+  "material_finishing_not_geometry_improvement": true
+}

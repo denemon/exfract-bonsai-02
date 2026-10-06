@@ -1,0 +1,33 @@
+{
+  "actual_photos": [
+    {
+      "name": "root-pc",
+      "old": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/steady-render-2225/qa/selected-root-and-separated-trials-final/root-pc.jpg",
+      "new": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/landmark-volume-0055/qa/selected-root-preservation/root-pc.jpg",
+      "exact_jpeg_bytes": true,
+      "decoded_pixels_identical": true,
+      "sha256": "00cbe3e6382a177b991f39c39bd70a3025ff7933e80989797e808244d9fc99d7",
+      "native_hero": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d"
+    },
+    {
+      "name": "root-390",
+      "old": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/steady-render-2225/qa/selected-root-and-separated-trials-final/root-390.jpg",
+      "new": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/landmark-volume-0055/qa/selected-root-preservation/root-390.jpg",
+      "exact_jpeg_bytes": true,
+      "decoded_pixels_identical": true,
+      "sha256": "a0bf3c9d3eedce549adbd79f4d2509aaab7799ce69ba8e02c880490ea0908ac8",
+      "native_hero": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d"
+    },
+    {
+      "name": "root-320",
+      "old": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/steady-render-2225/qa/selected-root-and-separated-trials-final/root-320.jpg",
+      "new": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/landmark-volume-0055/qa/selected-root-preservation/root-320.jpg",
+      "exact_jpeg_bytes": true,
+      "decoded_pixels_identical": true,
+      "sha256": "fd7bdde7d1a43772f73f73a4f50f76b01604f0022d5db1a1f6eafef3510d6df7",
+      "native_hero": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d"
+    }
+  ],
+  "selected_root_unchanged": true,
+  "not_new_native_aesthetic_approval": true
+}
