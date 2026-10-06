@@ -1,0 +1,49 @@
+{
+  "stage": 22,
+  "run": "steady-render-2225",
+  "selected_at_jst": "2026-10-05T23:45:53.990019+09:00",
+  "adopted": true,
+  "root_selected": true,
+  "scene": "depth-balance-1905",
+  "render": "both",
+  "type": "Performance provisional best retaining entire R20 physical geometry/materials/camera/light basis",
+  "overall_goal_complete": false,
+  "relative_visual_no_regression": true,
+  "absolute_premium_art_gate_passed": false,
+  "root": "http://127.0.0.1:5214/",
+  "R20_original": "http://127.0.0.1:5214/compare/r20/",
+  "R21_unadopted": "http://127.0.0.1:5214/compare/r21/",
+  "selected_explicit": "http://127.0.0.1:5214/compare/r22/",
+  "gates": {
+    "same_geometry_materials_camera_and_lights": "qa/corrected-r20-framebuffer-proof.json",
+    "optimized_render_pixel_and_exact_matrix": "qa/corrected-production-pixel-and-source/results.json",
+    "independent_visual_only_review": "qa/review-corrected-final.md",
+    "performance": "qa/performance-verified-summary.json",
+    "idle_small_sample": "qa/idle-verified-summary.json",
+    "candidate_functional_12_cases": "qa/corrected-resilience-candidate/results.json",
+    "old_21_states_and_source_protection": "qa/integrity-before-adoption.json"
+  },
+  "independent_review_scope": "Visual only; later paired/idle/functional gates are separate worker verification, not independently reviewed",
+  "root_after_selection_verification_pending": false,
+  "R21_offset_and_partial_shapes_adopted": false,
+  "superseded_material_changed_trial": "qa/superseded-acceptance.json",
+  "unmet": [
+    "Native ancient wood root/cross section/taper and fixed S form",
+    "Near foliage bundle quality",
+    "Planting/moss/gravel naturalness",
+    "Mobile crown/shoji competition",
+    "Cold navigation to3D~11.91s at120ms250KiB/s",
+    "Idle singleframe p95~35.56ms and CPU submit increase",
+    "Physical phones/Safari/long thermal/runtime model metadata"
+  ],
+  "all_reference_records_sha256": {
+    "qa/corrected-r20-framebuffer-proof.json": "e001f100657adad012c1fd0eea322a2f4a638c7eec3a1d80480fd3c8ee6dfc48",
+    "qa/performance-verified-summary.json": "f791aa9572384ea71816c1ec65fe81005698bb9d296f01420c286a75470eca11",
+    "qa/idle-verified-summary.json": "3052dbe0062777f8e4e1d1ab67da93ebe75db53f646cdf9f161af648e0ad7830",
+    "qa/corrected-resilience-candidate/results.json": "863f400495a3e7ca7aa58191018da5e1c0eef97c8edd417280da796c7c9bddd5",
+    "qa/review-corrected-final.md": "1a733d5562ceaf79188ddbd6f74159a10310cb7023e43d5e6115d0b2c10aead8",
+    "qa/integrity-before-adoption.json": "1900fee72f92b6f02fd2f8045a3b5094acc5dbed3b7f88080e63c6d6f8d636dd"
+  },
+  "root_after_selection_verification": "qa/selected-root-resilience/results.json",
+  "root_after_selection_functional_cases": 12
+}

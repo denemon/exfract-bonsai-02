@@ -1,0 +1,97 @@
+{
+  "physical_scene": "R20 unmodified",
+  "scene_geometry_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+  "native_hero_sha256": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d",
+  "native_meshes": 93,
+  "world_scale": 0.66,
+  "key_intensity": 70,
+  "exposure": 1,
+  "wood_color": "Gray-brown/brown; user reference photo is form reference only",
+  "files_sha256": {
+    "improvement/2026-10-04/runs/depth-balance-1905/background/background-finish.js": "e498f7454526d81f65fd2f528a440d3b97fbf2e4bef94f70107f4ad2388b6074",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/garden-geometry.js": "7fa184fb5ff86efe2b75f47d5bda4803cbb703daa7b3889ea5cd6ac6263ba1df",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/layout.js": "f51134c97242132ccd7a532afd1267829fa6836756ee1a7235fff0f49b2c0271",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/scene.js": "4b2c04aacabdb2e77b63bd18dc7b92f078eb7bd5d8056fd1c7817572382f3c87",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/terrain-design.json": "2f208268b924cfc64f506c991d63219c742a5446acb5ed30eb6350a9e2b165eb",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/geometry-signature.js": "901396450b664cd15713a789369c0293c23f33751d0c72d7caaf95cb43614897",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/terrain-field.js": "704794bd4af8e42630aad340b6303c1dee2e2b0a3f986ff9d36f6b9d29d7c1d0",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/broadleaf-support.js": "de89c340ed0e30584fcf774ac67078eb41a7d1698854a6f1a5dc5f44f534f543",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/architecture.js": "85f995682f36844db9647c2121675e2cd11042054024fa5a14ccca2dd64614fa",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/garden-materials.js": "9afd8671a559e130d0091262203d4291882dd0e6bf8f924c5f2da68b2f40d7d6",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/procedural-detail.js": "231cfbeb51b563976871d76da363677e2fc322d43a8b85de70162236019e5f0b",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/garden-rocks.js": "be2091665503a92bf4cd6a182a6d6e2d270c4400780bab76d91618eac40841e5",
+    "improvement/2026-10-04/runs/depth-balance-1905/background/distant-crowns.js": "d891b7f9291badef5c9df7140a4a078631e2cb3d7de4b4c7b80cfe7d03dfdff1",
+    "improvement/2026-10-04/runs/steady-render-2225/candidate/src/main.js": "51afa0e3995087d3fa50778dee1b931280a6a63e6fe6dbf3124c919b4dab90ef",
+    "improvement/2026-10-04/runs/steady-render-2225/candidate/src/render-partition.js": "c4ce6ad8240bdf322718384d1cdba9ac8dbc8e69f2930bc48fd7aa2fa4b72ea5",
+    "improvement/2026-10-04/runs/steady-render-2225/candidate/src/shadow-filter.js": "cf360e75d01d3b2c99ef652efb1c95060852fa5d8a7f3762127d0b74e38b99f4",
+    "improvement/2026-10-04/runs/steady-render-2225/candidate/src/style.css": "532f95b7d86a5ca4221989666e91288ffb10882e3d265bf33fff6da0bf5958b8",
+    "improvement/2026-10-04/runs/ancient-volume-0810/site/src/materials.js": "83df60dcac9879a4e35ed60a450acbea3f4e8cbfd55a34decaa5777b5ee0daca",
+    "improvement/2026-10-04/runs/ancient-volume-0810/site/src/foliage-lod.js": "b88ca2c80911a504ca00fe70ff3a6d9729fdfc90e711ac178878bdfab1a926f3"
+  },
+  "cameras": {
+    "root-pc": {
+      "yaw": 0,
+      "pitch": 10,
+      "distance": 3.65,
+      "zoom": 1,
+      "position": [
+        0,
+        1.4138158484842958,
+        3.5945482984945594
+      ],
+      "target": [
+        0,
+        0.78,
+        0
+      ]
+    },
+    "root-390": {
+      "yaw": -40,
+      "pitch": 6,
+      "distance": 3.5398307655950765,
+      "zoom": 1,
+      "position": [
+        -2.351543588847307,
+        0.9713230540133062,
+        2.680924238751195
+      ],
+      "target": [
+        -0.08864888896532536,
+        0.6013099838580915,
+        -0.015888649495553506
+      ]
+    },
+    "root-320": {
+      "yaw": -30,
+      "pitch": 6,
+      "distance": 3.282642716073322,
+      "zoom": 1,
+      "position": [
+        -1.7324109718768177,
+        0.9600399202119606,
+        2.811625720106352
+      ],
+      "target": [
+        -0.10008094397376952,
+        0.6169103216440601,
+        -0.015652822942051246
+      ]
+    }
+  },
+  "full_five_camera_evidence": "qa/corrected-r20-cross-page-framebuffer/results.json",
+  "renderer": "Exact rigid closed-leaf instance matrix display grouping and zero-contribution finite light color-pass partition; full-scene shadow rebuild; native high/mixed leaves bypass batching",
+  "form_gate_passed": false,
+  "material_preservation_gate_passed": true,
+  "next_native_change_requires_fresh_envelope_and_shadow_invalidation": true,
+  "read_only_model_file_sha256": {
+    "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ancient-volume-0810/site/public/models/hero-low.glb.gz": "d7edb168b6fd94a2ffdefb702819670bc548c44e10ee4716ca576a1c5bbd34a4",
+    "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ancient-volume-0810/site/public/models/foliage-high.glb.gz": "d8fe595dfa60595bad9796688476f3ff8d8429c109fa1b1f205a58cc456b2b10",
+    "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/ancient-volume-0810/site/public/models/hero.glb": "51163a7f41f4234850152d0b85d96513b68e07cff78266871dab97b8f5211a8a"
+  },
+  "protected_editable_native_basis": {
+    "path": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/models/edge-v02-editable.blend",
+    "sha256": "797e86664f36278c96dcf228aff734c9d7af212ef144af34a6336da31742e1e6",
+    "selected_as_current_form": false,
+    "protected_basis_only": true
+  }
+}

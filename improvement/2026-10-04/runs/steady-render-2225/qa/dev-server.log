@@ -1,0 +1,17 @@
+
+> bonsai-steady-render-v01@0.1.0 dev
+> node ../../../../../node_modules/vite/bin/vite.js --config vite.config.mjs --configLoader native
+
+10:31:13 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+
+  VITE v8.2.2  ready in 135 ms
+
+  ➜  Local:   http://127.0.0.1:5214/compare/r22/
+10:49:22 PM [vite] (client) page reload src/main.js
+10:51:28 PM [vite] (client) [console.warn] Static garden retained: Cannot read properties of null (reading 'state')
+10:56:45 PM [vite] (client) page reload src/render-partition.js
+11:07:56 PM [vite] (client) page reload src/main.js
+11:10:12 PM [vite] (client) page reload src/render-partition.js
+11:13:11 PM [vite] (client) page reload index.html
+11:13:11 PM [vite] (client) page reload src/main.js
+11:14:25 PM [vite] (client) page reload dist/index.html
