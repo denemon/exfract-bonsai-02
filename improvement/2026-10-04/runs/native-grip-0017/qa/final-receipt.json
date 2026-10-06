@@ -1,0 +1,43 @@
+{
+  "stage": 23,
+  "run": "native-grip-0017",
+  "sealed_at_jst": "2026-10-06T00:50:18.330936+09:00",
+  "manifest_sha256": "7fade24810da2af5fc762de7695eeaa259ad869b844a35fa44dae3b182462bf6",
+  "capacity_sha256": "120816b589cc4ec90f92d5f6d6786bd25ef1cd2cfbd49f00f7809b9af00cdfe0",
+  "finish_sha256": "ab61f87dba7b6d46968db32949edd7909032ab6f7a986693f95552cd38e57ff3",
+  "files": 103,
+  "symlinks": 0,
+  "adopted": false,
+  "form_gate_passed": false,
+  "material_finish_started": false,
+  "root_preview": "http://127.0.0.1:5214/",
+  "trial_preview": "http://127.0.0.1:5214/compare/r23/",
+  "selected_root": "steady-render-2225",
+  "root_photo_identity": true,
+  "review_sha256": {
+    "gray-v01": "35ec748f89ce9b3d5b8f4c1d927a213ab373b271457ae1e9435094527503b48d",
+    "gray-v02-final": "346878710d4f3bb1a7b4855afed79409438c0f1ef599588a4284170d8675d129"
+  },
+  "old_states_protected": 23,
+  "new_state_sha256": "e7e425b04d00bb0cd01e8b56f5664ede9e696518c6a3d9ee4910b5859f95b14e",
+  "coordinator_sha256": {
+    "HANDOFF.md": "de2c45629b1e1abdfaf9a30596b29475550d5f9bbcffbff3a31691feecfbfb22",
+    "IMPROVEMENT_PLAN.md": "7fcc9ac044623f5e7d6212ab8a98c665d69979670a628586a51d823b61303d6e",
+    "run-state.json": "99ba4a3e981b8ab47747bedd76c3c091d66f395f62dc42fc3398030f899c524a"
+  },
+  "critical_old_integrity_sha256": "a1e7c2104463cd0546bbe5e2f549c2e6ab6f2a1ab356a978df70689c2f52596d",
+  "native_basis_sha256_after": "797e86664f36278c96dcf228aff734c9d7af212ef144af34a6336da31742e1e6",
+  "writer_lock_released": true,
+  "preview_pid": 14142,
+  "elapsed_minutes": 30.676344466666666,
+  "overall_goal_complete": false,
+  "library_image_ids": [],
+  "remaining_blockers": [
+    "Native shape gate NG: S pipe/round arms/root hems",
+    "Selected scene full premium quality unfinished",
+    "CPU/cold3D/idle unresolved",
+    "Real phone/Safari/thermal/runtime model metadata unverified",
+    "Historical external26paths/4manifest missing",
+    "Library IDs0, no retry"
+  ]
+}

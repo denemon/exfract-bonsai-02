@@ -1,0 +1,27 @@
+{
+  "version": "grip-v02",
+  "vertices": 18002,
+  "triangles": 36000,
+  "pre_decimate_triangles": 181148,
+  "volume": 0.09606201749872828,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "nonadjacent_intersections": 0,
+  "components": [
+    18002
+  ],
+  "minimum_area": 7.92003049809864e-07,
+  "bounds": {
+    "min": [
+      -0.9887073636054993,
+      -0.25588589906692505,
+      0.2920006513595581
+    ],
+    "max": [
+      0.981614887714386,
+      0.39265918731689453,
+      1.9529772996902466
+    ]
+  },
+  "aesthetic_pass": false
+}

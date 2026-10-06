@@ -1,0 +1,51 @@
+{
+  "version": "grip-v01",
+  "positions_sha256": "21f2a6b028919a475e15cdfea854f5e7a7e4281cbd95eaf0358ea49124ecc232",
+  "faces_sha256": "d9be3a796567448982e8ccfb40d152eb6aeb570105f1beb28297ed369ba4fe75",
+  "normals_sha256": "fac83df0bc37009cecd4ec77bb5c54650aa8149a07848c0ef04fa11c2db2c916",
+  "uv_sha256": {
+    "Main growth surface": "7177dd56f482446769938e51e78ba0460a6befa610b62a52340f5e85d7cc9237",
+    "Branch growth surface": "ac250297688a6c6a54f2fc1b6d14186797b1dea42893f854f4edde47cbb3197f",
+    "Collar transition and calibre": "68e23d1a4183347c63e966400ba890e4ea709b4b4c60cc949f118983cc439103"
+  },
+  "color_sha256": "7cbc2ce5d57cce68850a383f87c7c6980239ba084a9b134f09b688ba8c76620f",
+  "groups": {
+    "main": 4422,
+    "first-left": 2119,
+    "rear-ascending": 1960,
+    "right-crown": 2067,
+    "upper-left": 1071,
+    "low-right": 1720,
+    "root-left": 1794,
+    "root-front-right": 1509,
+    "root-rear": 1340
+  },
+  "geometry": {
+    "version": "grip-v01",
+    "vertices": 18002,
+    "triangles": 36000,
+    "pre_decimate_triangles": 181956,
+    "volume": 0.10775265884682614,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "nonadjacent_intersections": 0,
+    "components": [
+      18002
+    ],
+    "minimum_area": 5.189606895328325e-07,
+    "bounds": {
+      "min": [
+        -0.985258936882019,
+        -0.28028604388237,
+        0.2600889503955841
+      ],
+      "max": [
+        0.9800572395324707,
+        0.40732353925704956,
+        1.9529774188995361
+      ]
+    },
+    "aesthetic_pass": false
+  },
+  "form_frozen": false
+}

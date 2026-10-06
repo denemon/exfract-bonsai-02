@@ -1,0 +1,78 @@
+{
+  "scope": "Three actual completed PC390320 captures, fixed R22 camera/DPR/renderer/pose, same hardware. JPEG byte identity stronger than visual comparison; not raw RGBA comparison.",
+  "rows": [
+    {
+      "name": "root-pc",
+      "old": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/steady-render-2225/qa/selected-root-and-separated-trials-final/root-pc.jpg",
+      "new": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/native-grip-0017/qa/final-selected-root-and-gray-envelope/root-pc.jpg",
+      "exact_jpeg_bytes": true,
+      "decoded_pixels_identical": true,
+      "sha256": "00cbe3e6382a177b991f39c39bd70a3025ff7933e80989797e808244d9fc99d7",
+      "native_hero_sha256": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d",
+      "physical_scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "camera": {
+        "position": [
+          0,
+          1.4138158484842958,
+          3.5945482984945594
+        ],
+        "target": [
+          0,
+          1.2401676708173655,
+          2.6097405454823512
+        ],
+        "fov": 38,
+        "exposure": 1
+      }
+    },
+    {
+      "name": "root-390",
+      "old": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/steady-render-2225/qa/selected-root-and-separated-trials-final/root-390.jpg",
+      "new": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/native-grip-0017/qa/final-selected-root-and-gray-envelope/root-390.jpg",
+      "exact_jpeg_bytes": true,
+      "decoded_pixels_identical": true,
+      "sha256": "a0bf3c9d3eedce549adbd79f4d2509aaab7799ce69ba8e02c880490ea0908ac8",
+      "native_hero_sha256": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d",
+      "physical_scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "camera": {
+        "position": [
+          -2.351543588847307,
+          0.9713230540133062,
+          2.680924238751195
+        ],
+        "target": [
+          -1.712277236942608,
+          0.8667945907456527,
+          1.9190762672441752
+        ],
+        "fov": 54,
+        "exposure": 1
+      }
+    },
+    {
+      "name": "root-320",
+      "old": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/steady-render-2225/qa/selected-root-and-separated-trials-final/root-320.jpg",
+      "new": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/native-grip-0017/qa/final-selected-root-and-gray-envelope/root-320.jpg",
+      "exact_jpeg_bytes": true,
+      "decoded_pixels_identical": true,
+      "sha256": "fd7bdde7d1a43772f73f73a4f50f76b01604f0022d5db1a1f6eafef3510d6df7",
+      "native_hero_sha256": "7b41aaf17bbf8c4689ae3a67986ea05df8e7403f30ed221bbe1fcff8e8e43e8d",
+      "physical_scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "camera": {
+        "position": [
+          -1.7324109718768177,
+          0.9600399202119606,
+          2.811625720106352
+        ],
+        "target": [
+          -1.2351500241926812,
+          0.8555114569443072,
+          1.9503444940975778
+        ],
+        "fov": 54,
+        "exposure": 1
+      }
+    }
+  ],
+  "overall_aesthetic_gate_pass": false
+}

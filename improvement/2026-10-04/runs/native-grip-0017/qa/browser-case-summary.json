@@ -1,0 +1,633 @@
+{
+  "case_count": 31,
+  "logs": 0,
+  "cases": [
+    {
+      "name": "census",
+      "dataset": "native-wood-census",
+      "viewport": [
+        900,
+        720
+      ],
+      "ready": true,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.21590255437340933,
+        "right": 0.7609084726875512,
+        "top": 0.24997346052574448,
+        "bottom": 0.8244515104325574
+      }
+    },
+    {
+      "name": "bonsai",
+      "dataset": "gray-v01-form-views",
+      "viewport": [
+        1000,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v01",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.024117199478724538,
+        "right": 0.9398749743575374,
+        "top": 0.13011605512963642,
+        "bottom": 0.990176903108565
+      }
+    },
+    {
+      "name": "wood",
+      "dataset": "gray-v01-form-views",
+      "viewport": [
+        900,
+        720
+      ],
+      "ready": true,
+      "authoring_version": "grip-v01",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": -0.4677432684912619,
+        "right": 1.4511217514769852,
+        "top": -0.47874319726866754,
+        "bottom": 1.570083052155361
+      }
+    },
+    {
+      "name": "bonsai-left",
+      "dataset": "gray-v01-form-views",
+      "viewport": [
+        1000,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v01",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.03084684243660013,
+        "right": 0.8766020671844204,
+        "top": 0.1364665147359846,
+        "bottom": 1.0504076936491096
+      }
+    },
+    {
+      "name": "bonsai-right",
+      "dataset": "gray-v01-form-views",
+      "viewport": [
+        1000,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v01",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.0951019021149575,
+        "right": 0.9228222071404497,
+        "top": 0.12290294521567785,
+        "bottom": 1.0288033259903457
+      }
+    },
+    {
+      "name": "before-pc",
+      "dataset": "gray-v01-fixed-garden",
+      "viewport": [
+        1440,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "pc",
+      "dataset": "gray-v01-fixed-garden",
+      "viewport": [
+        1440,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v01",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "mobile-390",
+      "dataset": "gray-v01-fixed-garden",
+      "viewport": [
+        390,
+        844
+      ],
+      "ready": true,
+      "authoring_version": "grip-v01",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "mobile-320",
+      "dataset": "gray-v01-fixed-garden",
+      "viewport": [
+        320,
+        568
+      ],
+      "ready": true,
+      "authoring_version": "grip-v01",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      }
+    },
+    {
+      "name": "pc",
+      "dataset": "final-trial-built-pc390320",
+      "viewport": [
+        1440,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "mobile-390",
+      "dataset": "final-trial-built-pc390320",
+      "viewport": [
+        390,
+        844
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "mobile-320",
+      "dataset": "final-trial-built-pc390320",
+      "viewport": [
+        320,
+        568
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      }
+    },
+    {
+      "name": "trial-320-context-lost",
+      "dataset": "related-static-and-idle",
+      "viewport": [
+        320,
+        568
+      ],
+      "ready": false,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      }
+    },
+    {
+      "name": "root-390-context-lost",
+      "dataset": "related-static-and-idle",
+      "viewport": [
+        390,
+        844
+      ],
+      "ready": false,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "trial-390-reduced-idle",
+      "dataset": "related-static-and-idle",
+      "viewport": [
+        390,
+        844
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "before-pc",
+      "dataset": "matched-before-gray-wood-and-twigs",
+      "viewport": [
+        1440,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "before-390",
+      "dataset": "matched-before-gray-wood-and-twigs",
+      "viewport": [
+        390,
+        844
+      ],
+      "ready": true,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "before-320",
+      "dataset": "matched-before-gray-wood-and-twigs",
+      "viewport": [
+        320,
+        568
+      ],
+      "ready": true,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      }
+    },
+    {
+      "name": "root-pc",
+      "dataset": "final-selected-root-and-gray-envelope",
+      "viewport": [
+        1440,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "root-390",
+      "dataset": "final-selected-root-and-gray-envelope",
+      "viewport": [
+        390,
+        844
+      ],
+      "ready": true,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "root-320",
+      "dataset": "final-selected-root-and-gray-envelope",
+      "viewport": [
+        320,
+        568
+      ],
+      "ready": true,
+      "authoring_version": "edge-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      }
+    },
+    {
+      "name": "pc-both",
+      "dataset": "final-selected-root-and-gray-envelope",
+      "viewport": [
+        1440,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "mobile-tall",
+      "dataset": "final-selected-root-and-gray-envelope",
+      "viewport": [
+        320,
+        844
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.03685982028445689,
+        "right": 0.963696062728812,
+        "top": 0.283186702768788,
+        "bottom": 0.7057906627011863
+      }
+    },
+    {
+      "name": "wide",
+      "dataset": "final-selected-root-and-gray-envelope",
+      "viewport": [
+        1920,
+        800
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.32718909085246783,
+        "right": 0.6590575628492924,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "pc",
+      "dataset": "gray-v02-fixed-garden",
+      "viewport": [
+        1440,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      }
+    },
+    {
+      "name": "mobile-390",
+      "dataset": "gray-v02-fixed-garden",
+      "viewport": [
+        390,
+        844
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      }
+    },
+    {
+      "name": "mobile-320",
+      "dataset": "gray-v02-fixed-garden",
+      "viewport": [
+        320,
+        568
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      }
+    },
+    {
+      "name": "wood",
+      "dataset": "gray-v02-fixed-garden",
+      "viewport": [
+        900,
+        720
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": -0.4677432684912619,
+        "right": 1.4511217514769852,
+        "top": -0.47874319726866754,
+        "bottom": 1.570083052155361
+      }
+    },
+    {
+      "name": "bonsai",
+      "dataset": "gray-v02-fixed-garden",
+      "viewport": [
+        1000,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.07822475163914971,
+        "right": 0.8889877364855923,
+        "top": 0.17144032906151496,
+        "bottom": 0.932249275190367
+      }
+    },
+    {
+      "name": "bonsai-left",
+      "dataset": "gray-v02-fixed-garden",
+      "viewport": [
+        1000,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.09183527635714611,
+        "right": 0.8380029744381203,
+        "top": 0.17505612005741517,
+        "bottom": 0.9809164048687371
+      }
+    },
+    {
+      "name": "bonsai-right",
+      "dataset": "gray-v02-fixed-garden",
+      "viewport": [
+        1000,
+        900
+      ],
+      "ready": true,
+      "authoring_version": "grip-v02",
+      "scene_sha256": "dadb0605015e297c8a91edcedb3f7c07db4b5a95f305534475ae34310f4880cc",
+      "field_sha256": "4bedbbe02d16e01b661f942107c643660e6f28f1740f783508a85a9a73d755dc",
+      "visible_text": "",
+      "overflow": false,
+      "bounds": {
+        "left": 0.13607006562542007,
+        "right": 0.8675060172120067,
+        "top": 0.1673876520120825,
+        "bottom": 0.9635968348194212
+      }
+    }
+  ],
+  "profile_observed_peak_allocated_bytes": 71122944,
+  "all_raw_retained": true,
+  "whole_tree_cut": {
+    "gray-v01-form-views/bonsai-left": "Diagnostic framing clipped pot base; superseded by all three v02 whole views distance3.25, bounds within screen",
+    "gray-v01-form-views/bonsai-right": "Diagnostic framing clipped pot base; superseded",
+    "wood": "Intentional trunk close-up crops crowns/pot, not ordinary mobile composition"
+  }
+}
