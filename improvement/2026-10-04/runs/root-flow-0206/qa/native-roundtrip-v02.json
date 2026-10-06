@@ -1,0 +1,26 @@
+{
+  "version": "root-v02",
+  "method": "Fresh Blender process reopen actual native, verify every position normal face and corner UV/color against export record; no source regeneration",
+  "all_native_fields_unchanged": true,
+  "checks": {
+    "positions_sha256": true,
+    "faces_sha256": true,
+    "normals_sha256": true,
+    "uv_sha256": true,
+    "color_sha256": true
+  },
+  "actual": {
+    "positions_sha256": "7282a9704cf47ca018010e4e0ac08fcbffbc80af7ec04e1821ea2b57cce7d656",
+    "faces_sha256": "bf32bac7dbe83d739832f69f7d3d89c48f63dd0423f2f968ac6462dac97aa33f",
+    "normals_sha256": "9cf4cc2211e44a7310d4f75497d6506186b95214d5715de647b405fd626a063e",
+    "uv_sha256": {
+      "Growth flow": "8b6febbd1467c1f3e16d508998873729616ac3277e14e1b6f76189f75ddf9b7b",
+      "Branch flow": "7df9709987b2bc9862eaf694d5f27658f3781ee067d055aab9a9894e4844d4f0",
+      "Branch transition": "b1b7f8c83f3c27ec06d54d15affe7ad2499d5bfc729c13a37a599b41f6f1ba72"
+    },
+    "color_sha256": "4f3077d5bc7b2f8cf05afb4abde26a9f5a00ec58795f92376920b92629e25bea"
+  },
+  "native_sha256": "f901107ff14c62569074a6770db4954496b7b47ee25e649dcfc0db978f1beaac",
+  "glb_sha256": "c4dc0e9b9d98805bf66df6204adfa9972e74e85d92d89c140fa2260cf3255534",
+  "closed_structural_mesh_not_aesthetic_approval": true
+}

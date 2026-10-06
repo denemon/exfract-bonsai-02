@@ -1,0 +1,69 @@
+{
+  "shape": "root-v02",
+  "finish": "normal-v4-fissure-flow",
+  "inline_and_full_same_completed_scene": true,
+  "separate_five_default_cameras": true,
+  "versioned_urls_avoid_old_trial_image_cache": true,
+  "entries": [
+    {
+      "name": "pc",
+      "size": [
+        1440,
+        900
+      ],
+      "bytes": 237756,
+      "full_sha256": "fe489d1fc8164776762f6b3b6e906300e0a235db9f528fce178d9e0690ad553e",
+      "inline_sha256": "7715b33c1128a4f0ffacfe831b7b6f3f1f3a472c15b704e4a598b0c809e8a7da",
+      "source": "Actual Mac Chrome default root-v02 compact/native normalv4, no artificial fixed pose override",
+      "ready_state": "qa/special-stills/results.json"
+    },
+    {
+      "name": "wide",
+      "size": [
+        1800,
+        750
+      ],
+      "bytes": 226398,
+      "full_sha256": "b4605afb14e67003d8819ed6acd5e34d9671991ed82caa6560218da7672fd176",
+      "inline_sha256": "0e0b1df5f6fb773cf9d02242e503aee7c88a9af679663665572da728a6f0bb38",
+      "source": "Actual Mac Chrome default root-v02 compact/native normalv4, no artificial fixed pose override",
+      "ready_state": "qa/special-stills/results.json"
+    },
+    {
+      "name": "mobile-390",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 72206,
+      "full_sha256": "9200ea6242484a53af6042ca7eba58b72cd9a6df97cdd87259e30ec9581216ce",
+      "inline_sha256": "ba0f1c2eb5b49a95f59453b7f42c0e721103d1b5fb5608a6aa22cef8aede992e",
+      "source": "Actual Mac Chrome default root-v02 compact/native normalv4, no artificial fixed pose override",
+      "ready_state": "qa/special-stills/results.json"
+    },
+    {
+      "name": "mobile-320",
+      "size": [
+        320,
+        568
+      ],
+      "bytes": 39960,
+      "full_sha256": "a56d7f75a35f7514940334e38bef2761b43bd5f765bcbba56cee8462b7d62f96",
+      "inline_sha256": "30b1674eee6cdbf62926f76350ffb4d1f700fbe695d47c77f05ea7c342657923",
+      "source": "Actual Mac Chrome default root-v02 compact/native normalv4, no artificial fixed pose override",
+      "ready_state": "qa/special-stills/results.json"
+    },
+    {
+      "name": "mobile-tall",
+      "size": [
+        390,
+        1024
+      ],
+      "bytes": 85464,
+      "full_sha256": "99b978f4a504a12d67be3389224621136d9dffe7ec62a3dda57277f27950596b",
+      "inline_sha256": "76c72f30f9788632c4260bb42332034e414bf079e8e3d672ec5f7c97835beee6",
+      "source": "Actual Mac Chrome default root-v02 compact/native normalv4, no artificial fixed pose override",
+      "ready_state": "qa/special-stills/results.json"
+    }
+  ]
+}

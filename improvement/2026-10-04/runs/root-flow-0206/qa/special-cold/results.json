@@ -1,0 +1,595 @@
+{
+  "mode": "cold",
+  "existingChromePID": 87239,
+  "reusedExistingTab": true,
+  "results": [
+    {
+      "variant": "r22",
+      "settings": {
+        "cacheDisabled": true,
+        "latencyMs": 120,
+        "bytesPerSecond": 256000
+      },
+      "state": {
+        "ready": true,
+        "version": "edge-v02",
+        "loading": {
+          "parallelAssets": true,
+          "sharedDraco": true,
+          "woodReplacement": false,
+          "decoderWorkerLimit": 2,
+          "exactGeometrySplit": true,
+          "losslessModelGzip": true
+        },
+        "text": "",
+        "overflow": false,
+        "canvasVisibility": "visible",
+        "pictureVisibility": "hidden",
+        "currentSrc": "http://127.0.0.1:5214/compare/r22/stills/pc.webp",
+        "imgComplete": true,
+        "natural": [
+          1440,
+          900
+        ],
+        "background": "url(\"data:image/webp;base64,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\")",
+        "frames": 1,
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 3.65,
+          "zoom": 1,
+          "position": [
+            0,
+            1.4138158484842958,
+            3.5945482984945594
+          ],
+          "target": [
+            0,
+            0.78,
+            0
+          ]
+        },
+        "framing": {
+          "left": 0.2350192144395168,
+          "right": 0.7431779366042661,
+          "top": 0.20177678629023998,
+          "bottom": 0.8788265692631785
+        },
+        "reduced": true,
+        "triangles": 8732562,
+        "drawCalls": 311,
+        "programs": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "fontResources": [],
+        "remoteResources": []
+      },
+      "timing": {
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 320
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 320
+          }
+        ],
+        "completedStillMs": 1809.5
+      },
+      "actualPaintEntries": [
+        {
+          "name": "first-paint",
+          "startTime": 320
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 320
+        }
+      ],
+      "navigationToFirst3DMs": 11895.100000023842,
+      "modelLoad": {
+        "parallelAssets": true,
+        "sharedDraco": true,
+        "woodReplacement": false,
+        "decoderWorkerLimit": 2,
+        "exactGeometrySplit": true,
+        "losslessModelGzip": true
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:5214/compare/r22/assets/index-CtwaSyrC.js",
+          "duration": 1594.3999999761581,
+          "transferSize": 206522,
+          "encodedBodySize": 206222,
+          "decodedBodySize": 752469
+        },
+        {
+          "name": "http://127.0.0.1:5214/compare/r22/assets/index-DVKFpQ5r.css",
+          "duration": 129.20000004768372,
+          "transferSize": 561,
+          "encodedBodySize": 261,
+          "decodedBodySize": 439
+        },
+        {
+          "name": "http://127.0.0.1:5214/compare/r22/stills/pc.webp",
+          "duration": 1441.6000000238419,
+          "transferSize": 167468,
+          "encodedBodySize": 167168,
+          "decodedBodySize": 167168
+        },
+        {
+          "name": "http://127.0.0.1:5214/models/hero-low.glb.gz",
+          "duration": 8931,
+          "transferSize": 781779,
+          "encodedBodySize": 781479,
+          "decodedBodySize": 781479
+        },
+        {
+          "name": "http://127.0.0.1:5214/rocks/boulder_01.glb",
+          "duration": 3294.6999999284744,
+          "transferSize": 139624,
+          "encodedBodySize": 139324,
+          "decodedBodySize": 139324
+        },
+        {
+          "name": "http://127.0.0.1:5214/rocks/rock_09.glb",
+          "duration": 1605.7000000476837,
+          "transferSize": 65880,
+          "encodedBodySize": 65580,
+          "decodedBodySize": 65580
+        },
+        {
+          "name": "http://127.0.0.1:5214/bark/color.webp",
+          "duration": 1897.2000000476837,
+          "transferSize": 78996,
+          "encodedBodySize": 78696,
+          "decodedBodySize": 78696
+        },
+        {
+          "name": "http://127.0.0.1:5214/bark/normal.webp",
+          "duration": 6298.299999952316,
+          "transferSize": 291564,
+          "encodedBodySize": 291264,
+          "decodedBodySize": 291264
+        },
+        {
+          "name": "http://127.0.0.1:5214/bark/height.webp",
+          "duration": 267.39999997615814,
+          "transferSize": 5714,
+          "encodedBodySize": 5414,
+          "decodedBodySize": 5414
+        },
+        {
+          "name": "http://127.0.0.1:5214/bark/roughness.webp",
+          "duration": 434.39999997615814,
+          "transferSize": 526,
+          "encodedBodySize": 226,
+          "decodedBodySize": 226
+        },
+        {
+          "name": "http://127.0.0.1:5214/garden/mineral.webp",
+          "duration": 4980,
+          "transferSize": 195142,
+          "encodedBodySize": 194842,
+          "decodedBodySize": 194842
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/moss-color.webp",
+          "duration": 4608.5,
+          "transferSize": 126362,
+          "encodedBodySize": 126062,
+          "decodedBodySize": 126062
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/stone-boulder_01-nor_gl.webp",
+          "duration": 4716.599999904633,
+          "transferSize": 28612,
+          "encodedBodySize": 28312,
+          "decodedBodySize": 28312
+        },
+        {
+          "name": "http://127.0.0.1:5214/rocks/boulder_01_diff.webp",
+          "duration": 7565.699999928474,
+          "transferSize": 288116,
+          "encodedBodySize": 287816,
+          "decodedBodySize": 287816
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/stone-boulder_01-arm.webp",
+          "duration": 4851.100000023842,
+          "transferSize": 5752,
+          "encodedBodySize": 5452,
+          "decodedBodySize": 5452
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/stone-rock_09-nor_gl.webp",
+          "duration": 5416.800000071526,
+          "transferSize": 20046,
+          "encodedBodySize": 19746,
+          "decodedBodySize": 19746
+        },
+        {
+          "name": "http://127.0.0.1:5214/rocks/rock_09_diff.webp",
+          "duration": 6701.600000023842,
+          "transferSize": 115042,
+          "encodedBodySize": 114742,
+          "decodedBodySize": 114742
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/stone-rock_09-arm.webp",
+          "duration": 5207.899999976158,
+          "transferSize": 3914,
+          "encodedBodySize": 3614,
+          "decodedBodySize": 3614
+        },
+        {
+          "name": "http://127.0.0.1:5214/draco/draco_wasm_wrapper.js",
+          "duration": 689.0999999046326,
+          "transferSize": 12048,
+          "encodedBodySize": 11748,
+          "decodedBodySize": 58456
+        },
+        {
+          "name": "http://127.0.0.1:5214/draco/draco_decoder.wasm",
+          "duration": 2287.2000000476837,
+          "transferSize": 63758,
+          "encodedBodySize": 63458,
+          "decodedBodySize": 192420
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/moss-height.webp",
+          "duration": 623.4000000953674,
+          "transferSize": 12922,
+          "encodedBodySize": 12622,
+          "decodedBodySize": 12622
+        }
+      ],
+      "navigation": [
+        {
+          "startTime": 0,
+          "domContentLoadedEventEnd": 1809.5,
+          "responseStart": 2.200000047683716
+        }
+      ]
+    },
+    {
+      "variant": "r25",
+      "settings": {
+        "cacheDisabled": true,
+        "latencyMs": 120,
+        "bytesPerSecond": 256000
+      },
+      "state": {
+        "ready": true,
+        "version": "root-v02",
+        "finish": "normal",
+        "loading": {
+          "parallelAssets": true,
+          "sharedDraco": true,
+          "woodReplacement": true,
+          "compactNativeModel": true,
+          "noDiscardedOldWoodDecode": true,
+          "decoderWorkerLimit": 2,
+          "exactGeometrySplit": true,
+          "losslessModelGzip": true
+        },
+        "text": "",
+        "overflow": false,
+        "canvasVisibility": "visible",
+        "pictureVisibility": "hidden",
+        "currentSrc": "http://127.0.0.1:5214/compare/r25/stills/pc.webp?v=root-v02-normal-v4",
+        "imgComplete": true,
+        "natural": [
+          1440,
+          900
+        ],
+        "background": "url(\"data:image/webp;base64,UklGRj4FAABXRUJQVlA4IDIFAABwIQCdASqgAGQAPqFIn0smJCKnp9LbmPAUCWVts7ltAWQi5/8QS8pcw61zkp5r7o4BsIYShFDxW0QLY/FYpold0uPxZFAMppQNZOs6NYK/hoecKfLJjPbk5rqdoJty7pgPg+IgFnuOmrLAuplzDWIUzJDMPLtSVHnWq9VB1dmZJThVJ3W7SgdDr4hPO4bVt7UodUFPMNN3szp6qAAhQELt30pl4wZEI8yV/2UHxIEVd35FcdbxjL6gC1rXIvUwgdNGeYfBc5aL9bMn4eHYDO387rWT0Hk13/QJ8XMwHQpF2Ey6RFf+puVkIr1umF7NoDx6UqxgYkOhzUhvkhygrNN073XuK67n3uEsQ/emlDrK/TI7u8AA/vmsh8IgIvgQHlQ5m2VJ3UElXhFgK3oqASyP5pFcs3izfOmmu/D7Uuu5HR+trxRzFv6QqvNFlcYnbgi5FlN7CYhVYA4v+4GZTXa7sNVOJfiU29MVrq0pBEdnm2JBXRjf3MxqEkP2QJVDAMbtVhKagAhKBsaexYTFfsGDL1DkHk1gmqfSp8juNxGyff9C9dw3XvcIgLhDaC0vooO3o/KPu7hINwweqfH3S3qN9inN60X2UMMIcBwTXIKdIrSYOPwPrtp+RSqDYxdLKnKPU1DVNIT1SqC2W7FyDCAgmwoN3kqHqEUNZ5swrXWOQ97+K7NGTIE1iZfKAHM62jgDOmfPAaeP3IzSmge6IZ8es3Iv7G5axQUO241PEyqBCWGrRPI0zsY8jvWs/bq4lgWoeFy2TkO3udyoYVVtpTGcIotA8NdqRl4NrB/slgYajy1zcQAy4c24NJxfLvEsLPFjx7wM4yg092vgNHPVmWm2TyYV1crbCUVuAwv5PzrBpGQ6Jr4+heYrKfu6wjUK2/oDdiwAdRxZqiOdZ+JO9+GHSaP1jAAFn3vt+BFW/3n1IPVfcHBi+GR2TmPTQXQG3kbG0mRcf3fot4hus0hPpWYNOup7iP6Hx7W4K0rYeKMKMzD9YeYgXogMmF9yavXYAWOyyVyLPyKVChxJk67+F3zOs3+QxPRuTH60JkuUXnPHG8q1DQNfgErag0pDyi3qdJ9nTWFqRf82Ht8iJHCZhSLcUeM+QOxQ6RgcasHqcrHzmy5wtqsNEnrAbJlNDVb15lbJM1v1+AjVzbaLpnX/bJpH3Pw5jQRcqIJeH8mD7ibfdcDaM70/gv7pERrpsB+z1ULHiwOq6BgkzxGXwbbFJXIV4S0hOUV1i0K5+pZcE81OPZ/j/jktSpnUmNUerif1QnoDia7aT81Wuu7nm1gE82i9DQSqrkZFt8bJpH1AWTkcwPlQjuezNZlU0oTbq8CsNwDu3CTfScPFUnorvnSH0q29RjPawENSvlf91BE5hWlI46+jI4RIhfeV5DCXxk0kxZsGwVQamiOnOdq/Ku0NvGo7n9F9qMWPBnLkyLbTWLyrMAJ5RJTfTIUq0zciKsc1u8sC9NaVxEVsqtKhRb76mmTcvBrcI8bXJ05OAf12dnxltJ7TqNz5q69dOe5S0nDJBUfiuEUYtNUEMaTBXYO0CbMmKIiqg2umH1d4kY8QOIi1zG3CPg0sWl43hwWV1gI9VWtI3URCxuYM+Ocj/5xqyV1Ts64fUQlTpSIwZzKwIORH9HmYY90bTCUbwbcCzTFZRAJlydzuiMNCDm/2peEK0PdCxQWxswfjqrha1yz6xMScDyjTeTl+EY9EH4HcOM+9WtFgTfclrKqshnJdobi1yZNEjQDmemnEW77P/WQuphycYAAA\")",
+        "frames": 1,
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 3.65,
+          "zoom": 1,
+          "position": [
+            0,
+            1.4138158484842958,
+            3.5945482984945594
+          ],
+          "target": [
+            0,
+            0.78,
+            0
+          ]
+        },
+        "framing": {
+          "left": 0.2350192144395168,
+          "right": 0.7431779366042661,
+          "top": 0.20177678629023998,
+          "bottom": 0.8788265692631785
+        },
+        "reduced": true,
+        "triangles": 8701538,
+        "drawCalls": 311,
+        "programs": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "fontResources": [],
+        "remoteResources": []
+      },
+      "timing": {
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 312
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 312
+          }
+        ],
+        "completedStillMs": 2069.600000023842
+      },
+      "actualPaintEntries": [
+        {
+          "name": "first-paint",
+          "startTime": 312
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 312
+        }
+      ],
+      "navigationToFirst3DMs": 11983,
+      "modelLoad": {
+        "parallelAssets": true,
+        "sharedDraco": true,
+        "woodReplacement": true,
+        "compactNativeModel": true,
+        "noDiscardedOldWoodDecode": true,
+        "decoderWorkerLimit": 2,
+        "exactGeometrySplit": true,
+        "losslessModelGzip": true
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:5214/compare/r25/assets/index-CbSB7xzx.js",
+          "duration": 1610.7999999523163,
+          "transferSize": 189312,
+          "encodedBodySize": 189012,
+          "decodedBodySize": 706603
+        },
+        {
+          "name": "http://127.0.0.1:5214/compare/r25/assets/index-DVKFpQ5r.css",
+          "duration": 134.39999997615814,
+          "transferSize": 561,
+          "encodedBodySize": 261,
+          "decodedBodySize": 439
+        },
+        {
+          "name": "http://127.0.0.1:5214/compare/r25/stills/pc.webp?v=root-v02-normal-v4",
+          "duration": 1907.8999999761581,
+          "transferSize": 238056,
+          "encodedBodySize": 237756,
+          "decodedBodySize": 237756
+        },
+        {
+          "name": "http://127.0.0.1:5214/compare/r25/models/hero-root-v02.glb.gz",
+          "duration": 8486.5,
+          "transferSize": 661694,
+          "encodedBodySize": 661394,
+          "decodedBodySize": 806648
+        },
+        {
+          "name": "http://127.0.0.1:5214/rocks/boulder_01.glb",
+          "duration": 3270.5,
+          "transferSize": 139624,
+          "encodedBodySize": 139324,
+          "decodedBodySize": 139324
+        },
+        {
+          "name": "http://127.0.0.1:5214/rocks/rock_09.glb",
+          "duration": 1577.5,
+          "transferSize": 65880,
+          "encodedBodySize": 65580,
+          "decodedBodySize": 65580
+        },
+        {
+          "name": "http://127.0.0.1:5214/bark/color.webp",
+          "duration": 1881.1000000238419,
+          "transferSize": 78996,
+          "encodedBodySize": 78696,
+          "decodedBodySize": 78696
+        },
+        {
+          "name": "http://127.0.0.1:5214/bark/normal.webp",
+          "duration": 6321.800000071526,
+          "transferSize": 291564,
+          "encodedBodySize": 291264,
+          "decodedBodySize": 291264
+        },
+        {
+          "name": "http://127.0.0.1:5214/bark/height.webp",
+          "duration": 511.7000000476837,
+          "transferSize": 5714,
+          "encodedBodySize": 5414,
+          "decodedBodySize": 5414
+        },
+        {
+          "name": "http://127.0.0.1:5214/bark/roughness.webp",
+          "duration": 663.7000000476837,
+          "transferSize": 526,
+          "encodedBodySize": 226,
+          "decodedBodySize": 226
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/moss-color.webp",
+          "duration": 4588.700000047684,
+          "transferSize": 126362,
+          "encodedBodySize": 126062,
+          "decodedBodySize": 126062
+        },
+        {
+          "name": "http://127.0.0.1:5214/garden/mineral.webp",
+          "duration": 5183.600000023842,
+          "transferSize": 195142,
+          "encodedBodySize": 194842,
+          "decodedBodySize": 194842
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/stone-boulder_01-nor_gl.webp",
+          "duration": 4699.399999976158,
+          "transferSize": 28612,
+          "encodedBodySize": 28312,
+          "decodedBodySize": 28312
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/stone-boulder_01-arm.webp",
+          "duration": 4827.200000047684,
+          "transferSize": 5752,
+          "encodedBodySize": 5452,
+          "decodedBodySize": 5452
+        },
+        {
+          "name": "http://127.0.0.1:5214/rocks/rock_09_diff.webp",
+          "duration": 6719.5,
+          "transferSize": 115042,
+          "encodedBodySize": 114742,
+          "decodedBodySize": 114742
+        },
+        {
+          "name": "http://127.0.0.1:5214/rocks/boulder_01_diff.webp",
+          "duration": 7583.399999976158,
+          "transferSize": 288116,
+          "encodedBodySize": 287816,
+          "decodedBodySize": 287816
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/stone-rock_09-nor_gl.webp",
+          "duration": 5413.399999976158,
+          "transferSize": 20046,
+          "encodedBodySize": 19746,
+          "decodedBodySize": 19746
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/stone-rock_09-arm.webp",
+          "duration": 5413.799999952316,
+          "transferSize": 3914,
+          "encodedBodySize": 3614,
+          "decodedBodySize": 3614
+        },
+        {
+          "name": "http://127.0.0.1:5214/draco/draco_wasm_wrapper.js",
+          "duration": 702,
+          "transferSize": 12048,
+          "encodedBodySize": 11748,
+          "decodedBodySize": 58456
+        },
+        {
+          "name": "http://127.0.0.1:5214/draco/draco_decoder.wasm",
+          "duration": 2315.2000000476837,
+          "transferSize": 63758,
+          "encodedBodySize": 63458,
+          "decodedBodySize": 192420
+        },
+        {
+          "name": "http://127.0.0.1:5214/materials/moss-height.webp",
+          "duration": 610.5999999046326,
+          "transferSize": 12922,
+          "encodedBodySize": 12622,
+          "decodedBodySize": 12622
+        },
+        {
+          "name": "http://127.0.0.1:5214/compare/r25/materials/growth-fissures.webp",
+          "duration": 562.3999999761581,
+          "transferSize": 110478,
+          "encodedBodySize": 110178,
+          "decodedBodySize": 110178
+        }
+      ],
+      "navigation": [
+        {
+          "startTime": 0,
+          "domContentLoadedEventEnd": 1823.6000000238419,
+          "responseStart": 2.100000023841858
+        }
+      ]
+    }
+  ],
+  "logs": [],
+  "passed": true
+}

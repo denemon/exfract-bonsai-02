@@ -1,0 +1,397 @@
+{
+  "version": "root-v02",
+  "source_native_sha256": "a57b48d73fc06360bb9d6de79a7c8f8568ccc23b959882ae201f43f83245fbba",
+  "local_control_changes": [
+    {
+      "vertex": 10,
+      "old": [
+        -0.17499999701976776,
+        -0.13500000536441803,
+        0.42500001192092896
+      ],
+      "new": [
+        -0.175,
+        -0.146,
+        0.437
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 19,
+      "old": [
+        -0.21400000154972076,
+        -0.004999999888241291,
+        0.42800000309944153
+      ],
+      "new": [
+        -0.214,
+        -0.015,
+        0.446
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 18,
+      "old": [
+        -0.17000000178813934,
+        0.12999999523162842,
+        0.4180000126361847
+      ],
+      "new": [
+        -0.17,
+        0.15,
+        0.43
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 14,
+      "old": [
+        0.17499999701976776,
+        -0.11500000208616257,
+        0.4189999997615814
+      ],
+      "new": [
+        0.15,
+        -0.126,
+        0.435
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 15,
+      "old": [
+        0.2199999988079071,
+        0.02199999988079071,
+        0.43299999833106995
+      ],
+      "new": [
+        0.185,
+        0.012,
+        0.449
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 13,
+      "old": [
+        0.12999999523162842,
+        -0.10999999940395355,
+        0.39800000190734863
+      ],
+      "new": [
+        0.113,
+        -0.124,
+        0.403
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 174,
+      "old": [
+        -0.30158403515815735,
+        -0.06229376792907715,
+        0.3928378224372864
+      ],
+      "new": [
+        -0.2875840365886688,
+        -0.05361127480864525,
+        0.4148378372192383
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 175,
+      "old": [
+        -0.2713510990142822,
+        -0.13562512397766113,
+        0.36468541622161865
+      ],
+      "new": [
+        -0.2573511004447937,
+        -0.1562751680612564,
+        0.38668543100357056
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 176,
+      "old": [
+        -0.2524159252643585,
+        -0.1557062417268753,
+        0.45316219329833984
+      ],
+      "new": [
+        -0.23841592669487,
+        -0.18438874185085297,
+        0.47516220808029175
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 177,
+      "old": [
+        -0.28264886140823364,
+        -0.08237487077713013,
+        0.48131459951400757
+      ],
+      "new": [
+        -0.2686488628387451,
+        -0.08172482252120972,
+        0.5033146142959595
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 186,
+      "old": [
+        0.2519568204879761,
+        -0.19249549508094788,
+        0.3312190771102905
+      ],
+      "new": [
+        0.22831329703330994,
+        -0.2104955017566681,
+        0.34121906757354736
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 187,
+      "old": [
+        0.3131336271762848,
+        -0.1573018580675125,
+        0.33827143907546997
+      ],
+      "new": [
+        0.2803135812282562,
+        -0.17530186474323273,
+        0.3482714295387268
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 188,
+      "old": [
+        0.3100431561470032,
+        -0.16150450706481934,
+        0.42278093099594116
+      ],
+      "new": [
+        0.2776866853237152,
+        -0.17950451374053955,
+        0.432780921459198
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 189,
+      "old": [
+        0.24886631965637207,
+        -0.1966981440782547,
+        0.4157285690307617
+      ],
+      "new": [
+        0.22568637132644653,
+        -0.21469815075397491,
+        0.42572855949401855
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    }
+  ],
+  "protected_control_count": 308,
+  "protected_control_positions_sha256": "3159086b1fe4dcc9d4c5930fb71a658aedb1e488653e64e846ffb4bda57ef937",
+  "positions_sha256": "7282a9704cf47ca018010e4e0ac08fcbffbc80af7ec04e1821ea2b57cce7d656",
+  "faces_sha256": "bf32bac7dbe83d739832f69f7d3d89c48f63dd0423f2f968ac6462dac97aa33f",
+  "normals_sha256": "9cf4cc2211e44a7310d4f75497d6506186b95214d5715de647b405fd626a063e",
+  "uv_sha256": {
+    "Growth flow": "8b6febbd1467c1f3e16d508998873729616ac3277e14e1b6f76189f75ddf9b7b",
+    "Branch flow": "7df9709987b2bc9862eaf694d5f27658f3781ee067d055aab9a9894e4844d4f0",
+    "Branch transition": "b1b7f8c83f3c27ec06d54d15affe7ad2499d5bfc729c13a37a599b41f6f1ba72"
+  },
+  "color_sha256": "4f3077d5bc7b2f8cf05afb4abde26a9f5a00ec58795f92376920b92629e25bea",
+  "geometry": {
+    "version": "root-v02",
+    "control_vertices": 322,
+    "control_faces": 354,
+    "evaluated_vertices": 5394,
+    "triangles": 10784,
+    "volume": 0.09121463171584226,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "nonadjacent_intersections": 0,
+    "intersection_centres": [],
+    "root_soil": [
+      {
+        "id": "root-left",
+        "cap_burial": [
+          {
+            "position": [
+              -0.46915701031684875,
+              -0.06769785284996033,
+              0.2592005431652069
+            ],
+            "soil_z": 0.4019981622695923,
+            "below_soil": 0.14279761910438538
+          },
+          {
+            "position": [
+              -0.45785441994667053,
+              -0.09550991654396057,
+              0.2424238622188568
+            ],
+            "soil_z": 0.40225768089294434,
+            "below_soil": 0.15983381867408752
+          },
+          {
+            "position": [
+              -0.4808429777622223,
+              -0.1143021434545517,
+              0.26079943776130676
+            ],
+            "soil_z": 0.4027836322784424,
+            "below_soil": 0.14198419451713562
+          },
+          {
+            "position": [
+              -0.4921455681324005,
+              -0.08649007976055145,
+              0.27757611870765686
+            ],
+            "soil_z": 0.4011629819869995,
+            "below_soil": 0.12358686327934265
+          }
+        ]
+      },
+      {
+        "id": "root-right-front",
+        "cap_burial": [
+          {
+            "position": [
+              0.34426653385162354,
+              -0.235765278339386,
+              0.2948770821094513
+            ],
+            "soil_z": 0.4032151699066162,
+            "below_soil": 0.10833808779716492
+          },
+          {
+            "position": [
+              0.3588200509548187,
+              -0.19632035493850708,
+              0.28898531198501587
+            ],
+            "soil_z": 0.4077104330062866,
+            "below_soil": 0.11872512102127075
+          },
+          {
+            "position": [
+              0.3857334852218628,
+              -0.20023471117019653,
+              0.3251229226589203
+            ],
+            "soil_z": 0.40682506561279297,
+            "below_soil": 0.08170214295387268
+          },
+          {
+            "position": [
+              0.3711799681186676,
+              -0.23967963457107544,
+              0.3310146927833557
+            ],
+            "soil_z": 0.40343236923217773,
+            "below_soil": 0.07241767644882202
+          }
+        ]
+      },
+      {
+        "id": "root-rear",
+        "cap_burial": [
+          {
+            "position": [
+              0.10795649141073227,
+              0.3187766671180725,
+              0.3037659823894501
+            ],
+            "soil_z": 0.39469873905181885,
+            "below_soil": 0.09093275666236877
+          },
+          {
+            "position": [
+              0.07437881827354431,
+              0.33396631479263306,
+              0.2911710739135742
+            ],
+            "soil_z": 0.39386284351348877,
+            "below_soil": 0.10269176959991455
+          },
+          {
+            "position": [
+              0.0800435021519661,
+              0.36122334003448486,
+              0.3162340223789215
+            ],
+            "soil_z": 0.39314162731170654,
+            "below_soil": 0.07690760493278503
+          },
+          {
+            "position": [
+              0.11362117528915405,
+              0.3460336923599243,
+              0.32882893085479736
+            ],
+            "soil_z": 0.39347636699676514,
+            "below_soil": 0.06464743614196777
+          }
+        ]
+      }
+    ],
+    "protected_terminal_nodes": [
+      {
+        "route": "left lower primary",
+        "protected_nodes": 327,
+        "unchanged": true
+      },
+      {
+        "route": "left lower rear fork",
+        "protected_nodes": 221,
+        "unchanged": true
+      },
+      {
+        "route": "left rear primary",
+        "protected_nodes": 324,
+        "unchanged": true
+      },
+      {
+        "route": "upper left primary",
+        "protected_nodes": 270,
+        "unchanged": true
+      },
+      {
+        "route": "apex",
+        "protected_nodes": 444,
+        "unchanged": true
+      },
+      {
+        "route": "crown right primary",
+        "protected_nodes": 364,
+        "unchanged": true
+      },
+      {
+        "route": "subordinate low right",
+        "protected_nodes": 205,
+        "unchanged": true
+      },
+      {
+        "route": "rear crown fork",
+        "protected_nodes": 244,
+        "unchanged": true
+      }
+    ],
+    "twig_changes": [],
+    "major_main_controls40_to113_unchanged": true,
+    "geometry_only_not_aesthetic": true
+  },
+  "uv_method": "Recomputed every point from main and owned branch growth fields; per-corner circular unwrap; periodic integerU separated from real-lengthV; main body does not borrow nearest horizontal root branchUV",
+  "geometry_frozen": false
+}

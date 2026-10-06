@@ -1,0 +1,7 @@
+{
+  "mode": "cold",
+  "results": [],
+  "logs": [],
+  "error": "Error: {\"exceptionId\":352,\"text\":\"Uncaught\",\"lineNumber\":0,\"columnNumber\":236,\"scriptId\":\"505\",\"stackTrace\":{\"callFrames\":[{\"functionName\":\"\",\"scriptId\":\"505\",\"url\":\"\",\"lineNumber\":0,\"columnNumber\":236},{\"functionName\":\"\",\"scriptId\":\"505\",\"url\":\"\",\"lineNumber\":0,\"columnNumber\":1148}]},\"exception\":{\"type\":\"object\",\"subtype\":\"error\",\"className\":\"TypeError\",\"description\":\"TypeError: Cannot read properties of null (reading 'innerText')\\n    at <anonymous>:1:237\\n    at <anonymous>:1:1149\",\"objectId\":\"5031562563072337332.154.2\"}}",
+  "stack": "Error: {\"exceptionId\":352,\"text\":\"Uncaught\",\"lineNumber\":0,\"columnNumber\":236,\"scriptId\":\"505\",\"stackTrace\":{\"callFrames\":[{\"functionName\":\"\",\"scriptId\":\"505\",\"url\":\"\",\"lineNumber\":0,\"columnNumber\":236},{\"functionName\":\"\",\"scriptId\":\"505\",\"url\":\"\",\"lineNumber\":0,\"columnNumber\":1148}]},\"exception\":{\"type\":\"object\",\"subtype\":\"error\",\"className\":\"TypeError\",\"description\":\"TypeError: Cannot read properties of null (reading 'innerText')\\n    at <anonymous>:1:237\\n    at <anonymous>:1:1149\",\"objectId\":\"5031562563072337332.154.2\"}}\n    at ev (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/qa/special.mjs:4:488)\n    at async file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/qa/special.mjs:36:489"
+}

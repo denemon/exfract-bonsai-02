@@ -1,0 +1,202 @@
+{
+  "changes": [
+    {
+      "vertex": 10,
+      "old": [
+        -0.17499999701976776,
+        -0.13500000536441803,
+        0.42500001192092896
+      ],
+      "new": [
+        -0.175,
+        -0.146,
+        0.437
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 19,
+      "old": [
+        -0.21400000154972076,
+        -0.004999999888241291,
+        0.42800000309944153
+      ],
+      "new": [
+        -0.214,
+        -0.015,
+        0.446
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 18,
+      "old": [
+        -0.17000000178813934,
+        0.12999999523162842,
+        0.4180000126361847
+      ],
+      "new": [
+        -0.17,
+        0.15,
+        0.43
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 14,
+      "old": [
+        0.17499999701976776,
+        -0.11500000208616257,
+        0.4189999997615814
+      ],
+      "new": [
+        0.15,
+        -0.126,
+        0.435
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 15,
+      "old": [
+        0.2199999988079071,
+        0.02199999988079071,
+        0.43299999833106995
+      ],
+      "new": [
+        0.185,
+        0.012,
+        0.449
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 13,
+      "old": [
+        0.12999999523162842,
+        -0.10999999940395355,
+        0.39800000190734863
+      ],
+      "new": [
+        0.113,
+        -0.124,
+        0.403
+      ],
+      "reason": "Soil-line-only unequal root shoulders, retain filled centre and upper mass"
+    },
+    {
+      "vertex": 174,
+      "old": [
+        -0.30158403515815735,
+        -0.06229376792907715,
+        0.3928378224372864
+      ],
+      "new": [
+        -0.2875840365886688,
+        -0.05361127480864525,
+        0.4148378372192383
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 175,
+      "old": [
+        -0.2713510990142822,
+        -0.13562512397766113,
+        0.36468541622161865
+      ],
+      "new": [
+        -0.2573511004447937,
+        -0.1562751680612564,
+        0.38668543100357056
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 176,
+      "old": [
+        -0.2524159252643585,
+        -0.1557062417268753,
+        0.45316219329833984
+      ],
+      "new": [
+        -0.23841592669487,
+        -0.18438874185085297,
+        0.47516220808029175
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 177,
+      "old": [
+        -0.28264886140823364,
+        -0.08237487077713013,
+        0.48131459951400757
+      ],
+      "new": [
+        -0.2686488628387451,
+        -0.08172482252120972,
+        0.5033146142959595
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 186,
+      "old": [
+        0.2519568204879761,
+        -0.19249549508094788,
+        0.3312190771102905
+      ],
+      "new": [
+        0.22831329703330994,
+        -0.2104955017566681,
+        0.34121906757354736
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 187,
+      "old": [
+        0.3131336271762848,
+        -0.1573018580675125,
+        0.33827143907546997
+      ],
+      "new": [
+        0.2803135812282562,
+        -0.17530186474323273,
+        0.3482714295387268
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 188,
+      "old": [
+        0.3100431561470032,
+        -0.16150450706481934,
+        0.42278093099594116
+      ],
+      "new": [
+        0.2776866853237152,
+        -0.17950451374053955,
+        0.432780921459198
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    },
+    {
+      "vertex": 189,
+      "old": [
+        0.24886631965637207,
+        -0.1966981440782547,
+        0.4157285690307617
+      ],
+      "new": [
+        0.22568637132644653,
+        -0.21469815075397491,
+        0.42572855949401855
+      ],
+      "reason": "Left thicker earlier burial; right shorter forward root shoulder; cap unchanged"
+    }
+  ],
+  "main_indices40_113_protected": true,
+  "terminal_changes": []
+}
