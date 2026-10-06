@@ -1,0 +1,82 @@
+{
+  "stage": 30,
+  "version": "near-shore-v01",
+  "pre_edit_review": {
+    "reviewer": "volume_review",
+    "read_only_pre_edit": true,
+    "proposal_agreed": true,
+    "single_proposal": "Continuous left organic shore from shrub roots to two fixed stones, thin ending in gravel",
+    "fixed": [
+      "grown-v02 large form",
+      "normal-v4",
+      "cameras and all physical lights",
+      "architecture/rear field",
+      "two stone transforms",
+      "flat seat"
+    ],
+    "leaf_targets": {
+      "thickness_mm": [
+        0.3,
+        0.6
+      ],
+      "length_mm": [
+        22,
+        40
+      ],
+      "width_fraction": [
+        0.35,
+        0.55
+      ],
+      "bend_mm": [
+        0.8,
+        2.5
+      ],
+      "unequal_shortshoot_nodes": [
+        2,
+        5
+      ],
+      "internode_mm": [
+        10,
+        22
+      ]
+    },
+    "terrain_targets": {
+      "fine_grid_m": 0.035,
+      "fine_grid_right_end_x": -0.62,
+      "small_rise_mm": [
+        15,
+        35
+      ],
+      "shore_edge_mm": [
+        3,
+        10
+      ],
+      "transition_band_mm": [
+        40,
+        90
+      ]
+    },
+    "stone_contacts": "Actual multiple visible stone-interface positions, no whole green collar",
+    "fail_if": [
+      "bare feathery axes dominate after reducing leaf area",
+      "raised uniform moss mat",
+      "green stone collars",
+      "shrubs obscure pot/base"
+    ],
+    "adoption_or_performance_not_judged": true
+  },
+  "stone_transforms_unchanged": true,
+  "pot_soil_base_contact_unchanged": true,
+  "geometry_material_lighting_independent_scope": "Only near shrubs and continuous nearterrain/groundmaterial; fixedgrown model andalllights/camera/architecture/rearfield",
+  "native_fixed_SHA": {
+    "models/grown-v02-editable.blend": "8491a9289ecc019fce4891bbf67a1d055ab31106f28435c919c37c616d47d1a8",
+    "models/grown-v02.glb": "f7a998106f8081e600cd5f368e62f6a7d4f5918e5b4df97d67fd9427cf548142",
+    "models/hero-grown-v02.glb.gz": "6e21fd9cc4f6f5fb5f991360eb28524ba38ffafb735e644d16792edf65117417",
+    "sculpt/control-record-v02-exact.json": "b9b2419f561ed033d8a03d8df59d101eaeac85b14d7e5afa926f5ac2eeb9128f",
+    "qa/geometry-inspection-v02.json": "f9796151967972e2a25bd84709a483ca3b1f49c4ef8ec96c6883e4dfd7205d9e",
+    "qa/native-roundtrip-v02-exact.json": "cdc12fd6ab3120139dd2c9edefc78443def9ce95afc6055654ad98879bedd25c",
+    "qa/shape-comparison-proof-v02.json": "2f9d592d19dcfc309705508bfc26cd8a4038b4f2030fe31f3f262cebab8ddef7"
+  },
+  "noScatteredSmallStones": true,
+  "shape_material_qagates_pending": true
+}

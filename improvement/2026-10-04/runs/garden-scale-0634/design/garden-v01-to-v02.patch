@@ -1,0 +1,97 @@
+--- v01/background/garden-geometry.js
++++ v02/background/garden-geometry.js
+@@ -174,17 +174,17 @@
+  ];
+  // Unequal alternate short shoots on the existing old multiaxial skeleton.
+  // Local RNG leaves every already-authored rear specimen untouched.
+- const shrubRng=random(304618),shrubShootRecords=[];
++ const shrubRng=random(304618),forkRng=random(308032),shrubShootRecords=[],terminalForkRecords=[];
+  function smallShrubShoot(a,b,exposure,specimen){
+   const axis=b.clone().sub(a).normalize(),side=new THREE.Vector3().crossVectors(axis,UP).normalize();
+   const mid=a.clone().lerp(b,.53).addScaledVector(UP,.004+shrubRng()*.008);
+   const twig=addBranch([a,mid,b],.0009,.00025,3,3),length=twig.path.getLength();
+   const count=exposure<.65?2+Math.floor(shrubRng()*2):3+Math.floor(shrubRng()*3);
+   const gaps=Array.from({length:count-1},()=>.010+shrubRng()*.012),used=gaps.reduce((n,x)=>n+x,0);
+-  let t=.10;const positions=[];
++  const lastT=exposure<.65?.86:.90+forkRng()*.06;let t=Math.max(.035,lastT-used/Math.max(length,used*1.18));const positions=[];
+   for(let i=0;i<count;i++){
+    if(i)t+=gaps[i-1]/Math.max(length,used*1.18);
+-   t=Math.min(t,.94);positions.push(t);
++   t=Math.min(t,.98);positions.push(t);
+    const q=twig.path.getPoint(t),sign=(i+specimen)%2?1:-1;
+    const direction=axis.clone().multiplyScalar(.30+shrubRng()*.34).addScaledVector(side,sign*(.48+shrubRng()*.20)).addScaledVector(UP,.10+shrubRng()*.26).normalize();
+    const l=.022+(.010+shrubRng()*.008)*exposure,shade=.91+shrubRng()*.15;
+@@ -194,7 +194,18 @@
+     leafGroups.shrub.push({p:q,direction:tipDir,length:l*.74,roll:(shrubRng()-.5)*.53,color:new THREE.Color().setRGB(shade*.95,shade,shade*.88),variant:(i+specimen)%4});
+    }
+   }
+-  shrubShootRecords.push({specimen,length,nodes:count,positions,desiredInternodes:gaps});
++  if(exposure>.76&&forkRng()<.65){
++   const source=twig.path.getPoint(.66),depth=(forkRng()<.5?-1:1)*(.020+forkRng()*.015);
++   const end=source.clone().addScaledVector(axis,.012+forkRng()*.009).add(new THREE.Vector3(0,.005+forkRng()*.007,depth));
++   const mid=source.clone().lerp(end,.53).addScaledVector(UP,.003),fork=addBranch([source,mid,end],.00045,.00018,3,3);
++   const direction=end.clone().sub(source).normalize(),across=new THREE.Vector3().crossVectors(direction,UP).normalize(),leaves=2+Math.floor(forkRng()*3),nodes=[];
++   for(let i=0;i<leaves;i++){
++    const u=.48+i*(.49/Math.max(1,leaves-1)),q=fork.path.getPoint(u),dir=direction.clone().multiplyScalar(.52).addScaledVector(across,(i%2?1:-1)*(.39+forkRng()*.22)).addScaledVector(UP,.14+forkRng()*.20).normalize(),l=.022+forkRng()*.011,shade=.93+forkRng()*.12;
++    leafGroups.shrub.push({p:q,direction:dir,length:l,roll:(forkRng()-.5)*.80,color:new THREE.Color().setRGB(shade*.92,shade,shade*.87),variant:Math.floor(forkRng()*4)});nodes.push(q.toArray());
++   }
++   terminalForkRecords.push({specimen,source:source.toArray(),end:end.toArray(),depthOffsetMetres:depth,leaves,nodes,actualTwigSupported:true});
++  }
++  shrubShootRecords.push({specimen,length,nodes:count,positions,actualNodePositions:positions.map(t=>twig.path.getPoint(t).toArray()),desiredInternodes:gaps});
+  }
+  for(const [si,s]of shrubs.entries()){
+   const [x,z]=s.origin;
+@@ -243,5 +254,5 @@
+   }
+  }
+  const evergreenStats=installEvergreenShoots(scene,evergreens,evergreenShoots);
+- return {shrubShootRecords,shrubLeafDesign:{version:'thin-grown-v01',bladeThicknessMM:[.308,.560],bladeLengthMM:[22,40],bendMM:[.814,2.36],variants:4,primaryAxesUnchanged:true,density:'Unequal2-5nodes,10-22mm desired internodes, bareinner nodes and denserouter buds; every leaf attaches to a twig'},distantCrownDesign:crowns.metadata,evergreenStats,rootCenters,design:'Three distinct layered trees at middle/rear and beyond the pavilion, each rooted and physically branch-attached; low multiaxial shrubs and continuous moss cushions return to natural stones',specimens:specimens.map(({name,origin,kind,arms})=>({name,origin,kind,primaryArms:arms.length})),shrubOrigins:shrubs.map(s=>s.origin),branchTriangles:woodMesh.geometry.attributes.position.count/3,leafInstances:groupStats.reduce((s,g)=>s+g.instances,0),leafTriangles:groupStats.reduce((s,g)=>s+g.triangles,0),leafGroups:groupStats,rootGroundHeightSamples:[...specimens.map(s=>[s.origin[0],s.origin[2]]),...shrubs.map(s=>s.origin)].map(([x,z])=>({x,z,groundY:groundHeight(x,z)}))};
+-}
++ return {terminalForkRecords,shrubShootRecords,shrubLeafDesign:{version:'thin-grown-v02',bladeThicknessMM:[.308,.560],bladeLengthMM:[22,40],bendMM:[.814,2.36],variants:4,primaryAxesUnchanged:true,density:'Unequal2-5nodes,10-22mm desired internodes, bareinner nodes and denserouter buds; every leaf attaches to a twig'},distantCrownDesign:crowns.metadata,evergreenStats,rootCenters,design:'Three distinct layered trees at middle/rear and beyond the pavilion, each rooted and physically branch-attached; low multiaxial shrubs and continuous moss cushions return to natural stones',specimens:specimens.map(({name,origin,kind,arms})=>({name,origin,kind,primaryArms:arms.length})),shrubOrigins:shrubs.map(s=>s.origin),branchTriangles:woodMesh.geometry.attributes.position.count/3,leafInstances:groupStats.reduce((s,g)=>s+g.instances,0),leafTriangles:groupStats.reduce((s,g)=>s+g.triangles,0),leafGroups:groupStats,rootGroundHeightSamples:[...specimens.map(s=>[s.origin[0],s.origin[2]]),...shrubs.map(s=>s.origin)].map(([x,z])=>({x,z,groundY:groundHeight(x,z)}))};
++}
+--- v01/background/terrain-field.js
++++ v02/background/terrain-field.js
+@@ -30,10 +30,10 @@
+   const seatProtected=(Math.abs(x)<.94&&Math.abs(z)<.67)?0:1,weight=near*seatProtected;
+   const fineCover=1-smooth(-.058,.025,d),fineEdge=1-smooth(-.09,.04,d);
+   const newHeight=(Math.min(.205,h/(edge||1)-local)*.83+local*.48+.0012*grain)*fineEdge;
+-  const rootWear=Math.exp(-(((x+1.50)/.17)**2+((z-.52)/.14)**2)*1.8)*.24+Math.exp(-(((x+1.66)/.20)**2+((z+1.6)/.17)**2)*1.8)*.19;
++  const rootWear=Math.exp(-(((x+1.50)/.17)**2+((z-.52)/.14)**2)*1.8)*.42+Math.exp(-(((x+1.66)/.20)**2+((z+1.6)/.17)**2)*1.8)*.33+Math.exp(-(((x+3.08)/.22)**2+((z+2.12)/.18)**2)*1.8)*.27;
+   const fineMoss=fineCover*(1-.78*Math.max(scar,rootGap))*(.61+.27*density[j*width+i]+.035*grain)*(1-rootWear);
+-  h=THREE.MathUtils.lerp(h,Math.max(0,newHeight),weight);moss=THREE.MathUtils.lerp(moss,fineMoss,weight);organic=THREE.MathUtils.lerp(organic,fineEdge*(1-fineMoss)*.67,weight);
++  h=THREE.MathUtils.lerp(h,Math.max(0,newHeight-.011*rootWear),weight);moss=THREE.MathUtils.lerp(moss,fineMoss,weight);organic=THREE.MathUtils.lerp(organic,fineEdge*(1-fineMoss)*.82,weight);
+   data[k]=Math.round(clamp(moss,0,1)*255);data[k+1]=Math.round(clamp(organic,0,1)*255);data[k+2]=Math.round(clamp(h/.30,0,1)*255);data[k+3]=Math.round(clamp(.38+.60*density[j*width+i],0,1)*255);maxHeight=Math.max(maxHeight,h);
+  }
+- const t=new THREE.DataTexture(data,width,height,THREE.RGBAFormat);t.colorSpace=THREE.NoColorSpace;t.minFilter=t.magFilter=THREE.LinearFilter;t.generateMipmaps=false;t.flipY=false;t.needsUpdate=true;t.name='Connected low moss cushion/shore/density/soil field';t.userData={version:'near-shore-v01',nearDomain:[-4,-3.3,-.62,1.65],seatRearFieldBytesProtected:true,shoreTransitionMM:[40,90],noNewTuftOrStoneObjects:true,maximumAuthoredRise:maxHeight,interlockedLobes:accepted,generatedDataBytes:data.byteLength,scatteredSmallStoneObjects:0};return t;
++ const t=new THREE.DataTexture(data,width,height,THREE.RGBAFormat);t.colorSpace=THREE.NoColorSpace;t.minFilter=t.magFilter=THREE.LinearFilter;t.generateMipmaps=false;t.flipY=false;t.needsUpdate=true;t.name='Connected low moss cushion/shore/density/soil field';t.userData={version:'near-shore-v02',nearDomain:[-4,-3.3,-.62,1.65],seatRearFieldBytesProtected:true,shoreTransitionMM:[40,90],noNewTuftOrStoneObjects:true,maximumAuthoredRise:maxHeight,interlockedLobes:accepted,generatedDataBytes:data.byteLength,scatteredSmallStoneObjects:0};return t;
+ }
+--- v01/background/garden-materials.js
++++ v02/background/garden-materials.js
+@@ -32,14 +32,14 @@
+  maps.push(makeSpatialTerrain());
+  for(const t of maps.slice(0,2)){t.colorSpace=THREE.SRGBColorSpace;t.wrapS=t.wrapT=THREE.RepeatWrapping;t.anisotropy=4;}
+  maps[2].colorSpace=THREE.NoColorSpace;maps[2].wrapS=maps[2].wrapT=THREE.ClampToEdgeWrapping;maps[2].minFilter=maps[2].magFilter=THREE.LinearFilter;maps[2].generateMipmaps=false;
+- const ground=surface('continuous-near-grown-ground-v30','#ffffff',`
++ const ground=surface('continuous-near-grown-ground-v30-v02','#ffffff',`
+   vec2 fieldUV=(vEnv.xz-vec2(-6.,-7.))/vec2(12.,14.);
+   vec3 field=texture2D(uTerrain,fieldUV).rgb;
+   float inside=step(0.,fieldUV.x)*step(fieldUV.x,1.)*step(0.,fieldUV.y)*step(fieldUV.y,1.);
+   vec4 mineralMap=texture2D(uMineral,vEnv.xz/.36),mossMap=texture2D(uMoss,vEnv.xz/${refined?'.45':'.42'});
+   float physicalMossHeight=${balanced&&refined?'texture2D(uMossHeight,vEnv.xz/.45).r':'mossMap.a'};
+   float nearGarden=smoothstep(-3.3,-2.85,vEnv.z)*(1.-smoothstep(1.35,1.65,vEnv.z))*smoothstep(-4.,-3.6,vEnv.x)*(1.-smoothstep(-.80,-.62,vEnv.x));
+-  float m=${refined?'mix(smoothstep(.13,.78,field.r),smoothstep(.14,.965,field.r),nearGarden)':'field.r'}*inside,organic=field.g*inside;
++  float m=${refined?'mix(smoothstep(.13,.78,field.r),smoothstep(.22,.98,field.r),nearGarden)':'field.r'}*inside,organic=field.g*inside;
+   float broad=en(vEnv*3.4);vec3 mineral=mineralMap.rgb*(.96+.08*broad);
+   ${refined?'vec2 gravelGrain=mineralGrain(vEnv.xz/.006);float grainWeight=1.-smoothstep(.005,.016,length(fwidth(vEnv)));mineral*=mix(1.,.82+.30*gravelGrain.y,grainWeight);float gravelHeight=.0012*pow(max(0.,1.-gravelGrain.x/.59),1.6)*grainWeight;':'float gravelHeight=0.;'}
+   ${finish?'float luma=dot(mineral,vec3(.2126,.7152,.0722));mineral=mix(mineral,vec3(luma)*vec3(.98,1.00,1.025),.28);':''}
+--- v01/candidate/src/main.js
++++ v02/candidate/src/main.js
+@@ -66,7 +66,7 @@
+  if(study==='normals')model.traverse(o=>{if(o.isMesh)o.material=new THREE.MeshNormalMaterial();});
+  if(query.get('shadow')==='0')model.traverse(o=>{if(o.isMesh)o.receiveShadow=false;});
+  if(query.has('bare'))model.traverse(o=>{if(/Canopy|foliage|sprays|twig|shoots|particles|terminal[ _]branch/i.test(o.name))o.visible=false;});
+- garden=await createScene(model,study,loadedAssets);stats.studyLighting=applyStudyLighting(garden.scene,query.get('wood-light'));const renderPartition=createRenderPartition(renderer,garden.scene,garden.subject,model,query.get('render')||'stable');renderPartition.setOptimization(query.get('cpu-cache')!=='0');stats.renderPartition=renderPartition.stats;stats.cpuCache=query.get('cpu-cache')!=='0';stats.garden=garden.metadata;stats.gardenFinish=baselineGarden?'R29-baseline':'near-shore-v01';stats.layout=garden.layout;camera=new THREE.PerspectiveCamera(38,1,.04,60);scanPoints();renderer.info.autoReset=false;
++ garden=await createScene(model,study,loadedAssets);stats.studyLighting=applyStudyLighting(garden.scene,query.get('wood-light'));const renderPartition=createRenderPartition(renderer,garden.scene,garden.subject,model,query.get('render')||'stable');renderPartition.setOptimization(query.get('cpu-cache')!=='0');stats.renderPartition=renderPartition.stats;stats.cpuCache=query.get('cpu-cache')!=='0';stats.garden=garden.metadata;stats.gardenFinish=baselineGarden?'R29-baseline':'near-shore-v02';stats.layout=garden.layout;camera=new THREE.PerspectiveCamera(38,1,.04,60);scanPoints();renderer.info.autoReset=false;
+  stats.model={meshes:0,vertices:0,instances:0,hasWoodMasks:false};model.traverse(o=>{if(o.isMesh){stats.model.meshes++;stats.model.vertices+=o.geometry.attributes.position.count;if(o.isInstancedMesh)stats.model.instances+=o.count;if(/Continuous[_ ]aged/.test(o.name)){stats.model.authoringVersion=o.userData.authoring_version;stats.model.hasWoodMasks=Boolean(o.geometry.attributes.color);stats.model.woodAttributes=Object.keys(o.geometry.attributes);stats.model.woodUVRange=[Infinity,Infinity,-Infinity,-Infinity];const uv=o.geometry.attributes.uv;if(uv)for(let n=0;n<uv.count;n+=100){const r=stats.model.woodUVRange;r[0]=Math.min(r[0],uv.getX(n));r[1]=Math.min(r[1],uv.getY(n));r[2]=Math.max(r[2],uv.getX(n));r[3]=Math.max(r[3],uv.getY(n));}stats.model.woodMaterial=o.material.customProgramCacheKey();}}});
+  window.__garden={stats,foliage,renderPartition,scene:garden.scene,subject:garden.subject,camera,renderer,render,model,setView:(azimuth,elevation=13)=>{yaw=azimuth;pitch=elevation;setCamera();render();},setKey:(p)=>{garden.key.position.set(...p);renderer.shadowMap.needsUpdate=true;render();}};
+  window.addEventListener('resize',resize);reduced.addEventListener('change',()=>{stats.reduced=reduced.matches;render();});document.addEventListener('visibilitychange',()=>{if(!document.hidden)render();});

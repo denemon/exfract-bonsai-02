@@ -1,0 +1,7 @@
+{
+  "action": "Long terminal JSON contact-proof input",
+  "result": "Rejected beforeexecution: terminal input and permission details too large toreview safely",
+  "affectedjobnotrun": true,
+  "solution": "CloseownChrome cleanly; new constrainedfilejobsQA withshort explicitfilename/newexclusiveoutput only",
+  "restriction_bypass": false
+}

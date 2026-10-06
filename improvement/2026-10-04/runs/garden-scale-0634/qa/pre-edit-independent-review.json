@@ -1,0 +1,64 @@
+{
+  "reviewer": "volume_review",
+  "read_only_pre_edit": true,
+  "proposal_agreed": true,
+  "single_proposal": "Continuous left organic shore from shrub roots to two fixed stones, thin ending in gravel",
+  "fixed": [
+    "grown-v02 large form",
+    "normal-v4",
+    "cameras and all physical lights",
+    "architecture/rear field",
+    "two stone transforms",
+    "flat seat"
+  ],
+  "leaf_targets": {
+    "thickness_mm": [
+      0.3,
+      0.6
+    ],
+    "length_mm": [
+      22,
+      40
+    ],
+    "width_fraction": [
+      0.35,
+      0.55
+    ],
+    "bend_mm": [
+      0.8,
+      2.5
+    ],
+    "unequal_shortshoot_nodes": [
+      2,
+      5
+    ],
+    "internode_mm": [
+      10,
+      22
+    ]
+  },
+  "terrain_targets": {
+    "fine_grid_m": 0.035,
+    "fine_grid_right_end_x": -0.62,
+    "small_rise_mm": [
+      15,
+      35
+    ],
+    "shore_edge_mm": [
+      3,
+      10
+    ],
+    "transition_band_mm": [
+      40,
+      90
+    ]
+  },
+  "stone_contacts": "Actual multiple visible stone-interface positions, no whole green collar",
+  "fail_if": [
+    "bare feathery axes dominate after reducing leaf area",
+    "raised uniform moss mat",
+    "green stone collars",
+    "shrubs obscure pot/base"
+  ],
+  "adoption_or_performance_not_judged": true
+}
