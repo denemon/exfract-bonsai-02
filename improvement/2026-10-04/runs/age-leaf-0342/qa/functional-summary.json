@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "finalSourceBuild": "qa/build-final-own-stills.log",
+  "cases": 11,
+  "actualMacChrome": true,
+  "allFiveOwnFallbacks": true,
+  "loading": true,
+  "idleNoOngoingRAF": true,
+  "boundedInputAndReducedMotionPC390320": true,
+  "actualContextLostRestored": true,
+  "noDecompressionStreamHTTPGzip": true,
+  "textOverflowFontRemoteResourcesZero": true,
+  "onlyExpectedWebGLUnavailableWarnings": 5,
+  "source": "qa/special-functional/results.json"
+}

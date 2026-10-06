@@ -1,0 +1,258 @@
+{
+  "method": "Same MacM1Pro Chrome154 ANGLEMetal; same fixed R25 poses/light/scene; deviceDPR2 renderer1.6; ABBA2cohorts pervariant perwidth;30warmup61GPUqueries first2 excluded118/variant. CPU submission wall time includes GPUtimer synchronization, distinct from160frame sampled diagnostic and hot-loopLOD cost. median is average two central observations, p95 nearest rank.",
+  "steady": {
+    "pc": {
+      "variants": {
+        "r25": {
+          "gpu": {
+            "samples": 118,
+            "median_ms": 12.308561999999998,
+            "p95_ms": 12.928124
+          },
+          "cpu": {
+            "samples": 118,
+            "median_ms": 4.100000023841858,
+            "p95_ms": 6
+          },
+          "draw_calls": 65,
+          "triangles": 1803162,
+          "actual_pixel_ratio": 1.6,
+          "cohort_cpu_medians_ms": [
+            3.600000023841858,
+            5
+          ]
+        },
+        "r26": {
+          "gpu": {
+            "samples": 118,
+            "median_ms": 12.3495205,
+            "p95_ms": 13.309124
+          },
+          "cpu": {
+            "samples": 118,
+            "median_ms": 4.550000011920929,
+            "p95_ms": 6.300000071525574
+          },
+          "draw_calls": 65,
+          "triangles": 1803162,
+          "actual_pixel_ratio": 1.6,
+          "cohort_cpu_medians_ms": [
+            4.899999976158142,
+            4
+          ]
+        }
+      },
+      "cpu_median_delta_ms": 0.44999998807907104,
+      "gpu_p95_delta_ms": 0.3810000000000002
+    },
+    "390": {
+      "variants": {
+        "r25": {
+          "gpu": {
+            "samples": 118,
+            "median_ms": 9.5733745,
+            "p95_ms": 13.624874
+          },
+          "cpu": {
+            "samples": 118,
+            "median_ms": 4.699999988079071,
+            "p95_ms": 6.300000071525574
+          },
+          "draw_calls": 60,
+          "triangles": 1583482,
+          "actual_pixel_ratio": 1.6,
+          "cohort_cpu_medians_ms": [
+            4.699999928474426,
+            4.899999976158142
+          ]
+        },
+        "r26": {
+          "gpu": {
+            "samples": 118,
+            "median_ms": 9.1916245,
+            "p95_ms": 13.104708
+          },
+          "cpu": {
+            "samples": 118,
+            "median_ms": 4.800000071525574,
+            "p95_ms": 6.299999952316284
+          },
+          "draw_calls": 60,
+          "triangles": 1583482,
+          "actual_pixel_ratio": 1.6,
+          "cohort_cpu_medians_ms": [
+            4.700000047683716,
+            5.099999904632568
+          ]
+        }
+      },
+      "cpu_median_delta_ms": 0.10000008344650269,
+      "gpu_p95_delta_ms": -0.5201659999999997
+    },
+    "320": {
+      "variants": {
+        "r25": {
+          "gpu": {
+            "samples": 118,
+            "median_ms": 10.223583,
+            "p95_ms": 13.002124
+          },
+          "cpu": {
+            "samples": 118,
+            "median_ms": 3.850000023841858,
+            "p95_ms": 6.200000047683716
+          },
+          "draw_calls": 61,
+          "triangles": 1595898,
+          "actual_pixel_ratio": 1.6,
+          "cohort_cpu_medians_ms": [
+            3.600000023841858,
+            4.399999976158142
+          ]
+        },
+        "r26": {
+          "gpu": {
+            "samples": 118,
+            "median_ms": 9.861291000000001,
+            "p95_ms": 13.166458
+          },
+          "cpu": {
+            "samples": 118,
+            "median_ms": 3.799999952316284,
+            "p95_ms": 5.799999952316284
+          },
+          "draw_calls": 61,
+          "triangles": 1595898,
+          "actual_pixel_ratio": 1.6,
+          "cohort_cpu_medians_ms": [
+            3.5999999046325684,
+            4.900000095367432
+          ]
+        }
+      },
+      "cpu_median_delta_ms": -0.05000007152557373,
+      "gpu_p95_delta_ms": 0.1643340000000002
+    }
+  },
+  "idle": {
+    "method": "Same retina PC fixed pose;7first frames after2400ms sleep percohort,ABBA14/variant,30warmup; separate fromsteady",
+    "variants": {
+      "r25": {
+        "gpu": {
+          "samples": 14,
+          "median_ms": 28.9638745,
+          "p95_ms": 34.650375
+        },
+        "cpu": {
+          "samples": 14,
+          "median_ms": 4.400000035762787,
+          "p95_ms": 6.600000023841858
+        }
+      },
+      "r26": {
+        "gpu": {
+          "samples": 14,
+          "median_ms": 30.2251245,
+          "p95_ms": 35.06625
+        },
+        "cpu": {
+          "samples": 14,
+          "median_ms": 4.399999976158142,
+          "p95_ms": 6
+        }
+      }
+    }
+  },
+  "cold": {
+    "method": "Singletrial pervariant cacheoff120ms256000B/s250KiB/s; no statistical claim",
+    "variants": {
+      "r25": {
+        "fcp_ms": 296,
+        "completed_still_ms": 2145.3000000715256,
+        "navigation_first_3d_ms": 11981.900000095367,
+        "resource_transfer_bytes": 2654119,
+        "resource_count": 22,
+        "settings": {
+          "cacheDisabled": true,
+          "latencyMs": 120,
+          "bytesPerSecond": 256000
+        }
+      },
+      "r26": {
+        "fcp_ms": 308,
+        "completed_still_ms": 2116.399999976158,
+        "navigation_first_3d_ms": 11955.199999928474,
+        "resource_transfer_bytes": 2653554,
+        "resource_count": 22,
+        "settings": {
+          "cacheDisabled": true,
+          "latencyMs": 120,
+          "bytesPerSecond": 256000
+        }
+      }
+    }
+  },
+  "CPU_attribution": {
+    "invalidation_tests_passed": 10,
+    "LOD_hot_loop_percall_ms": {
+      "False": {
+        "samples": 8,
+        "median_ms": 0.0046500000357627864,
+        "p95_ms": 0.008399999976158142
+      },
+      "True": {
+        "samples": 8,
+        "median_ms": 0.0026999999284744265,
+        "p95_ms": 0.004100000023841858
+      }
+    },
+    "same_model_component_ABBA": "qa/component-cpu-pc-{ab,ba}/results.json",
+    "profiler": "qa/cpu-profile-summary.json",
+    "exact_bundle_context": "qa/cpu-profile-function-context.json",
+    "program_reselection": {
+      "rows": [
+        {
+          "mode": "both",
+          "frames": 10,
+          "keyEvaluations": 260,
+          "keyEvaluationsPerFrame": 26,
+          "cpuDiagnosticMs": 5.300000071525574,
+          "actualDrawCalls": 65,
+          "actualTriangles": 1803162,
+          "programs": 41
+        },
+        {
+          "mode": "batch",
+          "frames": 10,
+          "keyEvaluations": 0,
+          "keyEvaluationsPerFrame": 0,
+          "cpuDiagnosticMs": 2.299999952316284,
+          "actualDrawCalls": 65,
+          "actualTriangles": 1803162,
+          "programs": 41
+        },
+        {
+          "mode": "both",
+          "frames": 10,
+          "keyEvaluations": 260,
+          "keyEvaluationsPerFrame": 26,
+          "cpuDiagnosticMs": 4.600000023841858,
+          "actualDrawCalls": 65,
+          "actualTriangles": 1803162,
+          "programs": 41
+        }
+      ],
+      "method": "Actual final scene customProgramCacheKey calls; original strings preserved; diagnostic mode both/batch/both warm4+10frames, not a performance substitution",
+      "materialCount": 28,
+      "model": "age-v01",
+      "geometryAndMaterialSourceUnchanged": true
+    },
+    "interpretation": "Geometry triangle/draw counts remain identical. LOD/batch string caches remove verified waste but do not establish totalCPU reduction. Switching finite lights on the same Scene changes Three light-state version and causes per-material program re-selection26/frame; batch onepass diagnostic0/frame. Source and counters support this as an avoidable CPU cost, not proof that it alone explains the entire former R25 CPU regression. Profiler overhead and (program) unattributed/native samples preclude exact total allocation. Quality leaf scatter changes direct-light arithmetic only; performance cost not isolated from jitter here."
+  },
+  "overall_performance_pass": false,
+  "speed_improvement_claim": false,
+  "CPU_nonregression_claim": false,
+  "60fps_claim": false,
+  "idle_cold_gaps_remain": true,
+  "real_phone_Safari_thermal_not_verified": true
+}
