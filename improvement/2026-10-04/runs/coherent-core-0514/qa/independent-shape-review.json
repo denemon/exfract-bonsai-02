@@ -1,0 +1,31 @@
+{
+  "reviewer": "volume_review",
+  "read_only": true,
+  "version": "core-v02",
+  "actual_images_viewed": 20,
+  "night_whole_widths": [
+    1440,
+    390,
+    320
+  ],
+  "neutral_views": [
+    "PC",
+    "390",
+    "320",
+    "bonsai",
+    "left",
+    "right",
+    "wood"
+  ],
+  "camera_lighting_leaf_world_checked": true,
+  "mislabelled_neutral_jobs_excluded": true,
+  "shape_gate_passed": false,
+  "recommendation": "Do not advance to materials; preserve R27 TOP. No third microcorrection/grain addition.",
+  "findings": [
+    "V01 protruding lip weakened and front/back differences increased.",
+    "Wide face continuing root-to-ascent and diagonal fold remain the dominant twisted-band/folded-S form in ordinary PC, neutral left/right,390;320 does not clearly surpass before as natural mass.",
+    "No two-column root or garden-scale regression. Branch mother attachment retained but upper-right branch still looks like a thin shoulder pulled from a broad face.",
+    "Protecting crown/pot/base/garden relationship is separate from making the main body natural."
+  ],
+  "root_agent_agreement": true
+}

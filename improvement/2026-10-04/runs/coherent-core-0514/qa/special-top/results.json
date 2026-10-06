@@ -1,0 +1,552 @@
+{
+  "mode": "top",
+  "existingChromePID": 87858,
+  "reusedExistingTab": true,
+  "results": [
+    {
+      "test": "adopted-TOP-actual3D",
+      "view": {
+        "name": "pc",
+        "w": 1440,
+        "h": 900
+      },
+      "state": {
+        "ready": true,
+        "version": "root-v02",
+        "finish": "normal",
+        "leafFinish": {
+          "name": "original",
+          "closedGeometryUnchanged": true,
+          "roughness": 0.78,
+          "backScatter": 0
+        },
+        "loading": {
+          "parallelAssets": true,
+          "sharedDraco": true,
+          "woodReplacement": true,
+          "compactNativeModel": true,
+          "noDiscardedOldWoodDecode": true,
+          "decoderWorkerLimit": 2,
+          "exactGeometrySplit": true,
+          "losslessModelGzip": true
+        },
+        "text": "",
+        "overflow": false,
+        "canvasVisibility": "visible",
+        "pictureVisibility": "hidden",
+        "currentSrc": "http://127.0.0.1:5214/compare/r27/stills/pc.webp?v=root-v02-stable-program-v03",
+        "imgComplete": true,
+        "natural": [
+          1440,
+          900
+        ],
+        "background": "url(\"data:image/webp;base64,UklGRj4FAABXRUJQVlA4IDIFAABwIQCdASqgAGQAPqFIn0smJCKnp9LbmPAUCWVts7ltAWQi5/8QS8pcw61zkp5r7o4BsIYShFDxW0QLY/FYpold0uPxZFAMppQNZOs6NYK/hoecKfLJjPbk5rqdoJty7pgPg+IgFnuOmrLAuplzDWIUzJDMPLtSVHnWq9VB1dmZJThVJ3W7SgdDr4hPO4bVt7UodUFPMNN3szp6qAAhQELt30pl4wZEI8yV/2UHxIEVd35FcdbxjL6gC1rXIvUwgdNGeYfBc5aL9bMn4eHYDO387rWT0Hk13/QJ8XMwHQpF2Ey6RFf+puVkIr1umF7NoDx6UqxgYkOhzUhvkhygrNN073XuK67n3uEsQ/emlDrK/TI7u8AA/vmsh8IgIvgQHlQ5m2VJ3UElXhFgK3oqASyP5pFcs3izfOmmu/D7Uuu5HR+trxRzFv6QqvNFlcYnbgi5FlN7CYhVYA4v+4GZTXa7sNVOJfiU29MVrq0pBEdnm2JBXRjf3MxqEkP2QJVDAMbtVhKagAhKBsaexYTFfsGDL1DkHk1gmqfSp8juNxGyff9C9dw3XvcIgLhDaC0vooO3o/KPu7hINwweqfH3S3qN9inN60X2UMMIcBwTXIKdIrSYOPwPrtp+RSqDYxdLKnKPU1DVNIT1SqC2W7FyDCAgmwoN3kqHqEUNZ5swrXWOQ97+K7NGTIE1iZfKAHM62jgDOmfPAaeP3IzSmge6IZ8es3Iv7G5axQUO241PEyqBCWGrRPI0zsY8jvWs/bq4lgWoeFy2TkO3udyoYVVtpTGcIotA8NdqRl4NrB/slgYajy1zcQAy4c24NJxfLvEsLPFjx7wM4yg092vgNHPVmWm2TyYV1crbCUVuAwv5PzrBpGQ6Jr4+heYrKfu6wjUK2/oDdiwAdRxZqiOdZ+JO9+GHSaP1jAAFn3vt+BFW/3n1IPVfcHBi+GR2TmPTQXQG3kbG0mRcf3fot4hus0hPpWYNOup7iP6Hx7W4K0rYeKMKMzD9YeYgXogMmF9yavXYAWOyyVyLPyKVChxJk67+F3zOs3+QxPRuTH60JkuUXnPHG8q1DQNfgErag0pDyi3qdJ9nTWFqRf82Ht8iJHCZhSLcUeM+QOxQ6RgcasHqcrHzmy5wtqsNEnrAbJlNDVb15lbJM1v1+AjVzbaLpnX/bJpH3Pw5jQRcqIJeH8mD7ibfdcDaM70/gv7pERrpsB+z1ULHiwOq6BgkzxGXwbbFJXIV4S0hOUV1i0K5+pZcE81OPZ/j/jktSpnUmNUerif1QnoDia7aT81Wuu7nm1gE82i9DQSqrkZFt8bJpH1AWTkcwPlQjuezNZlU0oTbq8CsNwDu3CTfScPFUnorvnSH0q29RjPawENSvlf91BE5hWlI46+jI4RIhfeV5DCXxk0kxZsGwVQamiOnOdq/Ku0NvGo7n9F9qMWPBnLkyLbTWLyrMAJ5RJTfTIUq0zciKsc1u8sC9NaVxEVsqtKhRb76mmTcvBrcI8bXJ05OAf12dnxltJ7TqNz5q69dOe5S0nDJBUfiuEUYtNUEMaTBXYO0CbMmKIiqg2umH1d4kY8QOIi1zG3CPg0sWl43hwWV1gI9VWtI3URCxuYM+Ocj/5xqyV1Ts64fUQlTpSIwZzKwIORH9HmYY90bTCUbwbcCzTFZRAJlydzuiMNCDm/2peEK0PdCxQWxswfjqrha1yz6xMScDyjTeTl+EY9EH4HcOM+9WtFgTfclrKqshnJdobi1yZNEjQDmemnEW77P/WQuphycYAAA\")",
+        "frames": 1,
+        "camera": {
+          "yaw": 0,
+          "pitch": 10,
+          "distance": 3.65,
+          "zoom": 1,
+          "position": [
+            0,
+            1.4138158484842958,
+            3.5945482984945594
+          ],
+          "target": [
+            0,
+            0.78,
+            0
+          ]
+        },
+        "framing": {
+          "left": 0.2350192144395168,
+          "right": 0.7431779366042661,
+          "top": 0.20177678629023998,
+          "bottom": 0.8788265692631785
+        },
+        "reduced": true,
+        "triangles": 8701538,
+        "drawCalls": 311,
+        "programs": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "fontResources": [],
+        "remoteResources": []
+      },
+      "actualSnapshotSha256": "99bed2e15a33f4dcd8b4f36b9c61e6373401b28cba283460d74f876a6eabdd4a",
+      "identicalToPreAdoptionCompletedJPEG": true,
+      "imagePath": "../program-state-0426/qa/special-stills/pc.jpg",
+      "logs": []
+    },
+    {
+      "test": "adopted-TOP-actual3D",
+      "view": {
+        "name": "mobile-390",
+        "w": 390,
+        "h": 844
+      },
+      "state": {
+        "ready": true,
+        "version": "root-v02",
+        "finish": "normal",
+        "leafFinish": {
+          "name": "original",
+          "closedGeometryUnchanged": true,
+          "roughness": 0.78,
+          "backScatter": 0
+        },
+        "loading": {
+          "parallelAssets": true,
+          "sharedDraco": true,
+          "woodReplacement": true,
+          "compactNativeModel": true,
+          "noDiscardedOldWoodDecode": true,
+          "decoderWorkerLimit": 2,
+          "exactGeometrySplit": true,
+          "losslessModelGzip": true
+        },
+        "text": "",
+        "overflow": false,
+        "canvasVisibility": "visible",
+        "pictureVisibility": "hidden",
+        "currentSrc": "http://127.0.0.1:5214/compare/r27/stills/mobile-390.webp?v=root-v02-stable-program-v03",
+        "imgComplete": true,
+        "natural": [
+          390,
+          844
+        ],
+        "background": "url(\"data:image/webp;base64,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\")",
+        "frames": 1,
+        "camera": {
+          "yaw": -40,
+          "pitch": 6,
+          "distance": 3.5398307655950765,
+          "zoom": 1,
+          "position": [
+            -2.351543588847307,
+            0.9713230540133062,
+            2.680924238751195
+          ],
+          "target": [
+            -0.08864888896532536,
+            0.6013099838580915,
+            -0.015888649495553506
+          ]
+        },
+        "framing": {
+          "left": 0.030000000000000138,
+          "right": 0.9700000000000006,
+          "top": 0.25097468410310264,
+          "bottom": 0.7372089163749027
+        },
+        "reduced": true,
+        "triangles": 8262178,
+        "drawCalls": 301,
+        "programs": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "fontResources": [],
+        "remoteResources": []
+      },
+      "actualSnapshotSha256": "0bebc6fc02cf9ff9d22978941ad18bfba4ccaa1eeddd99404683c08123e7ad2d",
+      "identicalToPreAdoptionCompletedJPEG": true,
+      "imagePath": "../program-state-0426/qa/special-stills/mobile-390.jpg",
+      "logs": []
+    },
+    {
+      "test": "adopted-TOP-actual3D",
+      "view": {
+        "name": "mobile-320",
+        "w": 320,
+        "h": 568
+      },
+      "state": {
+        "ready": true,
+        "version": "root-v02",
+        "finish": "normal",
+        "leafFinish": {
+          "name": "original",
+          "closedGeometryUnchanged": true,
+          "roughness": 0.78,
+          "backScatter": 0
+        },
+        "loading": {
+          "parallelAssets": true,
+          "sharedDraco": true,
+          "woodReplacement": true,
+          "compactNativeModel": true,
+          "noDiscardedOldWoodDecode": true,
+          "decoderWorkerLimit": 2,
+          "exactGeometrySplit": true,
+          "losslessModelGzip": true
+        },
+        "text": "",
+        "overflow": false,
+        "canvasVisibility": "visible",
+        "pictureVisibility": "hidden",
+        "currentSrc": "http://127.0.0.1:5214/compare/r27/stills/mobile-320.webp?v=root-v02-stable-program-v03",
+        "imgComplete": true,
+        "natural": [
+          320,
+          568
+        ],
+        "background": "url(\"data:image/webp;base64,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\")",
+        "frames": 1,
+        "camera": {
+          "yaw": -30,
+          "pitch": 6,
+          "distance": 3.282642716073322,
+          "zoom": 1,
+          "position": [
+            -1.7324109718768177,
+            0.9600399202119606,
+            2.811625720106352
+          ],
+          "target": [
+            -0.10008094397376952,
+            0.6169103216440601,
+            -0.015652822942051246
+          ]
+        },
+        "framing": {
+          "left": 0.030000000000000193,
+          "right": 0.9699999999999999,
+          "top": 0.2345125547658996,
+          "bottom": 0.758978569714057
+        },
+        "reduced": true,
+        "triangles": 8287010,
+        "drawCalls": 303,
+        "programs": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "fontResources": [],
+        "remoteResources": []
+      },
+      "actualSnapshotSha256": "0b89e1bdc367c83ae989e1ee8915cac79c6edd7048effd74213aeebfb3d36d6d",
+      "identicalToPreAdoptionCompletedJPEG": true,
+      "imagePath": "../program-state-0426/qa/special-stills/mobile-320.jpg",
+      "logs": []
+    },
+    {
+      "test": "adopted-TOP-WebGL-unavailable",
+      "view": {
+        "name": "pc",
+        "w": 1440,
+        "h": 900
+      },
+      "state": {
+        "ready": false,
+        "error": "WebGL2 unavailable",
+        "text": "",
+        "overflow": false,
+        "canvasVisibility": "hidden",
+        "pictureVisibility": "visible",
+        "currentSrc": "http://127.0.0.1:5214/compare/r27/stills/pc.webp?v=root-v02-stable-program-v03",
+        "imgComplete": true,
+        "natural": [
+          1440,
+          900
+        ],
+        "background": "url(\"data:image/webp;base64,UklGRj4FAABXRUJQVlA4IDIFAABwIQCdASqgAGQAPqFIn0smJCKnp9LbmPAUCWVts7ltAWQi5/8QS8pcw61zkp5r7o4BsIYShFDxW0QLY/FYpold0uPxZFAMppQNZOs6NYK/hoecKfLJjPbk5rqdoJty7pgPg+IgFnuOmrLAuplzDWIUzJDMPLtSVHnWq9VB1dmZJThVJ3W7SgdDr4hPO4bVt7UodUFPMNN3szp6qAAhQELt30pl4wZEI8yV/2UHxIEVd35FcdbxjL6gC1rXIvUwgdNGeYfBc5aL9bMn4eHYDO387rWT0Hk13/QJ8XMwHQpF2Ey6RFf+puVkIr1umF7NoDx6UqxgYkOhzUhvkhygrNN073XuK67n3uEsQ/emlDrK/TI7u8AA/vmsh8IgIvgQHlQ5m2VJ3UElXhFgK3oqASyP5pFcs3izfOmmu/D7Uuu5HR+trxRzFv6QqvNFlcYnbgi5FlN7CYhVYA4v+4GZTXa7sNVOJfiU29MVrq0pBEdnm2JBXRjf3MxqEkP2QJVDAMbtVhKagAhKBsaexYTFfsGDL1DkHk1gmqfSp8juNxGyff9C9dw3XvcIgLhDaC0vooO3o/KPu7hINwweqfH3S3qN9inN60X2UMMIcBwTXIKdIrSYOPwPrtp+RSqDYxdLKnKPU1DVNIT1SqC2W7FyDCAgmwoN3kqHqEUNZ5swrXWOQ97+K7NGTIE1iZfKAHM62jgDOmfPAaeP3IzSmge6IZ8es3Iv7G5axQUO241PEyqBCWGrRPI0zsY8jvWs/bq4lgWoeFy2TkO3udyoYVVtpTGcIotA8NdqRl4NrB/slgYajy1zcQAy4c24NJxfLvEsLPFjx7wM4yg092vgNHPVmWm2TyYV1crbCUVuAwv5PzrBpGQ6Jr4+heYrKfu6wjUK2/oDdiwAdRxZqiOdZ+JO9+GHSaP1jAAFn3vt+BFW/3n1IPVfcHBi+GR2TmPTQXQG3kbG0mRcf3fot4hus0hPpWYNOup7iP6Hx7W4K0rYeKMKMzD9YeYgXogMmF9yavXYAWOyyVyLPyKVChxJk67+F3zOs3+QxPRuTH60JkuUXnPHG8q1DQNfgErag0pDyi3qdJ9nTWFqRf82Ht8iJHCZhSLcUeM+QOxQ6RgcasHqcrHzmy5wtqsNEnrAbJlNDVb15lbJM1v1+AjVzbaLpnX/bJpH3Pw5jQRcqIJeH8mD7ibfdcDaM70/gv7pERrpsB+z1ULHiwOq6BgkzxGXwbbFJXIV4S0hOUV1i0K5+pZcE81OPZ/j/jktSpnUmNUerif1QnoDia7aT81Wuu7nm1gE82i9DQSqrkZFt8bJpH1AWTkcwPlQjuezNZlU0oTbq8CsNwDu3CTfScPFUnorvnSH0q29RjPawENSvlf91BE5hWlI46+jI4RIhfeV5DCXxk0kxZsGwVQamiOnOdq/Ku0NvGo7n9F9qMWPBnLkyLbTWLyrMAJ5RJTfTIUq0zciKsc1u8sC9NaVxEVsqtKhRb76mmTcvBrcI8bXJ05OAf12dnxltJ7TqNz5q69dOe5S0nDJBUfiuEUYtNUEMaTBXYO0CbMmKIiqg2umH1d4kY8QOIi1zG3CPg0sWl43hwWV1gI9VWtI3URCxuYM+Ocj/5xqyV1Ts64fUQlTpSIwZzKwIORH9HmYY90bTCUbwbcCzTFZRAJlydzuiMNCDm/2peEK0PdCxQWxswfjqrha1yz6xMScDyjTeTl+EY9EH4HcOM+9WtFgTfclrKqshnJdobi1yZNEjQDmemnEW77P/WQuphycYAAA\")",
+        "frames": 0,
+        "reduced": true,
+        "fontResources": [],
+        "remoteResources": []
+      },
+      "expectedLogs": [
+        {
+          "method": "Runtime.consoleAPICalled",
+          "params": {
+            "type": "warning",
+            "args": [
+              {
+                "type": "string",
+                "value": "Static garden retained:"
+              },
+              {
+                "type": "string",
+                "value": "WebGL2 unavailable"
+              }
+            ],
+            "executionContextId": 88,
+            "timestamp": 1791232771999.099,
+            "stackTrace": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "4",
+                  "url": "http://127.0.0.1:5214/compare/r27/assets/index-BE0s3Whr.js",
+                  "lineNumber": 4278,
+                  "columnNumber": 23026
+                }
+              ]
+            }
+          },
+          "sessionId": "ECB8F15CCC767A6D0E8715CE0D69ECC8"
+        }
+      ]
+    },
+    {
+      "test": "adopted-TOP-WebGL-unavailable",
+      "view": {
+        "name": "mobile-390",
+        "w": 390,
+        "h": 844
+      },
+      "state": {
+        "ready": false,
+        "error": "WebGL2 unavailable",
+        "text": "",
+        "overflow": false,
+        "canvasVisibility": "hidden",
+        "pictureVisibility": "visible",
+        "currentSrc": "http://127.0.0.1:5214/compare/r27/stills/mobile-390.webp?v=root-v02-stable-program-v03",
+        "imgComplete": true,
+        "natural": [
+          390,
+          844
+        ],
+        "background": "url(\"data:image/webp;base64,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\")",
+        "frames": 0,
+        "reduced": true,
+        "fontResources": [],
+        "remoteResources": []
+      },
+      "expectedLogs": [
+        {
+          "method": "Runtime.consoleAPICalled",
+          "params": {
+            "type": "warning",
+            "args": [
+              {
+                "type": "string",
+                "value": "Static garden retained:"
+              },
+              {
+                "type": "string",
+                "value": "WebGL2 unavailable"
+              }
+            ],
+            "executionContextId": 90,
+            "timestamp": 1791232772126.348,
+            "stackTrace": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "4",
+                  "url": "http://127.0.0.1:5214/compare/r27/assets/index-BE0s3Whr.js",
+                  "lineNumber": 4278,
+                  "columnNumber": 23026
+                }
+              ]
+            }
+          },
+          "sessionId": "ECB8F15CCC767A6D0E8715CE0D69ECC8"
+        }
+      ]
+    },
+    {
+      "test": "adopted-TOP-WebGL-unavailable",
+      "view": {
+        "name": "mobile-320",
+        "w": 320,
+        "h": 568
+      },
+      "state": {
+        "ready": false,
+        "error": "WebGL2 unavailable",
+        "text": "",
+        "overflow": false,
+        "canvasVisibility": "hidden",
+        "pictureVisibility": "visible",
+        "currentSrc": "http://127.0.0.1:5214/compare/r27/stills/mobile-320.webp?v=root-v02-stable-program-v03",
+        "imgComplete": true,
+        "natural": [
+          320,
+          568
+        ],
+        "background": "url(\"data:image/webp;base64,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\")",
+        "frames": 0,
+        "reduced": true,
+        "fontResources": [],
+        "remoteResources": []
+      },
+      "expectedLogs": [
+        {
+          "method": "Runtime.consoleAPICalled",
+          "params": {
+            "type": "warning",
+            "args": [
+              {
+                "type": "string",
+                "value": "Static garden retained:"
+              },
+              {
+                "type": "string",
+                "value": "WebGL2 unavailable"
+              }
+            ],
+            "executionContextId": 91,
+            "timestamp": 1791232772248.051,
+            "stackTrace": {
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "4",
+                  "url": "http://127.0.0.1:5214/compare/r27/assets/index-BE0s3Whr.js",
+                  "lineNumber": 4278,
+                  "columnNumber": 23026
+                }
+              ]
+            }
+          },
+          "sessionId": "ECB8F15CCC767A6D0E8715CE0D69ECC8"
+        }
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "method": "Runtime.consoleAPICalled",
+      "params": {
+        "type": "warning",
+        "args": [
+          {
+            "type": "string",
+            "value": "Static garden retained:"
+          },
+          {
+            "type": "string",
+            "value": "WebGL2 unavailable"
+          }
+        ],
+        "executionContextId": 91,
+        "timestamp": 1791232772248.051,
+        "stackTrace": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "4",
+              "url": "http://127.0.0.1:5214/compare/r27/assets/index-BE0s3Whr.js",
+              "lineNumber": 4278,
+              "columnNumber": 23026
+            }
+          ]
+        }
+      },
+      "sessionId": "ECB8F15CCC767A6D0E8715CE0D69ECC8"
+    }
+  ],
+  "passed": true
+}

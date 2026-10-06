@@ -1,0 +1,7 @@
+{
+  "test": "initial served identity before preview restart",
+  "failure_url": "/compare/r28/models/hero-core-v02.glb.gz",
+  "reason": "Running preview retained its initial core-v01-only Content-Encoding regex. Browser model loader explicitly decoded V02 gzip using DecompressionStream, so actual native V02 shape audit succeeded. The independent HTTP helper decoded only declared Content-Encoding and correctly failed rawgzip vsGLB comparison.",
+  "resolution": "Owned preview stopped and restarted from final configuration supporting both core-v01 andcore-v02. All12 decoded identities thenpassed.",
+  "failure_is_not_aesthetic_evidence": true
+}
