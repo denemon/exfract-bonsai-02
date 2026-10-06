@@ -1,0 +1,191 @@
+{
+  "scope": "Only current-run own unfinished machine measurement records; all raw pixels and every parsed JSON field remain; no old stage/user files or histories changed",
+  "operation": "Remove insignificant JSON whitespace only; semantic roundtrip equality asserted",
+  "records": [
+    {
+      "path": "qa/camera-alternative/results.json",
+      "before_sha256": "a06a6b50c741e1f00d567207c486f4d434a24d7799acab9ec98d613c9d8410e6",
+      "after_sha256": "ee4ffbf13bcc4c8ee4116dc9043fb4b4df01a41dafa6709f9ad34a7b91cf9eb0",
+      "before_bytes": 154674,
+      "after_bytes": 71227,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/camera-study/results.json",
+      "before_sha256": "745ef5809f6ce650cc7b1acaf5385a7fd9fbbc8704c6723572b45a4b66817ae1",
+      "after_sha256": "3299dcc882d3e6d445f35f6e86feb54f4a970182655c156a7336e9f6c603ec47",
+      "before_bytes": 211447,
+      "after_bytes": 100049,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/final-source/results.json",
+      "before_sha256": "0aecd514bcb82b7319bb956d63fb37f7d0ecb2abc83e01e2170187d13b3910c4",
+      "after_sha256": "c6ae955b05b7fcbbf7afe72eda049dde4b4e0e11a8ef2a649525d71b3f482b70",
+      "before_bytes": 437783,
+      "after_bytes": 206848,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/gpu-ablation/results.json",
+      "before_sha256": "ec5dbdf2730077aff39f0340cb6a2e958f83ff9aab6f52f44014975cf9ac5ce2",
+      "after_sha256": "6463d6e12527301bd4e94b588376be837e01bcbb4617920d842b373c77835119",
+      "before_bytes": 545990,
+      "after_bytes": 256159,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/gpu-shadow-kernel/results.json",
+      "before_sha256": "a59de11167ae2644f64a8dab744d6007cb01b16a8414118dc0af6951fa8469ba",
+      "after_sha256": "bd354a8a950d5ae3e4789a519750b37a0e1089fc993554e81733cfa1f0f5e362",
+      "before_bytes": 136657,
+      "after_bytes": 64086,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/grain-gpu-control/results.json",
+      "before_sha256": "aa717ceb866eddd77bafe408cd6aa80f15ec610363fc5cdb52f84e64c791d66d",
+      "after_sha256": "6560db71e994da7e548e47fbd9f2dabff261ba9678b7de3e173d05d34d7461b6",
+      "before_bytes": 355448,
+      "after_bytes": 168113,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/perf-first/results.json",
+      "before_sha256": "273468924ce55f1014ddafe10b77495d8ca311d3d0f0b0ea3faafc51040af919",
+      "after_sha256": "9d0e8f69dfa3bf05801281b8344bdc7aa7ed29e1e2190d00c8220cc2dfbb3bfb",
+      "before_bytes": 142031,
+      "after_bytes": 67123,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/selection-best/results.json",
+      "before_sha256": "6a487886668bdf3dc0e79a44b8de8bb8fbc3b9db7edb942d2a768ec1049b5c08",
+      "after_sha256": "c6187ed1e8c323575b82824cc23983945f0cf0156c563e10d9b40b1c599cf7b9",
+      "before_bytes": 87110,
+      "after_bytes": 42534,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/selection-r17/results.json",
+      "before_sha256": "ceb028be1e9f5a136ee09235c9311d1194e55fbe08b3141d768e16ada12e59db",
+      "after_sha256": "e1901e917e3a40011ae5f3e43b6f94b1c8e390b3b85dc47a9402d0c6bd6011f4",
+      "before_bytes": 177946,
+      "after_bytes": 93239,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/selection-r18/results.json",
+      "before_sha256": "455361073da8736aaa5732aaa236ecb9323a0abab67beda63db2f017579870f9",
+      "after_sha256": "fe8da47bea2c8181de32011f02f2ad8f3999dc107b90c369ca0b041652c9951b",
+      "before_bytes": 182891,
+      "after_bytes": 89058,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/selection-r19/results.json",
+      "before_sha256": "139b2ba44cea2c0b893a10af175bd68bd7ea1b438c740fffe2ad785cbf84976b",
+      "after_sha256": "1766ee593f9be5bd45157813fa24e14ef508a66073582952315e6e9c49039691",
+      "before_bytes": 269347,
+      "after_bytes": 126192,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/shape-final/results.json",
+      "before_sha256": "c031e295de87d92fac64507d3d00437a51868ba11864345bc6df91f13563383a",
+      "after_sha256": "636fa9e9bf2ad314522187a70126d9e8152e59fa3b39fd7e3712037b8f468481",
+      "before_bytes": 350514,
+      "after_bytes": 165624,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/shape-fixed/results.json",
+      "before_sha256": "72ba6d4abd51bb1d09d752f59827b1c5042372cadae66378329a7f016697a369",
+      "after_sha256": "f61a2038112971f4c1245f2aec8830755e0f4298f20d6db9955d82fa4c491b19",
+      "before_bytes": 350542,
+      "after_bytes": 165652,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/space-connected/results.json",
+      "before_sha256": "6b04c5d79d112033d4ed1d4709235ebb798a6ba3eea18939ad57ef2f89fed7e9",
+      "after_sha256": "9a67dd9697a9206006ef3ab3dbc19e8be0216874e5248e278bc1cb51dc6bebda",
+      "before_bytes": 280402,
+      "after_bytes": 132414,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/space-depth-check/results.json",
+      "before_sha256": "6146428b53a01b64202fae7455ee5277122ea748b561f207f41756e8585b47f4",
+      "after_sha256": "fbb17e70e8bdc0c05de4c05231ab68b9cde3fdbe9789cdd4cffae98b686ad4bd",
+      "before_bytes": 310330,
+      "after_bytes": 142808,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/space-first/results.json",
+      "before_sha256": "23903b4bac31bc66f3f1beb9ba0afaed61921493e486f49d6461b17b5d7162c7",
+      "after_sha256": "abfbd6ac40526f3c2058ca1ee211edd2af65116bee312479c340c6b7763be505",
+      "before_bytes": 279918,
+      "after_bytes": 132105,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/spatial-batching-gpu/results.json",
+      "before_sha256": "5c7f0ecb309ce7438d8b08f44cb9d1e02b5843fd7c941a16048aaab42b2167b0",
+      "after_sha256": "0fd1a80033d4febdceff2dc366af124801f96ead8faabe86d7d94aca105a7044",
+      "before_bytes": 354865,
+      "after_bytes": 167938,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/strict-diagnostics/results.json",
+      "before_sha256": "cda8717a6925645372c7c7dd5b36fe9dc200c5121b1e140ff5cda210fe14bb9a",
+      "after_sha256": "8405f26eca8f6582302974d223653faed050c3e5b17df57c92648a51e412a635",
+      "before_bytes": 463786,
+      "after_bytes": 218091,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/surface-control/results.json",
+      "before_sha256": "384d6644ca104156542b8ce1958d3b97abc193b3f38c5dced33c5c78bca71253",
+      "after_sha256": "6718a3a2d21a27a9cac330cc5629ea3a664ea0ed52e14e36ccf59000d3f6b966",
+      "before_bytes": 529128,
+      "after_bytes": 250108,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/final-geometry-audit/results.json",
+      "before_sha256": "d011d141dd257e775352a25b81da8f56ab2f4b89efbe68348a47ee364e15f4a8",
+      "after_sha256": "957772e87570a05c3895f5b413dbf6f30f994efec5ee201cfdcc1ffb3eb1fb17",
+      "before_bytes": 128163,
+      "after_bytes": 64971,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/final-release/results.json",
+      "before_sha256": "f0ec3393549bace03cb33c503d556b2ee748e116bd2412319bed48c570e0dcbc",
+      "after_sha256": "8e974f15471169a2db69763f0263ba54a4b0a6ba18448ac805ea61b0ff4349a6",
+      "before_bytes": 706528,
+      "after_bytes": 334254,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/matched-r19-gpu/results.json",
+      "before_sha256": "683f4d4999f74c606a56938be87f64cde50e2175a74a54456856926eac620209",
+      "after_sha256": "d55d8939fcb598c1dc30de1d7d36070deca6704eeac200b99139f9bdd3528b0d",
+      "before_bytes": 407198,
+      "after_bytes": 191073,
+      "all_parsed_values_equal": true
+    },
+    {
+      "path": "qa/strict-wood-high/results.json",
+      "before_sha256": "0cc78f247d2771adea713bb4352d8786b38c43988ee1f31e43c2b00ea9feaebe",
+      "after_sha256": "866fda2b4f060c7041f550f425c9817282cdeb17570d836eacc3abcb501903ea",
+      "before_bytes": 155073,
+      "after_bytes": 73097,
+      "all_parsed_values_equal": true
+    }
+  ],
+  "bytes_saved": 3695008
+}

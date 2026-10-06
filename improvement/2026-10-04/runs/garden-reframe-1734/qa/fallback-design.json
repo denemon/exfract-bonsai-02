@@ -1,0 +1,14 @@
+{
+  "source": "Same final actual Stage19 scene",
+  "breakpoints": {
+    "wide": "aspect>=2",
+    "tall": "aspect<=.43",
+    "320": "portrait,width<=350,aspect>=.53",
+    "390": "remainingportrait",
+    "pc": "remaininglandscape"
+  },
+  "inline_bytes": 16655,
+  "first_paint": "Smallinlineencodings,thenfullresponsiveWebP",
+  "geometry_sha256": "3f53d7ad1647b7c6256d4e01a78c7c1e5506d5a4ccc38b1e912ac1e961b3e9c9",
+  "visible_text": false
+}

@@ -1,0 +1,21 @@
+{
+  "reason": "Boundary movement put the middle tree centre10mm from the timber wall plane; visible clearance and coherent vegetation were not credible. Initial comparison freeze preserved; this necessary geometry repair precedes final freeze.",
+  "previous_tree_origin": [
+    -3.55,
+    -4.95
+  ],
+  "boundary_z": -4.96,
+  "new_middle_origin": [
+    -3.55,
+    -3.8
+  ],
+  "minimum_root_to_wall_plane_m": 1.16,
+  "low_shrubs": "more short attached inner leaves on existing unequal axes; no spherical fill",
+  "light_design": "same new spatial scene; warm finite source behind middle tree aims away from boundary to suppress circular wall wash; rear source behind rear tree; actual baseline/refined comparison changes power only after this fix",
+  "final_power_scale": [
+    1,
+    1.32
+  ],
+  "geometry_old_evidence_preserved": true,
+  "wood_and_camera_unchanged": true
+}
