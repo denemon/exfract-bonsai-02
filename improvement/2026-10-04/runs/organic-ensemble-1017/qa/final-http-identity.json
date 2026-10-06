@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "url": "http://127.0.0.1:5214/",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/index.html",
+      "bytes": 11161,
+      "SHA256": "bf584837fc6a491206e675ed491040ab5cca8cdfa5d2f381ccf69252662c3286",
+      "headers": {
+        "Vary": "Origin",
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-store",
+        "Content-Length": "11161",
+        "Date": "Tue, 06 Oct 2026 01:42:10 GMT",
+        "Connection": "close"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5215/compare/r34/",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/organic-ensemble-1017/candidate/dist/index.html",
+      "bytes": 11138,
+      "SHA256": "87cf55d4f6fc4c8f878a499b87e6796250c7e7244aa55efa79b47c55a32e2fc1",
+      "headers": {
+        "Vary": "Origin",
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "no-store",
+        "Content-Length": "11138",
+        "Date": "Tue, 06 Oct 2026 01:42:10 GMT",
+        "Connection": "close"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5215/compare/r34/models/hero-living-v01.glb.gz",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/organic-ensemble-1017/models/hero-living-v01.glb.gz",
+      "bytes": 641334,
+      "SHA256": "36b7cf4680bde63e37fde3255e64b6a69278d0d9ad08e4830d57588ca8ed073c",
+      "headers": {
+        "Vary": "Origin",
+        "Content-Type": "model/gltf-binary",
+        "Content-Encoding": "gzip",
+        "Cache-Control": "public,max-age=3600",
+        "Content-Length": "641334",
+        "Date": "Tue, 06 Oct 2026 01:42:10 GMT",
+        "Connection": "close"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5215/compare/r34/stills/pc.webp?v=organic-r34-final-v02",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/organic-ensemble-1017/candidate/public/stills/pc.webp",
+      "bytes": 218882,
+      "SHA256": "00133ca87823c9c78ab66f1eaf8ba67061f70d83355c3ca07843ff5e047c4594",
+      "headers": {
+        "Vary": "Origin",
+        "Content-Type": "image/webp",
+        "Cache-Control": "public,max-age=3600",
+        "Content-Length": "218882",
+        "Date": "Tue, 06 Oct 2026 01:42:10 GMT",
+        "Connection": "close"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5215/compare/r34/stills/wide.webp?v=organic-r34-final-v02",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/organic-ensemble-1017/candidate/public/stills/wide.webp",
+      "bytes": 204970,
+      "SHA256": "fef8c01a8e1194fe7867a60b382a5f223679737cfd889ac35a4d1eff5d120ded",
+      "headers": {
+        "Vary": "Origin",
+        "Content-Type": "image/webp",
+        "Cache-Control": "public,max-age=3600",
+        "Content-Length": "204970",
+        "Date": "Tue, 06 Oct 2026 01:42:10 GMT",
+        "Connection": "close"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5215/compare/r34/stills/mobile-390.webp?v=organic-r34-final-v02",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/organic-ensemble-1017/candidate/public/stills/mobile-390.webp",
+      "bytes": 70886,
+      "SHA256": "8865fbff5278fc755f7d9a9599133c277e5b06ab0dc3a7c1825ac8fc02a82aab",
+      "headers": {
+        "Vary": "Origin",
+        "Content-Type": "image/webp",
+        "Cache-Control": "public,max-age=3600",
+        "Content-Length": "70886",
+        "Date": "Tue, 06 Oct 2026 01:42:10 GMT",
+        "Connection": "close"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5215/compare/r34/stills/mobile-320.webp?v=organic-r34-final-v02",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/organic-ensemble-1017/candidate/public/stills/mobile-320.webp",
+      "bytes": 39994,
+      "SHA256": "655c6421f30d21ee9942a6a3a20de4af89ecd98b619977815ef03506b8dd6720",
+      "headers": {
+        "Vary": "Origin",
+        "Content-Type": "image/webp",
+        "Cache-Control": "public,max-age=3600",
+        "Content-Length": "39994",
+        "Date": "Tue, 06 Oct 2026 01:42:10 GMT",
+        "Connection": "close"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5215/compare/r34/stills/mobile-tall.webp?v=organic-r34-final-v02",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/organic-ensemble-1017/candidate/public/stills/mobile-tall.webp",
+      "bytes": 83926,
+      "SHA256": "f635442645b0b97f08dced615be2e57fc693c4415c330e7b812bb3f201ca2407",
+      "headers": {
+        "Vary": "Origin",
+        "Content-Type": "image/webp",
+        "Cache-Control": "public,max-age=3600",
+        "Content-Length": "83926",
+        "Date": "Tue, 06 Oct 2026 01:42:10 GMT",
+        "Connection": "close"
+      }
+    }
+  ],
+  "TOPR31PIDProtected": 20598,
+  "candidatePID": 61480,
+  "candidateCWD": "p61480\nfcwd\nn/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/organic-ensemble-1017/candidate\n",
+  "process": "  PID COMMAND\n20598 node /Users/kazuki.tanaka/dev0/exfract-bonsai-02/node_modules/vite/bin/vite.js preview --config vite.config.mjs --configLoader native\n61480 node ../../../../../node_modules/vite/bin/vite.js preview --config vite.config.mjs --configLoader native\n",
+  "static5FullBodyExact": true,
+  "compactGzipContentEncoding": "gzip",
+  "candidateAdopted": false,
+  "localOnly": true
+}

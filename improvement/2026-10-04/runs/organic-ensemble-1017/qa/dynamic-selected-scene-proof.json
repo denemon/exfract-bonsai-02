@@ -1,0 +1,684 @@
+{
+  "results": [
+    {
+      "test": "static-legacy-both-vs-stable",
+      "baselineMode": "both",
+      "baselinePNG": "3bdc7299be0ff27a5d5204fe4d46ebdbe34612423c741507f362ecaf2a939afb",
+      "stablePNG": "3bdc7299be0ff27a5d5204fe4d46ebdbe34612423c741507f362ecaf2a939afb",
+      "bitIdentical": true,
+      "expectedLightPartition": true,
+      "state": {
+        "partition": {
+          "mode": "stable",
+          "nativeFoliageGroups": 72,
+          "batchedGroups": 12,
+          "batchActive": true,
+          "lightPartitionActive": true,
+          "drawPasses": 2,
+          "excludedFiniteLights": [
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                2.785971779537747,
+                2.35,
+                -4.294995624131106
+              ],
+              "method": "Entire native + deferred-high sphere outside spot cone",
+              "minimumAngleRadians": 1.8099044299776195,
+              "coneHalfAngleRadians": 0.82,
+              "sphereRadius": 1.3247266581849921
+            },
+            {
+              "type": "PointLight",
+              "name": "",
+              "position": [
+                2.9324161534261663,
+                1.43,
+                -4.499763896469446
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 4.515793521228121,
+              "cutoff": 3.6
+            },
+            {
+              "type": "PointLight",
+              "name": "Small room console lantern source",
+              "position": [
+                3.291193260692804,
+                0.904,
+                -5.161272193697368
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 5.267908078964165,
+              "cutoff": 3.1
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                -3.4,
+                0.15,
+                -6.35
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 6.359536232911674,
+              "cutoff": 5.5
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                0.6,
+                0.12,
+                -8.15
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 7.695215146541596,
+              "cutoff": 5.9
+            }
+          ],
+          "nativeEnvelope": {
+            "min": [
+              -1.0145986765948645,
+              -0.04972340852022171,
+              -0.4547848534584046
+            ],
+            "max": [
+              0.9247967502604784,
+              1.5153782558395024,
+              0.4445510315895081
+            ]
+          },
+          "nativeBuffersAndMaterialsUnmodified": true,
+          "instanceMatricesCopiedBitExactly": true,
+          "fullShadowUpdates": 3,
+          "batchCacheHits": 2,
+          "batchRebuilds": 1,
+          "extraCompleteColorPassForShadowUpdate": true,
+          "stableScopes": {
+            "publicAPIOnly": true,
+            "originalPhysicalLights": 8,
+            "backgroundLightReplicas": 8,
+            "heroLightReplicas": 3,
+            "samePhysicalShadowObjects": true,
+            "nativeGeometryHasOneParent": true,
+            "identityScopesPreserveWorld": true,
+            "frameProgramStateStable": true,
+            "completeShadowUpdateBeforeColor": true,
+            "nativeEnvelopeDependencyGuard": true
+          }
+        },
+        "autoUpdate": false,
+        "version": "living-v01"
+      }
+    },
+    {
+      "test": "autoUpdate-true-complete-shadow-authority",
+      "baselineMode": "both",
+      "baselinePNG": "3bdc7299be0ff27a5d5204fe4d46ebdbe34612423c741507f362ecaf2a939afb",
+      "stablePNG": "3bdc7299be0ff27a5d5204fe4d46ebdbe34612423c741507f362ecaf2a939afb",
+      "bitIdentical": true,
+      "expectedLightPartition": true,
+      "state": {
+        "partition": {
+          "mode": "stable",
+          "nativeFoliageGroups": 72,
+          "batchedGroups": 12,
+          "batchActive": true,
+          "lightPartitionActive": true,
+          "drawPasses": 2,
+          "excludedFiniteLights": [
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                2.785971779537747,
+                2.35,
+                -4.294995624131106
+              ],
+              "method": "Entire native + deferred-high sphere outside spot cone",
+              "minimumAngleRadians": 1.8099044299776195,
+              "coneHalfAngleRadians": 0.82,
+              "sphereRadius": 1.3247266581849921
+            },
+            {
+              "type": "PointLight",
+              "name": "",
+              "position": [
+                2.9324161534261663,
+                1.43,
+                -4.499763896469446
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 4.515793521228121,
+              "cutoff": 3.6
+            },
+            {
+              "type": "PointLight",
+              "name": "Small room console lantern source",
+              "position": [
+                3.291193260692804,
+                0.904,
+                -5.161272193697368
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 5.267908078964165,
+              "cutoff": 3.1
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                -3.4,
+                0.15,
+                -6.35
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 6.359536232911674,
+              "cutoff": 5.5
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                0.6,
+                0.12,
+                -8.15
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 7.695215146541596,
+              "cutoff": 5.9
+            }
+          ],
+          "nativeEnvelope": {
+            "min": [
+              -1.0145986765948645,
+              -0.04972340852022171,
+              -0.4547848534584046
+            ],
+            "max": [
+              0.9247967502604784,
+              1.5153782558395024,
+              0.4445510315895081
+            ]
+          },
+          "nativeBuffersAndMaterialsUnmodified": true,
+          "instanceMatricesCopiedBitExactly": true,
+          "fullShadowUpdates": 6,
+          "batchCacheHits": 5,
+          "batchRebuilds": 1,
+          "extraCompleteColorPassForShadowUpdate": true,
+          "stableScopes": {
+            "publicAPIOnly": true,
+            "originalPhysicalLights": 8,
+            "backgroundLightReplicas": 8,
+            "heroLightReplicas": 3,
+            "samePhysicalShadowObjects": true,
+            "nativeGeometryHasOneParent": true,
+            "identityScopesPreserveWorld": true,
+            "frameProgramStateStable": true,
+            "completeShadowUpdateBeforeColor": true,
+            "nativeEnvelopeDependencyGuard": true
+          }
+        },
+        "autoUpdate": true,
+        "version": "living-v01"
+      }
+    },
+    {
+      "test": "main-key-moved-source-and-shadow-follow",
+      "baselineMode": "both",
+      "baselinePNG": "b6d75f7bd1a3270ea09805ef1e4eee5eec40a9e899ada7c96356e26c3b14d231",
+      "stablePNG": "b6d75f7bd1a3270ea09805ef1e4eee5eec40a9e899ada7c96356e26c3b14d231",
+      "bitIdentical": true,
+      "expectedLightPartition": true,
+      "state": {
+        "partition": {
+          "mode": "stable",
+          "nativeFoliageGroups": 72,
+          "batchedGroups": 12,
+          "batchActive": true,
+          "lightPartitionActive": true,
+          "drawPasses": 2,
+          "excludedFiniteLights": [
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                2.785971779537747,
+                2.35,
+                -4.294995624131106
+              ],
+              "method": "Entire native + deferred-high sphere outside spot cone",
+              "minimumAngleRadians": 1.8099044299776195,
+              "coneHalfAngleRadians": 0.82,
+              "sphereRadius": 1.3247266581849921
+            },
+            {
+              "type": "PointLight",
+              "name": "",
+              "position": [
+                2.9324161534261663,
+                1.43,
+                -4.499763896469446
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 4.515793521228121,
+              "cutoff": 3.6
+            },
+            {
+              "type": "PointLight",
+              "name": "Small room console lantern source",
+              "position": [
+                3.291193260692804,
+                0.904,
+                -5.161272193697368
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 5.267908078964165,
+              "cutoff": 3.1
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                -3.4,
+                0.15,
+                -6.35
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 6.359536232911674,
+              "cutoff": 5.5
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                0.6,
+                0.12,
+                -8.15
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 7.695215146541596,
+              "cutoff": 5.9
+            }
+          ],
+          "nativeEnvelope": {
+            "min": [
+              -1.0145986765948645,
+              -0.04972340852022171,
+              -0.4547848534584046
+            ],
+            "max": [
+              0.9247967502604784,
+              1.5153782558395024,
+              0.4445510315895081
+            ]
+          },
+          "nativeBuffersAndMaterialsUnmodified": true,
+          "instanceMatricesCopiedBitExactly": true,
+          "fullShadowUpdates": 9,
+          "batchCacheHits": 8,
+          "batchRebuilds": 1,
+          "extraCompleteColorPassForShadowUpdate": true,
+          "stableScopes": {
+            "publicAPIOnly": true,
+            "originalPhysicalLights": 8,
+            "backgroundLightReplicas": 8,
+            "heroLightReplicas": 3,
+            "samePhysicalShadowObjects": true,
+            "nativeGeometryHasOneParent": true,
+            "identityScopesPreserveWorld": true,
+            "frameProgramStateStable": true,
+            "completeShadowUpdateBeforeColor": true,
+            "nativeEnvelopeDependencyGuard": true
+          }
+        },
+        "autoUpdate": false,
+        "version": "living-v01"
+      }
+    },
+    {
+      "test": "excluded-light-moved-invalidates-proof",
+      "baselineMode": "original",
+      "baselinePNG": "6a1049bf9b5361a6c561e9f9af6cd24c30964bfec5667ae05e9c44526ba8bbc3",
+      "stablePNG": "6a1049bf9b5361a6c561e9f9af6cd24c30964bfec5667ae05e9c44526ba8bbc3",
+      "bitIdentical": true,
+      "expectedLightPartition": false,
+      "state": {
+        "partition": {
+          "mode": "stable",
+          "nativeFoliageGroups": 72,
+          "batchedGroups": 12,
+          "batchActive": false,
+          "lightPartitionActive": false,
+          "drawPasses": 1,
+          "excludedFiniteLights": [
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                2.785971779537747,
+                2.35,
+                -4.294995624131106
+              ],
+              "method": "Entire native + deferred-high sphere outside spot cone",
+              "minimumAngleRadians": 1.8099044299776195,
+              "coneHalfAngleRadians": 0.82,
+              "sphereRadius": 1.3247266581849921
+            },
+            {
+              "type": "PointLight",
+              "name": "",
+              "position": [
+                2.9324161534261663,
+                1.43,
+                -4.499763896469446
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 4.515793521228121,
+              "cutoff": 3.6
+            },
+            {
+              "type": "PointLight",
+              "name": "Small room console lantern source",
+              "position": [
+                3.291193260692804,
+                0.904,
+                -5.161272193697368
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 5.267908078964165,
+              "cutoff": 3.1
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                -3.4,
+                0.15,
+                -6.35
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 6.359536232911674,
+              "cutoff": 5.5
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                0.6,
+                0.12,
+                -8.15
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 7.695215146541596,
+              "cutoff": 5.9
+            }
+          ],
+          "nativeEnvelope": {
+            "min": [
+              -1.0145986765948645,
+              -0.04972340852022171,
+              -0.4547848534584046
+            ],
+            "max": [
+              0.9247967502604784,
+              1.5153782558395024,
+              0.4445510315895081
+            ]
+          },
+          "nativeBuffersAndMaterialsUnmodified": true,
+          "instanceMatricesCopiedBitExactly": true,
+          "fullShadowUpdates": 10,
+          "batchCacheHits": 10,
+          "batchRebuilds": 1,
+          "extraCompleteColorPassForShadowUpdate": false,
+          "stableScopes": {
+            "publicAPIOnly": true,
+            "originalPhysicalLights": 8,
+            "backgroundLightReplicas": 8,
+            "heroLightReplicas": 3,
+            "samePhysicalShadowObjects": true,
+            "nativeGeometryHasOneParent": true,
+            "identityScopesPreserveWorld": true,
+            "frameProgramStateStable": true,
+            "completeShadowUpdateBeforeColor": true,
+            "nativeEnvelopeDependencyGuard": true
+          }
+        },
+        "autoUpdate": false,
+        "version": "living-v01"
+      }
+    },
+    {
+      "test": "wood-local-transform-invalidates-envelope",
+      "baselineMode": "original",
+      "baselinePNG": "0b5696d39ebff5572087e99fda765013217222c2102ec55eb6ad27f7dc3007c9",
+      "stablePNG": "0b5696d39ebff5572087e99fda765013217222c2102ec55eb6ad27f7dc3007c9",
+      "bitIdentical": true,
+      "expectedLightPartition": false,
+      "state": {
+        "partition": {
+          "mode": "stable",
+          "nativeFoliageGroups": 72,
+          "batchedGroups": 12,
+          "batchActive": false,
+          "lightPartitionActive": false,
+          "drawPasses": 1,
+          "excludedFiniteLights": [
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                2.785971779537747,
+                2.35,
+                -4.294995624131106
+              ],
+              "method": "Entire native + deferred-high sphere outside spot cone",
+              "minimumAngleRadians": 1.8099044299776195,
+              "coneHalfAngleRadians": 0.82,
+              "sphereRadius": 1.3247266581849921
+            },
+            {
+              "type": "PointLight",
+              "name": "",
+              "position": [
+                2.9324161534261663,
+                1.43,
+                -4.499763896469446
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 4.515793521228121,
+              "cutoff": 3.6
+            },
+            {
+              "type": "PointLight",
+              "name": "Small room console lantern source",
+              "position": [
+                3.291193260692804,
+                0.904,
+                -5.161272193697368
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 5.267908078964165,
+              "cutoff": 3.1
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                -3.4,
+                0.15,
+                -6.35
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 6.359536232911674,
+              "cutoff": 5.5
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                0.6,
+                0.12,
+                -8.15
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 7.695215146541596,
+              "cutoff": 5.9
+            }
+          ],
+          "nativeEnvelope": {
+            "min": [
+              -1.0145986765948645,
+              -0.04972340852022171,
+              -0.4547848534584046
+            ],
+            "max": [
+              0.9247967502604784,
+              1.5153782558395024,
+              0.4445510315895081
+            ]
+          },
+          "nativeBuffersAndMaterialsUnmodified": true,
+          "instanceMatricesCopiedBitExactly": true,
+          "fullShadowUpdates": 11,
+          "batchCacheHits": 12,
+          "batchRebuilds": 1,
+          "extraCompleteColorPassForShadowUpdate": false,
+          "stableScopes": {
+            "publicAPIOnly": true,
+            "originalPhysicalLights": 8,
+            "backgroundLightReplicas": 8,
+            "heroLightReplicas": 3,
+            "samePhysicalShadowObjects": true,
+            "nativeGeometryHasOneParent": true,
+            "identityScopesPreserveWorld": true,
+            "frameProgramStateStable": true,
+            "completeShadowUpdateBeforeColor": true,
+            "nativeEnvelopeDependencyGuard": true
+          }
+        },
+        "autoUpdate": false,
+        "version": "living-v01"
+      }
+    },
+    {
+      "test": "instance-version-invalidates-envelope",
+      "baselineMode": "original",
+      "baselinePNG": "a15c8000bf3ac11c96cf562652b7d8eb8f5324335e5feeae4f2bb0c676bfe4a9",
+      "stablePNG": "a15c8000bf3ac11c96cf562652b7d8eb8f5324335e5feeae4f2bb0c676bfe4a9",
+      "bitIdentical": true,
+      "expectedLightPartition": false,
+      "state": {
+        "partition": {
+          "mode": "stable",
+          "nativeFoliageGroups": 72,
+          "batchedGroups": 12,
+          "batchActive": false,
+          "lightPartitionActive": false,
+          "drawPasses": 1,
+          "excludedFiniteLights": [
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                2.785971779537747,
+                2.35,
+                -4.294995624131106
+              ],
+              "method": "Entire native + deferred-high sphere outside spot cone",
+              "minimumAngleRadians": 1.8099044299776195,
+              "coneHalfAngleRadians": 0.82,
+              "sphereRadius": 1.3247266581849921
+            },
+            {
+              "type": "PointLight",
+              "name": "",
+              "position": [
+                2.9324161534261663,
+                1.43,
+                -4.499763896469446
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 4.515793521228121,
+              "cutoff": 3.6
+            },
+            {
+              "type": "PointLight",
+              "name": "Small room console lantern source",
+              "position": [
+                3.291193260692804,
+                0.904,
+                -5.161272193697368
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 5.267908078964165,
+              "cutoff": 3.1
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                -3.4,
+                0.15,
+                -6.35
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 6.359536232911674,
+              "cutoff": 5.5
+            },
+            {
+              "type": "SpotLight",
+              "name": "",
+              "position": [
+                0.6,
+                0.12,
+                -8.15
+              ],
+              "method": "Entire native + deferred-high envelope outside finite cutoff",
+              "minimumDistance": 7.695215146541596,
+              "cutoff": 5.9
+            }
+          ],
+          "nativeEnvelope": {
+            "min": [
+              -1.0145986765948645,
+              -0.04972340852022171,
+              -0.4547848534584046
+            ],
+            "max": [
+              0.9247967502604784,
+              1.5153782558395024,
+              0.4445510315895081
+            ]
+          },
+          "nativeBuffersAndMaterialsUnmodified": true,
+          "instanceMatricesCopiedBitExactly": true,
+          "fullShadowUpdates": 12,
+          "batchCacheHits": 13,
+          "batchRebuilds": 2,
+          "extraCompleteColorPassForShadowUpdate": false,
+          "stableScopes": {
+            "publicAPIOnly": true,
+            "originalPhysicalLights": 8,
+            "backgroundLightReplicas": 8,
+            "heroLightReplicas": 3,
+            "samePhysicalShadowObjects": true,
+            "nativeGeometryHasOneParent": true,
+            "identityScopesPreserveWorld": true,
+            "frameProgramStateStable": true,
+            "completeShadowUpdateBeforeColor": true,
+            "nativeEnvelopeDependencyGuard": true
+          }
+        },
+        "autoUpdate": false,
+        "version": "living-v01"
+      }
+    }
+  ],
+  "passed": true,
+  "method": "Actual same Mac Chrome viewport; public legacy two-pass vs stable captures; conservative fallback compared with complete physical render as PNG SHA; explicit shadow rebuild each mode, original physical source/shadow authority; no browser duplication"
+}

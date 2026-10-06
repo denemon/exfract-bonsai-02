@@ -1,0 +1,37 @@
+{
+  "pairs": [
+    {
+      "light": "night",
+      "view": "pc",
+      "fixedShapeLeafCameraLightsProjectionExact": true
+    },
+    {
+      "light": "night",
+      "view": "wood",
+      "fixedShapeLeafCameraLightsProjectionExact": true
+    },
+    {
+      "light": "night",
+      "view": "bonsai-left",
+      "fixedShapeLeafCameraLightsProjectionExact": true
+    },
+    {
+      "light": "neutral",
+      "view": "pc",
+      "fixedShapeLeafCameraLightsProjectionExact": true
+    },
+    {
+      "light": "neutral",
+      "view": "wood",
+      "fixedShapeLeafCameraLightsProjectionExact": true
+    },
+    {
+      "light": "neutral",
+      "view": "bonsai-left",
+      "fixedShapeLeafCameraLightsProjectionExact": true
+    }
+  ],
+  "chosen": "aged-v01(v5)",
+  "normalFinish": "Small dry surface improvement only; form selection separate",
+  "wholeCompletion": false
+}

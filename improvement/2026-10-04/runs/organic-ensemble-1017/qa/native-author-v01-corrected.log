@@ -1,0 +1,27 @@
+00:00.114  translation      | WARNING Falling back to standard locale ("C")
+00:00.458  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/aged-ensemble-0831/models/aged-v01-editable.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+情報: 「living-v01-editable.blend」で保存しました
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+10:19:57 | INFO: Starting glTF 2.0 export
+10:19:57 | INFO: Extracting primitive: Native v01 local branch-mouth subdivision and depth
+10:19:57 | INFO: Primitives created: 1
+10:19:57 | INFO: Extracting primitive: Local root graft reroute, exact terminal nodes
+10:19:57 | INFO: Primitives created: 1
+10:19:57 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+10:19:57 | INFO: Draco encoder: Encoding mesh Terminal twig hierarchy.
+10:19:57 | INFO: Finished glTF 2.0 export in 0.07110881805419922 s
+
+{"stage": 34, "version": "living-v01", "native_vertices": 5394, "native_faces": 5392, "triangles": 10784, "volume": 0.09604896259927322, "boundary": 0, "nonmanifold": 0, "nonadjacent_intersections": 0, "changed_vertices_exact": 1066, "protected_vertices": 3274, "maximum_native_displacement_m": 0.05630695590073669, "root_upper_terminal_UV_color_face_exact": true, "five_view_soft_tangent_guard": true, "not_aesthetic_pass": true, "form_frozen": false}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5772 vertices, 32352 indices, raw size: 387768, encoded size: 71292, compression ratio: 5.44
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 34305 vertices, 110214 indices, raw size: 1043748, encoded size: 172232, compression ratio: 6.06
+
+Blender quit

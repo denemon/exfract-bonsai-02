@@ -1,0 +1,17 @@
+{
+  "stage": 34,
+  "scene": "living-v01/v5/planting-v02/stable",
+  "nativeAndSourceFixedExact": true,
+  "R32AndR33FailuresUnresolved": true,
+  "finiteComponent14RawPresent": true,
+  "componentCPU390RegressedUnqualified": true,
+  "thresholdChangeCount": 0,
+  "qualificationRepeatCountAllowed": 0,
+  "activeSamplesEachVariantWidth": 236,
+  "idleSamplesEachVariantWidth": 28,
+  "coldSamplesEachVariantWidth": 2,
+  "ChromePID": 61609,
+  "budgetTemporaryOverrun": true,
+  "old42NotPooled": true,
+  "runCandidateAdopted": false
+}
