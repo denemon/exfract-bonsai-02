@@ -1,0 +1,2261 @@
+{
+  "stage": 33,
+  "diagnosticOnly": true,
+  "qualificationSamples": 0,
+  "rows": [
+    {
+      "variant": "r31",
+      "CPU": {
+        "n": 14,
+        "median": 3.399999976158142,
+        "p95": 5.5,
+        "min": 1.100000023841858,
+        "max": 5.5
+      },
+      "GPU": {
+        "n": 14,
+        "median": 19.918687,
+        "p95": 22.634583,
+        "min": 14.210291,
+        "max": 22.634583
+      },
+      "parts": {
+        "foliage": {
+          "n": 14,
+          "median": 0.2500000596046448,
+          "p95": 0.6000000238418579,
+          "min": 0.10000002384185791,
+          "max": 0.6000000238418579
+        },
+        "renderer": {
+          "n": 14,
+          "median": 2.899999976158142,
+          "p95": 5,
+          "min": 1,
+          "max": 5
+        },
+        "other": {
+          "n": 14,
+          "median": 0.0,
+          "p95": 1.600000023841858,
+          "min": 0,
+          "max": 1.600000023841858
+        }
+      },
+      "cohorts": [
+        {
+          "id": "diagnostic-mobile-390-00-r31",
+          "CPU": {
+            "n": 7,
+            "median": 4.899999976158142,
+            "p95": 5.5,
+            "min": 2.4000000953674316,
+            "max": 5.5
+          },
+          "GPU": {
+            "n": 7,
+            "median": 19.753333,
+            "p95": 22.601166,
+            "min": 14.210291,
+            "max": 22.601166
+          },
+          "CPUordered": [
+            5.100000023841858,
+            5.5,
+            4.899999976158142,
+            5.300000071525574,
+            3.5,
+            3.200000047683716,
+            2.4000000953674316
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.6999999284744,
+            "p95": 2401.399999976158,
+            "min": 2400.100000023842,
+            "max": 2401.399999976158
+          }
+        },
+        {
+          "id": "diagnostic-mobile-390-11-r31",
+          "CPU": {
+            "n": 7,
+            "median": 2.5,
+            "p95": 4,
+            "min": 1.100000023841858,
+            "max": 4
+          },
+          "GPU": {
+            "n": 7,
+            "median": 20.084041,
+            "p95": 22.634583,
+            "min": 15.169374,
+            "max": 22.634583
+          },
+          "CPUordered": [
+            2.5,
+            2.299999952316284,
+            3.600000023841858,
+            4,
+            1.100000023841858,
+            3.299999952316284,
+            2.4000000953674316
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.600000023842,
+            "p95": 2400.899999976158,
+            "min": 2400.2000000476837,
+            "max": 2400.899999976158
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "diagnostic-mobile-390-00-r31",
+          "profileSampleCount": 18785,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18750
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 19
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "",
+              "url": "",
+              "selfSamples": 2
+            },
+            {
+              "function": "setValue",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "e.render",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "a",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "setValue",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "x",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrix",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "u",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "$s",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "l",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        },
+        {
+          "id": "diagnostic-mobile-390-11-r31",
+          "profileSampleCount": 18512,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18454
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 20
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 19
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "M",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "$s",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "test",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "wt",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "o",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "i",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "Qs",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "T",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        }
+      ]
+    },
+    {
+      "variant": "candidate",
+      "CPU": {
+        "n": 14,
+        "median": 3.300000011920929,
+        "p95": 5.600000023841858,
+        "min": 2,
+        "max": 5.600000023841858
+      },
+      "GPU": {
+        "n": 14,
+        "median": 19.5844995,
+        "p95": 22.85125,
+        "min": 11.171041,
+        "max": 22.85125
+      },
+      "parts": {
+        "foliage": {
+          "n": 14,
+          "median": 0.19999998807907104,
+          "p95": 0.5,
+          "min": 0.09999990463256836,
+          "max": 0.5
+        },
+        "renderer": {
+          "n": 14,
+          "median": 2.950000047683716,
+          "p95": 5.200000047683716,
+          "min": 1.8000000715255737,
+          "max": 5.200000047683716
+        },
+        "other": {
+          "n": 14,
+          "median": 0.09999996423721313,
+          "p95": 0.19999980926513672,
+          "min": 0,
+          "max": 0.19999980926513672
+        }
+      },
+      "cohorts": [
+        {
+          "id": "diagnostic-mobile-390-01-candidate",
+          "CPU": {
+            "n": 7,
+            "median": 2.700000047683716,
+            "p95": 5.599999904632568,
+            "min": 2.1999999284744263,
+            "max": 5.599999904632568
+          },
+          "GPU": {
+            "n": 7,
+            "median": 19.448874,
+            "p95": 21.306333,
+            "min": 11.171041,
+            "max": 21.306333
+          },
+          "CPUordered": [
+            2.700000047683716,
+            2.399999976158142,
+            5.599999904632568,
+            2.399999976158142,
+            5.5,
+            2.1999999284744263,
+            5.100000023841858
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.600000023842,
+            "p95": 2401,
+            "min": 2400.2999999523163,
+            "max": 2401
+          }
+        },
+        {
+          "id": "diagnostic-mobile-390-10-candidate",
+          "CPU": {
+            "n": 7,
+            "median": 3.8000000715255737,
+            "p95": 5.600000023841858,
+            "min": 2,
+            "max": 5.600000023841858
+          },
+          "GPU": {
+            "n": 7,
+            "median": 19.985666,
+            "p95": 22.85125,
+            "min": 14.795791,
+            "max": 22.85125
+          },
+          "CPUordered": [
+            2.799999952316284,
+            4.100000023841858,
+            3.9000000953674316,
+            2.100000023841858,
+            5.600000023841858,
+            3.8000000715255737,
+            2
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.7999999523163,
+            "p95": 2402.399999976158,
+            "min": 2400.2999999523163,
+            "max": 2402.399999976158
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "diagnostic-mobile-390-01-candidate",
+          "profileSampleCount": 18655,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18620
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 18
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "s",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "e.render",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "getQueryParameter",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "applyMatrix4",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "Oc",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "me",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "c",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrixWorld",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "Lc",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "r",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "get alphaTest",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        },
+        {
+          "id": "diagnostic-mobile-390-10-candidate",
+          "profileSampleCount": 18259,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18173
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 32
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 32
+            },
+            {
+              "function": "setValue",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "bt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "c",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "uniformMatrix4fv",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "Se",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ne",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "wt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "s",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        }
+      ]
+    },
+    {
+      "variant": "oldwood",
+      "CPU": {
+        "n": 14,
+        "median": 2.700000047683716,
+        "p95": 6.399999976158142,
+        "min": 0.7999999523162842,
+        "max": 6.399999976158142
+      },
+      "GPU": {
+        "n": 14,
+        "median": 18.8792075,
+        "p95": 22.542249,
+        "min": 14.981291,
+        "max": 22.542249
+      },
+      "parts": {
+        "foliage": {
+          "n": 14,
+          "median": 0.20000004768371582,
+          "p95": 0.5,
+          "min": 0.09999990463256836,
+          "max": 0.5
+        },
+        "renderer": {
+          "n": 14,
+          "median": 2.350000023841858,
+          "p95": 5.899999976158142,
+          "min": 0.6999999284744263,
+          "max": 5.899999976158142
+        },
+        "other": {
+          "n": 14,
+          "median": 0.0,
+          "p95": 0.19999992847442627,
+          "min": 0,
+          "max": 0.19999992847442627
+        }
+      },
+      "cohorts": [
+        {
+          "id": "diagnostic-mobile-390-02-oldwood",
+          "CPU": {
+            "n": 7,
+            "median": 2,
+            "p95": 5.199999928474426,
+            "min": 0.8999999761581421,
+            "max": 5.199999928474426
+          },
+          "GPU": {
+            "n": 7,
+            "median": 18.342124,
+            "p95": 22.542249,
+            "min": 16.3045,
+            "max": 22.542249
+          },
+          "CPUordered": [
+            1.899999976158142,
+            2,
+            4.800000071525574,
+            4.299999952316284,
+            0.8999999761581421,
+            5.199999928474426,
+            1.7000000476837158
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.399999976158,
+            "p95": 2400.7999999523163,
+            "min": 2400.1999999284744,
+            "max": 2400.7999999523163
+          }
+        },
+        {
+          "id": "diagnostic-mobile-390-09-oldwood",
+          "CPU": {
+            "n": 7,
+            "median": 3.4000000953674316,
+            "p95": 6.399999976158142,
+            "min": 0.7999999523162842,
+            "max": 6.399999976158142
+          },
+          "GPU": {
+            "n": 7,
+            "median": 18.922041,
+            "p95": 21.762291,
+            "min": 14.981291,
+            "max": 21.762291
+          },
+          "CPUordered": [
+            1.6999999284744263,
+            6.399999976158142,
+            3.4000000953674316,
+            1.7999999523162842,
+            5.699999928474426,
+            0.7999999523162842,
+            3.899999976158142
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.7000000476837,
+            "p95": 2401.5,
+            "min": 2400.5,
+            "max": 2401.5
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "diagnostic-mobile-390-02-oldwood",
+          "profileSampleCount": 18783,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18713
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 35
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 20
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "s",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "compose",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ve",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "length",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "setFromProjectionMatrix",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "clear",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "c",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "getQueryParameter",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "Ct",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrixWorld",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "bt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        },
+        {
+          "id": "diagnostic-mobile-390-09-oldwood",
+          "profileSampleCount": 18840,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18768
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 29
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 22
+            },
+            {
+              "function": "uniformMatrix4fv",
+              "url": "",
+              "selfSamples": 3
+            },
+            {
+              "function": "bindVertexArray",
+              "url": "",
+              "selfSamples": 2
+            },
+            {
+              "function": "",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "render",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "drawElements",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "setTest",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "update",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "compose",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "intersectsObject",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        }
+      ]
+    },
+    {
+      "variant": "oldgarden",
+      "CPU": {
+        "n": 14,
+        "median": 2.799999952316284,
+        "p95": 5,
+        "min": 0.6999999284744263,
+        "max": 5
+      },
+      "GPU": {
+        "n": 14,
+        "median": 17.7706455,
+        "p95": 22.710749,
+        "min": 14.856124,
+        "max": 22.710749
+      },
+      "parts": {
+        "foliage": {
+          "n": 14,
+          "median": 0.19999998807907104,
+          "p95": 1.7000000476837158,
+          "min": 0,
+          "max": 1.7000000476837158
+        },
+        "renderer": {
+          "n": 14,
+          "median": 2.449999988079071,
+          "p95": 4.600000023841858,
+          "min": 0.6000000238418579,
+          "max": 4.600000023841858
+        },
+        "other": {
+          "n": 14,
+          "median": 0.0,
+          "p95": 0.19999992847442627,
+          "min": 0,
+          "max": 0.19999992847442627
+        }
+      },
+      "cohorts": [
+        {
+          "id": "diagnostic-mobile-390-03-oldgarden",
+          "CPU": {
+            "n": 7,
+            "median": 2.0999999046325684,
+            "p95": 4.899999976158142,
+            "min": 0.6999999284744263,
+            "max": 4.899999976158142
+          },
+          "GPU": {
+            "n": 7,
+            "median": 18.320416,
+            "p95": 21.944166,
+            "min": 16.118624,
+            "max": 21.944166
+          },
+          "CPUordered": [
+            2.6999999284744263,
+            4.200000047683716,
+            1.8000000715255737,
+            4.899999976158142,
+            0.6999999284744263,
+            1.600000023841858,
+            2.0999999046325684
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.4000000953674,
+            "p95": 2401,
+            "min": 2400.0999999046326,
+            "max": 2401
+          }
+        },
+        {
+          "id": "diagnostic-mobile-390-08-oldgarden",
+          "CPU": {
+            "n": 7,
+            "median": 3.100000023841858,
+            "p95": 5,
+            "min": 0.7999999523162842,
+            "max": 5
+          },
+          "GPU": {
+            "n": 7,
+            "median": 16.602499,
+            "p95": 22.710749,
+            "min": 14.856124,
+            "max": 22.710749
+          },
+          "CPUordered": [
+            2.899999976158142,
+            3.5,
+            1.899999976158142,
+            4.5,
+            5,
+            3.100000023841858,
+            0.7999999523162842
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.5,
+            "p95": 2400.7000000476837,
+            "min": 2400.2999999523163,
+            "max": 2400.7000000476837
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "diagnostic-mobile-390-03-oldgarden",
+          "profileSampleCount": 18286,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18212
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 32
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 27
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "toArray",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "multiplyMatrices",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "s",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ne",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "setValue",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "u",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "clear",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "Ct",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "multiplyMatrices",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        },
+        {
+          "id": "diagnostic-mobile-390-08-oldgarden",
+          "profileSampleCount": 18544,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18488
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 22
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 22
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "invert",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "x",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "c",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "getMaxScaleOnAxis",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "T",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ic",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "i",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrixWorld",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "e.render",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "$s",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        }
+      ]
+    },
+    {
+      "variant": "oldboth",
+      "CPU": {
+        "n": 14,
+        "median": 3.100000023841858,
+        "p95": 6.700000047683716,
+        "min": 0.7999999523162842,
+        "max": 6.700000047683716
+      },
+      "GPU": {
+        "n": 14,
+        "median": 18.146228999999998,
+        "p95": 21.49325,
+        "min": 13.347,
+        "max": 21.49325
+      },
+      "parts": {
+        "foliage": {
+          "n": 14,
+          "median": 0.20000004768371582,
+          "p95": 0.5,
+          "min": 0,
+          "max": 0.5
+        },
+        "renderer": {
+          "n": 14,
+          "median": 2.900000035762787,
+          "p95": 6.200000047683716,
+          "min": 0.7999999523162842,
+          "max": 6.200000047683716
+        },
+        "other": {
+          "n": 14,
+          "median": 0.0,
+          "p95": 0.10000002384185791,
+          "min": 0,
+          "max": 0.10000002384185791
+        }
+      },
+      "cohorts": [
+        {
+          "id": "diagnostic-mobile-390-04-oldboth",
+          "CPU": {
+            "n": 7,
+            "median": 3.299999952316284,
+            "p95": 5.800000071525574,
+            "min": 0.7999999523162842,
+            "max": 5.800000071525574
+          },
+          "GPU": {
+            "n": 7,
+            "median": 15.878875,
+            "p95": 21.49325,
+            "min": 13.347,
+            "max": 21.49325
+          },
+          "CPUordered": [
+            3.299999952316284,
+            0.7999999523162842,
+            2.600000023841858,
+            3.700000047683716,
+            5.800000071525574,
+            4.700000047683716,
+            1.8000000715255737
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.899999976158,
+            "p95": 2400.9000000953674,
+            "min": 2400.3000000715256,
+            "max": 2400.9000000953674
+          }
+        },
+        {
+          "id": "diagnostic-mobile-390-07-oldboth",
+          "CPU": {
+            "n": 7,
+            "median": 2.9000000953674316,
+            "p95": 6.700000047683716,
+            "min": 1.5,
+            "max": 6.700000047683716
+          },
+          "GPU": {
+            "n": 7,
+            "median": 19.445125,
+            "p95": 21.205249,
+            "min": 16.265624,
+            "max": 21.205249
+          },
+          "CPUordered": [
+            3.899999976158142,
+            4.400000095367432,
+            1.5,
+            6.700000047683716,
+            2.9000000953674316,
+            2.299999952316284,
+            2.4000000953674316
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.600000023842,
+            "p95": 2401.6999999284744,
+            "min": 2400.2000000476837,
+            "max": 2401.6999999284744
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "diagnostic-mobile-390-04-oldboth",
+          "profileSampleCount": 18012,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 17949
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 25
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 22
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "",
+              "url": "",
+              "selfSamples": 2
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "g.foliage.update",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "bt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "c",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "get texture",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "m",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ne",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "N",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "endQuery",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "M",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        },
+        {
+          "id": "diagnostic-mobile-390-07-oldboth",
+          "profileSampleCount": 18074,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 17976
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 57
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 27
+            },
+            {
+              "function": "Cm",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "getRenderTarget",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ne",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ic",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "clear",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "bindVertexArray",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "hasEventListener",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        }
+      ]
+    },
+    {
+      "variant": "content",
+      "CPU": {
+        "n": 14,
+        "median": 3.649999976158142,
+        "p95": 7.200000047683716,
+        "min": 0.8999999761581421,
+        "max": 7.200000047683716
+      },
+      "GPU": {
+        "n": 14,
+        "median": 17.8554785,
+        "p95": 22.763625,
+        "min": 13.771833,
+        "max": 22.763625
+      },
+      "parts": {
+        "foliage": {
+          "n": 14,
+          "median": 0.3999999761581421,
+          "p95": 0.5,
+          "min": 0,
+          "max": 0.5
+        },
+        "renderer": {
+          "n": 14,
+          "median": 3.199999988079071,
+          "p95": 6.700000047683716,
+          "min": 0.7999999523162842,
+          "max": 6.700000047683716
+        },
+        "other": {
+          "n": 14,
+          "median": 0.0,
+          "p95": 0.10000002384185791,
+          "min": 0,
+          "max": 0.10000002384185791
+        }
+      },
+      "cohorts": [
+        {
+          "id": "diagnostic-mobile-390-05-content",
+          "CPU": {
+            "n": 7,
+            "median": 2.700000047683716,
+            "p95": 6,
+            "min": 1,
+            "max": 6
+          },
+          "GPU": {
+            "n": 7,
+            "median": 19.039375,
+            "p95": 22.763625,
+            "min": 14.908249,
+            "max": 22.763625
+          },
+          "CPUordered": [
+            1.899999976158142,
+            2.600000023841858,
+            1,
+            6,
+            4.400000095367432,
+            3.100000023841858,
+            2.700000047683716
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.5,
+            "p95": 2401.2000000476837,
+            "min": 2400.2999999523163,
+            "max": 2401.2000000476837
+          }
+        },
+        {
+          "id": "diagnostic-mobile-390-06-content",
+          "CPU": {
+            "n": 7,
+            "median": 4.699999928474426,
+            "p95": 7.200000047683716,
+            "min": 0.8999999761581421,
+            "max": 7.200000047683716
+          },
+          "GPU": {
+            "n": 7,
+            "median": 14.981041,
+            "p95": 19.879375,
+            "min": 13.771833,
+            "max": 19.879375
+          },
+          "CPUordered": [
+            4.699999928474426,
+            0.8999999761581421,
+            1.399999976158142,
+            7.200000047683716,
+            5.100000023841858,
+            4.199999928474426,
+            5.600000023841858
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2401,
+            "p95": 2401.7999999523163,
+            "min": 2400.600000023842,
+            "max": 2401.7999999523163
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "diagnostic-mobile-390-05-content",
+          "profileSampleCount": 18052,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 17980
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 30
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 25
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "i",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "x",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "convert",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "o",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "setValue",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "n",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "M",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "s",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "uniformMatrix4fv",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrixWorld",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "u",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        },
+        {
+          "id": "diagnostic-mobile-390-06-content",
+          "profileSampleCount": 17954,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 17875
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 32
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 31
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "i",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrixWorld",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "c",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "requestAnimationFrame",
+              "url": "",
+              "selfSamples": 1
+            },
+            {
+              "function": "$s",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "nc",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrixWorld",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "onBeforeRender",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrix",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        }
+      ]
+    },
+    {
+      "variant": "warmr31",
+      "CPU": {
+        "n": 14,
+        "median": 3.0,
+        "p95": 5.399999976158142,
+        "min": 0.7000000476837158,
+        "max": 5.399999976158142
+      },
+      "GPU": {
+        "n": 14,
+        "median": 16.6876245,
+        "p95": 21.571125,
+        "min": 12.097833,
+        "max": 21.571125
+      },
+      "parts": {
+        "foliage": {
+          "n": 14,
+          "median": 0.20000004768371582,
+          "p95": 1.2000000476837158,
+          "min": 0,
+          "max": 1.2000000476837158
+        },
+        "renderer": {
+          "n": 14,
+          "median": 2.550000011920929,
+          "p95": 4.899999976158142,
+          "min": 0.7000000476837158,
+          "max": 4.899999976158142
+        },
+        "other": {
+          "n": 14,
+          "median": 0.04999995231628418,
+          "p95": 0.29999983310699463,
+          "min": 0,
+          "max": 0.29999983310699463
+        }
+      },
+      "cohorts": [
+        {
+          "id": "diagnostic-mobile-390-12-warmr31",
+          "CPU": {
+            "n": 7,
+            "median": 2.600000023841858,
+            "p95": 5,
+            "min": 0.7000000476837158,
+            "max": 5
+          },
+          "GPU": {
+            "n": 7,
+            "median": 16.588291,
+            "p95": 21.571125,
+            "min": 12.097833,
+            "max": 21.571125
+          },
+          "CPUordered": [
+            0.7000000476837158,
+            2.600000023841858,
+            3.899999976158142,
+            4,
+            5,
+            2.1999999284744263,
+            2.200000047683716
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.5,
+            "p95": 2401.0999999046326,
+            "min": 2400.2999999523163,
+            "max": 2401.0999999046326
+          }
+        },
+        {
+          "id": "diagnostic-mobile-390-15-warmr31",
+          "CPU": {
+            "n": 7,
+            "median": 3.399999976158142,
+            "p95": 5.399999976158142,
+            "min": 2,
+            "max": 5.399999976158142
+          },
+          "GPU": {
+            "n": 7,
+            "median": 16.786958,
+            "p95": 21.187458,
+            "min": 14.128416,
+            "max": 21.187458
+          },
+          "CPUordered": [
+            5.299999952316284,
+            4,
+            5.399999976158142,
+            3.399999976158142,
+            2.5,
+            2.299999952316284,
+            2
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.7999999523163,
+            "p95": 2401.4000000953674,
+            "min": 2400.399999976158,
+            "max": 2401.4000000953674
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "diagnostic-mobile-390-12-warmr31",
+          "profileSampleCount": 18792,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18718
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 20
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 19
+            },
+            {
+              "function": "x",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 4
+            },
+            {
+              "function": "clear",
+              "url": "",
+              "selfSamples": 3
+            },
+            {
+              "function": "bt",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "s",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "wt",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "Qs",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "d",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrix",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "rc",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "upload",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        },
+        {
+          "id": "diagnostic-mobile-390-15-warmr31",
+          "profileSampleCount": 19012,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18911
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 32
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 24
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 3
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "Sm",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "$s",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "i",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "$s",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "upload",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "applyMatrix4",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "l",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "e.render",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ic",
+              "url": "http://127.0.0.1:5215/compare/r31/assets/index-BIWYVtly.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        }
+      ]
+    },
+    {
+      "variant": "warmcandidate",
+      "CPU": {
+        "n": 14,
+        "median": 3.400000035762787,
+        "p95": 5.5,
+        "min": 0.5,
+        "max": 5.5
+      },
+      "GPU": {
+        "n": 14,
+        "median": 17.3351665,
+        "p95": 22.587375,
+        "min": 14.101958,
+        "max": 22.587375
+      },
+      "parts": {
+        "foliage": {
+          "n": 14,
+          "median": 0.3999999761581421,
+          "p95": 0.7000000476837158,
+          "min": 0,
+          "max": 0.7000000476837158
+        },
+        "renderer": {
+          "n": 14,
+          "median": 2.900000035762787,
+          "p95": 4.799999952316284,
+          "min": 0.5,
+          "max": 4.799999952316284
+        },
+        "other": {
+          "n": 14,
+          "median": 0.04999995231628418,
+          "p95": 0.3999999761581421,
+          "min": 0,
+          "max": 0.3999999761581421
+        }
+      },
+      "cohorts": [
+        {
+          "id": "diagnostic-mobile-390-13-warmcandidate",
+          "CPU": {
+            "n": 7,
+            "median": 2.1999999284744263,
+            "p95": 4.5,
+            "min": 0.5,
+            "max": 4.5
+          },
+          "GPU": {
+            "n": 7,
+            "median": 18.927125,
+            "p95": 22.587375,
+            "min": 15.145624,
+            "max": 22.587375
+          },
+          "CPUordered": [
+            3.600000023841858,
+            2.1999999284744263,
+            2,
+            4.5,
+            3.899999976158142,
+            0.5,
+            1.7999999523162842
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.7999999523163,
+            "p95": 2400.9000000953674,
+            "min": 2400.100000023842,
+            "max": 2400.9000000953674
+          }
+        },
+        {
+          "id": "diagnostic-mobile-390-14-warmcandidate",
+          "CPU": {
+            "n": 7,
+            "median": 3.4000000953674316,
+            "p95": 5.5,
+            "min": 1,
+            "max": 5.5
+          },
+          "GPU": {
+            "n": 7,
+            "median": 16.134874,
+            "p95": 20.451124,
+            "min": 14.101958,
+            "max": 20.451124
+          },
+          "CPUordered": [
+            3.1999999284744263,
+            4.700000047683716,
+            5.5,
+            3.4000000953674316,
+            1,
+            3.399999976158142,
+            4.899999976158142
+          ],
+          "actualIdleWait": {
+            "n": 7,
+            "median": 2400.600000023842,
+            "p95": 2401.100000023842,
+            "min": 2400.5,
+            "max": 2401.100000023842
+          }
+        }
+      ],
+      "profiles": [
+        {
+          "id": "diagnostic-mobile-390-13-warmcandidate",
+          "profileSampleCount": 18818,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18711
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 37
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 23
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 4
+            },
+            {
+              "function": "M",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "ic",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "ve",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "setValue",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "Qs",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "render",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "updateMatrixWorld",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ec",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "renderBufferDirect",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "setTest",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        },
+        {
+          "id": "diagnostic-mobile-390-14-warmcandidate",
+          "profileSampleCount": 19107,
+          "topSelfSampleFunctions": [
+            {
+              "function": "(idle)",
+              "url": "",
+              "selfSamples": 18995
+            },
+            {
+              "function": "(program)",
+              "url": "",
+              "selfSamples": 37
+            },
+            {
+              "function": "(garbage collector)",
+              "url": "",
+              "selfSamples": 23
+            },
+            {
+              "function": "g.foliage.update",
+              "url": "",
+              "selfSamples": 4
+            },
+            {
+              "function": "kt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 3
+            },
+            {
+              "function": "bt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "setValue",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "bindVertexArray",
+              "url": "",
+              "selfSamples": 2
+            },
+            {
+              "function": "M",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 2
+            },
+            {
+              "function": "project",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "p",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "setValue",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "ve",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "bt",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            },
+            {
+              "function": "compose",
+              "url": "http://127.0.0.1:5215/compare/r32/assets/index-CyC3whrw.js",
+              "selfSamples": 1
+            }
+          ],
+          "samplingUs": 500,
+          "driverBlockingCannotBeSeparatedByJSProfiler": true
+        }
+      ]
+    }
+  ],
+  "rawCohorts": 16,
+  "rawSamples": 112,
+  "rawSHA256": {
+    "diagnostic-mobile-390-00-r31.cpuprofile.json": "53af0f89262f8655aaf537f4341ac6b661dd6eb42931288170e685ee8bde0f71",
+    "diagnostic-mobile-390-00-r31.json": "b1d67fbf071c48b4b6f54b1eb6bee34dd3e0de7b9d4f998b4046a371cf837379",
+    "diagnostic-mobile-390-01-candidate.cpuprofile.json": "c61df2f09a1248eeaed6648274e6f2039ce42b13f91f8d6799517be308c5530c",
+    "diagnostic-mobile-390-01-candidate.json": "5b461fa4f615be4e454d3de0ff67aefd39faba320320be9008220a9874a7649f",
+    "diagnostic-mobile-390-02-oldwood.cpuprofile.json": "43d3bd74d049414456c9cc8c3664d1c58ca98776183d20f7c58a985e690cbc82",
+    "diagnostic-mobile-390-02-oldwood.json": "9a0a4fa6e3286a799f7834e7a4637102e26cdac13e767488131b85442258caa2",
+    "diagnostic-mobile-390-03-oldgarden.cpuprofile.json": "b59b15d8663c10fcde80709cba8ab2fd17e8279528304daad8a6c66b34aa70ee",
+    "diagnostic-mobile-390-03-oldgarden.json": "5d2191b1b6d2be9f2b86f135d9329c118faf04c723bfc06f0b3538275aaed999",
+    "diagnostic-mobile-390-04-oldboth.cpuprofile.json": "bbd32d7dea5ccf6be124361f116b2501109d8d1084710a8f6a839353cbd25b50",
+    "diagnostic-mobile-390-04-oldboth.json": "d88f9b4e213fe64d58963ddeba635f9c884a6f2123768c85f80522083c74541e",
+    "diagnostic-mobile-390-05-content.cpuprofile.json": "9f8e23c47e712a8e5022c265e30438c938481ebfe0c7a419aa077ac99cefc767",
+    "diagnostic-mobile-390-05-content.json": "982a4a287bf8124d66bd2abc765e1b7ebb88d6c2c334e851b883779f164b0d0c",
+    "diagnostic-mobile-390-06-content.cpuprofile.json": "9422d5ee86411e058affd15dcac7bf69d7829e4c4efb7cf581aa59b321bd1085",
+    "diagnostic-mobile-390-06-content.json": "03b5f98e6b1bc70ba7ce04f0875a3f5e65f70dfb580392809bd360517ccc6d4b",
+    "diagnostic-mobile-390-07-oldboth.cpuprofile.json": "ebfe66aa8e9e0ba09762985efb1f0ab0df560388f8152e9369bb70beaec2043b",
+    "diagnostic-mobile-390-07-oldboth.json": "1b11090e3d108dbc24761fdde84a4c745fafa9bd1540973b7e082d88d55e93d7",
+    "diagnostic-mobile-390-08-oldgarden.cpuprofile.json": "5613db04f353eba0907c0f77e8d57413ae6d27e78db287d88da9f729316c02c3",
+    "diagnostic-mobile-390-08-oldgarden.json": "b7a8015dd8a0cb138bae53ef32d41d7eb4b4698b83d9890930f71949d430db7e",
+    "diagnostic-mobile-390-09-oldwood.cpuprofile.json": "8913133aaada2729bda55b14654dcf2a3e808cc01305686cc897ab3d610773dd",
+    "diagnostic-mobile-390-09-oldwood.json": "19e0b66549eb29763ac8bd104f3eab89e5cf319604caad407ef4f759b43a1773",
+    "diagnostic-mobile-390-10-candidate.cpuprofile.json": "5b6099345022f6caf6cb4de3c4d1629374c57c05e8139d5aff2af5e41f96ca54",
+    "diagnostic-mobile-390-10-candidate.json": "3efe020f61bcd3b5c73b1d2530400a993ad36bfa27aae556f06088a8e34a6147",
+    "diagnostic-mobile-390-11-r31.cpuprofile.json": "ea86643347f8d758b7c9eb7f1f6d91af2741da19cd7734d7f413d24ad0620395",
+    "diagnostic-mobile-390-11-r31.json": "ced5244663268568295398cff9fb3871beb91042ba98914d76706b5ffdd991fe",
+    "diagnostic-mobile-390-12-warmr31.cpuprofile.json": "06b66f87f4e2bdda3d063023eae6f64f7bf45c69b7dbc4987e81f078893fb24d",
+    "diagnostic-mobile-390-12-warmr31.json": "bfa56b574fcb8fc701bd47111c4d5d074e2c6262862d05417f9a383a91021058",
+    "diagnostic-mobile-390-13-warmcandidate.cpuprofile.json": "3cc86c9ec4862b829fff0b409b4086f5c6199fc0f0722a7be6a28c27fbe3b83f",
+    "diagnostic-mobile-390-13-warmcandidate.json": "e038cc43291620450bf96274c57b4857785c715def72b31025d1002e5063c58b",
+    "diagnostic-mobile-390-14-warmcandidate.cpuprofile.json": "421f204aca1d43eb32262afd1680114d8a2a82d7cd3ba19bbd95b3954658d690",
+    "diagnostic-mobile-390-14-warmcandidate.json": "32d18ee8571fb967b19db07f9fe4db4a8ef5808f8b71a68e0ed20d664856c9a6",
+    "diagnostic-mobile-390-15-warmr31.cpuprofile.json": "2b5f12e23fb76c7a67c15ab25f9731d89c291e3814c8d5d23008867ef482c8c1",
+    "diagnostic-mobile-390-15-warmr31.json": "6b511d1e9622e9e30594df95b7fc29dd3022e2792bdef85a525e18d3bc5c4b67"
+  },
+  "limitations": [
+    "Instrumented profile500us and functionwrappers; not qualification",
+    "Two7sample cohorts percondition, actual temperature/frequency unavailable",
+    "Woodbundle changes shaderandatlas together",
+    "CPUrender submitincludes possible driverwait andJSinterruptions",
+    "Cause must be inferred cautiously; thresholds unchanged"
+  ],
+  "sourceChanged": false,
+  "oldPrimaryFailuresPreserved": true,
+  "interrupted42NeverQualified": true
+}

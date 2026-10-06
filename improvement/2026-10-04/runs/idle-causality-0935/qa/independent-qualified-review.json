@@ -1,0 +1,19 @@
+{
+  "reviewer": "/root/volume_review",
+  "readOnly": true,
+  "all60RawSHAAndMedianNearestRankP95RecomputedExact": true,
+  "poolPassed": 26,
+  "poolTotal": 27,
+  "orderBlockPassed": 20,
+  "orderBlockTotal": 24,
+  "failures": 5,
+  "samplerAndThresholdsUnchanged": true,
+  "activeEach236IdleEach28ColdEach2": true,
+  "ChromePID": 34202,
+  "DPR": 1,
+  "v1First4v2Remaining56": true,
+  "sourceCauseUnidentified": true,
+  "keepR31Agreed": true,
+  "diagnosticOldPrimaryInterruptedSupplementNotPooled": true,
+  "wholeQualityComplete": false
+}
