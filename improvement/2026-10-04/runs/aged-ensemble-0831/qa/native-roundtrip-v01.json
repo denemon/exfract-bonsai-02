@@ -1,0 +1,26 @@
+{
+  "stage": 32,
+  "version": "aged-v01",
+  "fresh_Blender_reopen": true,
+  "exact_positions_and_119_changed_records": true,
+  "all_others_exact_source": true,
+  "protected4106_exact": true,
+  "source_roots_upper_twig_faces_UV_color_exact": true,
+  "native_global_bounds_exact_source": [
+    [
+      -0.5885205864906311,
+      -0.22517304122447968,
+      0.2622222602367401
+    ],
+    [
+      0.567034125328064,
+      0.3383539617061615,
+      1.9411135911941528
+    ]
+  ],
+  "closed_manifold": true,
+  "volume": 0.09232078251510545,
+  "geometry_write": false,
+  "not_aesthetic_pass": true,
+  "form_frozen": false
+}

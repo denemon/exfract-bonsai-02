@@ -1,0 +1,46 @@
+{
+  "pairs": [
+    {
+      "before": "before-night-pc",
+      "after": "after-night-pc",
+      "cameraExposureLightProjectionNativeLeafWorldExact": true
+    },
+    {
+      "before": "before-night-mobile-390",
+      "after": "after-night-mobile-390",
+      "cameraExposureLightProjectionNativeLeafWorldExact": true
+    },
+    {
+      "before": "before-night-mobile-320",
+      "after": "after-night-mobile-320",
+      "cameraExposureLightProjectionNativeLeafWorldExact": true
+    },
+    {
+      "before": "before-neutral-pc",
+      "after": "after-neutral-pc",
+      "cameraExposureLightProjectionNativeLeafWorldExact": true
+    },
+    {
+      "before": "before-neutral-wood",
+      "after": "after-neutral-wood",
+      "cameraExposureLightProjectionNativeLeafWorldExact": true
+    },
+    {
+      "before": "before-neutral-bonsai-left",
+      "after": "after-neutral-bonsai-left",
+      "cameraExposureLightProjectionNativeLeafWorldExact": true
+    },
+    {
+      "before": "before-neutral-bonsai-right",
+      "after": "after-neutral-bonsai-right",
+      "cameraExposureLightProjectionNativeLeafWorldExact": true
+    }
+  ],
+  "nativeShapeIntentionalChange": true,
+  "before": "grown-v02",
+  "after": "aged-v01",
+  "ordinaryDistanceClearOverallImprovement": false,
+  "independentClayVerdict": "Freeze aged-v01 for independent material study; no corrective native geometry required. Minor supportface improvement in wood/side crops, nonregression wholePC390320. Broad smoothface remains.",
+  "grayMaterialsIdentical": true,
+  "overallGoalComplete": false
+}

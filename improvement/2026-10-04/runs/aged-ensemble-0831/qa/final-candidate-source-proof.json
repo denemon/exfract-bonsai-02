@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "width": 1440,
+      "actualRecoveredFinalSceneEqualFrozenBeforeAfter": true,
+      "actualCamera": {
+        "position": [
+          0,
+          1.4138158484842958,
+          3.5945482984945594
+        ],
+        "target": [
+          0,
+          1.2401676708173655,
+          2.6097405454823512
+        ],
+        "fov": 38,
+        "exposure": 1
+      },
+      "sameExactProjection": true
+    },
+    {
+      "width": 390,
+      "actualRecoveredFinalSceneEqualFrozenBeforeAfter": true,
+      "actualCamera": {
+        "position": [
+          -2.351543588847307,
+          0.9713230540133062,
+          2.680924238751195
+        ],
+        "target": [
+          -1.712277236942608,
+          0.8667945907456527,
+          1.9190762672441752
+        ],
+        "fov": 54,
+        "exposure": 1
+      },
+      "sameExactProjection": true
+    },
+    {
+      "width": 320,
+      "actualRecoveredFinalSceneEqualFrozenBeforeAfter": true,
+      "actualCamera": {
+        "position": [
+          -1.7324109718768177,
+          0.9600399202119606,
+          2.811625720106352
+        ],
+        "target": [
+          -1.2351500241926812,
+          0.8555114569443072,
+          1.9503444940975778
+        ],
+        "fov": 54,
+        "exposure": 1
+      },
+      "sameExactProjection": true
+    }
+  ],
+  "recoveredChromePID": 20964,
+  "candidateAdopted": false,
+  "sourceBuffersGardenLightFramingExact": true
+}

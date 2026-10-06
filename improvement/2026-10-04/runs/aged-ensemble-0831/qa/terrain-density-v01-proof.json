@@ -1,0 +1,19 @@
+{
+  "baselineR30Exact": true,
+  "beforeFieldSHA": "4fa7fe81276f9428dbe4b5e6d6f64d01bd0f466f4c53068524b4b1e46c24c7b6",
+  "afterFieldSHA": "650b67e6ffd98e1ebf44066f0c9e13abb2e2d4f68b7a78fc10c4a0146f7735d5",
+  "changedPixels": 553,
+  "changedChannels": [
+    541,
+    455,
+    0,
+    0
+  ],
+  "allHeightBlueExact": true,
+  "blueSHA": "3f4940e7645e64bc1ff2352ecc25cf0ad48a1e7136ba3a1f4c96a06ee70a11af",
+  "protectedPixels": 236599,
+  "protectedBytesExact": true,
+  "protectedSHA": "ba6e080f61cb9266d76f7ce4f75d71c72abe6e0c7cff0817d39eb7d60fc670b0",
+  "newCrestGeometry": false,
+  "seatStonePotRearUnchanged": true
+}

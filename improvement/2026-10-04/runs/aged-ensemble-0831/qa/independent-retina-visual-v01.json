@@ -1,0 +1,21 @@
+{
+  "reviewer": "/root/volume_review",
+  "readOnly": true,
+  "actualImagesViewed": 6,
+  "PCOverallImprovementMaintained": true,
+  "mobile390Nonregression": true,
+  "mobile320Nonregression": true,
+  "additionalCorrectionRequired": false,
+  "newRoundDentThinLipWetGlossObserved": false,
+  "woodMaterialBenefit": "Small; no material regression",
+  "390LeftPlanting": "Still weak clipped fragment; remains unresolved",
+  "remaining": [
+    "Repeated lowshrub blade shapes",
+    "Smooth upperbranches",
+    "Broad mossmat",
+    "Sparse distantcrowns"
+  ],
+  "retinaMethod": "Actual MacChrome ANGLEMetal rendering underCDP DPR2/canvascap1.6; not physicaldisplay/realphone",
+  "performanceAndTOPYetQualified": false,
+  "overallGoalComplete": false
+}

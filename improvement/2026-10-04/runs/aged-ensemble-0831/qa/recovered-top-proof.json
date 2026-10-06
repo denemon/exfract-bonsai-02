@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "TOPSource": "growth-garden-0729",
+  "TOPPID": 20598,
+  "candidateAdopted": false,
+  "rows": [
+    {
+      "width": 1440,
+      "selectedR31": true,
+      "actualJPEGExactOldR31": true,
+      "sha256": "ac9ef728bdcd85397a10cf5208f35c5d6141382a4effdd38c5291aed0425b711"
+    },
+    {
+      "width": 390,
+      "selectedR31": true,
+      "actualJPEGExactOldR31": true,
+      "sha256": "c2cc0e26b8e1778e3ba447f522d3509ca9fcbf79ca2dad5bf2369b6e03df4179"
+    },
+    {
+      "width": 320,
+      "selectedR31": true,
+      "actualJPEGExactOldR31": true,
+      "sha256": "cda80d2d41a03fd320fd3a34b638af77c5f2add1c8cc15359f192e84aa49aa40"
+    }
+  ],
+  "finalActual3DVerified": true,
+  "originalPID90351EndedDuringExecutorRecoveryNotByWorkerStop": true
+}

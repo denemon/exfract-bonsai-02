@@ -1,0 +1,58 @@
+{
+  "selectedFinalScene": "aged-v01/normal-aged-growth-v01/low-occupied-rootshade-v01/stable",
+  "actualFiveFrames": "qa/completed-scene-five-verification/results.json",
+  "fiveIndependentDefaultCompositions": true,
+  "inlineAndFullSameCompletedScene": true,
+  "entries": [
+    {
+      "name": "pc",
+      "size": [
+        1440,
+        900
+      ],
+      "fullSHA256": "eae18f8f14b89dc0b312f070963c75fc13804c8bffaba90e87cf518af75d4b11",
+      "inlineSHA256": "0ddb56957559b0ad1814d8ca82fbd8821eed981c04a2456f00b9b87c50667d83",
+      "ownNewCapture": true
+    },
+    {
+      "name": "wide",
+      "size": [
+        1800,
+        750
+      ],
+      "fullSHA256": "37771754dfa239a6a6cb4a21229dcf5bba81063d5583c26f91294f0ac5c85d9c",
+      "inlineSHA256": "4811eb02e4952541126499a4f9a5fc7e71473961ef726e747ced1a86d3ddfe52",
+      "ownNewCapture": true
+    },
+    {
+      "name": "mobile-390",
+      "size": [
+        390,
+        844
+      ],
+      "fullSHA256": "6c03708023ece1a1af3a47890d15e3d46f17d1617ed20906c871286b201dd37a",
+      "inlineSHA256": "f0bcd32da9eab64a323f836041968862a0c98bf16cf85913711a74eba5daa5df",
+      "ownNewCapture": true
+    },
+    {
+      "name": "mobile-320",
+      "size": [
+        320,
+        568
+      ],
+      "fullSHA256": "194ecb24ded9d31ed24ab4fedad9e7e74b7d2298b9b76e5a3f66bd39f16e50aa",
+      "inlineSHA256": "78b455cf8352139807321f0ab1831a83a05f2c2a70cc02653721956460d432dc",
+      "ownNewCapture": true
+    },
+    {
+      "name": "mobile-tall",
+      "size": [
+        390,
+        1024
+      ],
+      "fullSHA256": "d15db16af9872c9d00bec41d7053d67eccd0f4e524a4ec44718ffb2321224d4c",
+      "inlineSHA256": "cdd468a6b0676c78c763c68df199ee9321e26e4047cb16544088036d0fee0d69",
+      "ownNewCapture": true
+    }
+  ]
+}

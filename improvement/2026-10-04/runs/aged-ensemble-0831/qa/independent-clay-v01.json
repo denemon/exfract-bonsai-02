@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root/volume_review",
+  "readOnly": true,
+  "actualPixelImagesViewed": 14,
+  "clayFreezeAllowed": true,
+  "additionalShapeCorrectionRequired": false,
+  "shapeOnlyOverallPCImprovement": false,
+  "localFinding": "Support plane into branch slightly more readable in neutral wood and sides; no closed dent/ringcollar/thinlip recurrence observed.",
+  "mobile390": "nonregression",
+  "mobile320": "nonregression; change almost unidentifiable",
+  "remaining": "Broad smoothfaces/branch shoulders still dominate; cannot call ancient wood complete or TOP qualified."
+}
