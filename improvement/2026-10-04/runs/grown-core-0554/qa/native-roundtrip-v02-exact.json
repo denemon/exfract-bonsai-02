@@ -1,0 +1,16 @@
+{
+  "stage": 29,
+  "native_version": "grown-v02",
+  "fresh_Blender_reopen": true,
+  "native_positions_index_UV_color_and_protected_source_vertices_exact": true,
+  "source_root_below_z050_exact": true,
+  "strict_protected_source_vertices": 3134,
+  "actual_changed_vertices_exact": 1489,
+  "record_threshold_failure_resolved": true,
+  "twig_exact": true,
+  "volume": 0.09220901264557962,
+  "closed_manifold": true,
+  "final_form_freeze": false,
+  "aesthetic_gate_pending_review": true,
+  "no_native_write": true
+}

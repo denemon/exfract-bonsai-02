@@ -1,0 +1,29 @@
+00:00.110  translation      | WARNING Falling back to standard locale ("C")
+00:00.602  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/models/edge-v02-editable.blend"
+00:00.830  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/models/root-v02-editable.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+情報: 「grown-v02-editable.blend」で保存しました
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+06:06:31 | INFO: Starting glTF 2.0 export
+06:06:31 | INFO: Extracting primitive: Native v01 local branch-mouth subdivision and depth
+06:06:31 | INFO: Primitives created: 1
+06:06:31 | INFO: Extracting primitive: Local root graft reroute, exact terminal nodes
+06:06:31 | INFO: Primitives created: 1
+06:06:31 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+06:06:31 | INFO: Draco encoder: Encoding mesh Terminal twig hierarchy.
+06:06:31 | INFO: Finished glTF 2.0 export in 0.07696890830993652 s
+
+{"version": "grown-v02", "native_surface_vertices": 5394, "native_surface_faces": 5392, "triangles": 10784, "volume": 0.09220901264557962, "boundary_edges": 0, "nonmanifold_edges": 0, "nonadjacent_intersections": 0, "actual_surface_below_z050_unchanged": true, "UV_color_index_unchanged_from_applied_R25": true, "protected_vertex_count": 3134, "modified_vertex_count": 1481, "max_actual_displacement": 0.03206243191623901, "twig_unchanged": {"position": "171c43ae074ff9b8eec06ce5538dc49cd2c217aeabb38600aec139856f1fe1a6", "faces": "1f17040c159fe02e0fd75e54253e57b95409fb7fd1a951d5fc99c7484532eb11"}, "geometry_frozen": false, "structure_only_not_aesthetic": true}
+{"native_bytes": 1066425, "glb_bytes": 246100}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5772 vertices, 32352 indices, raw size: 387768, encoded size: 71126, compression ratio: 5.45
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 34305 vertices, 110214 indices, raw size: 1043748, encoded size: 172232, compression ratio: 6.06
+
+Blender quit

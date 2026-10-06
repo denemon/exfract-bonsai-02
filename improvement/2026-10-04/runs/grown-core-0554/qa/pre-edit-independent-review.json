@@ -1,0 +1,19 @@
+{
+  "reviewer": "volume_review",
+  "before_geometry_edit": true,
+  "read_only": true,
+  "major_defects": [
+    "Long uniformly thick same-facing front surface",
+    "Compression ridge crosses the body instead of ending in side mass",
+    "Thin pulled branch mother shoulder"
+  ],
+  "S_silhouette_is_not_failure": true,
+  "material_resolvable_defects": [
+    "Finewoodskin",
+    "Dry roughness",
+    "Microrelief"
+  ],
+  "proposed_method": "volume_review concrete proposal accepted before editing: paired front/side/rear volume sculpt, not dense surface alone. Native ground/load .50-.76, compression .78-.99, ascent1-1.47, branch support .12-.18m; localchanges<=approxdiameter10%.",
+  "warning": "Dense apply by itself and shallow front scars alone preserve same failure",
+  "gate": "OrdinaryPC390320 support+shortcompression beforebetter, left/right thickness retained; not merely more shadow/close sculptmarks/closedmesh"
+}

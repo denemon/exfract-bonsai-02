@@ -1,0 +1,244 @@
+{
+  "stage": 29,
+  "actual_before_after_pairs": 10,
+  "new_candidate_images": 10,
+  "reused_existing_before_images": 10,
+  "duplicates_copied": 0,
+  "pairs": [
+    {
+      "job": "gray-night-pc-v02",
+      "mode": "night",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-night-whole-pc-v02/before-pc.jpg",
+      "before_sha256": "717c412e0027130047e036ff210df006e3e598e417707a40d62f311157436c41",
+      "new_after": "qa/gray-night-pc-v02/grown-pc.jpg",
+      "after_sha256": "e3ce7d166199704710ca27df0662c0e02b38d68b617b25d74438b92ad2cd59c2",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-night-390-v02",
+      "mode": "night",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-night-whole-390-v02/before-390.jpg",
+      "before_sha256": "7608b556cf8c80fe3160b25275d7cfb85eaf648e91416a8a9ae470cf580ac839",
+      "new_after": "qa/gray-night-390-v02/grown-390.jpg",
+      "after_sha256": "64da7b196bab3806bbf877f25c1104b8732ee1935c86ae6615654478bc718983",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-night-320-v02",
+      "mode": "night",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-night-whole-320-v02/before-320.jpg",
+      "before_sha256": "810e982371aa85d6509d3a5e5c3307a17f5259f1fdcbd6bfbceb3bc57f8efeb9",
+      "new_after": "qa/gray-night-320-v02/grown-320.jpg",
+      "after_sha256": "6b4efd43ed8291df4775db180840cd3fd838a1afb74e0c2bec89cb7cdd3a6599",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-pc-v02",
+      "mode": "neutral",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-neutral-actual-pc-v02/before-pc.jpg",
+      "before_sha256": "fd4a3ab3c8fb99ad9da6ac7596c210fb4093370afd23e3d94a6866b1dd98418f",
+      "new_after": "qa/gray-neutral-pc-v02/grown-pc.jpg",
+      "after_sha256": "fec8ceae5e500574e63c88463cdc43605dd598f360fa7ba58f74c5addc175699",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-390-v02",
+      "mode": "neutral",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-neutral-actual-390-v02/before-390.jpg",
+      "before_sha256": "c4b5e91af413a5dbf30c69dde79bdcf60f2877da5ef97dedc055b1631847c5bb",
+      "new_after": "qa/gray-neutral-390-v02/grown-390.jpg",
+      "after_sha256": "441c7f9393c572f1e7e899a3659ef2ca55b66809f297e8d8238722392a60ea17",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-320-v02",
+      "mode": "neutral",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-neutral-actual-320-v02/before-320.jpg",
+      "before_sha256": "614e5cfcf7b262d54f1b7992fc4e14525b3b03cc966c4a023ed642c4dcdd1e13",
+      "new_after": "qa/gray-neutral-320-v02/grown-320.jpg",
+      "after_sha256": "d978d647a7f2f5a857dd43339f54bedf4fce8b496c3b22db3316586f52d874d6",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-bonsai-v02",
+      "mode": "neutral",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-neutral-actual-bonsai-v02/before-bonsai.jpg",
+      "before_sha256": "cedc55d8963d69f76e334e1d313ba403ae9085e18a05769fa041f5d9231c660c",
+      "new_after": "qa/gray-neutral-bonsai-v02/grown-bonsai.jpg",
+      "after_sha256": "ca3657a5e3786ecf1dd6d954194be7c6b47666b7c4b1cd9f847ccac5556f3f3c",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-left-v02",
+      "mode": "neutral",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-neutral-actual-left-v02/before-bonsai-left.jpg",
+      "before_sha256": "7c88708540e8751ea5c2df7e4fbdaf0ff55e0e614d0ebf7b69fa941cb19dfec0",
+      "new_after": "qa/gray-neutral-left-v02/grown-bonsai-left.jpg",
+      "after_sha256": "e977013fe1c6db0a4e579b47abb9e0d7ed3160199e411dcbed372d5bcff7638a",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-right-v02",
+      "mode": "neutral",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-neutral-actual-right-v02/before-bonsai-right.jpg",
+      "before_sha256": "e3e7d3cc6d355351759870a9506c12adac30947f1bf41c03ca81a92e001105fb",
+      "new_after": "qa/gray-neutral-right-v02/grown-bonsai-right.jpg",
+      "after_sha256": "98b2912212edd047c6e0ca0b475bc25448bb6f7f5d877b1fa065694c9bb04d9a",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-wood-v02",
+      "mode": "neutral",
+      "same_condition": {
+        "actualCamera": true,
+        "lights": true,
+        "allmodel_projected_bounds": true,
+        "leafworld": true
+      },
+      "reused_before_exact_runtime_proof": {
+        "actualCamera": true,
+        "lights": true,
+        "exactProjection": true,
+        "native_all_attributes_world": true
+      },
+      "before_readonly": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/coherent-core-0514/qa/gray-neutral-actual-wood-v02/before-wood.jpg",
+      "before_sha256": "b5a4283ed88697ca024a18f8ea0effe742d5ba2c5ff3b6c01e017306bf259868",
+      "new_after": "qa/gray-neutral-wood-v02/grown-wood.jpg",
+      "after_sha256": "d456535dbe8a73f951824e357d73fe16ef4ccb79c28684b161a7606d8a8a5895",
+      "terminal_allattributes_index_world_unchanged": true,
+      "native_leaf_world_hash": "9410998d58d2e60d764df13c57bea41f6782adac7199206e1eafac2fbd71cb27",
+      "whole_uncut": "intentional close crop; whole3widths separate"
+    }
+  ],
+  "same_R27_renderer_source_hash": "a1b9627bd0d33b292d6a48b35ce501c1fee41fd2d465990352c847936580d60a",
+  "new_actual_model_bound_proof_created_by_partition": true,
+  "shape_gate_pending_review": true,
+  "material_trials": 0,
+  "structural_success_not_aesthetic_success": true
+}
