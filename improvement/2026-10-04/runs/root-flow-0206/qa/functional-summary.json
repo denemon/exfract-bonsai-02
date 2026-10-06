@@ -1,0 +1,15 @@
+{
+  "passed_required_scope": true,
+  "passed_tests": 11,
+  "first9_loading_fallback_and_input_tests": "special-functional/failure.json/results",
+  "context_and_noDecompressionStream_success": "special-recovery/results.json",
+  "test_harness_failure": "After actual context loss, newly requesting WEBGL_lose_context returns null; harness must retain original extension reference. Corrected harness recovery succeeds; application source unchanged.",
+  "expected_noWebGL_warnings": 5,
+  "actual_webgl2_unavailable_viewports": 5,
+  "actual_input_and_reduced_viewports": 3,
+  "idle_frame_delta_each": 0,
+  "actual_context_restored": true,
+  "own_completed_still_during_load_and_loss": true,
+  "font_and_remote_network_requests": 0,
+  "full_physical_phone_or_Safari": false
+}

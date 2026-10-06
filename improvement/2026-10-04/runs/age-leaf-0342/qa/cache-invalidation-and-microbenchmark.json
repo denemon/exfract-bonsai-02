@@ -1,0 +1,298 @@
+{
+  "rows": [
+    {
+      "name": "camera-position",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 48,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 660300,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "projection",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 48,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 660300,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "height",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 48,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 660300,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "distance",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 48,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 660300,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "forced-mode",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "high",
+        "changed": true,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 72,
+        "visibleGroups": 48,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 3552840,
+        "allocatedLeafTriangles": 4670400,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "mesh-visibility",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 47,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 648520,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "ancestor-visibility",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 36,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 471200,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "world-matrix",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 48,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 660300,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "instance-version",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 48,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 660300,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    },
+    {
+      "name": "native-envelope",
+      "invalidated": true,
+      "identical": true,
+      "result": {
+        "level": "low",
+        "changed": false,
+        "highAvailable": true,
+        "needsHigh": false,
+        "highGroups": 0,
+        "visibleGroups": 48,
+        "groups": 72,
+        "crowns": 6,
+        "visibleLeafTriangles": 660300,
+        "allocatedLeafTriangles": 868000,
+        "leafBudget": 2600000,
+        "closedScaleLeaves": true
+      }
+    }
+  ],
+  "samples": [
+    {
+      "pass": 0,
+      "enabled": false,
+      "iterations": 1000,
+      "totalMs": 8.399999976158142
+    },
+    {
+      "pass": 0,
+      "enabled": true,
+      "iterations": 1000,
+      "totalMs": 4
+    },
+    {
+      "pass": 1,
+      "enabled": true,
+      "iterations": 1000,
+      "totalMs": 4.100000023841858
+    },
+    {
+      "pass": 1,
+      "enabled": false,
+      "iterations": 1000,
+      "totalMs": 7
+    },
+    {
+      "pass": 2,
+      "enabled": false,
+      "iterations": 1000,
+      "totalMs": 7.399999976158142
+    },
+    {
+      "pass": 2,
+      "enabled": true,
+      "iterations": 1000,
+      "totalMs": 4
+    },
+    {
+      "pass": 3,
+      "enabled": true,
+      "iterations": 1000,
+      "totalMs": 2.799999952316284
+    },
+    {
+      "pass": 3,
+      "enabled": false,
+      "iterations": 1000,
+      "totalMs": 4.600000023841858
+    },
+    {
+      "pass": 4,
+      "enabled": false,
+      "iterations": 1000,
+      "totalMs": 4.5
+    },
+    {
+      "pass": 4,
+      "enabled": true,
+      "iterations": 1000,
+      "totalMs": 2.5
+    },
+    {
+      "pass": 5,
+      "enabled": true,
+      "iterations": 1000,
+      "totalMs": 2.5
+    },
+    {
+      "pass": 5,
+      "enabled": false,
+      "iterations": 1000,
+      "totalMs": 4.5
+    },
+    {
+      "pass": 6,
+      "enabled": false,
+      "iterations": 1000,
+      "totalMs": 4.700000047683716
+    },
+    {
+      "pass": 6,
+      "enabled": true,
+      "iterations": 1000,
+      "totalMs": 2.5
+    },
+    {
+      "pass": 7,
+      "enabled": true,
+      "iterations": 1000,
+      "totalMs": 2.5999999046325684
+    },
+    {
+      "pass": 7,
+      "enabled": false,
+      "iterations": 1000,
+      "totalMs": 4.600000023841858
+    }
+  ],
+  "allPassed": true,
+  "hardware": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+  "version": "age-v01",
+  "leafGeometryUnchanged": true,
+  "noShaderChanges": true,
+  "clockResolutionMs": 0.1
+}

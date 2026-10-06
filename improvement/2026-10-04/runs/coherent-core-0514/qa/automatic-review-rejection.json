@@ -1,0 +1,8 @@
+{
+  "action": "node qa/special-protected.mjs top",
+  "rejected": true,
+  "reason": "Copied general QA helper retained unused stills branch capable of writing through the candidate/public/stills alias to protected existing assets.",
+  "resolution": "Do not execute rejected helper; separate dedicated verify-selected-top-only.mjs exposes TOP read-only snapshots/completed fallback only. All new writes confined to ownR28 qa/special-top.",
+  "approval_requested": false,
+  "protected_files_overwritten": false
+}

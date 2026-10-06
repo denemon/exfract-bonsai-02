@@ -1,0 +1,15 @@
+{
+  "reason": "v01 far blades had disproportionate lenticular thickness; near wide blades retained folded-plastic pattern. Correct actual blade thickness/cup/width rather than darken background.",
+  "farRidgeUndersideGapWorldMM": [
+    0.5,
+    0.82
+  ],
+  "nearLengthMM": [
+    25,
+    45
+  ],
+  "nodeCountsSupportRootMoveHeld": true,
+  "leafCountAdditions": 0,
+  "initialImagesAndResultsRetained": true,
+  "geometryOnly": true
+}

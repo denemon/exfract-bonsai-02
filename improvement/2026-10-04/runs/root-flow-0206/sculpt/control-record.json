@@ -1,0 +1,714 @@
+{
+  "version": "root-v01",
+  "source_native_sha256": "66919d8a870f43bdb482d97f606e33cd6a333fd4f671a1033aa95c2020d0cfd4",
+  "local_control_changes": [
+    {
+      "vertex": 11,
+      "old": [
+        -0.10999999940395355,
+        -0.18700000643730164,
+        0.4359999895095825
+      ],
+      "new": [
+        -0.15,
+        -0.185,
+        0.422
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 12,
+      "old": [
+        -0.02800000086426735,
+        -0.07500000298023224,
+        0.4169999957084656
+      ],
+      "new": [
+        -0.05,
+        -0.094,
+        0.405
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 13,
+      "old": [
+        0.07500000298023224,
+        -0.1599999964237213,
+        0.4410000145435333
+      ],
+      "new": [
+        0.13,
+        -0.11,
+        0.398
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 21,
+      "old": [
+        -0.06499999761581421,
+        -0.1899999976158142,
+        0.5659999847412109
+      ],
+      "new": [
+        -0.071,
+        -0.163,
+        0.566
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 22,
+      "old": [
+        0.03500000014901161,
+        -0.035999998450279236,
+        0.546999990940094
+      ],
+      "new": [
+        0.045,
+        -0.108,
+        0.547
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 23,
+      "old": [
+        0.12999999523162842,
+        -0.125,
+        0.5709999799728394
+      ],
+      "new": [
+        0.148,
+        -0.093,
+        0.52
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 31,
+      "old": [
+        -0.017999999225139618,
+        -0.15600000321865082,
+        0.7260000109672546
+      ],
+      "new": [
+        -0.018,
+        -0.156,
+        0.717
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 32,
+      "old": [
+        0.08699999749660492,
+        -0.04899999871850014,
+        0.7070000171661377
+      ],
+      "new": [
+        0.065,
+        -0.158,
+        0.707
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 33,
+      "old": [
+        0.16899999976158142,
+        -0.17000000178813934,
+        0.7310000061988831
+      ],
+      "new": [
+        0.16,
+        -0.136,
+        0.691
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 17,
+      "old": [
+        0.027000000700354576,
+        0.19499999284744263,
+        0.43299999833106995
+      ],
+      "new": [
+        0.067,
+        0.215,
+        0.424
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 26,
+      "old": [
+        0.14499999582767487,
+        0.19499999284744263,
+        0.5519999861717224
+      ],
+      "new": [
+        0.155,
+        0.21,
+        0.552
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 27,
+      "old": [
+        0.027000000700354576,
+        0.17000000178813934,
+        0.5630000233650208
+      ],
+      "new": [
+        0.027,
+        0.2,
+        0.558
+      ],
+      "reason": "Local asymmetric root seat and finite lateral anterior recess"
+    },
+    {
+      "vertex": 174,
+      "old": [
+        -0.3075840473175049,
+        -0.052293770015239716,
+        0.36083781719207764
+      ],
+      "new": [
+        -0.30158403515815735,
+        -0.06229376792907715,
+        0.3928378224372864
+      ],
+      "reason": "Left root emerges as a load mass before burying, cap unchanged"
+    },
+    {
+      "vertex": 175,
+      "old": [
+        -0.27735111117362976,
+        -0.1256251186132431,
+        0.3326854109764099
+      ],
+      "new": [
+        -0.2713510990142822,
+        -0.13562512397766113,
+        0.36468541622161865
+      ],
+      "reason": "Left root emerges as a load mass before burying, cap unchanged"
+    },
+    {
+      "vertex": 176,
+      "old": [
+        -0.25841593742370605,
+        -0.14570623636245728,
+        0.4211621880531311
+      ],
+      "new": [
+        -0.2524159252643585,
+        -0.1557062417268753,
+        0.45316219329833984
+      ],
+      "reason": "Left root emerges as a load mass before burying, cap unchanged"
+    },
+    {
+      "vertex": 177,
+      "old": [
+        -0.2886488735675812,
+        -0.0723748728632927,
+        0.44931459426879883
+      ],
+      "new": [
+        -0.28264886140823364,
+        -0.08237487077713013,
+        0.48131459951400757
+      ],
+      "reason": "Left root emerges as a load mass before burying, cap unchanged"
+    },
+    {
+      "vertex": 202,
+      "old": [
+        -0.30886998772621155,
+        -0.0783500000834465,
+        1.0773334503173828
+      ],
+      "new": [
+        -0.3245592713356018,
+        -0.08148785680532455,
+        1.0773334503173828
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 203,
+      "old": [
+        -0.28102999925613403,
+        -0.07022999972105026,
+        1.1288334131240845
+      ],
+      "new": [
+        -0.2967192828655243,
+        -0.07336785644292831,
+        1.1288334131240845
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 204,
+      "old": [
+        -0.2984299957752228,
+        -0.024410001933574677,
+        1.151833415031433
+      ],
+      "new": [
+        -0.31411927938461304,
+        -0.027547860518097878,
+        1.151833415031433
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 205,
+      "old": [
+        -0.3152500092983246,
+        -0.05051000043749809,
+        1.07913339138031
+      ],
+      "new": [
+        -0.33093929290771484,
+        -0.053647857159376144,
+        1.07913339138031
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 206,
+      "old": [
+        -0.2891499996185303,
+        -0.04471000283956528,
+        1.032833456993103
+      ],
+      "new": [
+        -0.30483928322792053,
+        -0.04784785956144333,
+        1.032833456993103
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 207,
+      "old": [
+        -0.26827001571655273,
+        -0.08878999948501587,
+        1.032833456993103
+      ],
+      "new": [
+        -0.283959299325943,
+        -0.09192785620689392,
+        1.032833456993103
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 208,
+      "old": [
+        -0.3441708981990814,
+        -0.08541017770767212,
+        1.0773334503173828
+      ],
+      "new": [
+        -0.3480932116508484,
+        -0.08619464188814163,
+        1.0773334503173828
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 209,
+      "old": [
+        -0.3163309097290039,
+        -0.07729017734527588,
+        1.1288334131240845
+      ],
+      "new": [
+        -0.3202532231807709,
+        -0.07807464152574539,
+        1.1288334131240845
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 210,
+      "old": [
+        -0.33373090624809265,
+        -0.03147018328309059,
+        1.151833415031433
+      ],
+      "new": [
+        -0.3376532196998596,
+        -0.032254647463560104,
+        1.151833415031433
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 211,
+      "old": [
+        -0.35055091977119446,
+        -0.05757018178701401,
+        1.07913339138031
+      ],
+      "new": [
+        -0.3544732332229614,
+        -0.05835464596748352,
+        1.07913339138031
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 212,
+      "old": [
+        -0.32445091009140015,
+        -0.05177018418908119,
+        1.032833456993103
+      ],
+      "new": [
+        -0.3283732235431671,
+        -0.052554648369550705,
+        1.032833456993103
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    },
+    {
+      "vertex": 213,
+      "old": [
+        -0.3035709261894226,
+        -0.09585017710924149,
+        1.032833456993103
+      ],
+      "new": [
+        -0.3074932396411896,
+        -0.096634641289711,
+        1.032833456993103
+      ],
+      "reason": "Convex local mother-face strip, no whole branch growth"
+    }
+  ],
+  "protected_control_count": 294,
+  "protected_control_positions_sha256": "5f71aad2bfd8c23f77ce5a3c05814dcd20491f109312c30c486c02060b4cd6af",
+  "positions_sha256": "fbc970ba26ff464ff568302f897492af4bb364ea0ece5110b7db6be7bfacd62c",
+  "faces_sha256": "bf32bac7dbe83d739832f69f7d3d89c48f63dd0423f2f968ac6462dac97aa33f",
+  "normals_sha256": "825900a2576a67f5fe57f14cb9db6b227be1b15e790ce179c494f9f4fd88c00f",
+  "uv_sha256": {
+    "Growth flow": "399629ab8865832aab3473cb2afafd34ab5a0bc26a1e0854c6de19ac43c6e4ef",
+    "Branch flow": "a5a4a8144efba5b044beb774fa2713df9b6953244f7580ed178f96bc8cfa738d",
+    "Branch transition": "a58f87b8f3c47364d408bdc1554778457e203637c3d9da526732a1ac8113968e"
+  },
+  "color_sha256": "4f3077d5bc7b2f8cf05afb4abde26a9f5a00ec58795f92376920b92629e25bea",
+  "geometry": {
+    "version": "root-v01",
+    "control_vertices": 322,
+    "control_faces": 354,
+    "evaluated_vertices": 5394,
+    "triangles": 10784,
+    "volume": 0.0914365409938249,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "nonadjacent_intersections": 0,
+    "intersection_centres": [],
+    "root_soil": [
+      {
+        "id": "root-left",
+        "cap_burial": [
+          {
+            "position": [
+              -0.46915701031684875,
+              -0.06769785284996033,
+              0.2592005431652069
+            ],
+            "soil_z": 0.4019981622695923,
+            "below_soil": 0.14279761910438538
+          },
+          {
+            "position": [
+              -0.45785441994667053,
+              -0.09550991654396057,
+              0.2424238622188568
+            ],
+            "soil_z": 0.40225768089294434,
+            "below_soil": 0.15983381867408752
+          },
+          {
+            "position": [
+              -0.4808429777622223,
+              -0.1143021434545517,
+              0.26079943776130676
+            ],
+            "soil_z": 0.4027836322784424,
+            "below_soil": 0.14198419451713562
+          },
+          {
+            "position": [
+              -0.4921455681324005,
+              -0.08649007976055145,
+              0.27757611870765686
+            ],
+            "soil_z": 0.4011629819869995,
+            "below_soil": 0.12358686327934265
+          }
+        ]
+      },
+      {
+        "id": "root-right-front",
+        "cap_burial": [
+          {
+            "position": [
+              0.34426653385162354,
+              -0.235765278339386,
+              0.2948770821094513
+            ],
+            "soil_z": 0.4032151699066162,
+            "below_soil": 0.10833808779716492
+          },
+          {
+            "position": [
+              0.3588200509548187,
+              -0.19632035493850708,
+              0.28898531198501587
+            ],
+            "soil_z": 0.4077104330062866,
+            "below_soil": 0.11872512102127075
+          },
+          {
+            "position": [
+              0.3857334852218628,
+              -0.20023471117019653,
+              0.3251229226589203
+            ],
+            "soil_z": 0.40682506561279297,
+            "below_soil": 0.08170214295387268
+          },
+          {
+            "position": [
+              0.3711799681186676,
+              -0.23967963457107544,
+              0.3310146927833557
+            ],
+            "soil_z": 0.40343236923217773,
+            "below_soil": 0.07241767644882202
+          }
+        ]
+      },
+      {
+        "id": "root-rear",
+        "cap_burial": [
+          {
+            "position": [
+              0.10795649141073227,
+              0.3187766671180725,
+              0.3037659823894501
+            ],
+            "soil_z": 0.39469873905181885,
+            "below_soil": 0.09093275666236877
+          },
+          {
+            "position": [
+              0.07437881827354431,
+              0.33396631479263306,
+              0.2911710739135742
+            ],
+            "soil_z": 0.39386284351348877,
+            "below_soil": 0.10269176959991455
+          },
+          {
+            "position": [
+              0.0800435021519661,
+              0.36122334003448486,
+              0.3162340223789215
+            ],
+            "soil_z": 0.39314162731170654,
+            "below_soil": 0.07690760493278503
+          },
+          {
+            "position": [
+              0.11362117528915405,
+              0.3460336923599243,
+              0.32882893085479736
+            ],
+            "soil_z": 0.39347636699676514,
+            "below_soil": 0.06464743614196777
+          }
+        ]
+      }
+    ],
+    "protected_terminal_nodes": [
+      {
+        "route": "left lower primary",
+        "protected_nodes": 327,
+        "unchanged": true
+      },
+      {
+        "route": "left lower rear fork",
+        "protected_nodes": 221,
+        "unchanged": true
+      },
+      {
+        "route": "left rear primary",
+        "protected_nodes": 324,
+        "unchanged": true
+      },
+      {
+        "route": "upper left primary",
+        "protected_nodes": 270,
+        "unchanged": true
+      },
+      {
+        "route": "apex",
+        "protected_nodes": 444,
+        "unchanged": true
+      },
+      {
+        "route": "crown right primary",
+        "protected_nodes": 364,
+        "unchanged": true
+      },
+      {
+        "route": "subordinate low right",
+        "protected_nodes": 205,
+        "unchanged": true
+      },
+      {
+        "route": "rear crown fork",
+        "protected_nodes": 244,
+        "unchanged": true
+      }
+    ],
+    "twig_changes": [
+      {
+        "route": "left lower rear fork",
+        "node": 0,
+        "source": [
+          -0.429134339094162,
+          -0.05086963623762131,
+          1.108227252960205
+        ],
+        "new": [
+          -0.4341343343257904,
+          -0.09186963737010956,
+          1.083227276802063
+        ],
+        "no_direct_spray_or_parent": true
+      },
+      {
+        "route": "left lower rear fork",
+        "node": 1,
+        "source": [
+          -0.5158804655075073,
+          -0.08376022428274155,
+          1.099649429321289
+        ],
+        "new": [
+          -0.5192137956619263,
+          -0.11109355837106705,
+          1.0829827785491943
+        ],
+        "no_direct_spray_or_parent": true
+      },
+      {
+        "route": "left lower rear fork",
+        "node": 2,
+        "source": [
+          -0.6241261959075928,
+          -0.13703018426895142,
+          1.109264850616455
+        ],
+        "new": [
+          -0.6257928609848022,
+          -0.15069684386253357,
+          1.1009315252304077
+        ],
+        "no_direct_spray_or_parent": true
+      },
+      {
+        "route": "subordinate low right",
+        "node": 0,
+        "source": [
+          0.4514215290546417,
+          -0.06982602179050446,
+          0.8000684976577759
+        ],
+        "new": [
+          0.43942153453826904,
+          -0.06982602179050446,
+          0.7960684895515442
+        ],
+        "no_direct_spray_or_parent": true
+      },
+      {
+        "route": "subordinate low right",
+        "node": 1,
+        "source": [
+          0.504869282245636,
+          -0.06743369251489639,
+          0.8209351301193237
+        ],
+        "new": [
+          0.501869261264801,
+          -0.06743369251489639,
+          0.8229351043701172
+        ],
+        "no_direct_spray_or_parent": true
+      },
+      {
+        "route": "rear crown fork",
+        "node": 0,
+        "source": [
+          0.11188888549804688,
+          -0.09577777981758118,
+          1.4691035747528076
+        ],
+        "new": [
+          0.14488887786865234,
+          -0.05277777835726738,
+          1.4901036024093628
+        ],
+        "no_direct_spray_or_parent": true
+      },
+      {
+        "route": "rear crown fork",
+        "node": 1,
+        "source": [
+          0.09568329155445099,
+          0.008954033255577087,
+          1.5483545064926147
+        ],
+        "new": [
+          0.1176832914352417,
+          0.037620700895786285,
+          1.562354564666748
+        ],
+        "no_direct_spray_or_parent": true
+      },
+      {
+        "route": "rear crown fork",
+        "node": 2,
+        "source": [
+          0.08507545292377472,
+          0.08844581246376038,
+          1.6383925676345825
+        ],
+        "new": [
+          0.09607545286417007,
+          0.10277915000915527,
+          1.6453925371170044
+        ],
+        "no_direct_spray_or_parent": true
+      }
+    ],
+    "major_main_controls40_to113_unchanged": true,
+    "geometry_only_not_aesthetic": true
+  },
+  "uv_method": "Recomputed every point from main and owned branch growth fields; per-corner circular unwrap; periodic integerU separated from real-lengthV; main body does not borrow nearest horizontal root branchUV",
+  "geometry_frozen": false
+}

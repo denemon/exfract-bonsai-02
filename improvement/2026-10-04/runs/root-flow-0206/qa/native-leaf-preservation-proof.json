@@ -1,0 +1,10 @@
+{
+  "actual_native_world_matrix_and_anchor_and_geometry_match": true,
+  "hash": "2feac5d118ec4ef0beb9771da4cacdb4e934108da06a5ef412132d165b77a007",
+  "groups": 72,
+  "instances": 2800,
+  "matching_forced_lod": "low",
+  "actualWorldAnchorsAndAllInstanceMatrices": true,
+  "raw_results": "native-leaf-world-preservation/results.json",
+  "same_camera": true
+}

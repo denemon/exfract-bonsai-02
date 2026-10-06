@@ -1,0 +1,452 @@
+{
+  "stage": 28,
+  "unadopted": true,
+  "same_condition_shape_comparisons": [
+    {
+      "job": "gray-night-whole-pc-v02",
+      "actual_lighting": "night",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-night-whole-pc-v02/before-pc.jpg",
+      "candidate_image": "qa/gray-night-whole-pc-v02/core-pc.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-night-whole-390-v02",
+      "actual_lighting": "night",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-night-whole-390-v02/before-390.jpg",
+      "candidate_image": "qa/gray-night-whole-390-v02/core-390.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-night-whole-320-v02",
+      "actual_lighting": "night",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-night-whole-320-v02/before-320.jpg",
+      "candidate_image": "qa/gray-night-whole-320-v02/core-320.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-actual-pc-v02",
+      "actual_lighting": "neutral",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-neutral-actual-pc-v02/before-pc.jpg",
+      "candidate_image": "qa/gray-neutral-actual-pc-v02/core-pc.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-actual-390-v02",
+      "actual_lighting": "neutral",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-neutral-actual-390-v02/before-390.jpg",
+      "candidate_image": "qa/gray-neutral-actual-390-v02/core-390.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-actual-320-v02",
+      "actual_lighting": "neutral",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-neutral-actual-320-v02/before-320.jpg",
+      "candidate_image": "qa/gray-neutral-actual-320-v02/core-320.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-actual-bonsai-v02",
+      "actual_lighting": "neutral",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-neutral-actual-bonsai-v02/before-bonsai.jpg",
+      "candidate_image": "qa/gray-neutral-actual-bonsai-v02/core-bonsai.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-actual-left-v02",
+      "actual_lighting": "neutral",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-neutral-actual-left-v02/before-bonsai-left.jpg",
+      "candidate_image": "qa/gray-neutral-actual-left-v02/core-bonsai-left.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-actual-right-v02",
+      "actual_lighting": "neutral",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-neutral-actual-right-v02/before-bonsai-right.jpg",
+      "candidate_image": "qa/gray-neutral-actual-right-v02/core-bonsai-right.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        2561940,
+        2562045
+      ],
+      "whole_uncut": true
+    },
+    {
+      "job": "gray-neutral-actual-wood-v02",
+      "actual_lighting": "neutral",
+      "same_conditions": {
+        "actualCamera": true,
+        "lights": true,
+        "all_model_projected_bounds": true,
+        "native_leaf_world": true
+      },
+      "terminal_twig_all_attributes_index_world_equal": true,
+      "native_leaf_world_sha256": "9410998d58d2e60d764df13c57bea41f6782adac7199206e1eafac2fbd71cb27",
+      "changed_native_main_position": true,
+      "before_image": "qa/gray-neutral-actual-wood-v02/before-wood.jpg",
+      "candidate_image": "qa/gray-neutral-actual-wood-v02/core-wood.jpg",
+      "gray_roughness": [
+        1,
+        1
+      ],
+      "projected_vertices_before_after": [
+        6580570,
+        6580675
+      ],
+      "whole_uncut": "Intentional closecrop; wholePC390320 separately uncut"
+    }
+  ],
+  "actual_v02_pairs": 10,
+  "actual_v02_images": 20,
+  "shape_gate_passed": false,
+  "material_trials_run": false,
+  "native_final_freeze_roundtrip_run": false,
+  "native_structural_inspection_only": {
+    "version": "core-v02",
+    "control_vertices": 324,
+    "control_faces": 355,
+    "evaluated_vertices": 5418,
+    "triangles": 10832,
+    "volume": 0.10388059059024629,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "nonadjacent_intersections": 0,
+    "intersection_centres": [],
+    "root_soil": [
+      {
+        "id": "root-left",
+        "cap_burial": [
+          {
+            "position": [
+              -0.46915701031684875,
+              -0.06769785284996033,
+              0.2592005431652069
+            ],
+            "soil_z": 0.4019981622695923,
+            "below_soil": 0.14279761910438538
+          },
+          {
+            "position": [
+              -0.45785441994667053,
+              -0.09550991654396057,
+              0.2424238622188568
+            ],
+            "soil_z": 0.40225768089294434,
+            "below_soil": 0.15983381867408752
+          },
+          {
+            "position": [
+              -0.4808429777622223,
+              -0.1143021434545517,
+              0.26079943776130676
+            ],
+            "soil_z": 0.4027836322784424,
+            "below_soil": 0.14198419451713562
+          },
+          {
+            "position": [
+              -0.4921455681324005,
+              -0.08649007976055145,
+              0.27757611870765686
+            ],
+            "soil_z": 0.4011629819869995,
+            "below_soil": 0.12358686327934265
+          }
+        ]
+      },
+      {
+        "id": "root-right-front",
+        "cap_burial": [
+          {
+            "position": [
+              0.34426653385162354,
+              -0.235765278339386,
+              0.2948770821094513
+            ],
+            "soil_z": 0.4032151699066162,
+            "below_soil": 0.10833808779716492
+          },
+          {
+            "position": [
+              0.3588200509548187,
+              -0.19632035493850708,
+              0.28898531198501587
+            ],
+            "soil_z": 0.4077104330062866,
+            "below_soil": 0.11872512102127075
+          },
+          {
+            "position": [
+              0.3857334852218628,
+              -0.20023471117019653,
+              0.3251229226589203
+            ],
+            "soil_z": 0.40682506561279297,
+            "below_soil": 0.08170214295387268
+          },
+          {
+            "position": [
+              0.3711799681186676,
+              -0.23967963457107544,
+              0.3310146927833557
+            ],
+            "soil_z": 0.40343236923217773,
+            "below_soil": 0.07241767644882202
+          }
+        ]
+      },
+      {
+        "id": "root-rear",
+        "cap_burial": [
+          {
+            "position": [
+              0.10795649141073227,
+              0.3187766671180725,
+              0.3037659823894501
+            ],
+            "soil_z": 0.39469873905181885,
+            "below_soil": 0.09093275666236877
+          },
+          {
+            "position": [
+              0.07437881827354431,
+              0.33396631479263306,
+              0.2911710739135742
+            ],
+            "soil_z": 0.39386284351348877,
+            "below_soil": 0.10269176959991455
+          },
+          {
+            "position": [
+              0.0800435021519661,
+              0.36122334003448486,
+              0.3162340223789215
+            ],
+            "soil_z": 0.39314162731170654,
+            "below_soil": 0.07690760493278503
+          },
+          {
+            "position": [
+              0.11362117528915405,
+              0.3460336923599243,
+              0.32882893085479736
+            ],
+            "soil_z": 0.39347636699676514,
+            "below_soil": 0.06464743614196777
+          }
+        ]
+      }
+    ],
+    "protected_terminal_nodes": [
+      {
+        "route": "left lower primary",
+        "protected_nodes": 327,
+        "unchanged": true
+      },
+      {
+        "route": "left lower rear fork",
+        "protected_nodes": 221,
+        "unchanged": true
+      },
+      {
+        "route": "left rear primary",
+        "protected_nodes": 324,
+        "unchanged": true
+      },
+      {
+        "route": "upper left primary",
+        "protected_nodes": 270,
+        "unchanged": true
+      },
+      {
+        "route": "apex",
+        "protected_nodes": 444,
+        "unchanged": true
+      },
+      {
+        "route": "crown right primary",
+        "protected_nodes": 364,
+        "unchanged": true
+      },
+      {
+        "route": "subordinate low right",
+        "protected_nodes": 205,
+        "unchanged": true
+      },
+      {
+        "route": "rear crown fork",
+        "protected_nodes": 244,
+        "unchanged": true
+      }
+    ],
+    "twig_changes": [],
+    "all_unlisted_controls_unchanged": true,
+    "original_soil_support0_19_unchanged": true,
+    "support_points": [
+      322,
+      323
+    ],
+    "geometry_only_not_aesthetic": true
+  },
+  "R27_render_partition_sha256": "a1b9627bd0d33b292d6a48b35ce501c1fee41fd2d465990352c847936580d60a",
+  "R27_render_efficiency_source_exactly_preserved": true,
+  "current_R28_performance_claim": false,
+  "mislabelled_neutral_raw_jobs": [
+    "gray-neutral-whole-pc-v02",
+    "gray-neutral-bonsai-v02",
+    "gray-neutral-left-v02",
+    "gray-neutral-right-v02",
+    "gray-neutral-wood-v02"
+  ],
+  "mislabelled_jobs_actual_mode": "night; query lighting=neutral unused; not included in correct neutral judgments",
+  "correct_neutral_query": "wood-light=neutral; stats.studyLighting.mode checked",
+  "structural_test_success_is_not_aesthetic_success": true,
+  "initial_aggregate_assertion_failed": "Compared exactProjection including verticesProjected; new support topology intentionally changes projected vertex count. Corrected aggregation compares bounds only and explicitly retains both counts; actual camera/light/leaf conditions are unchanged."
+}

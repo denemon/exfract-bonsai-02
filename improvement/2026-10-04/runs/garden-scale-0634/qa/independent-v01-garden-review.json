@@ -1,0 +1,14 @@
+{
+  "reviewer": "volume_review",
+  "actual_ready_images_viewed": 10,
+  "V01_partial_improvement": true,
+  "V01_whole_scene_gate_passed": false,
+  "findings": [
+    "Thinleaves improve oldthicktiles.",
+    "Blackfan ofbranches precedes leafgroups, middlePC shrub sparse.",
+    "369shortshoots:195lastleafnodes<.60 ofshootlength; medianbarelastsegment35.9mm;1523leaves.",
+    "No newfloat inshore/stone/pot support; broadmossgreenmat persists."
+  ],
+  "one_correction": "Outerlastnode.90-.96; selectedactualshortshootsupported20-35mm frontbackfork with2-4thinleaves;innergaps retained",
+  "noTOP_or_performance_pass": true
+}

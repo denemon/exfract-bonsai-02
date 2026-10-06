@@ -1,0 +1,254 @@
+{
+  "passed": true,
+  "phase": "adopted",
+  "port": 5214,
+  "identities": 27,
+  "TOP_selected": "growth-garden-0729",
+  "five_completed_stills_alias_read_only": true,
+  "experimental_paths_separate": true,
+  "rows": [
+    {
+      "url": "/",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/index.html",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 11161,
+      "decoded_SHA256": "bf584837fc6a491206e675ed491040ab5cca8cdfa5d2f381ccf69252662c3286",
+      "encoded_bytes": 7887
+    },
+    {
+      "url": "/compare/r27/",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/program-state-0426/candidate/dist/index.html",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 11572,
+      "decoded_SHA256": "c649cf8c2fb5779618643498898f71e2a3e84cfed7385722cf2a011c9f91edcc",
+      "encoded_bytes": 8181
+    },
+    {
+      "url": "/compare/r27/assets/index-BE0s3Whr.js",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/program-state-0426/candidate/dist/assets/index-BE0s3Whr.js",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 713795,
+      "decoded_SHA256": "438ff744825d7c1b45a25d88046453f95ee48ea8f4432738493bb22ed51adb85",
+      "encoded_bytes": 191208
+    },
+    {
+      "url": "/compare/r27/assets/index-DVKFpQ5r.css",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/program-state-0426/candidate/dist/assets/index-DVKFpQ5r.css",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 439,
+      "decoded_SHA256": "1572eccaa2dde1e3a7cdf3b9ed4b600daabcc0fd7dae096901376f72aaf8957c",
+      "encoded_bytes": 261
+    },
+    {
+      "url": "/compare/r30/",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/garden-scale-0634/candidate/dist/index.html",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 11131,
+      "decoded_SHA256": "c7fabe87a9cae33b92f1293fd02b9b84eb173b04a98b285be7ceb1f20805d961",
+      "encoded_bytes": 7884
+    },
+    {
+      "url": "/compare/r30/assets/index-pb_ZYxzy.js",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/garden-scale-0634/candidate/dist/assets/index-pb_ZYxzy.js",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 772478,
+      "decoded_SHA256": "7ed8b2f0ccf911d2cc1f60927b2d57f7746240fd50bb705aa0f5c7faa5a6db27",
+      "encoded_bytes": 213060
+    },
+    {
+      "url": "/compare/r30/assets/index-DVKFpQ5r.css",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/garden-scale-0634/candidate/dist/assets/index-DVKFpQ5r.css",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 439,
+      "decoded_SHA256": "1572eccaa2dde1e3a7cdf3b9ed4b600daabcc0fd7dae096901376f72aaf8957c",
+      "encoded_bytes": 261
+    },
+    {
+      "url": "/compare/r31/",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/index.html",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 11161,
+      "decoded_SHA256": "bf584837fc6a491206e675ed491040ab5cca8cdfa5d2f381ccf69252662c3286",
+      "encoded_bytes": 7887
+    },
+    {
+      "url": "/compare/r31/assets/index-BIWYVtly.js",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/assets/index-BIWYVtly.js",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 772478,
+      "decoded_SHA256": "d09167f2574f55059cea8002e654dabf5e27addd08527c4b4f3316d0fa4cc3c1",
+      "encoded_bytes": 213059
+    },
+    {
+      "url": "/compare/r31/assets/index-DVKFpQ5r.css",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/assets/index-DVKFpQ5r.css",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 439,
+      "decoded_SHA256": "1572eccaa2dde1e3a7cdf3b9ed4b600daabcc0fd7dae096901376f72aaf8957c",
+      "encoded_bytes": 261
+    },
+    {
+      "url": "/compare/r27/stills/pc.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/program-state-0426/candidate/public/stills/pc.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 237756,
+      "decoded_SHA256": "fe489d1fc8164776762f6b3b6e906300e0a235db9f528fce178d9e0690ad553e",
+      "encoded_bytes": 237756
+    },
+    {
+      "url": "/compare/r27/stills/mobile-390.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/program-state-0426/candidate/public/stills/mobile-390.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 72206,
+      "decoded_SHA256": "9200ea6242484a53af6042ca7eba58b72cd9a6df97cdd87259e30ec9581216ce",
+      "encoded_bytes": 72206
+    },
+    {
+      "url": "/compare/r27/stills/mobile-320.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/program-state-0426/candidate/public/stills/mobile-320.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 39960,
+      "decoded_SHA256": "a56d7f75a35f7514940334e38bef2761b43bd5f765bcbba56cee8462b7d62f96",
+      "encoded_bytes": 39960
+    },
+    {
+      "url": "/compare/r27/stills/mobile-tall.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/program-state-0426/candidate/public/stills/mobile-tall.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 85464,
+      "decoded_SHA256": "99b978f4a504a12d67be3389224621136d9dffe7ec62a3dda57277f27950596b",
+      "encoded_bytes": 85464
+    },
+    {
+      "url": "/compare/r27/stills/wide.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/program-state-0426/candidate/public/stills/wide.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 226398,
+      "decoded_SHA256": "b4605afb14e67003d8819ed6acd5e34d9671991ed82caa6560218da7672fd176",
+      "encoded_bytes": 226398
+    },
+    {
+      "url": "/compare/r31/stills/pc.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/public/stills/pc.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 227974,
+      "decoded_SHA256": "4e5e4d0fbf3aae8da07c96f07f8950d81450d4c1563d1ca2fbb0c37ea8b6cb71",
+      "encoded_bytes": 227974
+    },
+    {
+      "url": "/compare/r31/stills/mobile-390.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/public/stills/mobile-390.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 70396,
+      "decoded_SHA256": "ac0dba6fa0e3fc077589a43d32ad6b9b551771328a54be4e8a8f37fbee0f2ad2",
+      "encoded_bytes": 70396
+    },
+    {
+      "url": "/compare/r31/stills/mobile-320.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/public/stills/mobile-320.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 39118,
+      "decoded_SHA256": "ad741ac8e173eb793f0f6f7d4e522d0346c458ed90a113a6025bbfb17490f6c5",
+      "encoded_bytes": 39118
+    },
+    {
+      "url": "/compare/r31/stills/mobile-tall.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/public/stills/mobile-tall.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 83194,
+      "decoded_SHA256": "86225e4d9e015daea41f594a816760cb0dcc4f8519c46027fd7ded10058ef21f",
+      "encoded_bytes": 83194
+    },
+    {
+      "url": "/compare/r31/stills/wide.webp?v=grown-r30-integrated-r31",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/public/stills/wide.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 208054,
+      "decoded_SHA256": "13abcbe135edc2a665d300ff739e4d11b20b19928cf01c1a98ef5ec120439be9",
+      "encoded_bytes": 208054
+    },
+    {
+      "url": "/compare/r31/models/hero-grown-v02.glb.gz",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/models/hero-grown-v02.glb.gz",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 786684,
+      "decoded_SHA256": "62c8869fc90939fc1e6f8d50e3d27c8781b9b33ccc463c4e3b1489ee0336355e",
+      "encoded_bytes": 641236
+    },
+    {
+      "url": "/compare/r25/models/hero-root-v02.glb.gz",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/models/hero-root-v02.glb.gz",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 806648,
+      "decoded_SHA256": "1770fa8b9ea409a74f72c67b96b36609c148c031f1cdebc4b8e31c58e395a9b3",
+      "encoded_bytes": 661394
+    },
+    {
+      "url": "/compare/r31/materials/growth-fissures.webp",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/materials/growth-fissures.webp",
+      "HTTP": 200,
+      "encoding": null,
+      "decoded_bytes": 110178,
+      "decoded_SHA256": "d26d6038eda292141cfd8a8481faa2f7f9c4bc6fbca280a2c4ee47f2c302c7e1",
+      "encoded_bytes": 110178
+    },
+    {
+      "url": "/compare/r31/crest-v01.html",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/crest-v01.html",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 11131,
+      "decoded_SHA256": "1a08239e0b736eaa62b3f492153290ae5d9af9d374369aa66e499596a5515bc4",
+      "encoded_bytes": 7882
+    },
+    {
+      "url": "/compare/r31/assets/index-BFrchVOm.js",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/assets/index-BFrchVOm.js",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 833151,
+      "decoded_SHA256": "4c31f46547723d36532b576d607b6eb42de8d59d4df55216c3bce443c091e4fb",
+      "encoded_bytes": 235784
+    },
+    {
+      "url": "/compare/r31/crest-v02.html",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/crest-v02.html",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 11131,
+      "decoded_SHA256": "e814a71179a200c80427be2774259f8c9932ab8d59befa0c677ebd9ff6aef5f5",
+      "encoded_bytes": 7884
+    },
+    {
+      "url": "/compare/r31/assets/index-BRYHD8_y.js",
+      "file": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate/dist/assets/index-BRYHD8_y.js",
+      "HTTP": 200,
+      "encoding": "gzip",
+      "decoded_bytes": 833200,
+      "decoded_SHA256": "a157c6170f00ee62d32ae0fc962c639c30ea25b00cce8edcccc89b79aabb732d",
+      "encoded_bytes": 235817
+    }
+  ]
+}

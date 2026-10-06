@@ -1,0 +1,18 @@
+{
+  "reviewer": "volume_review",
+  "finalActualPixels": 6,
+  "PCOverallImprovementComparedR31": true,
+  "mobile390Nonregression": true,
+  "mobile320Nonregression": true,
+  "DPR2VisualNonregression": true,
+  "remaining": [
+    "Broad main smoothfaces/triangle shoulder",
+    "Foldedleaf repetition",
+    "390leftplant fragment",
+    "Uniform mossmat"
+  ],
+  "wholeHighEndGardenComplete": false,
+  "TOPAdoptionBeforeQualification": false,
+  "componentCPURegressionUnresolved": true,
+  "temporaryBudgetLimitMiss": true
+}

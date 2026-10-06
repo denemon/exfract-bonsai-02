@@ -1,0 +1,13 @@
+# 次工程の前に主幹の支配形を再設計する
+
+R28は未採用。R27がTOP。次のwriter開始前にHEAD、許可tracked3coors、free2GiB、20MiB、既存31states/R28manifest/receiptとR27/R25/R26のSHAを確認。旧delete/旧project/Gitwrite/公開/購入/Libraryretry0。deadline10/10 23JST。
+
+R28が否定した方法を明示：独立XYZと2finite支持点、crease弱化でも、元の連続する断面列と長い前面の位相が残ると、普通距離で幅広いS/ねじった帯に戻る。閉mesh、体積増加、頂点移動数、接地保護は古木の合格基準にならない。V02への第三微調整やgrain追加は行わない。
+
+新しい一件を始めるなら、まず灰色の主幹全体をactual cameraの前・左右で設計し直す。旧軸に沿った均等section/tubeを変形する表から離れ、根元の荷重を受ける一塊、短い屈曲の内外の厚み、上行部の前側と裏側の異なる流れ、母面から枝へ続く面を同じnative連続meshの面配置と位相として作る。長い前面を一枚に保ったまま斜めの山を追加する方法、薄い前面overlay、二柱rootは避ける。いくつもの別candidateや細筋を増やさず、一つの主幹構造として成立させる。
+
+actualR25root支持/soil/rootcaps、原枝先と全2800spray world、樹冠外形と枝間空隙を保護。枝母接続の境界だけは新たな主面から連続させて管理する。nativegeometryが変わった場合はR27partitionの包絡/finite-light証明を実boundsから再生成し、CPU策をcopyしただけで保証しない。
+
+ordinary gray夜PC1440x900/390x844/320x568とactualneutral同3幅＋左右を先に比較。actual stats.studyLighting.modeを必ず検査し、URL名やフォルダ名を光の証明にしない。whole景色と鉢支持、branch母接続、冠の空隙を同時に評価。独立reviewで明確に自然な古木の不等な量塊へ改善した場合に限りfresh Blender reopen全native照合で形freeze→色/roughness/normalを個別比較。材質による帯の隠蔽や変化量での採用は禁止。
+
+保護する景色はgraybrown乾いた粗面、夜空、高塀、右前障子、文字0、散在小石0。R27CPU中央値3.5/2.4/2.3msと26/25/26→0 program再選択を維持し、geometry採用後に同条件pairで確認。R27idleGPU36.211ms/cold3D11.987sの未達、実phone/Safari/thermal未検証は残る。形失敗後は必要なTOP/build/HTTP/保護だけで閉じる。全景の品格・背景植栽苔の自然さも完成扱いしない。

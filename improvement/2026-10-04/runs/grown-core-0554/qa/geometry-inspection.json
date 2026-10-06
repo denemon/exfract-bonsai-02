@@ -1,0 +1,21 @@
+{
+  "version": "grown-v01",
+  "native_surface_vertices": 5394,
+  "native_surface_faces": 5392,
+  "triangles": 10784,
+  "volume": 0.09207600993328136,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "nonadjacent_intersections": 0,
+  "actual_surface_below_z050_unchanged": true,
+  "UV_color_index_unchanged_from_applied_R25": true,
+  "protected_vertex_count": 3134,
+  "modified_vertex_count": 1506,
+  "max_actual_displacement": 0.03206243191623901,
+  "twig_unchanged": {
+    "position": "171c43ae074ff9b8eec06ce5538dc49cd2c217aeabb38600aec139856f1fe1a6",
+    "faces": "1f17040c159fe02e0fd75e54253e57b95409fb7fd1a951d5fc99c7484532eb11"
+  },
+  "geometry_frozen": false,
+  "structure_only_not_aesthetic": true
+}

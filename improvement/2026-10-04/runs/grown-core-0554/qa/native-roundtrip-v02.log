@@ -1,0 +1,16 @@
+00:00.175  translation      | WARNING Falling back to standard locale ("C")
+00:00.684  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/models/root-v02-editable.blend"
+00:00.942  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/grown-core-0554/models/grown-v02-editable.blend"
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/grown-core-0554/qa/verify-native-v02.py", line 6, in <module>
+    assert sha([list(v.co)for v in m.vertices])==rec['position_sha256'];assert [list(f.vertices)for f in m.polygons]==faces;assert uv=={l.name:sha([list(d.uv)for d in l.data])for l in m.uv_layers}==rec['UV_sha256'];assert color==sha([list(d.color)for d in m.color_attributes.active_color.data])==rec['color_sha256'];assert all(list(m.vertices[k].co)==p for k,p in sourceProtected.items());assert all(list(m.vertices[k].co)==p for k,p in root.items());tw=bpy.data.objects['Terminal twig hierarchy'];assert {'position':sha([list(v.co)for v in tw.data.vertices]),'faces':sha([list(f.vertices)for f in tw.data.polygons])}==rec['native_inspection']['twig_unchanged'];bm=bmesh.new();bm.from_mesh(m);assert sum(e.is_boundary for e in bm.edges)==sum(not e.is_manifold for e in bm.edges)==0;volume=bm.calc_volume(signed=True);bm.free();assert abs(volume-rec['native_inspection']['volume'])<1e-10
+                                                                                                                                                                                                                                                                                                                                   ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,12 @@
+{
+  "near": "Same2033leaves/369shoot166fork before geometry count check. Non-symmetric closed cupped leaf widths and bends, broader unequal blades, depth orientation; first foreground root moved25cm inward/16cmback, realgroundHeight burial recalculated. No extended stray endpoint.",
+  "far": "Same3rootedtrees18regions; attraction centres move toward support interior, unequal larger closed leaves/fewer tipbud leaves; rooted physical branching supports allblades.",
+  "factorFlags": [
+    "candidate=grown-v02|aged-v01|living-v01",
+    "near-shape=baseline",
+    "far-shape=baseline",
+    "wood-surface=baseline",
+    "terrain-density=baseline"
+  ],
+  "protected": "BLUE height/2buriedrocks/potfeet/allarchitecture/camera/light; noaddedtuftsmallstone"
+}

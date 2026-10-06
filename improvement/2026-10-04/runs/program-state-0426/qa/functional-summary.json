@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "tests": 11,
+  "own_actual_full_and_inline_completed_stills": 5,
+  "visible_text": 0,
+  "overflow": 0,
+  "external_fonts": 0,
+  "page_remote_network": 0,
+  "reduced_media_and_bounded_input_PC390320": true,
+  "actual_context_loss_restoration": true,
+  "high_native_and_nearPNG_pairs": 7,
+  "dynamic_safe_fallbackPNG_pairs": 6,
+  "actual_phone_Safari_long_thermal_verified": false
+}

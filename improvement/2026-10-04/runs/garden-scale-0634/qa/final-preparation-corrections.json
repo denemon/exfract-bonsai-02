@@ -1,0 +1,8 @@
+{
+  "initial_safety_assertion": "Existing initial audit_protection.py refused overwrite; new audit_protection_final.py created instead.",
+  "initial_record_path_error": "baseline-contact was native/garden audit without protectedPixels; corrected to actual-contact-proof baseline actual rendered ground diagnostic.",
+  "incorrect_HTTP_test_path": "Attempted nonexistent r27 model URL returned404; actual R27 main loads read-only r25 model URL, corrected and verified. Actual browser TOP passed.",
+  "old_QA_overwritten": false,
+  "geometry_source_changed": false,
+  "final_comparison_proof_passed": true
+}

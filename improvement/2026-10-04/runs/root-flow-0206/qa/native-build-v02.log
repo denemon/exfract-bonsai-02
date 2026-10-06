@@ -1,0 +1,29 @@
+00:00.120  translation      | WARNING Falling back to standard locale ("C")
+00:00.553  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/models/edge-v02-editable.blend"
+00:00.772  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/models/root-v01-editable.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+{"version": "root-v02", "control_vertices": 322, "control_faces": 354, "evaluated_vertices": 5394, "triangles": 10784, "volume": 0.09121463171584226, "boundary_edges": 0, "nonmanifold_edges": 0, "nonadjacent_intersections": 0, "intersection_centres": [], "root_soil": [{"id": "root-left", "cap_burial": [{"position": [-0.46915701031684875, -0.06769785284996033, 0.2592005431652069], "soil_z": 0.4019981622695923, "below_soil": 0.14279761910438538}, {"position": [-0.45785441994667053, -0.09550991654396057, 0.2424238622188568], "soil_z": 0.40225768089294434, "below_soil": 0.15983381867408752}, {"position": [-0.4808429777622223, -0.1143021434545517, 0.26079943776130676], "soil_z": 0.4027836322784424, "below_soil": 0.14198419451713562}, {"position": [-0.4921455681324005, -0.08649007976055145, 0.27757611870765686], "soil_z": 0.4011629819869995, "below_soil": 0.12358686327934265}]}, {"id": "root-right-front", "cap_burial": [{"position": [0.34426653385162354, -0.235765278339386, 0.2948770821094513], "soil_z": 0.4032151699066162, "below_soil": 0.10833808779716492}, {"position": [0.3588200509548187, -0.19632035493850708, 0.28898531198501587], "soil_z": 0.4077104330062866, "below_soil": 0.11872512102127075}, {"position": [0.3857334852218628, -0.20023471117019653, 0.3251229226589203], "soil_z": 0.40682506561279297, "below_soil": 0.08170214295387268}, {"position": [0.3711799681186676, -0.23967963457107544, 0.3310146927833557], "soil_z": 0.40343236923217773, "below_soil": 0.07241767644882202}]}, {"id": "root-rear", "cap_burial": [{"position": [0.10795649141073227, 0.3187766671180725, 0.3037659823894501], "soil_z": 0.39469873905181885, "below_soil": 0.09093275666236877}, {"position": [0.07437881827354431, 0.33396631479263306, 0.2911710739135742], "soil_z": 0.39386284351348877, "below_soil": 0.10269176959991455}, {"position": [0.0800435021519661, 0.36122334003448486, 0.3162340223789215], "soil_z": 0.39314162731170654, "below_soil": 0.07690760493278503}, {"position": [0.11362117528915405, 0.3460336923599243, 0.32882893085479736], "soil_z": 0.39347636699676514, "below_soil": 0.06464743614196777}]}], "protected_terminal_nodes": [{"route": "left lower primary", "protected_nodes": 327, "unchanged": true}, {"route": "left lower rear fork", "protected_nodes": 221, "unchanged": true}, {"route": "left rear primary", "protected_nodes": 324, "unchanged": true}, {"route": "upper left primary", "protected_nodes": 270, "unchanged": true}, {"route": "apex", "protected_nodes": 444, "unchanged": true}, {"route": "crown right primary", "protected_nodes": 364, "unchanged": true}, {"route": "subordinate low right", "protected_nodes": 205, "unchanged": true}, {"route": "rear crown fork", "protected_nodes": 244, "unchanged": true}], "twig_changes": [], "major_main_controls40_to113_unchanged": true, "geometry_only_not_aesthetic": true}
+情報: 「root-v02-editable.blend」で保存しました
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+02:42:09 | INFO: Starting glTF 2.0 export
+02:42:09 | INFO: Extracting primitive: Native v01 local branch-mouth subdivision and depth
+02:42:09 | INFO: Primitives created: 1
+02:42:09 | INFO: Extracting primitive: Local root graft reroute, exact terminal nodes
+02:42:09 | INFO: Primitives created: 1
+02:42:09 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+02:42:09 | INFO: Draco encoder: Encoding mesh Terminal twig hierarchy.
+02:42:09 | INFO: Finished glTF 2.0 export in 0.08042097091674805 s
+
+{"native_bytes": 716413, "glb_bytes": 266064}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 7198 vertices, 32352 indices, raw size: 444104, encoded size: 91085, compression ratio: 4.88
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 34305 vertices, 110214 indices, raw size: 1043748, encoded size: 172232, compression ratio: 6.06
+
+Blender quit

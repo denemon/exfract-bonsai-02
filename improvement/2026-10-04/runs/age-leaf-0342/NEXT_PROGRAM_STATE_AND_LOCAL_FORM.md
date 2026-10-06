@@ -1,0 +1,11 @@
+# 次の局所工程：R25選定を保護し、描画passのprogram再選択を除く
+
+最初にwriter/HEAD/tracked3coors/free2GiB/20MiBを検査する。旧28statesとR26manifest/receipt、selectedR25native/model/material/5完成stillを保護。新試作先一件だけ。単一5214、TOPはR25、試作は別compare。R26の小さい古木面/葉改善は未採用なので勝手にTOPへ混ぜない。
+
+CPU診断：同Sceneの8→3ライト切替でThree WebGLLightsのstate.versionが変わり、WebGLRendererのmaterial lightsStateVersion不一致からgetProgram/getParameters/cacheKeyが毎frame26回。実both→batch→bothのcounter26→0→26、drawcalls65/triangles1,803,162同数。これはGPU削減のための2passが生む避けられるCPU経路で、旧PC+0.85msの全原因を確定したという意味ではない。葉updatehotloopcacheは.00465→.00270ms/回で、全体CPUmedian改善を説明する量ではない。
+
+まずselectedR25 geometry/materialで、background/heroそれぞれのライト状態が安定する描画sceneを一つの候補として検討。元nativeの頂点/instancing/world・実lights/全castercachedshadow・LODhigh/low・接触と影を厳密に維持する。共有shadow参照や描画コピーの整合をレビューしてから実pixel比較。依存Three本体patchや画質/葉削減で速い値を作らない。強いCPU削減を実証できなければCPU達成false。毎framecustomProgramCacheKeyのURLSearchParams生成もprofilerで観測したが、原因と安全な固定時点を確認してから一箇所ずつ処理。
+
+現native候補R26はroot-v02の局所32controlsのみ。gray屈曲稜線/凹面は小改善、葉botanicalroughness.86/backscatter.055も小改善。広い滑面、匙状折返し、近接graft/根裾、同型spray反復、背景植栽/苔/高級感は未達。性能分離が終わってから、主幹/枝元に普通距離で効く局所geometry一件を作り、gray全景PC390320/左右/neutralを先に判定→fresh native再固定→材質独立。樹冠2800sprays/輪郭/空隙/影、鉢soil低土台高塀右前障子夜空graybrown幹/文字0/散在小石0を保護。
+
+steadyABBA118/版/幅、idle2400ms14/版、cold120ms250KiB/s単回を分離。今回cold3D11.96s/fullstill2.12s、idle35.07msは未達。性能と小造形改善の両方を確認し、own5full/inline・最終sourcebuild・functional/reduced/context・TOP実像同期後にだけ新routingを採用。実phone/Safari/thermal/Sol-xhigh実metadataは未検証。10/10 23JST期限、旧成果削除/他project/Gitwrite/push/PR/merge/公開/購入/automation/Libraryretry0。

@@ -1,0 +1,65 @@
+import * as THREE from 'three';
+// Draw organization only. Native mesh attributes, matrices, materials, LOD,
+// physical lights and cached shadows remain the authoritative scene.
+export function createRenderPartition(renderer,scene,subject,model,initialMode='original'){
+ const original=renderer.render.bind(renderer),sources=[];
+ model.traverse(o=>{if(o.isInstancedMesh&&o.userData.foliageEnvelope)sources.push(o)});
+ const display=new THREE.Group();display.name='Equivalent closed-leaf display batches';display.visible=false;subject.add(display);
+ const bounds=new THREE.Box3(),corner=new THREE.Vector3(),matrix=new THREE.Matrix4();
+ model.updateWorldMatrix(true,true);
+ model.traverse(o=>{if(!o.isMesh)return;const b=o.userData.foliageEnvelope||(o.geometry.computeBoundingBox(),o.geometry.boundingBox);if(o.isInstancedMesh){for(let n=0;n<o.count;n++){o.getMatrixAt(n,matrix);matrix.premultiply(o.matrixWorld);for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])bounds.expandByPoint(corner.set(x,y,z).applyMatrix4(matrix))}}else bounds.union(b.clone().applyMatrix4(o.matrixWorld));});
+ const sphere=bounds.getBoundingSphere(new THREE.Sphere()),excluded=[],proof=[],casters=[];
+ scene.traverse(o=>{if(!o.isLight)return;if(o.castShadow)casters.push(o);if(!(o.isPointLight||o.isSpotLight)||!o.distance)return;const position=o.getWorldPosition(new THREE.Vector3()),nearest=bounds.distanceToPoint(position);let reason;
+ if(nearest>o.distance+1e-5)reason={method:'Entire native + deferred-high envelope outside finite cutoff',minimumDistance:nearest,cutoff:o.distance};
+ else if(o.isSpotLight){const axis=o.target.getWorldPosition(new THREE.Vector3()).sub(position).normalize(),to=sphere.center.clone().sub(position),distance=to.length();if(distance>sphere.radius){const separation=Math.acos(THREE.MathUtils.clamp(axis.dot(to.normalize()),-1,1)),minimumAngle=separation-Math.asin(sphere.radius/distance);if(minimumAngle>o.angle+1e-5)reason={method:'Entire native + deferred-high sphere outside spot cone',minimumAngleRadians:minimumAngle,coneHalfAngleRadians:o.angle,sphereRadius:sphere.radius};}}
+ if(reason){excluded.push(o);proof.push({type:o.type,name:o.name,position:position.toArray(),...reason})}
+ });
+ let mode=initialMode,batches=[],batchKey='',optimized=true;const identity=new THREE.Matrix4(),snapshots=[];
+ function sameSource(o,s){if(!s||o.geometry!==s.geometry||o.material!==s.material||o.count!==s.count||o.instanceMatrix.version!==s.version||o.castShadow!==s.cast||o.receiveShadow!==s.receive||o.renderOrder!==s.order||o.layers.mask!==s.layers)return false;for(let n=0;n<16;n++)if(o.matrixWorld.elements[n]!==s.matrix[n])return false;return true;}
+ function saveSources(){snapshots.length=0;for(const o of sources)snapshots.push({geometry:o.geometry,material:o.material,count:o.count,version:o.instanceMatrix.version,cast:o.castShadow,receive:o.receiveShadow,order:o.renderOrder,layers:o.layers.mask,matrix:o.matrixWorld.elements.slice()});}
+ const stats={mode,nativeFoliageGroups:sources.length,batchedGroups:0,batchActive:false,lightPartitionActive:false,drawPasses:1,excludedFiniteLights:proof,nativeEnvelope:{min:bounds.min.toArray(),max:bounds.max.toArray()},nativeBuffersAndMaterialsUnmodified:true,instanceMatricesCopiedBitExactly:true,fullShadowUpdates:0,batchCacheHits:0,batchRebuilds:0,extraCompleteColorPassForShadowUpdate:false};
+ function activateBatches(){
+  if(!subject.matrixWorld.equals(identity)||!sources.length||sources.some(o=>!o.visible||o.instanceColor||o.material!==o.userData.foliageMaterials?.low))return false;
+  const valid=optimized&&snapshots.length===sources.length&&sources.every((o,n)=>sameSource(o,snapshots[n]));
+  const key=valid?batchKey:sources.map(o=>o.geometry.uuid+':'+o.material.uuid+':'+o.matrixWorld.elements.join(',')).join('|');
+  if(valid)stats.batchCacheHits++;
+  if(key!==batchKey||optimized&&!valid){stats.batchRebuilds++;
+   for(const o of batches){display.remove(o);o.dispose();}batches=[];const grouped=new Map();
+   for(const o of sources){const id=o.geometry.uuid+':'+o.material.uuid+':'+o.matrixWorld.elements.join(',')+':'+o.castShadow+':'+o.receiveShadow+':'+o.renderOrder+':'+o.layers.mask;let a=grouped.get(id);if(!a){a=[];grouped.set(id,a);}a.push(o);}
+   for(const group of grouped.values()){
+    const source=group[0],count=group.reduce((n,o)=>n+o.count,0),batch=new THREE.InstancedMesh(source.geometry,source.material,count);batch.name='Equivalent closed leaves '+batches.length;batch.matrixAutoUpdate=false;batch.matrix.copy(source.matrixWorld);batch.castShadow=source.castShadow;batch.receiveShadow=source.receiveShadow;batch.renderOrder=source.renderOrder;batch.layers.mask=source.layers.mask;
+    let offset=0;for(const o of group){batch.instanceMatrix.array.set(o.instanceMatrix.array.subarray(0,o.count*16),offset);offset+=o.count*16;}
+    batch.instanceMatrix.needsUpdate=true;batch.computeBoundingBox();batch.computeBoundingSphere();display.add(batch);batches.push(batch);
+   }
+   display.updateWorldMatrix(true,true);batchKey=key;stats.batchedGroups=batches.length;saveSources();
+  }
+  for(const o of sources)o.visible=false;display.visible=true;return true;
+ }
+ function finishBatches(active){if(active){for(const o of sources)o.visible=true;display.visible=false;}}
+ renderer.render=(input,camera)=>{
+  if(input!==scene)return original(input,camera);
+  stats.extraCompleteColorPassForShadowUpdate=false;
+  if(mode==='original'){stats.batchActive=false;stats.lightPartitionActive=false;stats.drawPasses=1;return original(input,camera);}
+  const batchActive=(mode==='batch'||mode==='both')&&activateBatches();stats.batchActive=!!batchActive;
+  const lightActive=(mode==='light-cull'||mode==='both')&&excluded.length>0&&subject.visible;stats.lightPartitionActive=!!lightActive;stats.drawPasses=lightActive?2:1;
+  try{
+   if(!lightActive)return original(scene,camera);
+   // Build every physical caster's cached map from the complete equivalent
+   // scene. The split color passes must never regenerate incomplete maps.
+   if(renderer.shadowMap.enabled&&(renderer.shadowMap.autoUpdate||renderer.shadowMap.needsUpdate)){
+    // The renderer initializes its internal render state before shadow maps.
+    // A complete original pass rebuilds every map; the next color pass clears
+    // that transient color frame. No direct internal shadow-map call.
+    original(scene,camera);stats.fullShadowUpdates++;stats.extraCompleteColorPassForShadowUpdate=true;
+   }
+   const subjectVisible=subject.visible;subject.visible=false;
+   try{original(scene,camera)}finally{subject.visible=subjectVisible}
+   const hidden=[],savedBackground=scene.background,savedAutoClear=renderer.autoClear;
+   for(const o of scene.children){if(o===subject||o.isLight||o.type==='Object3D')continue;if(o.visible){hidden.push(o);o.visible=false;}}
+   const excludedVisibility=excluded.map(o=>o.visible);for(const o of excluded)o.visible=false;
+   scene.background=null;renderer.autoClear=false;
+   try{original(scene,camera)}finally{for(const o of hidden)o.visible=true;excluded.forEach((o,n)=>o.visible=excludedVisibility[n]);scene.background=savedBackground;renderer.autoClear=savedAutoClear;}
+  }finally{finishBatches(batchActive)}
+ };
+ return {stats,setOptimization(value){optimized=!!value;},setMode(next){if(!['original','batch','light-cull','both'].includes(next))throw Error('Unknown render partition');mode=next;stats.mode=next;},sources,batches:()=>batches};
+}

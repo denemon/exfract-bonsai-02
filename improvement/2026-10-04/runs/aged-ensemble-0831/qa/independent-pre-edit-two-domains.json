@@ -1,0 +1,16 @@
+{
+  "reviewer": "/root/volume_review",
+  "read_only": true,
+  "selected_two_domains": [
+    "main wood broad faces and branch shoulders",
+    "near lowshrub leaf occupancy and rootsoil"
+  ],
+  "far_crowns_this_stage": "residual only",
+  "wood_design": "Finite6–12cm face15–25cm length12–20mm trial deformation, broad face direction/thickness and adjacent side-open compression; longer upper/rear support and short underside; avoidcollar/parallelgrooves/rounddent/thinlip",
+  "garden_design": "Foreground shrub48–62cmwide20–28cmhigh25–35cmdeep trial envelope, unequallow-side/higher-back/short-front groups, supportfork3–6cmaboveground, existing2033leaves166forks transported with support; hide inneraxis partly, no spheres or equalfans",
+  "past_failure": "R31 moved/extendedmainaxes so longbare diagonal stems dominated leaves; decide occupancy and empty spaces before internal shortsupport",
+  "shape_before_material": "Claynight/neutral ordinarydistance, woodcrop andlimitedsides beforefreeze; then samegeometry color/roughness/normal independent",
+  "mobile390_constraint": "Avoidonly clippedleaf scraps atleftedge",
+  "criterion": "PCoverallimprovement+390320nonregression+qualifiedtech; completionseparate",
+  "overall_quality_complete": false
+}

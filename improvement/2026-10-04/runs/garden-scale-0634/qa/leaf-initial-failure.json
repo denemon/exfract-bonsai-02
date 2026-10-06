@@ -1,0 +1,17 @@
+{
+  "stage": 30,
+  "raw_image": "qa/garden-night-pc-v01/garden-pc.jpg",
+  "diagnostic": "qa/leaf-v01-diagnostic/results.json",
+  "excluded_from_aesthetic_gate": true,
+  "cause": "Front/back winding reversed, negative closedvolume and uppercentre normals negativeY. Initialmanual windingcorrection was wrong. clone material also dropped4tapcompilecallback.",
+  "correction": "Restore positive closed outwardwinding and explicitlyinstall4tap backgroundshadowfilter onclone. No extra light or brightening.",
+  "geometry_or_fullsite_quality_passed": false,
+  "second_black_images_excluded": [
+    "garden-night-pc-fixed",
+    "garden-night-mobile-390-fixed",
+    "garden-night-mobile-320-fixed"
+  ],
+  "second_cause": "Material vertexColors flag required a missing pervertex color attribute (default0); instanceColor is independent in pinnedThree andalreadyworks withoutvertexColors.",
+  "final_correction": "Keep positive outwardwinding, explicit4tapcompilecallback, vertexColorsfalse withreal instanceColor only. No light or colorbrightening.",
+  "pinned_primary_code": "node_modules/three/src/renderers/webgl/WebGLPrograms.js:209,308 and ShaderChunk/color_vertex.glsl.js"
+}

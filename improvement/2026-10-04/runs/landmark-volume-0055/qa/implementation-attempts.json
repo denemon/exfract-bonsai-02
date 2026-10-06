@@ -1,0 +1,13 @@
+{
+  "native_before_first_export": [
+    "branch-face pool IndexError fixed",
+    "root cap outside actual soil bounds fixed",
+    "upper-left wrong mother face self-intersections fixed"
+  ],
+  "wrong_v02_distribution": "Source candidate added without rebuild;8oldgeometry captures retainedinvalid, appearance conclusion withdrawn; allnewcapture actualmodelasserted",
+  "material_v1": "Color offset but rough/normal nooffset; retainedsource/cases, fixedaligned3map;9materialcases superseded",
+  "shapegray_baseline": "roughness1 separated frombase/color .96/.97, strictbase→color comparison added",
+  "large_terminal_job": "One large write_stdin tool input rejected as too large to review safely; completed by smaller2case jobs, no broader permissions",
+  "no_library_retry": true,
+  "no_old_delivery_deleted": true
+}

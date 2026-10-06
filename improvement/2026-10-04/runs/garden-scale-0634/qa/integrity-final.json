@@ -1,0 +1,236 @@
+{
+  "root_source_files": 17,
+  "root_production_files": 10,
+  "initial_archive_entries": 53,
+  "stage_two_archives_and_files": [
+    {
+      "archive": "stage-two-source.zip",
+      "live_files": 83
+    },
+    {
+      "archive": "production-build.zip",
+      "live_files": 30
+    },
+    {
+      "archive": "evidence.zip",
+      "live_files": 59
+    }
+  ],
+  "local-structure-2122": {
+    "delivery_files": 55,
+    "symlinks": 11,
+    "manifest_sha256": "0ab09e744b5beea0978e5dd3cf87c5350370387ec8024e7353dbdc7b17382bdd"
+  },
+  "anatomy-2150": {
+    "delivery_files": 98,
+    "symlinks": 5,
+    "manifest_sha256": "e2f8615ff373a629f039003a76a08c1f68d7062c16e4618004e57c8f7d8da470"
+  },
+  "integrated-form-2245": {
+    "delivery_files": 152,
+    "symlinks": 12,
+    "manifest_sha256": "a6962cc1e384167f89a8a6de93a79ac0eb6577393da041fa50337546dbedfabd"
+  },
+  "wood-surface-0000": {
+    "delivery_files": 121,
+    "symlinks": 12,
+    "manifest_sha256": "4fcdd1413820c0a807bdca43232e4a2e7418b07379e6aac139c72ca5db71d85a"
+  },
+  "local-edges-0056": {
+    "delivery_files": 137,
+    "symlinks": 13,
+    "manifest_sha256": "1f6fcad6487fd4c86f006640c4477f62ccdfb783add94dc7f9c30587a0d31fd3"
+  },
+  "night-garden-0144": {
+    "delivery_files": 131,
+    "symlinks": 9,
+    "manifest_sha256": "3cd69664861808b6be85eec0bbfd259d28df9faca5d62ce3c4dad1a434bc9235"
+  },
+  "night-finish-0235": {
+    "delivery_files": 141,
+    "symlinks": 19,
+    "manifest_sha256": "0c10b008bffb42b7b56fb5706c349f9b4fb56d2bfcaf0c895e2e6402b1c13545"
+  },
+  "growth-ground-0335": {
+    "delivery_files": 122,
+    "symlinks": 20,
+    "manifest_sha256": "abc77820b9aa01ad011d5db0948b2cea75f2dcfc7aebe39e5a84b13e7b40c854"
+  },
+  "space-ground-0430": {
+    "delivery_files": 190,
+    "symlinks": 29,
+    "manifest_sha256": "7ee3adeeb4b911e80f2e62bdb88542190373c58d22b7a7f2b1173ae56e14a12d"
+  },
+  "ancient-volume-0810": {
+    "delivery_files": 180,
+    "symlinks": 49,
+    "manifest_sha256": "52db3abb5043aae77466b3325304b975e2e6517169eb3fc5a744d0993848ebb9"
+  },
+  "ensemble-0915": {
+    "delivery_files": 252,
+    "symlinks": 66,
+    "manifest_sha256": "da802a1e29ec66a5e00ed08e765ecee059061ab03947a7beadc5768a04c22151"
+  },
+  "hand-junction-1029": {
+    "delivery_files": 58,
+    "symlinks": 2,
+    "manifest_sha256": "541d45b63ddc091bf096b86b82a940588fd1c902dffb4f93e33c1817e60db6c7"
+  },
+  "compact-mass-1106": {
+    "delivery_files": 106,
+    "symlinks": 2,
+    "manifest_sha256": "1ab77550af4d66c9287aa50b8ba865d57ced4f4f6b3997b4dcbc4ed2abdf815b"
+  },
+  "irregular-volume-1200": {
+    "delivery_files": 121,
+    "symlinks": 2,
+    "manifest_sha256": "44c43fc181f00a9c157b78892806b443c5fa24494db3748550d7b955223eebb6"
+  },
+  "carved-mass-1340": {
+    "delivery_files": 266,
+    "symlinks": 2,
+    "manifest_sha256": "da913358d82141f9296292cad5d262e20eebebedaea0164b7a18d4013409caf3"
+  },
+  "background-depth-1608": {
+    "delivery_files": 154,
+    "symlinks": 7,
+    "manifest_sha256": "b2779a1e1967a6415fc37c3d16e0329d9d393d6e99dddd4ae8d44533361c343c"
+  },
+  "garden-reframe-1734": {
+    "delivery_files": 125,
+    "symlinks": 6,
+    "manifest_sha256": "6c64ad662c7a6adb71a68acf367936b76ff0e4dbbc896e116e352dc5131bd6ee"
+  },
+  "depth-balance-1905": {
+    "delivery_files": 166,
+    "symlinks": 3,
+    "manifest_sha256": "394581865282a0cfda3719329aedef6e313935e0b78b5933706c38799c034925"
+  },
+  "layer-balance-2055": {
+    "delivery_files": 149,
+    "symlinks": 3,
+    "manifest_sha256": "6096589134f35768883109907f21c72d60d6a8f5d41860a0e2197f0168243c96"
+  },
+  "steady-render-2225": {
+    "delivery_files": 148,
+    "symlinks": 4,
+    "manifest_sha256": "56e821922c3493950a79c618bebc76b7e7653b108114bb84b44450eb42b3bde6"
+  },
+  "native-grip-0017": {
+    "delivery_files": 103,
+    "symlinks": 0,
+    "manifest_sha256": "7fade24810da2af5fc762de7695eeaa259ad869b844a35fa44dae3b182462bf6"
+  },
+  "landmark-volume-0055": {
+    "delivery_files": 155,
+    "symlinks": 1,
+    "manifest_sha256": "b62dd594c3bbaa5da0ab135cf255a76bf7c867364b6ba202d0306381aade30f3"
+  },
+  "root-flow-0206": {
+    "delivery_files": 177,
+    "symlinks": 2,
+    "manifest_sha256": "8dbce9cd6213cf5729e24f9c0c7de244d1399dd4a842a598d2324cbe0282286d"
+  },
+  "age-leaf-0342": {
+    "delivery_files": 139,
+    "symlinks": 2,
+    "manifest_sha256": "df1c15c288628b4f2d2cf584227ba24d6831b8acfc01591588db73f9ee2b96e2"
+  },
+  "program-state-0426": {
+    "delivery_files": 110,
+    "symlinks": 2,
+    "manifest_sha256": "cc2c26e973fd9b744e11f6a3452ecc1aff2936ccb16d857bfd4672fcd321812c"
+  },
+  "coherent-core-0514": {
+    "delivery_files": 137,
+    "symlinks": 2,
+    "manifest_sha256": "3f3c3039a2eccafc2e33b61458aba85c1b2df213a119bd0c50d4cfd6e99d13a8"
+  },
+  "grown-core-0554": {
+    "delivery_files": 154,
+    "symlinks": 2,
+    "manifest_sha256": "945bf90c01ae7a06a9c65f3f6e756efc3239af698c27642a826b8a65f9eee454"
+  },
+  "git_head": "2347a151a05015f0049e4b0fd8f01545ac9afed3",
+  "tracked_status": " M improvement/2026-10-04/HANDOFF.md\n M improvement/2026-10-04/IMPROVEMENT_PLAN.md\n M improvement/2026-10-04/run-state.json",
+  "git_head_at_start": "2347a151a05015f0049e4b0fd8f01545ac9afed3",
+  "external_git_change": false,
+  "parent_external_notice": "Known external archival Git change predates Stage30; current HEAD/status checked read only. Known external PR7 historical deletion remains; current verification hashes every existing protected file. No Git write or deletion by this worker.",
+  "tracked_status_allowed_coordinator_paths": [
+    "improvement/2026-10-04/HANDOFF.md",
+    "improvement/2026-10-04/IMPROVEMENT_PLAN.md",
+    "improvement/2026-10-04/run-state.json"
+  ],
+  "best-state.json": {
+    "sha256": "1a7d3394753fed411028ef5fdd920308f3e169f0eeb805f33643e20f7963d258"
+  },
+  "candidate-state.json": {
+    "sha256": "a95c50fdd610a510a1fe8608345c07c19b23226a86c707119b4e4815863f065f"
+  },
+  "geometry-state.json": {
+    "sha256": "fd1e8522e824fdb9f07de06d57eb89a52f70e04847b4bb2e60a5c1b0a36e7088"
+  },
+  "integrated-study-state.json": {
+    "sha256": "c67a4227af30be8d686476a8c68c015c9445435a522fd44bb79c37e6e01be496"
+  },
+  "wood-study-state.json": {
+    "sha256": "97c228a99e34c379b065b6b08da7fc16f0f3d0101a9016f9d77eb907cf010370"
+  },
+  "local-edge-study-state.json": {
+    "sha256": "b0bf8b263f3b73d965968b7eaaefa1bcce820496b26e964beca369d8ea177e0d"
+  },
+  "night-garden-study-state.json": {
+    "sha256": "a7bbb7557e66c5f5b6fed428de3c38e3f11075a112131328d9f540ffea9c2b06"
+  },
+  "night-finish-study-state.json": {
+    "sha256": "2497ec3eb03ff0810807ce47da662620bb07eb0e58038dd825410a1c73b6f838"
+  },
+  "growth-ground-study-state.json": {
+    "sha256": "15db99d6f8af65e6fa69d99921a85d10fcc4056fb860d06cf95a60e9d7463646"
+  },
+  "space-ground-study-state.json": {
+    "sha256": "32e59dea232ccc7dae1728e18e9a2aec5ceb5bd59714fb56304d496704fae3b4"
+  },
+  "ancient-volume-study-state.json": {
+    "sha256": "bf06c8eab03c62fed3b861c7f949fa5b183f73262998f304e4b6f95ac4e29236"
+  },
+  "ensemble-study-state.json": {
+    "sha256": "38aeeace1f93299c0502bd65ffbbe870c7a70cf96df2c74c271e4080c7c91d33"
+  },
+  "hand-junction-study-state.json": {
+    "sha256": "57e62d4fdbee9d9abb2d208d759257ef8af53eb658564dc92f5cb805d90e137c"
+  },
+  "compact-mass-study-state.json": {
+    "sha256": "9746bf5ad397dadbbfa6c2c7ec64cfaf0808e92982aa4027d8dce3b3b397e2d8"
+  },
+  "authorized_reused_profile": "Only local-structure-2122/qa/browser-profile was reused, which is excluded from that stage delivery manifest.",
+  "authorized_shared_mutable_cache": "Stage14 qa/vite-cache explicitly excluded from immutable delivery manifest; shared in stage16; included in footprint.",
+  "protected_states_count": 32,
+  "old_project": "No writes to the old project. No old-project access in this stage.",
+  "external_missing_manifest_entries": [
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v20.field.f32.gz",
+      "expected_sha256": "3fb8e8a19824449b75440244fa1953c227b1b27d26d5fff6685059e373cdbd20",
+      "classification": "Externally committed PR7 deletion, not restored; historical complete manifest verification fails"
+    },
+    {
+      "path": "improvement/2026-10-04/runs/volume-rebuild-1656/models/hero-v20.triangles.f32.gz",
+      "expected_sha256": "0aa57a27f21432440b7790c232777fa28cb84767a8c0d3ddf722c0d6431c0f97",
+      "classification": "Externally committed PR7 deletion, not restored; historical complete manifest verification fails"
+    },
+    {
+      "path": "improvement/2026-10-04/runs/local-structure-2122/models/local-b.mesh.npz",
+      "expected_sha256": "52e775c4e8e4e17c1f1f9baac0aded0c99fdbd4cb37f79cc341026ffa64ea0f1",
+      "classification": "Externally committed PR7 deletion, not restored; historical complete manifest verification fails"
+    },
+    {
+      "path": "improvement/2026-10-04/runs/local-structure-2122/models/local-a.mesh.npz",
+      "expected_sha256": "6ef6d45b33cd66d03602a4a2c106808b5f21f10df76b0fe6012c6742eca76c0e",
+      "classification": "Externally committed PR7 deletion, not restored; historical complete manifest verification fails"
+    }
+  ],
+  "historical_manifest_completeness_verified": false,
+  "critical_source_production_and_thirty_two_states_verified": true,
+  "external_change_details": "../carved-mass-1340/qa/external-change.json",
+  "external_missing_actual_paths_count": 26
+}

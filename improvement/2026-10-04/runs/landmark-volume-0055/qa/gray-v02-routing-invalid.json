@@ -1,0 +1,9 @@
+{
+  "dataset": "gray-landmark-v02",
+  "valid_for_new_geometry": false,
+  "actual_geometry": "edge-v02",
+  "cause": "Candidate added to source, built comparison distribution was not rebuilt. Old bundle accepted only landmark-v01 and retained old core for landmark-v02.",
+  "new_model_appearance_conclusion_withdrawn": true,
+  "old_raw_photos_retained": true,
+  "next_capture_assertion": "Actual model authoringVersion must equal requested candidate before capture; new build before compare route"
+}

@@ -1,0 +1,14 @@
+{
+  "stage": 30,
+  "run": "garden-scale-0634",
+  "selected_root": "program-state-0426",
+  "candidate_adopted": false,
+  "all_three_widths_clearly_superior": false,
+  "local_scale_study_qualified": true,
+  "whole_high_end_garden_complete": false,
+  "overall_goal_complete": false,
+  "candidate_final_stills_inline_synced": true,
+  "candidate_basic_functional_cases_passed": 11,
+  "current_qualified_performance_remeasured": false,
+  "adoption_related_QAComplete": false
+}

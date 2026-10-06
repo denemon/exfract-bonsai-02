@@ -1,0 +1,33 @@
+{
+  "stage": 24,
+  "run": "landmark-volume-0055",
+  "adopted_into_top": false,
+  "ordinary_gray_improvement_milestone_passed": true,
+  "provisional_form_chosen_for_material_experiment": true,
+  "geometry_frozen_only_for_material_experiment": true,
+  "material_experiment_completed": true,
+  "next_trial_material": "normal .20 / v2-aligned",
+  "final_natural_ancient_tree_form_gate_passed": false,
+  "final_material_quality_gate_passed": false,
+  "root_selected": "steady-render-2225 / immutable R20 physical scene with R22 both renderer",
+  "overall_goal_complete": false,
+  "geometry_remaining": [
+    "paired anterior root pillars",
+    "broad smooth middle",
+    "graft lines and small protrusion"
+  ],
+  "material_remaining": [
+    "right root UV flow/horizontal stripe",
+    "provisional Cedar001 texture not exact original reference tree scan"
+  ],
+  "model_integrity_sha256": {
+    "models/landmark-v01-editable.blend": "7d150071cf5043f9b7583199f33d37b4c3a8f7b8ea48d77c65af72da3b7999ca",
+    "models/landmark-v02.glb": "565e7b5bee99af4ecfdc0959fefff4df47806fc1d4d18d18874d9e0c322873b2",
+    "models/landmark-v01.glb": "1555b0f4ba7d841a9f572629b46511f91223ca477b6503ed6bf25cc4519a65a4",
+    "models/landmark-v02-editable.blend": "66919d8a870f43bdb482d97f606e33cd6a333fd4f671a1033aa95c2020d0cfd4"
+  },
+  "review": [
+    "qa/review-gray-v02-verified.md",
+    "qa/review-material-aligned-final.md"
+  ]
+}

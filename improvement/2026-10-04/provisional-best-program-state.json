@@ -1,0 +1,82 @@
+{
+  "stage": 27,
+  "run": "program-state-0426",
+  "started_at_jst": "2026-10-06T04:31:36.676462+09:00",
+  "ended_at_jst": "2026-10-06T05:09:31.146333+09:00",
+  "candidate_adopted": true,
+  "selected_root": "program-state-0426",
+  "geometry_source": "root-flow-0206",
+  "candidate": "root-v02",
+  "wood_finish": "normal-v4-fissure-flow",
+  "leaf": "original",
+  "R26_form_leaf_integrated": false,
+  "adoption_scope": "Verified local CPU optimization preserving selected R25 scene",
+  "new_aesthetic_improvement": false,
+  "overall_goal_complete": false,
+  "final_natural_ancient_tree_form_passed": false,
+  "final_material_high_end_garden_quality_passed": false,
+  "totalCPU_same_hardware_improvement_verified": true,
+  "CPU_median_ms": {
+    "pc": 3.5,
+    "390": 2.4000000953674316,
+    "320": 2.3000000715255737
+  },
+  "CPU_median_delta_ms": {
+    "pc": -1.5,
+    "390": -1.3499999046325684,
+    "320": -1.6999999284744263
+  },
+  "GPU_p95_ms": {
+    "pc": 13.521666,
+    "390": 14.030791,
+    "320": 12.449708
+  },
+  "GPU_strict_nonregression_verified": false,
+  "program_reselection_per_frame_old": [
+    26,
+    25,
+    26
+  ],
+  "program_reselection_per_frame_new": [
+    0,
+    0,
+    0
+  ],
+  "steady_samples_per_variant_width": 236,
+  "idle_gpu_p95_ms": 36.211375,
+  "cold_first3D_ms": 11987.399999976158,
+  "cold_completed_still_ms": 2089.5,
+  "native_geometry_world_instances_lights_shadow_maps_preserved": true,
+  "physical_mesh_hash": "ed939c33e4bfbdbd3a4a74321bcb0dddb04f05b1f0ef98807fc39818a9ddac5d",
+  "native_model_read_only_path": "runs/root-flow-0206/models/root-v02-editable.blend",
+  "own_full_inline_stills_synced": true,
+  "actual_PC390320_default_JPEGs_bit_identical_R25": true,
+  "TOP_actual_JPEG_own_R25_synced": true,
+  "functional_checks": 11,
+  "dynamic_actual_PNG_pairs": 6,
+  "high_near_actual_PNG_pairs": 7,
+  "source_builds_succeeded": 4,
+  "served_decoded_identities": 26,
+  "preview_pid": 58952,
+  "preview_session": 16449,
+  "TOP": "http://127.0.0.1:5214/",
+  "candidate_preview": "http://127.0.0.1:5214/compare/r27/",
+  "report": "runs/program-state-0426/REPORT.md",
+  "next_milestone": "runs/program-state-0426/NEXT_COHERENT_MAIN_CORE.md",
+  "protected_old_states": 28,
+  "new_states": [
+    "program-state-study-state.json",
+    "provisional-best-program-state.json"
+  ],
+  "total_states_now": 30,
+  "library_retry_count": 0,
+  "library_image_ids": [],
+  "historical_external_completeness_verified": false,
+  "historical_missing_paths": 26,
+  "historical_missing_manifest_entries": 4,
+  "actual_phone_Safari_thermal_modelMetadata_verified": false,
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning": "xhigh",
+  "deadline_jst": "2026-10-10T23:00:00+09:00",
+  "noGitwrite_push_PR_merge_publication_purchase_automation_oldproject_access_olddelete": true
+}

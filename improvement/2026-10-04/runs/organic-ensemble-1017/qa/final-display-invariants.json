@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "name": "pc",
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "pixelRatio": 1,
+      "drawingBuffer": [
+        1440,
+        900
+      ],
+      "fullHeroBounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      },
+      "calls": 68,
+      "triangles": 1740222
+    },
+    {
+      "name": "mobile-390",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 1,
+      "pixelRatio": 1,
+      "drawingBuffer": [
+        390,
+        844
+      ],
+      "fullHeroBounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      },
+      "calls": 63,
+      "triangles": 1549134
+    },
+    {
+      "name": "mobile-320",
+      "viewport": [
+        320,
+        568
+      ],
+      "dpr": 1,
+      "pixelRatio": 1,
+      "drawingBuffer": [
+        320,
+        568
+      ],
+      "fullHeroBounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      },
+      "calls": 64,
+      "triangles": 1561550
+    },
+    {
+      "name": "pc-dpr2",
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 2,
+      "pixelRatio": 1.6,
+      "drawingBuffer": [
+        2304,
+        1440
+      ],
+      "fullHeroBounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      },
+      "calls": 68,
+      "triangles": 1740222
+    },
+    {
+      "name": "mobile-390-dpr2",
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "pixelRatio": 1.6,
+      "drawingBuffer": [
+        624,
+        1350
+      ],
+      "fullHeroBounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      },
+      "calls": 63,
+      "triangles": 1549134
+    },
+    {
+      "name": "mobile-320-dpr2",
+      "viewport": [
+        320,
+        568
+      ],
+      "dpr": 2,
+      "pixelRatio": 1.6,
+      "drawingBuffer": [
+        512,
+        908
+      ],
+      "fullHeroBounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      },
+      "calls": 64,
+      "triangles": 1561550
+    }
+  ],
+  "sameR31CameraLightsExactProjection3": true,
+  "native7SHAAndFrozenSourceExact": true,
+  "R27RendererAndFoliageCodeExact": true,
+  "functional11Pass": true,
+  "dynamic6Pass": true,
+  "sameCompletedFiveFullWebPAndInline": true,
+  "NoVisibleTextNoOverflowNoSmallStones": true,
+  "physicalPhoneSafariThermalUnverified": true,
+  "overallGoalComplete": false
+}

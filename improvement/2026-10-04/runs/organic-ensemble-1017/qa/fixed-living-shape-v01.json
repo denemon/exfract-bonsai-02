@@ -1,0 +1,9 @@
+{
+  "models/living-v01-editable.blend": "83afb0dc4c8f7abf29a958560494cd2ee1536b298417c234752421ab5453549c",
+  "models/living-v01.glb": "422e69902fab88fc8ff57fa357ff64f3692754745321ff586b31f8c1fcdebc9c",
+  "models/hero-living-v01.glb.gz": "36b7cf4680bde63e37fde3255e64b6a69278d0d9ad08e4830d57588ca8ed073c",
+  "sculpt/control-record-v01.json": "75167d3b0bab3e2a18b066b67e79671e5e0b4e55b83144ec2754ddbd99c1d798",
+  "qa/geometry-inspection-v01.json": "cd4ff447b7e0d0725e9de72839a4e6ac8e4c1077497313377d208dc6c09498f8",
+  "qa/native-roundtrip-v01.json": "3d7f0923efdb582d6056f9269e2daf54e87c3d64ce046b9685fbec7f13d4e092",
+  "qa/shape-comparison-proof-v01.json": "3ec15a689255580228a1a3c45bda303133419cc5819756a5e4c6dc5293c36640"
+}

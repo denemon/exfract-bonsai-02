@@ -1,0 +1,107 @@
+{
+  "rows": [
+    {
+      "label": "selected-r31",
+      "run": "growth-garden-0729",
+      "buildPassed": true,
+      "freshIsolatedOutput": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/idle-causality-0935/qa/compiled-selected-r31",
+      "files": {
+        "index.html": {
+          "sha256": "bf584837fc6a491206e675ed491040ab5cca8cdfa5d2f381ccf69252662c3286",
+          "bytes": 11161,
+          "exactProtectedProduction": true
+        },
+        "assets/index-DVKFpQ5r.css": {
+          "sha256": "1572eccaa2dde1e3a7cdf3b9ed4b600daabcc0fd7dae096901376f72aaf8957c",
+          "bytes": 439,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_decoder-C32yEggz.wasm": {
+          "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2",
+          "bytes": 285747,
+          "exactProtectedProduction": true
+        },
+        "assets/index-BIWYVtly.js": {
+          "sha256": "d09167f2574f55059cea8002e654dabf5e27addd08527c4b4f3316d0fa4cc3c1",
+          "bytes": 772478,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_wasm_wrapper-DxJM36Ib.js": {
+          "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8",
+          "bytes": 58763,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_wasm_wrapper-fZCQGLGb.js": {
+          "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+          "bytes": 58456,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_decoder-fzg4nYZr.js": {
+          "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04",
+          "bytes": 719410,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_decoder-Z1_iN-Ht.wasm": {
+          "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+          "bytes": 192420,
+          "exactProtectedProduction": true
+        }
+      },
+      "protectedFilesUnchanged": 149,
+      "protectedSourceAndProductionSHAExact": true
+    },
+    {
+      "label": "candidate-r32",
+      "run": "aged-ensemble-0831",
+      "buildPassed": true,
+      "freshIsolatedOutput": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/idle-causality-0935/qa/compiled-candidate-r32",
+      "files": {
+        "index.html": {
+          "sha256": "eb03dcb2d82c9e4ac766dfbcac56e604cf6b0215e25e1c863a92b07512759740",
+          "bytes": 10887,
+          "exactProtectedProduction": true
+        },
+        "assets/index-DVKFpQ5r.css": {
+          "sha256": "1572eccaa2dde1e3a7cdf3b9ed4b600daabcc0fd7dae096901376f72aaf8957c",
+          "bytes": 439,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_decoder-C32yEggz.wasm": {
+          "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2",
+          "bytes": 285747,
+          "exactProtectedProduction": true
+        },
+        "assets/index-CyC3whrw.js": {
+          "sha256": "235b4306fad18c703af7faf6094f47b6b16afd67c3d6dbaf1e89d7e30df94896",
+          "bytes": 779856,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_wasm_wrapper-DxJM36Ib.js": {
+          "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8",
+          "bytes": 58763,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_wasm_wrapper-fZCQGLGb.js": {
+          "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+          "bytes": 58456,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_decoder-fzg4nYZr.js": {
+          "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04",
+          "bytes": 719410,
+          "exactProtectedProduction": true
+        },
+        "assets/draco_decoder-Z1_iN-Ht.wasm": {
+          "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+          "bytes": 192420,
+          "exactProtectedProduction": true
+        }
+      },
+      "protectedFilesUnchanged": 178,
+      "protectedSourceAndProductionSHAExact": true
+    }
+  ],
+  "passed": true,
+  "currentFrozenR31AndR32BuildsBothBitExactProduction": true,
+  "oldDistOverwriteCount": 0
+}

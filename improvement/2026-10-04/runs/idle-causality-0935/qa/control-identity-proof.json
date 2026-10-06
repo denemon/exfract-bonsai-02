@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "woodAttributesIndexWorldMaterialExact": true,
+    "cameraExact": true,
+    "physicalLightsExact": true,
+    "gardenGeometryInstanceWorldExact": true,
+    "rootContactsExact": true,
+    "potContactsExact": true,
+    "gardenLeavesExact": true,
+    "nativeLeafExactAllConditions": true,
+    "textEmptyAndNoOverflow": true
+  },
+  "passed": true,
+  "sourceRawSHA256": "2c75e892206ab3b07846de1c2d74d8d09d733da0ff4045abb88960fe69a52096",
+  "sampleQualification": false
+}

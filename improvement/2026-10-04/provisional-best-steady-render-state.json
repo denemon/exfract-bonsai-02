@@ -1,0 +1,19 @@
+{
+  "run": "steady-render-2225",
+  "stage": 22,
+  "adopted_as_performance_provisional_best": true,
+  "physical_scene": "depth-balance-1905",
+  "physical_geometry_unchanged": true,
+  "renderer": "both",
+  "shape_and_material_freeze": "runs/steady-render-2225/qa/shape-material-freeze-final.json",
+  "overall_goal_complete": false,
+  "root": "http://127.0.0.1:5214/",
+  "original_R20": "http://127.0.0.1:5214/compare/r20/",
+  "unadopted_R21": "http://127.0.0.1:5214/compare/r21/",
+  "study": "runs/steady-render-2225/REPORT.md",
+  "performance": "runs/steady-render-2225/qa/performance-verified-summary.json",
+  "next": "runs/steady-render-2225/NEXT_NATIVE_WOOD.md",
+  "capacity": "runs/steady-render-2225/qa/capacity-final.json",
+  "library_image_ids": [],
+  "native_form_gate_passed": false
+}

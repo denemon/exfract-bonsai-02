@@ -1,0 +1,24 @@
+{
+  "reviewer": "/root/volume_review",
+  "readOnly": true,
+  "primaryRawRecomputed": true,
+  "primaryTechnicalConditionsPassed": 25,
+  "primaryTechnicalConditions": 27,
+  "frameSamplesPerVariantWidth": 236,
+  "idleSamplesPerVariantWidth": 14,
+  "coldSamplesPerVariantWidth": 2,
+  "primaryFailedIdleCPUMedians": [
+    "mobile-390",
+    "mobile-320"
+  ],
+  "supplementConsoleCountsOnly": true,
+  "validAdditionalCPUGPUNumbers": false,
+  "all42CanBeRecoveredOrQualified": false,
+  "qualifiedPerformanceObstructionResolved": false,
+  "provisionalAdoptionTechAllowed": false,
+  "selectedTOPMustRemain": "growth-garden-0729",
+  "functionalAfterRecoveryCanResolvePerformanceFailure": false,
+  "oldChromeExitCodeUnknown": true,
+  "newChromeExitRecordSeparate": true,
+  "wholeHighEndGoalComplete": false
+}

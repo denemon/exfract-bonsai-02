@@ -1,0 +1,72 @@
+{
+  "shape": "grown-v02",
+  "finish": "normal",
+  "garden": "near-shore-v02",
+  "render": "R27 stable public scene scopes unchanged",
+  "inline_and_full_same_completed_scene": true,
+  "separate_five_default_cameras": true,
+  "versioned_urls_avoid_old_trial_image_cache": true,
+  "stills_owned_no_alias": true,
+  "entries": [
+    {
+      "name": "pc",
+      "size": [
+        1440,
+        900
+      ],
+      "bytes": 227974,
+      "full_sha256": "4e5e4d0fbf3aae8da07c96f07f8950d81450d4c1563d1ca2fbb0c37ea8b6cb71",
+      "inline_sha256": "713017b9b5746e5a19949bb3b18ed04b4c27bc8ae7fda1b2ef74ec13deb48947",
+      "source": "Actual Mac Chrome grown-v02 normal near-shore-v02, stable renderer, individual default cameras",
+      "ready_state": "qa/integration-stills/results.json"
+    },
+    {
+      "name": "wide",
+      "size": [
+        1800,
+        750
+      ],
+      "bytes": 208054,
+      "full_sha256": "13abcbe135edc2a665d300ff739e4d11b20b19928cf01c1a98ef5ec120439be9",
+      "inline_sha256": "55142187461cb85912cde110b0f6988fcfb45ef68c2c06a56b1c76d216e79215",
+      "source": "Actual Mac Chrome grown-v02 normal near-shore-v02, stable renderer, individual default cameras",
+      "ready_state": "qa/integration-stills/results.json"
+    },
+    {
+      "name": "mobile-390",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 70396,
+      "full_sha256": "ac0dba6fa0e3fc077589a43d32ad6b9b551771328a54be4e8a8f37fbee0f2ad2",
+      "inline_sha256": "215fd95342386eb053bdfccbdd0439dbc26fe07ef686a416af281e3e08fe43a6",
+      "source": "Actual Mac Chrome grown-v02 normal near-shore-v02, stable renderer, individual default cameras",
+      "ready_state": "qa/integration-stills/results.json"
+    },
+    {
+      "name": "mobile-320",
+      "size": [
+        320,
+        568
+      ],
+      "bytes": 39118,
+      "full_sha256": "ad741ac8e173eb793f0f6f7d4e522d0346c458ed90a113a6025bbfb17490f6c5",
+      "inline_sha256": "bd1f0088436495ff39fa74b289ecd4d1e3018e5f289936c8d9ef45161e2de579",
+      "source": "Actual Mac Chrome grown-v02 normal near-shore-v02, stable renderer, individual default cameras",
+      "ready_state": "qa/integration-stills/results.json"
+    },
+    {
+      "name": "mobile-tall",
+      "size": [
+        390,
+        1024
+      ],
+      "bytes": 83194,
+      "full_sha256": "86225e4d9e015daea41f594a816760cb0dcc4f8519c46027fd7ded10058ef21f",
+      "inline_sha256": "2c8f3c5379d1410fcb3ef8f3f5f3b605edc5fbfadfdc2ba29ac5dcc5d8dc02e0",
+      "source": "Actual Mac Chrome grown-v02 normal near-shore-v02, stable renderer, individual default cameras",
+      "ready_state": "qa/integration-stills/results.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "stage": 28,
+  "run": "coherent-core-0514",
+  "candidate_adopted": false,
+  "selected_TOP": "program-state-0426",
+  "versions_preserved": [
+    "core-v01",
+    "core-v02"
+  ],
+  "one_coherent_proposal_with_one_correction": true,
+  "overall_goal_complete": false,
+  "shape_gate_passed": false,
+  "geometry_frozen": false,
+  "material_trials_run": false,
+  "candidate_final_stills_synced": false,
+  "reason": "Both ordinary gray night and neutral whole views remain dominated by a twisted band/folded S. Local lip correction does not establish natural ancient unequal 3D mass.",
+  "R27_CPU_renderer_source_exact": true,
+  "TOP_actual3D_PC390320_identical_R27_completed_JPEG": true,
+  "TOP_noWebGL_PC390320_completed_stills_verified": true,
+  "current_R28_perf_remeasurement": false,
+  "R27_idle_GPU_p95_ms_reference": 36.211375,
+  "R27_cold_first3D_ms_reference": 11987.399999976158,
+  "R27_perf_gaps_resolved": false,
+  "minimal_QA_after_rejection": true,
+  "new_microcandidate_count_after_V02": 0
+}

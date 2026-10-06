@@ -1,0 +1,13 @@
+{
+  "at_jst": "2026-10-06T08:23:46.063200+09:00",
+  "preview_pid": 90351,
+  "preview_session": 75979,
+  "verified_cwd": "p90351\nfcwd\nn/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/growth-garden-0729/candidate\n",
+  "preview": "http://127.0.0.1:5214/",
+  "comparison_port5215_stopped": true,
+  "selected_scene_client_source_unchanged_since_qualified_performance": true,
+  "final_build_after_serverconfig_change_passed": true,
+  "final_TOP_checks_pending": true,
+  "gate_SHA256": "096d91def541ed8e6ae9235d9c05e1e84e9c480b7ce097695804e46c10685d2f",
+  "routing_SHA256": "bff18f3e9dae7d370a7daa4efa0ef34e0a5dfbad8b7eeec6feefb8120f8deccd"
+}

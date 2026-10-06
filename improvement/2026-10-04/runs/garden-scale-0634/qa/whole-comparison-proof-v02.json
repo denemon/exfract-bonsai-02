@@ -1,0 +1,154 @@
+{
+  "actual_samecondition_fullscene_comparisons": [
+    {
+      "light": "night",
+      "width": "pc",
+      "nativeWoodAllFieldsSHA": "dc24f9a10e833ee7bae55076f0593f8f29748f91c095ea1dfe1032191d68b79c",
+      "native2800LeafWorldSHA": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "actualCameraLightHeroProjectionExact": true,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      },
+      "text0_overflow0": true,
+      "R30_result": "qa/garden-night-pc-v02/results.json",
+      "R29_before_read_only": "grown-core-0554/qa/material-night-pc-normal/results.json"
+    },
+    {
+      "light": "night",
+      "width": "mobile-390",
+      "nativeWoodAllFieldsSHA": "dc24f9a10e833ee7bae55076f0593f8f29748f91c095ea1dfe1032191d68b79c",
+      "native2800LeafWorldSHA": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "actualCameraLightHeroProjectionExact": true,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      },
+      "text0_overflow0": true,
+      "R30_result": "qa/garden-night-mobile-390-v02/results.json",
+      "R29_before_read_only": "grown-core-0554/qa/material-night-390-normal/results.json"
+    },
+    {
+      "light": "night",
+      "width": "mobile-320",
+      "nativeWoodAllFieldsSHA": "dc24f9a10e833ee7bae55076f0593f8f29748f91c095ea1dfe1032191d68b79c",
+      "native2800LeafWorldSHA": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "actualCameraLightHeroProjectionExact": true,
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      },
+      "text0_overflow0": true,
+      "R30_result": "qa/garden-night-mobile-320-v02/results.json",
+      "R29_before_read_only": "grown-core-0554/qa/material-night-320-normal/results.json"
+    },
+    {
+      "light": "neutral",
+      "width": "pc",
+      "nativeWoodAllFieldsSHA": "dc24f9a10e833ee7bae55076f0593f8f29748f91c095ea1dfe1032191d68b79c",
+      "native2800LeafWorldSHA": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "actualCameraLightHeroProjectionExact": true,
+      "bounds": {
+        "left": 0.24078363627870186,
+        "right": 0.7385863442739385,
+        "top": 0.20864171121694242,
+        "bottom": 0.8808164324949355
+      },
+      "text0_overflow0": true,
+      "R30_result": "qa/garden-neutral-pc-v02/results.json",
+      "R29_before_read_only": "grown-core-0554/qa/material-neutral-pc-normal/results.json"
+    },
+    {
+      "light": "neutral",
+      "width": "mobile-390",
+      "nativeWoodAllFieldsSHA": "dc24f9a10e833ee7bae55076f0593f8f29748f91c095ea1dfe1032191d68b79c",
+      "native2800LeafWorldSHA": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "actualCameraLightHeroProjectionExact": true,
+      "bounds": {
+        "left": 0.0460781707614944,
+        "right": 0.9642535907242158,
+        "top": 0.25521171650929164,
+        "bottom": 0.7376336780312309
+      },
+      "text0_overflow0": true,
+      "R30_result": "qa/garden-neutral-mobile-390-v02/results.json",
+      "R29_before_read_only": "grown-core-0554/qa/material-neutral-390-normal/results.json"
+    },
+    {
+      "light": "neutral",
+      "width": "mobile-320",
+      "nativeWoodAllFieldsSHA": "dc24f9a10e833ee7bae55076f0593f8f29748f91c095ea1dfe1032191d68b79c",
+      "native2800LeafWorldSHA": "65aeee7e6f078b687b0aeb8d02c7c9fddc296aec0eabdb144ea7b8493e338387",
+      "actualCameraLightHeroProjectionExact": true,
+      "bounds": {
+        "left": 0.045456811444870404,
+        "right": 0.9650639940031968,
+        "top": 0.2392924664432451,
+        "bottom": 0.7594055117386291
+      },
+      "text0_overflow0": true,
+      "R30_result": "qa/garden-neutral-mobile-320-v02/results.json",
+      "R29_before_read_only": "grown-core-0554/qa/material-neutral-320-normal/results.json"
+    }
+  ],
+  "native_fixed_and_R27renderer_SHA_verified": true,
+  "protected_shared_ground_pixels": 236599,
+  "protected_shared_ground_RGBA_SHA": "ba6e080f61cb9266d76f7ce4f75d71c72abe6e0c7cff0817d39eb7d60fc670b0",
+  "two_actual_rock_contacts": [
+    {
+      "name": "Partly buried scanned garden stone boulder_01",
+      "buriedVertices": 7160,
+      "aboveVertices": 7100,
+      "actualContactEdgeCrossings": 1054,
+      "maximumFieldVsActualTriangleDifferenceM": 0.002346354851551033
+    },
+    {
+      "name": "Partly buried scanned garden stone rock_09",
+      "buriedVertices": 2674,
+      "aboveVertices": 3954,
+      "actualContactEdgeCrossings": 760,
+      "maximumFieldVsActualTriangleDifferenceM": 0.002260923880274785
+    }
+  ],
+  "four_pot_feet_preserved": [
+    {
+      "foot": "Low_ceramic_foot",
+      "footBottomY": 0.10097999934107066,
+      "stoneTopY": 0.10097949145919802,
+      "gapMetres": 5.078818726411694e-07
+    },
+    {
+      "foot": "Low_ceramic_foot001",
+      "footBottomY": 0.10097999934107066,
+      "stoneTopY": 0.10137052685022355,
+      "gapMetres": -0.00039052750915288814
+    },
+    {
+      "foot": "Low_ceramic_foot002",
+      "footBottomY": 0.10097999934107066,
+      "stoneTopY": 0.10155501782000514,
+      "gapMetres": -0.0005750184789344859
+    },
+    {
+      "foot": "Low_ceramic_foot003",
+      "footBottomY": 0.10097999934107066,
+      "stoneTopY": 0.10125908552944689,
+      "gapMetres": -0.0002790861883762291
+    }
+  ],
+  "scatteredSmallStoneObjects": 0,
+  "leaf_instances": 2033,
+  "all_leaf_closed_positiveVolume": true,
+  "PC_visual_relative_improvement": true,
+  "all_three_widths_clearly_superior": false,
+  "high_end_whole_completion": false,
+  "candidate_adoption": false,
+  "current_performance_qualified": false,
+  "reason_no_new_qualified_performance": "Parent and NEXT_WHOLE_QUALITY require all-three-width clear aesthetic superiority before adoption-related performance/cold suite; gate not met. Basic display recovery checked for saved candidate."
+}

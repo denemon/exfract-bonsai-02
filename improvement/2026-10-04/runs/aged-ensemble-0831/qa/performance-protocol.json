@@ -1,0 +1,28 @@
+{
+  "stage": 32,
+  "candidate": "aged-v01_aged-growth-v01_low-occupied-rootshade-v01_stable",
+  "urls": {
+    "r31": "http://127.0.0.1:5215/compare/r31/",
+    "candidate": "http://127.0.0.1:5215/compare/r32/"
+  },
+  "same_actual_camera_light_exposure_DPR": true,
+  "active_frame": "ABBA then BAAB each width;4cohorts/variant,30warm/61samples each first2exclude=236valid/variant/width;CPU uninstrumented render submit andEXT_disjoint elapsed",
+  "idle": "ABBA eachwidth,7samples/cohort2400ms idle=14/variant/width;actualwait recorded",
+  "cold": "ABBA eachwidth,2cacheoff runs/variant,120ms latency256000B/s;FCP/completedStill/first3D/transfer/resources;not systemcold",
+  "predeclared_nonregression_tolerances": {
+    "frame_CPU_median_delta_ms": "max(.5,baseline*.15)",
+    "frame_CPU_p95_delta_ms": "max(1.5,baseline*.20)",
+    "frame_GPU_median_delta_ms": "max(1.,baseline*.15)",
+    "frame_GPU_p95_delta_ms": "max(2.,baseline*.15)",
+    "idle_GPU_p95_delta_ms": "max(3.,baseline*.15)",
+    "cold_first3D_median_delta_ms": "max(800.,baseline*.10)",
+    "idle_CPU_median_delta_ms": "max(.75,baseline*.20)",
+    "idle_CPU_p95_delta_ms": "max(1.5,baseline*.20)",
+    "idle_GPU_median_delta_ms": "max(3.,baseline*.20)"
+  },
+  "threshold_reason": "Modest sampleddesktop variation or bounded addedgeometry cost is distinguished from material regressions; report exactdeltas and no general60fps/realphone claim. Recheck only a new failure or unresolved concern. CurrentR31 idle medians are explicit new references; include idleCPUmedian/p95 andidleGPUmedian gates before timing, so p95 alone cannot hide greater median cost.",
+  "whole_completion_independent": true,
+  "prior_R31_results_are_reference_only": true,
+  "DPR_measured": 1,
+  "Retina_actual_visual_required_separately": true
+}

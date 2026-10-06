@@ -1,0 +1,22 @@
+00:00.111  translation      | WARNING Falling back to standard locale ("C")
+00:00.559  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/grown-core-0554/models/grown-v02-editable.blend"
+Info: Saved as "aged-v01-editable.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+08:38:20 | INFO: Starting glTF 2.0 export
+08:38:20 | INFO: Extracting primitive: Native v01 local branch-mouth subdivision and depth
+08:38:20 | INFO: Primitives created: 1
+08:38:20 | INFO: Extracting primitive: Local root graft reroute, exact terminal nodes
+08:38:20 | INFO: Primitives created: 1
+08:38:20 | INFO: Draco encoder: Encoding mesh Continuous aged trunk and primary branches.
+08:38:20 | INFO: Draco encoder: Encoding mesh Terminal twig hierarchy.
+08:38:20 | INFO: Finished glTF 2.0 export in 0.07587981224060059 s
+
+{"stage": 32, "version": "aged-v01", "native_vertices": 5394, "native_faces": 5392, "triangles": 10784, "volume": 0.09232078251510545, "boundary": 0, "nonmanifold": 0, "nonadjacent_intersections": 0, "changed_vertices_exact": 119, "protected_vertices": 4106, "maximum_native_displacement_m": 0.016546972084477956, "root_upper_terminal_UV_color_face_exact": true, "five_view_tangent_contour_guard": true, "not_aesthetic_pass": true, "form_frozen": false}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5772 vertices, 32352 indices, raw size: 387768, encoded size: 71170, compression ratio: 5.45
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 34305 vertices, 110214 indices, raw size: 1043748, encoded size: 172232, compression ratio: 6.06
+
+Blender quit

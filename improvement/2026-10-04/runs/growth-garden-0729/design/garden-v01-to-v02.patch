@@ -1,0 +1,32 @@
+--- R31V01
++++ R31V02
+@@ -157,7 +157,7 @@
+  const shrubs=[
+   {origin:[-1.50,.52],scale:.86,yaw:0,spine:[[0,0,0],[-.09,.065,.06],[-.20,.16,.17],[-.37,.185,.41]],arms:[
+    [.32,[[-.03,.20,-.08],[-.06,.34,-.32],[-.10,.40,-.50]]],
+-   [.57,[[.10,.20,-.02],[.23,.27,-.09],[.32,.26,-.10]]],
++   [.57,[[.08,.15,.055],[.17,.205,.13],[.26,.24,.22]]],
+    [.68,[[-.18,.20,.10],[-.22,.27,.01],[-.27,.285,-.03]]]]},
+   {origin:[-1.66,-1.60],scale:.95,yaw:25,spine:[[0,0,0],[.11,.09,.06],[.06,.16,.025],[-.19,.235,-.16],[-.39,.24,-.10]],arms:[
+    [.30,[[.17,.16,.14],[.30,.23,.18],[.42,.24,.13]]],
+@@ -220,10 +220,10 @@
+   for(const [k,stem]of limbs.entries()){
+    const count=3+Math.floor(shrubRng()*3),nodes=[];let t=.17+shrubRng()*.045;
+    for(let j=0;j<count;j++){nodes.push(Math.min(t,.96));t+=.13+shrubRng()*.14;}
+-   const first=nodes[0],last=nodes.at(-1);for(let j=0;j<nodes.length;j++)nodes[j]=.31+(nodes[j]-first)/Math.max(.001,last-first)*.65;
++   const first=nodes[0],last=nodes.at(-1),firstT=si===0&&(k===0||k===2)?.14:k===0?.18:.22;for(let j=0;j<nodes.length;j++)nodes[j]=firstT+(nodes[j]-first)/Math.max(.001,last-first)*(.94-firstT);
+    nodes.forEach((t,j)=>{
+     const a=stem.path.getPoint(t),axis=stem.path.getTangent(t),side=new THREE.Vector3().crossVectors(axis,UP).normalize(),sign=(j+k+si)%2?1:-1;
+-    const end=a.clone().addScaledVector(axis,.08+shrubRng()*.10).addScaledVector(side,sign*(.035+shrubRng()*.055)).addScaledVector(UP,.022+shrubRng()*.030);
++    const end=a.clone().addScaledVector(axis,.065+shrubRng()*.085).addScaledVector(side,sign*(.025+shrubRng()*.045)).addScaledVector(UP,.022+shrubRng()*.030);
+     const twig=addBranch([a,a.clone().lerp(end,.54).addScaledVector(UP,.010+shrubRng()*.010),end],.0024,.0007,5,4);
+     const n=6+Math.floor(shrubRng()*4),gaps=Array.from({length:n-1},()=>.010+shrubRng()*.012),sum=gaps.reduce((s,x)=>s+x,0);let u=.07;
+     for(let ii=0;ii<n;ii++){
+@@ -260,5 +260,5 @@
+   }
+  }
+  const evergreenStats=installEvergreenShoots(scene,evergreens,evergreenShoots);
+- return {shrubStructuralRecords,terminalForkRecords,shrubShootRecords,shrubLeafDesign:{version:'same-thin-leaves-hierarchical-growth-r31-v01',bladeThicknessMM:[.308,.560],bladeLengthMM:[22,40],bendMM:[.814,2.36],variants:4,primaryAxesUnchanged:false,rootedHierarchicalAxes:true,leafPrototypesUnchanged:true,density:'Unequal2-5nodes,10-22mm desired internodes, bareinner nodes and denserouter buds; every leaf attaches to a twig'},distantCrownDesign:crowns.metadata,evergreenStats,rootCenters,design:'Three distinct layered trees at middle/rear and beyond the pavilion, each rooted and physically branch-attached; low multiaxial shrubs and continuous moss cushions return to natural stones',specimens:specimens.map(({name,origin,kind,arms})=>({name,origin,kind,primaryArms:arms.length})),shrubOrigins:shrubs.map(s=>s.origin),branchTriangles:woodMesh.geometry.attributes.position.count/3,leafInstances:groupStats.reduce((s,g)=>s+g.instances,0),leafTriangles:groupStats.reduce((s,g)=>s+g.triangles,0),leafGroups:groupStats,rootGroundHeightSamples:[...specimens.map(s=>[s.origin[0],s.origin[2]]),...shrubs.map(s=>s.origin)].map(([x,z])=>({x,z,groundY:groundHeight(x,z)}))};
+-}
++ return {shrubStructuralRecords,terminalForkRecords,shrubShootRecords,shrubLeafDesign:{version:'same-thin-leaves-hierarchical-growth-r31-v02',bladeThicknessMM:[.308,.560],bladeLengthMM:[22,40],bendMM:[.814,2.36],variants:4,primaryAxesUnchanged:false,rootedHierarchicalAxes:true,leafPrototypesUnchanged:true,density:'Unequal2-5nodes,10-22mm desired internodes, bareinner nodes and denserouter buds; every leaf attaches to a twig'},distantCrownDesign:crowns.metadata,evergreenStats,rootCenters,design:'Three distinct layered trees at middle/rear and beyond the pavilion, each rooted and physically branch-attached; low multiaxial shrubs and continuous moss cushions return to natural stones',specimens:specimens.map(({name,origin,kind,arms})=>({name,origin,kind,primaryArms:arms.length})),shrubOrigins:shrubs.map(s=>s.origin),branchTriangles:woodMesh.geometry.attributes.position.count/3,leafInstances:groupStats.reduce((s,g)=>s+g.instances,0),leafTriangles:groupStats.reduce((s,g)=>s+g.triangles,0),leafGroups:groupStats,rootGroundHeightSamples:[...specimens.map(s=>[s.origin[0],s.origin[2]]),...shrubs.map(s=>s.origin)].map(([x,z])=>({x,z,groundY:groundHeight(x,z)}))};
++}

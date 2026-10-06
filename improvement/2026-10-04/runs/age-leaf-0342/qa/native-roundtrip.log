@@ -1,0 +1,11 @@
+00:00.162  translation      | WARNING Falling back to standard locale ("C")
+00:00.691  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/age-leaf-0342/models/age-v01-editable.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+{"version": "age-v01", "method": "Fresh Blender process reopen actual native, verify every position normal face and corner UV/color against export record; no source regeneration", "all_native_fields_unchanged": true, "checks": {"positions_sha256": true, "faces_sha256": true, "normals_sha256": true, "uv_sha256": true, "color_sha256": true}, "actual": {"positions_sha256": "ff94d2139ee6661d184993cb7ad0cd3a234fb781a30fcee5fcb43595ea469cc5", "faces_sha256": "bf32bac7dbe83d739832f69f7d3d89c48f63dd0423f2f968ac6462dac97aa33f", "normals_sha256": "6cf9ccb29e8632023c395b68c3ecb1afec12ae216363b2c8d802f0480f55e631", "uv_sha256": {"Growth flow": "9575eda535d55f90a9eb28163a7f81db9374b00314fba52de9f30513c15e9980", "Branch flow": "cb9e3799d387698a319b7cd62487576d1e21554303d2ff005c54494b583e2e4b", "Branch transition": "001d20d6b958db60aea47b9628842cd4d36d4cdb4762dc54153c8245c926a9c2"}, "color_sha256": "4f3077d5bc7b2f8cf05afb4abde26a9f5a00ec58795f92376920b92629e25bea"}, "native_sha256": "caee7fb5c3b37ce2bdb55e6577c3309d0ad2b38ec9b776f0bf37aab5525c8bec", "glb_sha256": "b1aefca4c60e260ae7f3637413622fb954d1b4348e86a116374d64bd4238b258", "closed_structural_mesh_not_aesthetic_approval": true}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

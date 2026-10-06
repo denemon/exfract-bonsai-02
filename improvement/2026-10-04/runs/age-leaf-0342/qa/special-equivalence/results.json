@@ -1,0 +1,691 @@
+{
+  "mode": "equivalence",
+  "existingChromePID": 32767,
+  "reusedExistingTab": true,
+  "results": [
+    {
+      "view": {
+        "name": "pc",
+        "w": 1440,
+        "h": 900
+      },
+      "pairs": [
+        {
+          "enabled": true,
+          "state": {
+            "ready": true,
+            "version": "age-v01",
+            "finish": "normal",
+            "leafFinish": {
+              "name": "botanical",
+              "closedGeometryUnchanged": true,
+              "roughness": 0.86,
+              "backScatter": 0.055,
+              "frontEnergy": 0.945,
+              "usesOccludedPhysicalDirectLights": true,
+              "emissive": 0,
+              "alpha": 1
+            },
+            "loading": {
+              "parallelAssets": true,
+              "sharedDraco": true,
+              "woodReplacement": true,
+              "compactNativeModel": true,
+              "noDiscardedOldWoodDecode": true,
+              "decoderWorkerLimit": 2,
+              "exactGeometrySplit": true,
+              "losslessModelGzip": true
+            },
+            "text": "",
+            "overflow": false,
+            "canvasVisibility": "visible",
+            "pictureVisibility": "hidden",
+            "currentSrc": "http://127.0.0.1:5214/compare/r26/stills/pc.webp?v=age-v01-botanical-v1",
+            "imgComplete": true,
+            "natural": [
+              1440,
+              900
+            ],
+            "background": "url(\"data:image/webp;base64,UklGRlAFAABXRUJQVlA4IEQFAAAwIQCdASqgAGQAPqFGnUqmI6KiKvK7SMAUCWVs9jAMwk/9FsSfX/3A1/apaqHPP3C68djJS+LORKDPjgBIB0CLMj1J7Ria918wKRymO2DEW7Cek9+JPMO85DUNuOTMGF9HhKLXqZBLpaFo0agkBuQUUypIBGeCiO0YpaYTpuEOEjoDkeqfxC8fENt4E1aXZhHn9gTdCg4vh7yH2UrmSgWqmL8Mgo7AmAi/8FIlinTgJfBiecSbc4VpI337gBz+a5LU3Kv29CTZqnvolBFuqGlry5ucyot2ycivujZ6LnUNf/RUpxzUOb6VlJLSAE6iDyGAMALU8k6U/jHDNKaXqoghtOSFOjpysEnf564MR9EZX+hYAP76Wk/RZwrdeW4dAjVeiXG+HAE+n9c0npHxATf7kRJ/v0vTCnzvsowZzP//XPh0oLZtrP/nPrEZ9BAVjTeSUi+1qpQECuQY7wQIZOHB1xynY3m3AAitdhAWrR+iYtwbH0Q8/Ra7dkfu6/R3IfmSwRZjNWE0Z+xQS1PsPLSMlyRJPAxz2RLjWZXxO0gXbsIHK0MBtUu7NYWDpBIpS3gYhbBwc0UVzSVGvI8Zl0phrJJFGj0Msbq8Cf8HRenMhN/lKp1/9x5dphMgkMD2i/Jw/IZhEgrBw24Cm6MqDM7RVD1BSUuPb4nlqyMaGssO38nkuUO71u7kzcOv5F3lE9apGyYK/COyI/zITLbOXb+1YZlapdLmBQyCnL1x5JPRLgPMIPqMF363Bh+86V0ipLX5TAMFt4DSL21XDMlQYP/rcz8QER5xd+LjwI2wzlhY/HC/+kdPVjkV9rGOipQ8iD8/MNpnY2fdQerOZs45J56ChOtKmmFFhefJlBt7QSGlha/m0T6MUk3VoA7DcfwB54ms8e4OKR+tobL8jCIa0fly6Gag6djYupIJqcNOaneX14MLiE03zWYWGKJl1mJzFqZ/LpKd65McB3ospxNab6fStSmgF1IimVuhtNRQqKzg+x+AZF0ufVLzuha9XCPDcmkIxXlIpV84ukD/PtZctQofhC5lcqRiu13gs952zP4fVc8O+Uwy3fAwNBmwOVCfE2mVV8YuuOdqsWxbX6p26UcCnS69nNyj/goOO/dMxQ2NmtOtDHF/l02wQxW4H3rqGtcHwlyZGuIIXrn3N7SywFYHW2XLD4CYmP7rsl4uUUNB5/imNAokHn4H3biJVevKpqrHdPfv4bjGpaUsjNLdtomxz+S6fefAg9khHleH7TJGr/RsbRYiTb3IiINa87xJirf7sZeISl2NkvtBb1afACBpu7+Qv6Txn5agm0lDY81sr7FLqWQ2hMQ5hYBeM6VK6TtvXkk8qBLSYjgSOGyGs3SnspmZYmv89KZt/+PSiCQ7eY7nHnsg/xkCSmYqE8YHHhIje7hRWyrMGgiGD5GAa9X+WZ5I0ERHf6FTBTOOkRh0gEnRrWuC5xQzYlcr6Sv97y4kHdAC/0Qd5ry2QaQecL9PwUeEDVjts5kqoszlj8zaJJx4+643dRuFSGZJMGbSw/Ywd10tq8eCY/bsD4Mwm/t8WmtOsY6a6MMZB2dT58mdejjJfMaMM6wV3odleYcZ/HH0phPbVxy8t/bYTBF2w3gQvj17r4vGHwWDkC5NXhSWT3/0Ap0vgmdrXD7othIS/37DOSx4iwX2zjZ9ekPnSP5hn65RRP+PEZ4JtQXeUSuA9MOF1DLJKpB9OuWbBGGJXLhJukQZp5DC9RhEZIVvXbTUIfpDQHuIFcQQJWreF1LPLGSmX6Duh92QT5gsbeLy3zsgAAAA\")",
+            "frames": 1,
+            "camera": {
+              "yaw": 0,
+              "pitch": 10,
+              "distance": 3.65,
+              "zoom": 1,
+              "position": [
+                0,
+                1.4138158484842958,
+                3.5945482984945594
+              ],
+              "target": [
+                0,
+                0.78,
+                0
+              ]
+            },
+            "framing": {
+              "left": 0.2350192144395168,
+              "right": 0.7431779366042661,
+              "top": 0.20177678629023998,
+              "bottom": 0.8788265692631785
+            },
+            "reduced": true,
+            "triangles": 8701538,
+            "drawCalls": 311,
+            "programs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "fontResources": [],
+            "remoteResources": []
+          },
+          "sha256": "3c9f8a96f1bcbf8ffa59fe2f2a963524787c752454d640bca92da2f315189d3e",
+          "bytes": 191916
+        },
+        {
+          "enabled": false,
+          "state": {
+            "ready": true,
+            "version": "age-v01",
+            "finish": "normal",
+            "leafFinish": {
+              "name": "botanical",
+              "closedGeometryUnchanged": true,
+              "roughness": 0.86,
+              "backScatter": 0.055,
+              "frontEnergy": 0.945,
+              "usesOccludedPhysicalDirectLights": true,
+              "emissive": 0,
+              "alpha": 1
+            },
+            "loading": {
+              "parallelAssets": true,
+              "sharedDraco": true,
+              "woodReplacement": true,
+              "compactNativeModel": true,
+              "noDiscardedOldWoodDecode": true,
+              "decoderWorkerLimit": 2,
+              "exactGeometrySplit": true,
+              "losslessModelGzip": true
+            },
+            "text": "",
+            "overflow": false,
+            "canvasVisibility": "visible",
+            "pictureVisibility": "hidden",
+            "currentSrc": "http://127.0.0.1:5214/compare/r26/stills/pc.webp?v=age-v01-botanical-v1",
+            "imgComplete": true,
+            "natural": [
+              1440,
+              900
+            ],
+            "background": "url(\"data:image/webp;base64,UklGRlAFAABXRUJQVlA4IEQFAAAwIQCdASqgAGQAPqFGnUqmI6KiKvK7SMAUCWVs9jAMwk/9FsSfX/3A1/apaqHPP3C68djJS+LORKDPjgBIB0CLMj1J7Ria918wKRymO2DEW7Cek9+JPMO85DUNuOTMGF9HhKLXqZBLpaFo0agkBuQUUypIBGeCiO0YpaYTpuEOEjoDkeqfxC8fENt4E1aXZhHn9gTdCg4vh7yH2UrmSgWqmL8Mgo7AmAi/8FIlinTgJfBiecSbc4VpI337gBz+a5LU3Kv29CTZqnvolBFuqGlry5ucyot2ycivujZ6LnUNf/RUpxzUOb6VlJLSAE6iDyGAMALU8k6U/jHDNKaXqoghtOSFOjpysEnf564MR9EZX+hYAP76Wk/RZwrdeW4dAjVeiXG+HAE+n9c0npHxATf7kRJ/v0vTCnzvsowZzP//XPh0oLZtrP/nPrEZ9BAVjTeSUi+1qpQECuQY7wQIZOHB1xynY3m3AAitdhAWrR+iYtwbH0Q8/Ra7dkfu6/R3IfmSwRZjNWE0Z+xQS1PsPLSMlyRJPAxz2RLjWZXxO0gXbsIHK0MBtUu7NYWDpBIpS3gYhbBwc0UVzSVGvI8Zl0phrJJFGj0Msbq8Cf8HRenMhN/lKp1/9x5dphMgkMD2i/Jw/IZhEgrBw24Cm6MqDM7RVD1BSUuPb4nlqyMaGssO38nkuUO71u7kzcOv5F3lE9apGyYK/COyI/zITLbOXb+1YZlapdLmBQyCnL1x5JPRLgPMIPqMF363Bh+86V0ipLX5TAMFt4DSL21XDMlQYP/rcz8QER5xd+LjwI2wzlhY/HC/+kdPVjkV9rGOipQ8iD8/MNpnY2fdQerOZs45J56ChOtKmmFFhefJlBt7QSGlha/m0T6MUk3VoA7DcfwB54ms8e4OKR+tobL8jCIa0fly6Gag6djYupIJqcNOaneX14MLiE03zWYWGKJl1mJzFqZ/LpKd65McB3ospxNab6fStSmgF1IimVuhtNRQqKzg+x+AZF0ufVLzuha9XCPDcmkIxXlIpV84ukD/PtZctQofhC5lcqRiu13gs952zP4fVc8O+Uwy3fAwNBmwOVCfE2mVV8YuuOdqsWxbX6p26UcCnS69nNyj/goOO/dMxQ2NmtOtDHF/l02wQxW4H3rqGtcHwlyZGuIIXrn3N7SywFYHW2XLD4CYmP7rsl4uUUNB5/imNAokHn4H3biJVevKpqrHdPfv4bjGpaUsjNLdtomxz+S6fefAg9khHleH7TJGr/RsbRYiTb3IiINa87xJirf7sZeISl2NkvtBb1afACBpu7+Qv6Txn5agm0lDY81sr7FLqWQ2hMQ5hYBeM6VK6TtvXkk8qBLSYjgSOGyGs3SnspmZYmv89KZt/+PSiCQ7eY7nHnsg/xkCSmYqE8YHHhIje7hRWyrMGgiGD5GAa9X+WZ5I0ERHf6FTBTOOkRh0gEnRrWuC5xQzYlcr6Sv97y4kHdAC/0Qd5ry2QaQecL9PwUeEDVjts5kqoszlj8zaJJx4+643dRuFSGZJMGbSw/Ywd10tq8eCY/bsD4Mwm/t8WmtOsY6a6MMZB2dT58mdejjJfMaMM6wV3odleYcZ/HH0phPbVxy8t/bYTBF2w3gQvj17r4vGHwWDkC5NXhSWT3/0Ap0vgmdrXD7othIS/37DOSx4iwX2zjZ9ekPnSP5hn65RRP+PEZ4JtQXeUSuA9MOF1DLJKpB9OuWbBGGJXLhJukQZp5DC9RhEZIVvXbTUIfpDQHuIFcQQJWreF1LPLGSmX6Duh92QT5gsbeLy3zsgAAAA\")",
+            "frames": 1,
+            "camera": {
+              "yaw": 0,
+              "pitch": 10,
+              "distance": 3.65,
+              "zoom": 1,
+              "position": [
+                0,
+                1.4138158484842958,
+                3.5945482984945594
+              ],
+              "target": [
+                0,
+                0.78,
+                0
+              ]
+            },
+            "framing": {
+              "left": 0.2350192144395168,
+              "right": 0.7431779366042661,
+              "top": 0.20177678629023998,
+              "bottom": 0.8788265692631785
+            },
+            "reduced": true,
+            "triangles": 8701538,
+            "drawCalls": 311,
+            "programs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "fontResources": [],
+            "remoteResources": []
+          },
+          "sha256": "3c9f8a96f1bcbf8ffa59fe2f2a963524787c752454d640bca92da2f315189d3e",
+          "bytes": 191916
+        }
+      ],
+      "actualChromeImagesBitIdentical": true
+    },
+    {
+      "view": {
+        "name": "mobile-390",
+        "w": 390,
+        "h": 844
+      },
+      "pairs": [
+        {
+          "enabled": true,
+          "state": {
+            "ready": true,
+            "version": "age-v01",
+            "finish": "normal",
+            "leafFinish": {
+              "name": "botanical",
+              "closedGeometryUnchanged": true,
+              "roughness": 0.86,
+              "backScatter": 0.055,
+              "frontEnergy": 0.945,
+              "usesOccludedPhysicalDirectLights": true,
+              "emissive": 0,
+              "alpha": 1
+            },
+            "loading": {
+              "parallelAssets": true,
+              "sharedDraco": true,
+              "woodReplacement": true,
+              "compactNativeModel": true,
+              "noDiscardedOldWoodDecode": true,
+              "decoderWorkerLimit": 2,
+              "exactGeometrySplit": true,
+              "losslessModelGzip": true
+            },
+            "text": "",
+            "overflow": false,
+            "canvasVisibility": "visible",
+            "pictureVisibility": "hidden",
+            "currentSrc": "http://127.0.0.1:5214/compare/r26/stills/mobile-390.webp?v=age-v01-botanical-v1",
+            "imgComplete": true,
+            "natural": [
+              390,
+              844
+            ],
+            "background": "url(\"data:image/webp;base64,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\")",
+            "frames": 1,
+            "camera": {
+              "yaw": -40,
+              "pitch": 6,
+              "distance": 3.5398307655950765,
+              "zoom": 1,
+              "position": [
+                -2.351543588847307,
+                0.9713230540133062,
+                2.680924238751195
+              ],
+              "target": [
+                -0.08864888896532536,
+                0.6013099838580915,
+                -0.015888649495553506
+              ]
+            },
+            "framing": {
+              "left": 0.030000000000000138,
+              "right": 0.9700000000000006,
+              "top": 0.25097468410310264,
+              "bottom": 0.7372089163749027
+            },
+            "reduced": true,
+            "triangles": 8262178,
+            "drawCalls": 301,
+            "programs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "fontResources": [],
+            "remoteResources": []
+          },
+          "sha256": "acb58eb2e60bfc46a23cea1cb6c037962f3a2437f860a4b042a2a9b22ce6e1db",
+          "bytes": 56984
+        },
+        {
+          "enabled": false,
+          "state": {
+            "ready": true,
+            "version": "age-v01",
+            "finish": "normal",
+            "leafFinish": {
+              "name": "botanical",
+              "closedGeometryUnchanged": true,
+              "roughness": 0.86,
+              "backScatter": 0.055,
+              "frontEnergy": 0.945,
+              "usesOccludedPhysicalDirectLights": true,
+              "emissive": 0,
+              "alpha": 1
+            },
+            "loading": {
+              "parallelAssets": true,
+              "sharedDraco": true,
+              "woodReplacement": true,
+              "compactNativeModel": true,
+              "noDiscardedOldWoodDecode": true,
+              "decoderWorkerLimit": 2,
+              "exactGeometrySplit": true,
+              "losslessModelGzip": true
+            },
+            "text": "",
+            "overflow": false,
+            "canvasVisibility": "visible",
+            "pictureVisibility": "hidden",
+            "currentSrc": "http://127.0.0.1:5214/compare/r26/stills/mobile-390.webp?v=age-v01-botanical-v1",
+            "imgComplete": true,
+            "natural": [
+              390,
+              844
+            ],
+            "background": "url(\"data:image/webp;base64,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\")",
+            "frames": 1,
+            "camera": {
+              "yaw": -40,
+              "pitch": 6,
+              "distance": 3.5398307655950765,
+              "zoom": 1,
+              "position": [
+                -2.351543588847307,
+                0.9713230540133062,
+                2.680924238751195
+              ],
+              "target": [
+                -0.08864888896532536,
+                0.6013099838580915,
+                -0.015888649495553506
+              ]
+            },
+            "framing": {
+              "left": 0.030000000000000138,
+              "right": 0.9700000000000006,
+              "top": 0.25097468410310264,
+              "bottom": 0.7372089163749027
+            },
+            "reduced": true,
+            "triangles": 8262178,
+            "drawCalls": 301,
+            "programs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "fontResources": [],
+            "remoteResources": []
+          },
+          "sha256": "acb58eb2e60bfc46a23cea1cb6c037962f3a2437f860a4b042a2a9b22ce6e1db",
+          "bytes": 56984
+        }
+      ],
+      "actualChromeImagesBitIdentical": true
+    },
+    {
+      "view": {
+        "name": "mobile-320",
+        "w": 320,
+        "h": 568
+      },
+      "pairs": [
+        {
+          "enabled": true,
+          "state": {
+            "ready": true,
+            "version": "age-v01",
+            "finish": "normal",
+            "leafFinish": {
+              "name": "botanical",
+              "closedGeometryUnchanged": true,
+              "roughness": 0.86,
+              "backScatter": 0.055,
+              "frontEnergy": 0.945,
+              "usesOccludedPhysicalDirectLights": true,
+              "emissive": 0,
+              "alpha": 1
+            },
+            "loading": {
+              "parallelAssets": true,
+              "sharedDraco": true,
+              "woodReplacement": true,
+              "compactNativeModel": true,
+              "noDiscardedOldWoodDecode": true,
+              "decoderWorkerLimit": 2,
+              "exactGeometrySplit": true,
+              "losslessModelGzip": true
+            },
+            "text": "",
+            "overflow": false,
+            "canvasVisibility": "visible",
+            "pictureVisibility": "hidden",
+            "currentSrc": "http://127.0.0.1:5214/compare/r26/stills/mobile-320.webp?v=age-v01-botanical-v1",
+            "imgComplete": true,
+            "natural": [
+              320,
+              568
+            ],
+            "background": "url(\"data:image/webp;base64,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\")",
+            "frames": 1,
+            "camera": {
+              "yaw": -30,
+              "pitch": 6,
+              "distance": 3.282642716073322,
+              "zoom": 1,
+              "position": [
+                -1.7324109718768177,
+                0.9600399202119606,
+                2.811625720106352
+              ],
+              "target": [
+                -0.10008094397376952,
+                0.6169103216440601,
+                -0.015652822942051246
+              ]
+            },
+            "framing": {
+              "left": 0.030000000000000193,
+              "right": 0.9699999999999999,
+              "top": 0.2345125547658996,
+              "bottom": 0.758978569714057
+            },
+            "reduced": true,
+            "triangles": 8287010,
+            "drawCalls": 303,
+            "programs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "fontResources": [],
+            "remoteResources": []
+          },
+          "sha256": "82429b7070c5eebcdf1a74a5b70565019a23a04253adcdc0983a80e035c0d2a7",
+          "bytes": 31098
+        },
+        {
+          "enabled": false,
+          "state": {
+            "ready": true,
+            "version": "age-v01",
+            "finish": "normal",
+            "leafFinish": {
+              "name": "botanical",
+              "closedGeometryUnchanged": true,
+              "roughness": 0.86,
+              "backScatter": 0.055,
+              "frontEnergy": 0.945,
+              "usesOccludedPhysicalDirectLights": true,
+              "emissive": 0,
+              "alpha": 1
+            },
+            "loading": {
+              "parallelAssets": true,
+              "sharedDraco": true,
+              "woodReplacement": true,
+              "compactNativeModel": true,
+              "noDiscardedOldWoodDecode": true,
+              "decoderWorkerLimit": 2,
+              "exactGeometrySplit": true,
+              "losslessModelGzip": true
+            },
+            "text": "",
+            "overflow": false,
+            "canvasVisibility": "visible",
+            "pictureVisibility": "hidden",
+            "currentSrc": "http://127.0.0.1:5214/compare/r26/stills/mobile-320.webp?v=age-v01-botanical-v1",
+            "imgComplete": true,
+            "natural": [
+              320,
+              568
+            ],
+            "background": "url(\"data:image/webp;base64,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\")",
+            "frames": 1,
+            "camera": {
+              "yaw": -30,
+              "pitch": 6,
+              "distance": 3.282642716073322,
+              "zoom": 1,
+              "position": [
+                -1.7324109718768177,
+                0.9600399202119606,
+                2.811625720106352
+              ],
+              "target": [
+                -0.10008094397376952,
+                0.6169103216440601,
+                -0.015652822942051246
+              ]
+            },
+            "framing": {
+              "left": 0.030000000000000193,
+              "right": 0.9699999999999999,
+              "top": 0.2345125547658996,
+              "bottom": 0.758978569714057
+            },
+            "reduced": true,
+            "triangles": 8287010,
+            "drawCalls": 303,
+            "programs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "fontResources": [],
+            "remoteResources": []
+          },
+          "sha256": "82429b7070c5eebcdf1a74a5b70565019a23a04253adcdc0983a80e035c0d2a7",
+          "bytes": 31098
+        }
+      ],
+      "actualChromeImagesBitIdentical": true
+    }
+  ],
+  "logs": [],
+  "passed": true
+}

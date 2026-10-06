@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "requestedDPR": 2,
+      "actualCanvasPixelRatio": 1.6,
+      "cameraExposureLightProjectionNativeLeafExact": true,
+      "canvasDrawingBuffer": [
+        2304,
+        1440
+      ]
+    },
+    {
+      "width": 390,
+      "requestedDPR": 2,
+      "actualCanvasPixelRatio": 1.6,
+      "cameraExposureLightProjectionNativeLeafExact": true,
+      "canvasDrawingBuffer": [
+        624,
+        1350
+      ]
+    },
+    {
+      "width": 320,
+      "requestedDPR": 2,
+      "actualCanvasPixelRatio": 1.6,
+      "cameraExposureLightProjectionNativeLeafExact": true,
+      "canvasDrawingBuffer": [
+        512,
+        908
+      ]
+    }
+  ],
+  "actualMacChromePixelsSaved": 6,
+  "sameSourceFrozen": true,
+  "method": "Real Mac Chrome Headless ANGLE/Metal rendering, DPR2 via CDP emulation; renderer cap1.6. Not a physical monitor photograph or realphone.",
+  "visualJudgmentPendingIndependent": true,
+  "overallGoalComplete": false
+}

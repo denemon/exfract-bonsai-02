@@ -1,0 +1,6 @@
+00:00.175  translation      | WARNING Falling back to standard locale ("C")
+00:00.856  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/models/root-v02-editable.blend"
+{"controls": 322, "faces": 354, "modifiers": [{"type": "SUBSURF", "levels": 2, "render_levels": 2}], "UV": ["Growth flow", "Branch flow", "Branch transition"]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,13 @@
+{
+  "prepared_at_jst": "2026-10-06T01:58:26.120453+09:00",
+  "profile_observed_peak_allocated_bytes": 73666560,
+  "root_photo_identity": true,
+  "ordinary_gray_improvement_passed": true,
+  "material_experiment_completed": true,
+  "top_adopted": false,
+  "actual_case_count": 49,
+  "invalid_geometry_cases": 8,
+  "superseded_material_cases": 9,
+  "elapsed_minutes": 58.04187151666667,
+  "new_state": "landmark-wood-study-state.json"
+}

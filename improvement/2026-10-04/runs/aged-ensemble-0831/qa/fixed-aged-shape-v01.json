@@ -1,0 +1,9 @@
+{
+  "models/aged-v01-editable.blend": "98dc05a177f1fafe4fa3f203a27e41f9acb87db736c9ab4eed660e4efc8c3863",
+  "models/aged-v01.glb": "b1453d1db7cd56417b29e4bd1ce7be3000faf61313649f9fecfe13771f4d1d7e",
+  "models/hero-aged-v01.glb.gz": "58edcd0e776ca65f9e209bb3d1500b7605e5551936c656e2699eb274f7630e36",
+  "sculpt/control-record-v01.json": "8365ec99f23579c59d418718c53b72506283bf072fa522503daf50e343fba148",
+  "qa/geometry-inspection-v01.json": "79e9fad727c5383b29c8350fe94be9e0563c01fe83f62d7321a3a19b4b8f0507",
+  "qa/native-roundtrip-v01.json": "23c72b4da2b16d24b8ccedb3397c44cf71d0fe7f25338cbb901f7fb787682280",
+  "qa/shape-comparison-proof-v01.json": "5c6479cf879f64150c51a85415fc466169f1d3e4f85402236e450be77f8d188e"
+}

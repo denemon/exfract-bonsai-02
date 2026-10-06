@@ -1,0 +1,13 @@
+{
+  "phase": "idle",
+  "runAllocated": 13684736,
+  "profileAllocated": 97865728,
+  "profilePositive": 2932736,
+  "cachePositive": 0,
+  "stagingCharge": 118784,
+  "coordinatorFullCharge": 12288,
+  "writerAndProfileGuardsPeakConservative": 8192,
+  "currentPositiveCharge": 16756736,
+  "currentMiB": 15.98046875,
+  "remainingBytes": 4214784
+}

@@ -1,0 +1,19 @@
+00:00.115  translation      | WARNING Falling back to standard locale ("C")
+00:00.471  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/local-edges-0056/models/edge-v02-editable.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+SOIL_BOUNDS [[-0.7549999952316284, 0.7549999952316284], [-0.38100001215934753, 0.38100001215934753], [0.39201560616493225, 0.4168027937412262]]
+Traceback (most recent call last):
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/landmark-volume-0055/sculpt/build_native.py", line 62, in <module>
+    q=V[k];h=soilH(q[0],q[1]);checks.append({'position':q,'soil_z':h,'below_soil':h-q[2]});assert h-q[2]>.035
+             ~~~~~^^^^^^^^^^^
+  File "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/landmark-volume-0055/sculpt/build_native.py", line 8, in soilH
+    hit,_,_,_=soilTree.ray_cast(Vector((x,y,2)),Vector((0,0,-1)));assert hit is not None,('soil ray miss',x,y);return hit.z
+                                                                         ^^^^^^^^^^^^^^^
+AssertionError: ('soil ray miss', 0.11068978160619736, 0.38500484824180603)
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit
