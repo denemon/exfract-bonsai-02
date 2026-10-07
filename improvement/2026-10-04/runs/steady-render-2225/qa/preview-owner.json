@@ -1,9 +1,0 @@
-{
-  "port": 5214,
-  "pid": 88120,
-  "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/steady-render-2225/candidate",
-  "tool_session_id": 60874,
-  "production": true,
-  "root_policy": "Only explicit adoption.json selects current run; unadopted trials remain off TOP",
-  "historic_5208_pid4492_untouched": true
-}

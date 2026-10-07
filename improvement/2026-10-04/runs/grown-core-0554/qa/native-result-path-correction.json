@@ -1,8 +1,0 @@
-{
-  "misnamed_result": "qa/native-roundtrip-v01.json",
-  "actual_version": "grown-v02",
-  "correct_result": "qa/native-roundtrip-v02-exact.json",
-  "resolution": "Renamed the new exact V02 result without changing its bytes; old V01 failure log and diagnostic JSON retained; no V01 successful result existed at this path.",
-  "record_threshold": "Vector equality omitted9 intendedfalloff moves<=7.45e-9m; exactrecord saves listcomparison",
-  "native_modified": false
-}

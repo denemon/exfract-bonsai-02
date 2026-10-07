@@ -1,1 +1,0 @@
-Initial helper assumed one inline background, but final shared HTML has five media-specific backgrounds. It wrote only this run new WebP files and then failed before HTML/source writes. No old still was changed. Corrected to five actual-layout inline photos; no Library call.

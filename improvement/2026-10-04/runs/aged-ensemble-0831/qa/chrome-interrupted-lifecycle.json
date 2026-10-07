@@ -1,9 +1,0 @@
-{
-  "pid": 99940,
-  "exitCode": null,
-  "exitCodeVerified": false,
-  "interruption": "exec-server transport disconnected; executor key changed during session recovery",
-  "matchingProfileProcesses": 0,
-  "profileUnmodifiedByCleanup": true,
-  "staleOwnEmptyGuardRemovedAfterZeroProcessCheck": true
-}

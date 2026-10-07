@@ -1,1 +1,0 @@
-奥の植栽だけに、既存low closed shoot geometryを共有。各short woody shootの2位置を起点に異なる向き/長さのbudを実配置。盆栽geometry/material/2800instances/LODは不変。geometryごとの三角形数と支点をstatsへ保存。室内に低console上の小さな物理lampを追加、基準lightでは無発光、proposedのみ小Point/弱emission。sphere/card/生成背景なし。v01は8実画像とreverse適用可能patch/hashで保護。

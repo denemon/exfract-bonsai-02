@@ -1,6 +1,0 @@
-{
-  "phase": "before first visual candidate",
-  "cause": "Determining outward direction from the desired first branch point was wrong where that point was within the curved shoulder. Main and side face winding is inward before final normal correction.",
-  "repair": "Use the opposite of the original parent face normal consistently for the shared neck extrusion.",
-  "visual_candidates": 0
-}

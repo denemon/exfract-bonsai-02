@@ -1,1 +1,0 @@
-These captures show v05. v06 model generation failed before installing the GLB. They are retained as an invalid QA attempt and must not be used as v06 evidence. Capture now checks authoring_version embedded in the loaded GLB before saving.

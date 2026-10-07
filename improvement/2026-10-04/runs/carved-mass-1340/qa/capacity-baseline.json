@@ -1,8 +1,0 @@
-{
-  "free_bytes": 3617550336,
-  "git_objects_allocated_observed_bytes": 2793570304,
-  "no_prior_git_objects_measurement": true,
-  "cause_limit": "External completed-study archival commits are observed; exact whole-disk reduction attribution cannot be proved from current read-only sizes. No deletion or cleanup.",
-  "new_data_preferred": 20971520,
-  "minimum_free": 2147483648
-}

@@ -1,6 +1,0 @@
-{
-  "phase": "before first visual candidate",
-  "cause": "The parent side was selected toward authored route[0], but route[0] is replaced by the exact extruded neck. The first actual outgoing segment goes toward route[1].",
-  "repair": "Select the true outward side toward the actual first outgoing segment, then retain the measured normal.",
-  "appearance_candidates": 0
-}

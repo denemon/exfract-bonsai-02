@@ -1,7 +1,0 @@
-{
-  "candidate": "material-v1",
-  "error": "Local wood attribute declarations lacked a newline before the Three.js #define STANDARD directive, causing those shader programs to fail.",
-  "fix": "Explicit newline between injected declarations and base vertex source.",
-  "visual_use": "The precompile-error captures are diagnostic, not a candidate aesthetic review.",
-  "capture_guard": "Capture now asserts every material program runnable and zero ordinary warnings/errors."
-}

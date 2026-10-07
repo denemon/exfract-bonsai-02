@@ -1,8 +1,0 @@
-{
-  "initialAssertion": "Unverified shortShootCount484",
-  "observedBothR31AndR32": 369,
-  "leafCountBoth": 2033,
-  "terminalForkBoth": 166,
-  "cause": "Helper used an unverified constant; inspected every actual browser result and corrected to measured369",
-  "sourceOrNativeOrProtocolChanged": false
-}
