@@ -1,9 +1,0 @@
-{
-  "selected": "cage-v06",
-  "editable_native": "best-coarse.blend",
-  "web_inspection_glb": "cage-v06.glb",
-  "geometry_record": "cage-v06.json",
-  "status": "Accepted coarse editing basis, not a final aged bonsai or website release",
-  "retained_runtime_candidate": "volume-rebuild-1656-v23",
-  "native_sha256": "4b00825316771ae7b4e1ca2e808c1cd45220a195581d0e97842f074588072e47"
-}

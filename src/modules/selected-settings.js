@@ -1,0 +1,1 @@
+export const selectedSettings=()=>new URLSearchParams({"court-whole":"v02","garden-design":"moon-star-v08","near-blade":"baseline","room-light":"proposed","canopy":"depth-v01","finish":"material-v01","composition":"pavilion-designed","background-finish":"refined","background-light":"refined","perf":"balanced","grain":"hash","surface":"shoji-v01","space":"r20"});

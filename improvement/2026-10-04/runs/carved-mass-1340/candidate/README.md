@@ -1,7 +1,0 @@
-Local background study candidate. No visible text. Real Three.js geometry/shaders; photographs are used only for static loading/WebGL fallback.
-
-Run `npm run build` then `npm run preview` here; preview is http://127.0.0.1:5210/ . Existing root node_modules and the protected ancient-volume-0810/site/public assets are consumed read-only. This small candidate deliberately avoids duplicating the full project and asset library, so it is not a self-contained export. Do not remove the referenced basis project. No external service is contacted by the website.
-
-Background sources are in ../background. Baseline wood/leaf/pot material, closed hero geometry, foliage LOD and shadow filter are read-only basis imports. Queries finish=baseline and canopy=baseline provide material/geometry controls; room-light=baseline keeps original world light positions. The default selects spatial-v04, material-v01 and room-light=proposed. Native sculpt v02 is paused and unselected.
-
-Default desktop camera frames a 3.95m garden view (distance extends for narrower landscape aspect); 390px yaw -30°, 320px yaw -33°, pitch8°, actual hero-vertex fitting. Pointer movement is limited to6° portrait/8° landscape; there is no continuous animation. Reduced motion disables pointer/wheel zoom. WebGL2 failure and context loss preserve the final real-render still. Premium appearance and natural distant crowns remain unmet; see ../RESULT.md for measured validation and limits.

@@ -1,1 +1,0 @@
-{"pid": 93494, "cwd": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/layer-balance-2055/candidate", "command": "node ../../../../../node_modules/vite/bin/vite.js --config vite.config.mjs --configLoader native", "observed_at_jst": "2026-10-05T21:50:43.305478+09:00", "only_exact_owned_process_stopped": true}

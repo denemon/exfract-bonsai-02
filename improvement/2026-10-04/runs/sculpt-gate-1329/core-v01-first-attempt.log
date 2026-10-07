@@ -1,3 +1,0 @@
-00:00.217  translation      | WARNING Falling back to standard locale ("C")
-/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/sculpt-gate-1329/sculpt/generate.py:13: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
-  m=bpy.data.materials.new(name);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*base,1);p.inputs['Roughness'].default_value=rough

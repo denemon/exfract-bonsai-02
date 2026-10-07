@@ -1,1 +1,0 @@
-/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/garden-reframe-1734/background/geometry-signature.js

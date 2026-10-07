@@ -1,6 +1,0 @@
-{
-  "finding": "New closed broadleaf/moss primitives had clockwise front fan and reversed underside: inward surface normals; this can darken/incorrectly cull their visible surfaces",
-  "repair": "Reverse only triangle winding in own prototypes, recompute normals via existing functions; no geometry scaling, albedo, lights, AO or gloss change",
-  "actual_browser_audit": "Next capture checks closed paired edges, orientation and positive signed primitive volume; visual improvement remains separate",
-  "affected": "Only own background primitives; hero unchanged"
-}

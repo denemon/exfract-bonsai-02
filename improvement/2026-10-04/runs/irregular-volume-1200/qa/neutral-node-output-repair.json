@@ -1,7 +1,0 @@
-{
-  "cause": "New material output did not replace existing active output; use explicit cleared temporary node tree",
-  "geometry_changed": false,
-  "native_changed": false,
-  "failed_preview_images_kept": 3,
-  "fixed_camera_light_exposure": true
-}

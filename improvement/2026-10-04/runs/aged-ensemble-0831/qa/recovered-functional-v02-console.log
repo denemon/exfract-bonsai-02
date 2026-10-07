@@ -1,9 +1,0 @@
-FALLBACK pc
-FALLBACK mobile-390
-FALLBACK mobile-320
-FALLBACK mobile-tall
-FALLBACK wide
-INPUT pc
-INPUT mobile-390
-INPUT mobile-320
-INTEGRATION_DONE functional

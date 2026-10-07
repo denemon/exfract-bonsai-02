@@ -1,6 +1,0 @@
-{
-  "initialFailure": "Python helper parse error: else5214 missing token space",
-  "HTTPVerificationHadRun": false,
-  "correction": "Whitespace corrected before executing unchanged comparison protocol",
-  "visualSourceOrNativeOrGateChanged": false
-}

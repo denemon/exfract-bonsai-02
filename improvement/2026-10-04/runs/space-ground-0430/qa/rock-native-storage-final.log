@@ -1,9 +1,0 @@
-00:00.117  translation      | WARNING Falling back to standard locale ("C")
-00:00.511  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/space-ground-0430/assets/editable/boulder_01.blend"
-00:00.599  blend            | Read blend: "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/space-ground-0430/assets/editable/rock_09.blend"
-Info: Saved as "boulder_01.blend"
-Info: Saved as "rock_09.blend"
-[{"file": "assets/editable/boulder_01.blend", "before_bytes": 4686553, "after_bytes": 1847792}, {"file": "assets/editable/rock_09.blend", "before_bytes": 5002807, "after_bytes": 492723}]
-Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
-
-Blender quit

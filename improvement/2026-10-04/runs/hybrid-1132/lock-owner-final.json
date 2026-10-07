@@ -1,8 +1,0 @@
-{
-  "thread_id": "01a103a2-f1bc-7187-8067-1fa594f8b0c6",
-  "run": "hybrid-1132",
-  "started_at_jst": "2026-10-04T11:37:33+09:00",
-  "heartbeat_at_jst": "2026-10-04T11:59:01+09:00",
-  "authorization_at_jst": "2026-10-04T11:32:00+09:00",
-  "phase": "Three finished scene candidates generated and verified on this Mac; Library tools/list failed with TLS; browser composition comparison underway. 12:00 wake must not duplicate."
-}

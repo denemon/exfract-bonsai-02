@@ -1,6 +1,0 @@
-DYNAMIC static-legacy-both-vs-stable
-DYNAMIC autoUpdate-true-complete-shadow-authority
-DYNAMIC main-key-moved-source-and-shadow-follow
-DYNAMIC excluded-light-moved-invalidates-proof
-DYNAMIC wood-local-transform-invalidates-envelope
-DYNAMIC instance-version-invalidates-envelope

@@ -1,8 +1,0 @@
-{
-  "old_chrome_pid": 51450,
-  "old_pid_absent": true,
-  "live_qa_chrome": [],
-  "empty_guard_preserved_as": "qa/profile-guard-stale-1440",
-  "reason": "Timed-out Chrome guard did not release in2s; old PID and all profile browser processes confirmed absent",
-  "deleted_files": 0
-}

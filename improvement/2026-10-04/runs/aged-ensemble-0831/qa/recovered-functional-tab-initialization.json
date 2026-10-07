@@ -1,7 +1,0 @@
-{
-  "firstHelperFailure": "Expected existing5215tab; newChrome stillaboutblank",
-  "functionalCasesExecuted": 0,
-  "sourceChanged": false,
-  "correction": "Initialize newChrome via real final-candidate capture job first, rerun functional into new ownoutput",
-  "failedConsolePreserved": "qa/recovered-functional-console.log"
-}

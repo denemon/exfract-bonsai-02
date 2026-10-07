@@ -1,7 +1,0 @@
-{
-  "mode": "stills",
-  "results": [],
-  "logs": [],
-  "error": "AssertionError [ERR_ASSERTION]: 3D ready",
-  "stack": "AssertionError [ERR_ASSERTION]: 3D ready\n    at ready (file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/qa/special.mjs:8:170)\n    at async file:///Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/root-flow-0206/qa/special.mjs:17:110"
-}

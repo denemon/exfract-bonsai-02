@@ -1,6 +1,0 @@
-{
-  "phase": "before first visual candidate",
-  "measured_cause": "Posterior face band9 normal(.103,.943,-.315) points downward. Actual ascending first section was behind its neck plane: normal dot(segment) below0. The elbow folds through itself.",
-  "repair": "Place inferred rear origin on ascending posterior core face band7 and give the first ascending segment posterior clearance. Preserve front mass planes and the shared local collar.",
-  "appearance_candidates": 0
-}

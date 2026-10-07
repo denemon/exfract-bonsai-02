@@ -1,2 +1,0 @@
-実測による現レシピ：主役PCF8/背景PCF4、全五shadow castを保持、主役map2048/背景map512。背景のmacro/wood-grain noiseは原式の3D hashを維持、6mm砂利grainの9近傍は256px物理tileへ事前計算。苔色512RGB/height128、石normal256/ARM128を別URLで派生。heroモデル/材質/灯70/色/座標/露光は固定。植栽単位のfrustum boundへ分け、すべての実葉を保持。
-3D texture近似も比較したがretina中央値16.62/16.93ms、p95 23.71/20.20msで優劣の保証はできず、元の空間木目を保つhashを選ぶ。shadow減とmicro mapは事前の同一camera/geometry ablationで負荷要因を特定したが、最終PC timingsは負荷変動で改善未確定。finalbuildで旧R19と現条件を改めて実測し、初期試作の速い値を最終値として報告しない。
