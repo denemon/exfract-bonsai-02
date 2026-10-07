@@ -1,0 +1,257 @@
+{
+  "layoutRoot": "/Users/kazuki.tanaka/dev0/exfract-bonsai-02/improvement/2026-10-04/runs/continuous-fork-0935/builds",
+  "entry": "index.html",
+  "resourceFolders": [
+    "court-static-v01",
+    "shore-static-v02/assets",
+    "user-rake-static-v01"
+  ],
+  "files": [
+    {
+      "relativePath": "court-static-v01/assets/index-B76kLZK3.css",
+      "bytes": 439,
+      "sha256": "6401f91ad7c2e450db315676102fd3bc788e17fce897c9a3afb04adc314ff174",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "text/css"
+    },
+    {
+      "relativePath": "court-static-v01/bark/color.webp",
+      "bytes": 78696,
+      "sha256": "8cb61f4aff82430e751f7af965c1593677ff01478173864a70bdecc0948c2da5",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/bark/height.webp",
+      "bytes": 5414,
+      "sha256": "221b5003710a01dc052dc5fac50822f4204dd23e9112de81ca2e07493ca74704",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/bark/normal.webp",
+      "bytes": 291264,
+      "sha256": "f70ae6fa437e51832f56012b01b1428fd627ff6cd54671e3ff1f9292e64f7369",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/bark/roughness.webp",
+      "bytes": 226,
+      "sha256": "3d04eff164566595f8818fb4555b47499f8cf61bde1c0579a358cd5a6d309723",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/draco/draco_decoder.js",
+      "bytes": 512465,
+      "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "text/javascript"
+    },
+    {
+      "relativePath": "court-static-v01/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "application/wasm"
+    },
+    {
+      "relativePath": "court-static-v01/draco/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "text/javascript"
+    },
+    {
+      "relativePath": "court-static-v01/garden/mineral.webp",
+      "bytes": 194842,
+      "sha256": "f314ea37c11645be0ae3a5dc5681520648c148319800e497136cf14d2906a6e2",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/materials/aged-growth-v01.webp",
+      "bytes": 162548,
+      "sha256": "2c5c509471a4cb167158101b7fd082fe2013ec718b11a95bdd50aaa903733cb3",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/materials/moss-color.webp",
+      "bytes": 126062,
+      "sha256": "f19ddf58fa850818796201f5488b3e70aa8f8aa0c47e1250fc00846132055ffc",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/materials/moss-height.webp",
+      "bytes": 12622,
+      "sha256": "8409c6d29ce10390c71972bd02857827da08862d6d2aca03bcba6766a7889044",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/materials/stone-boulder_01-arm.webp",
+      "bytes": 5452,
+      "sha256": "cb87a8636089380a9d5f4b365ac3d3346ab5ddc4dea08035323df4d6f209a335",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/materials/stone-boulder_01-nor_gl.webp",
+      "bytes": 28312,
+      "sha256": "56c1bde104878a18e8263ed51cdf9f6c865ac649e38615704d08457e72f45312",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/materials/stone-rock_09-arm.webp",
+      "bytes": 3614,
+      "sha256": "21be10eae3e0f17409c2a41ebe4b81bea3cd8202004f2fb866f1cc3b477d8c04",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/materials/stone-rock_09-nor_gl.webp",
+      "bytes": 19746,
+      "sha256": "3b6649eee91a7dcb055c1edcabd01ae899282769514491741f364d0e984a99d5",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/models/foliage-high.glb.gz",
+      "bytes": 491629,
+      "sha256": "d8fe595dfa60595bad9796688476f3ff8d8429c109fa1b1f205a58cc456b2b10",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "application/gzip"
+    },
+    {
+      "relativePath": "court-static-v01/models/hero-moon-native-shared-root-v02.glb.gz",
+      "bytes": 1875729,
+      "sha256": "7e801e35db5fd81739a0250e57058facd44e7860abb0671d91d5e93004a6c8dc",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "application/gzip"
+    },
+    {
+      "relativePath": "court-static-v01/models/moon-native-shared-root-v03-position.f32.gz",
+      "bytes": 245223,
+      "sha256": "68817ebd3aca3aaca9eaf8693d5b751c9f52e48164b2b84515c7236b5ee2bcef",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "application/gzip"
+    },
+    {
+      "relativePath": "court-static-v01/models/wall-base-layered-surface-v01.glb.gz",
+      "bytes": 21967,
+      "sha256": "fa58344a3680a273f3308dee3fed4d7db7c898800dbff417485de45657a8e94b",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "application/gzip"
+    },
+    {
+      "relativePath": "court-static-v01/rocks/boulder_01.glb",
+      "bytes": 139324,
+      "sha256": "152900074271b81042c260bfd6518d77b4ad5eec3777b76c652a59c91052f02c",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "application/octet-stream"
+    },
+    {
+      "relativePath": "court-static-v01/rocks/boulder_01_diff.webp",
+      "bytes": 287816,
+      "sha256": "797aef8d808e23736389f9d50d54720547a6ec76a94285886bfb1021de62950b",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "court-static-v01/rocks/rock_09.glb",
+      "bytes": 65580,
+      "sha256": "c177081f5f6b8c317be25e2ae692753036fb347596c2d37cd943dbb307c9b7b6",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "application/octet-stream"
+    },
+    {
+      "relativePath": "court-static-v01/rocks/rock_09_diff.webp",
+      "bytes": 114742,
+      "sha256": "be9ecefb553ed153ba5318d2a797017432380857c81b3012a512784cfc0348ef",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "index.html",
+      "bytes": 11474,
+      "sha256": "7146006d4b3dbcd463598b5b37085387113b1d8f13c02e307f1539bfd7edefd9",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "text/html"
+    },
+    {
+      "relativePath": "shore-static-v02/assets/shore-ground-v01.bin-DV2kfnDn.gz",
+      "bytes": 963630,
+      "sha256": "bc7cdc1c25abf737ef75af93294e9b94a63098ae48182c6cfa611e5804f18e5e",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "application/gzip"
+    },
+    {
+      "relativePath": "user-rake-static-v01/assets/index-CzldxRJz.js",
+      "bytes": 763043,
+      "sha256": "4f1c4475c21ef189b4364522dffe6d18a9dd3b401e5bad54c531f7f02a7f03f3",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "text/javascript"
+    },
+    {
+      "relativePath": "user-rake-static-v01/index.html",
+      "bytes": 11475,
+      "sha256": "0efb60c4d76baa3172f4fb7299bf1917337c1b4c99d7bfee30c1861ca93405a7",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "text/html"
+    },
+    {
+      "relativePath": "user-rake-static-v01/stills/mobile-320-user-rake-final.webp",
+      "bytes": 18050,
+      "sha256": "144bcc9214676ac74da5f8048a676095ef76e0b5aeda3695110448ede6f25658",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "user-rake-static-v01/stills/mobile-390-user-rake-final.webp",
+      "bytes": 26468,
+      "sha256": "2703eb46ad5c8091d3cb5024439f0698a0eda19b119461b3e415dd81fe7d230e",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "user-rake-static-v01/stills/mobile-tall-user-rake-final.webp",
+      "bytes": 20250,
+      "sha256": "fdf075786c3c6e65baeb4ea253e1ba08d282db7e18eafc2b3df10f4bc4a364d3",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "user-rake-static-v01/stills/pc-user-rake-final.webp",
+      "bytes": 69562,
+      "sha256": "9bc7060596b68284f511b901d04d745a7884436281b9d5f4861023e18d89bf4e",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "relativePath": "user-rake-static-v01/stills/wide-user-rake-final.webp",
+      "bytes": 75024,
+      "sha256": "69baa714211a1e3335a521fd6a49f3d820a57b9f80f00a3f47c1f7be59604a42",
+      "ordinaryHTTPStatus": 200,
+      "contentType": "image/webp"
+    }
+  ],
+  "fileCount": 33,
+  "logicalBytes": 6893564,
+  "preserveRelativeLayout": true,
+  "nestedOptionalEntry": "user-rake-static-v01/index.html",
+  "commonAssetsAndBakedGroundReusedNoCopy": true,
+  "exclude": [
+    "research",
+    "candidate",
+    "product sources",
+    "node_modules",
+    "qa",
+    "old unrelated compiled JS and old stills",
+    "HOLD user-ground-static-v01"
+  ],
+  "subdirectoryRule": "Preserve relative tree under one mount prefix; all URL bindings relative to document base."
+}

@@ -1,58 +1,75 @@
+import {selectedSettings} from './modules/selected-settings.js';
+import {createMoonScene as createScene,loadMoonAssets as loadGardenAssets} from './scene.js';
+import {makeNativeWoodFinish as makeMoonWoodFinishV03} from './modules/m02-moon-wood-material-v03.js';
+import {createRenderPartition} from './modules/m03-render-partition.js';
+import {applyCompactDepth} from './modules/m04-crown-depth.js';
+import {prepareFoliageLOD} from './modules/m05-foliage-lod.js';
+import {configureShadowFilter} from './modules/m06-shadow-filter.js';
+import {makeMaterials,applyHeroMaterials} from './modules/m07-materials.js';
 import * as THREE from 'three';
-import {EffectComposer} from 'three/addons/postprocessing/EffectComposer.js';
-import {RenderPass} from 'three/addons/postprocessing/RenderPass.js';
-import {GTAOPass} from 'three/addons/postprocessing/GTAOPass.js';
-import {OutputPass} from 'three/addons/postprocessing/OutputPass.js';
-import {SMAAPass} from 'three/addons/postprocessing/SMAAPass.js';
-import {createGarden} from './scene.js';
-import {viewFor} from './framing.js';
-
-const canvas=document.querySelector('#scene');
-const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {DRACOLoader} from './modules/draco-loader-selected.js';
+import './modules/m08-style.css';
+const query=selectedSettings(),study='garden',HERO_SCALE=.92,moonCandidate=true,moonFinishV03=true,moonNativeV03=true,rootContactV09=false,compact=true,candidate='bearing-v01',reference=false,wood=null,nativeFinish='normal';
+const canvas=document.querySelector('canvas'),reduced=matchMedia('(prefers-reduced-motion: reduce)');
+const stats={ready:false,frames:0,mode:study,reduced:reduced.matches,firstFrameMs:null,framesMs:[],model:null};
+window.__gardenStatus=stats;
+let renderer,camera,garden,model,foliage,frame=0,lost=false,points=[],baseYaw=0,yaw=0,pitch=13,distance=5,zoom=1,target=new THREE.Vector3(),down,pinch;
+const pointers=new Map();
 const started=performance.now();
-let renderer,composer,garden,camera,frame=0,frames=0,previous=0,lost=false;
-let targetOffset=new THREE.Vector2(),offset=new THREE.Vector2(),view;
-const stats={frames:0,ready:false,reduced:reduced.matches,firstFrameMs:null,frameMs:[],drawCalls:0,triangles:0};
-function fallback(){canvas.style.visibility='hidden';document.documentElement.classList.remove('ready');stats.ready=false;}
-function boundsOnScreen(){
- const result={left:1,right:0,top:1,bottom:0};
- garden.subject.traverse(o=>{if(!o.isMesh)return;const p=o.geometry.attributes.position;const m=new THREE.Matrix4().multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse).multiply(o.matrixWorld).elements;
-  for(let i=0;i<p.count;i++){const x=p.getX(i),y=p.getY(i),z=p.getZ(i),w=m[3]*x+m[7]*y+m[11]*z+m[15],sx=((m[0]*x+m[4]*y+m[8]*z+m[12])/w+1)/2,sy=(1-(m[1]*x+m[5]*y+m[9]*z+m[13])/w)/2;result.left=Math.min(result.left,sx);result.right=Math.max(result.right,sx);result.top=Math.min(result.top,sy);result.bottom=Math.max(result.bottom,sy);}
- });return result;
-}
-function resize(){
- const width=innerWidth,height=innerHeight;view=viewFor(width,height);camera.fov=view.fov;camera.aspect=width/height;camera.position.set(...view.position);camera.lookAt(...view.target);camera.updateProjectionMatrix();
- const dpr=Math.min(devicePixelRatio,view.portrait?1.6:1.5);renderer.setPixelRatio(dpr);renderer.setSize(width,height);composer.setPixelRatio(dpr);composer.setSize(width,height);
- camera.updateMatrixWorld(true);offset.set(0,0);targetOffset.set(0,0);stats.framing=boundsOnScreen();stats.viewport=[width,height];stats.buffer=[canvas.width,canvas.height];stats.camera=view;
- renderer.shadowMap.needsUpdate=true;previous=0;render(performance.now(),true);
-}
-function render(now,forced=false){
- if(lost||document.hidden)return;
- if(!forced&&now-previous<32)return;
- const a=performance.now();
- if(!reduced.matches){
-  offset.lerp(targetOffset,.06);camera.position.set(view.position[0]+offset.x*.025,view.position[1]+offset.y*.012,view.position[2]);camera.lookAt(...view.target);
-  // Each shoot bends less than a millimetre: the canopy does not rotate.
-  const f=garden.foliageGroups[0];f.position.x=Math.sin(now*.0006)*.0012;f.position.z=Math.sin(now*.00048)*.0006;
+let loadDetailedFoliage,originalFitWorld;
+async function loadCompressedGLB(loader,name){if(typeof DecompressionStream!=='function')return loader.loadAsync('models/'+name+'.glb');const response=await fetch('models/'+name+'.glb.gz');if(!response.ok)throw Error('Model fetch failed: '+response.status);let bytes=await response.arrayBuffer();if(new DataView(bytes).getUint32(0,true)!==0x46546c67)bytes=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();return loader.parseAsync(bytes,'models/');}
+async function loadOwnCompactGLB(loader){const response=await fetch('models/hero-moon-native-shared-root-v02.glb.gz');if(!response.ok)throw Error('Model fetch failed: '+response.status);let bytes=await response.arrayBuffer();if(new DataView(bytes).getUint32(0,true)!==0x46546c67){if(typeof DecompressionStream!=='function')throw Error('Gzip model decoding unavailable');bytes=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();}return loader.parseAsync(bytes,'models/');}
+function still(){document.documentElement.classList.remove('ready');stats.ready=false;cancelAnimationFrame(frame);frame=0;}
+function scanPoints(){points=[];if(originalFitWorld&&query.get('frame')!=='shared'){for(let i=0;i<originalFitWorld.length;i+=3){const p=new THREE.Vector3().fromArray(originalFitWorld,i);if(moonCandidate)p.multiplyScalar(HERO_SCALE/.66).add(model.position);points.push(p);}if(moonCandidate)points.push(...garden.fitExtras.map(p=>p.clone()));return;}if(query.get('frame')==='shared'){for(const x of [-1.55,1.30])for(const y of [-.08,2.28])for(const z of [-.72,.68])points.push(new THREE.Vector3(x,y,z).multiplyScalar(HERO_SCALE));return;}garden.subject.updateMatrixWorld(true);garden.subject.traverse(o=>{if(!o.isMesh||!o.visible)return;if(o.isInstancedMesh){o.geometry.computeBoundingBox();const b=o.userData.foliageFitEnvelope||o.userData.foliageEnvelope||o.geometry.boundingBox,m=new THREE.Matrix4(),fit=o.userData.foliageFitInstanceMatrix,count=o.userData.foliageFitCount||o.count;for(let i=0;i<count;i++){if(fit)m.fromArray(fit,i*16);else o.getMatrixAt(i,m);m.premultiply(o.matrixWorld);for(const x of [b.min.x,b.max.x])for(const y of [b.min.y,b.max.y])for(const z of [b.min.z,b.max.z])points.push(new THREE.Vector3(x,y,z).applyMatrix4(m));}}else{const p=(o.userData.framingGeometry||o.geometry).attributes.position;for(let i=0;i<p.count;i+=8)points.push(new THREE.Vector3().fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld));}});}
+function setCamera(fit=true){
+ const a=THREE.MathUtils.degToRad(yaw),b=THREE.MathUtils.degToRad(pitch);const front=new THREE.Vector3(Math.sin(a)*Math.cos(b),Math.sin(b),Math.cos(a)*Math.cos(b));const right=new THREE.Vector3(Math.cos(a),0,-Math.sin(a));const up=new THREE.Vector3().crossVectors(front,right);
+ if(fit){
+  const box=new THREE.Box3().setFromPoints(points);box.getCenter(target);target.y+=innerHeight>innerWidth?.04:.025;
+  const tan=Math.tan(THREE.MathUtils.degToRad(camera.fov/2)),portrait=innerHeight>innerWidth;distance=0;
+  const fillX=portrait?.94:.84,fillY=portrait?.78:.80;
+  const tx=tan*camera.aspect*fillX,ty=tan*fillY;let ax=-Infinity,bx=Infinity,ay=-Infinity,by=Infinity,zmax=-Infinity;
+  const q=new THREE.Vector3();for(const p of points){q.copy(p).sub(target);const z=q.dot(front),x=q.dot(right),y=q.dot(up);ax=Math.max(ax,x+tx*z);bx=Math.min(bx,x-tx*z);ay=Math.max(ay,y+ty*z);by=Math.min(by,y-ty*z);zmax=Math.max(zmax,z);}
+  distance=Math.max((ax-bx)/(2*tx),(ay-by)/(2*ty),zmax+.2);target.addScaledVector(right,(ax+bx)/2+(portrait?0:.095)).addScaledVector(up,(ay+by)/2+(portrait?distance*tan*.015:0));
  }
- renderer.info.reset();composer.render();stats.intervals=stats.intervals||[];if(previous)stats.intervals.push(now-previous);if(stats.intervals.length>120)stats.intervals.shift();previous=now;frames++;stats.frames=frames;stats.drawCalls=renderer.info.render.calls;stats.triangles=renderer.info.render.triangles;
- stats.frameMs.push(performance.now()-a);if(stats.frameMs.length>120)stats.frameMs.shift();
- if(!stats.ready){stats.firstFrameMs=performance.now()-started;stats.ready=true;canvas.style.visibility='visible';document.documentElement.classList.add('ready');}
+ if(fit&&innerWidth>=innerHeight&&study==='garden'&&!query.has('detail')&&!moonCandidate){target.set(0,.78,0);const d=query.get('composition')==='baseline'?3.95:3.65;distance=Math.max(d,d*1.45/(innerWidth/innerHeight));}
+ if(fit&&moonCandidate&&!query.has('detail')){if(innerWidth>=innerHeight){target.set(0,.75,-.35);distance=Math.max(5.8,5.8*1.65/(innerWidth/innerHeight));}else{target.y-=.12;distance*=1.035;}}
+ if(fit&&moonFinishV03&&innerHeight>innerWidth&&!query.has('detail')&&!query.has('yaw')){const small=innerWidth<350;target.set(...(small?[.5230242072558542,.8947303779219561,-.27877296571972054]:[.5037663030101539,.8817407894324879,-.3011010117081974]));const refAspect=small?320/568:390/844,refDistance=small?4.932838:5.9848154;distance=refDistance*Math.max(.82,refAspect/(innerWidth/innerHeight));}
+ const detail=query.get('detail');if(detail==='wood'){target.set(-.03,1.03,.02).multiplyScalar(HERO_SCALE);distance=2.05*HERO_SCALE;}else if(detail==='leaf'){target.set(-.72,1.32,.04).multiplyScalar(HERO_SCALE);distance=1.4*HERO_SCALE;}else if(detail==='pot'){target.set(0,.31,0).multiplyScalar(HERO_SCALE);distance=2.65*HERO_SCALE;}
+ if(!detail)distance*=zoom;
+ camera.position.copy(target).addScaledVector(front,distance);camera.lookAt(target);camera.updateMatrixWorld();
+ const bounds={left:1,right:0,top:1,bottom:0},q=new THREE.Vector3();for(const p of points){q.copy(p).project(camera);const x=(q.x+1)/2,y=(1-q.y)/2;bounds.left=Math.min(bounds.left,x);bounds.right=Math.max(bounds.right,x);bounds.top=Math.min(bounds.top,y);bounds.bottom=Math.max(bounds.bottom,y);}
+ stats.framing=bounds;stats.camera={yaw,pitch,distance,zoom,position:camera.position.toArray(),target:target.toArray()};
 }
-function loop(now){frame=0;render(now);if(!reduced.matches&&!document.hidden&&!lost)frame=requestAnimationFrame(loop);}
-function resume(){if(frame)cancelAnimationFrame(frame);frame=0;stats.reduced=reduced.matches;if(!lost&&!document.hidden){render(performance.now(),true);if(!reduced.matches)frame=requestAnimationFrame(loop);}}
-
+function render(){if(lost||document.hidden)return;const t=performance.now();if(!stats.ready)stats.initialDrawStartedAtMs=t;stats.foliageLOD=foliage.update(camera,innerHeight,distance,query.get("foliage-lod"));if(stats.foliageLOD.changed)renderer.shadowMap.needsUpdate=true;if(stats.foliageLOD.needsHigh)loadDetailedFoliage?.();renderer.info.reset();renderer.render(garden.scene,camera);stats.frames++;stats.framesMs.push(performance.now()-t);if(stats.framesMs.length>120)stats.framesMs.shift();stats.drawCalls=renderer.info.render.calls;stats.triangles=renderer.info.render.triangles;if(!stats.ready){stats.firstFrameMs=performance.now()-started;stats.navigationToFirstFrameMs=performance.now();stats.ready=true;document.documentElement.classList.add('ready');}}
+function requestRender(){if(frame)return;frame=requestAnimationFrame(()=>{frame=0;render();});}
+function resize(){const portrait=innerHeight>innerWidth,ratio=innerWidth/innerHeight;camera.aspect=ratio;camera.fov=portrait?Number(query.get("fov")||54):38;camera.updateProjectionMatrix();baseYaw=Number(query.get('yaw')??(portrait?(ratio<.40?-42:ratio<.52?-27:-23):0));if(portrait&&!query.has('yaw'))baseYaw=query.get('composition')==='baseline'?(innerWidth<350?-33:-30):(query.get('space')==='balanced'?(ratio<.42?-42:ratio<.52?-36:-34):(ratio<.42?-45:ratio<.52?-40:-30));if(!portrait&&!query.has('yaw'))baseYaw=query.get('space')==='balanced'?-7:query.get('space')==='offset'?-18:0;if(moonCandidate&&!query.has('yaw'))baseYaw=portrait?(innerWidth<350?-38:-45):-6;yaw=baseYaw;pitch=Number(query.get('pitch')??(moonCandidate?(portrait?16:15):(portrait?6:10)));zoom=1;setCamera();const pixel=Math.min(devicePixelRatio,1.6);renderer.setPixelRatio(pixel);renderer.setSize(innerWidth,innerHeight,false);renderer.shadowMap.needsUpdate=true;stats.viewport=[innerWidth,innerHeight];render();}
 try{
- const gl=canvas.getContext('webgl2',{alpha:false,antialias:false,powerPreference:'high-performance'});if(!gl)throw new Error('WebGL2 unavailable');
- renderer=new THREE.WebGLRenderer({canvas,context:gl,antialias:false,alpha:false});renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=.90;
- renderer.info.autoReset=false;renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.shadowMap.autoUpdate=false;
- garden=createGarden();camera=new THREE.PerspectiveCamera(42,1,.1,50);
- composer=new EffectComposer(renderer);composer.addPass(new RenderPass(garden.scene,camera));
- const ao=new GTAOPass(garden.scene,camera,innerWidth,innerHeight);ao.blendIntensity=.55;ao.updateGtaoMaterial({radius:.15,distanceExponent:1.8,thickness:.4});composer.addPass(ao);composer.addPass(new OutputPass());composer.addPass(new SMAAPass());
- window.__garden={stats,scene:garden.scene,camera,renderer,composer,bounds:garden.bounds,render:()=>render(performance.now(),true)};
- canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();lost=true;if(frame)cancelAnimationFrame(frame);frame=0;fallback();});
- canvas.addEventListener('webglcontextrestored',()=>{lost=false;renderer.shadowMap.needsUpdate=true;resume();});
- window.addEventListener('resize',resize);reduced.addEventListener('change',resume);document.addEventListener('visibilitychange',resume);
- window.addEventListener('pointermove',e=>{if(!reduced.matches&&e.pointerType==='mouse')targetOffset.set(e.clientX/innerWidth*2-1,e.clientY/innerHeight*2-1);},{passive:true});
- window.addEventListener('pointerleave',()=>targetOffset.set(0,0));resize();resume();
-}catch(error){fallback();stats.error=error.message;console.warn('Garden still displayed:',error.message);}
+ if(query.get("shadow-filter")!=="original")configureShadowFilter();
+ const context=canvas.getContext('webgl2',{alpha:false,antialias:true,powerPreference:'high-performance'});if(!context)throw Error('WebGL2 unavailable');
+ renderer=new THREE.WebGLRenderer({canvas,context,antialias:true});renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=study==='clay'?1.05:1.0;renderer.shadowMap.enabled=true;renderer.shadowMap.type=query.get('shadow-type')==='vsm'?THREE.VSMShadowMap:query.get('shadow-type')==='soft'?THREE.PCFSoftShadowMap:THREE.PCFShadowMap;renderer.shadowMap.autoUpdate=false;
+ const draco=new DRACOLoader().setDecoderPath('draco/').setWorkerLimit(2),loader=new GLTFLoader().setDRACOLoader(draco);
+ const [gltf,mats,loadedAssets,nativeMats]=await Promise.all([loadOwnCompactGLB(loader),makeMaterials(),loadGardenAssets(loader,study),makeMoonWoodFinishV03('normal','living-v01')]);
+ stats.assetsPreparedAtMs=performance.now();
+ model=gltf.scene;if(moonNativeV03){const r=await fetch('models/moon-native-shared-root-'+(rootContactV09?'v04':'v03')+'-position.f32.gz');if(!r.ok)throw Error('Native position fetch '+r.status);let b=await r.arrayBuffer();if(new Uint8Array(b)[0]===31)b=await new Response(new Blob([b]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();let w;model.traverse(o=>{if(o.isMesh&&/Continuous[_ ]aged/.test(o.name))w=o});const a=new Float32Array(b);if(a.length!==w.geometry.attributes.position.array.length)throw Error('Native position count differs');w.geometry.attributes.position.array.set(a);w.geometry.attributes.position.needsUpdate=true;const oldNormals=w.geometry.attributes.normal.array.slice();w.geometry.computeVertexNormals();const ns=w.geometry.attributes.normal.array;for(let i=0;i<a.length;i+=3)if(a[i+1]>.74)ns.set(oldNormals.subarray(i,i+3),i);w.geometry.attributes.normal.needsUpdate=true;w.geometry.computeBoundingBox();w.geometry.computeBoundingSphere();w.userData.authoring_version='moon-native-shared-root-'+(rootContactV09?'v04':'v03');stats.nativeRootPositionReplacement={lossless:true,secondRequest:true,upperCoordinatesExact:true};}foliage=prepareFoliageLOD(gltf);foliage.setOptimization(query.get('cpu-cache')!=='0');
+ if(compact&&candidate==='bearing-v01'){const depth=await applyCompactDepth(gltf);originalFitWorld=depth.fitWorld;stats.crownDepth=depth.status;foliage.refreshInstances();}
+ let detailedRequest;loadDetailedFoliage=()=>{if(detailedRequest)return;stats.detailLoading=true;detailedRequest=loadCompressedGLB(loader,'foliage-high').then(detail=>{foliage.installHigh(detail);stats.detailLoading=false;stats.detailReady=true;requestRender();}).catch(error=>{stats.detailLoading=false;stats.detailError=error.message;});};
+ window.addEventListener('pagehide',()=>draco.dispose(),{once:true});
+ stats.leafFinish={name:'original',closedGeometryUnchanged:true,roughness:.78,backScatter:0};
+ model.scale.setScalar(HERO_SCALE);applyHeroMaterials(model,mats,study==='clay');stats.worldScale=HERO_SCALE;stats.loading={parallelAssets:true,singleCombinedHero:true,originalTwigDecoded:false,originalFitWorldHullVertices:136,exactCurrentMatrixCoefficients:true,nativeMaterialFetchParallel:true,sharedDraco:true,woodReplacement:Boolean(wood)||compact,compactNativeModel:compact,noDiscardedOldWoodDecode:compact,decoderWorkerLimit:2,exactGeometrySplit:!reference,losslessModelGzip:!reference&&typeof DecompressionStream==='function'};
+ if(stats.nativeRootVolume){stats.loading.noDiscardedOldWoodDecode=false;stats.loading.lowerPatchOnly=true;stats.loading.originalCombinedOldLowerStillLoadedThenReallocated=true;}
+ // Shared native mother/root surface; comparison scenes remain explicit query options.
+ if(nativeFinish!=='gray'&&!['bearing-v01','living-v01','aged-v01','aged-v02','grown-v01','grown-v02','root-v02'].includes(candidate))throw Error('Material trial requires frozen root-v01');model.traverse(o=>{if(!o.isMesh)return;if(/Continuous[_ ]aged/.test(o.name))o.material=nativeMats.wood;if(/Terminal[_ ]twig/.test(o.name))o.material=nativeMats.twig;});stats.nativeWoodFinish=nativeFinish;stats.nativeWoodSurface=query.get('wood-surface')||'living-v01';
+ garden=await createScene(model,study,loadedAssets);stats.pottery={version:'moon-garden-v01',vesselAndDisplayBedRemoved:true};stats.studyLighting={mode:'night'};const renderPartition=createRenderPartition(renderer,garden.scene,garden.subject,model,'stable');renderPartition.setOptimization(true);stats.renderPartition=renderPartition.stats;stats.cpuCache=true;stats.garden=garden.metadata;stats.gardenFinish='moon-court-whole-v02';stats.layout=garden.layout;camera=new THREE.PerspectiveCamera(38,1,.04,60);scanPoints();renderer.info.autoReset=false;
+ stats.model={meshes:0,vertices:0,instances:0,hasWoodMasks:false};model.traverse(o=>{if(o.isMesh){stats.model.meshes++;stats.model.vertices+=o.geometry.attributes.position.count;if(o.isInstancedMesh)stats.model.instances+=o.count;if(/Continuous[_ ]aged/.test(o.name)){stats.model.authoringVersion=o.userData.authoring_version;stats.model.hasWoodMasks=Boolean(o.geometry.attributes.color);stats.model.woodAttributes=Object.keys(o.geometry.attributes);stats.model.woodUVRange=[Infinity,Infinity,-Infinity,-Infinity];const uv=o.geometry.attributes.uv;if(uv)for(let n=0;n<uv.count;n+=100){const r=stats.model.woodUVRange;r[0]=Math.min(r[0],uv.getX(n));r[1]=Math.min(r[1],uv.getY(n));r[2]=Math.max(r[2],uv.getX(n));r[3]=Math.max(r[3],uv.getY(n));}stats.model.woodMaterial=o.material.customProgramCacheKey();}}});
+ window.__garden={stats,foliage,renderPartition,scene:garden.scene,subject:garden.subject,camera,renderer,render,model,setView:(azimuth,elevation=13)=>{yaw=azimuth;pitch=elevation;setCamera();render();},setKey:(p)=>{garden.key.position.set(...p);renderer.shadowMap.needsUpdate=true;render();}};
+ window.addEventListener('resize',resize);reduced.addEventListener('change',()=>{stats.reduced=reduced.matches;render();});document.addEventListener('visibilitychange',()=>{if(!document.hidden)render();});
+ canvas.addEventListener('pointerdown',e=>{if(reduced.matches)return;pointers.set(e.pointerId,new THREE.Vector2(e.clientX,e.clientY));down={x:e.clientX,y:e.clientY,yaw,pitch};if(pointers.size===2){const [a,b]=[...pointers.values()];pinch={distance:a.distanceTo(b),zoom};}canvas.setPointerCapture(e.pointerId);});
+ canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId)||reduced.matches)return;pointers.set(e.pointerId,new THREE.Vector2(e.clientX,e.clientY));if(pointers.size===2&&pinch){const [a,b]=[...pointers.values()];zoom=THREE.MathUtils.clamp(pinch.zoom*pinch.distance/Math.max(a.distanceTo(b),10),.60,1);setCamera();requestRender();return;}if(!down)return;const portrait=innerHeight>innerWidth,limit=portrait?2.5:2.5;yaw=THREE.MathUtils.clamp(down.yaw+(e.clientX-down.x)*.045,baseYaw-limit,baseYaw+limit);pitch=THREE.MathUtils.clamp(down.pitch+(e.clientY-down.y)*.035,moonCandidate?14:portrait?6:8,moonCandidate?18:portrait?10:12);setCamera();requestRender();});
+ const release=e=>{pointers.delete(e.pointerId);pinch=undefined;const next=pointers.values().next().value;down=next?{x:next.x,y:next.y,yaw,pitch}:undefined;};
+ canvas.addEventListener('pointerup',release);canvas.addEventListener('pointercancel',release);
+ canvas.addEventListener('wheel',e=>{if(reduced.matches)return;e.preventDefault();zoom=THREE.MathUtils.clamp(zoom*Math.exp(e.deltaY*.0012),.60,1);setCamera();requestRender();},{passive:false});
+ canvas.addEventListener('dblclick',()=>{if(!reduced.matches)resize();});
+ canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();lost=true;still();});canvas.addEventListener('webglcontextrestored',()=>{lost=false;renderer.shadowMap.needsUpdate=true;render();});
+ stats.scenePreparedAtMs=performance.now();resize();
+}catch(error){stats.error=error?.message||error?.type||String(error);still();console.warn('Static garden retained:',error.message);}
